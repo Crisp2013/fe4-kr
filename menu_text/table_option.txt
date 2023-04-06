@@ -1,7 +1,7 @@
 //GAME NAME:		Fire Emblem: Genealogy of the Holy War
 
 #VAR(menu, TABLE)
-#ADDTBL("menu_text/menutext.tbl", menu)
+#ADDTBL("menu_text/optiontext.tbl", menu)
 #ACTIVETBL(menu)
 
 //BLOCK #002 NAME:		Options Menu
@@ -62,6 +62,6 @@
 //POINTER #8 @ $E835 - STRING #8 @ 
 
 #WRITE(OptionsMenu, $E835)
-//てきのあたまのよさ<X>
-적의　머리의　좋음<X>
+//てきのあたまのよさ[X]
+적　지능의　좋음[X]
 

@@ -1,7 +1,7 @@
 //GAME NAME:		Fire Emblem: Genealogy of the Holy War
 
 #VAR(menu, TABLE)
-#ADDTBL("menu_text/menutext.tbl", menu)
+#ADDTBL("menu_text/optiontext.tbl", menu)
 #ACTIVETBL(menu)
 
 //BLOCK #015 NAME:		Top of Option Choice Panel
@@ -48,7 +48,7 @@
 
 #WRITE(OptionsMenu, $9F58B)
 // オフ　　ファイル　[X]
-오프　　　파일　　[X]
+오프　　　　파일　[X]
 
 //POINTER #8 @ $9F591 - STRING #8 @ $9F60C
 

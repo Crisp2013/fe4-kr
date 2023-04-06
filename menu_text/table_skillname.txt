@@ -7,7 +7,7 @@
 //BLOCK #001 NAME: 	Skill Menu Names
 
 #VAR(SkillMenu, CUSTOMPOINTER)
-#CREATEPTR(SkillMenu, "HIROM", $400000, 24)
+#CREATEPTR(SkillMenu, "HIROM", $400000, 16)
 //#CREATEPTR(SkillMenu, "LINEAR", $0, 16)
 
 #JMP($D662, $D817)

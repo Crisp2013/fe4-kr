@@ -289,3 +289,46 @@ unknown_879E3C:
   STZ $14
   STZ $16
   BRA unknown_879E38
+  
+  
+;option menu font hack
+org $829500
+option_menu_font:
+  incbin "menu_font/optionfont_hack.2bpp"
+option_menu_font_end:
+
+org $80E6D3 
+  JSL option_menu_hack
+
+org !Original_menu_font_table ;879471
+option_menu_hack:
+  JSL $878979
+  PHA
+  PHX
+  PHY
+  SEP #$20
+  LDA.B #option_menu_font
+  STA $4312    ;data adress low
+  LDA.B #option_menu_font>>8
+  STA $4313    ;data adress high
+  LDA.B #option_menu_font>>16
+  STA $4314    ;data adress bank
+  LDA.B #(option_menu_font_end-option_menu_font)
+  STA $4315    ;size
+  LDA.B #(option_menu_font_end-option_menu_font)>>8
+  STA $4316    ;size
+  LDA #$00
+  STA $2116    ;VRAM L
+  LDA #$00
+  STA $2117    ;VRAM H
+  LDA #$01
+  STA $4310
+  LDA #$18
+  STA $4311
+  LDA #$02
+  STA $420B
+  REP #$20
+  PLY
+  PLX
+  PLA
+  RTL 

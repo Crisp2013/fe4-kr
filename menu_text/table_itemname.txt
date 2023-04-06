@@ -1,7 +1,7 @@
 //GAME NAME:		Fire Emblem: Genealogy of the Holy War
 
 #VAR(menu, TABLE)
-#ADDTBL("menutext.tbl", menu)
+#ADDTBL("menu_text/menutext.tbl", menu)
 #ACTIVETBL(menu)
 
 //BLOCK #007 NAME:		Item Names

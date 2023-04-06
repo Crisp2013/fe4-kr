@@ -1,0 +1,17 @@
+## excution files
+*.exe
+
+## rom files
+*.smc
+*.sfc
+
+## backup file generated
+*.bak
+*.ips
+
+## compressed files
+*.fe4
+
+## some temporary files
+새 폴더
+dump/*

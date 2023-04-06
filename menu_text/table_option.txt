@@ -1,0 +1,67 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menutext.tbl", menu)
+#ACTIVETBL(menu)
+
+//BLOCK #002 NAME:		Options Menu
+
+#VAR(OptionsMenu, CUSTOMPOINTER)
+#CREATEPTR(OptionsMenu, "HIROM", $400000, 16)
+
+#JMP($E84E, $E8EF)
+
+//POINTER #0 @ $E7A7 - STRING #0 @ $E84E
+
+#WRITE(OptionsMenu, $E7A7)
+// アニメせってい[X]
+에니메이션　설정[X]
+
+//POINTER #1 @ $E7B8 - STRING #1 @ $E85E
+
+#WRITE(OptionsMenu, $E7B8)
+// ちけいウィンドウ[X]
+지형　윈도우[X]
+
+//POINTER #2 @ $E7C9 - STRING #2 @ $E870
+
+#WRITE(OptionsMenu, $E7C9)
+// ユニットウィンドウ[X]
+유닛　윈도우[X]
+
+//POINTER #3 @ $E7DA - STRING #3 @ $E884
+
+#WRITE(OptionsMenu, $E7DA)
+// メッセージスピード[X]
+메세지　스피드[X]
+
+//POINTER #4 @ $E7EB - STRING #4 @ $E898
+
+#WRITE(OptionsMenu, $E7EB)
+// てきいどうスピード[X]
+적　이동　스피드[X]
+
+//POINTER #5 @ $E7FC - STRING #5 @ $E8AC
+
+#WRITE(OptionsMenu, $E7FC)
+// サウンドせってい[X]
+사운드　설정[X]
+
+//POINTER #6 @ $E80D - STRING #6 @ $E8BE
+
+#WRITE(OptionsMenu, $E80D)
+// オートセーブ[X]
+오토　세이브[X]
+
+//POINTER #7 @ $E81E - STRING #7 @ $E8CC
+
+#WRITE(OptionsMenu, $E81E)
+// オートカーソル[X]
+오토　커서[X]
+
+//POINTER #8 @ $E835 - STRING #8 @ 
+
+#WRITE(OptionsMenu, $E835)
+//てきのあたまのよさ<X>
+적의　머리의　좋음<X>
+

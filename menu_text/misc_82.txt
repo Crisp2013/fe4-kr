@@ -1,0 +1,16 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menutext.tbl", menu)
+#ACTIVETBL(menu)
+#VAR(Ptr, CUSTOMPOINTER)
+#CREATEPTR(Ptr, "HIROM", $400000, 24)
+
+//armptr structure
+//text located [bank]:[addr]
+//A900[bank]85XX
+//A9[addr]85XX
+//So if you want to send text to another bank
+//You also need to change [bank]
+
+#HDR($0)

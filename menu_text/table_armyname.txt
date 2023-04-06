@@ -1,0 +1,296 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menutext.tbl", menu)
+#ACTIVETBL(menu)
+
+//BLOCK #006 NAME:		Army Names
+#VAR(Army, CUSTOMPOINTER)
+#CREATEPTR(Army, "LINEAR", $3D8E8, 16)
+
+#JMP($3D956, $3DC11)
+
+//POINTER #0 @ $3D8E8 - STRING #0 @ $3D956
+
+#WRITE(Army, $3D8E8)
+//マディノ軍[X]
+마디노군[X]
+
+//POINTER #1 @ $3D8EA - STRING #1 @ $3D962
+
+#WRITE(Army, $3D8EA)
+//シルベール軍[X]
+실베일군[X]
+
+//POINTER #2 @ $3D8EC - STRING #2 @ $3D970
+
+#WRITE(Army, $3D8EC)
+//アンフォニー軍[X]
+안포니군[X]
+
+//POINTER #3 @ $3D8EE - STRING #3 @ $3D980
+
+#WRITE(Army, $3D8EE)
+//アグスティ軍[X]
+어거스티군[X]
+
+//POINTER #4 @ $3D8F0 - STRING #4 @ $3D98E
+
+#WRITE(Army, $3D8F0)
+//ハイライン軍[X]
+하이라인군[X]
+
+//POINTER #5 @ $3D8F2 - STRING #5 @ $3D99C
+
+#WRITE(Army, $3D8F2)
+//マッキリー軍[X]
+맥키리군[X]
+
+//POINTER #6 @ $3D8F4 - STRING #6 @ $3D9AA
+
+#WRITE(Army, $3D8F4)
+ノディオン軍[X]
+
+//POINTER #7 @ $3D8F6 - STRING #7 @ $3D9B8
+//POINTER #46 @ $3D944 - STRING #46 @ $3DBA4
+
+#WRITE(Army, $3D944)
+#WRITE(Army, $3D8F6)
+//ヴェルトマー軍[X]
+벨트마군[X]
+
+//POINTER #8 @ $3D8F8 - STRING #8 @ $3D9C8
+//POINTER #47 @ $3D946 - STRING #47 @ $3DBB4
+
+#WRITE(Army, $3D946)
+#WRITE(Army, $3D8F8)
+//フリージ軍[X]
+프리지군[X]
+
+//POINTER #9 @ $3D8FA - STRING #9 @ $3D9D4
+//POINTER #48 @ $3D948 - STRING #48 @ $3DBC0
+
+#WRITE(Army, $3D948)
+#WRITE(Army, $3D8FA)
+//バーハラ軍[X]
+발할라군[X]
+
+//POINTER #10 @ $3D8FC - STRING #10 @ $3D9E0
+//POINTER #49 @ $3D94A - STRING #49 @ $3DBCC
+
+#WRITE(Army, $3D94A)
+#WRITE(Army, $3D8FC)
+//ドズル軍[X]
+도즐군[X]
+
+//POINTER #11 @ $3D8FE - STRING #11 @ $3D9EA
+//POINTER #50 @ $3D94C - STRING #50 @ $3DBD6
+
+#WRITE(Army, $3D94C)
+#WRITE(Army, $3D8FE)
+//エッダ軍[X]
+에다군[X]
+
+//POINTER #12 @ $3D900 - STRING #12 @ $3D9F4
+//POINTER #51 @ $3D94E - STRING #51 @ $3DBE0
+
+#WRITE(Army, $3D94E)
+#WRITE(Army, $3D900)
+シアルフィ軍[X]
+
+//POINTER #13 @ $3D902 - STRING #13 @ $3DA02
+//POINTER #52 @ $3D950 - STRING #52 @ $3DBEE
+
+#WRITE(Army, $3D950)
+#WRITE(Army, $3D902)
+ユングヴィ軍[X]
+
+//POINTER #14 @ $3D904 - STRING #14 @ $3DA10
+
+#WRITE(Army, $3D904)
+//レンスター軍[X]
+렌스터군[X]
+
+//POINTER #15 @ $3D906 - STRING #15 @ $3DA1E
+
+#WRITE(Army, $3D906)
+//コノート軍[X]
+코노트군[X]
+
+//POINTER #16 @ $3D908 - STRING #16 @ $3DA2A
+
+#WRITE(Army, $3D908)
+マンスター軍[X]
+
+//POINTER #17 @ $3D90A - STRING #17 @ $3DA38
+
+#WRITE(Army, $3D90A)
+//メルゲン軍[X]
+멜겐군[X]
+
+//POINTER #18 @ $3D90C - STRING #18 @ $3DA44
+
+#WRITE(Army, $3D90C)
+//アルスター軍[X]
+얼스터군[X]
+
+//POINTER #19 @ $3D90E - STRING #19 @ $3DA52
+
+#WRITE(Army, $3D90E)
+オーガヒル軍[X]
+
+//POINTER #20 @ $3D910 - STRING #20 @ $3DA60
+
+#WRITE(Army, $3D910)
+トーヴェ軍[X]
+//토베군[X]
+
+//POINTER #21 @ $3D912 - STRING #21 @ $3DA6C
+
+#WRITE(Army, $3D912)
+セイレーン軍[X]
+
+//POINTER #22 @ $3D914 - STRING #22 @ $3DA7A
+
+#WRITE(Army, $3D914)
+//ザクソン軍[X]
+잭슨군[X]
+
+//POINTER #23 @ $3D916 - STRING #23 @ $3DA86
+
+#WRITE(Army, $3D916)
+//シレジア軍[X]
+실레지아군[X]
+
+//POINTER #24 @ $3D918 - STRING #24 @ $3DA92
+
+#WRITE(Army, $3D918)
+//リューベック軍[X]
+뤼벡군[X]
+
+//POINTER #25 @ $3D91A - STRING #25 @ $3DAA2
+
+#WRITE(Army, $3D91A)
+ティルナノグ軍[X]
+
+//POINTER #26 @ $3D91C - STRING #26 @ $3DAB2
+
+#WRITE(Army, $3D91C)
+//ガネーシャ軍[X]
+가네샤군[X]
+
+//POINTER #27 @ $3D91E - STRING #27 @ $3DAC0
+
+#WRITE(Army, $3D91E)
+//ソファラ軍[X]
+소파라군[X]
+
+//POINTER #28 @ $3D920 - STRING #28 @ $3DACC
+
+#WRITE(Army, $3D920)
+//イザーク軍[X]
+이자크군[X]
+
+//POINTER #29 @ $3D922 - STRING #29 @ $3DAD8
+
+#WRITE(Army, $3D922)
+//リボー軍[X]
+리보군[X]
+
+//POINTER #30 @ $3D924 - STRING #30 @ $3DAE2
+
+#WRITE(Army, $3D924)
+フィノーラ軍[X]
+
+//POINTER #31 @ $3D926 - STRING #31 @ $3DAF0
+
+#WRITE(Army, $3D926)
+//イード軍[X]
+이드군[X]
+
+//POINTER #32 @ $3D928 - STRING #32 @ $3DAFA
+
+#WRITE(Army, $3D928)
+//ダーナ軍[X]
+타나군[X]
+
+//POINTER #33 @ $3D92A - STRING #33 @ $3DB04
+
+#WRITE(Army, $3D92A)
+//ヴェルダン軍[X]
+베르던군[X]
+
+//POINTER #34 @ $3D92C - STRING #34 @ $3DB12
+
+#WRITE(Army, $3D92C)
+エバンス軍[X]
+
+//POINTER #35 @ $3D92E - STRING #35 @ $3DB1E
+
+#WRITE(Army, $3D92E)
+ジェノア軍[X]
+
+//POINTER #36 @ $3D930 - STRING #36 @ $3DB2A
+
+#WRITE(Army, $3D930)
+マーファ軍[X]
+
+//POINTER #37 @ $3D932 - STRING #37 @ $3DB36
+
+#WRITE(Army, $3D932)
+ミレトス軍[X]
+
+//POINTER #38 @ $3D934 - STRING #38 @ $3DB42
+
+#WRITE(Army, $3D934)
+ペルルーク軍[X]
+
+//POINTER #39 @ $3D936 - STRING #39 @ $3DB50
+
+#WRITE(Army, $3D936)
+クロノス軍[X]
+
+//POINTER #40 @ $3D938 - STRING #40 @ $3DB5C
+
+#WRITE(Army, $3D938)
+ラドス軍[X]
+
+//POINTER #41 @ $3D93A - STRING #41 @ $3DB66
+
+#WRITE(Army, $3D93A)
+ミーズ軍[X]
+
+//POINTER #42 @ $3D93C - STRING #42 @ $3DB70
+
+#WRITE(Army, $3D93C)
+//カパトギア軍[X]
+카파토기아군[X]
+
+//POINTER #43 @ $3D93E - STRING #43 @ $3DB7E
+
+#WRITE(Army, $3D93E)
+ルテキア軍[X]
+
+//POINTER #44 @ $3D940 - STRING #44 @ $3DB8A
+
+#WRITE(Army, $3D940)
+//トラキア軍[X]
+트라키아군[X]
+
+//POINTER #45 @ $3D942 - STRING #45 @ $3DB96
+
+#WRITE(Army, $3D942)
+//グルティア軍[X]
+그루티아군[X]
+
+//POINTER #53 @ $3D952 - STRING #53 @ $3DBFC
+
+#WRITE(Army, $3D952)
+//シグルド軍[X]
+시구르드군[X]
+
+//POINTER #54 @ $3D954 - STRING #54 @ $3DC08
+
+#WRITE(Army, $3D954)
+//セリス軍[X]
+세리스군[X]

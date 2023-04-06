@@ -1,0 +1,203 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menutext.tbl", menu)
+#ACTIVETBL(menu)
+#VAR(Ptr, CUSTOMPOINTER)
+#CREATEPTR(Ptr, "HIROM", $400000, 24)
+
+//armptr structure
+//text located [bank]:[addr]
+//A900[bank]85XX
+//A9[addr]85XX
+//So if you want to send text to another bank
+//You also need to change [bank]
+
+#HDR($0)
+//General overworld popups
+//fe4transsrc:receive.txt
+//[asmptr]
+
+#JMP($5B9BC, $5B9D3)
+#W16($5B99E)
+　ゴールドてにいれた！<X>
+
+
+//Castle defeated
+#JMP($5BAB3, $5BAC6)
+#W16($5BA9D)
+　をせいあつした！<X>
+
+//Item Received
+#JMP($5BC8C, $5BC9D)
+#W16($5BC3D)
+　をてにいれた！<X>
+
+//Combat forecast
+#JMP($58EA1, $58EC4)
+
+#W16($58DDB)
+ＬＶ<X>
+
+#W16($58DF4)
+#W16($58E07)//need to check
+ＨＰ<X>
+
+//攻撃
+#W16($58E1E)
+<$44><$45><$46><$00>
+#W16($58E2F)
+<$54><$55><$56><$00>
+
+//守備
+#W16($58E40)
+<$47><$48><$49><$00>
+#W16($58E51)
+<$57><$58><$59><$00>
+
+//命中
+#W16($58E62)
+<$4A><$4B><$4C><$00>
+#W16($58E73)
+<$5A><$5B><$5C><$00>
+
+#JMP($59953, $59972)
+//攻撃
+#W16($598F1)
+<$44><$45><$46><$00>
+#W16($59902)
+<$54><$55><$56><$00>
+
+//命中
+#W16($59913)
+<$4A><$4B><$4C><$00>
+#W16($59924)
+<$5A><$5B><$5C><$00>
+//Typ<X>//why
+
+//回避
+#W16($59935)
+<$4D><$4E><$4F><$00>
+#W16($59946)
+<$5D><$5E><$5F><$00>
+
+//属性
+#W16($598CF)
+<$40><$41><$42><$00>
+#W16($598E0)
+<$50><$51><$52><$00>
+
+//Save prompt
+//fe4transsrc:save.txt
+//[asmptr]
+#JMP($5A4E6, $5A507)
+
+//Save Game (End of Chapter)
+#W16($5A4A8)
+セーブ　しますか？<X>
+
+#W16($5A4B9)
+はい<X>
+
+#W16($5A4CA)
+いいえ<X>
+
+
+//Unit animation settings
+//fe4transsrc:battlopt
+//[asmptr]
+#JMP($5A670, $5A699)
+
+#W16($5A62C)
+// アニメせってい<X>
+에니메이션설정<X>
+
+#W16($5A63D)
+// リアル<X>
+리얼<X>
+
+#W16($5A64E)
+// マップ<X>
+맵<X>
+
+#W16($5A65F)
+// ぜんいん<X>
+전원<X>
+
+//Within "All"...
+//fe4transsrc:battlopt2
+
+#JMP($5A7CE, $5A7DD)
+
+#W16($5A7A6)
+// リアル<X>
+리얼<X>
+
+#W16($5A7B7)
+// マップ<X>
+맵<X>
+
+
+//Inventory full!
+//fetranssrc:toomanyitem
+//[asmptr]
+#JMP($5B6A0, $5B6DF)
+//Store desc 1
+#W16($5B66D)
+もちものが　いっぱいです<X>
+//Store desc 2
+#W16($5B67E)
+あずけるアイテムをえらん<X>
+//Store desc 3
+#W16($5B68F)
+でください<X>
+
+#JMP($5B5B2, $5B5DD)
+//Store item?
+#W16($5B57F)
+このアイテムをあずけますか？<X>
+
+#W16($5B590)
+はい<X>
+
+#W16($5B5A1)
+いいえ<X>
+
+
+//Such and such a phase
+
+#JMP($5AD47, $5AD54)
+#W16($5AD32)
+　ＰＨＡＳＥ<X>
+ 
+ 
+//Staff menu options in castle
+//fe4transsrc:staff
+#JMP($5E9A1, $5E9C6)
+
+#W16($5EA40)
+<$6B><$E9><$85><$01><$01>
+　じょうない<X>
+
+#W16($5EA3E)
+<$86><$E9><$85><$01><$01>
+　じょうがい<X>
+
+//This file is for altering the tiles used for the on-map status titles.
+//fe4transsrc:statusmap
+
+//all 4byte
+//Silence
+#JMP($5C988)
+サイレス
+//<$EC><$EF><$F0><$F1>
+
+//Sleep
+#JMP($5C98D)
+//スリープ
+//<$F1><$F2><$ED><$F3>
+
+//Berserk
+#JMP($5C992)
+//バサーク
+//<$EB><$EC><$ED><$EE>

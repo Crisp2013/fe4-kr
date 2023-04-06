@@ -18,6 +18,7 @@ org $C0197B;size:63Fh
 incbin "menu_font/statusfont.bin.fe4"
 
 org $C03C10
+;we will write them at armips
 menu_font_table_index:
 dw $0000
 dw $0000
@@ -44,8 +45,9 @@ dw $0000
 org $C03C60
 menu_font_table:
 
+;normal text print routine
 org $879354
-   PHB 
+  PHB 
   PHP 
   PHK 
   PLB 
@@ -100,7 +102,7 @@ unknown_8793AE:
   BEQ unknown_8793C3
   AND #$00FF
   CMP #$0084
-  ; BCS unknown_87941D
+  ; BCS unknown_87941D; we don't use second type table
   BRA unknown_8793D1
 unknown_8793BD:
   INX 
@@ -165,7 +167,7 @@ unknown_8793D1:;normal text
   BRA unknown_8793BD
   
 org $87941D
-unknown_87941D: ;big text
+unknown_87941D: ;routine for second type table, we not use
   PHX 
   LDA $0000,X
   LDX #$0000
@@ -213,10 +215,9 @@ _none:
   JMP unknown_8793BD
   
   
-  
+;battle text print routine  
 org $879DD1
-;battle text
-    PHB 
+  PHB 
   PHP 
   PHK 
   PLB 
@@ -260,7 +261,7 @@ org $879DD1
   PLB 
   RTL 
 org $879E19
-unknown_879E19:  
+unknown_879E19:  ;routine for second type table, we not use
   LDX #$0000
 unknown_879E1C: 
   CMP !text_table_position2,X

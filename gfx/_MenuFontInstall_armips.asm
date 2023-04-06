@@ -13,7 +13,7 @@ dh menu_font_table_85-menu_font_table_81;85
 dh menu_font_table_86-menu_font_table_81;86
 dh menu_font_table_87-menu_font_table_81;87
 dh menu_font_table_88-menu_font_table_81;88
-dh menu_font_table_89-menu_font_table_81
+dh menu_font_table_89-menu_font_table_81;we use
 dh menu_font_table_8A-menu_font_table_81;8A
 dh menu_font_table_8B-menu_font_table_81;8B
 dh menu_font_table_8C-menu_font_table_81

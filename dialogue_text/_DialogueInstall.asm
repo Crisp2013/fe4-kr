@@ -71,6 +71,8 @@ ClearPortrait	 equ 0x4000
 translation_org 0xd9c88
 .area 0xd9cb8-.
 .include "dialogue_text/Chapternumber.asm"
+.endarea
 translation_org 0xd9cb8
 .area 0xd9ed5-.
 .include "dialogue_text/Chronology.asm"
+.endarea

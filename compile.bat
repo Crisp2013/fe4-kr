@@ -1,12 +1,10 @@
 copy base_rom\fe4.sfc fe4_trans.sfc
-REM xkas fe4_kor.asm fe4_trans.sfc 
-REM xkas -o fe4_trans.sfc fe4_kor.asm
 asar gfx/_MenuFontInstall.asm fe4_trans.sfc 
-armips gfx/_MenuFontInstall_armips.asm -sym a.sym
+armips gfx/_MenuFontInstall_armips.asm
 asar gfx/_GfxInstall.asm fe4_trans.sfc 
 pause
 
-armips dialogue_text/_DialogueInstall.asm -sym a.sym
+armips dialogue_text/_DialogueInstall.asm
 
 pause
 

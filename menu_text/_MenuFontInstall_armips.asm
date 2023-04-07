@@ -1,6 +1,6 @@
 .gba
 .open "fe4_trans.sfc", 0xC00000;header hack
-.loadtable "gfx/menu_font/menu_font_table.tbl"
+.loadtable "menu_text/menu_font/menu_font_table.tbl"
 
 
 .org 0xC03C10

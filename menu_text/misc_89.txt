@@ -86,16 +86,6 @@
 //9:89A7
 // ーー<X>
 
-
-#JMP($98822)//Char Status Wep Accuracy
-<$05>
-#JMP($98833)//Char Status Wep Might
-<$05>
-#JMP($98844)//Char Status Wep Range
-<$05>
-#JMP($98A55)//Char Status Wep Weight
-<$05>
-
 #JMP($99C52, $99C7B)
 //Stat screen, top right corner
 
@@ -115,14 +105,6 @@
 //かいひち<X>
 회피<X>
 
-#JMP($99C0A)//Char Status Chr Attack
-<$15>
-#JMP($99C1B)//Char Status Chr Accuracy
-<$15>
-#JMP($99C2C)//Char Status Chr Range
-<$15>
-#JMP($99C3D)//Char Status Chr Evade
-<$15>
 
 #JMP($99D26, $99D71)
 //Stat screen, stat labels
@@ -154,21 +136,6 @@
 #W16($99D1A)
 //まほうぼうぎょ<X>
 마법　방어<X>
-
-#JMP($99CB9)//Char Status Stat Power 
-<$07>
-#JMP($99CCA)//Char Status Stat Magic
-<$06>
-#JMP($99CDB)//Char Status Stat Skill
-<$06>
-#JMP($99CEC)//Char Status Stat Speed
-<$05>
-#JMP($99CFD)//Char Status Stat Luck
-<$03>
-#JMP($99D0E)//Char Status Stat Defence
-<$05>
-#JMP($99D1F)//Char Status Stat Magic Defence
-<$03>
 
 //Stat screen 2
 #JMP($99F0B, $99FA0)
@@ -236,48 +203,6 @@
 #W16($99EFF)
 //やみ<X>
 어둠<X>
-
-#JMP($99DDB)//Char Status Info Leader
-<$03>
-#JMP($99DF2)//Char Status Info Army
-// <$03>
-<$04>
-#JMP($99E05)//Char Status Info Lover
-// <$03>
-<$04>
-#JMP($99E16)//Char Status Info Talk
-<$04>
-#JMP($99E27)//Char Status Info Move
-<$04>
-#JMP($99E38)//Char Status Info Gold
-// <$02>
-<$03>
-#JMP($99E49)//Char Status Info Arena Level
-<$02>
-#JMP($99E5A)//Char Status Info Status
-// <$02>
-<$04>
-
-#JMP($99E6B)//Char Status Rank Sword
-<$12>
-#JMP($99E7C)//Char Status Rank Lance
-<$12>
-#JMP($99E8D)//Char Status Rank Axe
-<$12>
-#JMP($99E9E)//Char Status Rank Bow
-<$12>
-#JMP($99EAF)//Char Status Rank Staff
-<$12>
-#JMP($99EC0)//Char Status Rank Fire
-<$19>
-#JMP($99ED1)//Char Status Rank Thunder
-<$19>
-#JMP($99EE2)//Char Status Rank Wind
-<$19>
-#JMP($99EF3)//Char Status Rank Light
-<$19>
-#JMP($99F04)//Char Status Rank Dark
-<$19>
 
 //Personal/Class skill labels
 #JMP($9A4C5, $9A4E3)

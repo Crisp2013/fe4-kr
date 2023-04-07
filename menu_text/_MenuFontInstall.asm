@@ -1,17 +1,12 @@
-;***********************xkas-plus v14+1 버전에 최적화됨***********************
-
 hirom
 
-
-
-!Original_menu_font_table = $879471
-!Original_menu_font_table2 = $9471
-!Original_menu_font_table_index = $879471
-!Original_menu_font_table_index2 = $9471
+; !Original_menu_font_table = $879471 
+; !Original_menu_font_table2 = $9471
+; !Original_menu_font_table_index = $879471
+; !Original_menu_font_table_index2 = $9471
 !text_table_position =  $879D77
 !text_table_position2 =  $9D77
-;acutally $879354
-; org !Original_menu_font_table
+
 org $C00A2B;size:F50h
 incbin "menu_font/newfont.bin.fe4"
 org $C0197B;size:63Fh
@@ -44,6 +39,8 @@ dw $0000
 
 org $C03C60
 menu_font_table:
+;set blank for armips
+
 
 ;normal text print routine
 org $879354
@@ -292,6 +289,7 @@ unknown_879E3C:
   
   
 ;option menu font hack
+;because of scanline, we use another font for menu
 org $829500
 option_menu_font:
   incbin "menu_font/optionfont_hack.2bpp"
@@ -299,8 +297,10 @@ option_menu_font_end:
 
 org $80E6D3 
   JSL option_menu_hack
-
-org !Original_menu_font_table ;879471
+  
+;original menu font table position
+;we will use this area
+org $879471 
 option_menu_hack:
   JSL $878979
   PHA
@@ -332,3 +332,95 @@ option_menu_hack:
   PLX
   PLA
   RTL 
+
+;status screen position hack
+;;top screen
+org $899C0A ;Char Status Chr Attack
+db $15
+org $899C1B ;Char Status Chr Accuracy
+db $15
+org $899C2C ;Char Status Chr Range
+db $15
+org $899C3D ;Char Status Chr Evade
+db $15
+
+;first screen
+org $899CB9 ;Char Status Stat Power 
+db $07
+org $899CCA ;Char Status Stat Magic
+db $06
+org $899CDB ;Char Status Stat Skill
+db $06
+org $899CEC ;Char Status Stat Speed
+db $05
+org $899CFD ;Char Status Stat Luck
+db $03
+org $899D0E ;Char Status Stat Defence
+db $05
+org $899D1F ;Char Status Stat Magic Defence
+db $03
+
+
+;second screen left
+org $899DDB ;Char Status Info Leader
+db $03
+org $899DF2 ;Char Status Info Army
+db $04
+org $899E05 ;Char Status Info Lover
+db $04
+org $899E16 ;Char Status Info Talk
+db $04
+org $899E27 ;Char Status Info Move
+db $04
+org $899E38 ;Char Status Info Gold
+db $03
+org $899E49 ;Char Status Info Arena Level
+db $02
+org $899E5A ;Char Status Info Status
+db $04
+
+;second screen right
+org $899E6B ;Char Status Rank Sword
+db $12
+org $899E7C ;Char Status Rank Lance
+db $12
+org $899E8D ;Char Status Rank Axe
+db $12
+org $899E9E ;Char Status Rank Bow
+db $12
+org $899EAF ;Char Status Rank Staff
+db $12
+org $899EC0 ;Char Status Rank Fire
+db $1A
+org $899ED1 ;Char Status Rank Thunder
+db $1A
+org $899EE2 ;Char Status Rank Wind
+db $1A
+org $899EF3 ;Char Status Rank Light
+db $1A
+org $899F04 ;Char Status Rank Dark
+db $1A
+
+
+org $899AA1 ;value Status Rank Fire
+db $16
+org $899AB6 ;value Status Rank Thunder
+db $16
+org $899ACB ;value Status Rank Wind
+db $16
+org $899AE0 ;value Status Rank Light
+db $16
+org $899AF5 ;value Status Rank Dark
+db $16
+
+;sprite oam
+org $898ADC ;sprite Status Rank Fire
+db $3F
+org $898AE1 ;sprite Status Rank Thunder
+db $3F
+org $898AE6 ;sprite Status Rank Wind
+db $3F
+org $898AEB ;sprite Status Rank Light
+db $3F
+org $898AF0 ;sprite Status Rank Dark
+db $3F

@@ -5,9 +5,9 @@ if len(argv) != 3:
   exit()
 
 rom   = argv[1]
-start = int(argv[2], 16)
+start = int(argv[2], 16)%0x400000
 # end   = int(argv[3], 16)
-end   = int(argv[2], 16)+16384
+end   = int(argv[2], 16)%0x400000+16384
 size  = end - start + 1
 
 fp = open(rom , 'rb')

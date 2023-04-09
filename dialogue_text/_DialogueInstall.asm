@@ -62,11 +62,44 @@ DialogClose		 equ 0x3E00
 LoadPortrait	 equ 0x3F00
 ClearPortrait	 equ 0x4000
 
+unknown_0080	 equ 0x8000
+unknown_0081	 equ 0x8100
+unknown_0082	 equ 0x8200
+unknown_0083	 equ 0x8300
+unknown_0084	 equ 0x8400
+unknown_0085	 equ 0x8500
+unknown_0086	 equ 0x8600
+unknown_0087	 equ 0x8700
+
 .if TRANSLATION_TEST == 1
 ; .include "dialogue_text/dummy_text.asm"
 .endif
 
 ; .include "dialogue_text/pointers.asm"
+;bank 88
+translation_org 0x8e9e5
+.area 0x8ee3c-.
+.include "dialogue_text/Intermission.asm"
+.endarea;end 0x8ee3c
+
+;bank 8A
+translation_org 0xad0d4
+.area 0xad81b-.
+.include "dialogue_text/Shop.asm"
+.endarea;end 0xad81b
+
+;bank 8C
+translation_org 0xcf0f1
+.area 0xcffbb-.
+.include "dialogue_text/WelcomeBack.asm"
+.endarea;end 0xcffbb
+
+;bank 8D
+translation_org 0xd8dc4
+.area 0xd920d-.
+.include "dialogue_text/FEMain_8D.asm";0xd8dc4-0xd90b5
+.include "dialogue_text/CastleName.asm";0xd90b5-0xd920d
+.endarea
 
 translation_org 0xd9c88
 .area 0xd9cb8-.
@@ -76,3 +109,5 @@ translation_org 0xd9cb8
 .area 0xd9ed5-.
 .include "dialogue_text/Chronology.asm"
 .endarea
+
+.close

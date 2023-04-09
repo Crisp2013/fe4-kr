@@ -4,4 +4,17 @@
 "tools/Compression - Decompression/FE45_Compress.exe" gfx/title_gfx/title_shadow_gfx.2bpp
 "tools/Compression - Decompression/FE45_Compress.exe" menu_text/menu_font/newfont.bin
 "tools/Compression - Decompression/FE45_Compress.exe" menu_text/menu_font/statusfont.bin
+"tools/Compression - Decompression/FE45_Compress.exe" gfx/intro/opening1.4bpp
+"tools/Compression - Decompression/FE45_Compress.exe" gfx/intro/opening2.4bpp
+"tools/Compression - Decompression/FE45_Compress.exe" gfx/intro/opening3.4bpp
+"tools/Compression - Decompression/FE45_Compress.exe" gfx/intro/opening4.4bpp
+"tools/Compression - Decompression/FE45_Compress.exe" gfx/intro/opening5.4bpp
+"tools/Compression - Decompression/FE45_Compress.exe" gfx/intro/opening6.4bpp
+"tools/Compression - Decompression/FE45_Compress.exe" gfx/intro/opening7.4bpp
+"tools/Compression - Decompression/FE45_Compress.exe" gfx/intro/opening8.4bpp
+"tools/Compression - Decompression/FE45_Compress.exe" gfx/intro/opening9.4bpp
+"tools/Compression - Decompression/FE45_Compress.exe" gfx/intro/opening10.4bpp
+"tools/Compression - Decompression/FE45_Compress.exe" gfx/intro/opening11.4bpp
+"tools/Compression - Decompression/FE45_Compress.exe" gfx/intro/opening12.4bpp
+"tools/Compression - Decompression/FE45_Compress.exe" gfx/intro/opening13.4bpp
 pause

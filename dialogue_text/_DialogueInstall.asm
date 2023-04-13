@@ -62,6 +62,12 @@ DialogClose		 equ 0x3E00
 LoadPortrait	 equ 0x3F00
 ClearPortrait	 equ 0x4000
 
+unknown_0001	 equ 0x0100;EndText?
+unknown_0002	 equ 0x0200;NewLine?
+unknown_000A	 equ 0x0A00
+unknown_0024	 equ 0x2400
+unknown_002E	 equ 0x2E00
+unknown_002F	 equ 0x2F00
 unknown_0080	 equ 0x8000
 unknown_0081	 equ 0x8100
 unknown_0082	 equ 0x8200
@@ -97,17 +103,168 @@ translation_org 0xcf0f1
 ;bank 8D
 translation_org 0xd8dc4
 .area 0xd920d-.
-.include "dialogue_text/FEMain_8D.asm";0xd8dc4-0xd90b5
-.include "dialogue_text/CastleName.asm";0xd90b5-0xd920d
+.include "dialogue_text/FEMain_8D_1.asm"	;0xd8dc4-0xd90b5
+.include "dialogue_text/CastleName.asm"		;0xd90b5-0xd920d
+.endarea
+
+org 0xd928b
+.area 0xd9402-.
+.include "dialogue_text/ZDynamic4.asm"
+.endarea
+
+org 0xd9514
+.area 0xd9892-.
+.include "dialogue_text/ZDynamic3.asm"
+.endarea
+
+org 0xd9922
+.area 0xd9b65-.
+.include "dialogue_text/ZDynamic1.asm"
+.endarea
+
+org 0xd9b7b
+.area 0xd9bf6-.
+.include "dialogue_text/MainMenu.asm"
+.endarea
+
+org 0xd9c0e
+.area 0xd9c88-.
+.include "dialogue_text/ZDynamic2.asm"
 .endarea
 
 translation_org 0xd9c88
-.area 0xd9cb8-.
-.include "dialogue_text/Chapternumber.asm"
+.area 0xda06a-.
+.include "dialogue_text/Chapternumber.asm"	;0xd9c88-0xd9cb8
+.include "dialogue_text/Chronology.asm"		;0xd9cb8-0xd9ed5
+.include "dialogue_text/FE4_15.asm"			;0xd9ed5-0xda06a
 .endarea
-translation_org 0xd9cb8
-.area 0xd9ed5-.
-.include "dialogue_text/Chronology.asm"
+translation_org 0xddcb3
+.area 0xdfc56-.
+.include "dialogue_text/FEMain_8D_2.asm"	;0xddcb3-0xdf32d
+.include "dialogue_text/FE4_14_8D.asm"		;0xdf32d-0xdfc56
 .endarea
 
+;bank 8E
+translation_org 0xe8ac1
+.area 0xe9020-.
+.include "dialogue_text/FEMain_8E_1.asm"	;0xe8ac1-0xe9020
+.endarea
+translation_org 0xe9b61
+.area 0xef1da-.
+.include "dialogue_text/FE4_04.asm"			;0xe9b61-0xeca72
+.include "dialogue_text/FEMain_8E_2.asm"	;0xeca72-0xed7de
+.include "dialogue_text/DeathQuote.asm"		;0xed7de-0xef1da
+.endarea
+
+;bank 8F
+translation_org 0xf806b
+.area 0xfb81d-.
+.include "dialogue_text/FE4_02.asm"			;0xf806b-0xfb81d
+.endarea
+
+translation_org 0xfc115
+.area 0xfe8bf-.
+.include "dialogue_text/FE4_08.asm"			;0xfc115-0xfdffa
+.include "dialogue_text/FEMain_8F_1.asm"	;0xfdffa-0xfe8bf
+.endarea
+
+
+;bank 90
+translation_org 0x108d0a
+.area 0x10e8ce-.
+.include "dialogue_text/FE4_01.asm"			;0x108d0a-0x10c0e8
+.include "dialogue_text/FE4_06.asm"			;0x10c0e8-0x10e8ce
+.endarea
+
+;bank 91
+;some hardcoded message...
+;TODO: where is limit?
+translation_org 0x11b112
+Dialogue_11b112:
+dh SringBuffer1 //Lover or father
+.stringn "と"
+Dialogue_11b115:
+dh SringBuffer2 //CharName or mother
+.stringn "が"
+dh unknown_0002
+dh unknown_0001
+
+;bank 98
+translation_org 0x18ff87
+.area 0x18ffc9-.
+.include "dialogue_text/RealReport.asm"		;0x18ff87-0x18ffc9
+.endarea
+
+;bank 9D
+translation_org 0x1d8000
+.area 0x1d8702-.
+.include "dialogue_text/FEMain_9D_1.asm"	;0x1d8000-0x1d8702
+.endarea
+translation_org 0x1d9381
+.area 0x1dbebb-.
+.include "dialogue_text/FE4_03.asm"			;0x1d9381-0x1dbebb
+.endarea
+translation_org 0x1dcd39
+.area 0x1dff62-.
+.include "dialogue_text/FEUnk_9D_1.asm"		;0x1dcd39-0x1dff62
+.endarea
+
+;bank AE
+translation_org 0x2e8000
+.area 0x2efa83-.
+.include "dialogue_text/FE4_12.asm"			;0x2e8000-0x2ea5c2
+.include "dialogue_text/FE4_13.asm"			;0x2ea5c2-0x2ee07d
+.include "dialogue_text/FE4_14_AE.asm"		;0x2ee07d-0x2efa83
+.endarea
+
+;bank AF
+translation_org 0x2f8000
+.area 0x2fc293-.
+.include "dialogue_text/FE4_14_AF.asm"		;0x2f8000-0x2fc293
+.endarea
+
+;bank B0
+translation_org 0x3084c7
+.area 0x30cb5a-.
+.include "dialogue_text/FE4_05.asm"			;0x3084c7-0x30b76e
+.include "dialogue_text/FEUnk_B0_1.asm"		;0x30b76e-0x30cb5a;maybe battle?
+.endarea
+translation_org 0x30cfe7
+.area 0x30febc-.
+.include "dialogue_text/FEUnk_B0_2.asm"		;0x30cfe7-0x30febc;maybe battle?
+.endarea
+
+;bank B1
+translation_org 0x318771
+.area 0x31a378-.
+.include "dialogue_text/FE4_00.asm"			;0x318771-0x31a378
+.endarea
+translation_org 0x31ac01
+.area 0x31d3d6-.
+.include "dialogue_text/FE4_07.asm"			;0x31ac01-0x31d3d6
+.endarea
+translation_org 0x31e900
+.area 0x31fd96-.
+.include "dialogue_text/FEUnk_B1_1.asm"		;0x31e900-0x31fd96
+.endarea
+
+;bank B2
+translation_org 0x3284fb
+.area 0x32876c-.
+.include "dialogue_text/FEMain_B2_1.asm"	;0x3284fb-0x32876c
+.endarea
+translation_org 0x329916
+.area 0x32d017-.
+.include "dialogue_text/FE4_11.asm"			;0x329916-0x32d017
+.endarea
+translation_org 0x32d2aa
+.area 0x32f7ce-.
+.include "dialogue_text/FE4_Share.asm"		;0x32d2aa-0x32f7ce
+.endarea
+translation_org 0x338000
+.area 0x33edd9-.
+.include "dialogue_text/FE4_09.asm"			;0x338000-0x33ad0a
+.include "dialogue_text/FE4_10.asm"			;0x33ad0a-0x33d021
+.include "dialogue_text/FE4_14_B3.asm"		;0x33d021-0x33edd9
+.endarea
 .close

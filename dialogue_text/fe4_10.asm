@@ -2241,3 +2241,159 @@ db WaitForA
 db EndText
 
 //end 0x33cf9d
+
+//offset 0x33cf9d
+// 0x33d19d
+Dialogue_33cf9d:
+dh InsBlockText_2D //9FD13300
+dh 0xBA9C
+db 0x91 //bank
+dh InsBlockText_2D //A4D13300
+dh 0xBB1D
+db 0x91 //bank
+db EndText
+
+//end 0x33cfa8
+
+//offset 0x33cfa8
+// 0x33d1a8
+Dialogue_33cfa8:
+dh InsBlockText_2D //AAD13300
+dh 0xBAA1
+db 0x91 //bank
+dh InsBlockText_2D //AFD13300
+dh 0xBB1D
+db 0x91 //bank
+db EndText
+
+//end 0x33cfb3
+
+//offset 0x33cfb3
+// 0x33d1b3
+Dialogue_33cfb3:
+dh InsBlockText_2D //B5D13300
+dh 0xBAA6
+db 0x91 //bank
+dh InsBlockText_2D //BAD13300
+dh 0xBB1D
+db 0x91 //bank
+db EndText
+
+//end 0x33cfbe
+
+//offset 0x33cfbe
+// 0x33d1be
+Dialogue_33cfbe:
+dh InsBlockText_2D //C0D13300
+dh 0xBAAB
+db 0x91 //bank
+dh InsBlockText_2D //C5D13300
+dh 0xBB1D
+db 0x91 //bank
+db EndText
+
+//end 0x33cfc9
+
+//offset 0x33cfc9
+// 0x33d1c9
+Dialogue_33cfc9:
+dh InsBlockText_2D //CBD13300
+dh 0xBAB0
+db 0x91 //bank
+dh InsBlockText_2D //D0D13300
+dh 0xBB1D
+db 0x91 //bank
+db EndText
+
+//end 0x33cfd4
+
+//offset 0x33cfd4
+// 0x33d1d4
+Dialogue_33cfd4:
+dh InsBlockText_2D //D6D13300
+dh 0xBAB5
+db 0x91 //bank
+dh InsBlockText_2D //DBD13300
+dh 0xBB1D
+db 0x91 //bank
+db EndText
+
+//end 0x33cfdf
+
+//offset 0x33cfdf
+// 0x33d1df
+Dialogue_33cfdf:
+dh InsBlockText_2D //E1D13300
+dh 0xBABA
+db 0x91 //bank
+dh InsBlockText_2D //E6D13300
+dh 0xBB1D
+db 0x91 //bank
+db EndText
+
+//end 0x33cfea
+
+//offset 0x33cfea
+// 0x33d1ea
+Dialogue_33cfea:
+dh InsBlockText_2D //ECD13300
+dh 0xBABF
+db 0x91 //bank
+dh InsBlockText_2D //F1D13300
+dh 0xBB1D
+db 0x91 //bank
+db EndText
+
+//end 0x33cff5
+
+//offset 0x33cff5
+// 0x33d1f5
+Dialogue_33cff5:
+dh InsBlockText_2D //F7D13300
+dh 0xBAC4
+db 0x91 //bank
+dh InsBlockText_2D //FCD13300
+dh 0xBB1D
+db 0x91 //bank
+db EndText
+
+//end 0x33d000
+
+//offset 0x33d000
+// 0x33d200
+Dialogue_33d000:
+dh InsBlockText_2D //02D23300
+dh 0xBAC9
+db 0x91 //bank
+dh InsBlockText_2D //07D23300
+dh 0xBB1D
+db 0x91 //bank
+db EndText
+
+//end 0x33d00b
+
+//offset 0x33d00b
+// 0x33d20b
+Dialogue_33d00b:
+dh InsBlockText_2D //0DD23300
+dh 0xBACE
+db 0x91 //bank
+dh InsBlockText_2D //12D23300
+dh 0xBB1D
+db 0x91 //bank
+db EndText
+
+//end 0x33d016
+
+//offset 0x33d016
+// 0x33d216
+Dialogue_33d016:
+dh InsBlockText_2D //18D23300
+dh 0xBAD3
+db 0x91 //bank
+dh InsBlockText_2D //1DD23300
+dh 0xBB1D
+db 0x91 //bank
+db EndText
+
+//end 0x33d021

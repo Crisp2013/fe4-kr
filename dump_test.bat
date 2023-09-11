@@ -2,9 +2,9 @@
 setlocal
 
 :REDO
-set /p str=аж╪р: 
+set /p str=О©╫ж╪О©╫: 
 
-dump.py "base_rom/fe4.sfc" %str%
+tools/dump.py "base_rom/fe4.sfc" %str%
 "tools/Compression - Decompression/FE45_Decompress.exe" dump/0x%str%.dmp
 
 goto REDO

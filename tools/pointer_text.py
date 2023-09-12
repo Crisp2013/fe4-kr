@@ -53,8 +53,8 @@ with open("../base_rom/fe4.sfc", "rb") as jpn:
             test_eng = eng.read(3)
             if test_jpn is not test_eng:
                 if bytestoadress(test_jpn) >= 0x800000 and bytestoadress(test_jpn) < 0xC00000 and bytestoadress(test_eng) >= 0x500000 and bytestoadress(test_eng) < 0x800000:
+                    str = hex(i)+"\t"+hex(SNEStoPC(bytestoadress(test_jpn)))+"\t"+hex(SNEStoPC(bytestoadress(test_eng)))
                     if SNEStoPC(bytestoadress(test_jpn)) in pointer_list:
-                        str = hex(i)+"\t"+hex(SNEStoPC(bytestoadress(test_jpn)))+"\t"+hex(SNEStoPC(bytestoadress(test_eng)))
                         if bytestoadress(test_eng) <=0x600000:
                             print(str+"\twarning:under 0x600000")
                         else:
@@ -69,6 +69,12 @@ with open("../base_rom/fe4.sfc", "rb") as jpn:
                                     print(str+"\twarning:not same start")
                             else:        
                                 print(str)
+                    else:
+                        if bytestoadress(test_eng) in pointer_list_eng:
+                            print(str+"\twarning:english pointer?")
+                        elif bytestoadress(test_eng) >= 0x600000 and bytestoadress(test_eng) < 0x690000:
+                            print(str+"\twarning:not in list")
+
         print ("=try to search undumped eng script=")
         for i in range(file_size-2):
             jpn.seek(i)

@@ -13,7 +13,7 @@ dh LoadPortrait
 dh 0x0017//Edain
 
 db Top_Slot// Midir
-.stringn "エーディン様、エーディン様、敵に城を包囲されました"
+.stringn "한글출력테스트"
 db NewLine
 .stringn "姫様をお守りすべき我々が、"
 db NewLine

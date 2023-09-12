@@ -4,6 +4,52 @@ copy base_rom\fe4.sfc fe4_trans.sfc
 echo install gfx
 asar gfx/_GfxInstall.asm fe4_trans.sfc 
 
+echo conver text
+"tools/textconv.py" dialogue_text/CastleName.asm    dialogue_text/convert/CastleName.asm
+"tools/textconv.py" dialogue_text/Chapternumber.asm dialogue_text/convert/Chapternumber.asm
+"tools/textconv.py" dialogue_text/Chronology.asm    dialogue_text/convert/Chronology.asm
+"tools/textconv.py" dialogue_text/DeathQuote.asm    dialogue_text/convert/DeathQuote.asm
+"tools/textconv.py" dialogue_text/FE4_00.asm        dialogue_text/convert/FE4_00.asm
+"tools/textconv.py" dialogue_text/FE4_01.asm        dialogue_text/convert/FE4_01.asm
+"tools/textconv.py" dialogue_text/FE4_02.asm        dialogue_text/convert/FE4_02.asm
+"tools/textconv.py" dialogue_text/FE4_03.asm        dialogue_text/convert/FE4_03.asm
+"tools/textconv.py" dialogue_text/FE4_04.asm        dialogue_text/convert/FE4_04.asm
+"tools/textconv.py" dialogue_text/FE4_05.asm        dialogue_text/convert/FE4_05.asm
+"tools/textconv.py" dialogue_text/FE4_06.asm        dialogue_text/convert/FE4_06.asm
+"tools/textconv.py" dialogue_text/FE4_07.asm        dialogue_text/convert/FE4_07.asm
+"tools/textconv.py" dialogue_text/FE4_08.asm        dialogue_text/convert/FE4_08.asm
+"tools/textconv.py" dialogue_text/FE4_09.asm        dialogue_text/convert/FE4_09.asm
+"tools/textconv.py" dialogue_text/FE4_10.asm        dialogue_text/convert/FE4_10.asm
+"tools/textconv.py" dialogue_text/FE4_11.asm        dialogue_text/convert/FE4_11.asm
+"tools/textconv.py" dialogue_text/FE4_12.asm        dialogue_text/convert/FE4_12.asm
+"tools/textconv.py" dialogue_text/FE4_13.asm        dialogue_text/convert/FE4_13.asm
+"tools/textconv.py" dialogue_text/FE4_14_8D.asm     dialogue_text/convert/FE4_14_8D.asm
+"tools/textconv.py" dialogue_text/FE4_14_AE.asm     dialogue_text/convert/FE4_14_AE.asm
+"tools/textconv.py" dialogue_text/FE4_14_AF.asm     dialogue_text/convert/FE4_14_AF.asm
+"tools/textconv.py" dialogue_text/FE4_14_B3.asm     dialogue_text/convert/FE4_14_B3.asm
+"tools/textconv.py" dialogue_text/FE4_15.asm        dialogue_text/convert/FE4_15.asm
+"tools/textconv.py" dialogue_text/FE4_Share.asm     dialogue_text/convert/FE4_Share.asm
+"tools/textconv.py" dialogue_text/FEMain_8D_1.asm   dialogue_text/convert/FEMain_8D_1.asm
+"tools/textconv.py" dialogue_text/FEMain_8D_2.asm   dialogue_text/convert/FEMain_8D_2.asm
+"tools/textconv.py" dialogue_text/FEMain_8E_1.asm   dialogue_text/convert/FEMain_8E_1.asm
+"tools/textconv.py" dialogue_text/FEMain_8E_2.asm   dialogue_text/convert/FEMain_8E_2.asm
+"tools/textconv.py" dialogue_text/FEMain_8F_1.asm   dialogue_text/convert/FEMain_8F_1.asm
+"tools/textconv.py" dialogue_text/FEMain_9D_1.asm   dialogue_text/convert/FEMain_9D_1.asm
+"tools/textconv.py" dialogue_text/FEMain_B2_1.asm   dialogue_text/convert/FEMain_B2_1.asm
+"tools/textconv.py" dialogue_text/FEUnk_9D_1.asm    dialogue_text/convert/FEUnk_9D_1.asm
+"tools/textconv.py" dialogue_text/FEUnk_B0_1.asm    dialogue_text/convert/FEUnk_B0_1.asm
+"tools/textconv.py" dialogue_text/FEUnk_B0_2.asm    dialogue_text/convert/FEUnk_B0_2.asm
+"tools/textconv.py" dialogue_text/FEUnk_B1_1.asm    dialogue_text/convert/FEUnk_B1_1.asm
+"tools/textconv.py" dialogue_text/Intermission.asm  dialogue_text/convert/Intermission.asm
+"tools/textconv.py" dialogue_text/MainMenu.asm      dialogue_text/convert/MainMenu.asm
+"tools/textconv.py" dialogue_text/RealReport.asm    dialogue_text/convert/RealReport.asm
+"tools/textconv.py" dialogue_text/Shop.asm          dialogue_text/convert/Shop.asm
+"tools/textconv.py" dialogue_text/WelcomeBack.asm   dialogue_text/convert/WelcomeBack.asm
+"tools/textconv.py" dialogue_text/ZDynamic1.asm     dialogue_text/convert/ZDynamic1.asm
+"tools/textconv.py" dialogue_text/ZDynamic2.asm     dialogue_text/convert/ZDynamic2.asm
+"tools/textconv.py" dialogue_text/ZDynamic3.asm     dialogue_text/convert/ZDynamic3.asm
+"tools/textconv.py" dialogue_text/ZDynamic4.asm     dialogue_text/convert/ZDynamic4.asm
+
 echo install dialogue
 armips dialogue_text/_DialogueInstall.asm
 

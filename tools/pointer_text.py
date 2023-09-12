@@ -53,6 +53,35 @@ with open("../base_rom/fe4.sfc", "rb") as jpn:
             test_eng = eng.read(3)
             if test_jpn is not test_eng:
                 if bytestoadress(test_jpn) >= 0x800000 and bytestoadress(test_jpn) < 0xC00000 and bytestoadress(test_eng) >= 0x500000 and bytestoadress(test_eng) < 0x800000:
+                    str = "write_hirom_pointer_org "+hex(i)+", Dialogue_"+hex(SNEStoPC(bytestoadress(test_jpn))).replace("0x","")+"\t;"
+                    if SNEStoPC(bytestoadress(test_jpn)) in pointer_list:
+                        if bytestoadress(test_eng) <=0x600000:
+                            print("; "+str+"warning:under 0x600000")
+                        else:
+                            jpn.seek(SNEStoPC(bytestoadress(test_jpn)))
+                            eng.seek(SNEStoPC(bytestoadress(test_eng)))   
+                            test_jpn2 = jpn.read(1)[0]
+                            test_eng2 = eng.read(1)[0]
+                            if test_jpn2 != test_eng2: 
+                                if (test_jpn2 == 0x07 or test_jpn2 == 0x06) and (test_eng2 == 0x07 or test_eng2 == 0x06):
+                                    print("; "+str+"warning:change bubble position?")
+                                else:
+                                    print("; "+str+"warning:not same start")
+                            else:        
+                                print(str)
+                    else:
+                        if bytestoadress(test_eng) in pointer_list_eng:
+                            print("; "+str+"warning:english pointer but not in jpn")
+                        elif bytestoadress(test_eng) >= 0x600000 and bytestoadress(test_eng) < 0x690000:
+                            print("; "+str+"warning:not in list")
+        print ("\n=conv")
+        for i in range(file_size-2):
+            jpn.seek(i)
+            eng.seek(i)
+            test_jpn = jpn.read(3)
+            test_eng = eng.read(3)
+            if test_jpn is not test_eng:
+                if bytestoadress(test_jpn) >= 0x800000 and bytestoadress(test_jpn) < 0xC00000 and bytestoadress(test_eng) >= 0x500000 and bytestoadress(test_eng) < 0x800000:
                     str = hex(i)+"\t"+hex(SNEStoPC(bytestoadress(test_jpn)))+"\t"+hex(SNEStoPC(bytestoadress(test_eng)))
                     if SNEStoPC(bytestoadress(test_jpn)) in pointer_list:
                         if bytestoadress(test_eng) <=0x600000:
@@ -64,7 +93,7 @@ with open("../base_rom/fe4.sfc", "rb") as jpn:
                             test_eng2 = eng.read(1)[0]
                             if test_jpn2 != test_eng2: 
                                 if (test_jpn2 == 0x07 or test_jpn2 == 0x06) and (test_eng2 == 0x07 or test_eng2 == 0x06):
-                                    print(str+"\twarning:change position?")
+                                    print(str+"\twarning:change bubble position?")
                                 else:
                                     print(str+"\twarning:not same start")
                             else:        
@@ -74,7 +103,6 @@ with open("../base_rom/fe4.sfc", "rb") as jpn:
                             print(str+"\twarning:english pointer but not in jpn")
                         elif bytestoadress(test_eng) >= 0x600000 and bytestoadress(test_eng) < 0x690000:
                             print(str+"\twarning:not in list")
-
         print ("\n=try to search undumped eng script=")
         for i in range(file_size-2):
             jpn.seek(i)
@@ -84,7 +112,7 @@ with open("../base_rom/fe4.sfc", "rb") as jpn:
             if test_jpn is not test_eng:
                 if bytestoadress(test_jpn) >= 0x800000 and bytestoadress(test_jpn) < 0xC00000 and bytestoadress(test_eng) >= 0x500000 and bytestoadress(test_eng) < 0x800000:
                     if SNEStoPC(bytestoadress(test_eng)) in pointer_list_eng:
-                        str = hex(i)+"\t"+hex(SNEStoPC(bytestoadress(test_jpn)))+"\t"+hex(SNEStoPC(bytestoadress(test_eng)))
+                        str = "write_hirom_pointer_org "+hex(i)+", Dialogue_"+hex(SNEStoPC(bytestoadress(test_jpn))).replace("0x","")+";"+hex(i)+"\t"+hex(SNEStoPC(bytestoadress(test_jpn)))+"\t"+hex(SNEStoPC(bytestoadress(test_eng)))
                         if bytestoadress(test_eng) <=0x600000:
                             print(str+"\twarning:under 0x600000")
                         else:
@@ -112,5 +140,5 @@ with open("../base_rom/fe4.sfc", "rb") as jpn:
 
             if test_jpn[0] == 0xA9 and test_eng[0] == 0xA9 :
                 if test_jpn[1] != test_eng[1] or test_jpn[2] != test_eng[2]:
-                    if (test_jpn[1] == 0x00 and test_eng[1] == 0x00) or test_jpn[2] >=0x00:
-                        print(hex(i)+"\t"+hex(bytestoadress_reverse(test_jpn))+"\t"+hex(bytestoadress_reverse(test_eng)))    
+                    # if (test_jpn[1] == 0x00 and test_eng[1] == 0x00) or test_jpn[2] >=0x00:
+                    print(hex(i)+"\t"+hex(bytestoadress_reverse(test_jpn))+"\t"+hex(bytestoadress_reverse(test_eng)))    

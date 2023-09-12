@@ -13,6 +13,11 @@ TRANSLATION_TEST equ 0
 	.endif
 .endmacro
 
+.macro write_hirom_pointer_org, org_offset, dialogue_pointer
+	.org org_offset
+	write_hirom_pointer dialogue_pointer
+.endmacro
+
 .macro translation_org, offset
 	.if TRANSLATION_TEST == 1
 	.org offset+0x400000

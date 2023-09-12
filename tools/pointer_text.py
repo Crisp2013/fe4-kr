@@ -71,11 +71,11 @@ with open("../base_rom/fe4.sfc", "rb") as jpn:
                                 print(str)
                     else:
                         if bytestoadress(test_eng) in pointer_list_eng:
-                            print(str+"\twarning:english pointer?")
+                            print(str+"\twarning:english pointer but not in jpn")
                         elif bytestoadress(test_eng) >= 0x600000 and bytestoadress(test_eng) < 0x690000:
                             print(str+"\twarning:not in list")
 
-        print ("=try to search undumped eng script=")
+        print ("\n=try to search undumped eng script=")
         for i in range(file_size-2):
             jpn.seek(i)
             eng.seek(i)
@@ -100,7 +100,7 @@ with open("../base_rom/fe4.sfc", "rb") as jpn:
                             else:        
                                 print(str)
         
-        print ("=asmptr part=")
+        print ("\n=asmptr part=")
         # asptr search
         for i in range(file_size):
             jpn.seek(i)

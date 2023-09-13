@@ -1,3 +1,4 @@
+
 //offset 0x318771
 // 0x318971
 Dialogue_318771:
@@ -13,44 +14,44 @@ dh LoadPortrait
 dh 0x0017//Edain
 
 db Top_Slot// Midir
-.stringn "한글출력테스트"
+.stringn "에딘 님, 적에게 성이 포위됐습니다"
 db NewLine
-.stringn "姫様をお守りすべき我々が、"
+.stringn "공주님을 지켜드려야 하는데,"
 db NewLine
-.stringn "ふがいないばか①りに・・・"
+.stringn "저희가 부족한 탓에・・・"
 
 db Bottom_Slot// Edain
 dh PauseForTime
 db 0x10
-.stringn "よいのです、ミデェール"
+.stringn "괜찮아요, 미데일"
 db NewLine
-.stringn "・・・・・皆よく戦ってくれました"
+.stringn "・・・・・다들 잘 싸워주었어요"
 db NewLine
-.stringn "私のことは、もういいのです"
+.stringn "저는 신경쓰지 마시고"
 db WaitForA
 dh ScrollText_DBC
-.stringn "今は一人でも多く、生き延びてください"
+.stringn "지금은 한 명이라도 더 살아남아 주세요"
 db NewLine
 db WaitForA
 db ScrollText
 
 
 db Top_Slot// Midir
-.stringn "いいえ、エーディン様"
+.stringn "아닙니다, 에딘 님"
 db NewLine
-.stringn "皆、最後まで"
+.stringn "모두 마지막까지"
 db NewLine
-.stringn "姫様をお守りする覚悟です"
+.stringn "공주님을 지켜드릴 각오입니다"
 db WaitForA
 dh ScrollText_DBC
-.stringn "命にかえても、お守りいたします"
+.stringn "목숨과 바꿔서라도 지켜드리겠습니다"
 
 db Bottom_Slot// Edain
 dh PauseForTime
 db 0x08
-.stringn "ありがとう、ミデェール"
+.stringn "고마워요, 미데일"
 db NewLine
-.stringn "・・・・・ごめんなさい"
+.stringn "・・・・・정말 미안해요"
 db NewLine
 db WaitForA
 db EndText
@@ -72,63 +73,63 @@ dh LoadPortrait
 dh 0x0002//Naoise
 
 db Top_Slot// Sigurd
-.stringn "ユングヴィの城が"
+.stringn "잉그비성이"
 db NewLine
-.stringn "ガンドルフ軍に包囲された"
+.stringn "간돌프군에 포위되었다는군"
 db NewLine
-.stringn "このままではエーディンが危ない"
+.stringn "이대로라면 에딘이 위험해"
 db WaitForA
 db ScrollText
 
-.stringn "ノイッシュ、私は彼女を助けに行く"
+.stringn "노이쉬, 난 에딘을 구하러 가겠다"
 db NewLine
-.stringn "あとのことは頼ん①だぞ！"
+.stringn "뒷일을 부탁하마!"
 db NewLine
 
 db Bottom_Slot// Naoise
 dh PauseForTime
 db 0x10
-.stringn "待って下さい、シグルド様"
+.stringn "기다려 주십시오, 시구르드 님"
 db NewLine
-.stringn "まさか一人で行かれるつもりでは？"
+.stringn "설마 혼자 가시겠단 말씀입니까?"
 db NewLine
 db WaitForA
 
 db Top_Slot// Sigurd
 dh ScrollText_DBC
-.stringn "我が軍の主力は"
+.stringn "우리 주력군은"
 db NewLine
-.stringn "父上と共にイザークへ遠征して"
+.stringn "아버지와 함께 이자크로 떠나서"
 db NewLine
-.stringn "ここに残っている者はわずか①しかいない"
+.stringn "남아 있는 병사는 얼마 되지 않아"
 db WaitForA
 db ScrollText
 
-.stringn "ヴェルダン軍は蛮族とはいえ大軍だ"
+.stringn "베르던군은 야만족이지만 대군이지"
 db NewLine
-.stringn "死ぬことがわかっている戦いに"
+.stringn "죽을 게 뻔한 싸움에"
 db NewLine
-.stringn "お前達をまきこめない"
+.stringn "너희까지 끌어들이고 싶지 않구나"
 
 db Bottom_Slot// Naoise
 dh PauseForTime
 db 0x10
-.stringn "バカなことを言わないで下さい"
+.stringn "그런 말씀 마십시오"
 db NewLine
-.stringn "騎士として生まれた以上"
+.stringn "기사로 태어난 이상"
 db NewLine
-.stringn "戦いで死ぬのはあたりまえ"
+.stringn "싸우다 죽는 건 당연한 일입니다"
 db WaitForA
 dh ScrollText_DBC
-.stringn "主君一人を死なせて"
+.stringn "주군을 홀로 죽게 내버려두고"
 db NewLine
-.stringn "おめおめと生きてはおれません"
+.stringn "뻔뻔하게 살아남을 순 없습니다"
 db NewLine
-.stringn "私たちも共にまいります"
+.stringn "저희도 함께 가게 해 주십시오"
 db WaitForA
 db ScrollText
 
-.stringn "アレク、おまえも同じかんがえだろ"
+.stringn "알렉, 네 생각도 그렇겠지?"
 db NewLine
 db WaitForA
 db ScrollText
@@ -140,57 +141,57 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0003//Alec
-.stringn "ああ、もちろんだ"
+.stringn "그래, 물론이지"
 db NewLine
-.stringn "しか①しユングヴィの城も大事だが"
+.stringn "그런데 잉그비도 중요하지만"
 db NewLine
-.stringn "村を助けるのが先じゃないのかな"
+.stringn "마을들을 구하는 게 먼저 아닐까?"
 db WaitForA
 db ScrollText
 
-.stringn "蛮族どもは行く先々の村をおそって"
+.stringn "야만족 놈들은 마을이 보이는 족족"
 db NewLine
-.stringn "奪い、殺し、燎きつくしているという"
+.stringn "약탈하고 죽이고 불태운다 들었어"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "手おくれにならないうちに"
+.stringn "아직 놈들의 손이 닿지 않은"
 db NewLine
-.stringn "村々をまわって、守りを固めるように"
+.stringn "마을을 찾아가 습격에 대비하라고"
 db NewLine
-.stringn "言わなければならないだろ"
+.stringn "전해줘야 해"
 db WaitForA
 db ScrollText
 
 
 db Top_Slot// Sigurd
-.stringn "確かにそうだ"
+.stringn "확실히 그렇군"
 db NewLine
-.stringn "民を守ることはわれら騎士の義務だ"
+.stringn "백성들을 지키는 건 기사의 의무지"
 db NewLine
-.stringn "アレク、よく言ってくれた"
+.stringn "잘 말해 주었다, 알렉"
 
 db Bottom_Slot// Alec
 dh PauseForTime
 db 0x10
-.stringn "いや、本当はオイフェの意見なんです"
+.stringn "아뇨, 사실은 오이페가 한 말입니다"
 db NewLine
 db WaitForA
 dh ScrollText_DBC
-.stringn "さすがは名軍師といわれた"
+.stringn "역시 명군사로 이름을 날린 스사르 경의"
 db NewLine
-.stringn "スサール卿の孫、まだ子供なのに"
+.stringn "손자라 그런지, 아직 애인데도"
 db NewLine
-.stringn "いろんな事に良く気がつきます"
+.stringn "여러모로 사리에 밝다니까요"
 db WaitForA
 db ScrollText
 
 
 db Top_Slot// Sigurd
-.stringn "オイフェが王宮に来ているのか？"
+.stringn "오이페가 와 있는 건가?"
 db NewLine
-.stringn "オイフェ、いるなら来なさい"
+.stringn "오이페, 있으면 이리 나오렴"
 db NewLine
 
 db Bottom_Slot// Alec
@@ -201,69 +202,69 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x027F//Oifey
-.stringn "シグルド様、勝手に来てごめんなさい"
+.stringn "시구르드 님, 멋대로 와서 죄송합니다"
 db NewLine
-.stringn "でも出撃されるなら、"
+.stringn "하지만 출격하시겠다면"
 db NewLine
-.stringn "ぼくも一緒に連れていって下さい"
+.stringn "저도 함께 데려가 주세요"
 db WaitForA
 dh ScrollText_DBC
-.stringn "城で留守番なんていやです"
+.stringn "성에서 가만히 보고만 있긴 싫어요"
 db NewLine
 db WaitForA
 db ScrollText
 
 
 db Top_Slot// Sigurd
-.stringn "しか①し、おまえはまだ子供だ"
+.stringn "하지만 넌 아직 어린애가 아니냐"
 db NewLine
-.stringn "大丈夫なのか"
+.stringn "괜찮겠어?"
 db NewLine
 
 db Bottom_Slot// Oifey
 dh PauseForTime
 db 0x10
-.stringn "ぼくも、もう十四才になりました"
+.stringn "저도 이제 14살입니다"
 db NewLine
-.stringn "まだ戦うことはできませんが"
+.stringn "아직 싸우지는 못하지만"
 db NewLine
-.stringn "シグルド様のお世話くらいならできます"
+.stringn "곁에서 조언을 드릴 수는 있습니다"
 db WaitForA
 dh ScrollText_DBC
-.stringn "おねがいです"
+.stringn "부탁드립니다"
 db NewLine
-.stringn "どうか、おそばにおいて下さい"
+.stringn "부디 곁에 두어 주세요"
 db NewLine
 db WaitForA
 db ScrollText
 
 
 db Top_Slot// Sigurd
-.stringn "わかったよ、オイフェ"
+.stringn "알았다, 오이페"
 db NewLine
-.stringn "おまえが騎士みならいとして"
+.stringn "네가 기사가 되기 위해"
 db NewLine
-.stringn "私のところに来てから、もう二年になる"
+.stringn "나한테 온 것도 이제 2년째지"
 db WaitForA
 db ScrollText
 
-.stringn "そろそろ戦場を経験するのも"
+.stringn "슬슬 전장을 경험하는 것도"
 db NewLine
-.stringn "悪くはないだろう"
+.stringn "나쁘지 않겠구나"
 db NewLine
-.stringn "ただ①し、戦うのはまだ早い"
+.stringn "하지만 싸움은 아직 일러"
 db WaitForA
 db ScrollText
 
-.stringn "しばらくは私のそばにいて"
+.stringn "당분간은 내 곁에서"
 db NewLine
-.stringn "相談相手になってくれ"
+.stringn "상담 상대가 되어 주렴"
 db NewLine
 
 db Bottom_Slot// Oifey
 dh PauseForTime
 db 0x10
-.stringn "はい！⑫ありがとうございます"
+.stringn "네! 감사합니다!"
 db NewLine
 db WaitForA
 dh ScrollText_DBC
@@ -274,18 +275,18 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0002//Naoise
-.stringn "シグルド様、"
+.stringn "시구르드 님,"
 db NewLine
-.stringn "この城の守りはどうしますか？"
+.stringn "이 성의 수비는 어쩌시겠습니까?"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "誰か一人は守備に上がらないと危険です"
+.stringn "누구 한 명이 수비로 올라가야 합니다"
 db NewLine
-.stringn "もし本拠地であるこの城が"
+.stringn "만약 본거지인 시알피성이 점거되면"
 db NewLine
-.stringn "敵に奪われたら、われらは全滅します"
+.stringn "저희는 끝장이니까요"
 db WaitForA
 db ScrollText
 
@@ -298,9 +299,9 @@ db Top_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0003//Alec
-.stringn "ノイッシュ、城の守りなら"
+.stringn "노이쉬, 수비라면"
 db NewLine
-.stringn "コイツしかいないぜ！⑫なっ、アーダン！"
+.stringn "이 녀석밖에 없잖아! 안 그래, 아단!"
 db NewLine
 
 db Bottom_Slot// Naoise
@@ -311,24 +312,24 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0004//Arden
-.stringn "アレクっ、なんで俺なんだよ"
+.stringn "알렉, 왜 나야?"
 db NewLine
 db WaitForA
 
 db Top_Slot// Alec
 dh ScrollText_DBC
-.stringn "固い、強い、おそい！"
+.stringn "단단하지, 강하지, 느리지!"
 db NewLine
-.stringn "三拍子そろってるのは"
+.stringn "삼박자가 맞는 너 말고"
 db NewLine
-.stringn "おまえしかいないだろう"
+.stringn "누가 있겠냐?"
 
 db Bottom_Slot// Arden
 dh PauseForTime
 db 0x10
-.stringn "固い、強いってのはいいけど"
+.stringn "단단하고 강하다까진 좋은데"
 db NewLine
-.stringn "おそいってのは気にいらねぇな"
+.stringn "느리다는 건 기분이 영 별로다"
 db NewLine
 db WaitForA
 
@@ -341,28 +342,28 @@ db Top_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0001//Sigurd
-.stringn "いや、アーダン、私からも頼む"
+.stringn "아니, 아단. 나도 부탁하마."
 db NewLine
-.stringn "城の守りを任せられるのはおまえだけだ"
+.stringn "성의 수비를 맡길 수 있는 건 너뿐이야"
 db NewLine
 
 db Bottom_Slot// Arden
 dh PauseForTime
 db 0x10
-.stringn "はぁ、わか①りました"
+.stringn "하아, 알겠습니다"
 db NewLine
-.stringn "そんなら、取りあえず守備に上がります"
+.stringn "그럼 이만 올라가 보죠"
 db NewLine
-.stringn "でもたまには私も出陣させて下さいよ"
+.stringn "하지만 가끔은 저도 출격시켜 주세요"
 db WaitForA
 
 db Top_Slot// Sigurd
 dh ScrollText_DBC
-.stringn "よし、それでは行こう"
+.stringn "좋아, 준비는 끝났다"
 db NewLine
-.stringn "とりあえず村を助ける"
+.stringn "마을들을 구하면서"
 db NewLine
-.stringn "そしてユングヴィへ！"
+.stringn "잉그비로 진격하자!"
 db WaitForA
 db EndText
 
@@ -376,14 +377,14 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x004D//Munnir
-.stringn "ふふふ・・・・・あんちゃんよぉ"
+.stringn "후후후・・・・・"
 db NewLine
-.stringn "一人でよくがんばったな"
+.stringn "혼자서 수고 많았어, 형씨"
 db NewLine
-.stringn "だがそれもこれまでだ、"
+.stringn "하지만 그것도 여기까지다"
 dh PauseForTime
 db 0x10
-.stringn "くらえ！"
+.stringn "죽어랏!"
 db WaitForA
 db EndText
 
@@ -397,9 +398,9 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0007//Midir
-.stringn "くっ・・・・・エーディン様"
+.stringn "큭・・・・・ 에딘 님"
 db NewLine
-.stringn "・・・・・お許し下さい"
+.stringn "・・・・・용서해 주십시오"
 db NewLine
 db WaitForA
 db EndText
@@ -421,17 +422,17 @@ dh LoadPortrait
 dh 0x004D//Munnir
 
 db Top_Slot// Edain
-.stringn "ああっ、ミデェール・・・・・"
+.stringn "아아, 미데일・・・・・"
 db NewLine
 
 db Bottom_Slot// Munnir
 dh PauseForTime
 db 0x10
-.stringn "おおっ、これは上玉だな"
+.stringn "오오, 이거 좋은데"
 db NewLine
-.stringn "ユングヴィの姫君か・・・・・ふふ・・・・"
+.stringn "잉그비의 공주라・・・・・ 후후・・・・"
 db NewLine
-.stringn "よし、おれはこの女を連れて国に帰る"
+.stringn "좋아, 난 이 여자를 데리고 돌아가마"
 db WaitForA
 dh ScrollText_DBC
 
@@ -445,43 +446,43 @@ dh LoadPortrait
 dh 0x0041//DiMaggio
 
 db Bottom_Slot// Munnir
-.stringn "あとのことは、"
+.stringn "뒷일은"
 db NewLine
-.stringn "おまえとゲラルドの二人でなんとか①しろ"
+.stringn "너랑 게럴드가 알아서 해라"
 db NewLine
 db WaitForA
 db ScrollText
 
 
 db Top_Slot// DiMaggio
-.stringn "へぇ・・・"
+.stringn "헤・・・"
 db NewLine
 
 db Bottom_Slot// Munnir
 dh PauseForTime
 db 0x10
-.stringn "心配するな"
+.stringn "걱정할 필요 없어"
 db NewLine
-.stringn "弟のキンボイスの軍と一緒に戻る"
+.stringn "동생 킴보이스랑 같이 돌아올 테니"
 db NewLine
 db WaitForA
 dh ScrollText_DBC
-.stringn "そうすりゃバーハラまで"
+.stringn "우리가 돌아오면 그땐 발할라까지"
 db NewLine
-.stringn "攻め上ってやるぜ、なんてったって"
+.stringn "치고 올라가는 거다, 어차피 지금"
 db NewLine
-.stringn "この国には今、軍隊はいないんだ"
+.stringn "이 나라에 군대라곤 없어"
 db WaitForA
 db ScrollText
 
-.stringn "俺達のしたいほうだいだぜ"
+.stringn "우리 마음대로 해도 된다는 거지"
 db NewLine
 db WaitForA
 db ScrollText
 
 
 db Top_Slot// DiMaggio
-.stringn "へい、わか①りやした、お任せを！"
+.stringn "예이, 알겠습니다요. 맡겨만 주십쇼!"
 db NewLine
 db WaitForA
 db EndText
@@ -503,15 +504,15 @@ dh LoadPortrait
 dh 0x0048//Cimbaeth
 
 db Top_Slot// Munnir
-.stringn "グランベルの連中が入って来ねぇように"
+.stringn "그란벨 놈들이 건너오지 못하게"
 db NewLine
-.stringn "橋を落としておけ！"
+.stringn "다리를 끊어라!"
 db NewLine
 
 db Bottom_Slot// Cimbaeth
 dh PauseForTime
 db 0x10
-.stringn "へい、わか①りました"
+.stringn "예, 알겠습니다"
 db NewLine
 db WaitForA
 db EndText
@@ -533,9 +534,9 @@ dh LoadPortrait
 dh 0x0017//Edain
 
 db Top_Slot// Munnir
-.stringn "てめぇ、グズグズするんじゃねぇ！"
+.stringn "발이 그렇게 느려서 어디 쓰겠냐!"
 db NewLine
-.stringn "さっさと歩くんだ！！"
+.stringn "빨리 오라고!!"
 db NewLine
 
 db Bottom_Slot// Edain
@@ -556,11 +557,11 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0041//DiMaggio
-.stringn "行け、野郎ども！"
+.stringn "가자, 이놈들아!"
 db NewLine
-.stringn "つぎはシアルフィだ！"
+.stringn "다음은 시알피다!"
 db NewLine
-.stringn "ついでに村のお宝もまきあげてこい！"
+.stringn "마을도 잊지 말고 챙겨라!"
 db WaitForA
 db EndText
 
@@ -581,64 +582,64 @@ dh LoadPortrait
 dh 0x0011//Ethlyn
 
 db Top_Slot// Quan
-.stringn "問にあったようだな、シグルドは無事か？"
+.stringn "제때 온 모양이군, 시구르드는 무사한가?"
 db NewLine
 
 db Bottom_Slot// Ethlyn
 dh PauseForTime
 db 0x10
-.stringn "ええ、兄ならきっと大丈夫"
+.stringn "네, 오라버니라면 괜찮을 거예요"
 db NewLine
-.stringn "でも、兄の側には"
+.stringn "하지만 오라버니의 곁엔"
 db NewLine
-.stringn "魔法を使える者がいないから、"
+.stringn "마법을 쓸 줄 아는 사람이 없으니까,"
 db WaitForA
 dh ScrollText_DBC
-.stringn "きっと困っていると思います"
+.stringn "분명 곤란해하고 있겠죠"
 db NewLine
-.stringn "私のライブで助けてあげたい・・・"
+.stringn "제 라이브로 도와줘야 해요・・・"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "ごめんなさい⑫キュアン"
+.stringn "미안해요, 큐안"
 db NewLine
-.stringn "あなたまで、戦わせて"
+.stringn "당신까지 말려들게 해서"
 db WaitForA
 db ScrollText
 
-.stringn "私はレンスター家に嫁いだ身、"
+.stringn "저는 이미 렌스터에 시집간 몸,"
 db NewLine
-.stringn "もうシアルフィの人問ではないけれど、"
+.stringn "더 이상 시알피 집안 사람이 아닌데도"
 db NewLine
-.stringn "黙って見ているのがつらくて・・・"
+.stringn "가만히 두고볼 수가 없어서・・・"
 db WaitForA
 db ScrollText
 
-.stringn "兄に代わって、お礼を言います"
+.stringn "오라버니 몫까지 사과할게요"
 db NewLine
 db WaitForA
 db ScrollText
 
 
 db Top_Slot// Quan
-.stringn "礼など無用だ、エスリン"
+.stringn "사과는 필요 없어, 에슬린"
 db NewLine
-.stringn "シグルドは私にとっても、大切な親友"
+.stringn "시구르드는 내게 있어서도 소중한 친구지"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "まして、おまえを妻にした今では、"
+.stringn "그리고 널 아내로 들인 지금"
 db NewLine
-.stringn "彼は私の義兄でもある"
+.stringn "그는 내 처남이기도 해"
 db NewLine
-.stringn "おまえ一人を戦わせはしない"
+.stringn "너 혼자만 싸우게 둘 순 없어"
 
 db Bottom_Slot// Ethlyn
 dh PauseForTime
 db 0x10
-.stringn "ありがとう・・・キュアン"
+.stringn "고마워요・・・ 큐안"
 db NewLine
 db WaitForA
 dh ScrollText_DBC
@@ -649,11 +650,11 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0005//Finn
-.stringn "急ぎましょう、"
+.stringn "서두르죠,"
 db NewLine
-.stringn "キュアン様、エスリン様"
+.stringn "큐안 님, 에슬린 님"
 db NewLine
-.stringn "おそらく、このすぐ先が戦場でしょう"
+.stringn "아마 바로 앞이 전장일 겁니다"
 db WaitForA
 db EndText
 
@@ -667,11 +668,11 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0041//DiMaggio
-.stringn "来やがったな、"
+.stringn "한꺼번에 덤벼라,"
 db NewLine
-.stringn "グランベルの腰抜けどもめ"
+.stringn "그란벨의 겁쟁이들아"
 db NewLine
-.stringn "俺様がまとめて片付けてやる！"
+.stringn "내 손으로 죽여주마!"
 db WaitForA
 db EndText
 
@@ -692,9 +693,9 @@ dh LoadPortrait
 dh 0x0001//Sigurd
 
 db Top_Slot// Oifey
-.stringn "シグルド様、"
+.stringn "시구르드 님,"
 db NewLine
-.stringn "若い騎士が倒れています！"
+.stringn "젊은 기사가 쓰러져 있습니다!"
 db NewLine
 db WaitForA
 db ScrollText
@@ -708,52 +709,52 @@ dh LoadPortrait
 dh 0x0007//Midir
 
 db Bottom_Slot// Sigurd
-.stringn "ん・・・・・？"
+.stringn "음・・・・・?"
 db NewLine
-.stringn "あっ、きみはミデェールじゃないか"
+.stringn "아니, 너는 미데일이 아니냐?"
 db NewLine
-.stringn "どうした、しっか①りしろ！"
+.stringn "어떻게 된 거지? 정신 차려!"
 db WaitForA
 db ScrollText
 
 
 db Top_Slot// Midir
-.stringn "ううっ・・・・・あなたは・・・"
+.stringn "으으・・・・・ 당신은・・・"
 db NewLine
-.stringn "・・・・・シグルド様"
-db NewLine
-
-db Bottom_Slot// Sigurd
-dh PauseForTime
-db 0x10
-.stringn "ミデェール、大丈夫か！？"
-db NewLine
-.stringn "エーディンはどうしたんだ？"
-db NewLine
-db WaitForA
-
-db Top_Slot// Midir
-dh ScrollText_DBC
-.stringn "わか①りません、たぶんガンドルフに・・・・"
+.stringn "・・・・・시구르드 님?"
 db NewLine
 
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn "そうか・・・・・心配するなミデェール"
+.stringn "미데일, 몸은 괜찮아!?"
 db NewLine
-.stringn "エーディンは、私が取り返す"
+.stringn "에딘은 어디로 갔지?"
 db NewLine
-.stringn "きみは安心して体をいやせ"
 db WaitForA
 
 db Top_Slot// Midir
 dh ScrollText_DBC
-.stringn "いえ、シグルド様、私も行きます"
+.stringn "모르겠습니다, 아마 간돌프에게・・・・"
 db NewLine
-.stringn "エーディン様が気がか①りで"
+
+db Bottom_Slot// Sigurd
+dh PauseForTime
+db 0x10
+.stringn "그렇군・・・・・ 걱정 마라, 미데일"
 db NewLine
-.stringn "とても休んでなどおれません！"
+.stringn "에딘은 내가 되찾아 오마"
+db NewLine
+.stringn "너는 안심하고 쉬고 있어"
+db WaitForA
+
+db Top_Slot// Midir
+dh ScrollText_DBC
+.stringn "아뇨, 시구르드 님, 저도 가겠습니다"
+db NewLine
+.stringn "에딘 님이 걱정되어"
+db NewLine
+.stringn "도저히 쉴 수가 없습니다!"
 db WaitForA
 db EndText
 
@@ -767,17 +768,17 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0040//Gerrard
-.stringn "なに、デマジオがしくじっただと！？"
+.stringn "뭐, 데마지오가 당했다고!?"
 db NewLine
-.stringn "ガンドルフ王子に城を任されていながら、"
+.stringn "간돌프 왕자님께 부탁받고도 실패하다니,"
 db NewLine
-.stringn "なんの役にも立たねぇ奴だ！"
+.stringn "하여튼 쓸모없는 놈이라니까!"
 db WaitForA
 db ScrollText
 
-.stringn "くそ、ユン川の橋をなおして"
+.stringn "제기랄, 윤 강의 다리를 내려라!"
 db NewLine
-.stringn "もう一度攻め込むぞ！"
+.stringn "다시 한 번 공격하는 거다!"
 db WaitForA
 db EndText
 
@@ -798,9 +799,9 @@ dh LoadPortrait
 dh 0x0001//Sigurd
 
 db Top_Slot// Oifey
-.stringn "シグルド様、"
+.stringn "시구르드 님,"
 db NewLine
-.stringn "バーハラから国王の使者がこられました"
+.stringn "발할라에서 사자가 왔습니다"
 db NewLine
 db WaitForA
 db ClearText
@@ -811,48 +812,48 @@ db Top_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x027A//Filat
-.stringn "シグルド殿、"
+.stringn "시구르드 공,"
 db NewLine
-.stringn "このたびの戦い見事でありました"
+.stringn "그간의 싸움 실로 훌륭했습니다"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "国王もいたく喜ばれ"
+.stringn "폐하께서도 크게 기뻐하여 그대에게"
 db NewLine
-.stringn "そなたに王国聖騎士の称号を下された"
+.stringn "왕국 성기사의 칭호를 내리셨습니다"
 db NewLine
 
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn "身にあまる光栄、"
+.stringn "분에 넘치는 영광,"
 db NewLine
-.stringn "陛下へのさらなる忠誠をちかいます"
+.stringn "폐하께 더욱 충성을 바치겠습니다"
 db NewLine
 db WaitForA
 
 db Top_Slot// Filat
 dh ScrollText_DBC
-.stringn "それと、これは重要なことですが、"
+.stringn "그리고 한 가지 알려드리자면,"
 db NewLine
-.stringn "城を敵に奪われてはなりません"
+.stringn "성을 적에게 빼앗겨선 안 됩니다"
 db NewLine
-.stringn "最後まで城が残っていれば、"
+.stringn "성을 전투가 끝날 때까지 사수한다면"
 db WaitForA
 db ScrollText
 
-.stringn "あなた達は軍用金を得られますが、"
+.stringn "그에 합당한 군자금을 얻을 수 있겠지만,"
 db NewLine
-.stringn "敵によって破壊されるごとに、"
+.stringn "적에게 파괴되어 버린다면"
 db NewLine
-.stringn "その額は少なくなってしまいます"
+.stringn "액수가 적어져 곤란해질 테니까요"
 db WaitForA
 db ScrollText
 
-.stringn "今後の戦いにおいても、"
+.stringn "이후 전투에서도"
 db NewLine
-.stringn "どうかお気をつけ下さい"
+.stringn "주의하며 나아가 주십시오"
 db NewLine
 db WaitForA
 db EndText
@@ -867,11 +868,11 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x004D//Munnir
-.stringn "てめえら、こんなちっぽけな城に"
+.stringn "너희들, 이런 조그만 성에서"
 db NewLine
-.stringn "いつまでかかってやがるんでぇ"
+.stringn "언제까지 시간을 끌 셈이냐!"
 db NewLine
-.stringn "しゃあねえな・・・・・おれがやってやる"
+.stringn "또 내가 나설 수밖에 없겠군・・・・・"
 db WaitForA
 db EndText
 
@@ -885,9 +886,9 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0040//Gerrard
-.stringn "グランベルの犬め、"
+.stringn "그란벨의 개들아,"
 db NewLine
-.stringn "くたばれ！"
+.stringn "죽어라!"
 db NewLine
 db WaitForA
 db EndText
@@ -909,50 +910,50 @@ dh LoadPortrait
 dh 0x0040//Gerrard
 
 db Top_Slot// Munnir
-.stringn "おい、ゲラルド"
+.stringn "어이, 게럴드"
 db NewLine
-.stringn "おれはマーファ城に帰る"
+.stringn "난 마파로 돌아가겠다"
 db NewLine
-.stringn "この城はおまえに任すからしっか①り守れよ"
+.stringn "이 성은 너한테 맡기마, 제대로 지켜"
 
 db Bottom_Slot// Gerrard
 dh PauseForTime
 db 0x10
-.stringn "へい、分か①りました"
+.stringn "예이, 알겠습니다"
 db NewLine
-.stringn "しか①しガンドルフ王子、"
+.stringn "그런데 간돌프 왕자님"
 db NewLine
-.stringn "その女は誰なんです？"
+.stringn "그 여자는 뭡니까?"
 db WaitForA
 
 db Top_Slot// Munnir
 dh ScrollText_DBC
-.stringn "おれの戦利品よ"
+.stringn "내 전리품이다"
 db NewLine
-.stringn "マーファに連れ帰って妻にする"
+.stringn "마파로 돌아가 아내로 삼겠어"
 db NewLine
-.stringn "どうだ、いい女だろう"
+.stringn "어때, 괜찮지?"
 
 db Bottom_Slot// Gerrard
 dh PauseForTime
 db 0x10
-.stringn "へえ、"
+.stringn "헤헤,"
 db NewLine
-.stringn "思わずよだれがでそうになりますぜ"
+.stringn "침이 절로 고이는데요"
 db NewLine
 db WaitForA
 
 db Top_Slot// Munnir
 dh ScrollText_DBC
-.stringn "ばかめ、ものほしそうな顔をするな"
+.stringn "멍청한 놈, 부러운 표정 지을 필요 없어"
 db NewLine
-.stringn "グランベルを占領したら"
+.stringn "그란벨을 점령하고 나면"
 db NewLine
-.stringn "おまえにも、好きなだけくれてやる"
+.stringn "너한테도 질릴 만큼 던져주지"
 db WaitForA
 db ScrollText
 
-.stringn "それまではがまんしろ"
+.stringn "그때까지만 참으라고"
 db NewLine
 
 db Bottom_Slot// Gerrard
@@ -963,18 +964,18 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0017//Edain
-.stringn "あなた達はケダモノ①です"
+.stringn "당신들은 짐승이로군요"
 db NewLine
-.stringn "・・・神よ、どうかこの者たちに"
+.stringn "・・・신이시여, 부디 이 사람들에게"
 db NewLine
-.stringn "人問としての心を・・・"
+.stringn "인간다운 마음을・・・"
 db WaitForA
 
 db Top_Slot// Munnir
 dh ScrollText_DBC
-.stringn "なにをぶつぶつ言ってやがるんでぇ"
+.stringn "뭐라고 궁시렁대는 거야?"
 db NewLine
-.stringn "さあ、行くぜ！⑫グズグズするな！！"
+.stringn "자, 가자! 꾸물대지 마라!!"
 db NewLine
 db WaitForA
 db EndText
@@ -996,99 +997,99 @@ dh LoadPortrait
 dh 0x000E//Lex
 
 db Top_Slot// Azelle
-.stringn "レックス、なんとか問にあったようだね"
+.stringn "렉스, 제때 맞춘 것 같아"
 db NewLine
 
 db Bottom_Slot// Lex
 dh PauseForTime
 db 0x10
-.stringn "ああ、シグルド公子も"
+.stringn "그래, 시구르드 공자도 지금쯤"
 db NewLine
-.stringn "ヴェルダンの大軍を相手に"
+.stringn "베르던의 대군이 상대라"
 db NewLine
-.stringn "苦戦しているようだな"
+.stringn "고생하고 있을 거야"
 db WaitForA
 dh ScrollText_DBC
-.stringn "俺達が行けばきっと喜ぶだろう"
+.stringn "우리가 가면 기뻐하겠지"
 db NewLine
-.stringn "しか①しおまえも物好きな奴だ"
+.stringn "하지만 너도 참 별난 녀석이다"
 db NewLine
-.stringn "別に、ほうっておけば良いものを"
+.stringn "그냥 내버려 둬도 잘 해결될 텐데"
 db WaitForA
 db ScrollText
 
 
 db Top_Slot// Azelle
-.stringn "我が国の主力部隊はイザークへの遠征で"
+.stringn "이자크 원정 때문에 우리 나라에는"
 db NewLine
-.stringn "国にはほとんど残っていない"
+.stringn "남아 있는 병력이 거의 없어"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "シグルド公子は"
+.stringn "시구르드 공자는"
 db NewLine
-.stringn "シアルフィに残ったわずかな兵だけで"
+.stringn "시알피에 남은 몇 안 되는 군사로"
 db NewLine
-.stringn "決死の戦いをしようとしている"
+.stringn "결사의 항전을 하고 있다고"
 db WaitForA
 db ScrollText
 
-.stringn "見捨ててはおけないよ"
+.stringn "보고만 있을 수는 없잖아"
 db NewLine
 
 db Bottom_Slot// Lex
 dh PauseForTime
 db 0x10
-.stringn "ふっ・・・"
+.stringn "훗・・・"
 db NewLine
-.stringn "お前もあいかわらず、すなおじゃねえな"
+.stringn "솔직하지 못하다니까"
 db NewLine
-.stringn "理由はそれだけじゃないだろう"
+.stringn "이유는 그것뿐만이 아니잖아?"
 db WaitForA
 
 db Top_Slot// Azelle
 dh ScrollText_DBC
-.stringn "な、なんだよ！"
+.stringn "뭐, 뭐가!"
 db NewLine
 
 db Bottom_Slot// Lex
 dh PauseForTime
 db 0x10
-.stringn "ユングヴィのエーディン公女が"
+.stringn "잉그비의 에딘 공녀가 걱정되는 거겠지"
 db NewLine
-.stringn "心配なんだろう、おまえが彼女の事を"
+.stringn "네가 걔를 좋아한다는 건"
 db NewLine
-.stringn "好きなのは知ってるぜ"
+.stringn "다 알고 있다고"
 db WaitForA
 
 db Top_Slot// Azelle
 dh ScrollText_DBC
-.stringn "バ、バカを言うな！"
+.stringn "마, 말도 안 되는 소리 하지 마!"
 db NewLine
 
 db Bottom_Slot// Lex
 dh PauseForTime
 db 0x10
-.stringn "ほら、もう顔が赤くなってる"
+.stringn "저 봐, 얼굴 다 빨개졌네"
 db NewLine
-.stringn "はは、可愛い奴だ"
+.stringn "하하, 귀여운 녀석"
 db NewLine
 db WaitForA
 
 db Top_Slot// Azelle
 dh ScrollText_DBC
-.stringn "レ、レックス！⑫いい加減にしろよ！"
+.stringn "레, 렉스! 적당히 해!"
 db NewLine
-.stringn "ぼくはもう行くぞ"
+.stringn "난 이제 갈 거야"
 db NewLine
 
 db Bottom_Slot// Lex
 dh PauseForTime
 db 0x10
-.stringn "ははは、わかったよ、ここはひとつ"
+.stringn "하하하, 알았어. 간만에"
 db NewLine
-.stringn "俺様の力を見せてやるとするか"
+.stringn "실력 행사 좀 해 볼까?"
 db NewLine
 db WaitForA
 db EndText
@@ -1110,35 +1111,35 @@ dh LoadPortrait
 dh 0x0001//Sigurd
 
 db Top_Slot// Oifey
-.stringn "シグルド様、"
+.stringn "시구르드 님,"
 db NewLine
-.stringn "城内くまなく深したのですが"
+.stringn "성내를 수색해 봤지만"
 db NewLine
-.stringn "エーディン様の姿は見あたりません"
+.stringn "에딘 님의 모습이 보이지 않습니다"
 
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn "なにっ・・・エーディンはいったいどこに・・・"
+.stringn "뭐라고・・・ 에딘은 대체 어디에・・・"
 db NewLine
 db WaitForA
 
 db Top_Slot// Oifey
 dh ScrollText_DBC
-.stringn "おそらく城が落ちる前に"
+.stringn "아마 성이 함락되기 전에"
 db NewLine
-.stringn "ヴェルダンに連れ去られたのでしょう"
+.stringn "베르던으로 데려간 것 같아요"
 db NewLine
-.stringn "・・・ご無事だとよいのですが"
+.stringn "・・・무사하시면 좋을 텐데"
 
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn "くっ・・・許せない・・・"
+.stringn "큭・・・ 용서 못 해・・・"
 db NewLine
-.stringn "やつらがエーディンを返さないかぎり"
+.stringn "놈들이 에딘을 반환하기 전까진"
 db NewLine
-.stringn "どこまでも追いかけるぞ"
+.stringn "어디까지라도 추격하겠어"
 db WaitForA
 db EndText
 
@@ -1159,35 +1160,35 @@ dh LoadPortrait
 dh 0x0001//Sigurd
 
 db Top_Slot// Oifey
-.stringn "シグルド様、"
+.stringn "시구르드 님,"
 db NewLine
-.stringn "城内くまなく深したのですが"
+.stringn "성내를 수색해 봤지만"
 db NewLine
-.stringn "エーディン様の姿は見あたりません"
+.stringn "에딘 님의 모습이 보이지 않습니다"
 
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn "なにっ・・・エーディンはいったいどこに・・・"
+.stringn "뭐라고・・・ 에딘은 대체 어디에・・・"
 db NewLine
 db WaitForA
 
 db Top_Slot// Oifey
 dh ScrollText_DBC
-.stringn "おそらく城が落ちる前に"
+.stringn "아마 성이 함락되기 전에"
 db NewLine
-.stringn "ヴェルダンに連れ去られたのでしょう"
+.stringn "베르던으로 데려간 것 같아요"
 db NewLine
-.stringn "・・・ご無事だとよいのですが"
+.stringn "・・・무사하시면 좋을 텐데"
 
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn "くっ・・・許せない・・・"
+.stringn "큭・・・ 용서 못 해・・・"
 db NewLine
-.stringn "やつらがエーディンを返さないかぎり"
+.stringn "놈들이 에딘을 반환할 때까진"
 db NewLine
-.stringn "どこまでも追いかけるぞ"
+.stringn "어디까지라도 쫓아가겠어!"
 db WaitForA
 db EndText
 
@@ -1208,16 +1209,16 @@ dh LoadPortrait
 dh 0x0001//Sigurd
 
 db Top_Slot// Oifey
-.stringn "シグルド様、お休みになりましたら"
+.stringn "시구르드 님, 충분히 쉬셨다면"
 db NewLine
-.stringn "街の人々ともお会いになって下さい"
+.stringn "마을 사람들을 만나보는 건 어떨까요?"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "シグルド様の元気なお姿を見れば"
+.stringn "시구르드 님의 건강한 모습을 본다면"
 db NewLine
-.stringn "街の人々も安心すると思います"
+.stringn "분명 사람들도 안심할 거예요"
 db NewLine
 db WaitForA
 db EndText
@@ -1232,23 +1233,23 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x02AD//Male Villager
-.stringn "ああ、これはよくおいで下さいました"
+.stringn "아아, 와 주셔서 감사합니다"
 db NewLine
-.stringn "これでこの村も救われます"
-db NewLine
-db WaitForA
-db ScrollText
-
-.stringn "この金は村人達から集めたもの、"
-db NewLine
-.stringn "わずか①ですが戦いのお役に立てて下さい"
+.stringn "우리 마을은 이제 살았어요"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "他の村も助ける事ができれば"
+.stringn "이 돈은 마을 사람들이 모은 겁니다"
 db NewLine
-.stringn "きっとあなた達に恊力すると思いますよ"
+.stringn "조금이지만 싸움에 보탬이 되면 좋겠네요"
+db NewLine
+db WaitForA
+db ScrollText
+
+.stringn "다른 마을도 구해주기만 한다면"
+db NewLine
+.stringn "분명 당신들에게 협력할 거예요"
 db NewLine
 db WaitForA
 db EndText
@@ -1263,31 +1264,31 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x02AB//Old villager
-.stringn "よくききなされ、剣は斧には強く、"
+.stringn "잘 듣게나, 검은 도끼에 강하고"
 db NewLine
-.stringn "斧は槍には強く、槍は剣に強い"
-db NewLine
-db WaitForA
-db ScrollText
-
-.stringn "この組み合わせを"
-db NewLine
-.stringn "よく、かんがえて戦いなされよ"
+.stringn "도끼는 창에, 창에는 검에 강하다네"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "そして、もし傷ついたら"
+.stringn "이 상성을"
 db NewLine
-.stringn "教会へいくとよい"
+.stringn "잘 생각해서 싸우는 게 좋겠지"
 db NewLine
-.stringn "少し休むだけでたちまち完治するぞ"
 db WaitForA
 db ScrollText
 
-.stringn "ただ①し、タダというわけにはいかぬ"
+.stringn "그리고 상처를 입었을 땐"
 db NewLine
-.stringn "１ｈ①ｐにつき、５ゴールド必要じゃ"
+.stringn "교회로 가게나"
+db NewLine
+.stringn "조금만 쉬어도 완치될 게야"
+db WaitForA
+db ScrollText
+
+.stringn "하지만 공짜는 아닐세"
+db NewLine
+.stringn "1HP당 5골드가 필요하지"
 db NewLine
 db WaitForA
 db EndText
@@ -1302,25 +1303,25 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x02AE//Madam Villager
-.stringn "この地を治めるシアルフィ公爵家は、"
+.stringn "이 땅을 다스리는 시알피 공작가는"
 db NewLine
-.stringn "代々、剣の使い手として有名なんだよ"
-db NewLine
-db WaitForA
-db ScrollText
-
-.stringn "なにしろ、"
-db NewLine
-.stringn "光神バルドの血をひいておられるからね"
+.stringn "대대로 검의 달인이라고 유명해"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "ヴェルダンの蛮族なんて、バイロン様の"
+.stringn "역시"
 db NewLine
-.stringn "聖剣ティルフィングさえあれば"
+.stringn "빛의 신 발드의 피를 이어받아서일까?"
 db NewLine
-.stringn "あっという問にやっつけられるのにねぇ"
+db WaitForA
+db ScrollText
+
+.stringn "베르던의 야만족 따윈,"
+db NewLine
+.stringn "바이런 님의 성검 튀르핑만 있다면"
+db NewLine
+.stringn "한주먹거리도 안 됐을 텐데!"
 db WaitForA
 db EndText
 
@@ -1334,36 +1335,36 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x02AB//Old villager
-.stringn "このユングヴィは、弓にたけた家柄"
+.stringn "잉그비는 활솜씨가 좋은 집안이지"
 db NewLine
-.stringn "公爵家の方々は、弓神ウルの子孫じゃ"
-db NewLine
-db WaitForA
-db ScrollText
-
-.stringn "リング公爵には双子の妹妹と"
-db NewLine
-.stringn "その下に男の子がいたが、"
+.stringn "공작가 사람들은 활의 신 울르의 자손이라네"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "双子の妹の方は幼いときに"
+.stringn "링 공작에겐 쌍둥이 딸과"
 db NewLine
-.stringn "海賊にさらわれて今も行方不明だという"
+.stringn "그 밑으로 아들 하나가 있는데,"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "エーディン様の弟君のアンドレイ様は"
+.stringn "쌍둥이의 언니 쪽은 어릴 적에"
 db NewLine
-.stringn "父君リング公爵とともに遠征中だが"
+.stringn "해적에게 붙잡혀 지금은 행방불명일세"
 db NewLine
-.stringn "あまりよいうわさはきかんのぉ"
 db WaitForA
 db ScrollText
 
-.stringn "親子の開係も冷めているらしいぞ・・・"
+.stringn "에딘 님의 동생인 안드레이 님은"
+db NewLine
+.stringn "부군이신 링 공작과 함께 원정 중인데,"
+db NewLine
+.stringn "썩 좋은 소식은 들리지 않아"
+db WaitForA
+db ScrollText
+
+.stringn "부자 관계도 식어가는 게지・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1378,25 +1379,25 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x02AC//Grandma Villager
-.stringn "おおっ、やっと助けにきてくれたのかえ"
+.stringn "오오, 구하러 와 줬구나"
 db NewLine
-.stringn "もうだめかとおもっとったぞ"
+.stringn "이젠 틀렸다고 생각하던 참이었어"
 db NewLine
-.stringn "お礼にこのリングをそなたにやろう"
+.stringn "답례로 이 링을 주마"
 db WaitForA
 db ScrollText
 
-.stringn "これはスピードリングと言ってな"
+.stringn "이건 스피드 링이라고"
 db NewLine
-.stringn "身につけるだけですばやさがあがる"
+.stringn "갖고만 있어도 몸이 재빨라지는"
 db NewLine
-.stringn "不思議なうでわなのじゃ"
+.stringn "신비한 팔찌란다"
 db WaitForA
 db ScrollText
 
-.stringn "ほれ、つけてごらん、これで敵の攻撃も"
+.stringn "자, 가져가렴"
 db NewLine
-.stringn "当たりにくくなる筈じゃよ"
+.stringn "적의 공격을 피하기 쉬워질 거야"
 db NewLine
 db WaitForA
 db EndText
@@ -1411,17 +1412,17 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x00B1//Arvis
-.stringn "国王陛下から"
+.stringn "국왕 폐하께서"
 db NewLine
-.stringn "様子を見てくるように言われたが"
+.stringn "상태를 지켜보라고 말씀하시긴 했다만"
 db NewLine
-.stringn "蛮族相手に、こうも手こずるとはな"
+.stringn "야만족 상대로 이렇게나 고전하다니"
 db WaitForA
 db ScrollText
 
-.stringn "シグルド・・・"
+.stringn "시구르드・・・"
 db NewLine
-.stringn "貴様もしょせんはそのていどの男か・・・"
+.stringn "네놈도 결국 그 정도의 사내인가?"
 db NewLine
 db WaitForA
 db EndText
@@ -1443,116 +1444,116 @@ dh LoadPortrait
 dh 0x0001//Sigurd
 
 db Top_Slot// Arvis
-.stringn "シグルド公子、久しぶりだな"
+.stringn "시구르드 공자, 오랜만이군"
 db NewLine
 
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn "アルヴィス卿！？⑫どうしてあなたが・・・"
+.stringn "알비스 경!?"
 db NewLine
 db WaitForA
 
 db Top_Slot// Arvis
 dh ScrollText_DBC
-.stringn "陛下が心配されてな"
+.stringn "폐하께서 걱정하고 계신다"
 db NewLine
-.stringn "私に見てくるよう命じられた"
+.stringn "내게 지켜보고 오라고 명하시더군"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "それと、"
+.stringn "그리고,"
 db NewLine
-.stringn "これは陛下からくだされたものだ"
+.stringn "이건 폐하께서 보내신 것이다"
 db NewLine
-.stringn "受け取ってくれ"
+.stringn "받아주게"
 
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn "これは銀の剣！"
+.stringn "이것은 은의 검!"
 db NewLine
-.stringn "・・・陛下がこれを私に・・・"
+.stringn "・・・폐하께서 이걸 제게・・・"
 db NewLine
-.stringn "ああ、なんと名誉なことだ"
+.stringn "아아, 이리 명예로울 데가"
 db WaitForA
 dh ScrollText_DBC
-.stringn "アルヴィス卿、陛下には"
+.stringn "알비스 경, 폐하께"
 db NewLine
-.stringn "シグルドが感謝していたと"
+.stringn "시구르드가 감사하더라고"
 db NewLine
-.stringn "お伝えして下さい"
+.stringn "전해 주십시오"
 db WaitForA
 db ScrollText
 
 
 db Top_Slot// Arvis
-.stringn "承知した、ところでシグルド"
+.stringn "그러지, 그건 그렇고 시구르드"
 db NewLine
-.stringn "弟のアゼルが君の軍に"
+.stringn "동생 아젤이 자네 군에"
 db NewLine
-.stringn "加わっているときいたが本当なのか"
+.stringn "합류했다고 들었다만 사실인가?"
 
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn "すみません、黙って来たようでしたが"
+.stringn "죄송합니다, 몰래 온 건 알았지만"
 db NewLine
-.stringn "追い返せなかった"
+.stringn "미처 돌려보내지 못했습니다"
 db NewLine
 db WaitForA
 dh ScrollText_DBC
-.stringn "できればしばらく"
+.stringn "가능하다면 당분간은"
 db NewLine
-.stringn "わが軍にいてほしいのですが"
+.stringn "제 군에서 맡아 두고 싶습니다"
 db NewLine
 db WaitForA
 db ScrollText
 
 
 db Top_Slot// Arvis
-.stringn "そうか・・・いや、無事ならいいんだ"
+.stringn "그래・・・ 아니, 무사하다면 됐네"
 db NewLine
-.stringn "アゼルは母親こそちがうが"
+.stringn "아젤은 어머니는 다르지만"
 db NewLine
-.stringn "私にとって、たった一人の大事な弟"
+.stringn "내겐 하나뿐인 소중한 동생이라"
 db WaitForA
 db ScrollText
 
-.stringn "できれば側にいてほしいが、"
+.stringn "가능하다면 곁에 두고 싶지만,"
 db NewLine
-.stringn "やむをえぬだろう・・・"
+.stringn "어쩔 수 없겠지・・・"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "シグルド、アゼルの事をたのむ"
+.stringn "시구르드, 아젤을 잘 부탁하네"
 db NewLine
-.stringn "いろいろと教えてやってくれ"
+.stringn "부디 여러 가지를 가르쳐 주게"
 db NewLine
 
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn "お任せ下さい"
+.stringn "맡겨 주십시오"
 db NewLine
-.stringn "この戦いが終われば私からも"
+.stringn "이 싸움만 끝나면 제 쪽에서도"
 db NewLine
-.stringn "戻るように説得してみます"
+.stringn "돌아가라고 설득해 보겠습니다"
 db WaitForA
 
 db Top_Slot// Arvis
 dh ScrollText_DBC
-.stringn "それをきいて安心した"
+.stringn "그걸 들으니 안심이 되는군"
 db NewLine
-.stringn "では私は王都バーハラにもどる"
+.stringn "그럼 난 발할라로 돌아가겠네"
 db NewLine
-.stringn "陛下をお守りせねばならぬからな"
+.stringn "폐하를 지켜야 하니까 말이야"
 db WaitForA
 db ScrollText
 
-.stringn "シグルド、あとは頼ん①だぞ"
+.stringn "시구르드, 뒷일을 부탁하지"
 db NewLine
 db WaitForA
 db EndText
@@ -1574,82 +1575,82 @@ dh LoadPortrait
 dh 0x0001//Sigurd
 
 db Top_Slot// Arvis
-.stringn "シグルド公子、久しぶりだな"
+.stringn "시구르드 공자, 오랜만이군"
 db NewLine
 
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn "アルヴィス卿！？"
+.stringn "알비스 경!?"
 db NewLine
-.stringn "・・・・どうしてあなたが・・・"
+.stringn "・・・・어째서 당신이・・・"
 db NewLine
 db WaitForA
 
 db Top_Slot// Arvis
 dh ScrollText_DBC
-.stringn "陛下が心配されてな"
+.stringn "폐하께서 걱정하고 계신다"
 db NewLine
-.stringn "私に見てくるよう命じられた"
+.stringn "내게 지켜보고 오라고 명하시더군"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "それと、これは陛下がくだされたものだ"
+.stringn "그리고 이건 폐하께서 보내신 것이다"
 db NewLine
-.stringn "受け取ってくれ"
+.stringn "받아주게"
 db NewLine
 
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn "これは銀の剣！"
+.stringn "이것은 은의 검!"
 db NewLine
-.stringn "・・・陛下がこれを私に・・・"
+.stringn "・・・폐하께서 이걸 제게・・・"
 db NewLine
-.stringn "ああ、なんと名誉なことだ"
+.stringn "아아, 이리 명예로울 데가"
 db WaitForA
 dh ScrollText_DBC
-.stringn "アルヴィス卿、陛下には"
+.stringn "알비스 경, 폐하께"
 db NewLine
-.stringn "シグルドが感謝していたと"
+.stringn "시구르드가 감사하더라고"
 db NewLine
-.stringn "お伝えして下さい"
+.stringn "전해 주십시오"
 db WaitForA
 db ScrollText
 
 
 db Top_Slot// Arvis
-.stringn "承知した、ところでシグルド"
+.stringn "그러지, 그건 그렇고 시구르드"
 db NewLine
-.stringn "弟のアゼルが、きみの軍に"
+.stringn "동생 아젤이 자네 군에"
 db NewLine
-.stringn "加わっているときいたが無事でいるか"
+.stringn "합류했다고 들었다만 잘 지내고 있나?"
 
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn "それが・・・アゼルは・・・"
+.stringn "그게・・・ 아젤은・・・"
 db NewLine
 db WaitForA
 
 db Top_Slot// Arvis
 dh ScrollText_DBC
-.stringn "戦死したということか"
+.stringn "설마 전사했다는 말인가?"
 db NewLine
 
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn "すみません"
+.stringn "죄송합니다"
 db NewLine
-.stringn "私の力が足りないばか①りに・・・"
+.stringn "제 힘이 부족했던 바람에・・・"
 db NewLine
 db WaitForA
 
 db Top_Slot// Arvis
 dh ScrollText_DBC
-.stringn "アゼル・・・ばかな弟だ・・・"
+.stringn "아젤・・・ 이 멍청한 녀석・・・"
 db NewLine
 db WaitForA
 db EndText

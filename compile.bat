@@ -5,6 +5,11 @@ echo install gfx
 asar gfx/_GfxInstall.asm fe4_trans.sfc 
 
 echo conver text
+cd dialogue_text
+if not exist convert (
+    mkdir convert
+)
+cd ..
 "tools/textconv.py" dialogue_text/CastleName.asm    dialogue_text/convert/CastleName.asm
 "tools/textconv.py" dialogue_text/Chapternumber.asm dialogue_text/convert/Chapternumber.asm
 "tools/textconv.py" dialogue_text/Chronology.asm    dialogue_text/convert/Chronology.asm

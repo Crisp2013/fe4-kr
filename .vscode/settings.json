@@ -1,0 +1,6 @@
+{
+    "search.exclude": {
+        "backup/": true,
+        "backup/dialogue_text_backup/": true
+    }
+}

@@ -16,42 +16,42 @@ db EndText
 //offset 0xddcb3
 // 0xddeb3
 Dialogue_ddcb3:
-.stringn "長らく帝国の支配下にあったシレジアでは"
+.stringn "오랫동안 제국의 지배하에 놓인 실레지아에선"
 db NewLine
 dh unknown_0086
 db NewLine
-.stringn "住民による蜂起が相次ぎ、"
+.stringn "민중들의 봉기가 잇달아 발생해"
 db NewLine
-.stringn "聖戦の勝利の後"
+.stringn "성전의 승리 이후"
 db NewLine
-.stringn "ようやく王国全土が解放された。"
+.stringn "마침내 전 국토가 해방되었다."
 db NewLine
-.stringn "だが、すでに王位を維ぐ者はなく、"
+.stringn "그러나, 이미 왕위를 이을 자는 남아있지 않았고"
 db NewLine
-.stringn "人々はセリス王に"
+.stringn "사람들은 세리스 왕에게"
 db NewLine
-.stringn "グランベルへの統合を願い出た。"
+.stringn "그란벨에 의한 통합을 요청했다."
 db NewLine
-.stringn "美しい大地と、平和を愛する人々。"
+.stringn "아름다운 대지와, 평화를 사랑하는 사람들."
 db NewLine
-.stringn "セリスは、父が愛したシレジアを愛し、"
+.stringn "세리스는 아버지가 사랑한 실레지아를 사랑해"
 db NewLine
-.stringn "荒れ果てた国土の復興に全力をつくした。"
+.stringn "황폐해진 국토의 부흥에 온 힘을 다했다."
 db NewLine
 dh unknown_0087
 dh PauseForTime
 db 0x0A
-.stringn "それは、"
+.stringn "그것은"
 db NewLine
-.stringn "父と運命を共にしたレヴィン王子と、"
+.stringn "아버지와 운명을 함께한 레빈 왕자와,"
 db NewLine
-.stringn "そして、彼の遺志を維ぐべく、"
+.stringn "그의 의지를 이어"
 db NewLine
-.stringn "この世界へとどまった"
+.stringn "이 세계에 나타난"
 db NewLine
-.stringn "異国の戦士、フォルセティへの、"
+.stringn "이국의 전사 포르세티에게 전하는"
 db NewLine
-.stringn "せめてものつぐないであったのだろうか"
+.stringn "최소한의 보답이었던 것일까."
 db NewLine
 db EndText
 
@@ -60,7 +60,7 @@ db EndText
 //offset 0xdde0c
 // 0xde00c
 Dialogue_dde0c:
-.stringn "長らく帝国の支配下にあったシレジアでは、"
+.stringn "오랫동안 제국의 지배하에 놓였던 실레지아로"
 db NewLine
 dh unknown_0086
 db NewLine
@@ -68,11 +68,11 @@ dh PauseForTime
 db 0x02
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "帰国した"
+.stringn "마침내 귀국한 "
 dh SringBuffer1 //Lover or father
-.stringn "が王位につき、"
+.stringn ", 그는 왕위를 이어"
 db NewLine
-.stringn "荒れ果てた国土の復興に力を注いでいた。"
+.stringn "황폐해진 땅의 재생에 힘을 쏟았다."
 db NewLine
 dh InsBlockText_2D //6AE00D00
 dh 0xB76C
@@ -98,13 +98,13 @@ db 0x8D //bank
 dh InsBlockText_2D //8DE00D00
 dh 0xB708
 db 0x8D //bank
-.stringn "美しい大地と、平和を愛する人々。"
+.stringn "아름다운 대지와, 평화를 사랑하는 사람들."
 db NewLine
-.stringn "レヴィンがその命をかけて守ろうとした"
+.stringn "레빈이 그 목숨을 바쳐 지켜내려 했던"
 db NewLine
-.stringn "シレジア王国は、ここにようやく、"
+.stringn "실레지아 왕국은, 마침내 이곳에"
 db NewLine
-.stringn "完成されようとしていた。"
+.stringn "완성되려 하고 있었다."
 db NewLine
 db EndText
 
@@ -113,7 +113,7 @@ db EndText
 //offset 0xddee5
 // 0xde0e5
 Dialogue_ddee5:
-.stringn "そのかたわらには、"
+.stringn "그 곁에선"
 db EndText
 
 //end 0xddef0
@@ -121,9 +121,9 @@ db EndText
 //offset 0xddef0
 // 0xde0f0
 Dialogue_ddef0:
-.stringn "たちの、"
+.stringn "등이"
 db NewLine
-.stringn "希望に満ちた笑顔があった。"
+.stringn "희망에 찬 미소를 짓고 있었다."
 db NewLine
 db EndText
 
@@ -150,7 +150,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x04, 0x68, 0x3C
-.stringn "その恋人、"
+.stringn "그 연인, "
 dh SringBuffer1 //Lover or father
 dh PauseForTime
 db 0x28
@@ -172,7 +172,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "王女"
+.stringn "왕녀 "
 dh SringBuffer1 //Lover or father
 dh PauseForTime
 db 0x28
@@ -192,7 +192,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "風の魔道士"
+.stringn "바람의 마도사 "
 dh SringBuffer1 //Lover or father
 dh InsBlockText_2D //63E10D00
 dh 0xB82A
@@ -217,7 +217,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x04, 0x68, 0x3C
-.stringn "その恋人"
+.stringn "그 연인 "
 dh SringBuffer1 //Lover or father
 db EndText
 
@@ -231,7 +231,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "天徒騎士"
+.stringn "천마 기사 "
 dh SringBuffer1 //Lover or father
 dh PauseForTime
 db 0x28
@@ -261,29 +261,29 @@ db EndText
 //offset 0xddfae
 // 0xde1ae
 Dialogue_ddfae:
-.stringn "トラキア半島は、その後を維ぐべき"
+.stringn "트라키아 반도는, 후사를 이어야 할"
 db NewLine
 dh unknown_0086
-.stringn "リーフ王子とアルテナ王女を失い、"
+.stringn "리프 왕자와 아르테나 왕녀를 잃고"
 db NewLine
-.stringn "統一の機会を失った。"
+.stringn "통일의 기회를 놓쳐 버렸다."
 db NewLine
 dh unknown_0087
 dh PauseForTime
 db 0x0A
-.stringn "人々はセリスに救いを求め、"
+.stringn "사람들은 세리스에게 도움을 요청해,"
 db NewLine
-.stringn "グランベル王国と"
+.stringn "그란벨 왕국과"
 db NewLine
-.stringn "統合される事を望んだ。"
+.stringn "통합되길 바란다고 전했다."
 db NewLine
-.stringn "セリスが王妃エスリンの甥であり、"
+.stringn "세리스가 왕비 에슬린의 조카이며,"
 db NewLine
-.stringn "また、この地方の解放者として"
+.stringn "이 지방의 해방자로서"
 db NewLine
-.stringn "人々から信頼されていたからである。"
+.stringn "사람들에게 신뢰받고 있었기 때문이다."
 db NewLine
-.stringn "セリスはこの願いをきき入れる。"
+.stringn "세리스는 그 요청을 받아들였다."
 db NewLine
 dh InsBlockText_2D //7FE20D00
 dh 0xB935
@@ -312,11 +312,11 @@ db 0x8D //bank
 dh InsBlockText_2D //A7E20D00
 dh 0xBAEB
 db 0x8D //bank
-.stringn "この後、トラキア半島は"
+.stringn "이후, 트라키아 반도는"
 db NewLine
-.stringn "グランベル王国トラキア地方として、"
+.stringn "그란벨 왕국 트라키아 지방으로서"
 db NewLine
-.stringn "平和な時代を迎えることになる。"
+.stringn "평화로운 시대를 맞이하게 된다."
 db NewLine
 db EndText
 
@@ -325,30 +325,30 @@ db EndText
 //offset 0xde0e8
 // 0xde2e8
 Dialogue_de0e8:
-.stringn "トラキア半島は統一された。"
+.stringn "트라키아 반도는 통일되었다."
 db NewLine
 dh unknown_0086
-.stringn "かつては多くの小国が乱立し"
+.stringn "과거 수많은 소국이 대립하며"
 db NewLine
-.stringn "戦いにあけくれたこの地方も、"
+.stringn "전쟁이 잇따랐던 이 지방도,"
 db NewLine
-.stringn "レンスター王国の再興と"
+.stringn "렌스터 왕국의 부흥과"
 db NewLine
-.stringn "トラキア王国の滅亡によって、"
+.stringn "트라키아 왕국의 멸망에 의해"
 db NewLine
-.stringn "ようやく平和が訪れたのである。"
+.stringn "마침내 평화가 찾아온 것이다."
 db NewLine
 dh unknown_0087
 dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "新しい国の初代国王には、"
+.stringn "새로운 나라의 초대 국왕 자리에는"
 db NewLine
 dh SringBuffer1 //Lover or father
-.stringn "が人々の熱い希望によって"
+.stringn "가 사람들의 뜨거운 희망으로"
 db NewLine
-.stringn "選ばれた。"
+.stringn "선출되어 즉위하였다."
 db NewLine
 dh InsBlockText_2D //9CE30D00
 dh 0xB91A
@@ -380,9 +380,9 @@ db 0x8D //bank
 dh InsBlockText_2D //C9E30D00
 dh 0xB8ED
 db 0x8D //bank
-.stringn "トラキア半島に生まれた新しい国、"
+.stringn "트라키아 반도에 태어난 새로운 나라."
 db NewLine
-.stringn "その名を、新トラキア王国といった。"
+.stringn "그 이름을, 신 트라키아 왕국이라 하였다."
 db NewLine
 db EndText
 
@@ -397,9 +397,9 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "アルテナは、王となったリーフの願いで、"
+.stringn "아르테나는 왕이 된 리프의 요청으로"
 db NewLine
-.stringn "旧トラキア領の復興を託された。"
+.stringn "구 트라키아령의 부흥을 맡게 되었다."
 dh PauseForTime
 db 0x14
 dh unknown_0084
@@ -407,11 +407,11 @@ db 0x02
 dh PauseForTime
 db 0x28
 db NewLine
-.stringn "そして彼女は自分をいつくしみ、"
+.stringn "자신을 사랑으로 길러준"
 db NewLine
-.stringn "育ててくれたこのトラキアの大地を"
+.stringn "이 트라키아의 대지를"
 db NewLine
-.stringn "生涯、愛し続けたという。"
+.stringn "그녀는 평생토록 사랑했다고 한다."
 db NewLine
 db EndText
 
@@ -433,7 +433,7 @@ db EndText
 //offset 0xde28f
 // 0xde48f
 Dialogue_de28f:
-.stringn "そして、"
+.stringn "그리고, "
 db EndText
 
 //end 0xde295
@@ -446,7 +446,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x04, 0x68, 0x3C
-.stringn "リーフの恋人"
+.stringn "리프의 연인 "
 dh SringBuffer1 //Lover or father
 dh PauseForTime
 db 0x28
@@ -468,7 +468,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "槍騎士フィン"
+.stringn "창 기사 핀"
 dh PauseForTime
 db 0x28
 dh unknown_0084
@@ -487,7 +487,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "ハンニバル将軍"
+.stringn "한니발 장군"
 dh PauseForTime
 db 0x28
 dh unknown_0084
@@ -506,7 +506,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "若き司祭"
+.stringn "젊은 사제 "
 dh SringBuffer1 //Lover or father
 dh InsBlockText_2D //02E50D00
 dh 0xBA53
@@ -531,7 +531,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x04, 0x68, 0x3C
-.stringn "その恋人"
+.stringn "그 연인 "
 dh SringBuffer1 //Lover or father
 db EndText
 
@@ -545,7 +545,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "弓戦士アサエロ"
+.stringn "활 전사 아사엘로"
 dh InsBlockText_2D //3AE50D00
 dh 0xBAA1
 db 0x8D //bank
@@ -569,7 +569,7 @@ db 0x14
 dh unknown_0083
 db 0x04, 0x68, 0x3C
 db NewLine
-.stringn "その恋人"
+.stringn "그 연인 "
 dh SringBuffer1 //Lover or father
 db EndText
 
@@ -583,7 +583,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "足をあらった盗賊デイジー"
+.stringn "손을 씻은 도적 데이지"
 dh PauseForTime
 db 0x28
 dh unknown_0084
@@ -597,9 +597,9 @@ db EndText
 //offset 0xde381
 // 0xde581
 Dialogue_de381:
-.stringn "たちに、"
+.stringn "등에게,"
 db NewLine
-.stringn "この国の未来を託したのである。"
+.stringn "이 나라의 미래를 맡기게 되었다."
 db NewLine
 db EndText
 
@@ -608,9 +608,9 @@ db EndText
 //offset 0xde39f
 // 0xde59f
 Dialogue_de39f:
-.stringn "たちも恊力して"
+.stringn "등도 노력하여"
 db NewLine
-.stringn "新しい国の建設に力を尽くした。"
+.stringn "새로운 나라의 건설에 힘을 쏟았다."
 db NewLine
 db EndText
 
@@ -634,7 +634,7 @@ db EndText
 //offset 0xde3d3
 // 0xde5d3
 Dialogue_de3d3:
-.stringn "イザークは王位を維ぐべき"
+.stringn "이자크는 왕위를 이어야 할"
 db NewLine
 dh unknown_0086
 db ScrollText
@@ -646,19 +646,19 @@ dh InsBlockText_2D //F0E50D00
 dh 0xBC52
 db 0x8D //bank
 dh unknown_0087
-.stringn "この国を第二の祖国と信じる"
+.stringn "이 나라를 제2의 조국으로 여기는"
 db NewLine
-.stringn "セリスにとって、"
+.stringn "세리스에게 있어,"
 db NewLine
-.stringn "人々の悲しみはこらえようもなかった。"
+.stringn "이자크인들의 슬픔은 마음 아픈 일이었다."
 db NewLine
-.stringn "人々はセリスに願った。"
+.stringn "사람들은 세리스에게 소원했다."
 db NewLine
-.stringn "この国を見捨てないでと"
+.stringn "이자크를 버리지 말아달라고"
 db NewLine
-.stringn "彼にすがったのである。"
+.stringn "그에게 애원한 것이다."
 db NewLine
-.stringn "セリスは人々の願いをきき入れて、"
+.stringn "세리스는 그 요청을 받아들여"
 dh InsBlockText_2D //73E60D00
 dh 0xBCB5
 db 0x8D //bank
@@ -675,21 +675,21 @@ dh InsBlockText_2D //87E60D00
 dh 0xBDDD
 db 0x8D //bank
 db NewLine
-.stringn "この国を統治した。"
+.stringn "이자크를 통치하게 되었다."
 db NewLine
-.stringn "そして、まずしかったこの国に"
+.stringn "그리고 가난했던 이 나라에"
 db NewLine
-.stringn "善政をしき、やがて、"
+.stringn "선정을 베풀어, 이윽고"
 db NewLine
-.stringn "大陸中央と変わらぬほどの農かさを"
+.stringn "이자크는 대륙 중원과 비견될 만한"
 db NewLine
-.stringn "もたらすことになるのである。"
+.stringn "풍요로움을 누리게 되었다."
 db NewLine
-.stringn "のちにイザークは"
+.stringn "훗날 이자크는"
 db NewLine
-.stringn "グランベル王国の一地方として、"
+.stringn "그란벨 왕국의 한 지방으로서"
 db NewLine
-.stringn "セリスと共に生きる道を選ぶのである。"
+.stringn "세리스와 함께 살아가는 길을 선택하게 된다."
 db NewLine
 db EndText
 
@@ -698,37 +698,37 @@ db EndText
 //offset 0xde517
 // 0xde717
 Dialogue_de517:
-.stringn "イザーク王国は、いちはやく"
+.stringn "이자크 왕국은 가장 먼저"
 db NewLine
 dh unknown_0086
 db ScrollText
 
-.stringn "帝国の圧政から解放されたが"
+.stringn "제국의 압정에서 해방되었으나"
 db NewLine
-.stringn "王位維承者不在のまま、"
+.stringn "왕위 계승자가 부재인지라"
 db NewLine
-.stringn "人々は不安な日々を送っていた。"
+.stringn "사람들은 불안한 나날을 보내고 있었다."
 db NewLine
 dh unknown_0087
-.stringn "それゆえに"
+.stringn "그래서였을까,"
 db NewLine
-.stringn "解放戦争の勝利と"
+.stringn "해방전쟁의 승리와"
 db NewLine
 dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
 dh SringBuffer1 //Lover or father
-.stringn "の帰国は、"
+.stringn "의 귀환은,"
 db NewLine
 dh InsBlockText_2D //96E70D00
 dh 0xBC6F
 db 0x8D //bank
-.stringn "イザーク国民を歓喜させた。"
+.stringn "이자크 국민들을 환희에 떨게 만들었다."
 db NewLine
-.stringn "王位についた"
+.stringn "머잖아 즉위한"
 dh SringBuffer1 //Lover or father
-.stringn "は"
+.stringn " 왕은"
 dh InsBlockText_2D //BBE70D00
 dh 0xBC8C
 db 0x8D //bank
@@ -748,24 +748,24 @@ dh InsBlockText_2D //D4E70D00
 dh 0xBE5A
 db 0x8D //bank
 db NewLine
-.stringn "国の復興につとめ、"
+.stringn "나라의 부흥에 온 힘을 다했고,"
 db NewLine
-.stringn "また他の国々との交流を進んで行い"
+.stringn "또한 타국과의 교류를 활발히 하며"
 db NewLine
-.stringn "農かな国作りをめざした。"
+.stringn "풍요로운 나라를 일구어 나갔다."
 db NewLine
-.stringn "かつては東方の蛮土とよばれた"
+.stringn "과거 동방 야만족의 땅이라 일컬어졌던"
 db NewLine
-.stringn "イザークであったが、"
+.stringn "이자크였으나,"
 db NewLine
 dh SringBuffer1 //Lover or father
-.stringn "王の治世のもと"
+.stringn " 왕의 치세 아래"
 db NewLine
-.stringn "空前の発展をとげ、"
+.stringn "공전의 발전을 이룩하여,"
 db NewLine
-.stringn "やがて、他の国々に勝るとも劣らない"
+.stringn "머잖아 다른 나라에 뒤지지 않는"
 db NewLine
-.stringn "一大強国に生まれ変わるのである。"
+.stringn "일대 강국으로 다시 태어나게 된다."
 db NewLine
 db EndText
 
@@ -774,7 +774,7 @@ db EndText
 //offset 0xde686
 // 0xde886
 Dialogue_de686:
-.stringn "シャナン王子を失い、絶望の中にあった。"
+.stringn "샤난 왕자를 잃고 절망에 빠져 있었다."
 db NewLine
 db EndText
 
@@ -783,9 +783,9 @@ db EndText
 //offset 0xde6a4
 // 0xde8a4
 Dialogue_de6a4:
-.stringn "シャナン王子、スカサハ、ラクチェたちの"
+.stringn "샤난 왕자, 스카사하, 라크체를"
 db NewLine
-.stringn "すべてを失い、絶望の中にあった。"
+.stringn "모두 잃어 절망에 빠져 있었다."
 db NewLine
 db EndText
 
@@ -812,7 +812,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x04, 0x68, 0x3C
-.stringn "その恋人、"
+.stringn "그 연인, "
 dh SringBuffer1 //Lover or father
 dh PauseForTime
 db 0x28
@@ -858,7 +858,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x04, 0x68, 0x3C
-.stringn "その恋人、"
+.stringn "그 연인, "
 dh SringBuffer1 //Lover or father
 db EndText
 
@@ -886,7 +886,7 @@ db EndText
 //offset 0xde745
 // 0xde945
 Dialogue_de745:
-.stringn "などの恊力を得て、"
+.stringn "등의 협력을 얻어,"
 db EndText
 
 //end 0xde755
@@ -894,7 +894,7 @@ db EndText
 //offset 0xde755
 // 0xde955
 Dialogue_de755:
-.stringn "などとともに"
+.stringn "등과 함께"
 db EndText
 
 //end 0xde75d
@@ -907,7 +907,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "ディムナ"
+.stringn "딤나"
 dh InsBlockText_2D //6DE90D00
 dh 0xBD93
 db 0x8D //bank
@@ -931,7 +931,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x04, 0x68, 0x3C
-.stringn "その恋人、"
+.stringn "그의 연인, "
 dh SringBuffer1 //Lover or father
 db EndText
 
@@ -945,7 +945,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "マナ"
+.stringn "마나"
 dh PauseForTime
 db 0x28
 dh unknown_0084
@@ -959,7 +959,7 @@ db EndText
 //offset 0xde7a8
 // 0xde9a8
 Dialogue_de7a8:
-.stringn "アグストリアは内乱のあと"
+.stringn "아그스트리아는 내란 끝에"
 db NewLine
 dh unknown_0086
 db EndText
@@ -969,9 +969,9 @@ db EndText
 //offset 0xde7bc
 // 0xde9bc
 Dialogue_de7bc:
-.stringn "グランベルに併合されて"
+.stringn "그란벨에 병합되어"
 db NewLine
-.stringn "きびしい圧政のもとにあった。"
+.stringn "괴로운 압정에 놓여 있었다."
 db NewLine
 dh unknown_0087
 dh PauseForTime
@@ -991,37 +991,37 @@ db EndText
 //offset 0xde7ee
 // 0xde9ee
 Dialogue_de7ee:
-.stringn "ゆえに、解放軍の勝利は"
+.stringn "때문에 해방군의 승리는"
 db NewLine
-.stringn "アグストリア国民を歓喜させ"
+.stringn "아그스트리아 국민들을 환호시켰고"
 db NewLine
-.stringn "セリス王の統治下に入ることを"
+.stringn "그들은 세리스 왕의 통치하에 들어가기를"
 db NewLine
-.stringn "自ら望んだ。"
+.stringn "스스로 바랐다."
 db NewLine
-.stringn "彼らの心にはかつて征服者として"
+.stringn "그들의 마음 속에는 과거 정복자로서"
 db NewLine
-.stringn "君臨しながらも、"
+.stringn "군림하면서도"
 db NewLine
-.stringn "自分たちに優しく拇してくれた"
+.stringn "자신들에게 따뜻하게 대해 주었던"
 db NewLine
-.stringn "シグルド公子の思い出があった。"
+.stringn "시구르드 공자와의 추억이 있었다."
 db NewLine
-.stringn "その子であるセリスにならば"
+.stringn "그 아들인 세리스라면"
 db NewLine
-.stringn "自分たちの国を託しても良いと"
+.stringn "자신들의 나라를 맡겨도 좋다고"
 db NewLine
-.stringn "かんがえたのである。"
+.stringn "생각했던 것이다."
 db NewLine
-.stringn "やがて人々の願いは実現する。"
+.stringn "사람들의 열망은 실현되었다."
 db NewLine
-.stringn "アグストリアは"
+.stringn "아그스트리아는"
 db NewLine
-.stringn "グランベル連合王国の一国家として、"
+.stringn "그란벨 연합 왕국의 한 국가로서"
 db NewLine
-.stringn "聖王セリスのもとで"
+.stringn "성왕 세리스의 이름 아래"
 db NewLine
-.stringn "おだやかな時代を迎えることとなる。"
+.stringn "평온한 시대를 맞이하게 된다."
 db NewLine
 db EndText
 
@@ -1030,34 +1030,34 @@ db EndText
 //offset 0xde90c
 // 0xdeb0c
 Dialogue_de90c:
-.stringn "それゆえに、新しい統一国家の建設は"
+.stringn "때문에 새로운 통일 국가의 건설은"
 db NewLine
-.stringn "人々すべての願いであり、"
+.stringn "모든 국민들의 바람이었으며,"
 db NewLine
-.stringn "その願いは英雄エルトシャンの"
+.stringn "그 바람은 영웅 엘트샨의"
 db NewLine
-.stringn "ノディオン王家に託されていた。"
+.stringn "노디온 왕가로 향했다."
 db NewLine
 dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "人々は"
+.stringn "사람들은"
 dh SringBuffer1 //Lover or father
-.stringn "の帰国を"
+.stringn "의 귀환을"
 db NewLine
-.stringn "熱狂して迎えた。"
+.stringn "열광하며 기뻐했다."
 dh InsBlockText_2D //85EB0D00
 dh 0xBF75
 db 0x8D //bank
 db NewLine
-.stringn "それは、"
+.stringn "그것은,"
 dh SringBuffer1 //Lover or father
-.stringn "の中に"
+.stringn "의 모습에서"
 db NewLine
-.stringn "若き日のエルトシャン王の姿を"
+.stringn "젊은 날의 엘트샨 왕을"
 db NewLine
-.stringn "見いだしたからである。"
+.stringn "보았기 때문이었다."
 dh InsBlockText_2D //BBEB0D00
 dh 0xBF92
 db 0x8D //bank
@@ -1077,14 +1077,14 @@ dh InsBlockText_2D //D4EB0D00
 dh 0xC128
 db 0x8D //bank
 db NewLine
-.stringn "やがてアグストリアは"
+.stringn "이윽고 아그스트리아는"
 db NewLine
 dh SringBuffer1 //Lover or father
-.stringn "王のもと"
+.stringn " 왕의 이름 아래"
 db NewLine
-.stringn "グランベルの最も有力なパートナーとして"
+.stringn "그란벨의 가장 유력한 동맹국으로서"
 db NewLine
-.stringn "空前の発展をとげるのである。"
+.stringn "공전의 발전을 이룩하게 된다."
 db NewLine
 db EndText
 
@@ -1108,7 +1108,7 @@ db EndText
 Dialogue_dea25:
 db NewLine
 dh SringBuffer1 //Lover or father
-.stringn "は、ともに帰国した"
+.stringn "는, 함께 귀국한"
 db EndText
 
 //end 0xdea36
@@ -1121,7 +1121,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x04, 0x68, 0x3C
-.stringn "恋人"
+.stringn "연인 "
 dh SringBuffer1 //Lover or father
 dh PauseForTime
 db 0x28
@@ -1162,7 +1162,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "騎士"
+.stringn "기사 "
 dh SringBuffer1 //Lover or father
 dh InsBlockText_2D //77EC0D00
 dh 0xC0C2
@@ -1187,7 +1187,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x04, 0x68, 0x3C
-.stringn "その恋人、"
+.stringn "그 연인, "
 dh SringBuffer1 //Lover or father
 db EndText
 
@@ -1215,9 +1215,9 @@ db EndText
 //offset 0xdeab1
 // 0xdecb1
 Dialogue_deab1:
-.stringn "などとともに、"
+.stringn "등과 함께"
 db NewLine
-.stringn "統一アグストリアの再建に力を尽くす。"
+.stringn "통일 아그스트리아의 부흥에 힘을 쏟았다."
 db EndText
 
 //end 0xdead6
@@ -1225,22 +1225,22 @@ db EndText
 //offset 0xdead6
 // 0xdecd6
 Dialogue_dead6:
-.stringn "ヴェルダン王国は"
+.stringn "베르던 왕국은"
 db NewLine
 dh unknown_0086
 dh unknown_000A
-.stringn "へサの圧政下においても、"
+.stringn "제국의 압정하에서도"
 db NewLine
-.stringn "ほとんどかえりみられる事なく"
+.stringn "거의 통치되는 일 없이"
 db NewLine
-.stringn "打ち捨てられていたという。"
+.stringn "방치되어 있었다고 한다."
 db NewLine
 dh unknown_0087
-.stringn "各部族は争いをくり返し"
+.stringn "각 부족은 갈라져 싸우기에 바빴고"
 db NewLine
-.stringn "治安はみだれ、"
+.stringn "기본적인 치안조차 무너져"
 db NewLine
-.stringn "盗賊団があばれ回っていた。"
+.stringn "도적들이 온 나라를 휘젓고 있었다."
 db NewLine
 dh InsBlockText_2D //4EED0D00
 dh 0xC1A8
@@ -1248,15 +1248,15 @@ db 0x8D //bank
 dh InsBlockText_2D //53ED0D00
 dh 0xC1CF
 db 0x8D //bank
-.stringn "森と湖の国ヴェルダン"
+.stringn "숲과 호수의 나라 베르던"
 db NewLine
-.stringn "その美しい緑はシグルドのいのり、"
+.stringn "그 아름다운 녹음은 시구르드의"
 db NewLine
-.stringn "そのすきとおった水は"
+.stringn "기도요, 그 맑은 물은"
 db NewLine
-.stringn "ディアドラの涙だと"
+.stringn "디아도라의 눈물이라고"
 db NewLine
-.stringn "この国の人達は信じている・・・。"
+.stringn "이 나라 사람들은 믿고 있다・・・."
 db NewLine
 db ScrollText
 
@@ -1267,31 +1267,31 @@ db EndText
 //offset 0xdebae
 // 0xdedae
 Dialogue_debae:
-.stringn "聖戦の後、セリスは一軍を率いて遠征し"
+.stringn "성전 이후, 세리스는 원정군을 이끌어"
 db NewLine
-.stringn "この国の治安を回復した。"
+.stringn "이 나라의 치안을 회복시켰다."
 db NewLine
-.stringn "人々は、セリスが"
+.stringn "사람들은 세리스가 디아도라의"
 db NewLine
-.stringn "ディアドラの子と知って歓喜した。"
+.stringn "아들이라는 것을 알고 환호했다."
 db NewLine
-.stringn "ディアドラは"
+.stringn "디아도라는 베르던 사람들에게 있어"
 db NewLine
-.stringn "ヴェルダンの民にとって伝説の人、"
+.stringn "전설의 인물, 지금에 이르러서는"
 db NewLine
-.stringn "いまや聖女と言われていた。"
+.stringn "성녀라 불리우고 있었다."
 db NewLine
-.stringn "ヴェルダンの民は"
+.stringn "베르던 사람들은"
 db NewLine
-.stringn "セリスの直拇統治を願った。"
+.stringn "세리스의 직접 통치를 원했다."
 db NewLine
-.stringn "セリスも母が生まれ育ったこの国に"
+.stringn "세리스도 어머니가 나고 자란"
 db NewLine
-.stringn "深い愛着を持っていた。"
+.stringn "이 나라에 깊은 애정을 갖고 있었다."
 db NewLine
-.stringn "ヴェルダンはグランベルに統合され、"
+.stringn "베르던은 그란벨에 통합되어,"
 db NewLine
-.stringn "以後、王国領ヴェルダンと呼ばれた。"
+.stringn "이후 왕국령 베르던이라 불리게 된다."
 db NewLine
 db EndText
 
@@ -1300,9 +1300,9 @@ db EndText
 //offset 0xdecaa
 // 0xdeeaa
 Dialogue_decaa:
-.stringn "そんな中で、"
+.stringn "그러던 도중"
 db NewLine
-.stringn "英雄ジャムカ王子の血を引く"
+.stringn "영웅 자무카 왕자의 피를 이은"
 db NewLine
 dh PauseForTime
 db 0x14
@@ -1318,28 +1318,28 @@ db 0x8D //bank
 dh InsBlockText_2D //E0EE0D00
 dh 0xC24D
 db 0x8D //bank
-.stringn "の帰国は、"
+.stringn "의 귀환은, 사람들에게 용기를"
 db NewLine
-.stringn "人々を勇気づけ、多くの若者たちが"
-db NewLine
-dh SringBuffer1 //Lover or father
-.stringn "のもとに集った。"
-db NewLine
-.stringn "ヴェルダンの統一戦争は"
-db NewLine
-.stringn "１年を待たずして終結し、"
+.stringn "불어넣어 많은 젊은이들이"
 db NewLine
 dh SringBuffer1 //Lover or father
-.stringn "は王位についた。"
+.stringn "의 곁에 모였다."
+db NewLine
+.stringn "베르던 통일 전쟁은"
+db NewLine
+.stringn "1년 후 종결되어,"
 db NewLine
 dh SringBuffer1 //Lover or father
-.stringn "はグランベル、"
+.stringn "의 왕위 계승이 이루어졌다."
 db NewLine
-.stringn "アグストリアの恊力を得て国を復興し、"
+dh SringBuffer1 //Lover or father
+.stringn " 왕은 그란벨, 아그스트리아의"
 db NewLine
-.stringn "祖父バトゥが作り上げた"
+.stringn "협력을 얻어 나라를 부흥시켰고,"
 db NewLine
-.stringn "ヴェルダンを再び取り戻したのである。"
+.stringn "조부 바투가 일구었던"
+db NewLine
+.stringn "평화로운 베르던을 되찾았다."
 db NewLine
 db EndText
 
@@ -1366,7 +1366,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x04, 0x68, 0x3C
-.stringn "と、その恋人"
+.stringn "그리고 그의 연인"
 dh SringBuffer1 //Lover or father
 dh PauseForTime
 db 0x28
@@ -1394,7 +1394,7 @@ dh unknown_0080
 db 0x8C, 0x1C, 0x0C, 0x0C
 dh PauseForTime
 db 0x14
-.stringn "グランベル王国のバーハラ王朝には、"
+.stringn "그란벨 왕국의 발할라 왕조는"
 db NewLine
 dh unknown_0082
 db 0x02, 0x19, 0x00
@@ -1404,20 +1404,20 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "セリス皇子が国民の圧倒的な支持によって"
+.stringn "세리스 황태자가 국민들의 압도적인"
 db NewLine
 dh unknown_0086
 db WaitForA
-.stringn "国王として正式に迎えられた。"
+.stringn "지지로 왕위를 정식 계승하였다."
 db NewLine
-.stringn "王となったセリスは国の復興と"
+.stringn "왕이 된 세리스는 나라의 부흥과"
 db NewLine
 dh unknown_0087
-.stringn "大陸の平和に力を注ぎ"
+.stringn "대륙의 평화에 힘을 쏟으며"
 db NewLine
-.stringn "差別や支配のない、"
+.stringn "차별과 지배가 없는,"
 db NewLine
-.stringn "農かな世界の実現をめざした。"
+.stringn "풍요로운 세계의 실현을 목표로 했다."
 db NewLine
 dh InsBlockText_2D //8CF00D00
 dh 0xC2EE
@@ -1431,11 +1431,11 @@ db 0x8D //bank
 dh InsBlockText_2D //9BF00D00
 dh 0xC2C7
 db 0x8D //bank
-.stringn "のちの人は言う"
+.stringn "후세 사람들은 말한다."
 db NewLine
-.stringn "ユグドラルの歴史に聖王ありき"
+.stringn "유그드랄 역사에 성왕이 있다."
 db NewLine
-.stringn "その名はセリス・・・と"
+.stringn "그의 이름은・・・ 세리스라고."
 db NewLine
 dh PauseForTime
 db 0x28
@@ -1484,7 +1484,7 @@ db EndText
 //offset 0xdef0a
 // 0xdf10a
 Dialogue_def0a:
-.stringn "そして、そのかたわらには、"
+.stringn "그리고 그의 곁에는"
 db NewLine
 db EndText
 
@@ -1493,15 +1493,15 @@ db EndText
 //offset 0xdef1a
 // 0xdf11a
 Dialogue_def1a:
-.stringn "いつも寄りそうようにして微笑む"
+.stringn "항상 미소지으며 다가가는"
 db NewLine
 dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x04, 0x68, 0x3C
-.stringn "王妃"
+.stringn "왕비 "
 dh SringBuffer1 //Lover or father
-.stringn "の姿があった。"
+.stringn "의 모습이 있었다."
 db NewLine
 dh PauseForTime
 db 0x28
@@ -1516,17 +1516,17 @@ db EndText
 //offset 0xdef52
 // 0xdf152
 Dialogue_def52:
-.stringn "いつも寄りそうようにして微笑む"
+.stringn "항상 미소지으며 다가가는"
 db NewLine
 dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x04, 0x68, 0x3C
-.stringn "王妃"
+.stringn "왕비 "
 dh SringBuffer1 //Lover or father
-.stringn "の姿と"
+.stringn "와,"
 db NewLine
-.stringn "暖かな眠差しでセリスを見守る"
+.stringn "따뜻한 눈빛으로 세리스를 지켜보는"
 db NewLine
 dh unknown_0082
 db 0x06, 0xB7, 0x02
@@ -1534,7 +1534,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x06, 0x38, 0x2C
-.stringn "皇女ユリアの姿があった。"
+.stringn "황녀 율리아의 모습이 있었다."
 db NewLine
 dh PauseForTime
 db 0x28
@@ -1551,7 +1551,7 @@ db EndText
 //offset 0xdefbd
 // 0xdf1bd
 Dialogue_defbd:
-.stringn "暖かな眠差しでセリスを見守る"
+.stringn "따뜻한 눈빛으로 세리스를 지켜보는"
 db NewLine
 dh unknown_0082
 db 0x06, 0xB7, 0x02
@@ -1559,7 +1559,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x06, 0x48, 0x2C
-.stringn "皇女ユリアの姿があった。"
+.stringn "황녀 율리아의 모습이 있었다."
 db NewLine
 dh PauseForTime
 db 0x28
@@ -1574,7 +1574,7 @@ db EndText
 //offset 0xdeffb
 // 0xdf1fb
 Dialogue_deffb:
-.stringn "そしてグランベルには"
+.stringn "그리고 그란벨에는"
 dh InsBlockText_2D //08F20D00
 dh 0xC403
 db 0x8D //bank
@@ -1623,7 +1623,7 @@ db 0x8D //bank
 dh unknown_0081
 db 0x0C
 db NewLine
-.stringn "が、それぞれ戻り"
+.stringn "가 각자 돌아가"
 db NewLine
 db EndText
 
@@ -1639,7 +1639,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "ヴェルトマーに"
+.stringn "벨트머에 "
 dh SringBuffer1 //Lover or father
 dh InsBlockText_2D //7DF20D00
 dh 0xC434
@@ -1664,7 +1664,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x04, 0x68, 0x3C
-.stringn "と、その恋人"
+.stringn "그 연인 "
 dh SringBuffer1 //Lover or father
 db EndText
 
@@ -1678,7 +1678,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "そして、"
+.stringn "그리고, "
 dh SringBuffer1 //Lover or father
 dh PauseForTime
 db 0x28
@@ -1702,7 +1702,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "フリージに"
+.stringn "프리지에 "
 dh SringBuffer1 //Lover or father
 dh InsBlockText_2D //D8F20D00
 dh 0xC4F0
@@ -1727,7 +1727,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x04, 0x68, 0x3C
-.stringn "と、その恋人"
+.stringn "그 연인 "
 dh SringBuffer1 //Lover or father
 db EndText
 
@@ -1741,7 +1741,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "そして、"
+.stringn "그리고, "
 dh SringBuffer1 //Lover or father
 dh PauseForTime
 db 0x28
@@ -1765,7 +1765,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "エッダに"
+.stringn "에다에 "
 dh SringBuffer1 //Lover or father
 dh InsBlockText_2D //32F30D00
 dh 0xC591
@@ -1790,7 +1790,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x04, 0x68, 0x3C
-.stringn "と、その恋人"
+.stringn "그 연인"
 dh SringBuffer1 //Lover or father
 db EndText
 
@@ -1804,7 +1804,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "そして、"
+.stringn "그리고,"
 dh SringBuffer1 //Lover or father
 dh PauseForTime
 db 0x28
@@ -1828,7 +1828,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "ドズルに"
+.stringn "도즐에 "
 dh SringBuffer1 //Lover or father
 dh InsBlockText_2D //8CF30D00
 dh 0xC64D
@@ -1853,7 +1853,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x04, 0x68, 0x3C
-.stringn "と、その恋人"
+.stringn "그 연인 "
 dh SringBuffer1 //Lover or father
 db EndText
 
@@ -1867,7 +1867,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "そして、"
+.stringn "그리고, "
 dh SringBuffer1 //Lover or father
 dh PauseForTime
 db 0x28
@@ -1887,7 +1887,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "ヨハン"
+.stringn "요한"
 dh InsBlockText_2D //DAF30D00
 dh 0xC6D4
 db 0x8D //bank
@@ -1911,7 +1911,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x04, 0x68, 0x3C
-.stringn "と、その恋人"
+.stringn "과 그의 연인 "
 dh SringBuffer1 //Lover or father
 db EndText
 
@@ -1925,7 +1925,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "ヨハルヴァ"
+.stringn "요하르바"
 dh InsBlockText_2D //10F40D00
 dh 0xC730
 db 0x8D //bank
@@ -1949,7 +1949,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x04, 0x68, 0x3C
-.stringn "と、その恋人"
+.stringn "와 그의 연인 "
 dh SringBuffer1 //Lover or father
 db EndText
 
@@ -1967,7 +1967,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "ユングヴィに"
+.stringn "잉그비에 "
 dh SringBuffer1 //Lover or father
 dh InsBlockText_2D //52F40D00
 dh 0xC7C4
@@ -1992,7 +1992,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x04, 0x68, 0x3C
-.stringn "と、その恋人"
+.stringn "그 연인 "
 dh SringBuffer1 //Lover or father
 db EndText
 
@@ -2006,7 +2006,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "そして、"
+.stringn "그리고, "
 dh SringBuffer1 //Lover or father
 dh PauseForTime
 db 0x28
@@ -2026,7 +2026,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "レスター"
+.stringn "레스터"
 dh InsBlockText_2D //A1F40D00
 dh 0xC862
 db 0x8D //bank
@@ -2050,7 +2050,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x04, 0x68, 0x3C
-.stringn "と、その恋人"
+.stringn "와 그의 연인"
 dh SringBuffer1 //Lover or father
 db EndText
 
@@ -2064,7 +2064,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "そして、ラナ"
+.stringn "그리고, 라나"
 dh PauseForTime
 db 0x28
 dh unknown_0084
@@ -2087,7 +2087,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "シアルフィに聖騎士オイフェ"
+.stringn "시알피에 성기사 오이페"
 dh InsBlockText_2D //04F50D00
 dh 0xC8E9
 db 0x8D //bank
@@ -2111,7 +2111,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x04, 0x68, 0x3C
-.stringn "と、その恋人"
+.stringn "와 그의 연인 "
 dh SringBuffer1 //Lover or father
 db EndText
 

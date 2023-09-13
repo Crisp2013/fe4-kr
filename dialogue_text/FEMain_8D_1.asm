@@ -1,3 +1,4 @@
+
 //offset 0xd8dc4
 // 0xd8fc4
 Dialogue_d8dc4:
@@ -5,7 +6,7 @@ dh unknown_0082
 db 0x06, 0x19, 0x00
 dh unknown_0083
 db 0x06, 0x70, 0x30
-.stringn "トラキア城を制圧したセリスは"
+.stringn "트라키아성을 제압한 세리스는"
 db NewLine
 dh PauseForTime
 db 0x0A
@@ -13,7 +14,7 @@ dh unknown_0080
 db 0x4C, 0x6B, 0x0C, 0x38
 dh PauseForTime
 db 0x1E
-.stringn "一路、グランベルを目指して進軍した。"
+.stringn "마침내 그란벨로 진군하기 시작했다."
 dh PauseForTime
 db 0x3C
 db WaitForA
@@ -36,22 +37,22 @@ db EndText
 Dialogue_d8e19:
 dh unknown_0086
 db 0x07
-.stringn "帝国の南、ミ①レトス地方に到着した"
+.stringn "제국 남부 밀레토스 지방에 도착한"
 db NewLine
-.stringn "セリスたちが見たものは、"
+.stringn "세리스 일행이 본 것은"
 db WaitForA
 db ScrollText
 
-.stringn "かつて、覧易で巨大な富を築き"
+.stringn "과거 무역으로 거대한 부를 쌓아"
 db NewLine
-.stringn "あらゆる勢力から自由だった都市群が、"
+.stringn "모든 세력으로부터 자유롭던 도시들이"
 db WaitForA
 db ScrollText
 
 dh unknown_0087
-.stringn "帝国と暗黒教団の支配によって"
+.stringn "제국과 암흑 교단의 지배로"
 db NewLine
-.stringn "死に絶えようとする姿だった。"
+.stringn "죽어가는 모습이었다."
 db WaitForA
 db ScrollText
 
@@ -59,14 +60,14 @@ dh unknown_0082
 db 0x02, 0x68, 0x02
 dh unknown_0083
 db 0x02, 0xA0, 0x60
-.stringn "クロノス城のヒルダ女王は、"
+.stringn "크로노스성의 힐다 여왕은"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "その狂気とも思える残虐さで"
+.stringn "광기에 가까운 잔혹함으로"
 db NewLine
-.stringn "多くの市民を死に追いやり、"
+.stringn "많은 시민들을 죽음에 몰아넣었고"
 db WaitForA
 db ScrollText
 
@@ -74,39 +75,39 @@ dh unknown_0082
 db 0x04, 0x6C, 0x02
 dh unknown_0083
 db 0x04, 0x60, 0x30
-.stringn "ミ①レトス城のマンフロイ大司教は、"
+.stringn "밀레토스성의 만프로이 대사교는"
 db NewLine
 dh unknown_0082
 db 0x06, 0x5F, 0x02
 dh unknown_0083
 db 0x06, 0x20, 0x50
-.stringn "ラドス城のモリガン司教に命じて"
+.stringn "라도스성의 모리건 사제에게 명하여"
 db WaitForA
 db ScrollText
 
-.stringn "容赦のない子供狩りを行っていた。"
+.stringn "가차없는 아이 사냥을 행하고 있었다."
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "富も、自由も、希望も、命さえも、"
+.stringn "부도, 자유도, 희망도, 생명조차도"
 db NewLine
-.stringn "人々の手から失われていった。"
+.stringn "사람들의 손에서 사라져 갔다."
 db WaitForA
 db ScrollText
 
-.stringn "暗黒教団の儀式のいけにえとして"
+.stringn "암흑 교단의 의식에 바칠 제물로"
 db NewLine
-.stringn "次々と殺されていく人々を、"
+.stringn "차례차례 죽어가는 사람들을"
 db WaitForA
 db ScrollText
 
-.stringn "セリスは見過ごすことなどできなかった。"
+.stringn "세리스는 두고볼 수 없었다."
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "激しい戦いの末に帝国軍を追い払い"
+.stringn "격렬한 싸움 끝에 제국군을 몰아내고"
 db NewLine
 dh unknown_0080
 db 0xB6, 0x54, 0x0C, 0x36
@@ -116,24 +117,24 @@ dh unknown_0082
 db 0x08, 0x19, 0x00
 dh unknown_0083
 db 0x08, 0xA0, 0x18
-.stringn "自由都市ペルルークを救った解放軍を、"
+.stringn "자유 도시 페를루크를 구원한 해방군을"
 db WaitForA
 db ScrollText
 
-.stringn "市民達は歓呼をもって迎えた。"
+.stringn "시민들은 환호하며 맞아들였다."
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "失われつつあったミ①レトスの希望は、"
+.stringn "사라져가던 밀레토스의 희망은"
 db NewLine
-.stringn "解放軍の到来によって"
+.stringn "지금, 해방군의 도래와 함께"
 db WaitForA
 db ScrollText
 
-.stringn "ようやく、"
+.stringn "마침내"
 db NewLine
-.stringn "息をふきかえそうとしていたのである。"
+.stringn "여기에 되살아나려 하고 있었다."
 db WaitForA
 dh PauseForTime
 db 0x0A
@@ -155,12 +156,12 @@ db EndText
 
 //end 0xd9093
 
-;;;some debug message?
+
 
 //offset 0xd9093
 // 0xd9293
 Dialogue_d9093:
-.stringn "イベントデーターがちがいます。"
+.stringn "이벤트 데이터가 다릅니다."
 db NewLine
 db WaitForA
 db EndText
@@ -180,3 +181,4 @@ db NewLine
 db EndText
 
 //end 0xd90b5
+

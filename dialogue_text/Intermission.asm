@@ -1,18 +1,19 @@
+
 //offset 0x8e9e5
 // 0x8ebe5
 Dialogue_8e9e5:
-.stringn "かくして、ひとつの時代は終わった"
+.stringn "이렇게, 한 시대가 끝났다"
 db NewLine
 db NewLine
-.stringn "イザークへの遠征に端を発した"
+.stringn "이자크 원정으로 막을 올렸던"
 db NewLine
-.stringn "グランベルの動乱は"
+.stringn "그란벨의 동란은"
 db NewLine
-.stringn "一人の若者を数奇な運命へと導き"
+.stringn "한 젊은이를 기구한 운명으로 이끌고"
 db NewLine
-.stringn "そして、いくたの悲しい物語と共に"
+.stringn "수많은 슬픈 이야기와 함께"
 db NewLine
-.stringn "はかなくも消えた"
+.stringn "덧없이 사라졌다"
 db NewLine
 dh BGMFade
 db 0xE7
@@ -20,10 +21,10 @@ db NewLine
 db NewLine
 dh PlayBGM
 db 0x0B
-.stringn "戦い途上において、傷つき倒れた者"
+.stringn "전란 속에서 상처입고 쓰러진 자"
 db NewLine
 db NewLine
-.stringn "レンスターの王子、キュアン"
+.stringn "렌스터의 왕자, 큐안"
 db NewLine
 dh unknown_0082
 db 0x02, 0x06, 0x00
@@ -31,7 +32,7 @@ db NewLine
 db NewLine
 dh unknown_0084
 db 0x02
-.stringn "その妻、エスリン"
+.stringn "그의 아내, 에슬린"
 db NewLine
 dh unknown_0082
 db 0x02, 0x11, 0x00
@@ -97,7 +98,7 @@ dh InsBlockText_2D //0FED0800
 dh 0xE9BE
 db 0x88 //bank
 db NewLine
-.stringn "そしてシアルフィの公子、シグルド"
+.stringn "그리고 시알피의 공자, 시구르드"
 db NewLine
 dh unknown_0082
 db 0x02, 0x01, 0x00
@@ -167,19 +168,19 @@ dh InsBlockText_2D //93ED0800
 dh 0xE6EC
 db 0x88 //bank
 db NewLine
-.stringn "若者達は、理想を求めて戦った"
+.stringn "젊은이들은 이상을 위해 싸웠으나,"
 db NewLine
-.stringn "しかし、そのゆめもかなわぬまま"
+.stringn "그들의 꿈은 이뤄지지 못한 채"
 db NewLine
-.stringn "戦場に散った"
-db NewLine
-db NewLine
-.stringn "彼らの戦いが"
-db NewLine
-.stringn "いったい何であったのか"
+.stringn "전장의 이슬로 사라졌다"
 db NewLine
 db NewLine
-.stringn "そして、光は・・・・・・・・"
+.stringn "그들의 싸움은"
+db NewLine
+.stringn "도대체 무엇을 위한 것이었을까?"
+db NewLine
+db NewLine
+.stringn "그리고, 빛은・・・・・・・・"
 db NewLine
 db NewLine
 db NewLine
@@ -192,13 +193,13 @@ db EndText
 //offset 0x8ebfd
 // 0x8edfd
 Dialogue_8ebfd:
-.stringn "また、最後まで"
+.stringn "그리고 마지막까지"
 db NewLine
-.stringn "シグルドとともにありながら"
+.stringn "시구르드와 함께했고"
 db NewLine
-.stringn "バーハラでの戦いに敗れて、"
+.stringn "발할라 전쟁에서 패배해"
 db NewLine
-.stringn "生死不明の者"
+.stringn "생사불명이 된 자"
 db NewLine
 db NewLine
 db EndText
@@ -208,7 +209,7 @@ db EndText
 //offset 0x8ec34
 // 0x8ee34
 Dialogue_8ec34:
-.stringn "シアルフィの騎士、ノイッシュ"
+.stringn "시알피의 기사, 노이쉬"
 db NewLine
 dh unknown_0082
 db 0x02, 0x02, 0x00
@@ -223,7 +224,7 @@ db EndText
 //offset 0x8ec51
 // 0x8ee51
 Dialogue_8ec51:
-.stringn "シアルフィの騎士、アレク"
+.stringn "시알피의 기사, 알렉"
 db NewLine
 dh unknown_0082
 db 0x02, 0x03, 0x00
@@ -238,7 +239,7 @@ db EndText
 //offset 0x8ec6c
 // 0x8ee6c
 Dialogue_8ec6c:
-.stringn "シアルフィの重騎士、アーダン"
+.stringn "시알피의 중기사, 아단"
 db NewLine
 dh unknown_0082
 db 0x02, 0x04, 0x00
@@ -253,7 +254,7 @@ db EndText
 //offset 0x8ec8a
 // 0x8ee8a
 Dialogue_8ec8a:
-.stringn "ドズルの公子、レックス"
+.stringn "도즐의 공자, 렉스"
 db NewLine
 dh unknown_0082
 db 0x02, 0x0E, 0x00
@@ -268,7 +269,7 @@ db EndText
 //offset 0x8eca4
 // 0x8eea4
 Dialogue_8eca4:
-.stringn "ヴェルトマーの公子、アゼル"
+.stringn "벨트머의 공자, 아젤"
 db NewLine
 dh unknown_0082
 db 0x02, 0x0A, 0x00
@@ -283,7 +284,7 @@ db EndText
 //offset 0x8ecc0
 // 0x8eec0
 Dialogue_8ecc0:
-.stringn "イザークの王女、アイラ"
+.stringn "이자크의 왕녀, 아이라"
 db NewLine
 dh unknown_0082
 db 0x02, 0x13, 0x00
@@ -298,7 +299,7 @@ db EndText
 //offset 0x8ecda
 // 0x8eeda
 Dialogue_8ecda:
-.stringn "ユングヴィの公女、エーディン"
+.stringn "잉그비의 공녀, 에딘"
 db NewLine
 dh unknown_0082
 db 0x02, 0x17, 0x00
@@ -313,7 +314,7 @@ db EndText
 //offset 0x8ecf7
 // 0x8eef7
 Dialogue_8ecf7:
-.stringn "ユングヴィの弓騎士、ミデェール"
+.stringn "잉그비의 궁기사, 미데일"
 db NewLine
 dh unknown_0082
 db 0x02, 0x07, 0x00
@@ -328,7 +329,7 @@ db EndText
 //offset 0x8ed16
 // 0x8ef16
 Dialogue_8ed16:
-.stringn "ヴェルダンの王子、ジャムカ"
+.stringn "베르던의 왕자, 자무카"
 db NewLine
 dh unknown_0082
 db 0x02, 0x0B, 0x00
@@ -343,7 +344,7 @@ db EndText
 //offset 0x8ed32
 // 0x8ef32
 Dialogue_8ed32:
-.stringn "ノディオンの王女、ラケシス"
+.stringn "노디온의 왕녀, 라케시스"
 db NewLine
 dh unknown_0082
 db 0x02, 0x12, 0x00
@@ -358,7 +359,7 @@ db EndText
 //offset 0x8ed4e
 // 0x8ef4e
 Dialogue_8ed4e:
-.stringn "自由騎士、ベオウルフ"
+.stringn "자유기사, 베오울프"
 db NewLine
 dh unknown_0082
 db 0x02, 0x0D, 0x00
@@ -373,7 +374,7 @@ db EndText
 //offset 0x8ed68
 // 0x8ef68
 Dialogue_8ed68:
-.stringn "剣閾士、ホリン"
+.stringn "검투사, 호린"
 db NewLine
 dh unknown_0082
 db 0x02, 0x09, 0x00
@@ -388,7 +389,7 @@ db EndText
 //offset 0x8ed7d
 // 0x8ef7d
 Dialogue_8ed7d:
-.stringn "盗賊、デュー"
+.stringn "도적, 듀"
 db NewLine
 dh unknown_0082
 db 0x02, 0x0F, 0x00
@@ -403,7 +404,7 @@ db EndText
 //offset 0x8ed92
 // 0x8ef92
 Dialogue_8ed92:
-.stringn "シレジアの王子、レヴィン"
+.stringn "실레지아의 왕자, 레빈"
 db NewLine
 dh unknown_0082
 db 0x02, 0x08, 0x00
@@ -418,7 +419,7 @@ db EndText
 //offset 0x8edad
 // 0x8efad
 Dialogue_8edad:
-.stringn "シレジアの天徒騎士、フュリー"
+.stringn "실레지아의 천마 기사, 퓨리"
 db NewLine
 dh unknown_0082
 db 0x02, 0x14, 0x00
@@ -433,7 +434,7 @@ db EndText
 //offset 0x8edcc
 // 0x8efcc
 Dialogue_8edcc:
-.stringn "旅の踊り子、シルヴィア"
+.stringn "방랑 무용수, 실비아"
 db NewLine
 dh unknown_0082
 db 0x02, 0x16, 0x00
@@ -448,7 +449,7 @@ db EndText
 //offset 0x8ede9
 // 0x8efe9
 Dialogue_8ede9:
-.stringn "エッダの司祭、クロード"
+.stringn "에다의 사제, 클로드"
 db NewLine
 dh unknown_0082
 db 0x02, 0x0C, 0x00
@@ -463,7 +464,7 @@ db EndText
 //offset 0x8ee03
 // 0x8f003
 Dialogue_8ee03:
-.stringn "フリージの公女、ティルテュ"
+.stringn "프리지의 공녀, 틸튜"
 db NewLine
 dh unknown_0082
 db 0x02, 0x15, 0x00
@@ -478,7 +479,7 @@ db EndText
 //offset 0x8ee1f
 // 0x8f01f
 Dialogue_8ee1f:
-.stringn "ユングヴィの公女、ブリギッド"
+.stringn "잉그비의 공녀, 브리기드"
 db NewLine
 dh unknown_0082
 db 0x02, 0x18, 0x00
@@ -489,3 +490,4 @@ db 0x02
 db EndText
 
 //end 0x8ee3c
+

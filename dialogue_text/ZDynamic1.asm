@@ -1,7 +1,8 @@
+
 //offset 0xd9922
 // 0xd9b22
 Dialogue_d9922:
-.stringn "ソシアルナイト"
+.stringn "소셜 나이트"
 db EndText
 
 //end 0xd992b
@@ -9,7 +10,7 @@ db EndText
 //offset 0xd992b
 // 0xd9b2b
 Dialogue_d992b:
-.stringn "ランスナイト"
+.stringn "랜스 나이트"
 db EndText
 
 //end 0xd9933
@@ -17,7 +18,7 @@ db EndText
 //offset 0xd9933
 // 0xd9b33
 Dialogue_d9933:
-.stringn "アーチナイト"
+.stringn "아치 나이트"
 db EndText
 
 //end 0xd993b
@@ -25,7 +26,7 @@ db EndText
 //offset 0xd993b
 // 0xd9b3b
 Dialogue_d993b:
-.stringn "アクスナイト"
+.stringn "액스 나이트"
 db EndText
 
 //end 0xd9943
@@ -33,7 +34,7 @@ db EndText
 //offset 0xd9943
 // 0xd9b43
 Dialogue_d9943:
-.stringn "フリーナイト"
+.stringn "프리 나이트"
 db EndText
 
 //end 0xd994b
@@ -41,7 +42,7 @@ db EndText
 //offset 0xd994b
 // 0xd9b4b
 Dialogue_d994b:
-.stringn "トルバドール"
+.stringn "트루바두르"
 db EndText
 
 //end 0xd9953
@@ -49,7 +50,7 @@ db EndText
 //offset 0xd9953
 // 0xd9b53
 Dialogue_d9953:
-.stringn "ロードナイト"
+.stringn "로드 나이트"
 db EndText
 
 //end 0xd995b
@@ -57,7 +58,7 @@ db EndText
 //offset 0xd995b
 // 0xd9b5b
 Dialogue_d995b:
-.stringn "デュークナイト"
+.stringn "듀크 나이트"
 db EndText
 
 //end 0xd9964
@@ -65,7 +66,7 @@ db EndText
 //offset 0xd9964
 // 0xd9b64
 Dialogue_d9964:
-.stringn "マスターナイト"
+.stringn "마스터 나이트"
 db EndText
 
 //end 0xd996d
@@ -73,7 +74,7 @@ db EndText
 //offset 0xd996d
 // 0xd9b6d
 Dialogue_d996d:
-.stringn "パラディン"
+.stringn "팔라딘"
 db EndText
 
 //end 0xd9974
@@ -81,7 +82,7 @@ db EndText
 //offset 0xd9974
 // 0xd9b74
 Dialogue_d9974:
-.stringn "ボウナイト"
+.stringn "보우 나이트"
 db EndText
 
 //end 0xd997b
@@ -89,7 +90,7 @@ db EndText
 //offset 0xd997b
 // 0xd9b7b
 Dialogue_d997b:
-.stringn "フォレストナイト"
+.stringn "포레스트 나이트"
 db EndText
 
 //end 0xd9985
@@ -97,7 +98,7 @@ db EndText
 //offset 0xd9985
 // 0xd9b85
 Dialogue_d9985:
-.stringn "マージナイト"
+.stringn "메이지 나이트"
 db EndText
 
 //end 0xd998d
@@ -105,7 +106,7 @@ db EndText
 //offset 0xd998d
 // 0xd9b8d
 Dialogue_d998d:
-.stringn "グレートナイト"
+.stringn "그레이트 나이트"
 db EndText
 
 //end 0xd9996
@@ -113,7 +114,7 @@ db EndText
 //offset 0xd9996
 // 0xd9b96
 Dialogue_d9996:
-.stringn "ペガサスライダー"
+.stringn "페가수스 라이더"
 db EndText
 
 //end 0xd99a0
@@ -121,7 +122,7 @@ db EndText
 //offset 0xd99a0
 // 0xd9ba0
 Dialogue_d99a0:
-.stringn "ペガサスナイト"
+.stringn "페가수스 나이트"
 db EndText
 
 //end 0xd99a9
@@ -129,7 +130,7 @@ db EndText
 //offset 0xd99a9
 // 0xd9ba9
 Dialogue_d99a9:
-.stringn "ファルコンナイト"
+.stringn "팔콘 나이트"
 db EndText
 
 //end 0xd99b3
@@ -137,7 +138,7 @@ db EndText
 //offset 0xd99b3
 // 0xd9bb3
 Dialogue_d99b3:
-.stringn "ドラゴンライダー"
+.stringn "드래곤 라이더"
 db EndText
 
 //end 0xd99bd
@@ -145,7 +146,7 @@ db EndText
 //offset 0xd99bd
 // 0xd9bbd
 Dialogue_d99bd:
-.stringn "ドラゴンナイト"
+.stringn "드래곤 나이트"
 db EndText
 
 //end 0xd99c6
@@ -153,7 +154,7 @@ db EndText
 //offset 0xd99c6
 // 0xd9bc6
 Dialogue_d99c6:
-.stringn "ドラゴンマスター"
+.stringn "드래곤 마스터"
 db EndText
 
 //end 0xd99d0
@@ -161,7 +162,7 @@ db EndText
 //offset 0xd99d0
 // 0xd9bd0
 Dialogue_d99d0:
-.stringn "ボウファイター"
+.stringn "보우 파이터"
 db EndText
 
 //end 0xd99d9
@@ -169,7 +170,7 @@ db EndText
 //offset 0xd99d9
 // 0xd9bd9
 Dialogue_d99d9:
-.stringn "ソードファイター"
+.stringn "소드 파이터"
 db EndText
 
 //end 0xd99e3
@@ -177,7 +178,7 @@ db EndText
 //offset 0xd99e3
 // 0xd9be3
 Dialogue_d99e3:
-.stringn "ソードマスター"
+.stringn "소드 마스터"
 db EndText
 
 //end 0xd99ec
@@ -185,7 +186,7 @@ db EndText
 //offset 0xd99ec
 // 0xd9bec
 Dialogue_d99ec:
-.stringn "スナイパー"
+.stringn "스나이퍼"
 db EndText
 
 //end 0xd99f3
@@ -193,7 +194,7 @@ db EndText
 //offset 0xd99f3
 // 0xd9bf3
 Dialogue_d99f3:
-.stringn "フォーレスト"
+.stringn "포레스트"
 db EndText
 
 //end 0xd99fb
@@ -201,7 +202,7 @@ db EndText
 //offset 0xd99fb
 // 0xd9bfb
 Dialogue_d99fb:
-.stringn "ジェネラル"
+.stringn "제너럴"
 db EndText
 
 //end 0xd9a02
@@ -209,7 +210,7 @@ db EndText
 //offset 0xd9a02
 // 0xd9c02
 Dialogue_d9a02:
-.stringn "エンペラー"
+.stringn "엠페러"
 db EndText
 
 //end 0xd9a09
@@ -217,7 +218,7 @@ db EndText
 //offset 0xd9a09
 // 0xd9c09
 Dialogue_d9a09:
-.stringn "バロン"
+.stringn "바론"
 db EndText
 
 //end 0xd9a0e
@@ -225,7 +226,7 @@ db EndText
 //offset 0xd9a0e
 // 0xd9c0e
 Dialogue_d9a0e:
-.stringn "ソルジャー"
+.stringn "솔저"
 db EndText
 
 //end 0xd9a15
@@ -233,7 +234,7 @@ db EndText
 //offset 0xd9a15
 // 0xd9c15
 Dialogue_d9a15:
-.stringn "スピアソルジャー"
+.stringn "스피어 솔저"
 db EndText
 
 //end 0xd9a1f
@@ -241,7 +242,7 @@ db EndText
 //offset 0xd9a1f
 // 0xd9c1f
 Dialogue_d9a1f:
-.stringn "アクスソルジャー"
+.stringn "액스 솔저"
 db EndText
 
 //end 0xd9a29
@@ -249,7 +250,7 @@ db EndText
 //offset 0xd9a29
 // 0xd9c29
 Dialogue_d9a29:
-.stringn "アーチャー"
+.stringn "아처"
 db EndText
 
 //end 0xd9a30
@@ -257,7 +258,7 @@ db EndText
 //offset 0xd9a30
 // 0xd9c30
 Dialogue_d9a30:
-.stringn "ソードソルジャー"
+.stringn "소드 솔저"
 db EndText
 
 //end 0xd9a3a
@@ -265,7 +266,7 @@ db EndText
 //offset 0xd9a3a
 // 0xd9c3a
 Dialogue_d9a3a:
-.stringn "アーマー"
+.stringn "아머"
 db EndText
 
 //end 0xd9a40
@@ -273,7 +274,7 @@ db EndText
 //offset 0xd9a40
 // 0xd9c40
 Dialogue_d9a40:
-.stringn "アクスアーマー"
+.stringn "액스 아머"
 db EndText
 
 //end 0xd9a49
@@ -281,7 +282,7 @@ db EndText
 //offset 0xd9a49
 // 0xd9c49
 Dialogue_d9a49:
-.stringn "ボウアーマー"
+.stringn "보우 아머"
 db EndText
 
 //end 0xd9a51
@@ -289,7 +290,7 @@ db EndText
 //offset 0xd9a51
 // 0xd9c51
 Dialogue_d9a51:
-.stringn "ソードアーマー"
+.stringn "소드 아머"
 db EndText
 
 //end 0xd9a5a
@@ -297,7 +298,7 @@ db EndText
 //offset 0xd9a5a
 // 0xd9c5a
 Dialogue_d9a5a:
-.stringn "バーバリアン"
+.stringn "바바리안"
 db EndText
 
 //end 0xd9a62
@@ -305,7 +306,7 @@ db EndText
 //offset 0xd9a62
 // 0xd9c62
 Dialogue_d9a62:
-.stringn "アクスファイター"
+.stringn "액스 파이터"
 db EndText
 
 //end 0xd9a6c
@@ -313,7 +314,7 @@ db EndText
 //offset 0xd9a6c
 // 0xd9c6c
 Dialogue_d9a6c:
-.stringn "マウンテンシーフ"
+.stringn "마운틴 시프"
 db EndText
 
 //end 0xd9a76
@@ -321,7 +322,7 @@ db EndText
 //offset 0xd9a76
 // 0xd9c76
 Dialogue_d9a76:
-.stringn "ウォーリア"
+.stringn "워리어"
 db EndText
 
 //end 0xd9a7d
@@ -329,7 +330,7 @@ db EndText
 //offset 0xd9a7d
 // 0xd9c7d
 Dialogue_d9a7d:
-.stringn "ハンター"
+.stringn "헌터"
 db EndText
 
 //end 0xd9a83
@@ -337,7 +338,7 @@ db EndText
 //offset 0xd9a83
 // 0xd9c83
 Dialogue_d9a83:
-.stringn "パイレーツ"
+.stringn "파이레츠"
 db EndText
 
 //end 0xd9a8a
@@ -345,7 +346,7 @@ db EndText
 //offset 0xd9a8a
 // 0xd9c8a
 Dialogue_d9a8a:
-.stringn "ジュニアロード"
+.stringn "주니어 로드"
 db EndText
 
 //end 0xd9a93
@@ -353,7 +354,7 @@ db EndText
 //offset 0xd9a93
 // 0xd9c93
 Dialogue_d9a93:
-.stringn "マージファイター"
+.stringn "메이지 파이터"
 db EndText
 
 //end 0xd9a9d
@@ -361,7 +362,7 @@ db EndText
 //offset 0xd9a9d
 // 0xd9c9d
 Dialogue_d9a9d:
-.stringn "プリンス"
+.stringn "프린스"
 db EndText
 
 //end 0xd9aa3
@@ -369,7 +370,7 @@ db EndText
 //offset 0xd9aa3
 // 0xd9ca3
 Dialogue_d9aa3:
-.stringn "プリンセス"
+.stringn "프린세스"
 db EndText
 
 //end 0xd9aaa
@@ -377,7 +378,7 @@ db EndText
 //offset 0xd9aaa
 // 0xd9caa
 Dialogue_d9aaa:
-.stringn "マージファイター"
+.stringn "메이지 파이터"
 db EndText
 
 //end 0xd9ab4
@@ -385,7 +386,7 @@ db EndText
 //offset 0xd9ab4
 // 0xd9cb4
 Dialogue_d9ab4:
-.stringn "クイーン"
+.stringn "퀸"
 db EndText
 
 //end 0xd9aba
@@ -393,7 +394,7 @@ db EndText
 //offset 0xd9aba
 // 0xd9cba
 Dialogue_d9aba:
-.stringn "ダンサ①ー"
+.stringn "댄서"
 db EndText
 
 //end 0xd9ac3
@@ -401,7 +402,7 @@ db EndText
 //offset 0xd9ac3
 // 0xd9cc3
 Dialogue_d9ac3:
-.stringn "プリースト"
+.stringn "프리스트"
 db EndText
 
 //end 0xd9aca
@@ -409,7 +410,7 @@ db EndText
 //offset 0xd9aca
 // 0xd9cca
 Dialogue_d9aca:
-.stringn "マージ"
+.stringn "메이지"
 db EndText
 
 //end 0xd9acf
@@ -417,7 +418,7 @@ db EndText
 //offset 0xd9acf
 // 0xd9ccf
 Dialogue_d9acf:
-.stringn "ファイアマージ"
+.stringn "파이어 메이지"
 db EndText
 
 //end 0xd9ad8
@@ -425,7 +426,7 @@ db EndText
 //offset 0xd9ad8
 // 0xd9cd8
 Dialogue_d9ad8:
-.stringn "サ①ンダーマージ"
+.stringn "선더 메이지"
 db EndText
 
 //end 0xd9ae4
@@ -433,7 +434,7 @@ db EndText
 //offset 0xd9ae4
 // 0xd9ce4
 Dialogue_d9ae4:
-.stringn "ウインドマージ"
+.stringn "윈드 메이지"
 db EndText
 
 //end 0xd9aed
@@ -441,7 +442,7 @@ db EndText
 //offset 0xd9aed
 // 0xd9ced
 Dialogue_d9aed:
-.stringn "ハイプリースト"
+.stringn "하이 프리스트"
 db EndText
 
 //end 0xd9af6
@@ -449,7 +450,7 @@ db EndText
 //offset 0xd9af6
 // 0xd9cf6
 Dialogue_d9af6:
-.stringn "ビショップ"
+.stringn "비숍"
 db EndText
 
 //end 0xd9afd
@@ -457,7 +458,7 @@ db EndText
 //offset 0xd9afd
 // 0xd9cfd
 Dialogue_d9afd:
-.stringn "セイジ"
+.stringn "세이지"
 db EndText
 
 //end 0xd9b02
@@ -465,7 +466,7 @@ db EndText
 //offset 0xd9b02
 // 0xd9d02
 Dialogue_d9b02:
-.stringn "バード"
+.stringn "바드"
 db EndText
 
 //end 0xd9b07
@@ -473,7 +474,7 @@ db EndText
 //offset 0xd9b07
 // 0xd9d07
 Dialogue_d9b07:
-.stringn "シャーマン"
+.stringn "샤먼"
 db EndText
 
 //end 0xd9b0e
@@ -481,7 +482,7 @@ db EndText
 //offset 0xd9b0e
 // 0xd9d0e
 Dialogue_d9b0e:
-.stringn "ダークマージ"
+.stringn "다크 메이지"
 db EndText
 
 //end 0xd9b16
@@ -489,7 +490,7 @@ db EndText
 //offset 0xd9b16
 // 0xd9d16
 Dialogue_d9b16:
-.stringn "ソーサラー"
+.stringn "소서러"
 db EndText
 
 //end 0xd9b1d
@@ -497,7 +498,7 @@ db EndText
 //offset 0xd9b1d
 // 0xd9d1d
 Dialogue_d9b1d:
-.stringn "シーフ"
+.stringn "시프"
 db EndText
 
 //end 0xd9b22
@@ -505,7 +506,7 @@ db EndText
 //offset 0xd9b22
 // 0xd9d22
 Dialogue_d9b22:
-.stringn "シーフファイター"
+.stringn "시프 파이터"
 db EndText
 
 //end 0xd9b2c
@@ -513,7 +514,7 @@ db EndText
 //offset 0xd9b2c
 // 0xd9d2c
 Dialogue_d9b2c:
-.stringn "シビリアン"
+.stringn "시빌리언"
 db EndText
 
 //end 0xd9b33
@@ -521,7 +522,7 @@ db EndText
 //offset 0xd9b33
 // 0xd9d33
 Dialogue_d9b33:
-.stringn "シビリアン"
+.stringn "시빌리언"
 db EndText
 
 //end 0xd9b3a
@@ -529,7 +530,7 @@ db EndText
 //offset 0xd9b3a
 // 0xd9d3a
 Dialogue_d9b3a:
-.stringn "ロングアーチ"
+.stringn "롱 아치"
 db EndText
 
 //end 0xd9b42
@@ -537,7 +538,7 @@ db EndText
 //offset 0xd9b42
 // 0xd9d42
 Dialogue_d9b42:
-.stringn "アイアンアーチ"
+.stringn "아이언 아치"
 db EndText
 
 //end 0xd9b4b
@@ -545,7 +546,7 @@ db EndText
 //offset 0xd9b4b
 // 0xd9d4b
 Dialogue_d9b4b:
-.stringn "キラーアーチ"
+.stringn "킬러 아치"
 db EndText
 
 //end 0xd9b53
@@ -553,7 +554,7 @@ db EndText
 //offset 0xd9b53
 // 0xd9d53
 Dialogue_d9b53:
-.stringn "グレートアーチ"
+.stringn "그레이트 아치"
 db EndText
 
 //end 0xd9b5c
@@ -561,7 +562,8 @@ db EndText
 //offset 0xd9b5c
 // 0xd9d5c
 Dialogue_d9b5c:
-.stringn "ダークプリンス"
+.stringn "다크 프린스"
 db EndText
 
 //end 0xd9b65
+

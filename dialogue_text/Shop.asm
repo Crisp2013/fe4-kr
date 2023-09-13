@@ -1,8 +1,9 @@
+
 //offset 0xad0d4
 // 0xad2d4
 Dialogue_ad0d4:
 db ClearText
-.stringn "ここは道具屋だぜ"
+.stringn "여기는 도구점이다"
 db NewLine
 db EndText
 
@@ -12,7 +13,7 @@ db EndText
 // 0xad2e3
 Dialogue_ad0e3:
 db ClearText
-.stringn "なにがほしいんだい？"
+.stringn "뭘 원하지?"
 db NewLine
 db EndText
 
@@ -22,7 +23,7 @@ db EndText
 // 0xad2f1
 Dialogue_ad0f1:
 db ClearText
-.stringn "その道具でいいか？"
+.stringn "그거면 되나?"
 db NewLine
 db EndText
 
@@ -32,7 +33,7 @@ db EndText
 // 0xad301
 Dialogue_ad101:
 db ClearText
-.stringn "ほかにも買うかい？"
+.stringn "또 살 건 있나?"
 db NewLine
 db EndText
 
@@ -42,7 +43,7 @@ db EndText
 // 0xad310
 Dialogue_ad110:
 db ClearText
-.stringn "よお、金がたりねぇぜ"
+.stringn "돈은 잘 받았다고"
 db NewLine
 db WaitForA
 db EndText
@@ -64,13 +65,13 @@ db EndText
 // 0xad331
 Dialogue_ad131:
 db ClearText
-.stringn "すまねぇな"
+.stringn "미안하군"
 db NewLine
-.stringn "ぜんぶ売りきれだ"
+.stringn "다 팔렸어"
 db NewLine
 db WaitForA
 db ClearText
-.stringn "ほかに用はあるかい？"
+.stringn "따로 용무가 있나?"
 db NewLine
 db EndText
 
@@ -112,9 +113,9 @@ db EndText
 //offset 0xad195
 // 0xad395
 Dialogue_ad195:
-.stringn "ここは中古屋だぜ"
+.stringn "여기는 중고점이다"
 db NewLine
-.stringn "いろいろ売り買いしてくれよ"
+.stringn "이것저것 사고팔아 줘"
 db NewLine
 db EndText
 
@@ -123,9 +124,9 @@ db EndText
 //offset 0xad1b5
 // 0xad3b5
 Dialogue_ad1b5:
-.stringn "ここは中古屋だぜ"
+.stringn "여기는 중고점이다"
 db NewLine
-.stringn "いらないものを買いとるよ"
+.stringn "이것저것을 취급하고 있지"
 db NewLine
 db EndText
 
@@ -963,3 +964,4 @@ Dialogue_ad81a:
 db EndText
 
 //end 0xad81b
+

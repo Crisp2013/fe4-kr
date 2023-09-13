@@ -1,21 +1,22 @@
+
 //offset 0xe8ac1
 // 0xe8cc1
 Dialogue_e8ac1:
 
 db Top_Slot
-.stringn "ヴェルダン王国を制圧したシグルドは、"
+.stringn "베르던 왕국을 제압한 시구르드는,"
 db NewLine
 dh unknown_0082
 db 0x02, 0x01, 0x00
 dh unknown_0083
 db 0x02, 0xA0, 0x20
-.stringn "バーハラ城からの命令に従って"
+.stringn "발할라로부터 내려온 명령에 따라"
 db WaitForA
 db ScrollText
 
-.stringn "国境の城、エバンスの城主となり、"
+.stringn "국경의 성, 에반스의 성주가 되었고"
 db NewLine
-.stringn "ディアドラを妻にむかえた。"
+.stringn "디아도라를 배필로 맞아들였다"
 db WaitForA
 db ScrollText
 
@@ -28,7 +29,7 @@ db EndText
 //offset 0xe8b27
 // 0xe8d27
 Dialogue_e8b27:
-.stringn "グランベルによるヴェルダン制圧は"
+.stringn "그란벨에 의한 베르던 제압은"
 db NewLine
 dh unknown_0086
 db EndText
@@ -38,13 +39,13 @@ db EndText
 //offset 0xe8b3e
 // 0xe8d3e
 Dialogue_e8b3e:
-.stringn "アグストリアに大きな混乱をもたらした。"
+.stringn "아그스트리아에 큰 혼란을 일으켰다."
 db WaitForA
 db ScrollText
 
-.stringn "アグストリアの諸公たちは、"
+.stringn "아그스트리아의 제공들은"
 db NewLine
-.stringn "強い反グランベルの意思を示し"
+.stringn "반 그란벨 의사를 강하게 내비쳤고"
 db WaitForA
 db ScrollText
 
@@ -55,30 +56,30 @@ db EndText
 //offset 0xe8b84
 // 0xe8d84
 Dialogue_e8b84:
-.stringn "あくまでも和平を重んじた"
+.stringn "어디까지나 평화를 중시하던"
 db NewLine
-.stringn "アグストリアの賢王イムカは"
+.stringn "아그스트리아의 현왕 임카는"
 db WaitForA
 db ScrollText
 
-.stringn "何者かの手によって暗殺された。"
+.stringn "누군가의 손에 의해 암살당했다."
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "代わって国を維いだのは"
+.stringn "후사를 이어받은 것은"
 db NewLine
 dh unknown_0082
 db 0x04, 0xA1, 0x00
 dh unknown_0083
 db 0x04, 0xA8, 0x24
-.stringn "イムカ王の長子、シャガール王子だった。"
+.stringn "임카의 장남, 샤갈 왕자였다."
 db WaitForA
 db ScrollText
 
-.stringn "グランベルの国軍は"
+.stringn "그란벨 국군은"
 db NewLine
-.stringn "いまだ、はるか東のイザークにある。"
+.stringn "아직 머나먼 동쪽 이자크에 있다."
 db WaitForA
 db ScrollText
 
@@ -89,9 +90,9 @@ db EndText
 //offset 0xe8c1b
 // 0xe8e1b
 Dialogue_e8c1b:
-.stringn "シャガールはアグストリアの諸公に"
+.stringn "샤갈은 아그스트리아 제공들에게"
 db NewLine
-.stringn "ヴェルダン侵略の命をくだした。"
+.stringn "베르던 침략을 명하고"
 dh unknown_0082
 db 0x02, 0x6F, 0x00
 dh unknown_0083
@@ -119,9 +120,9 @@ db 0x04
 db WaitForA
 db ScrollText
 
-.stringn "エバンス城を守るシグルドは"
+.stringn "에반스 성을 지키는 시구르드는"
 db NewLine
-.stringn "再び、戦いの真っただ中に立たされた。"
+.stringn "다시 전장에 서게 되었다."
 db WaitForA
 dh unknown_0084
 db 0x02
@@ -140,19 +141,19 @@ db EndText
 //offset 0xe8cb7
 // 0xe8eb7
 Dialogue_e8cb7:
-.stringn "アグスティを失ったシャガール王は、"
+.stringn "아그스티를 잃은 샤갈 왕은"
 db NewLine
 dh unknown_0082
 db 0x02, 0xA1, 0x00
 dh unknown_0083
 db 0x02, 0x78, 0x0C
-.stringn "北のマディノ城に宮廷をうつした。"
+.stringn "북쪽 마디노 성으로 궁정을 옮긴다."
 db WaitForA
 db ScrollText
 
-.stringn "エルトシャンとの約束どおり"
+.stringn "엘트샨과의 약속에 따라"
 db NewLine
-.stringn "シグルドはこれを追撃しなかった。"
+.stringn "시구르드는 그것을 추격하지 않았다."
 db WaitForA
 db ScrollText
 
@@ -163,25 +164,25 @@ db EndText
 //offset 0xe8d17
 // 0xe8f17
 Dialogue_e8d17:
-.stringn "アグスティ城で兵を休めながら、"
+.stringn "아그스티 성에서 병사들을 쉬게 하고,"
 db NewLine
-.stringn "エルトシャンとの約束を果たすため"
+.stringn "엘트샨과의 약속을 다하기 위해"
 db WaitForA
 db ScrollText
 
-.stringn "シグルドはアグスティ返還の交渉を"
+.stringn "시구르드는 아그스티 반환 협상을"
 db NewLine
-.stringn "ねばり強く続けた。"
+.stringn "강하게 밀어붙였다."
 db WaitForA
 db ScrollText
 
-.stringn "しか①し、バーハラからの回答はいつも"
+.stringn "그러나, 발할라로부터의 회답은 늘"
 db NewLine
-.stringn "そのままアグスティにとどまり、"
+.stringn "그대로 어거스티에 주군하여"
 db WaitForA
 db ScrollText
 
-.stringn "住民を統治せよというものだった。"
+.stringn "주민들을 통치하라는 것이었다."
 db NewLine
 db WaitForA
 db ScrollText
@@ -193,27 +194,27 @@ db EndText
 //offset 0xe8dab
 // 0xe8fab
 Dialogue_e8dab:
-.stringn "半年がすぎる問に"
+.stringn "반 년이 지나자"
 db NewLine
-.stringn "グランベルから派遣された役人たちが、"
+.stringn "그란벨에서 파견된 관리들이"
 db WaitForA
 db ScrollText
 
-.stringn "アグストリアの国土を"
+.stringn "아그스트리아 영토를"
 db NewLine
-.stringn "わがもの顔にのし歩くようになった。"
+.stringn "마음대로 활보하기에 이르렀다."
 db WaitForA
 db ScrollText
 
-.stringn "アグストリアの民の不満は、"
+.stringn "아그스트리아 국민들의 불만은"
 db NewLine
-.stringn "少しずつふくれあがっていった。"
+.stringn "갈수록 쌓여만 갔고"
 db WaitForA
 db ScrollText
 
-.stringn "やがて、シグルドが恐れていた"
+.stringn "머잖아 시구르드가 두려워했던"
 db NewLine
-.stringn "あらたな戦いが始まった。"
+.stringn "새로운 전쟁이 시작되었다."
 db WaitForA
 db ScrollText
 
@@ -224,7 +225,7 @@ db EndText
 //offset 0xe8e3f
 // 0xe903f
 Dialogue_e8e3f:
-.stringn "マディノで兵をととのえたシャガールが"
+.stringn "마디노에서 병사를 재정비한 샤갈이"
 db NewLine
 dh unknown_0082
 db 0x02, 0xA1, 0x00
@@ -234,7 +235,7 @@ dh PauseForTime
 db 0x0C
 dh unknown_0080
 db 0xCC, 0x6C, 0x00, 0x08
-.stringn "王都アグスティを取り戻そうと、"
+.stringn "왕도 아그스티를 되찾겠다며"
 db WaitForA
 db ScrollText
 
@@ -244,7 +245,7 @@ dh unknown_0083
 db 0x04, 0x96, 0x60
 dh PauseForTime
 db 0x04
-.stringn "シグルドに戦いを挑んできたのだ。"
+.stringn "시구르드에게 싸움을 걸어온 것이다."
 db NewLine
 db WaitForA
 db ScrollText
@@ -300,9 +301,9 @@ dh unknown_0085
 db 0x04, 0xAE, 0x54
 dh PauseForTime
 db 0x04
-.stringn "マディノの北では、"
+.stringn "마디노의 북쪽에선"
 db NewLine
-.stringn "悪名高いオーガヒルの海賊が"
+.stringn "악명 높은 오거힐의 해적들이"
 dh unknown_0082
 db 0x06, 0xAA, 0x00
 dh unknown_0083
@@ -310,27 +311,27 @@ db 0x06, 0x6C, 0x08
 db WaitForA
 db ScrollText
 
-.stringn "戦に乗じて、動きはじめている。"
+.stringn "전란을 틈타 움직이기 시작했다."
 db NewLine
 db WaitForA
 dh unknown_0084
 db 0x06
 db ScrollText
 
-.stringn "バーハラからの命令は、"
+.stringn "발할라로부터"
 db NewLine
-.stringn "アグスティ城を死守せよと告げていた。"
+.stringn "아그스티를 사수하라는 명령이 떨어지고"
 db WaitForA
 db ScrollText
 
-.stringn "出陣するシグルドの心は重かった。"
+.stringn "출진하는 시구르드의 마음은 무겁다."
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "マディノの南西、シルベール城には"
+.stringn "마디노의 남서쪽, 실베일 성에는"
 db NewLine
-.stringn "エルトシャンの軍がひかえている。"
+.stringn "엘트샨의 군대가 머무르고 있다."
 dh unknown_0082
 db 0x02, 0x5A, 0x00
 dh unknown_0083
@@ -338,19 +339,19 @@ db 0x02, 0x40, 0x30
 db WaitForA
 db ScrollText
 
-.stringn "この戦いは、"
+.stringn "이 전쟁에서,"
 db NewLine
-.stringn "友を裹切るものになるかもしれない。"
+.stringn "벗을 배신하게 될지도 모르는 것이다."
 db WaitForA
 db ScrollText
 
-.stringn "シグルドはこの時"
+.stringn "시구르드는 그때"
 db NewLine
-.stringn "アグストリアの北の果てで、"
+.stringn "아그스트리아의 북쪽 끝에서"
 db WaitForA
 db ScrollText
 
-.stringn "歴史をも変える戦いに臨もうとしていた。"
+.stringn "역사를 바꾸는 싸움에 임하고 있었다."
 db NewLine
 db WaitForA
 dh unknown_0084

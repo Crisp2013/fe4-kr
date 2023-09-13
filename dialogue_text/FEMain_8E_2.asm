@@ -1,9 +1,10 @@
+
 //offset 0xeca72
 // 0xecc72
 Dialogue_eca72:
-.stringn "思いもよらぬ出来事で、愛する祖国から"
+.stringn "갑작스럽게도 사랑하는 조국으로부터"
 db NewLine
-.stringn "反逆者の汚名をきせられたシグルドは、"
+.stringn "반역자의 오명을 뒤집어쓴 시구르드는"
 dh unknown_0082
 db 0x02, 0x01, 0x00
 dh unknown_0083
@@ -11,11 +12,11 @@ db 0x02, 0x24, 0x06
 db WaitForA
 db ScrollText
 
-.stringn "失意の中、"
+.stringn "실의에 빠진 채"
 db NewLine
 dh unknown_0080
 db 0x44, 0x4C, 0x0C, 0x22
-.stringn "北辺の独立国シレジアへと落ちのびた。"
+.stringn "북방의 중립국 실레지아로 망명했다."
 db WaitForA
 dh unknown_0084
 db 0x02
@@ -30,38 +31,38 @@ db EndText
 //offset 0xecae4
 // 0xecce4
 Dialogue_ecae4:
-.stringn "風の聖戦士セティによって建国された"
+.stringn "바람의 성전사 세티에 의해 건국된"
 db NewLine
-.stringn "シレジア王国は、"
+.stringn "실레지아 왕국은"
 dh unknown_0086
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "勇猛なる天徒騎士団と風の魔道士たちに"
+.stringn "용맹한 천마 기사단과 바람의 마도사들이"
 db NewLine
-.stringn "守られ、建国以来⑫百年問、"
+.stringn "지켜와, 건국 이래 백 년간"
 db WaitForA
 db ScrollText
 
-.stringn "他国に侵略される事もなく、"
+.stringn "타국에 침략당하는 일도 없이"
 db NewLine
-.stringn "完全な中立を保ってきた。"
+.stringn "완전한 중립을 유지하고 있었다."
 db WaitForA
 db ScrollText
 
 dh unknown_0087
-.stringn "しか①し、数年前に国王が亡くなると"
+.stringn "하지만 수 년 전 국왕이 붕어하고"
 db NewLine
 dh unknown_0080
 db 0x9D, 0x63, 0x0C, 0x24
-.stringn "跡目をめぐって王族内で対立がおこり、"
+.stringn "왕족 내에서 후사를 둘러싼 대립이 일어나"
 db WaitForA
 db ScrollText
 
-.stringn "平和だったこの国にも"
+.stringn "평화로운 이 나라에서도 갑작스레"
 db NewLine
-.stringn "にわかに戦乱のきざしがみえてきた。"
+.stringn "전란의 기미가 보이기 시작했다."
 dh unknown_0081
 db 0x0C
 db WaitForA
@@ -69,13 +70,13 @@ db ScrollText
 
 dh unknown_0080
 db 0x5C, 0x94, 0x0C, 0x1C
-.stringn "先王には王妃ラーナとの問に"
+.stringn "선왕은 라나 왕비와의 사이에"
 db NewLine
 dh unknown_0082
 db 0x02, 0x08, 0x00
 dh unknown_0083
 db 0x02, 0x28, 0x60
-.stringn "レヴィンという王子がいたが、"
+.stringn "레빈이라 하는 왕자를 두었지만,"
 dh unknown_0081
 db 0x0C
 db WaitForA
@@ -85,17 +86,17 @@ dh unknown_0082
 db 0x04, 0x40, 0x02
 dh unknown_0083
 db 0x04, 0xC0, 0x50
-.stringn "野心あふれる王弟ダッカー公は、"
+.stringn "야심가인 왕제 더커 공은"
 db NewLine
-.stringn "レヴィンの王位維承を不服として"
+.stringn "레빈의 왕위 계승을 우려하며"
 db WaitForA
 db ScrollText
 
 dh unknown_0080
 db 0xA4, 0x74, 0x0C, 0x1E
-.stringn "ザクソン城にたてこもり、"
+.stringn "잭슨 성에 틀어박히고,"
 db NewLine
-.stringn "また、これに呼応するかのように"
+.stringn "이에 호응하듯"
 dh unknown_0081
 db 0x0C
 db WaitForA
@@ -109,31 +110,31 @@ dh unknown_0082
 db 0x06, 0x3F, 0x02
 dh unknown_0083
 db 0x06, 0x88, 0x08
-.stringn "末弟のマイオス公爵も"
+.stringn "막내인 마이오스 공작 또한"
 db NewLine
-.stringn "トーヴェの城に兵を集めだした。"
+.stringn "토베 성에 병사를 모으기 시작했다."
 dh unknown_0081
 db 0x0C
 db WaitForA
 db ScrollText
 
-.stringn "このような状況の中で、レヴィン王子は"
+.stringn "이런 상황에서 레빈 왕자는"
 db NewLine
-.stringn "やむなく国を出たのだったが、"
+.stringn "부득이하게 나라를 떠나게 되었지만,"
 dh unknown_0084
 db 0x02
 db WaitForA
 db ScrollText
 
-.stringn "王族達の野望は留まるところをしらず、"
+.stringn "왕족들의 야망을 사그라들 줄을 몰라,"
 db NewLine
-.stringn "シレジアの美しい大地は、"
+.stringn "실레지아의 아름다운 대지는"
 db WaitForA
 db ScrollText
 
-.stringn "今まさに、戦乱の炎によって"
+.stringn "바야흐로 전란의 불길에"
 db NewLine
-.stringn "燎き尽くされようとしていた。"
+.stringn "타오르려 하고 있었다."
 dh PauseForTime
 db 0x20
 dh unknown_0084
@@ -157,21 +158,21 @@ db EndText
 //offset 0xecd41
 // 0xecf41
 Dialogue_ecd41:
-.stringn "シレジアの内乱をしずめたシグルドを"
+.stringn "실레지아의 내란을 진압한 시구르드를"
 db NewLine
-.stringn "グランベルの大軍が待ち受けていた。"
+.stringn "그란벨의 대군이 맞아들였다."
 db WaitForA
 db ScrollText
 
 dh unknown_0080
 db 0x6C, 0x0C, 0x0C, 0x28
-.stringn "ザクソン城を制圧したのち"
+.stringn "잭슨 성을 제압하자마자"
 db NewLine
 dh unknown_0082
 db 0x02, 0x01, 0x00
 dh unknown_0083
 db 0x02, 0x28, 0x04
-.stringn "シグルド達は休む問もなく、"
+.stringn "시구르드 일행은 숨돌릴 틈도 없이"
 dh unknown_0081
 db 0x0C
 db WaitForA
@@ -179,29 +180,29 @@ db ScrollText
 
 dh unknown_0080
 db 0x74, 0x13, 0x0C, 0x26
-.stringn "リューベック城のグランベル軍と"
+.stringn "뤼벡 성의 그란벨군과"
 db NewLine
-.stringn "向き合うことになった。"
+.stringn "대치하게 되었다."
 db WaitForA
 db ScrollText
 
-.stringn "軍を率いるのは、父のかたきの一人"
+.stringn "군을 이끌고 있는 것은 아버지의 원수인"
 db NewLine
 dh unknown_0082
 db 0x04, 0x44, 0x02
 dh unknown_0083
 db 0x04, 0xBC, 0x08
-.stringn "ランゴバルト卿である。"
+.stringn "랑고바르트 경이다."
 db WaitForA
 db ScrollText
 
-.stringn "父バイロン卿をおとしいれた"
+.stringn "아버지 바이런 경을 함정에 빠뜨린"
 db NewLine
-.stringn "ランゴバルトとの戦いは、"
+.stringn "랑고바르트와의 싸움은"
 db WaitForA
 db ScrollText
 
-.stringn "シグルドにとって父への弔いでもあった。"
+.stringn "아버지에게 보내는 애도이기도 했다."
 db NewLine
 dh unknown_0081
 db 0x0C
@@ -210,9 +211,9 @@ db ScrollText
 
 dh unknown_0080
 db 0x94, 0x3C, 0x0C, 0x2A
-.stringn "砂漠の街フィノーラには、"
+.stringn "사막 도시 피노라에선"
 db NewLine
-.stringn "アルヴィス卿の有能なる部下"
+.stringn "알비스 경의 유능한 부하인"
 db WaitForA
 db ScrollText
 
@@ -222,11 +223,11 @@ dh unknown_0083
 db 0x06, 0x70, 0x28
 dh unknown_0081
 db 0x0C
-.stringn "魔道剣士ヴァハが駐留し、"
+.stringn "마도검사 바하가 주둔하였고,"
 db NewLine
 dh unknown_0080
 db 0x5C, 0x7C, 0x0C, 0x2C
-.stringn "ヴェルトマーには、"
+.stringn "벨트머에는"
 db WaitForA
 db ScrollText
 
@@ -236,22 +237,22 @@ dh unknown_0083
 db 0x08, 0x3E, 0x44
 dh unknown_0081
 db 0x0C
-.stringn "アルヴィスの右腕とまでいわれた"
+.stringn "알비스의 오른팔이라 일컬어지는"
 db NewLine
-.stringn "アイーダ将軍が城を守っていた。"
+.stringn "아이다 장군이 성을 지키고 있다."
 db WaitForA
 db ScrollText
 
 dh unknown_0080
 db 0x3C, 0x94, 0x0C, 0x2E
-.stringn "そして、王都バーハラでは、"
+.stringn "그리고 왕도 발할라에선"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "老いて病床にあったアズムール王を"
+.stringn "늙고 병든 아즈무르 왕을"
 db NewLine
-.stringn "アルヴィス卿がたすけ、"
+.stringn "알비스 경이 보필하며,"
 db WaitForA
 db ScrollText
 
@@ -261,29 +262,29 @@ dh unknown_0083
 db 0x0A, 0x10, 0x60
 dh unknown_0081
 db 0x0C
-.stringn "宰相のレプトール卿が"
+.stringn "재상인 렙토르 경이"
 db NewLine
-.stringn "国の治安にあたっている。"
+.stringn "나라의 치안을 담당하고 있었다."
 db WaitForA
 db ScrollText
 
 dh unknown_0080
 db 0x73, 0x2C, 0x00, 0x0A
-.stringn "王都バーハラへの道のりは遠く、"
+.stringn "발할라까지의 길은 멀고,"
 db NewLine
-.stringn "討伐隊との戦いはさけられない。"
+.stringn "토벌대와의 싸움은 피할 수 없다."
 db WaitForA
 db ScrollText
 
-.stringn "これ以上、世話になったシレジアを"
+.stringn "신세졌던 실레지아를 더 이상"
 db NewLine
-.stringn "戦いに巻き込むわけにはいかない。"
+.stringn "전란에 말려들게 할 순 없다."
 db WaitForA
 db ScrollText
 
-.stringn "シグルドたちは最後の戦いを決意した。"
+.stringn "시구르드는 최후의 싸움을 결의했다."
 db NewLine
-.stringn "グラン暦⑫７６０年⑫早春、"
+.stringn "그란력 760년 초봄,"
 db WaitForA
 db ScrollText
 
@@ -299,9 +300,9 @@ dh unknown_0084
 db 0x08
 dh unknown_0084
 db 0x0A
-.stringn "シレジアの山野は"
+.stringn "실레지아의 산과 들에는"
 db NewLine
-.stringn "いまだ深い雪におおわれていた。"
+.stringn "아직 눈이 깊게 쌓여 있었다."
 db WaitForA
 db ScrollText
 
@@ -342,9 +343,9 @@ dh unknown_0083
 db 0x0A, 0x26, 0x50
 dh PauseForTime
 db 0x0A
-.stringn "王都バーハラでの激しい戦いは"
+.stringn "왕도 발할라를 둘러싼 격렬한 전쟁은"
 db NewLine
-.stringn "有力諸公のほとんどを死においやり、"
+.stringn "유력 제공 대부분을 죽음으로 몰아넣었고"
 db WaitForA
 dh PauseForTime
 db 0x0A
@@ -358,7 +359,7 @@ db ScrollText
 
 dh PauseForTime
 db 0x0A
-.stringn "アルヴィス卿は自らが計画した通りに"
+.stringn "알비스 경은 자신의 계획대로"
 db NewLine
 dh PauseForTime
 db 0x10
@@ -366,7 +367,7 @@ dh unknown_0084
 db 0x02
 dh unknown_0081
 db 0x00
-.stringn "王国の全権を手に入れることとなった。"
+.stringn "왕국의 전권을 손에 넣게 되었다."
 db WaitForA
 dh PauseForTime
 db 0x0A
@@ -389,25 +390,25 @@ dh unknown_0082
 db 0x0A, 0xB1, 0x00
 dh unknown_0083
 db 0x0A, 0x60, 0x38
-.stringn "彼は敵対するシレジア、レンスターの"
+.stringn "그는 적대국인 실레지아, 렌스터"
 db NewLine
 dh unknown_0081
 db 0x00
-.stringn "両王国を滅亡させて大陸を統一し、"
+.stringn "양 왕국을 멸망시켜 대륙을 통일해"
 dh PauseForTime
 db 0x0A
 dh unknown_0086
 db WaitForA
 db ScrollText
 
-.stringn "国民の圧倒的な支持によって"
+.stringn "국민들의 압도적인 지지에 힘입어"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "グランベル帝国初代皇帝と"
+.stringn "그란벨 제국 초대 황제에"
 db NewLine
-.stringn "なったのである。"
+.stringn "오르게 되었다."
 db WaitForA
 dh PauseForTime
 db 0x0A
@@ -423,9 +424,9 @@ db EndText
 //offset 0xed160
 // 0xed360
 Dialogue_ed160:
-.stringn "そしてバーハラの戦いから"
+.stringn "그리고 발할라 전쟁으로부터"
 db NewLine
-.stringn "十七年の時が流れた。"
+.stringn "17년의 시간이 흘렀다."
 db WaitForA
 db ScrollText
 
@@ -437,28 +438,28 @@ dh unknown_0082
 db 0x0A, 0x6E, 0x02
 dh unknown_0083
 db 0x0A, 0x64, 0x38
-.stringn "かつてはアルヴィス皇帝を"
+.stringn "과거 알비스 황제를"
 db NewLine
-.stringn "熱狂して迎えた人々も、"
+.stringn "열광적으로 지지했던 사람들도"
 db WaitForA
 dh unknown_0081
 db 0x00
 db ScrollText
 
-.stringn "今ではその圧政にあえぎ苦しみ、"
+.stringn "지금은 그 압정에 허덕이고 있었고,"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "また、帝国の支配下にある"
+.stringn "제국의 지배하에 놓인"
 db NewLine
-.stringn "地方の国々では、"
+.stringn "지방 국가 사람들은"
 db WaitForA
 db ScrollText
 
-.stringn "人々はまるで奴隷のような生活を"
+.stringn "마치 노예와 같은 생활을"
 db NewLine
-.stringn "強いられていた。"
+.stringn "영위하고 있었다."
 db WaitForA
 dh PauseForTime
 db 0x0A
@@ -478,9 +479,9 @@ db 0x02
 dh unknown_0086
 db ScrollText
 
-.stringn "ここイザークでも、"
+.stringn "이곳 이자크에서도"
 db NewLine
-.stringn "人々の苦しさは限界に達していた。"
+.stringn "사람들의 고통은 한계에 다다르고 있다."
 db WaitForA
 dh unknown_0087
 db ScrollText
@@ -502,27 +503,27 @@ dh unknown_0082
 db 0x02, 0x4D, 0x02
 dh unknown_0083
 db 0x02, 0x3E, 0x60
-.stringn "イザーク王ダナンは"
+.stringn "이자크 왕 다난은"
 db NewLine
-.stringn "父親であるランゴバルト公爵ににて、"
+.stringn "아버지 랑고바르트 공작을 닮아"
 db WaitForA
 dh unknown_0081
 db 0x00
 db ScrollText
 
-.stringn "残虐な男であった。"
+.stringn "포악하기 짝이 없었다."
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "彼はイザークの民を奴隷身分に落とし"
+.stringn "그는 이자크 사람들을 노예 신분에 놓고"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "みずからはリボーの王宮で"
+.stringn "자기 자신은 리보의 왕궁에서"
 db NewLine
-.stringn "快楽におぼれながらも、"
+.stringn "향락에 젖은 생활을 하며"
 db WaitForA
 db ScrollText
 
@@ -534,7 +535,7 @@ dh unknown_0082
 db 0x04, 0x1E, 0x00
 dh unknown_0083
 db 0x04, 0x90, 0x48
-.stringn "次男ヨハンをイザーク城に、"
+.stringn "차남 요한을 이자크성에,"
 db NewLine
 dh PauseForTime
 db 0x14
@@ -542,7 +543,7 @@ dh unknown_0081
 db 0x00
 dh PauseForTime
 db 0x02
-.stringn "三男ヨハルヴァをソファラ城に、"
+.stringn "삼남 요하르바를 소파라성에,"
 dh PauseForTime
 db 0x02
 dh unknown_0080
@@ -562,13 +563,13 @@ db ScrollText
 
 dh unknown_0080
 db 0xA4, 0x1C, 0x00, 0x42
-.stringn "また辺境のガネーシャ城には"
+.stringn "그리고 변경에 가네샤성에는"
 db NewLine
 dh unknown_0082
 db 0x08, 0x4E, 0x02
 dh unknown_0083
 db 0x08, 0xBC, 0x0C
-.stringn "腹心であるハロルド将軍をおいて、"
+.stringn "심복인 해럴드 장군을 앉혀"
 db WaitForA
 dh PauseForTime
 db 0x08
@@ -576,7 +577,7 @@ dh unknown_0081
 db 0x00
 db ScrollText
 
-.stringn "住民をきびしく弾圧していたのである。"
+.stringn "주민들을 가혹하게 탄압하고 있었다."
 db NewLine
 db WaitForA
 dh PauseForTime
@@ -598,7 +599,7 @@ db EndText
 //offset 0xed3a3
 // 0xed5a3
 Dialogue_ed3a3:
-.stringn "だが、イザークの民には希望があった。"
+.stringn "하지만 국민들에겐 희망이 있었다."
 db NewLine
 db WaitForA
 db ScrollText
@@ -611,15 +612,15 @@ dh unknown_0082
 db 0x02, 0x1A, 0x00
 dh unknown_0083
 db 0x02, 0x30, 0x08
-.stringn "北方の隠れ里「ティルナノグ」に"
+.stringn "북쪽 숨겨진 마을 「티르나노그」에서"
 db NewLine
-.stringn "シャナン王子の解放軍が結成され、"
+.stringn "샤난 왕자가 해방군을 결성해,"
 db WaitForA
 dh unknown_0081
 db 0x00
 db ScrollText
 
-.stringn "日に日に力をつけてきた。"
+.stringn "나날이 힘을 기르고 있던 것이다."
 db NewLine
 db WaitForA
 dh PauseForTime
@@ -628,15 +629,15 @@ dh unknown_0084
 db 0x02
 db ScrollText
 
-.stringn "そして、彼ら若き戦士たちの中に"
+.stringn "그리고 그들 젊은 전사들 가운데"
 db NewLine
-.stringn "イザークの人々が光の公子とよび、"
+.stringn "이자크 사람들이 빛의 공자라 부르며"
 db WaitForA
 db ScrollText
 
-.stringn "また、グランベルの皇子と敬う"
+.stringn "또한 그란벨의 황태자라 숭상하는"
 db NewLine
-.stringn "一人の少年の姿があった。"
+.stringn "한 소년의 모습이 있었다"
 db WaitForA
 db ScrollText
 
@@ -648,9 +649,9 @@ dh unknown_0082
 db 0x02, 0x19, 0x00
 dh unknown_0083
 db 0x02, 0x5C, 0x1C
-.stringn "解放軍の若き盟主、"
+.stringn "해방군의 젊은 맹주."
 db NewLine
-.stringn "その名を、セリスといった。"
+.stringn "그 이름을 세리스라 하였다."
 db WaitForA
 dh PauseForTime
 db 0x08
@@ -673,30 +674,30 @@ db EndText
 //offset 0xed4bd
 // 0xed6bd
 Dialogue_ed4bd:
-.stringn "セリス皇子率いる解放軍の活躍は"
+.stringn "세리스가 이끄는 해방군의 활약은"
 db NewLine
-.stringn "帝国の圧政に苦しむ人々を勇気づけ、"
+.stringn "고통받는 민중들에게 용기를 주어,"
 db WaitForA
 db ScrollText
 
-.stringn "各地で住民の反乱が相次いだ。"
+.stringn "각지에서 주민들의 반란이 이어졌다."
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "だが、その多くは"
+.stringn "하지만 대부분이 제대로 된 조직을"
 db NewLine
-.stringn "まとまりのないまま簡単に撃破され、"
+.stringn "갖추지 못한 채 간단히 격파되어,"
 db WaitForA
 db ScrollText
 
-.stringn "大勢の人々が"
+.stringn "많은 사람들이"
 db NewLine
-.stringn "帝国兵の犠牲となっていた。"
+.stringn "제국군의 손에 희생되었다."
 db WaitForA
 db ScrollText
 
-.stringn "トラキア半島のレンスター王国では"
+.stringn "트라키아 반도의 렌스터 왕국에선"
 db NewLine
 dh unknown_0080
 db 0x84, 0x54, 0x00, 0x46
@@ -707,19 +708,19 @@ dh unknown_0082
 db 0x02, 0x1D, 0x00
 dh unknown_0083
 db 0x02, 0x8C, 0x14
-.stringn "キュアンの子、リーフ王子が"
+.stringn "큐안의 아들 리프 왕자가"
 db NewLine
 dh unknown_0082
 db 0x04, 0x22, 0x00
 dh unknown_0083
 db 0x04, 0x58, 0x50
-.stringn "フィンにたすけられて挙兵したが、"
+.stringn "핀의 도움을 받아 거병했으나,"
 db WaitForA
 db ScrollText
 
-.stringn "ブルーム王の大軍の前に惨敗をきっし、"
+.stringn "브룸 왕의 대군 앞에 참패하여"
 db NewLine
-.stringn "敵地の中に孤立していた。"
+.stringn "적지에 고립되어 있었다."
 db WaitForA
 dh unknown_0081
 db 0x00
@@ -731,13 +732,13 @@ db ScrollText
 
 dh unknown_0080
 db 0x3C, 0x14, 0x00, 0x48
-.stringn "イード砂漠を支配する神殿には"
+.stringn "이드 사막을 지배하는 신전엔"
 db NewLine
 dh unknown_0082
 db 0x02, 0x50, 0x02
 dh unknown_0083
 db 0x02, 0x64, 0x07
-.stringn "ロプト教団のクトゥーゾフ、"
+.stringn "로프토 교단의 쿠투조프,"
 dh unknown_0081
 db 0x00
 db WaitForA
@@ -745,7 +746,7 @@ db ScrollText
 
 dh unknown_0080
 db 0x14, 0x4C, 0x00, 0x4A
-.stringn "オアシスの街ダーナには"
+.stringn "오아시스 마을 다나에는"
 db NewLine
 db WaitForA
 db ScrollText
@@ -754,13 +755,13 @@ dh unknown_0082
 db 0x04, 0x4F, 0x02
 dh unknown_0083
 db 0x04, 0x3E, 0x44
-.stringn "商人上がりのブラムセルと"
+.stringn "장사꾼 출신 브람셀과"
 db NewLine
 dh unknown_0082
 db 0x06, 0x51, 0x02
 dh unknown_0083
 db 0x06, 0x0A, 0x5B
-.stringn "傭兵隊長ジャバ①ロー、"
+.stringn "용병대장 자바로,"
 dh unknown_0081
 db 0x00
 db WaitForA
@@ -789,13 +790,13 @@ dh unknown_0082
 db 0x02, 0x52, 0x02
 dh unknown_0083
 db 0x02, 0x18, 0x3B
-.stringn "メルゲン城にはイシュトー王子と"
+.stringn "멜겐성에는 이슈트 왕자와"
 db NewLine
 dh unknown_0082
 db 0x04, 0x53, 0x02
 dh unknown_0083
 db 0x04, 0x4B, 0x60
-.stringn "有能なる女将軍ライザ、"
+.stringn "유능한 여장군 라이자,"
 dh unknown_0081
 db 0x00
 db WaitForA
@@ -803,13 +804,13 @@ db ScrollText
 
 dh unknown_0080
 db 0x7C, 0x64, 0x00, 0x4E
-.stringn "王都アルスターには"
+.stringn "왕도 얼스터에는"
 db NewLine
 dh unknown_0082
 db 0x06, 0x54, 0x02
 dh unknown_0083
 db 0x06, 0x75, 0x20
-.stringn "レプトール公爵の息子、ブルームと"
+.stringn "렙토르 공작의 아들 브룸과"
 db WaitForA
 db ScrollText
 
@@ -821,7 +822,7 @@ dh 0xFEB2
 db 0x8D //bank
 dh unknown_0083
 db 0x08, 0xA3, 0x52
-.stringn "その姪である、女魔道士"
+.stringn "그의 조카인 여마도사 "
 dh unknown_0081
 db 0x00
 dh SringBuffer1 //Lover or father
@@ -847,9 +848,9 @@ db EndText
 Dialogue_ed72e:
 dh unknown_0080
 db 0x8C, 0x34, 0x00, 0x50
-.stringn "そして、リボーの街ではセリスを"
+.stringn "지금, 리보에서는 세리스를 위시한"
 db NewLine
-.stringn "始めとするイザーク解放軍の戦士達が、"
+.stringn "이자크 해방군의 전사들이"
 dh unknown_0081
 db 0x00
 dh unknown_0082
@@ -859,20 +860,20 @@ db 0x02, 0x64, 0x30
 db WaitForA
 db ScrollText
 
-.stringn "はるか彼方にあるレンスターの仲問を"
+.stringn "머나먼 렌스터의 동지들을 구하기 위해"
 db NewLine
-.stringn "救うべく旅立とうとしていたのである。"
+.stringn "여행을 떠나려 한다."
 db WaitForA
 db ScrollText
 
-.stringn "それぞれのむねに思いを秘めて"
+.stringn "각자의 생각을 가슴에 품고"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "今、セリスたちの新たなる戦いが"
+.stringn "지금 세리스의 새로운 싸움이"
 db NewLine
-.stringn "始まろうとしていた。"
+.stringn "시작되려 하고 있었다."
 db WaitForA
 db ScrollText
 
@@ -883,3 +884,4 @@ db 0x14
 db EndText
 
 //end 0xed7de
+

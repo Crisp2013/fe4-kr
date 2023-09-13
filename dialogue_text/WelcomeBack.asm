@@ -1,9 +1,10 @@
+
 //offset 0xcf0f1
 // 0xcf2f1
 Dialogue_cf0f1:
 
 db Top_Slot
-.stringn "ディアドラ、ただ①いま"
+.stringn "디아도라, 다녀왔어"
 db NewLine
 db EndText
 
@@ -14,11 +15,11 @@ db EndText
 Dialogue_cf102:
 
 db Top_Slot
-.stringn "あれ、"
+.stringn "어, "
 dh SringBuffer2 //CharName or mother
 .stringn "、"
 db NewLine
-.stringn "待っていてくれたのか？"
+.stringn "계속 기다려 준 거야?"
 db NewLine
 db EndText
 
@@ -29,10 +30,10 @@ db EndText
 Dialogue_cf11a:
 
 db Top_Slot
-.stringn "おっ、"
+.stringn "오, "
 dh SringBuffer2 //CharName or mother
 db NewLine
-.stringn "待っていてくれたのか！"
+.stringn "기다리고 있었구나!"
 db NewLine
 db EndText
 
@@ -43,12 +44,12 @@ db EndText
 Dialogue_cf131:
 
 db Top_Slot
-.stringn "ふぅ・・・つかれた"
+.stringn "휴우... 힘들다"
 db NewLine
-.stringn "あれ、"
+.stringn "어, "
 dh SringBuffer2 //CharName or mother
 db NewLine
-.stringn "城にいたのか？"
+.stringn "성에 있었네?"
 db EndText
 
 //end 0xcf14d
@@ -61,7 +62,7 @@ db Top_Slot
 dh SringBuffer2 //CharName or mother
 .stringn "・・・"
 db NewLine
-.stringn "私を待っていてくれたのか？"
+.stringn "날 기다려 준 거야？"
 db NewLine
 db EndText
 
@@ -72,9 +73,9 @@ db EndText
 Dialogue_cf168:
 
 db Top_Slot
-.stringn "ただ①いま、エスリン"
+.stringn "다녀왔어, 에슬린"
 db NewLine
-.stringn "やっぱり城はおちつくね"
+.stringn "역시 성은 조용하네"
 db NewLine
 db EndText
 
@@ -85,11 +86,11 @@ db EndText
 Dialogue_cf186:
 
 db Top_Slot
-.stringn "あっ、"
+.stringn "앗, "
 dh SringBuffer2 //CharName or mother
 .stringn "・・・"
 db NewLine
-.stringn "待っていてくれたのか・・・"
+.stringn "기다려 줬구나・・・"
 db NewLine
 db EndText
 
@@ -100,10 +101,10 @@ db EndText
 Dialogue_cf1a2:
 
 db Top_Slot
-.stringn "なんだ、"
+.stringn "뭐야, "
 dh SringBuffer2 //CharName or mother
 db NewLine
-.stringn "俺を待っていたのか？"
+.stringn "날 기다렸구나?"
 db NewLine
 db EndText
 
@@ -115,7 +116,7 @@ Dialogue_cf1bb:
 
 db Top_Slot
 dh SringBuffer2 //CharName or mother
-.stringn "、待っていたのか？"
+.stringn ", 기다렸지?"
 db NewLine
 db EndText
 
@@ -127,9 +128,9 @@ Dialogue_cf1cc:
 
 db Top_Slot
 dh SringBuffer2 //CharName or mother
-.stringn "・・・ただ①いま"
+.stringn "・・・다녀왔어"
 db NewLine
-.stringn "待っていてくれたんだね"
+.stringn "기다려 줬구나"
 db NewLine
 db EndText
 
@@ -143,7 +144,7 @@ db Top_Slot
 dh SringBuffer2 //CharName or mother
 .stringn "・・・"
 db NewLine
-.stringn "待っていてくれたのか？"
+.stringn "기다려 준 거야?"
 db NewLine
 db EndText
 
@@ -154,12 +155,12 @@ db EndText
 Dialogue_cf201:
 
 db Top_Slot
-.stringn "あれ？"
+.stringn "음?"
 db NewLine
 dh SringBuffer2 //CharName or mother
-.stringn "、"
+.stringn ","
 db NewLine
-.stringn "私を待っていてくれたのですか？"
+.stringn "계속 기다린 건가요?"
 db EndText
 
 //end 0xcf21f
@@ -170,9 +171,9 @@ Dialogue_cf21f:
 
 db Top_Slot
 dh SringBuffer2 //CharName or mother
-.stringn "？"
+.stringn "?"
 db NewLine
-.stringn "・・・俺を待っていたのか？"
+.stringn "・・・혹시 날 기다렸나?"
 db NewLine
 db EndText
 
@@ -183,10 +184,10 @@ db EndText
 Dialogue_cf238:
 
 db Top_Slot
-.stringn "あれ、"
+.stringn "어, "
 dh SringBuffer2 //CharName or mother
 db NewLine
-.stringn "俺を待っていてくれたのか？"
+.stringn "날 기다린 거야?"
 db NewLine
 db EndText
 
@@ -197,17 +198,17 @@ db EndText
 Dialogue_cf253:
 
 db Top_Slot
-.stringn "ただ①いまぁ！"
+.stringn "다녀왔슴다!"
 db NewLine
-.stringn "ああ、おなかペコペコ！"
+.stringn "아아, 배고파!"
 db NewLine
-.stringn "あれ？⑫"
+.stringn "엥?"
 dh SringBuffer2 //CharName or mother
-.stringn "さん"
+.stringn " 씨"
 db WaitForA
 db ScrollText
 
-.stringn "待っていてくれたの！？"
+.stringn "기다렸어!?"
 db NewLine
 db EndText
 
@@ -218,7 +219,7 @@ db EndText
 Dialogue_cf284:
 
 db Top_Slot
-.stringn "シグルド様、ただ①いま戻りました"
+.stringn "시구르드 님, 다녀왔습니다"
 db NewLine
 db EndText
 
@@ -229,9 +230,9 @@ db EndText
 Dialogue_cf29e:
 
 db Top_Slot
-.stringn "ただ①いま、あなた"
+.stringn "다녀왔어요, 여보"
 db NewLine
-.stringn "お城にいらしたのですね"
+.stringn "성에 있었군요"
 db NewLine
 db EndText
 
@@ -242,11 +243,11 @@ db EndText
 Dialogue_cf2bb:
 
 db Top_Slot
-.stringn "あっ、"
+.stringn "앗, "
 dh SringBuffer2 //CharName or mother
-.stringn "！"
+.stringn "!"
 db NewLine
-.stringn "待っていてくれたの？"
+.stringn "여기서 기다린 건가요?"
 db NewLine
 db EndText
 
@@ -260,7 +261,7 @@ db Top_Slot
 dh SringBuffer2 //CharName or mother
 .stringn "・・・"
 db NewLine
-.stringn "私を待っていてくれたのか？"
+.stringn "기다려 준 건가?"
 db NewLine
 db EndText
 
@@ -271,11 +272,11 @@ db EndText
 Dialogue_cf2ed:
 
 db Top_Slot
-.stringn "あっ、"
+.stringn "앗, "
 dh SringBuffer2 //CharName or mother
-.stringn "様！？"
+.stringn "님!?"
 db NewLine
-.stringn "待っていて下さったのですか？"
+.stringn "계속 기다리신 건가요?"
 db NewLine
 db EndText
 
@@ -286,13 +287,13 @@ db EndText
 Dialogue_cf30e:
 
 db Top_Slot
-.stringn "ただ①いまぁ～"
+.stringn "다녀왔어요오~"
 db NewLine
-.stringn "あれ？⑫"
+.stringn "어라? "
 dh SringBuffer2 //CharName or mother
-.stringn "、どうしたの？"
+.stringn ", 무슨 일이야?"
 db NewLine
-.stringn "あっ、あたしを待っていてくれたの！⑫"
+.stringn "아, 마중나와 줬구나!"
 db EndText
 
 //end 0xcf33d
@@ -302,12 +303,12 @@ db EndText
 Dialogue_cf33d:
 
 db Top_Slot
-.stringn "あら、"
+.stringn "어머, "
 dh SringBuffer2 //CharName or mother
 db NewLine
-.stringn "あたしを待っていてくれたの？"
+.stringn "기다려 준 거야?"
 db NewLine
-.stringn "うわー、うれしい！！"
+.stringn "우와ー 기뻐!!"
 db EndText
 
 //end 0xcf361
@@ -318,9 +319,9 @@ Dialogue_cf361:
 
 db Top_Slot
 dh SringBuffer2 //CharName or mother
-.stringn "・・・？"
+.stringn "・・・?"
 db NewLine
-.stringn "私の出迎えに・・・？"
+.stringn "마중나온 거예요・・・?"
 db NewLine
 db EndText
 
@@ -334,7 +335,7 @@ db Top_Slot
 dh SringBuffer2 //CharName or mother
 .stringn "・・・"
 db NewLine
-.stringn "待っていてくれたの？"
+.stringn "여기서 기다린 거야?"
 db NewLine
 db EndText
 
@@ -345,10 +346,10 @@ db EndText
 Dialogue_cf391:
 
 db Top_Slot
-.stringn "ただ①いま、"
+.stringn "다녀왔어, "
 dh SringBuffer2 //CharName or mother
 db NewLine
-.stringn "待っていてくれたんだね"
+.stringn "기다려 줬구나"
 db NewLine
 db EndText
 
@@ -360,7 +361,7 @@ Dialogue_cf3ad:
 
 db Top_Slot
 dh SringBuffer2 //CharName or mother
-.stringn "、待っていたのか？"
+.stringn ", 기다렸지?"
 db NewLine
 db EndText
 
@@ -371,11 +372,11 @@ db EndText
 Dialogue_cf3be:
 
 db Top_Slot
-.stringn "あれ？⑫"
+.stringn "응? "
 dh SringBuffer2 //CharName or mother
-.stringn "じゃないか"
+.stringn " 아냐?"
 db NewLine
-.stringn "俺を待っていたのか？"
+.stringn "마중나와 준 거니?"
 db NewLine
 db EndText
 
@@ -387,9 +388,9 @@ Dialogue_cf3dc:
 
 db Top_Slot
 dh SringBuffer2 //CharName or mother
-.stringn "・・・？"
+.stringn "・・・?"
 db NewLine
-.stringn "待っていてくれたのか・・・"
+.stringn "기다려 줬구나・・・"
 db NewLine
 db EndText
 
@@ -401,9 +402,9 @@ Dialogue_cf3f6:
 
 db Top_Slot
 dh SringBuffer2 //CharName or mother
-.stringn "！？⑫・・・どうしたんだ？"
+.stringn "!? ・・・여기서 뭐 해?"
 db NewLine
-.stringn "私を待っていてくれたのか"
+.stringn "날 기다려 준 거야?"
 db NewLine
 db EndText
 
@@ -414,11 +415,11 @@ db EndText
 Dialogue_cf41a:
 
 db Top_Slot
-.stringn "おおっ、"
+.stringn "오오, "
 dh SringBuffer2 //CharName or mother
-.stringn "！"
+.stringn "!"
 db NewLine
-.stringn "私を待っていてくれたのだな！"
+.stringn "나를 기다려 줬군!"
 db NewLine
 db EndText
 
@@ -429,10 +430,10 @@ db EndText
 Dialogue_cf438:
 
 db Top_Slot
-.stringn "ただ①いま、"
+.stringn "다녀왔어요, "
 dh SringBuffer2 //CharName or mother
 db NewLine
-.stringn "ボクを待っていてくれたの？"
+.stringn "절 기다린 거예요?"
 db NewLine
 db EndText
 
@@ -444,7 +445,7 @@ Dialogue_cf456:
 
 db Top_Slot
 dh SringBuffer2 //CharName or mother
-.stringn "・・・待っていたのか？"
+.stringn "・・・기다렸나?"
 db NewLine
 db EndText
 
@@ -455,11 +456,11 @@ db EndText
 Dialogue_cf469:
 
 db Top_Slot
-.stringn "よお、"
+.stringn "여어, "
 dh SringBuffer2 //CharName or mother
-.stringn "、どうした？"
+.stringn ", 여기서 뭐 해?"
 db NewLine
-.stringn "俺を待っていたのか？"
+.stringn "누구 기다려?"
 db NewLine
 db EndText
 
@@ -471,7 +472,7 @@ Dialogue_cf487:
 
 db Top_Slot
 dh SringBuffer2 //CharName or mother
-.stringn "、私を待っていたのか？"
+.stringn ", 마중나와 준 거냐?"
 db NewLine
 db EndText
 
@@ -482,11 +483,11 @@ db EndText
 Dialogue_cf49c:
 
 db Top_Slot
-.stringn "あれ？⑫"
+.stringn "어라?"
 dh SringBuffer2 //CharName or mother
-.stringn "、どうしたんだ"
+.stringn ", 왜 여기 있어?"
 db NewLine
-.stringn "待っていてくれたのか？"
+.stringn "계속 기다린 거야?"
 db NewLine
 db EndText
 
@@ -498,7 +499,7 @@ Dialogue_cf4bb:
 
 db Top_Slot
 dh SringBuffer2 //CharName or mother
-.stringn "、わしを待っていたのか？"
+.stringn ", 기다린 게냐?"
 db NewLine
 db EndText
 
@@ -510,7 +511,7 @@ Dialogue_cf4cf:
 
 db Top_Slot
 dh SringBuffer2 //CharName or mother
-.stringn "、俺を待っていたのか？"
+.stringn ", 많이 기다렸지?"
 db NewLine
 db EndText
 
@@ -521,10 +522,10 @@ db EndText
 Dialogue_cf4e4:
 
 db Top_Slot
-.stringn "あれ、"
+.stringn "어, "
 dh SringBuffer2 //CharName or mother
 db NewLine
-.stringn "待っていてくれたのか？"
+.stringn "여기서 기다린 거야?"
 db NewLine
 db EndText
 
@@ -536,7 +537,7 @@ Dialogue_cf4fb:
 
 db Top_Slot
 dh SringBuffer2 //CharName or mother
-.stringn "、私を待っていたのか？"
+.stringn ", 날 기다린 거냐?"
 db NewLine
 db EndText
 
@@ -547,14 +548,14 @@ db EndText
 Dialogue_cf510:
 
 db Top_Slot
-.stringn "ただ①いまぁ～、あれ？"
+.stringn "다녀왔어요~ 어라?"
 db NewLine
 dh InsBlockText_2D //22F70C00
 dh 0xF09B
 db 0x8C //bank
-.stringn "あたしを待っていてくれたの？"
+.stringn ", 날 기다려 줬구나?"
 db NewLine
-.stringn "きゃ～、超うれしい！！"
+.stringn "꺄아~ 완전 좋아!!"
 db NewLine
 db EndText
 
@@ -565,14 +566,14 @@ db EndText
 Dialogue_cf545:
 
 db Top_Slot
-.stringn "えっ？"
+.stringn "어? "
 db NewLine
 dh InsBlockText_2D //4DF70C00
 dh 0xF09B
 db 0x8C //bank
-.stringn "、いったいどうしたの？"
+.stringn ", 여기서 뭐 해?"
 db NewLine
-.stringn "私を待っていてくれたの？⑫"
+.stringn "날 기다린 거야?"
 db EndText
 
 //end 0xcf56e
@@ -582,13 +583,13 @@ db EndText
 Dialogue_cf56e:
 
 db Top_Slot
-.stringn "ただ①いま、"
+.stringn "다녀왔어요, "
 dh InsBlockText_2D //7AF70C00
 dh 0xF09B
 db 0x8C //bank
-.stringn "、"
+.stringn ","
 db NewLine
-.stringn "わざわざ私を待っていてくれたのね"
+.stringn "일부러 나와 주셨군요"
 db NewLine
 db EndText
 
@@ -602,9 +603,9 @@ db Top_Slot
 dh InsBlockText_2D //98F70C00
 dh 0xF09B
 db 0x8C //bank
-.stringn "？"
+.stringn "?"
 db NewLine
-.stringn "・・・わたしを出迎えに？"
+.stringn "・・・마중나오신 건가요?"
 db NewLine
 db EndText
 
@@ -618,9 +619,9 @@ db Top_Slot
 dh InsBlockText_2D //B2F70C00
 dh 0xF09B
 db 0x8C //bank
-.stringn "！？"
+.stringn "!?"
 db NewLine
-.stringn "私を待っていてくれたのですか？"
+.stringn "여기서 기다린 건가요?"
 db NewLine
 db EndText
 
@@ -631,15 +632,15 @@ db EndText
 Dialogue_cf5ce:
 
 db Top_Slot
-.stringn "ただ①いま！"
+.stringn "다녀왔어!"
 db NewLine
-.stringn "あれぇ、"
+.stringn "어라아, "
 dh InsBlockText_2D //DFF70C00
 dh 0xF09B
 db 0x8C //bank
-.stringn "、どうしたの？"
+.stringn ", 왠일이야?"
 db NewLine
-.stringn "あなたが出迎えてくれるなんて！"
+.stringn "당신이 마중을 다 나오고!"
 db EndText
 
 //end 0xcf5fd
@@ -652,9 +653,9 @@ db Top_Slot
 dh InsBlockText_2D //00F80C00
 dh 0xF09B
 db 0x8C //bank
-.stringn "、ただ①いま帰りました"
+.stringn ", 다녀왔어요"
 db NewLine
-.stringn "わざわざ待っていてくれたの？"
+.stringn "일부러 기다려 주신 건가요?"
 db NewLine
 db EndText
 
@@ -665,14 +666,14 @@ db EndText
 Dialogue_cf626:
 
 db Top_Slot
-.stringn "あら、"
+.stringn "어머, "
 dh InsBlockText_2D //2DF80C00
 dh 0xF09B
 db 0x8C //bank
 db NewLine
-.stringn "あたしの帰りを待っていてくれたの？"
+.stringn "날 기다려 준 거야?"
 db NewLine
-.stringn "ホント、うれしい！"
+.stringn "너무 기뻐!"
 db EndText
 
 //end 0xcf651
@@ -685,9 +686,9 @@ db Top_Slot
 dh InsBlockText_2D //54F80C00
 dh 0xF09B
 db 0x8C //bank
-.stringn "・・・！？"
+.stringn "・・・!?"
 db NewLine
-.stringn "私を待っていてくれたのね？"
+.stringn "여기서 기다리신 건가요?"
 db NewLine
 db EndText
 
@@ -698,13 +699,13 @@ db EndText
 Dialogue_cf671:
 
 db Top_Slot
-.stringn "やあ、"
+.stringn "여어, "
 dh SringBuffer2 //CharName or mother
-.stringn "じゃねえか"
+.stringn " 아니야"
 db NewLine
-.stringn "わざわざお出迎えとは"
+.stringn "일부러 마중나와 줘서"
 db NewLine
-.stringn "ありがたいな⑫"
+.stringn "고마워"
 db EndText
 
 //end 0xcf694
@@ -714,11 +715,11 @@ db EndText
 Dialogue_cf694:
 
 db Top_Slot
-.stringn "あれ？⑫"
+.stringn "응? "
 dh SringBuffer2 //CharName or mother
-.stringn "じゃないか"
+.stringn " 아냐?"
 db NewLine
-.stringn "俺を待っていたのか？"
+.stringn "마중나와 준 거니?"
 db NewLine
 db EndText
 
@@ -730,9 +731,9 @@ Dialogue_cf6b2:
 
 db Top_Slot
 dh SringBuffer2 //CharName or mother
-.stringn "・・・？"
+.stringn "・・・?"
 db NewLine
-.stringn "待っていてくれたのか・・・"
+.stringn "기다려 줬구나・・・"
 db NewLine
 db EndText
 
@@ -743,10 +744,10 @@ db EndText
 Dialogue_cf6cc:
 
 db Top_Slot
-.stringn "ただ①いま、"
+.stringn "다녀왔어요, "
 dh SringBuffer2 //CharName or mother
 db NewLine
-.stringn "ボクを待っていてくれたの？"
+.stringn "절 기다린 거예요?"
 db NewLine
 db EndText
 
@@ -758,7 +759,7 @@ Dialogue_cf6ea:
 
 db Top_Slot
 dh SringBuffer2 //CharName or mother
-.stringn "・・・待っていたのか？"
+.stringn "・・・기다렸나?"
 db NewLine
 db EndText
 
@@ -769,11 +770,11 @@ db EndText
 Dialogue_cf6fd:
 
 db Top_Slot
-.stringn "よお、"
+.stringn "여어, "
 dh SringBuffer2 //CharName or mother
-.stringn "、どうした？"
+.stringn ", 여기서 뭐 해?"
 db NewLine
-.stringn "俺を待っていたのか？"
+.stringn "누구 기다려?"
 db NewLine
 db EndText
 
@@ -784,11 +785,11 @@ db EndText
 Dialogue_cf71b:
 
 db Top_Slot
-.stringn "あれ？⑫"
+.stringn "어라? "
 dh SringBuffer2 //CharName or mother
-.stringn "、どうしたんだ"
+.stringn ", 왜 여기 있어?"
 db NewLine
-.stringn "待っていてくれたのか？"
+.stringn "계속 기다린 거야?"
 db NewLine
 db EndText
 
@@ -799,9 +800,9 @@ db EndText
 Dialogue_cf73a:
 
 db Top_Slot
-.stringn "あれ、"
+.stringn "어, "
 dh SringBuffer2 //CharName or mother
-.stringn "待っていてくれたのか？"
+.stringn "여기서 기다린 거야?"
 db NewLine
 db EndText
 
@@ -812,16 +813,16 @@ db EndText
 Dialogue_cf750:
 
 db Top_Slot
-.stringn "ただ①いまぁ～、あれ？"
+.stringn "다녀왔어요~ 어라?"
 db NewLine
 dh InsBlockText_2D //62F90C00
 dh 0xF09B
 db 0x8C //bank
-.stringn "、"
+.stringn ", "
 db NewLine
-.stringn "あたしを待っていてくれたの？"
+.stringn "날 기다려 줬구나?"
 db NewLine
-.stringn "きゃ～、超うれしい！！"
+.stringn "꺄아~ 완전 좋아!!"
 db EndText
 
 //end 0xcf786
@@ -831,14 +832,14 @@ db EndText
 Dialogue_cf786:
 
 db Top_Slot
-.stringn "えっ？"
+.stringn "어? "
 db NewLine
 dh InsBlockText_2D //8EF90C00
 dh 0xF09B
 db 0x8C //bank
-.stringn "、いったいどうしたの？"
+.stringn ", 여기서 뭐 해?"
 db NewLine
-.stringn "私を待っていてくれたの？"
+.stringn "날 기다린 거야?"
 db EndText
 
 //end 0xcf7ae
@@ -848,13 +849,13 @@ db EndText
 Dialogue_cf7ae:
 
 db Top_Slot
-.stringn "ただ①いま、"
+.stringn "다녀왔어요, "
 dh InsBlockText_2D //BAF90C00
 dh 0xF09B
 db 0x8C //bank
-.stringn "、"
+.stringn ","
 db NewLine
-.stringn "わざわざ私を待っていてくれたのね"
+.stringn "일부러 나와 주셨군요"
 db NewLine
 db EndText
 
@@ -865,15 +866,15 @@ db EndText
 Dialogue_cf7d5:
 
 db Top_Slot
-.stringn "ただ①いま！"
+.stringn "다녀왔어!"
 db NewLine
-.stringn "あれぇ、"
+.stringn "어라아, "
 dh InsBlockText_2D //E6F90C00
 dh 0xF09B
 db 0x8C //bank
-.stringn "、どうしたの？"
+.stringn ", 왠일이야?"
 db NewLine
-.stringn "あなたが出迎えてくれるなんて！"
+.stringn "당신이 마중을 다 나오고!"
 db EndText
 
 //end 0xcf804
@@ -886,9 +887,9 @@ db Top_Slot
 dh InsBlockText_2D //07FA0C00
 dh 0xF09B
 db 0x8C //bank
-.stringn "、ただ①いま帰りました"
+.stringn ", 다녀왔어요"
 db NewLine
-.stringn "わざわざ待っていてくれたの？"
+.stringn "일부러 기다려 주신 건가요?"
 db NewLine
 db EndText
 
@@ -899,14 +900,14 @@ db EndText
 Dialogue_cf82d:
 
 db Top_Slot
-.stringn "あら、"
+.stringn "어머, "
 dh InsBlockText_2D //34FA0C00
 dh 0xF09B
 db 0x8C //bank
 db NewLine
-.stringn "あたしの帰りを待っていてくれたの？"
+.stringn "날 기다려 준 거야?"
 db NewLine
-.stringn "ホント、うれしい！"
+.stringn "너무 기뻐!"
 db EndText
 
 //end 0xcf858
@@ -919,9 +920,9 @@ db Top_Slot
 dh InsBlockText_2D //5BFA0C00
 dh 0xF09B
 db 0x8C //bank
-.stringn "・・・！？"
+.stringn "・・・!?"
 db NewLine
-.stringn "私を待っていてくれたのね？"
+.stringn "여기서 기다리신 건가요?"
 db NewLine
 db EndText
 
@@ -932,9 +933,9 @@ db EndText
 Dialogue_cf878:
 
 db Bottom_Slot
-.stringn "おかえり、ディアドラ"
+.stringn "어서 와, 디아도라"
 db NewLine
-.stringn "心配していたぞ"
+.stringn "걱정했어"
 db NewLine
 db WaitForA
 db EndText
@@ -946,10 +947,10 @@ db EndText
 Dialogue_cf891:
 
 db Bottom_Slot
-.stringn "ああ、おかえり"
+.stringn "그래, 어서 와 "
 dh SringBuffer1 //Lover or father
 db NewLine
-.stringn "心配していたよ"
+.stringn "걱정했어"
 db NewLine
 db WaitForA
 db EndText
@@ -961,9 +962,9 @@ db EndText
 Dialogue_cf8a9:
 
 db Bottom_Slot
-.stringn "まあな、"
+.stringn "응,"
 db NewLine
-.stringn "心配していたぜ、"
+.stringn "걱정했어, "
 dh SringBuffer1 //Lover or father
 db NewLine
 db WaitForA
@@ -976,10 +977,10 @@ db EndText
 Dialogue_cf8bf:
 
 db Bottom_Slot
-.stringn "ああ、"
+.stringn "오오, "
 dh SringBuffer1 //Lover or father
 db NewLine
-.stringn "待っていたんだぜ！"
+.stringn "보고 싶었다고!"
 db NewLine
 db WaitForA
 db EndText
@@ -991,10 +992,10 @@ db EndText
 Dialogue_cf8d5:
 
 db Bottom_Slot
-.stringn "そうだ・・・"
+.stringn "그래・・・"
 db NewLine
 dh SringBuffer1 //Lover or father
-.stringn "、心配していた・・・"
+.stringn ", 걱정했어・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1006,9 +1007,9 @@ db EndText
 Dialogue_cf8ef:
 
 db Bottom_Slot
-.stringn "ああ、エスリン"
+.stringn "그래, 에슬린"
 db NewLine
-.stringn "きみを待っていたんだ"
+.stringn "보고 싶었어"
 db NewLine
 db WaitForA
 db EndText
@@ -1020,12 +1021,12 @@ db EndText
 Dialogue_cf908:
 
 db Bottom_Slot
-.stringn "もちろんだよ、"
+.stringn "물론이죠, "
 dh SringBuffer1 //Lover or father
 db NewLine
-.stringn "きみに何かあったのではと"
+.stringn "당신 몸에 무슨 일이라도 생기면"
 db NewLine
-.stringn "とても心配していたんだ"
+.stringn "슬플 테니까요"
 db WaitForA
 db EndText
 
@@ -1036,9 +1037,9 @@ db EndText
 Dialogue_cf932:
 
 db Bottom_Slot
-.stringn "まあな・・・"
+.stringn "뭐 그렇지・・・"
 db NewLine
-.stringn "調子にのって無理はするなよ、"
+.stringn "너무 무리하진 마, "
 dh SringBuffer1 //Lover or father
 db NewLine
 db WaitForA
@@ -1051,7 +1052,7 @@ db EndText
 Dialogue_cf954:
 
 db Bottom_Slot
-.stringn "うむ・・・無事で良かった・・・"
+.stringn "음, 무사한 것 같아 기쁘군・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1063,10 +1064,10 @@ db EndText
 Dialogue_cf96c:
 
 db Bottom_Slot
-.stringn "うん、"
+.stringn "응, "
 dh SringBuffer1 //Lover or father
 db NewLine
-.stringn "心配していたんだ"
+.stringn "걱정하고 있었어"
 db NewLine
 db WaitForA
 db EndText
@@ -1078,9 +1079,9 @@ db EndText
 Dialogue_cf981:
 
 db Bottom_Slot
-.stringn "ああ・・・"
+.stringn "그래・・・"
 db NewLine
-.stringn "きみのことが心配で・・・"
+.stringn "네가 걱정돼서・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1092,12 +1093,12 @@ db EndText
 Dialogue_cf99a:
 
 db Bottom_Slot
-.stringn "そうですよ、"
+.stringn "그래요, "
 dh SringBuffer1 //Lover or father
 db NewLine
-.stringn "心配していたのです"
+.stringn "걱정하고 있었답니다. 당신이"
 db NewLine
-.stringn "あなたの無事を神に感謝しましょう"
+.stringn "무사함을 신께 감사해야겠군요"
 db WaitForA
 db EndText
 
@@ -1108,9 +1109,9 @@ db EndText
 Dialogue_cf9ca:
 
 db Bottom_Slot
-.stringn "うむっ"
+.stringn "으음"
 db NewLine
-.stringn "まあ、そんなところだな・・・"
+.stringn "뭐, 그런 셈 치지・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1122,9 +1123,9 @@ db EndText
 Dialogue_cf9e1:
 
 db Bottom_Slot
-.stringn "ま、まあな・・・"
+.stringn "그, 그렇지 뭐・・・"
 db NewLine
-.stringn "おそかったな、"
+.stringn "좀 늦었네, "
 dh SringBuffer1 //Lover or father
 db NewLine
 db WaitForA
@@ -1137,9 +1138,9 @@ db EndText
 Dialogue_cf9f8:
 
 db Bottom_Slot
-.stringn "テヘヘ・・・"
+.stringn "헤헤헤・・・"
 db NewLine
-.stringn "おいら・・・こういうの、困っちゃう・・・"
+.stringn "이런 건 역시 부끄럽네・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1151,7 +1152,7 @@ db EndText
 Dialogue_cfa1a:
 
 db Bottom_Slot
-.stringn "おかえりなさい、シグルド様"
+.stringn "어서 오세요, 시구르드 님"
 db NewLine
 db WaitForA
 db EndText
@@ -1163,9 +1164,9 @@ db EndText
 Dialogue_cfa2d:
 
 db Bottom_Slot
-.stringn "ふふっ、"
+.stringn "후훗"
 db NewLine
-.stringn "おかえりなさい、あなた"
+.stringn "어서 와요, 여보"
 db NewLine
 db WaitForA
 db EndText
@@ -1177,9 +1178,9 @@ db EndText
 Dialogue_cfa42:
 
 db Bottom_Slot
-.stringn "ええ・・・だって"
+.stringn "네・・・"
 db NewLine
-.stringn "あなたが心配だもの・・・"
+.stringn "당신이 걱정됐는걸요・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1191,12 +1192,12 @@ db EndText
 Dialogue_cfa5e:
 
 db Bottom_Slot
-.stringn "ああ・・・"
+.stringn "그래・・・"
 db NewLine
-.stringn "おそかったな、"
+.stringn "늦었군, "
 dh SringBuffer1 //Lover or father
 db NewLine
-.stringn "心配していたぞ・・・"
+.stringn "걱정했어・・・"
 db WaitForA
 db EndText
 
@@ -1207,9 +1208,9 @@ db EndText
 Dialogue_cfa7e:
 
 db Bottom_Slot
-.stringn "はい・・・"
+.stringn "네・・・"
 db NewLine
-.stringn "あなたの事が心配でした"
+.stringn "당신이 걱정돼서요"
 db NewLine
 db WaitForA
 db EndText
@@ -1221,9 +1222,9 @@ db EndText
 Dialogue_cfa98:
 
 db Bottom_Slot
-.stringn "うん、あなたに会いたくてね"
+.stringn "응, 빨리 만나고 싶었거든"
 db NewLine
-.stringn "だって、さみしかったんだもん！"
+.stringn "혼자라 외로웠어!"
 db NewLine
 db WaitForA
 db EndText
@@ -1235,9 +1236,9 @@ db EndText
 Dialogue_cfabc:
 
 db Bottom_Slot
-.stringn "うん、もちろんよ！"
+.stringn "응, 물론이지!"
 db NewLine
-.stringn "おかえりなさい、あ・①な・①た①▼"
+.stringn "어서 와, 여보~!"
 db NewLine
 db WaitForA
 db EndText
@@ -1249,9 +1250,9 @@ db EndText
 Dialogue_cfae1:
 
 db Bottom_Slot
-.stringn "はい、あなたの無事を"
+.stringn "네, 당신이 무사하기를"
 db NewLine
-.stringn "神にいのっていました！"
+.stringn "신께 기도하고 있었어요!"
 db NewLine
 db WaitForA
 db EndText
@@ -1263,9 +1264,9 @@ db EndText
 Dialogue_cfb00:
 
 db Bottom_Slot
-.stringn "え、ええ・・・"
+.stringn "그, 그래・・・"
 db NewLine
-.stringn "おかえりなさい、あなた"
+.stringn "어서 와, 여보"
 db NewLine
 db WaitForA
 db EndText
@@ -1277,10 +1278,10 @@ db EndText
 Dialogue_cfb18:
 
 db Bottom_Slot
-.stringn "そうだよ、"
+.stringn "맞아,"
 dh SringBuffer1 //Lover or father
 db NewLine
-.stringn "きみの事が心配だったから"
+.stringn "네가 걱정돼서・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1292,7 +1293,7 @@ db EndText
 Dialogue_cfb35:
 
 db Bottom_Slot
-.stringn "うむ、あまり無理はするなよ"
+.stringn "음, 너무 무리하지 마라"
 db NewLine
 db WaitForA
 db EndText
@@ -1304,9 +1305,9 @@ db EndText
 Dialogue_cfb4a:
 
 db Bottom_Slot
-.stringn "まあな、ケガはなかったか"
+.stringn "그래, 다치진 않았어?"
 db NewLine
-.stringn "あまり心配させるなよ"
+.stringn "너무 걱정 끼치지 마"
 db NewLine
 db WaitForA
 db EndText
@@ -1318,7 +1319,7 @@ db EndText
 Dialogue_cfb68:
 
 db Bottom_Slot
-.stringn "ま、まあね・・・"
+.stringn "뭐, 뭐 그렇지・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1330,9 +1331,9 @@ db EndText
 Dialogue_cfb75:
 
 db Bottom_Slot
-.stringn "ああ、きみを待っていた"
+.stringn "그래, 기다리고 있었어"
 db NewLine
-.stringn "無事で良かった・・・"
+.stringn "무사해서 다행이다・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1344,10 +1345,10 @@ db EndText
 Dialogue_cfb96:
 
 db Bottom_Slot
-.stringn "もちろんだ、"
+.stringn "물론이지,"
 dh SringBuffer1 //Lover or father
 db NewLine
-.stringn "きみは私の全てだから・・・"
+.stringn "너는 내 전부인걸・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1359,10 +1360,10 @@ db EndText
 Dialogue_cfbb5:
 
 db Bottom_Slot
-.stringn "うん、おかえりなさい、"
+.stringn "응, 어서 와"
 dh SringBuffer1 //Lover or father
 db NewLine
-.stringn "でも良かった、きみが無事で・・・"
+.stringn "다행이야, 무사해서・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1374,7 +1375,7 @@ db EndText
 Dialogue_cfbdc:
 
 db Bottom_Slot
-.stringn "ああ、きみを失いたくないからな・・・"
+.stringn "그래, 널 잃고 싶지 않으니까・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1386,7 +1387,7 @@ db EndText
 Dialogue_cfbf5:
 
 db Bottom_Slot
-.stringn "ああ、おそかったから心配したぜ"
+.stringn "그래, 늦길래 걱정했어"
 db NewLine
 db WaitForA
 db EndText
@@ -1398,9 +1399,9 @@ db EndText
 Dialogue_cfc0b:
 
 db Bottom_Slot
-.stringn "ああ、きみが心配だったから・・・"
+.stringn "그래, 걱정됐거든・・・"
 db NewLine
-.stringn "私の側から離れてはだめだ"
+.stringn "내 곁에서 떨어지면 안 돼"
 db NewLine
 db WaitForA
 db EndText
@@ -1412,7 +1413,7 @@ db EndText
 Dialogue_cfc35:
 
 db Bottom_Slot
-.stringn "そうだよ、無事でよかったね"
+.stringn "그래, 무사해서 다행이야"
 db NewLine
 db WaitForA
 db EndText
@@ -1424,9 +1425,9 @@ db EndText
 Dialogue_cfc49:
 
 db Bottom_Slot
-.stringn "うむ・・・もう無理はするな、"
+.stringn "음・・・ 너무 무리하지 마라"
 db NewLine
-.stringn "おまえを失いたくはない・・・"
+.stringn "너를 잃고 싶지 않구나・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1438,9 +1439,9 @@ db EndText
 Dialogue_cfc70:
 
 db Bottom_Slot
-.stringn "ああ、もう無理はするな"
+.stringn "그래, 너무 무리하지 마"
 db NewLine
-.stringn "俺の側にいろ！"
+.stringn "내 곁에 꼭 붙어있어!"
 db NewLine
 db WaitForA
 db EndText
@@ -1452,7 +1453,7 @@ db EndText
 Dialogue_cfc8f:
 
 db Bottom_Slot
-.stringn "あ、ああ・・・きみは大事な人だからね"
+.stringn "그, 그래・・・ 소중한 사람이니까"
 db NewLine
 db WaitForA
 db EndText
@@ -1464,9 +1465,9 @@ db EndText
 Dialogue_cfcaa:
 
 db Bottom_Slot
-.stringn "うむ、ケガはなかったか？"
+.stringn "음, 다친 덴 없느냐?"
 db NewLine
-.stringn "あまり無理はするなよ・・・"
+.stringn "너무 무리하지 말아라・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1478,9 +1479,9 @@ db EndText
 Dialogue_cfccc:
 
 db Bottom_Slot
-.stringn "うん、あったりまえでしょ！"
+.stringn "응, 당연하지!"
 db NewLine
-.stringn "おかえりなさい！⑫あ・①な・①た①▼"
+.stringn "어서 와! 여・보・야!"
 db NewLine
 db WaitForA
 db EndText
@@ -1492,9 +1493,9 @@ db EndText
 Dialogue_cfcf6:
 
 db Bottom_Slot
-.stringn "ええ・・・"
+.stringn "응・・・"
 db NewLine
-.stringn "あなたが心配だったから・・・"
+.stringn "당신이 걱정돼서・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1506,7 +1507,7 @@ db EndText
 Dialogue_cfd11:
 
 db Bottom_Slot
-.stringn "ええ、おかえりなさい"
+.stringn "네, 어서 오세요"
 db NewLine
 dh InsBlockText_2D //20FF0C00
 dh 0xF0C6
@@ -1523,9 +1524,9 @@ db EndText
 Dialogue_cfd29:
 
 db Bottom_Slot
-.stringn "・・・少しさみしくて・・・"
+.stringn "・・・조금 쓸쓸해서・・・"
 db NewLine
-.stringn "待っていました・・・"
+.stringn "기다렸어요・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1537,7 +1538,7 @@ db EndText
 Dialogue_cfd4a:
 
 db Bottom_Slot
-.stringn "ええ、離れていると不安だったから・・・"
+.stringn "네, 떨어져 있으면 불안해서・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1549,9 +1550,9 @@ db EndText
 Dialogue_cfd66:
 
 db Bottom_Slot
-.stringn "うん、ちょっぴりさみしくてね・・・"
+.stringn "응, 혼자는 쓸쓸해서・・・"
 db NewLine
-.stringn "おかえりなさい、"
+.stringn "어서 와, "
 dh InsBlockText_2D //84FF0C00
 dh 0xF0C6
 db 0x8C //bank
@@ -1566,9 +1567,9 @@ db EndText
 Dialogue_cfd8a:
 
 db Bottom_Slot
-.stringn "はい、あなたの帰りを待っていました"
+.stringn "네, 돌아오시길 기다렸어요"
 db NewLine
-.stringn "だって、心配だったもの・・・"
+.stringn "걱정됐거든요・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1580,9 +1581,9 @@ db EndText
 Dialogue_cfdb5:
 
 db Bottom_Slot
-.stringn "うふっ、当然よ①▼"
+.stringn "우훗, 당연하지"
 db NewLine
-.stringn "おかえりなさい、あなた・・・"
+.stringn "어서 와, 당신・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1594,12 +1595,12 @@ db EndText
 Dialogue_cfdd6:
 
 db Bottom_Slot
-.stringn "おかえりなさい、"
+.stringn "어서 오세요,"
 dh InsBlockText_2D //E2FF0C00
 dh 0xF0C6
 db 0x8C //bank
 db NewLine
-.stringn "あなたの無事をいのっていました"
+.stringn "무사하길 기도하고 있었어요"
 db NewLine
 db WaitForA
 db EndText
@@ -1611,9 +1612,9 @@ db EndText
 Dialogue_cfdfa:
 
 db Bottom_Slot
-.stringn "まあな・・・"
+.stringn "뭐 그렇지・・・"
 db NewLine
-.stringn "無事で良かったぜ、"
+.stringn "무사해서 다행이야, "
 dh SringBuffer1 //Lover or father
 db NewLine
 db WaitForA
@@ -1626,9 +1627,9 @@ db EndText
 Dialogue_cfe15:
 
 db Bottom_Slot
-.stringn "まあな、ケガはなかったか"
+.stringn "그래, 다치진 않았어?"
 db NewLine
-.stringn "あまり心配させるなよ"
+.stringn "너무 걱정 끼치지 마"
 db NewLine
 db WaitForA
 db EndText
@@ -1640,7 +1641,7 @@ db EndText
 Dialogue_cfe33:
 
 db Bottom_Slot
-.stringn "ま、まあね・・・"
+.stringn "뭐, 뭐 그렇지・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1652,10 +1653,10 @@ db EndText
 Dialogue_cfe40:
 
 db Bottom_Slot
-.stringn "うん、おかえりなさい"
+.stringn "응, 어서 와"
 dh SringBuffer1 //Lover or father
 db NewLine
-.stringn "でも良かった、きみが無事で・・・"
+.stringn "다행이야, 무사해서・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1667,7 +1668,7 @@ db EndText
 Dialogue_cfe66:
 
 db Bottom_Slot
-.stringn "ああ、きみを失いたくないからな・・・"
+.stringn "그래, 널 잃고 싶지 않으니까・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1679,7 +1680,7 @@ db EndText
 Dialogue_cfe7f:
 
 db Bottom_Slot
-.stringn "ああ、おそかったから心配したぜ"
+.stringn "그래, 늦길래 걱정했어"
 db NewLine
 db WaitForA
 db EndText
@@ -1691,7 +1692,7 @@ db EndText
 Dialogue_cfe95:
 
 db Bottom_Slot
-.stringn "そうだよ、無事でよかったね"
+.stringn "그래, 무사해서 다행이야"
 db NewLine
 db WaitForA
 db EndText
@@ -1703,7 +1704,7 @@ db EndText
 Dialogue_cfea9:
 
 db Bottom_Slot
-.stringn "あ、ああ・・・きみは大事な人だからね"
+.stringn "그, 그래・・・ 소중한 사람이니까"
 db NewLine
 db WaitForA
 db EndText
@@ -1715,9 +1716,9 @@ db EndText
 Dialogue_cfec4:
 
 db Bottom_Slot
-.stringn "うん、あったりまえでしょ！"
+.stringn "응, 당연하지!"
 db NewLine
-.stringn "おかえりなさい！⑫あ・①な・①た①▼"
+.stringn "어서 와! 여・보・야!"
 db NewLine
 db WaitForA
 db EndText
@@ -1729,9 +1730,9 @@ db EndText
 Dialogue_cfeee:
 
 db Bottom_Slot
-.stringn "ええ・・・"
+.stringn "응・・・"
 db NewLine
-.stringn "あなたが心配だったから・・・"
+.stringn "당신이 걱정돼서・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1743,7 +1744,7 @@ db EndText
 Dialogue_cff09:
 
 db Bottom_Slot
-.stringn "ええ、おかえりなさい"
+.stringn "네, 어서 와요"
 db NewLine
 dh InsBlockText_2D //18010D00
 dh 0xF0C6
@@ -1760,9 +1761,9 @@ db EndText
 Dialogue_cff21:
 
 db Bottom_Slot
-.stringn "うん、ちょっぴりさみしくてね・・・"
+.stringn "응, 혼자는 쓸쓸해서・・・"
 db NewLine
-.stringn "おかえりなさい、"
+.stringn "어서 와, "
 dh InsBlockText_2D //3F010D00
 dh 0xF0C6
 db 0x8C //bank
@@ -1777,9 +1778,9 @@ db EndText
 Dialogue_cff45:
 
 db Bottom_Slot
-.stringn "はい、あなたの帰りを待っていました"
+.stringn "네, 돌아오시길 기다렸어요"
 db NewLine
-.stringn "だって、心配だったもの・・・"
+.stringn "걱정됐거든요・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1791,9 +1792,9 @@ db EndText
 Dialogue_cff70:
 
 db Bottom_Slot
-.stringn "うふっ、当然よ①▼"
+.stringn "우훗, 당연하지"
 db NewLine
-.stringn "おかえりなさい、あなた・・・"
+.stringn "어서 와, 당신・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1805,12 +1806,12 @@ db EndText
 Dialogue_cff91:
 
 db Bottom_Slot
-.stringn "おかえりなさい、"
+.stringn "어서 오세요, "
 dh InsBlockText_2D //9D010D00
 dh 0xF0C6
 db 0x8C //bank
 db NewLine
-.stringn "あなたの無事をいのっていました"
+.stringn "무사하길 기도하고 있었어요"
 db NewLine
 db WaitForA
 db EndText
@@ -1821,7 +1822,9 @@ db EndText
 // 0xd01b5
 Dialogue_cffb5:
 dh SringBuffer1 //Lover or father
-.stringn "様"
+.stringn " 님"
 db EndText
 
 //end 0xcffbb
+
+

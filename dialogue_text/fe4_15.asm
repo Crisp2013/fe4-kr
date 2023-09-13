@@ -1,3 +1,5 @@
+
+
 //offset 0xd9ed5
 // 0xda0d5
 Dialogue_d9ed5:
@@ -17,14 +19,14 @@ dh TextSpeed
 db 0x02
 dh PauseForTime
 db 0x0F
-.stringn "アイラ、ぼくは大丈夫だ、だから"
+.stringn "아이라, 난 괜찮아. 그러니까"
 db NewLine
-.stringn "こんな奴等のいいなりになっちゃだめだ！"
+.stringn "이런 녀석들 말 들을 필요 없어!"
 
 db Bottom_Slot// Ayra
 dh PauseForTime
 db 0x10
-.stringn "シャナン・・・"
+.stringn "샤난・・・"
 db NewLine
 dh PauseForTime
 db 0x32
@@ -51,16 +53,16 @@ dh TextSpeed
 db 0x02
 dh PauseForTime
 db 0x0F
-.stringn "ラケシス、俺はアグスティへむかう"
+.stringn "라케시스, 아그스티에 다녀오마"
 db NewLine
-.stringn "おろかな挙兵などやめるよう"
+.stringn "폐하를 찾아가"
 db NewLine
-.stringn "陛下におねがいする"
+.stringn "어리석은 거병을 막아야만 해"
 dh PauseForTime
 db 0x10
 
 db Bottom_Slot// Lachesis
-.stringn "おまちください、兄上！"
+.stringn "가시면 안 돼요, 오라버니!"
 db NewLine
 dh PauseForTime
 db 0x32
@@ -78,11 +80,11 @@ dh LoadPortrait
 dh 0x0104//Arvis
 dh TextSpeed
 db 0x02
-.stringn "これが最後だ！"
+.stringn "이것이 마지막 전투다!"
 db NewLine
 dh PauseForTime
 db 0x08
-.stringn "全軍、総攻撃をかけよ！！"
+.stringn "전군, 총공격하라!!"
 db NewLine
 dh PauseForTime
 db 0x80
@@ -98,11 +100,11 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x027F//Oifey
-.stringn "シグルド様、"
+.stringn "시구르드 님,"
 db NewLine
-.stringn "城が占領されてしまいました"
+.stringn "본성이 점거당해 버렸습니다"
 db NewLine
-.stringn "残念ながらわが軍の敗北です・・・"
+.stringn "저희 군의 패배입니다・・・"
 db WaitForA
 db EndText
 
@@ -116,9 +118,9 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0280//Lewyn
-.stringn "セリス、城が占領されてしまった"
+.stringn "세리스, 본성이 점거당했다"
 db NewLine
-.stringn "残念だが、わが軍の敗北だ・・・"
+.stringn "원통하지만, 우리 군의 패배다・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -133,9 +135,9 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x027F//Oifey
-.stringn "ああ、シグルド様"
+.stringn "아아, 시구르드 님・・・"
 db NewLine
-.stringn "死んでしまわれるなんて・・・"
+.stringn "돌아가시다니・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -150,11 +152,12 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0280//Lewyn
-.stringn "セリス・・・おまえが"
+.stringn "세리스・・・"
 db NewLine
-.stringn "死んでしまうとは・・・"
+.stringn "네가 죽어버릴 줄은・・・"
 db NewLine
 db WaitForA
 db EndText
 
 //end 0xda06a
+

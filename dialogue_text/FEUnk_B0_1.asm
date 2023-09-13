@@ -1,3 +1,4 @@
+
 //offset 0x30b76e
 // 0x30b96e
 Dialogue_30b76e:
@@ -13,22 +14,22 @@ dh LoadPortrait
 dh 0x0017//Edain
 
 db Top_Slot// Andrey
-.stringn "ほぉー、裹切り者の妹上と"
+.stringn "호오, 배신자 누님과"
 db NewLine
-.stringn "こんなところで会えるとはな"
+.stringn "이런 곳에서 만나게 되다니"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "わがユングヴィの名を汚した罪、"
+.stringn "우리 잉그비의 이름을 더럽힌 일은"
 db NewLine
-.stringn "自らの命でつぐなってもらおうか"
+.stringn "죽음으로 속죄해 줘야겠소"
 db NewLine
 
 db Bottom_Slot// Edain
 dh PauseForTime
 db 0x10
-.stringn "アンドレイ・・・かわいそうな人・・・"
+.stringn "안드레이・・・ 가여운 사람・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -50,27 +51,27 @@ dh LoadPortrait
 dh 0x0018//Brigid
 
 db Top_Slot// Andrey
-.stringn "なんと！？⑫まさかブリギッド妹上？"
+.stringn "당신은 설마 브리기드 누님인가?"
 db NewLine
-.stringn "海賊に身を落としたとはきいていたが"
+.stringn "해적에게 의탁했다는 말은 들었다만,"
 db NewLine
-.stringn "その上、反逆者に荷坦とはな・・・"
+.stringn "이젠 역적질까지 하다니・・・"
 db WaitForA
 db ScrollText
 
-.stringn "いずれにしてもわが家の恥、"
+.stringn "당신도 우리 집안의 수치다,"
 db NewLine
-.stringn "死んでもらわねばなるまいな"
+.stringn "여기서 죽어줘야겠어"
 db NewLine
 
 db Bottom_Slot// Brigid
 dh PauseForTime
 db 0x10
-.stringn "だまれ！⑫父上を殺した不孝者め"
+.stringn "닥쳐라, 아버님을 죽인 불효자야!"
 db NewLine
-.stringn "貴様こそ、ユングヴィ家の恥さらし"
+.stringn "네놈이야말로 잉그비 가문의 수치,"
 db NewLine
-.stringn "聖戦士ウリルの名を汚す者だ！！"
+.stringn "성전사 우르의 이름을 더럽힌 놈이다!!"
 db WaitForA
 db EndText
 
@@ -91,23 +92,23 @@ dh LoadPortrait
 dh 0x0001//Sigurd
 
 db Top_Slot// Lombard
-.stringn "がっはっはっ・・・来たか小僧"
+.stringn "카하하・・・ 왔구나 애송아"
 db NewLine
-.stringn "ちょうどよいわ、"
+.stringn "마침 잘 만났다"
 db NewLine
-.stringn "きさまもバイロンのもとへ送ってやろう"
+.stringn "네놈도 바이런 곁으로 보내주마"
 db WaitForA
 db ScrollText
 
-.stringn "ヤツも一人ではさみしかろうよ"
+.stringn "녀석도 지금쯤 혼자라 외로울 게다"
 db NewLine
 
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn "ランゴバルト！⑫きさまだけは許さない"
+.stringn "랑고바르트! 네놈만은 용서할 수 없다"
 db NewLine
-.stringn "わが父の無念、思い知れ！"
+.stringn "아버지의 원통함을 깨닫게 해 주마!"
 db NewLine
 db WaitForA
 db EndText
@@ -122,11 +123,11 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x029A//Slayder
-.stringn "バイロン卿、申し訳ないが、"
+.stringn "바이런 경, 죄송합니다만"
 db NewLine
-.stringn "これも主命だ"
+.stringn "이것도 주군의 명령입니다"
 db NewLine
-.stringn "ここで死んでもらうぞ！"
+.stringn "여기서 죽어 주시길!"
 db WaitForA
 db EndText
 
@@ -140,7 +141,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x027E//Byron
-.stringn "くっ、もはやこれまでか・・・"
+.stringn "큭, 여기까진가・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -155,16 +156,16 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x029A//Slayder
-.stringn "なに、なぜおまえたちが"
+.stringn "아니, 어째서 너희가"
 db NewLine
-.stringn "ここにいる？"
+.stringn "여기에 있는 거지?"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "すでに前線は"
+.stringn "설마 벌써 전선이"
 db NewLine
-.stringn "突破されたというのか！？"
+.stringn "돌파당했단 말인가!?"
 db NewLine
 db WaitForA
 db EndText
@@ -179,9 +180,9 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x00E9//Andrey
-.stringn "ふふふ・・・おろか者め"
+.stringn "후후후・・・ 어리석은 놈"
 db NewLine
-.stringn "・・・死ね！！"
+.stringn "・・・죽어라!!"
 db NewLine
 db WaitForA
 db EndText
@@ -196,19 +197,19 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x00DB//Lombard
-.stringn "がっはっはっ・・・ざこどもよ"
+.stringn "카하하・・・ 이 오합지졸 놈들아!"
 db NewLine
-.stringn "わしにこの"
+.stringn "내게 이"
 db NewLine
-.stringn "スワンチカの斧があるかぎり"
+.stringn "스완티카가 있는 이상"
 db WaitForA
 db ScrollText
 
-.stringn "きさまたちなど"
+.stringn "네놈들 따윈"
 db NewLine
-.stringn "何人来ても同じこと"
+.stringn "몇 명이 와도 소용없는 일이다"
 db NewLine
-.stringn "死にたくなければ近よるな！"
+.stringn "죽기 싫다면 다가오지 마라!"
 db WaitForA
 db EndText
 
@@ -222,9 +223,9 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x00EB//Banba
-.stringn "くらえ、天の怒り！"
+.stringn "받아라, 하늘의 분노를!"
 db NewLine
-.stringn "メティオ！！"
+.stringn "메티오!!"
 db NewLine
 db WaitForA
 db EndText
@@ -239,9 +240,9 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0011//Ethlyn
-.stringn "アルテナ、あなただけは、"
+.stringn "아르테나,"
 db NewLine
-.stringn "この私が守ります！"
+.stringn "너만은 내가 지켜줄게!"
 db NewLine
 db WaitForA
 db EndText
@@ -256,11 +257,11 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0006//Quan
-.stringn "しね！⑫ハイエナどもめ！！"
+.stringn "죽어라, 하이에나 놈들아!"
 db NewLine
-.stringn "このゲイボルグあるかぎり"
+.stringn "이 게이볼그가 있는 한"
 db NewLine
-.stringn "お前達には、負けはしない"
+.stringn "너희들 따위에겐 지지 않는다!"
 db WaitForA
 db EndText
 
@@ -274,7 +275,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0006//Quan
-.stringn "くっ・・・もはやこれまでか"
+.stringn "큭・・・ 여기까진가"
 db NewLine
 db WaitForA
 db EndText
@@ -289,18 +290,18 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x00EF//Travant
-.stringn "これが世に名高い"
+.stringn "이것이 세상에 이름을 떨치는 창,"
 db NewLine
-.stringn "グングニルの槍だ"
+.stringn "궁니르다"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "ふふふっ、きさまは幸せだな"
+.stringn "후후후, 죽기 전에"
 db NewLine
-.stringn "死ぬ前に"
+.stringn "이 창을 보게 되는 것을"
 db NewLine
-.stringn "とくとおがんでおけよ"
+.stringn "영광인 줄 알거라"
 db WaitForA
 db EndText
 
@@ -314,9 +315,9 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x00F0//Magorn
-.stringn "これも我らの仕事なのでな"
+.stringn "이것도 일이다"
 db NewLine
-.stringn "・・・悪く思うなよ"
+.stringn "・・・나쁘게 생각 마라"
 db NewLine
 db WaitForA
 db EndText
@@ -331,9 +332,9 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x00F5//Reptor
-.stringn "この上は、きさまも道連れだ！"
+.stringn "이렇게 된 이상, 너희도 길동무다!"
 db NewLine
-.stringn "死ね！！"
+.stringn "죽어라!!"
 db NewLine
 db WaitForA
 db EndText
@@ -348,11 +349,11 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x00F5//Reptor
-.stringn "くくく・・・"
+.stringn "크크크・・・"
 db NewLine
-.stringn "トールハンマーの恐ろしさ、"
+.stringn "토르 해머의 무서움을"
 db NewLine
-.stringn "とくと思い知るがよい！"
+.stringn "그 몸으로 깨닫거라!"
 db WaitForA
 db EndText
 
@@ -392,69 +393,69 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0025//Ares
-.stringn "セリス"
+.stringn "세리스,"
 db NewLine
-.stringn "おまえには大きな借りができた"
+.stringn "네겐 큰 빚을 졌다"
 db NewLine
-.stringn "俺は生涯、忘れはしない"
+.stringn "내 평생 잊지 않으마"
 dh PauseForTime
 db 0x60
 db ScrollText
 
 
 db Top_Slot// Seliph
-.stringn "いえ、アレス王子"
+.stringn "뭘요, 아레스 왕자"
 db NewLine
-.stringn "私は、あなたとめぐり会えて幸せだった"
-db NewLine
-dh PauseForTime
-db 0x60
-db ScrollText
-
-.stringn "あなたのお父上とわが父は"
-db NewLine
-.stringn "無二の親友だった"
+.stringn "당신과 만나게 돼서 기뻤어요"
 db NewLine
 dh PauseForTime
 db 0x60
 db ScrollText
 
-.stringn "不幸な出来事はあったが、"
+.stringn "당신과 저의 부친은"
 db NewLine
-.stringn "それでも信じあえたときいています"
+.stringn "둘도 없는 친구지간이었죠"
 db NewLine
 dh PauseForTime
 db 0x60
 db ScrollText
 
-.stringn "アレス王子、"
+.stringn "불행한 운명에 놓이게 되었지만,"
 db NewLine
-.stringn "父上たちが果たせなかったゆめを"
+.stringn "그럼에도 서로를 굳게 믿었다고 해요"
 db NewLine
-.stringn "われらが実現しましょう"
 dh PauseForTime
 db 0x60
 db ScrollText
 
-.stringn "あなたと二人、手を取り合って、"
+.stringn "아레스 왕자,"
 db NewLine
-.stringn "この世界をみちびいて行きたいのです"
+.stringn "아버님들께서 이루지 못한 꿈을"
+db NewLine
+.stringn "우리 손으로 이루어 보아요"
+dh PauseForTime
+db 0x60
+db ScrollText
+
+.stringn "당신과 저 둘이서 손을 맞잡고"
+db NewLine
+.stringn "이 세상을 바르게 이끌고 싶어요"
 db NewLine
 
 db Bottom_Slot// Ares
 dh PauseForTime
 db 0x20
-.stringn "それは俺とて同じ、セリス王よ、"
+.stringn "나도 마찬가지다, 세리스 왕"
 db NewLine
-.stringn "アグストリアの統一と平和は、"
+.stringn "아그스트리아의 통일과 평화는"
 db NewLine
-.stringn "わが父の願いでもあった"
+.stringn "아버지의 소원이었지"
 dh PauseForTime
 db 0x60
 dh ScrollText_DBC
-.stringn "俺は、父の遺志を維ぎ"
+.stringn "나는 아버지의 유지를 이어"
 db NewLine
-.stringn "アグストリアを再建する"
+.stringn "아그스트리아를 재건하겠어"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -477,37 +478,37 @@ dh unknown_002F
 
 db Top_Slot// Seliph
 dh SringBuffer2 //CharName or mother
-.stringn "、きみは・・・"
+.stringn ", 너는・・・"
 db NewLine
 
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn "あたしには祖国なんてないし、"
+.stringn "나한텐 조국 같은 것도 없고,"
 db NewLine
-.stringn "それに"
+.stringn "게다가 "
 dh SringBuffer1 //Lover or father
-.stringn "も死んじゃったし、"
+.stringn "도 죽어버렸고・・・"
 db NewLine
-.stringn "アグストリアに行く・・・"
+.stringn "아그스트리아로 갈래요"
 dh PauseForTime
 db 0x60
 
 db Top_Slot// Seliph
 dh ScrollText_DBC
-.stringn "そうか・・・でも、元気だして、"
+.stringn "그렇구나・・・ 건강해야 해"
 db NewLine
-.stringn "きっといいことあるよ"
+.stringn "분명 좋은 일이 생길 거야"
 db NewLine
 
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn "うん、あたしには踊りがあるしね"
+.stringn "네, 저한텐 춤도 있고"
 db NewLine
-.stringn "今までだって一人だったし、"
+.stringn "지금까지 쭉 혼자였으니까"
 db NewLine
-.stringn "これからだって一人で生きて行けます"
+.stringn "앞으로도 혼자 살아갈 수 있어요"
 dh PauseForTime
 db 0x60
 
@@ -537,17 +538,17 @@ dh unknown_002F
 
 db Top_Slot// Seliph
 dh SringBuffer2 //CharName or mother
-.stringn "、きみは・・・"
+.stringn ", 너는・・・"
 db NewLine
 
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn "あたしには祖国なんてないし、"
+.stringn "나한텐 조국 같은 것도 없고,"
 db NewLine
-.stringn "アレス様、死んじゃったけど、"
+.stringn "아레스도 죽어버렸고・・・"
 db NewLine
-.stringn "アグストリアに行くつもり・・・"
+.stringn "아그스트리아로 가보려구요"
 dh InsBlockText_2A
 write_hirom_pointer Dialogue_30be73
 db EndText
@@ -569,15 +570,15 @@ dh unknown_002F
 
 db Top_Slot// Seliph
 dh SringBuffer2 //CharName or mother
-.stringn "、きみは・・・"
+.stringn ", 너는・・・"
 db NewLine
 
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn "あたしには祖国なんてないし、"
+.stringn "나한텐 조국 같은 것도 없고,"
 db NewLine
-.stringn "アグストリアに行ってみる・・・"
+.stringn "아그스트리아로 가보려구요・・・"
 db NewLine
 dh InsBlockText_2A
 write_hirom_pointer Dialogue_30be73
@@ -593,34 +594,34 @@ db 0x60
 
 db Top_Slot
 dh ScrollText_DBC
-.stringn "そうか・・・でも、元気だして、"
+.stringn "그렇구나・・・ 건강해야 해"
 db NewLine
-.stringn "ステキな人が見つかるさ"
+.stringn "멋진 사람을 만날 수 있을 거야"
 db NewLine
 dh SringBuffer2 //CharName or mother
-.stringn "はかわいいもの"
+.stringn "는 귀여우니까"
 
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn "ふふっ、セリス様"
+.stringn "후후, 세리스 님"
 db NewLine
-.stringn "なぐさめてくれてるんだ"
+.stringn "위로해 주는 거예요?"
 db NewLine
 dh PauseForTime
 db 0x60
 dh ScrollText_DBC
-.stringn "でもね、いいの"
+.stringn "괜찮아요"
 db NewLine
-.stringn "あたしには踊りがあるし・・・"
+.stringn "저한텐 춤도 있고・・・"
 db NewLine
 dh PauseForTime
 db 0x60
 db ScrollText
 
-.stringn "今までだって一人だった"
+.stringn "지금까지 쭉 혼자였으니까"
 db NewLine
-.stringn "これからだって一人で生きて行けます"
+.stringn "앞으로도 혼자 살아갈 수 있어요"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -692,23 +693,23 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0036//Diarmuid
-.stringn "セリス様、"
+.stringn "세리스 님"
 db NewLine
-.stringn "私はアグストリアにまいります"
+.stringn "저는 아그스트리아로 가보겠습니다"
 db NewLine
 dh PauseForTime
 db 0x60
 db ScrollText
 
-.stringn "アレス王子に代わって"
+.stringn "아레스 왕자를 대신해"
 db NewLine
-.stringn "私が国を再建します"
+.stringn "제가 조국을 재건하겠습니다"
 db NewLine
 dh PauseForTime
 db 0x60
 dh InsBlockText_2A
 write_hirom_pointer Dialogue_30bfa8
-.stringn "この生涯をささげるつもりでいます"
+.stringn "제 생애를 바치겠습니다"
 dh PauseForTime
 db 0x60
 db EndText
@@ -723,11 +724,11 @@ db ScrollText
 
 db Top_Slot
 dh SringBuffer2 //CharName or mother
-.stringn "が？"
+.stringn "가?"
 db NewLine
-.stringn "そうか、きみの母上は"
+.stringn "그래, 너희 어머님은"
 db NewLine
-.stringn "ノディオン王の妹姫だったね"
+.stringn "노디온 왕의 동생이었지"
 
 db Bottom_Slot
 dh PauseForTime
@@ -741,17 +742,17 @@ db EndText
 //offset 0x30bfd9
 // 0x30c1d9
 Dialogue_30bfd9:
-.stringn "はい、わが母ラケシスは"
+.stringn "네, 제 어머니 라케시스는"
 db NewLine
-.stringn "エルトシャン王の妹、"
+.stringn "엘트샨 왕의 누이이며,"
 db NewLine
-.stringn "そして、誰よりも王をしたっておりました"
+.stringn "누구보다 왕을 경애하셨습니다"
 dh PauseForTime
 db 0x60
 dh ScrollText_DBC
-.stringn "私は母とエルトシャン王の遺志を維ぎ、"
+.stringn "어머니와 엘트샨 왕의 유지를 이어"
 db NewLine
-.stringn "アグストリアの統一のために、"
+.stringn "아그스트리아의 통일을 위해"
 db NewLine
 db EndText
 
@@ -766,9 +767,9 @@ dh DialogClose
 dh ClearPortrait
 dh DialogOpen
 dh unknown_002E
-.stringn "セリス様"
+.stringn "세리스 님"
 db NewLine
-.stringn "私もデルムッドと共にまいります"
+.stringn "저도 델무드와 함께 갈게요"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -777,33 +778,33 @@ db ScrollText
 
 db Top_Slot
 dh SringBuffer1 //Lover or father
-.stringn "が？"
+.stringn "・・・?"
 db NewLine
-.stringn "あ、そうだったのか"
+.stringn "아, 그랬구나"
 db NewLine
-.stringn "知らなかったよ、おめでとう"
+.stringn "미처 몰랐어, 축하해"
 
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn "はい・・・ありがとうございます"
+.stringn "네・・・ 감사합니다"
 db NewLine
-.stringn "でも、少し恥ずか①しいな"
+.stringn "왠지 조금 부끄럽네요"
 db NewLine
 dh PauseForTime
 db 0x60
 
 db Top_Slot
 dh ScrollText_DBC
-.stringn "デルムッドはいいヤツさ"
+.stringn "델무드는 좋은 녀석이야"
 db NewLine
-.stringn "どうか、幸せにね"
+.stringn "둘이 행복했으면 좋겠다"
 db NewLine
 
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn "はい、セリス様も・・・"
+.stringn "네, 세리스 님도・・・"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -824,23 +825,23 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0036//Diarmuid
-.stringn "セリス様、私もアレス王子と共に"
+.stringn "세리스 님, 저도 아레스 왕자와 함께"
 db NewLine
-.stringn "アグストリアへまいります"
+.stringn "아그스트리아로 가보겠습니다"
 db NewLine
 dh PauseForTime
 db 0x60
 db ScrollText
 
-.stringn "王子と力を合わせて、"
+.stringn "왕자와 힘을 합쳐"
 db NewLine
-.stringn "国を再建いたします"
+.stringn "나라를 재건해 보이겠습니다"
 db NewLine
 dh PauseForTime
 db 0x60
 dh InsBlockText_2A
 write_hirom_pointer Dialogue_30bfa8
-.stringn "この生涯をささげるつもりでいます"
+.stringn "제 생애를 바치겠습니다"
 dh PauseForTime
 db 0x60
 db EndText
@@ -904,31 +905,31 @@ dh LoadPortrait
 dh 0x0021//Tristan
 
 db Top_Slot// Seliph
-.stringn "トリスタン、きみには申し訳ないが、"
+.stringn "트리스탄, 너에겐 미안하지만"
 db NewLine
-.stringn "アグストリアに行ってほしい"
-db NewLine
-dh PauseForTime
-db 0x60
-db ScrollText
-
-.stringn "アグトリアの王家は滅亡し"
-db NewLine
-.stringn "国は戦火の中にある"
+.stringn "아그스트리아로 가줬으면 해"
 db NewLine
 dh PauseForTime
 db 0x60
 db ScrollText
 
-.stringn "私もいずれ行くつもりだが"
+.stringn "아그스트리아 왕가는 멸망했고"
 db NewLine
-.stringn "それまでは、きみに守ってほしいのだ"
+.stringn "나라는 전란에 휘말려 황폐해졌어"
+db NewLine
+dh PauseForTime
+db 0x60
+db ScrollText
+
+.stringn "나도 곧 가볼 생각이지만"
+db NewLine
+.stringn "그때까진 네가 지켜줬으면 해"
 db NewLine
 
 db Bottom_Slot// Tristan
 dh PauseForTime
 db 0x20
-.stringn "はっ！⑫それが王のご命令とあらば"
+.stringn "네! 폐하의 명령이시라면"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -947,33 +948,33 @@ dh unknown_002E
 
 db Top_Slot
 dh SringBuffer1 //Lover or father
-.stringn "、"
+.stringn ","
 db NewLine
-.stringn "きみもトリスタンと一緒に行けばいい"
+.stringn "너도 트리스탄과 같이 가"
 db NewLine
-.stringn "二人を引き離すなんて私にはできないよ"
+.stringn "둘을 떨어뜨려 놓을 수는 없어"
 
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn "え？⑫セリス様、"
+.stringn "네? 세리스 님,"
 db NewLine
-.stringn "ごぞんじだったのですか"
+.stringn "알고 계셨나요?"
 db NewLine
 dh PauseForTime
 db 0x60
 
 db Top_Slot
 dh ScrollText_DBC
-.stringn "それは二人を見ていればわかるさ"
+.stringn "딱 보면 알아"
 db NewLine
-.stringn "幸せにね、"
+.stringn "행복해야 해, "
 dh SringBuffer1 //Lover or father
 
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn "はい！⑫ありがとうございます"
+.stringn "네! 감사합니다"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -996,28 +997,28 @@ dh LoadPortrait
 dh 0x0021//Tristan
 
 db Top_Slot// Seliph
-.stringn "トリスタン、きみにはすまないが、"
+.stringn "트리스탄, 너에겐 미안하지만"
 db NewLine
-.stringn "アグストリアに行ってほしい"
+.stringn "아그스트리아로 가줬으면 해"
 db NewLine
 dh PauseForTime
 db 0x60
 db ScrollText
 
-.stringn "アレス王子を助けて、"
+.stringn "아레스를 도와"
 db NewLine
-.stringn "いまだ戦火の中にあるアグストリアを"
+.stringn "전란에 휘말려 황폐해진"
 db NewLine
-.stringn "救ってほしいのだ"
+.stringn "아그스트리아를 구해줘"
 
 db Bottom_Slot// Tristan
 dh PauseForTime
 db 0x20
-.stringn "アグストリアはわが祖国"
+.stringn "아그스트리아는 저의 조국"
 db NewLine
-.stringn "王のお許しがいただけるのなら"
+.stringn "폐하의 명령이시라면"
 db NewLine
-.stringn "喜んでまいります！"
+.stringn "기쁘게 받아들이겠습니다!"
 dh PauseForTime
 db 0x60
 db EndText
@@ -1037,17 +1038,17 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x003F//Nanna
-.stringn "セリス様、"
+.stringn "세리스 님,"
 db NewLine
-.stringn "私はアグストリアにまいります"
+.stringn "저는 아그스트리아로 가보겠습니다"
 db NewLine
 dh PauseForTime
 db 0x60
 db ScrollText
 
-.stringn "亡くなられたアレス様に代わって"
+.stringn "아레스 왕자를 대신해"
 db NewLine
-.stringn "私が国を再建したいのです"
+.stringn "제가 나라를 재건하겠습니다"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -1055,7 +1056,7 @@ db ScrollText
 
 dh InsBlockText_2A
 write_hirom_pointer Dialogue_30bfa8
-.stringn "この生涯をささげたいのです"
+.stringn "제 생애를 바치겠습니다"
 dh PauseForTime
 db 0x60
 db EndText
@@ -1067,16 +1068,16 @@ db EndText
 Dialogue_30c3c5:
 dh InsBlockText_2A
 write_hirom_pointer Dialogue_30c41a
-.stringn "ナンナ、元気を出して"
+.stringn "난나, 건강해야 해"
 db NewLine
-.stringn "アグストリアにはきみが必要なんだ"
+.stringn "아그스트리아엔 네가 필요하니까"
 
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn "はい、私も王を助けて"
+.stringn "네, 저도 세리스 님을 도와"
 db NewLine
-.stringn "人々のために力を尽くします"
+.stringn "사람들을 위해 힘쓰겠습니다"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -1096,27 +1097,27 @@ dh 0x0019//Seliph
 db Bottom_Slot
 dh DialogOpen
 dh unknown_002F
-.stringn "セリス様、"
+.stringn "세리스 님,"
 db NewLine
-.stringn "私もアグストリアにまいります"
+.stringn "저도 가보겠습니다"
 db NewLine
 dh PauseForTime
 db 0x60
 db ScrollText
 
 dh SringBuffer1 //Lover or father
-.stringn "のことは"
+.stringn "・・・ 그 사람은"
 db NewLine
-.stringn "忘れられそうにないけど"
+.stringn "아직 잊을 수 없지만 언제까지나"
 db NewLine
-.stringn "いつまでも泣いてはいられません"
+.stringn "울고만 있을 순 없으니까요"
 dh PauseForTime
 db 0x60
 db ScrollText
 
 
 db Top_Slot// Seliph
-.stringn "そうか、辛いだろうけど仕方ないしね"
+.stringn "그래, 슬프지만 어쩔 수 없어"
 db NewLine
 db EndText
 
@@ -1135,20 +1136,20 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x003F//Nanna
-.stringn "セリス様、"
+.stringn "세리스 님,"
 db NewLine
-.stringn "私もアグストリアにまいります"
+.stringn "저도 아그스트리아로 가보겠습니다"
 db NewLine
-.stringn "さみしいけれど、しかたありません・・・"
+.stringn "외롭겠지만, 어쩔 수 없죠・・・"
 dh PauseForTime
 db 0x60
 db ScrollText
 
 
 db Top_Slot// Seliph
-.stringn "そうか・・・でも、元気を出して、"
+.stringn "그렇구나・・・ 하지만 기운 내서"
 db NewLine
-.stringn "アレス王を助けてほしい"
+.stringn "아레스 왕을 도와줘"
 db NewLine
 
 db Bottom_Slot// Nanna
@@ -1156,7 +1157,7 @@ dh PauseForTime
 db 0x20
 dh InsBlockText_2A
 write_hirom_pointer Dialogue_30bfd9
-.stringn "この生涯をささげるつもりでいます"
+.stringn "제 생애를 바치겠습니다"
 dh PauseForTime
 db 0x60
 db EndText
@@ -1176,17 +1177,17 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x003F//Nanna
-.stringn "セリス様、"
+.stringn "세리스 님"
 db NewLine
-.stringn "私もアグストリアにまいります"
+.stringn "저도 아그스트리아로 가보겠습니다"
 db NewLine
 dh PauseForTime
 db 0x60
 db ScrollText
 
-.stringn "兄とともに、"
+.stringn "오라버니와 함께"
 db NewLine
-.stringn "祖国の統一をめざして、がんばります"
+.stringn "조국 통일을 위해 노력하겠어요"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -1194,33 +1195,33 @@ db ScrollText
 
 
 db Top_Slot// Seliph
-.stringn "ナンナは"
+.stringn "난나는"
 db NewLine
-.stringn "レンスターには戻らないのか・・・"
+.stringn "렌스터로 돌아가지 않는구나・・・"
 db NewLine
 
 db Bottom_Slot// Nanna
 dh PauseForTime
 db 0x20
-.stringn "はい・・・レンスターには"
+.stringn "네・・・ 렌스터는"
 db NewLine
-.stringn "もう何も思い残すことはありません・・・"
+.stringn "이제 아무 미련도 없어요・・・"
 db NewLine
 dh PauseForTime
 db 0x60
 
 db Top_Slot// Seliph
 dh ScrollText_DBC
-.stringn "そうか・・・"
+.stringn "그렇구나・・・"
 db NewLine
-.stringn "ナンナ、元気で、"
+.stringn "난나, 건강해야 해"
 db NewLine
-.stringn "きみの幸せを願っている"
+.stringn "행복하게 살아"
 
 db Bottom_Slot// Nanna
 dh PauseForTime
 db 0x20
-.stringn "はい、セリス様も・・・"
+.stringn "네, 세리스 님도・・・"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -1233,21 +1234,21 @@ db EndText
 Dialogue_30c5e2:
 dh InsBlockText_2A
 write_hirom_pointer Dialogue_30c41a
-.stringn "ジャンヌ、元気を出して"
+.stringn "잔느, 기운 차리고"
 db NewLine
 dh PauseForTime
 db 0x60
 db ScrollText
 
-.stringn "アグストリアで"
+.stringn "아그스트리아에서"
 db NewLine
-.stringn "新しい人生を見つけてほしい"
+.stringn "새로운 삶을 찾아보자"
 db NewLine
 
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn "はい、セリス様"
+.stringn "네, 세리스 님"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -1268,9 +1269,9 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0030//Jeanne
-.stringn "セリス様、"
+.stringn "세리스 님,"
 db NewLine
-.stringn "私もアグストリアにまいります"
+.stringn "저도 아그스트리아로 가보겠습니다"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -1278,45 +1279,45 @@ db ScrollText
 
 
 db Top_Slot// Seliph
-.stringn "ジャンヌが？"
+.stringn "잔느가?"
 db NewLine
-.stringn "あっ・・・そうか、きみたち兄妹は"
+.stringn "아・・・ 그래, 너희 남매는"
 db NewLine
-.stringn "アグストリアの出身だったね"
+.stringn "아그스트리아 출신이었지"
 
 db Bottom_Slot// Jeanne
 dh PauseForTime
 db 0x20
-.stringn "はい、父はノディオンの騎士でした"
+.stringn "네, 아버지는 노디온의 기사였습니다"
 db NewLine
-.stringn "ラケシス王女に仕えて戦死したそうです"
+.stringn "라케시스 왕녀를 모시다 전사하셨죠"
 db NewLine
-.stringn "名をイーヴと言います"
+.stringn "이름은 이브였다고 해요"
 dh PauseForTime
 db 0x60
 
 db Top_Slot// Seliph
 dh ScrollText_DBC
-.stringn "そうか、きみは両親を前の戦いでなくし"
+.stringn "그랬구나, 부모님을 전쟁으로 잃고"
 db NewLine
-.stringn "そして今度は兄のトリスタンまで・・・"
+.stringn "이번엔 오빠 트리스탄까지・・・"
 db NewLine
-.stringn "本当にすまないと思っている"
+.stringn "정말 미안해"
 
 db Bottom_Slot// Jeanne
 dh PauseForTime
 db 0x20
-.stringn "いいえ、セリス様"
+.stringn "사과하실 필요 없어요, 세리스 님"
 db NewLine
-.stringn "それはもう良いのです"
+.stringn "이제 괜찮으니까요"
 db NewLine
-.stringn "でも一つだけお願いがあります"
+.stringn "하지만 한 가지만 청하고 싶습니다"
 dh PauseForTime
 db 0x60
 dh ScrollText_DBC
-.stringn "どうか、戦争のない世界を・・・"
+.stringn "부디, 전쟁이 없는 세상을・・・"
 db NewLine
-.stringn "それができるのはセリス様だけです"
+.stringn "세리스 님께서 만들어 주세요"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -1337,9 +1338,9 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0030//Jeanne
-.stringn "セリス様、私も兄とともに"
+.stringn "세리스 님, 저도 오빠랑 같이"
 db NewLine
-.stringn "アグストリアにまいります"
+.stringn "가보겠습니다"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -1347,33 +1348,33 @@ db ScrollText
 
 
 db Top_Slot// Seliph
-.stringn "ジャンヌは"
+.stringn "잔느는"
 db NewLine
-.stringn "レンスターには戻らないのか・・・"
+.stringn "렌스터로 돌아가지 않는구나・・・"
 db NewLine
 
 db Bottom_Slot// Jeanne
 dh PauseForTime
 db 0x20
-.stringn "はい・・・レンスターには"
+.stringn "네・・・ 렌스터는"
 db NewLine
-.stringn "もう何も思い残すことはありません・・・"
+.stringn "이제 아무 미련도 없어요・・・"
 db NewLine
 dh PauseForTime
 db 0x60
 
 db Top_Slot// Seliph
 dh ScrollText_DBC
-.stringn "そうか・・・"
+.stringn "그렇구나・・・"
 db NewLine
-.stringn "ジャンヌ、元気で、"
+.stringn "잔느, 건강해야 해"
 db NewLine
-.stringn "きみの幸せを願っている"
+.stringn "행복하게 살아"
 
 db Bottom_Slot// Jeanne
 dh PauseForTime
 db 0x20
-.stringn "はい、セリス様も・・・"
+.stringn "네, 세리스 님도・・・"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -1387,16 +1388,16 @@ Dialogue_30c825:
 dh InsBlockText_2A
 write_hirom_pointer Dialogue_30c887
 db NewLine
-.stringn "どうかみなで力を合わせて"
+.stringn "부디 모두 힘을 합쳐"
 db NewLine
-.stringn "がんばってほしい"
+.stringn "노력해 줬으면 한다"
 dh PauseForTime
 db 0x60
 db ScrollText
 
 dh InsBlockText_2A
 write_hirom_pointer Dialogue_30c8c1
-.stringn "おまえたちの手中にあるのだ"
+.stringn "너희들의 손에 달려 있다!"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -1409,11 +1410,11 @@ db EndText
 Dialogue_30c862:
 dh InsBlockText_2A
 write_hirom_pointer Dialogue_30c887
-.stringn "がんばってほしい"
+.stringn "노력해 줬으면 한다"
 db NewLine
 dh InsBlockText_2A
 write_hirom_pointer Dialogue_30c8c1
-.stringn "おまえの手中にあるのだ"
+.stringn "네 손에 달려 있다!"
 dh PauseForTime
 db 0x60
 db EndText
@@ -1434,15 +1435,15 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0280//Lewyn
-.stringn "アグストリアはまだ内乱の"
+.stringn "아그스트리아는 아직"
 db NewLine
-.stringn "さなかにあるときく"
+.stringn "내란 중에 있다고 들었다"
 db NewLine
 dh PauseForTime
 db 0x60
 db ScrollText
 
-.stringn "困難な仕事だが、"
+.stringn "시간은 걸리겠지만,"
 db EndText
 
 //end 0x30c8c1
@@ -1450,7 +1451,7 @@ db EndText
 //offset 0x30c8c1
 // 0x30cac1
 Dialogue_30c8c1:
-.stringn "アグストリアの未来は"
+.stringn "아그스트리아의 미래는"
 db NewLine
 db EndText
 
@@ -1489,7 +1490,7 @@ dh 0x0019//Seliph
 db Bottom_Slot
 dh DialogOpen
 dh unknown_002F
-.stringn "セリス様、私はヴェルダンにまいります"
+.stringn "세리스 님, 전 베르던으로 가겠습니다"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -1497,53 +1498,53 @@ db ScrollText
 
 
 db Top_Slot// Seliph
-.stringn "ヴェルダンへ？"
+.stringn "베르던으로?"
 db NewLine
-.stringn "そうか、君の父上はジャムカ王子だったね"
+.stringn "그래, 네 아버님은 자무카 왕자였지"
 db NewLine
-.stringn "きもちはわかるよ"
+.stringn "네 마음은 알겠어"
 dh PauseForTime
 db 0x60
 db ScrollText
 
-.stringn "ヴェルダンは王家が滅亡してから"
+.stringn "베르던은 왕가가 멸망하고부터"
 db NewLine
-.stringn "荒れ果てて、"
+.stringn "더 황폐해져서,"
 db NewLine
-.stringn "今では山賊が支配しているという"
+.stringn "지금은 산적들이 지배한다고 해"
 
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn "はい、私一人でどれほどの事ができるか"
+.stringn "네, 제 힘으로 어디까지 가능할진"
 db NewLine
-.stringn "わか①りませんが、とにかく、"
+.stringn "모르겠지만, 그래도 산적들이 설치게"
 db NewLine
-.stringn "山賊たちの好きにはさせておけません"
+.stringn "놔둘 수는 없으니까요"
 dh PauseForTime
 db 0x60
 
 db Top_Slot// Seliph
 dh ScrollText_DBC
-.stringn "うん、ヴェルダンは"
+.stringn "응, 베르던은 내게 있어"
 db NewLine
-.stringn "私の両親がめぐり会った国、"
+.stringn "부모님이 처음 만나신 나라, 그리고"
 db NewLine
-.stringn "そして、私の母が生まれた国でもある"
+.stringn "어머니께서 태어나신 나라기도 해"
 dh PauseForTime
 db 0x60
 db ScrollText
 
 dh SringBuffer2 //CharName or mother
-.stringn "、私からもお願いする"
+.stringn ", 나도 부탁할게"
 db NewLine
-.stringn "どうか、人々を救ってほしい"
+.stringn "부디 베르던 사람들을 구해줘"
 db NewLine
 
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn "はい、セリス様！"
+.stringn "네, 세리스 님!"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -1572,11 +1573,11 @@ dh 0x0019//Seliph
 db Bottom_Slot
 dh DialogOpen
 dh unknown_002F
-.stringn "セリス様、私も"
+.stringn "세리스 님, 저도 "
 dh SringBuffer5 //Brother Name
-.stringn "と一緒に"
+.stringn " 오빠와 함께"
 db NewLine
-.stringn "ヴェルダンにまいります"
+.stringn "베르던으로 가보겠습니다"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -1584,26 +1585,26 @@ db ScrollText
 
 
 db Top_Slot// Seliph
-.stringn "そうか、"
+.stringn "그렇구나,"
 dh SringBuffer2 //CharName or mother
-.stringn "も・・・"
+.stringn "도・・・"
 db NewLine
 
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn "はい、"
+.stringn "네,"
 dh SringBuffer5 //Brother Name
-.stringn "と一緒に、"
+.stringn " 오빠랑 같이 아버지가"
 db NewLine
-.stringn "父上の愛した国を再建します"
+.stringn "사랑했던 나라를 재건할 거예요"
 db NewLine
 dh PauseForTime
 db 0x60
 dh ScrollText_DBC
-.stringn "山賊なんか、"
+.stringn "산적 따윈,"
 db NewLine
-.stringn "みんな追い出してやります！"
+.stringn "전부 쫓아내 버리겠어요!"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -1623,11 +1624,11 @@ dh 0x0019//Seliph
 db Bottom_Slot
 dh DialogOpen
 dh unknown_002F
-.stringn "セリス様、私も"
+.stringn "세리스 님, 저도"
 dh SringBuffer5 //Brother Name
-.stringn "と一緒に"
+.stringn " 오빠와 함께"
 db NewLine
-.stringn "ヴェルダンにまいります"
+.stringn "베르던으로 가보겠습니다"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -1635,31 +1636,32 @@ db ScrollText
 
 
 db Top_Slot// Seliph
-.stringn "そうか、"
+.stringn "그렇구나"
 dh SringBuffer1 //Lover or father
-.stringn "のことは"
+.stringn "의 일은"
 db NewLine
-.stringn "残念だったね"
+.stringn "유감이야"
 db NewLine
 
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn "もういいんです、"
+.stringn "이제 괜찮아요,"
 db NewLine
-.stringn "彼のことを忘れるためにも"
+.stringn "그를 잊기 위해서라도"
 db NewLine
-.stringn "ヴェルダンで働きます"
+.stringn "지금은 베르던에 집중하려구요"
 dh PauseForTime
 db 0x60
 dh ScrollText_DBC
 dh SringBuffer5 //Brother Name
-.stringn "をたすけて、"
+.stringn " 오빠를 도와 아버지께서"
 db NewLine
-.stringn "父上の愛した国を再建します"
+.stringn "사랑하셨던 나라를 재건해 보이겠어요"
 db NewLine
 dh PauseForTime
 db 0x60
 db EndText
 
 //end 0x30cb5a
+

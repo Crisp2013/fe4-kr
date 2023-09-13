@@ -1,3 +1,4 @@
+
 //offset 0xd9cb8
 // 0xd9eb8
 Dialogue_d9cb8:
@@ -105,7 +106,7 @@ db EndText
 //offset 0xd9d9f
 // 0xd9f9f
 Dialogue_d9d9f:
-.stringn "⑫암흑신에 대한 제물로⑫"
+.stringn "⑫다수의 어린아이가 암흑신의⑫"
 db EndText
 
 //end 0xd9db1
@@ -113,7 +114,7 @@ db EndText
 //offset 0xd9db1
 // 0xd9fb1
 Dialogue_d9db1:
-.stringn "⑫다수의 어린아이가 불길에 던져지다⑫"
+.stringn "⑫제물로서 불길에 던져지다⑫"
 db EndText
 
 //end 0xd9dcb

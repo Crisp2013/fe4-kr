@@ -1,7 +1,8 @@
+
 //offset 0xd9b7b
 // 0xd9d7b
 Dialogue_d9b7b:
-.stringn "中断から始める⑫"
+.stringn "중단부터 시작한다"
 db EndText
 
 //end 0xd9b89
@@ -9,7 +10,7 @@ db EndText
 //offset 0xd9b89
 // 0xd9d89
 Dialogue_d9b89:
-.stringn "⑫記録をする⑫⑫"
+.stringn "기록한다"
 db EndText
 
 //end 0xd9b95
@@ -17,7 +18,7 @@ db EndText
 //offset 0xd9b95
 // 0xd9d95
 Dialogue_d9b95:
-.stringn "記録から始める⑫"
+.stringn "기록부터 시작한다"
 db EndText
 
 //end 0xd9ba2
@@ -25,7 +26,7 @@ db EndText
 //offset 0xd9ba2
 // 0xd9da2
 Dialogue_d9ba2:
-.stringn "最初から始める⑫"
+.stringn "최초부터 시작한다"
 db EndText
 
 //end 0xd9bb0
@@ -33,7 +34,7 @@ db EndText
 //offset 0xd9bb0
 // 0xd9db0
 Dialogue_d9bb0:
-.stringn "記録を写す⑫⑫⑫"
+.stringn "기록을 복사한다"
 db EndText
 
 //end 0xd9bbd
@@ -41,7 +42,7 @@ db EndText
 //offset 0xd9bbd
 // 0xd9dbd
 Dialogue_d9bbd:
-.stringn "記録を消す⑫⑫⑫"
+.stringn "기록을 지운다"
 db EndText
 
 //end 0xd9bca
@@ -49,7 +50,7 @@ db EndText
 //offset 0xd9bca
 // 0xd9dca
 Dialogue_d9bca:
-.stringn "保存⑫⑫"
+.stringn "보존"
 db EndText
 
 //end 0xd9bd1
@@ -57,7 +58,7 @@ db EndText
 //offset 0xd9bd1
 // 0xd9dd1
 Dialogue_d9bd1:
-.stringn "消す⑫⑫"
+.stringn "지운다"
 db EndText
 
 //end 0xd9bd8
@@ -65,7 +66,7 @@ db EndText
 //offset 0xd9bd8
 // 0xd9dd8
 Dialogue_d9bd8:
-.stringn "やめる⑫"
+.stringn "그만둔다"
 db EndText
 
 //end 0xd9bde
@@ -73,7 +74,8 @@ db EndText
 //offset 0xd9bde
 // 0xd9dde
 Dialogue_d9bde:
-.stringn "⑫⑫⑫⑫⑫記録がありません⑫⑫⑫⑫⑫⑫⑫"
+.stringn "기록이 없습니다"
 db EndText
 
 //end 0xd9bf6
+

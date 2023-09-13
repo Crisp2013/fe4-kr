@@ -75,7 +75,7 @@ dh 0x0002//Naoise
 db Top_Slot// Sigurd
 .stringn "잉그비성이"
 db NewLine
-.stringn "간돌프군에 포위되었다는군"
+.stringn "간돌프군에게 포위되었다는군"
 db NewLine
 .stringn "이대로라면 에딘이 위험해"
 db WaitForA

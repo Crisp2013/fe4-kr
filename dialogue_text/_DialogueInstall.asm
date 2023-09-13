@@ -19,6 +19,12 @@ TRANSLATION_TEST equ 0
 	;.notice "installed"+tohex(dialogue_pointer)
 .endmacro
 
+.macro write_loword_pointer_org, org_offset, dialogue_pointer
+	.org org_offset
+	dh (dialogue_pointer & 0xFFFF)
+	;.notice "installed"+tohex(dialogue_pointer)
+.endmacro
+
 TRANSLATION_OFFSET equ 0x400000
 
 .macro translation_org, offset
@@ -138,7 +144,7 @@ translation_org 0xd8dc4
 //translation_org 0xd9c88
 //.area 0xda06a+TRANSLATION_OFFSET-.
 .include "dialogue_text/convert/Chapternumber.asm"	;0xd9c88-0xd9cb8
-.include "dialogue_text/convert/Chronology.asm"		;0xd9cb8-0xd9ed5
+//.include "dialogue_text/convert/Chronology.asm"		;0xd9cb8-0xd9ed5
 .include "dialogue_text/convert/FE4_15.asm"			;0xd9ed5-0xda06a
 //.endarea
 
@@ -273,8 +279,47 @@ translation_org 0x3284fb
 .include "dialogue_text/convert/FE4_10.asm"			;0x33ad0a-0x33d021
 .include "dialogue_text/convert/FE4_14_B3.asm"		;0x33d021-0x33edd9
 //.endarea
+
+//insert pointer
 .include "dialogue_text/pointers.asm"
 
+//Chronology
+write_loword_pointer_org 0x11b356, Dialogue_d9cb8
+write_loword_pointer_org 0x11b368, Dialogue_d9cc8
+write_loword_pointer_org 0x11b374, Dialogue_d9ce0
+write_loword_pointer_org 0x11b380, Dialogue_d9cee
+write_loword_pointer_org 0x11b38c, Dialogue_d9d06
+write_loword_pointer_org 0x11b392, Dialogue_d9d1d
+write_loword_pointer_org 0x11b39e, Dialogue_d9d30
+write_loword_pointer_org 0x11b3a4, Dialogue_d9d3e
+write_loword_pointer_org 0x11b3b0, Dialogue_d9d50
+write_loword_pointer_org 0x11b3b6, Dialogue_d9d65
+write_loword_pointer_org 0x11b3c2, Dialogue_d9d75
+write_loword_pointer_org 0x11b3c8, Dialogue_d9d7e
+write_loword_pointer_org 0x11b3d4, Dialogue_d9d90
+write_loword_pointer_org 0x11b3da, Dialogue_d9d9f
+write_loword_pointer_org 0x11b3e0, Dialogue_d9db1
+write_loword_pointer_org 0x11b3ec, Dialogue_d9dcb
+write_loword_pointer_org 0x11b3f2, Dialogue_d9dd7
+write_loword_pointer_org 0x11b3fe, Dialogue_d9dee
+write_loword_pointer_org 0x11b40a, Dialogue_d9dfd
+write_loword_pointer_org 0x11b416, Dialogue_d9e13
+write_loword_pointer_org 0x11b41c, Dialogue_d9e21
+write_loword_pointer_org 0x11b422, Dialogue_d9e3a
+write_loword_pointer_org 0x11b42e, Dialogue_d9e4d
+write_loword_pointer_org 0x11b43a, Dialogue_d9e59
+write_loword_pointer_org 0x11b440, Dialogue_d9e68
+write_loword_pointer_org 0x11b446, Dialogue_d9e74
+write_loword_pointer_org 0x11b44c, Dialogue_d9e83
+write_loword_pointer_org 0x11b458, Dialogue_d9e98
+write_loword_pointer_org 0x11b464, Dialogue_d9eaa
+write_loword_pointer_org 0x11b46a, Dialogue_d9eb5
+write_loword_pointer_org 0x11b476, Dialogue_d9ec8
+
+.org 0xd9cb8
+.area 0xd9ed5-.
+.include "dialogue_text/convert/Chronology.asm"		;0xd9cb8-0xd9ed5
+.endarea
 
 //font
 

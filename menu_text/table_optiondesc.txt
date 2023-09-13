@@ -7,7 +7,7 @@
 //BLOCK #014 NAME:		Option Descriptions
 
 #VAR(OptionsDesc, CUSTOMPOINTER)
-#CREATEPTR(OptionsDesc, "HIROM", $800000, 24)
+#CREATEPTR(OptionsDesc, "HIROM", $400000, 24)
 
 #JMP($9F353, $9F578)
 

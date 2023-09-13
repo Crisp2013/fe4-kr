@@ -864,7 +864,7 @@ FE5_FONT equ 0
 .incbin "dialogue_text/dialogue_font/font4.bin"
 .org 0x13F000
 .incbin "dialogue_text/dialogue_font/font5.bin", 0x0, 0x1000
-.org 0x13F000
+.org 0x148000
 .incbin "dialogue_text/dialogue_font/font5.bin", 0x1000, 0x2C00
 .org 0x14AC00
 .incbin "dialogue_text/dialogue_font/font6.bin"
@@ -883,7 +883,7 @@ FE5_FONT equ 0
 .incbin "dialogue_text/dialogue_font/fe5/font_3.bin"
 .org 0x13F000
 .incbin "dialogue_text/dialogue_font/fe5/font_4.bin", 0x0, 0x1000
-.org 0x13F000
+.org 0x148000
 .incbin "dialogue_text/dialogue_font/fe5/font_4.bin", 0x1000, 0x2C00
 ; .org 0x14AC00
 ; .incbin "dialogue_text/dialogue_font/fe5/font_5.bin"

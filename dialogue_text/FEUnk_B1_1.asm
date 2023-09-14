@@ -1,3 +1,23 @@
+//offset 0x31e8ef
+// 0x31eaef
+Dialogue_31e8ef:
+dh InsBlockText_2A
+write_hirom_pointer Dialogue_31e900
+db EndText
+
+//end 0x31e8f5
+
+//offset 0x31e8f5
+// 0x31eaf5
+Dialogue_31e8f5:
+dh InsBlockText_2A
+write_hirom_pointer Dialogue_31e900
+dh InsBlockText_2D //FCEA3100
+dh 0xBCA4
+db 0x91 //bank
+db EndText
+
+//end 0x31e900
 
 //offset 0x31e900
 // 0x31eb00

@@ -8,6 +8,7 @@ Dialogue_fdffa:
 // 0xfe1fe
 Dialogue_fdffe:
 db NewLine
+Dialogue_fdfff:
 .stringn "트라키아 반도는 두 가지 얼굴이 있다."
 db NewLine
 db WaitForA

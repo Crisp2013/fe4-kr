@@ -106,7 +106,6 @@ write_loword_pointer_org 0xef2fc, Dialogue_edd02
 write_loword_pointer_org 0xef300, Dialogue_edd46
 write_loword_pointer_org 0xef304, Dialogue_edfc3
 write_loword_pointer_org 0xef308, Dialogue_edfee
-write_loword_pointer_org 0x31a811, Dialogue_edfee
 write_loword_pointer_org 0xef30c, Dialogue_ee0da
 write_loword_pointer_org 0xef310, Dialogue_ee118
 write_loword_pointer_org 0xef314, Dialogue_ee279
@@ -216,11 +215,8 @@ write_loword_pointer_org 0xef4ac, Dialogue_ef0cd
 write_loword_pointer_org 0xef4b0, Dialogue_ef0eb
 write_loword_pointer_org 0xef4b4, Dialogue_ef111
 write_loword_pointer_org 0xef4b8, Dialogue_ef134
-write_loword_pointer_org 0x31a842, Dialogue_ef134
 write_loword_pointer_org 0xef4bc, Dialogue_ef165
-write_loword_pointer_org 0x31a835, Dialogue_ef165
 write_loword_pointer_org 0xef4c0, Dialogue_ee091
-write_loword_pointer_org 0x31a820, Dialogue_ee091
 //zdynamic1
 write_loword_pointer_org 0xd9892, Dialogue_d9922
 write_loword_pointer_org 0xd9894, Dialogue_d992b

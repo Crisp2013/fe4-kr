@@ -1,7 +1,7 @@
 hirom
 
 ;GFX DECOMP FUNCTION
-;$00AA02 break
+;$00AA02 break(PGR)
 ;watch list:
 ;[$0000CA, 1], H
 ;{$0000C8}, H2

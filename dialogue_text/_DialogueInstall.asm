@@ -290,7 +290,8 @@ translation_org 0x3284fb
 //.area 0x32fed6+TRANSLATION_OFFSET-.
 .include "dialogue_text/convert/FEMain_B2_2.asm"	;0x32fa8d-0x32fed6
 //.endarea
-//translation_org 0x338000
+;bank B3
+translation_org 0x338000
 //.area 0x33edd9+TRANSLATION_OFFSET-.
 .include "dialogue_text/convert/FE4_09.asm"			;0x338000-0x33ad0a
 .include "dialogue_text/convert/FE4_10.asm"			;0x33ad0a-0x33d021

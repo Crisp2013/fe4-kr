@@ -175,10 +175,10 @@ write_hirom_pointer_org 0x6f769, Dialogue_33accc	;FE4_09
 ; write_hirom_pointer_org 0xac938, Dialogue_fad22	;FE4_02	;]NOTICE:not in list
 ; write_hirom_pointer_org 0xacddf, Dialogue_fad22	;FE4_02	;]NOTICE:not in list
 write_hirom_pointer_org 0xaceb3, Dialogue_ad0d4	;Shop	
-; write_hirom_pointer_org 0xaceb6, Dialogue_ad195	;Shop	;]NOTICE:not same start
-; write_hirom_pointer_org 0xaceb9, Dialogue_ad2d9	;Shop	;]NOTICE:not same start
-; write_hirom_pointer_org 0xacebc, Dialogue_ad3d3	;Shop	;]NOTICE:not same start
-; write_hirom_pointer_org 0xacec2, Dialogue_ad4b0	;Shop	;]NOTICE:not same start
+write_hirom_pointer_org 0xaceb6, Dialogue_ad195	;Shop	;]NOTICE:not same start
+write_hirom_pointer_org 0xaceb9, Dialogue_ad2d9	;Shop	;]NOTICE:not same start
+write_hirom_pointer_org 0xacebc, Dialogue_ad3d3	;Shop	;]NOTICE:not same start
+write_hirom_pointer_org 0xacec2, Dialogue_ad4b0	;Shop	;]NOTICE:not same start
 write_hirom_pointer_org 0xacec5, Dialogue_ad60d	;Shop	
 write_hirom_pointer_org 0xacec8, Dialogue_ad60d	;Shop	
 write_hirom_pointer_org 0xacecb, Dialogue_ad60d	;Shop	
@@ -236,7 +236,7 @@ write_hirom_pointer_org 0xacf91, Dialogue_ad31c	;Shop
 write_hirom_pointer_org 0xacf94, Dialogue_ad31c	;Shop	
 write_hirom_pointer_org 0xacf97, Dialogue_ad31c	;Shop	
 write_hirom_pointer_org 0xacf9a, Dialogue_ad31c	;Shop	
-; write_hirom_pointer_org 0xacf9d, Dialogue_ad728	;Shop	;]NOTICE:not same start
+write_hirom_pointer_org 0xacf9d, Dialogue_ad728	;Shop	;]NOTICE:not same start
 write_hirom_pointer_org 0xacfa0, Dialogue_ad351	;Shop	
 write_hirom_pointer_org 0xacfa3, Dialogue_ad351	;Shop	
 write_hirom_pointer_org 0xacfa6, Dialogue_ad351	;Shop	
@@ -246,8 +246,8 @@ write_hirom_pointer_org 0xacfaf, Dialogue_ad32e	;Shop
 write_hirom_pointer_org 0xacfb2, Dialogue_ad32e	;Shop	
 write_hirom_pointer_org 0xacfb5, Dialogue_ad32e	;Shop	
 write_hirom_pointer_org 0xacfb8, Dialogue_ad32e	;Shop	
-; write_hirom_pointer_org 0xacfbb, Dialogue_ad728	;Shop	;]NOTICE:not same start
-; write_hirom_pointer_org 0xacfe1, Dialogue_fad22	;FE4_02	;]NOTICE:not in list
+write_hirom_pointer_org 0xacfbb, Dialogue_ad728	;Shop	;]NOTICE:not same start
+write_hirom_pointer_org 0xacfe1, Dialogue_fad22	;FE4_02	;]NOTICE:not in list
 ; write_hirom_pointer_org 0xacfff, Dialogue_fad22	;FE4_02	;]NOTICE:not in list
 ; write_hirom_pointer_org 0xaf5a6, Dialogue_fad22	;FE4_02	;]NOTICE:not in list
 ; write_hirom_pointer_org 0xaf7f3, Dialogue_fad22	;FE4_02	;]NOTICE:not in list

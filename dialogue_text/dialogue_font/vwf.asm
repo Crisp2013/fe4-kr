@@ -1,5 +1,5 @@
 KFW equ 12;korean fixed width
-KSW equ 6;korean space width;original:8
+KSW equ 5;korean space width;original:8
 KTW equ 10;korean typical char
 
 db KFW , KFW , KFW , KFW , KFW , KFW , KFW , KFW , KFW , KFW , KFW , KFW , KFW , KFW , KFW , KFW ; 0x001x

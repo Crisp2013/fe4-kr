@@ -422,12 +422,12 @@ write_hirom_pointer_org 0xcf062, Dialogue_cff91	;WelcomeBack
 ; write_hirom_pointer_org 0xd83f5, Dialogue_d8556	;unknown	;]NOTICE:english pointer but not in jpn
 ; write_hirom_pointer_org 0xd8416, Dialogue_d8575	;unknown	;]NOTICE:english pointer but not in jpn
 ; write_hirom_pointer_org 0xd8439, Dialogue_d8597	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0xd86c0, Dialogue_d91dc	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0xd86c0, Dialogue_d91dc	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0xd86c7, Dialogue_33ad0a	;FE4_10	
 write_hirom_pointer_org 0xd86df, Dialogue_33b1eb	;FE4_10	
-; write_hirom_pointer_org 0xd86ed, Dialogue_d91e3	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0xd86ed, Dialogue_d91e3	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0xd870b, Dialogue_33b35f	;FE4_10	
-; write_hirom_pointer_org 0xd87c4, Dialogue_d91d4	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0xd87c4, Dialogue_d91d4	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0xd87cb, Dialogue_33b4ea	;FE4_10	
 write_hirom_pointer_org 0xd87de, Dialogue_33b5a0	;FE4_10	
 ; write_hirom_pointer_org 0xd881b, Dialogue_3b0c7f	;unknown	;]NOTICE:not in list
@@ -442,11 +442,11 @@ write_hirom_pointer_org 0xd8885, Dialogue_33b6c0	;FE4_10
 ; write_hirom_pointer_org 0xd8890, Dialogue_33b728	;FE4_10	;]NOTICE:not same start
 write_hirom_pointer_org 0xd88b7, Dialogue_33b78a	;FE4_10	
 ; write_hirom_pointer_org 0xd88c2, Dialogue_33b859	;FE4_10	;]NOTICE:not same start
-; write_hirom_pointer_org 0xd892b, Dialogue_d91ca	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0xd892b, Dialogue_d91ca	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0xd897a, Dialogue_33b8d6	;FE4_10	
 write_hirom_pointer_org 0xd8a16, Dialogue_33cbed	;FE4_10	
 write_hirom_pointer_org 0xd8a4e, Dialogue_33bfb2	;FE4_10	
-; write_hirom_pointer_org 0xd8a81, Dialogue_d9110	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0xd8a81, Dialogue_d9110	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0xd8ae4, Dialogue_33c0ab	;FE4_10	
 write_hirom_pointer_org 0xd8bae, Dialogue_33c5d9	;FE4_10	
 write_hirom_pointer_org 0xd8bcd, Dialogue_33c673	;FE4_10	
@@ -635,16 +635,16 @@ write_hirom_pointer_org 0xdff9e, Dialogue_de3c7	;FEMain_8D_2
 ; write_hirom_pointer_org 0xdffb8, Dialogue_dead6	;FEMain_8D_2	;]NOTICE:not same start
 write_hirom_pointer_org 0xdffc5, Dialogue_ddca7	;FEMain_8D_2	
 write_hirom_pointer_org 0xdffd2, Dialogue_dedc4	;FEMain_8D_2	
-; write_hirom_pointer_org 0xe800b, Dialogue_d90e5	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0xe800b, Dialogue_d90e5	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0xe8012, Dialogue_f806b	;FE4_02	
-; write_hirom_pointer_org 0xe804b, Dialogue_d90cd	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0xe804b, Dialogue_d90cd	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0xe805a, Dialogue_f823f	;FE4_02	
 write_hirom_pointer_org 0xe806e, Dialogue_f8543	;FE4_02	
-; write_hirom_pointer_org 0xe80ae, Dialogue_d90d5	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0xe80ae, Dialogue_d90d5	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0xe80b5, Dialogue_f8ac8	;FE4_02	
-; write_hirom_pointer_org 0xe8108, Dialogue_d91b5	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0xe8108, Dialogue_d91b5	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0xe810f, Dialogue_f881b	;FE4_02	
-; write_hirom_pointer_org 0xe8175, Dialogue_d90c4	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0xe8175, Dialogue_d90c4	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0xe817c, Dialogue_f8b5a	;FE4_02	
 write_hirom_pointer_org 0xe81c5, Dialogue_f8c6c	;FE4_02	
 write_hirom_pointer_org 0xe81d9, Dialogue_f8d0e	;FE4_02	
@@ -686,7 +686,7 @@ write_hirom_pointer_org 0xe87ba, Dialogue_fa75d	;FE4_02
 write_hirom_pointer_org 0xe87e5, Dialogue_fa101	;FE4_02	
 write_hirom_pointer_org 0xe8832, Dialogue_fae64	;FE4_02	
 write_hirom_pointer_org 0xe88c1, Dialogue_f975a	;FE4_02	
-; write_hirom_pointer_org 0xe8903, Dialogue_d90dd	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0xe8903, Dialogue_d90dd	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0xe890a, Dialogue_f8bfa	;FE4_02	
 write_hirom_pointer_org 0xe8917, Dialogue_fb6ad	;FE4_02	
 ; write_hirom_pointer_org 0xe8924, Dialogue_37280c	;unknown	;]NOTICE:not in list
@@ -696,18 +696,18 @@ write_hirom_pointer_org 0xe89c1, Dialogue_edbf5	;DeathQuote
 write_hirom_pointer_org 0xe8a75, Dialogue_fa261	;FE4_02	
 write_hirom_pointer_org 0xe8a93, Dialogue_32d862	;FE4_Share	
 write_hirom_pointer_org 0xe8aae, Dialogue_32f6c3	;FE4_Share	
-; write_hirom_pointer_org 0xe9028, Dialogue_d9164	;CastleName	;]NOTICE:under 0x600000
-; write_hirom_pointer_org 0xe9050, Dialogue_d9155	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0xe9028, Dialogue_d9164	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0xe9050, Dialogue_d9155	;CastleName	;]NOTICE:under 0x600000
 ; write_hirom_pointer_org 0xe9063, Dialogue_ea432	;FE4_04	;]NOTICE:not same start
 ; write_hirom_pointer_org 0xe906e, Dialogue_ea228	;FE4_04	;]NOTICE:not same start
 write_hirom_pointer_org 0xe9079, Dialogue_e9b61	;FE4_04	
 write_hirom_pointer_org 0xe90da, Dialogue_ea626	;FE4_04	
 write_hirom_pointer_org 0xe912c, Dialogue_ea793	;FE4_04	
 write_hirom_pointer_org 0xe9168, Dialogue_ea88a	;FE4_04	
-; write_hirom_pointer_org 0xe920e, Dialogue_d914e	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0xe920e, Dialogue_d914e	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0xe9230, Dialogue_ea962	;FE4_04	
 write_hirom_pointer_org 0xe9317, Dialogue_eaa84	;FE4_04	
-; write_hirom_pointer_org 0xe9330, Dialogue_d915d	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0xe9330, Dialogue_d915d	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0xe9337, Dialogue_eab32	;FE4_04	
 write_hirom_pointer_org 0xe9356, Dialogue_eac65	;FE4_04	
 write_hirom_pointer_org 0xe9382, Dialogue_eacdd	;FE4_04	
@@ -763,13 +763,13 @@ write_hirom_pointer_org 0xebb40, Dialogue_ebb4a	;FE4_04
 write_hirom_pointer_org 0xebb46, Dialogue_ebb7d	;FE4_04	
 ; write_hirom_pointer_org 0xef268, Dialogue_1b0021	;unknown	;]NOTICE:not in list
 ; write_hirom_pointer_org 0xef26c, Dialogue_390022	;unknown	;]NOTICE:not in list
-; write_hirom_pointer_org 0xfb85c, Dialogue_d9128	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0xfb85c, Dialogue_d9128	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0xfb863, Dialogue_fc115	;FE4_08	
-; write_hirom_pointer_org 0xfb8c5, Dialogue_d912f	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0xfb8c5, Dialogue_d912f	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0xfb8cc, Dialogue_fc2e9	;FE4_08	
-; write_hirom_pointer_org 0xfb8e3, Dialogue_d91e9	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0xfb8e3, Dialogue_d91e9	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0xfb8ea, Dialogue_fc3b8	;FE4_08	
-; write_hirom_pointer_org 0xfb901, Dialogue_d913e	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0xfb901, Dialogue_d913e	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0xfb908, Dialogue_fc660	;FE4_08	
 write_hirom_pointer_org 0xfba23, Dialogue_fc741	;FE4_08	
 write_hirom_pointer_org 0xfba37, Dialogue_fc79d	;FE4_08	
@@ -896,16 +896,16 @@ write_hirom_pointer_org 0x108116, Dialogue_30cfe7	;FEUnk_B0_2
 write_hirom_pointer_org 0x108127, Dialogue_319291	;FE4_00	
 write_hirom_pointer_org 0x108137, Dialogue_3195fa	;FE4_00	
 write_hirom_pointer_org 0x108143, Dialogue_318ecd	;FE4_00	
-; write_hirom_pointer_org 0x1082b9, Dialogue_d90e5	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x1082b9, Dialogue_d90e5	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x1082e3, Dialogue_108e8d	;FE4_01	
-; write_hirom_pointer_org 0x1082f4, Dialogue_d91b5	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x1082f4, Dialogue_d91b5	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x1082fb, Dialogue_108d0a	;FE4_01	
-; write_hirom_pointer_org 0x108325, Dialogue_d91bc	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x108325, Dialogue_d91bc	;CastleName	;]NOTICE:under 0x600000
 ; write_hirom_pointer_org 0x10832b, Dialogue_ecc14	;FEMain_8E_2	;]NOTICE:not in list
 write_hirom_pointer_org 0x10832c, Dialogue_108ecc	;FE4_01	
 ; write_hirom_pointer_org 0x108363, Dialogue_11060c	;unknown	;]NOTICE:not in list
 write_hirom_pointer_org 0x108364, Dialogue_109106	;FE4_01	
-; write_hirom_pointer_org 0x108498, Dialogue_d91c3	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x108498, Dialogue_d91c3	;CastleName	;]NOTICE:under 0x600000
 ; write_hirom_pointer_org 0x1084d1, Dialogue_11320c	;unknown	;]NOTICE:not in list
 write_hirom_pointer_org 0x1084d2, Dialogue_109132	;FE4_01	
 write_hirom_pointer_org 0x1084f9, Dialogue_109361	;FE4_01	
@@ -921,7 +921,7 @@ write_hirom_pointer_org 0x10886a, Dialogue_109e43	;FE4_01
 write_hirom_pointer_org 0x10889a, Dialogue_10a151	;FE4_01	
 write_hirom_pointer_org 0x1088d0, Dialogue_10a437	;FE4_01	
 ; write_hirom_pointer_org 0x108902, Dialogue_2d0dfd	;unknown	;]NOTICE:not in list
-; write_hirom_pointer_org 0x108904, Dialogue_d91ad	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x108904, Dialogue_d91ad	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x108932, Dialogue_10a640	;FE4_01	
 write_hirom_pointer_org 0x108973, Dialogue_10a8a9	;FE4_01	
 write_hirom_pointer_org 0x108a20, Dialogue_10ad08	;FE4_01	
@@ -948,15 +948,15 @@ write_hirom_pointer_org 0x10eb59, Dialogue_d9f82	;FE4_15
 ; write_hirom_pointer_org 0x11acb6, Dialogue_1c8fa9	;unknown	;]NOTICE:not in list
 ; write_hirom_pointer_org 0x11acc2, Dialogue_1c96a9	;unknown	;]NOTICE:not in list
 ; write_hirom_pointer_org 0x11acce, Dialogue_1ca5a9	;unknown	;]NOTICE:not in list
-; write_hirom_pointer_org 0x11ce6e, Dialogue_d917d	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x11ce6e, Dialogue_d917d	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x11cea8, Dialogue_10c0e8	;FE4_06	
-; write_hirom_pointer_org 0x11cf4e, Dialogue_d9174	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x11cf4e, Dialogue_d9174	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x11cf61, Dialogue_10c3c0	;FE4_06	
 write_hirom_pointer_org 0x11d15d, Dialogue_10c970	;FE4_06	
 write_hirom_pointer_org 0x11d196, Dialogue_10ca9d	;FE4_06	
 write_hirom_pointer_org 0x11d1bb, Dialogue_10cf79	;FE4_06	
 write_hirom_pointer_org 0x11d264, Dialogue_10d04d	;FE4_06	
-; write_hirom_pointer_org 0x11d2ad, Dialogue_d9193	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x11d2ad, Dialogue_d9193	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x11d2c3, Dialogue_10d4db	;FE4_06	
 write_hirom_pointer_org 0x11d36e, Dialogue_10d53e	;FE4_06	
 write_hirom_pointer_org 0x11d378, Dialogue_10d583	;FE4_06	
@@ -1011,14 +1011,14 @@ write_hirom_pointer_org 0x11d5f0, Dialogue_32ee5f	;FE4_Share
 ; write_hirom_pointer_org 0x1aff7a, Dialogue_d8524	;unknown	;]NOTICE:english pointer but not in jpn
 ; write_hirom_pointer_org 0x1aff9f, Dialogue_d853e	;unknown	;]NOTICE:english pointer but not in jpn
 ; write_hirom_pointer_org 0x1cf8e5, Dialogue_3070d0	;unknown	;]NOTICE:not in list
-; write_hirom_pointer_org 0x1d870b, Dialogue_d90b5	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x1d870b, Dialogue_d90b5	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x1d8712, Dialogue_1d9381	;FE4_03	
-; write_hirom_pointer_org 0x1d8729, Dialogue_d90bc	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x1d8729, Dialogue_d90bc	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x1d8730, Dialogue_1d9505	;FE4_03	
-; write_hirom_pointer_org 0x1d8747, Dialogue_d9146	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x1d8747, Dialogue_d9146	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x1d874e, Dialogue_1d95ab	;FE4_03	
 write_hirom_pointer_org 0x1d875a, Dialogue_1d96b8	;FE4_03	
-; write_hirom_pointer_org 0x1d8771, Dialogue_d90cd	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x1d8771, Dialogue_d90cd	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x1d8778, Dialogue_1d9d8d	;FE4_03	
 write_hirom_pointer_org 0x1d87bc, Dialogue_1d9ffc	;FE4_03	
 write_hirom_pointer_org 0x1d87e7, Dialogue_1d97b1	;FE4_03	
@@ -1062,22 +1062,22 @@ write_hirom_pointer_org 0x1d934d, Dialogue_32d726	;FE4_Share
 write_hirom_pointer_org 0x1d9362, Dialogue_32d766	;FE4_Share	
 write_hirom_pointer_org 0x1d9374, Dialogue_32d81c	;FE4_Share	
 write_hirom_pointer_org 0x1dbee4, Dialogue_3084c7	;FE4_05	
-; write_hirom_pointer_org 0x1dbef2, Dialogue_d916b	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x1dbef2, Dialogue_d916b	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x1dbf8e, Dialogue_30850c	;FE4_05	
 write_hirom_pointer_org 0x1dbfc4, Dialogue_3086c4	;FE4_05	
 write_hirom_pointer_org 0x1dc038, Dialogue_3087c1	;FE4_05	
-; write_hirom_pointer_org 0x1dc07b, Dialogue_d915d	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x1dc07b, Dialogue_d915d	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x1dc082, Dialogue_30880f	;FE4_05	
 write_hirom_pointer_org 0x1dc0d8, Dialogue_308903	;FE4_05	
 write_hirom_pointer_org 0x1dc10b, Dialogue_308b67	;FE4_05	
-; write_hirom_pointer_org 0x1dc121, Dialogue_d90fd	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x1dc121, Dialogue_d90fd	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x1dc128, Dialogue_308b98	;FE4_05	
 write_hirom_pointer_org 0x1dc152, Dialogue_30b726	;FE4_05	
 write_hirom_pointer_org 0x1dc16c, Dialogue_309297	;FE4_05	
 write_hirom_pointer_org 0x1dc198, Dialogue_309817	;FE4_05	
-; write_hirom_pointer_org 0x1dc1cd, Dialogue_d90ed	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x1dc1cd, Dialogue_d90ed	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x1dc1d4, Dialogue_309849	;FE4_05	
-; write_hirom_pointer_org 0x1dc1e5, Dialogue_d9199	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x1dc1e5, Dialogue_d9199	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x1dc1ec, Dialogue_309dae	;FE4_05	
 write_hirom_pointer_org 0x1dc2cc, Dialogue_309e06	;FE4_05	
 write_hirom_pointer_org 0x1dc397, Dialogue_30a25f	;FE4_05	
@@ -1208,9 +1208,9 @@ write_hirom_pointer_org 0x30cf81, Dialogue_2edb64	;FE4_13
 write_hirom_pointer_org 0x30cf9b, Dialogue_2edc86	;FE4_13	
 write_hirom_pointer_org 0x30cfb5, Dialogue_2eddc9	;FE4_13	
 write_hirom_pointer_org 0x30cfcf, Dialogue_2edf1e	;FE4_13	
-; write_hirom_pointer_org 0x31803f, Dialogue_d9118	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x31803f, Dialogue_d9118	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x31809c, Dialogue_318771	;FE4_00	
-; write_hirom_pointer_org 0x3180e7, Dialogue_d9110	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x3180e7, Dialogue_d9110	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x3180ee, Dialogue_318874	;FE4_00	
 write_hirom_pointer_org 0x318175, Dialogue_3195bc	;FE4_00	
 write_hirom_pointer_org 0x318191, Dialogue_318ef7	;FE4_00	
@@ -1271,16 +1271,16 @@ write_hirom_pointer_org 0x31a811, Dialogue_edfee	;DeathQuote
 write_hirom_pointer_org 0x31a820, Dialogue_ee091	;DeathQuote	
 write_hirom_pointer_org 0x31a835, Dialogue_ef165	;DeathQuote	
 write_hirom_pointer_org 0x31a842, Dialogue_ef134	;DeathQuote	
-; write_hirom_pointer_org 0x31d3f7, Dialogue_d91fe	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x31d3f7, Dialogue_d91fe	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x31d425, Dialogue_338000	;FE4_09	
 write_hirom_pointer_org 0x31d44b, Dialogue_338294	;FE4_09	
-; write_hirom_pointer_org 0x31d470, Dialogue_d91ef	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x31d470, Dialogue_d91ef	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x31d4c2, Dialogue_338396	;FE4_09	
-; write_hirom_pointer_org 0x31d4f3, Dialogue_d91f7	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x31d4f3, Dialogue_d91f7	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x31d4fa, Dialogue_3386c6	;FE4_09	
-; write_hirom_pointer_org 0x31d527, Dialogue_d9205	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x31d527, Dialogue_d9205	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x31d52e, Dialogue_338804	;FE4_09	
-; write_hirom_pointer_org 0x31d556, Dialogue_d91e9	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x31d556, Dialogue_d91e9	;CastleName	;]NOTICE:under 0x600000
 ; write_hirom_pointer_org 0x31d563, Dialogue_338a1e	;FE4_09	;]NOTICE:not same start
 ; write_hirom_pointer_org 0x31d56d, Dialogue_8ca14	;unknown	;]NOTICE:not in list
 write_hirom_pointer_org 0x31d56e, Dialogue_3388ca	;FE4_09	
@@ -1317,22 +1317,22 @@ write_hirom_pointer_org 0x31dce0, Dialogue_33ab26	;FE4_09
 write_hirom_pointer_org 0x31dcf0, Dialogue_32e359	;FE4_Share	
 write_hirom_pointer_org 0x31dd03, Dialogue_32e7da	;FE4_Share	
 write_hirom_pointer_org 0x31dd38, Dialogue_32ec7f	;FE4_Share	
-; write_hirom_pointer_org 0x31dd95, Dialogue_d90ed	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x31dd95, Dialogue_d90ed	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x31dd9c, Dialogue_329916	;FE4_11	
-; write_hirom_pointer_org 0x31ddb6, Dialogue_d910a	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x31ddb6, Dialogue_d910a	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x31de10, Dialogue_329dc3	;FE4_11	
-; write_hirom_pointer_org 0x31dede, Dialogue_d9110	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x31dede, Dialogue_d9110	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x31dee5, Dialogue_329e1d	;FE4_11	
 ; write_hirom_pointer_org 0x31df4f, Dialogue_32a22a	;FE4_11	;]NOTICE:not same start
 ; write_hirom_pointer_org 0x31df5a, Dialogue_32a275	;FE4_11	;]NOTICE:not same start
-; write_hirom_pointer_org 0x31df7b, Dialogue_d9104	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x31df7b, Dialogue_d9104	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x31dfbd, Dialogue_32a2bf	;FE4_11	
 write_hirom_pointer_org 0x31e0ab, Dialogue_32a344	;FE4_11	
-; write_hirom_pointer_org 0x31e0d3, Dialogue_d90f6	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x31e0d3, Dialogue_d90f6	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x31e10a, Dialogue_32a872	;FE4_11	
 write_hirom_pointer_org 0x31e2ac, Dialogue_32a963	;FE4_11	
 write_hirom_pointer_org 0x31e2d3, Dialogue_32a9c5	;FE4_11	
-; write_hirom_pointer_org 0x31e2fe, Dialogue_d90fd	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x31e2fe, Dialogue_d90fd	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x31e34d, Dialogue_32adbd	;FE4_11	
 ; write_hirom_pointer_org 0x31e404, Dialogue_3d14fd	;unknown	;]NOTICE:not in list
 write_hirom_pointer_org 0x31e406, Dialogue_32b0bd	;FE4_11	
@@ -1371,22 +1371,22 @@ write_hirom_pointer_org 0x328233, Dialogue_10e800	;FE4_06
 write_hirom_pointer_org 0x328243, Dialogue_10e82e	;FE4_06	
 write_hirom_pointer_org 0x328253, Dialogue_10e871	;FE4_06	
 write_hirom_pointer_org 0x328263, Dialogue_10e8a1	;FE4_06	
-; write_hirom_pointer_org 0x328868, Dialogue_d9120	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x328868, Dialogue_d9120	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x32886f, Dialogue_31ac01	;FE4_07	
-; write_hirom_pointer_org 0x3288cd, Dialogue_d913e	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x3288cd, Dialogue_d913e	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x3288d4, Dialogue_31ae96	;FE4_07	
-; write_hirom_pointer_org 0x328979, Dialogue_d91a1	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x328979, Dialogue_d91a1	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x328991, Dialogue_31af75	;FE4_07	
 write_hirom_pointer_org 0x3289b0, Dialogue_31afd0	;FE4_07	
 write_hirom_pointer_org 0x3289fe, Dialogue_31b061	;FE4_07	
-; write_hirom_pointer_org 0x328a8f, Dialogue_d9193	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x328a8f, Dialogue_d9193	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x328a96, Dialogue_31b18d	;FE4_07	
-; write_hirom_pointer_org 0x328b12, Dialogue_d91a7	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x328b12, Dialogue_d91a7	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x328b19, Dialogue_31b302	;FE4_07	
 write_hirom_pointer_org 0x328b2f, Dialogue_31b400	;FE4_07	
 write_hirom_pointer_org 0x328b51, Dialogue_31b609	;FE4_07	
 write_hirom_pointer_org 0x328b8f, Dialogue_31b7de	;FE4_07	
-; write_hirom_pointer_org 0x328bcc, Dialogue_d9137	;CastleName	;]NOTICE:under 0x600000
+write_hirom_pointer_org 0x328bcc, Dialogue_d9137	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x328c1a, Dialogue_31bb67	;FE4_07	
 write_hirom_pointer_org 0x328c72, Dialogue_31b8c7	;FE4_07	
 write_hirom_pointer_org 0x328c91, Dialogue_31bd20	;FE4_07	

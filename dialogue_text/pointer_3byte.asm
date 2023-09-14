@@ -1267,10 +1267,10 @@ write_hirom_pointer_org 0x31a75a, Dialogue_32ba41	;FE4_11
 write_hirom_pointer_org 0x31a76a, Dialogue_32bb68	;FE4_11	
 write_hirom_pointer_org 0x31a77a, Dialogue_32ba83	;FE4_11	
 write_hirom_pointer_org 0x31a78a, Dialogue_32babf	;FE4_11	
-write_hirom_pointer_org 0x31a811, Dialogue_edfee	;DeathQuote	
-write_hirom_pointer_org 0x31a820, Dialogue_ee091	;DeathQuote	
-write_hirom_pointer_org 0x31a835, Dialogue_ef165	;DeathQuote	
-write_hirom_pointer_org 0x31a842, Dialogue_ef134	;DeathQuote	
+write_hirom_pointer_org 0x31a811, Dialogue_edfee	;DeathQuote	;OK
+write_hirom_pointer_org 0x31a820, Dialogue_ee091	;DeathQuote	;OK
+write_hirom_pointer_org 0x31a835, Dialogue_ef165	;DeathQuote	;OK
+write_hirom_pointer_org 0x31a842, Dialogue_ef134	;DeathQuote	;OK
 write_hirom_pointer_org 0x31d3f7, Dialogue_d91fe	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x31d425, Dialogue_338000	;FE4_09	
 write_hirom_pointer_org 0x31d44b, Dialogue_338294	;FE4_09	

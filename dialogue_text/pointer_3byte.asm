@@ -828,10 +828,10 @@ write_hirom_pointer_org 0xff1cd, Dialogue_2ef36c	;FE4_14_AE
 write_hirom_pointer_org 0xff21e, Dialogue_2ef452	;FE4_14_AE	
 write_hirom_pointer_org 0xff269, Dialogue_2ef550	;FE4_14_AE	
 write_hirom_pointer_org 0xff296, Dialogue_2ef7e0	;FE4_14_AE	
-write_hirom_pointer_org 0xff2b0, Dialogue_df32d	;unknown	
-write_hirom_pointer_org 0xff2ca, Dialogue_df6f8	;unknown	
-write_hirom_pointer_org 0xff2f6, Dialogue_df8fb	;unknown	
-write_hirom_pointer_org 0xff322, Dialogue_dfafb	;unknown	
+write_hirom_pointer_org 0xff2b0, Dialogue_df32d 	;FE4_14_8D	
+write_hirom_pointer_org 0xff2ca, Dialogue_df6f8 	;FE4_14_8D	
+write_hirom_pointer_org 0xff2f6, Dialogue_df8fb 	;FE4_14_8D	
+write_hirom_pointer_org 0xff322, Dialogue_dfafb 	;FE4_14_8D	
 write_hirom_pointer_org 0xff33c, Dialogue_33d021	;FE4_14_B3	
 write_hirom_pointer_org 0xff356, Dialogue_33d0cb	;FE4_14_B3	
 write_hirom_pointer_org 0xff382, Dialogue_33d1f5	;FE4_14_B3	

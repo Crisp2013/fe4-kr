@@ -529,6 +529,11 @@ org 0xd9c0e
 .include "dialogue_text/convert/ZDynamic2.asm"
 .endarea
 
+org 0xdffd8
+.area 0xE0000-.
+.include "dialogue_text/convert/ZDynamic5.asm"
+.endarea
+
 
 /********************font area************************/
 

@@ -134,7 +134,7 @@
 
 #WRITE(Item, $3DC3A)
 // ミストルティン[X]
-미스틸레인[X]
+미스틸테인[X]
 
 //POINTER #21 @ $3DC3C - STRING #21 @ $3DE2E
 
@@ -384,7 +384,7 @@
 
 #WRITE(Item, $3DC96)
 // メティオ[X]
-메테오[X]
+메티오[X
 
 //POINTER #67 @ $3DC98 - STRING #67 @ $3E024
 
@@ -729,4 +729,4 @@
 
 #WRITE(Item, $3DD24)
 // サークレット[X]
-셀렉트[X]
+서클렛[X]

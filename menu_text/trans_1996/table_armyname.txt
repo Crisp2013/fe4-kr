@@ -20,7 +20,7 @@
 
 #WRITE(Army, $3D8EA)
 //シルベール軍[X]
-실베일군[X]
+시르벨군[X]
 
 //POINTER #2 @ $3D8EC - STRING #2 @ $3D970
 
@@ -32,7 +32,7 @@
 
 #WRITE(Army, $3D8EE)
 //アグスティ軍[X]
-아그스티군[X]
+어거스티군[X]
 
 //POINTER #4 @ $3D8F0 - STRING #4 @ $3D98E
 
@@ -58,7 +58,7 @@
 #WRITE(Army, $3D944)
 #WRITE(Army, $3D8F6)
 //ヴェルトマー軍[X]
-벨트머군[X]
+벨트마군[X]
 
 //POINTER #8 @ $3D8F8 - STRING #8 @ $3D9C8
 //POINTER #47 @ $3D946 - STRING #47 @ $3DBB4
@@ -74,7 +74,7 @@
 #WRITE(Army, $3D948)
 #WRITE(Army, $3D8FA)
 //バーハラ軍[X]
-발할라군[X]
+발하라군[X]
 
 //POINTER #10 @ $3D8FC - STRING #10 @ $3D9E0
 //POINTER #49 @ $3D94A - STRING #49 @ $3DBCC
@@ -106,13 +106,13 @@
 #WRITE(Army, $3D950)
 #WRITE(Army, $3D902)
 // ユングヴィ軍[X]
-잉그비군[X]
+융그비군[X]
 
 //POINTER #14 @ $3D904 - STRING #14 @ $3DA10
 
 #WRITE(Army, $3D904)
 //レンスター軍[X]
-렌스터군[X]
+랜스터군[X]
 
 //POINTER #15 @ $3D906 - STRING #15 @ $3DA1E
 
@@ -124,7 +124,7 @@
 
 #WRITE(Army, $3D908)
 // マンスター軍[X]
-먼스터군[X]
+맨스터군[X]
 
 //POINTER #17 @ $3D90A - STRING #17 @ $3DA38
 
@@ -136,7 +136,7 @@
 
 #WRITE(Army, $3D90C)
 //アルスター軍[X]
-얼스터군[X]
+알스터군[X]
 
 //POINTER #19 @ $3D90E - STRING #19 @ $3DA52
 
@@ -166,19 +166,19 @@
 
 #WRITE(Army, $3D916)
 //シレジア軍[X]
-실레지아군[X]
+시레지아군[X]
 
 //POINTER #24 @ $3D918 - STRING #24 @ $3DA92
 
 #WRITE(Army, $3D918)
 //リューベック軍[X]
-뤼벡군[X]
+류벡군[X]
 
 //POINTER #25 @ $3D91A - STRING #25 @ $3DAA2
 
 #WRITE(Army, $3D91A)
 //ティルナノグ軍[X]
-티르나노그군[X]
+틸나노그군[X]
 
 //POINTER #26 @ $3D91C - STRING #26 @ $3DAB2
 
@@ -226,13 +226,13 @@
 
 #WRITE(Army, $3D92A)
 //ヴェルダン軍[X]
-베르던군[X]
+벨던군[X]
 
 //POINTER #34 @ $3D92C - STRING #34 @ $3DB12
 
 #WRITE(Army, $3D92C)
 //エバンス軍[X]
-에반스군[X]
+에번스군[X]
 
 //POINTER #35 @ $3D92E - STRING #35 @ $3DB1E
 
@@ -256,7 +256,7 @@
 
 #WRITE(Army, $3D934)
 // ペルルーク軍[X]
-페를루크군[X]
+페루루크군[X]
 
 //POINTER #39 @ $3D936 - STRING #39 @ $3DB50
 
@@ -304,7 +304,7 @@
 
 #WRITE(Army, $3D952)
 //シグルド軍[X]
-시구르드군[X]
+시글드군[X]
 
 //POINTER #54 @ $3D954 - STRING #54 @ $3DC08
 

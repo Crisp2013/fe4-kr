@@ -15,19 +15,19 @@
 
 #WRITE(Goals, $DB74)
 //エバンス城のせいあつ[X]
-에반스성의　제압[X]
+에번스성의　제압[X]
 
 //POINTER #1 @ $DB77 - STRING #1 @ $DBAE
 
 #WRITE(Goals, $DB77)
 //ヴェルダン城のせいあつ[X]
-베르던성의　제압[X]
+벨던성의　제압[X]
 
 //POINTER #2 @ $DB7A - STRING #2 @ $DBC6
 
 #WRITE(Goals, $DB7A)
 //アグスティ城のせいあつ[X]
-아그스티성의　제압[X]
+어거스티성의　제압[X]
 
 //POINTER #3 @ $DB7D - STRING #3 @ $DBDE
 
@@ -47,7 +47,7 @@
 #WRITE(Goals, $DB95)
 #WRITE(Goals, $DB83)
 //バーハラ城のせいあつ[X]
-발할라성의　제압[X]
+발하라성의　제압[X]
 
 //POINTER #6 @ $DB86 - STRING #6 @ $DC22
 
@@ -59,7 +59,7 @@
 
 #WRITE(Goals, $DB89)
 //アルスター城のせいあつ[X]
-얼스터성의　제압[X]
+알스터성의　제압[X]
 
 //POINTER #8 @ $DB8C - STRING #8 @ $DC4E
 

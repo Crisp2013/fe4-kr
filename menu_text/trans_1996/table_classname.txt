@@ -44,7 +44,7 @@
 
 #WRITE(Class, $38ABD)
 //トルバドール[X]
-트루바두르[X]
+트루버돌[X]
 
 //POINTER #6 @ $38ABF - STRING #6 @ $38B99
 
@@ -166,13 +166,13 @@
 
 #WRITE(Class, $38AE7)
 //ジェネラル[X]
-제너럴[X]
+제네럴[X]
 
 //POINTER #27 @ $38AE9 - STRING #27 @ $38CCF
 
 #WRITE(Class, $38AE9)
 //エンペラー[X]
-엠퍼러[X]
+엠페러[X]
 
 //POINTER #28 @ $38AEB - STRING #28 @ $38CDB
 
@@ -190,7 +190,7 @@
 
 #WRITE(Class, $38AEF)
 //スピアソルジャー[X]
-스피어솔저[X]
+스피아솔저[X]
 
 //POINTER #31 @ $38AF1 - STRING #31 @ $38D01
 
@@ -268,7 +268,7 @@
 
 #WRITE(Class, $38B09)
 //パイレーツ[X]
-파이레트[X]
+파이레츠[X]
 
 //POINTER #44 @ $38B0B - STRING #44 @ $38DBD
 
@@ -330,7 +330,7 @@
 
 #WRITE(Class, $38B1F)
 //サンダーマージ[X]
-선더메이지[X]
+썬더메이지[X]
 
 //POINTER #55 @ $38B21 - STRING #55 @ $3904F
 

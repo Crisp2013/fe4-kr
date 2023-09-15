@@ -106,7 +106,7 @@
 #WRITE(Army, $3D950)
 #WRITE(Army, $3D902)
 // ユングヴィ軍[X]
-융그비군[X]
+잉그비군[X]
 
 //POINTER #14 @ $3D904 - STRING #14 @ $3DA10
 

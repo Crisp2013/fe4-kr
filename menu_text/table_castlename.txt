@@ -93,7 +93,7 @@
 
 #WRITE(Castle, $3F531)
 // ユングヴィ城[X]
-융그비성[X]
+잉그비성[X]
 
 //POINTER #14 @ $3F533 - STRING #14 @ $3F62D
 

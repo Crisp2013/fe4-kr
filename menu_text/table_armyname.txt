@@ -32,7 +32,7 @@
 
 #WRITE(Army, $3D8EE)
 //アグスティ軍[X]
-어거스티군[X]
+아그스티군[X]
 
 //POINTER #4 @ $3D8F0 - STRING #4 @ $3D98E
 
@@ -57,7 +57,7 @@
 #WRITE(Army, $3D944)
 #WRITE(Army, $3D8F6)
 //ヴェルトマー軍[X]
-벨트마군[X]
+벨트머군[X]
 
 //POINTER #8 @ $3D8F8 - STRING #8 @ $3D9C8
 //POINTER #47 @ $3D946 - STRING #47 @ $3DBB4
@@ -212,7 +212,7 @@
 
 #WRITE(Army, $3D928)
 //ダーナ軍[X]
-타나군[X]
+다나군[X]
 
 //POINTER #33 @ $3D92A - STRING #33 @ $3DB04
 

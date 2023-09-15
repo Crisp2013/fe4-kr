@@ -1118,7 +1118,7 @@
 #WRITE(Unit, $39C33)
 #WRITE(Unit, $39C2F)
 //ヴェルトマー兵[X]
-벨트마병[X]
+벨트머병[X]
 
 //POINTER #236 @ $39C31 - STRING #236 @ $3A537
 

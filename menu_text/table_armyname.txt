@@ -142,7 +142,7 @@
 
 #WRITE(Army, $3D90E)
 // オーガヒル軍[X]
-오거힐군[X}
+오거힐군[X]
 
 //POINTER #20 @ $3D910 - STRING #20 @ $3DA60
 

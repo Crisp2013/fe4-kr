@@ -14,229 +14,275 @@
 //POINTER #0 @ $3F517 - STRING #0 @ $3F573
 
 #WRITE(Castle, $3F517)
-マディノ城[X]
+// マディノ城[X]
+마디노성[X]
 
 //POINTER #1 @ $3F519 - STRING #1 @ $3F57F
 
 #WRITE(Castle, $3F519)
-シルベール城[X]
+// シルベール城[X]
+실베일성[X]
 
 //POINTER #2 @ $3F51B - STRING #2 @ $3F58D
 
 #WRITE(Castle, $3F51B)
-アンフォニー城[X]
+// アンフォニー城[X]
+안포니성[X]
 
 //POINTER #3 @ $3F51D - STRING #3 @ $3F59D
 
 #WRITE(Castle, $3F51D)
-アグスティ城[X]
+// アグスティ城[X]
+아그스티성[X]
 
 //POINTER #4 @ $3F51F - STRING #4 @ $3F5AB
 
 #WRITE(Castle, $3F51F)
-ハイライン城[X]
+// ハイライン城[X]
+하이라인성[X]
 
 //POINTER #5 @ $3F521 - STRING #5 @ $3F5B9
 
 #WRITE(Castle, $3F521)
-マッキリー城[X]
+// マッキリー城[X]
+맥키리성[X]
 
 //POINTER #6 @ $3F523 - STRING #6 @ $3F5C7
 
 #WRITE(Castle, $3F523)
-ノディオン城[X]
+// ノディオン城[X]
+노디온성[X]
 
 //POINTER #7 @ $3F525 - STRING #7 @ $3F5D5
 
 #WRITE(Castle, $3F525)
-ヴェルトマー城[X]
+// ヴェルトマー城[X]
+벨트머성[X]
 
 //POINTER #8 @ $3F527 - STRING #8 @ $3F5E5
 
 #WRITE(Castle, $3F527)
-フリージ城[X]
+// フリージ城[X]
+프리지성[X]
 
 //POINTER #9 @ $3F529 - STRING #9 @ $3F5F1
 
 #WRITE(Castle, $3F529)
-バーハラ城[X]
+// バーハラ城[X]
+발할라성[X]
 
 //POINTER #10 @ $3F52B - STRING #10 @ $3F5FD
 
 #WRITE(Castle, $3F52B)
-ドズル城[X]
+// ドズル城[X]
+도즐성[X]
 
 //POINTER #11 @ $3F52D - STRING #11 @ $3F607
 
 #WRITE(Castle, $3F52D)
-エッダ城[X]
+// エッダ城[X]
+에다성[X]
 
 //POINTER #12 @ $3F52F - STRING #12 @ $3F611
 
 #WRITE(Castle, $3F52F)
-シアルフィ城[X]
+// シアルフィ城[X]
+시알피성[X]
 
 //POINTER #13 @ $3F531 - STRING #13 @ $3F61F
 
 #WRITE(Castle, $3F531)
-ユングヴィ城[X]
+// ユングヴィ城[X]
+융그비성[X]
 
 //POINTER #14 @ $3F533 - STRING #14 @ $3F62D
 
 #WRITE(Castle, $3F533)
-レンスター城[X]
+// レンスター城[X]
+렌스터성[X]
 
 //POINTER #15 @ $3F535 - STRING #15 @ $3F63B
 
 #WRITE(Castle, $3F535)
-コノート城[X]
+// コノート城[X]
+코노트성[X]
 
 //POINTER #16 @ $3F537 - STRING #16 @ $3F647
 
 #WRITE(Castle, $3F537)
-マンスター城[X]
+// マンスター城[X]
+먼스터성[X]
 
 //POINTER #17 @ $3F539 - STRING #17 @ $3F655
 
 #WRITE(Castle, $3F539)
-メルゲン城[X]
+// メルゲン城[X]
+멜겐성[X]
 
 //POINTER #18 @ $3F53B - STRING #18 @ $3F661
 
 #WRITE(Castle, $3F53B)
-アルスター城[X]
+// アルスター城[X]
+얼스터성[X]
 
 //POINTER #19 @ $3F53D - STRING #19 @ $3F66F
 
 #WRITE(Castle, $3F53D)
-オーガヒル城[X]
+// オーガヒル城[X]
+오거힐성[X]
 
 //POINTER #20 @ $3F53F - STRING #20 @ $3F67D
 
 #WRITE(Castle, $3F53F)
-トーヴェ城[X]
+// トーヴェ城[X]
+토베성[X]
 
 //POINTER #21 @ $3F541 - STRING #21 @ $3F689
 
 #WRITE(Castle, $3F541)
-セイレーン城[X]
+// セイレーン城[X]
+세이렌성[X]
 
 //POINTER #22 @ $3F543 - STRING #22 @ $3F697
 
 #WRITE(Castle, $3F543)
-ザクソン城[X]
+// ザクソン城[X]
+잭슨성[X]
 
 //POINTER #23 @ $3F545 - STRING #23 @ $3F6A3
 
 #WRITE(Castle, $3F545)
-シレジア城[X]
+// シレジア城[X]
+실레지아성[X]
 
 //POINTER #24 @ $3F547 - STRING #24 @ $3F6AF
 
 #WRITE(Castle, $3F547)
-リューベック城[X]
+// リューベック城[X]
+뤼벡성[X]
 
 //POINTER #25 @ $3F549 - STRING #25 @ $3F6BF
 
 #WRITE(Castle, $3F549)
-ティルナノグ城[X]
+// ティルナノグ城[X]
+티르나노그성[X]
 
 //POINTER #26 @ $3F54B - STRING #26 @ $3F6CF
 
 #WRITE(Castle, $3F54B)
-ガネーシャ城[X]
+// ガネーシャ城[X]
+가네샤성[X]
 
 //POINTER #27 @ $3F54D - STRING #27 @ $3F6DD
 
 #WRITE(Castle, $3F54D)
-ソファラ城[X]
+// ソファラ城[X]
+소파라성[X]
 
 //POINTER #28 @ $3F54F - STRING #28 @ $3F6E9
 
 #WRITE(Castle, $3F54F)
-イザーク城[X]
+// イザーク城[X]
+이자크성[X]
 
 //POINTER #29 @ $3F551 - STRING #29 @ $3F6F5
 
 #WRITE(Castle, $3F551)
-リボー城[X]
+// リボー城[X]
+리보성[X]
 
 //POINTER #30 @ $3F553 - STRING #30 @ $3F6FF
 
 #WRITE(Castle, $3F553)
-フィノーラ城[X]
+// フィノーラ城[X]
+피노라성[X]
 
 //POINTER #31 @ $3F555 - STRING #31 @ $3F70D
 
 #WRITE(Castle, $3F555)
-イード城[X]
+// イード城[X]
+이드성[X]
 
 //POINTER #32 @ $3F557 - STRING #32 @ $3F717
 
 #WRITE(Castle, $3F557)
-ダーナ城[X]
+// ダーナ城[X]
+다나성[X]
 
 //POINTER #33 @ $3F559 - STRING #33 @ $3F721
 
 #WRITE(Castle, $3F559)
-ヴェルダン城[X]
+// ヴェルダン城[X]
+베르던성[X]
 
 //POINTER #34 @ $3F55B - STRING #34 @ $3F72F
 
 #WRITE(Castle, $3F55B)
-エバンス城[X]
+// エバンス城[X]
+에반스성[X]
 
 //POINTER #35 @ $3F55D - STRING #35 @ $3F73B
 
 #WRITE(Castle, $3F55D)
-ジェノア城[X]
+// ジェノア城[X]
+제노아성[X]
 
 //POINTER #36 @ $3F55F - STRING #36 @ $3F747
 
 #WRITE(Castle, $3F55F)
-マーファ城[X]
+// マーファ城[X]
+마파성[X]
 
 //POINTER #37 @ $3F561 - STRING #37 @ $3F753
 
 #WRITE(Castle, $3F561)
-ミレトス城[X]
+// ミレトス城[X]
+밀레토스성[X]
 
 //POINTER #38 @ $3F563 - STRING #38 @ $3F75F
 
 #WRITE(Castle, $3F563)
-ペルルーク城[X]
+// ペルルーク城[X]
+페를루크성[X]
 
 //POINTER #39 @ $3F565 - STRING #39 @ $3F76D
 
 #WRITE(Castle, $3F565)
-クロノス城[X]
+// クロノス城[X]
+크로노스성[X]
 
 //POINTER #40 @ $3F567 - STRING #40 @ $3F779
 
 #WRITE(Castle, $3F567)
-ラドス城[X]
+// ラドス城[X]
+라도스성[X]
 
 //POINTER #41 @ $3F569 - STRING #41 @ $3F783
 
 #WRITE(Castle, $3F569)
-ミーズ城[X]
+// ミーズ城[X]
+미즈성[X]
 
 //POINTER #42 @ $3F56B - STRING #42 @ $3F78D
 
 #WRITE(Castle, $3F56B)
-カパトギア城[X]
+// カパトギア城[X]
+카파토기아성[X]
 
 //POINTER #43 @ $3F56D - STRING #43 @ $3F79B
 
 #WRITE(Castle, $3F56D)
-ルテキア城[X]
+// ルテキア城[X]
+루테키아성[X]
 
 //POINTER #44 @ $3F56F - STRING #44 @ $3F7A7
 
 #WRITE(Castle, $3F56F)
-トラキア城[X]
+// トラキア城[X]
+트라키아성[X]
 
 //POINTER #45 @ $3F571 - STRING #45 @ $3F7B3
 
 #WRITE(Castle, $3F571)
-グルティア城[X]
+// グルティア城[X]
+그루티아성[X]

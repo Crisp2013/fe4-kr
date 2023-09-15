@@ -217,6 +217,8 @@ write_loword_pointer_org 0xef4b4, Dialogue_ef111
 write_loword_pointer_org 0xef4b8, Dialogue_ef134
 write_loword_pointer_org 0xef4bc, Dialogue_ef165
 write_loword_pointer_org 0xef4c0, Dialogue_ee091
+
+
 //zdynamic1
 write_loword_pointer_org 0xd9892, Dialogue_d9922
 write_loword_pointer_org 0xd9894, Dialogue_d992b

@@ -131,17 +131,17 @@ translation_org 0xd8dc4
 
 //org 0xd928b
 //.area 0xd9402+TRANSLATION_OFFSET-.
-//.include "dialogue_text/convert/ZDynamic4.asm"
+.include "dialogue_text/convert/ZDynamic4.asm"
 //.endarea
 
 //org 0xd9514
 //.area 0xd9892+TRANSLATION_OFFSET-.
-//.include "dialogue_text/convert/ZDynamic3.asm"
+.include "dialogue_text/convert/ZDynamic3.asm"
 //.endarea
 
 //org 0xd9922
 //.area 0xd9b65+TRANSLATION_OFFSET-.
-//.include "dialogue_text/convert/ZDynamic1.asm"
+.include "dialogue_text/convert/ZDynamic1.asm"
 //.endarea
 
 //org 0xd9b7b
@@ -151,7 +151,7 @@ translation_org 0xd8dc4
 
 //org 0xd9c0e
 //.area 0xd9c88+TRANSLATION_OFFSET-.
-//.include "dialogue_text/convert/ZDynamic2.asm"
+.include "dialogue_text/convert/ZDynamic2.asm"
 //.endarea
 
 //translation_org 0xd9c88
@@ -490,7 +490,11 @@ write_hibank_pointer_org 0x11B0F1+1 , Dialogue_11b112
 write_loword_pointer_org 0x11B0F1+6 , Dialogue_11b112
 write_hibank_pointer_org 0x11B103+1 , Dialogue_11b115
 write_loword_pointer_org 0x11B103+6 , Dialogue_11b115
-
+//bank hack
+write_hibank_pointer_org 0x118D50+1, Dialogue_d928b//Z4
+write_hibank_pointer_org 0x118DF1+1, Dialogue_d9514//Z3
+write_hibank_pointer_org 0x118E0F+1, Dialogue_d9922//Z1
+write_hibank_pointer_org 0x11ACE4+1, Dialogue_d9c0e//Z2
 /********************2byte pointer area************************/
 .include "dialogue_text/pointer_2byte.asm"
 
@@ -505,30 +509,30 @@ write_loword_pointer_org 0x11B103+6 , Dialogue_11b115
 .include "dialogue_text/convert/DeathQuote.asm"		;0xed7de-0xef1da
 .endarea
 
-org 0xd928b
-.area 0xd9402-.
-.include "dialogue_text/convert/ZDynamic4.asm"
-.endarea
+//org 0xd928b
+//.area 0xd9402-.
+//.include "dialogue_text/convert/ZDynamic4.asm"
+//.endarea
 
-org 0xd9514
-.area 0xd9892-.
-.include "dialogue_text/convert/ZDynamic3.asm"
-.endarea
+//org 0xd9514
+//.area 0xd9892-.
+//.include "dialogue_text/convert/ZDynamic3.asm"
+//.endarea
 
-org 0xd9922
-.area 0xd9b65-.
-.include "dialogue_text/convert/ZDynamic1.asm"
-.endarea
+//org 0xd9922
+//.area 0xd9b65-.
+//.include "dialogue_text/convert/ZDynamic1.asm"
+//.endarea
 
 org 0xd9b7b
 .area 0xd9bf6-.
 .include "dialogue_text/convert/MainMenu.asm"
 .endarea
 
-org 0xd9c0e
-.area 0xd9c88-.
-.include "dialogue_text/convert/ZDynamic2.asm"
-.endarea
+//org 0xd9c0e
+//.area 0xd9c88-.
+//.include "dialogue_text/convert/ZDynamic2.asm"
+//.endarea
 
 org 0xdffd8
 .area 0xE0000-.

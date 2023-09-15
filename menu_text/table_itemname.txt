@@ -438,7 +438,7 @@
 
 #WRITE(Item, $3DCA8)
 // フォルセティ[X]
-폴세티[X]
+포르세티[X]
 
 //POINTER #76 @ $3DCAA - STRING #76 @ $3E098
 

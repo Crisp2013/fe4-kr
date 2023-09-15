@@ -1,17 +1,17 @@
 
 //offset 0xd9c0e
 // 0xd9e0e
-//Dialogue_d9c0e:
-//.stringn "성기사 탄생"
-//db EndText
+Dialogue_d9c0e:
+.stringn "성기사 탄생"
+db EndText
 
 //end 0xd9c17
 
 //offset 0xd9c17
 // 0xd9e17
-//Dialogue_d9c17:
-//.stringn "정령의 숲의 소녀"
-//db EndText
+Dialogue_d9c17:
+.stringn "정령의 숲의 소녀"
+db EndText
 
 //end 0xd9c26
 

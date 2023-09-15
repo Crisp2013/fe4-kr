@@ -538,7 +538,7 @@ db EndText
 //offset 0xd972b
 // 0xd992b
 Dialogue_d972b:
-.stringn "폴세티"
+.stringn "포르세티"
 db EndText
 
 //end 0xd9733

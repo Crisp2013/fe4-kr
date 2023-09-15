@@ -242,7 +242,7 @@ db EndText
 //offset 0xd960b
 // 0xd980b
 Dialogue_d960b:
-.stringn "나이트 킬러"
+.stringn "나이트킬러"
 db EndText
 
 //end 0xd9613
@@ -402,7 +402,7 @@ db EndText
 //offset 0xd96a2
 // 0xd98a2
 Dialogue_d96a2:
-.stringn "롱 아치"
+.stringn "롱아치"
 db EndText
 
 //end 0xd96aa
@@ -410,7 +410,7 @@ db EndText
 //offset 0xd96aa
 // 0xd98aa
 Dialogue_d96aa:
-.stringn "아이언 아치"
+.stringn "아이언아치"
 db EndText
 
 //end 0xd96b3
@@ -418,7 +418,7 @@ db EndText
 //offset 0xd96b3
 // 0xd98b3
 Dialogue_d96b3:
-.stringn "킬러 아치"
+.stringn "킬러아치"
 db EndText
 
 //end 0xd96bb
@@ -426,7 +426,7 @@ db EndText
 //offset 0xd96bb
 // 0xd98bb
 Dialogue_d96bb:
-.stringn "그레이트 아치"
+.stringn "그레이트아치"
 db EndText
 
 //end 0xd96c4
@@ -442,7 +442,7 @@ db EndText
 //offset 0xd96cb
 // 0xd98cb
 Dialogue_d96cb:
-.stringn "엘 파이어"
+.stringn "엘파이어"
 db EndText
 
 //end 0xd96d4
@@ -466,7 +466,7 @@ db EndText
 //offset 0xd96e4
 // 0xd98e4
 Dialogue_d96e4:
-.stringn "메티오"
+.stringn "메테오"
 db EndText
 
 //end 0xd96ea
@@ -482,7 +482,7 @@ db EndText
 //offset 0xd96f3
 // 0xd98f3
 Dialogue_d96f3:
-.stringn "엘 선더"
+.stringn "엘선더"
 db EndText
 
 //end 0xd96fe
@@ -498,7 +498,7 @@ db EndText
 //offset 0xd9704
 // 0xd9904
 Dialogue_d9704:
-.stringn "토르 해머"
+.stringn "토르해머"
 db EndText
 
 //end 0xd970d
@@ -538,7 +538,7 @@ db EndText
 //offset 0xd972b
 // 0xd992b
 Dialogue_d972b:
-.stringn "포르세티"
+.stringn "폴세티"
 db EndText
 
 //end 0xd9733
@@ -586,7 +586,7 @@ db EndText
 //offset 0xd9752
 // 0xd9952
 Dialogue_d9752:
-.stringn "요츠문간드"
+.stringn "요르문간드"
 db EndText
 
 //end 0xd975b
@@ -626,7 +626,7 @@ db EndText
 //offset 0xd9777
 // 0xd9977
 Dialogue_d9777:
-.stringn "라이브"
+.stringn "라이브의 지팡이"
 db EndText
 
 //end 0xd977f
@@ -634,7 +634,7 @@ db EndText
 //offset 0xd977f
 // 0xd997f
 Dialogue_d977f:
-.stringn "리라이브"
+.stringn "리라이브의 지팡이"
 db EndText
 
 //end 0xd9788
@@ -642,7 +642,7 @@ db EndText
 //offset 0xd9788
 // 0xd9988
 Dialogue_d9788:
-.stringn "리커버"
+.stringn "리커버의 지팡이"
 db EndText
 
 //end 0xd9791
@@ -650,7 +650,7 @@ db EndText
 //offset 0xd9791
 // 0xd9991
 Dialogue_d9791:
-.stringn "리브로"
+.stringn "리브로의 지팡이"
 db EndText
 
 //end 0xd979a
@@ -658,7 +658,7 @@ db EndText
 //offset 0xd979a
 // 0xd999a
 Dialogue_d979a:
-.stringn "리저브"
+.stringn "리저브의 지팡이"
 db EndText
 
 //end 0xd97a3
@@ -666,7 +666,7 @@ db EndText
 //offset 0xd97a3
 // 0xd99a3
 Dialogue_d97a3:
-.stringn "리턴"
+.stringn "리턴의 지팡이"
 db EndText
 
 //end 0xd97ac
@@ -674,7 +674,7 @@ db EndText
 //offset 0xd97ac
 // 0xd99ac
 Dialogue_d97ac:
-.stringn "워프"
+.stringn "워프의 지팡이"
 db EndText
 
 //end 0xd97b4
@@ -682,7 +682,7 @@ db EndText
 //offset 0xd97b4
 // 0xd99b4
 Dialogue_d97b4:
-.stringn "레스큐"
+.stringn "레스큐의 지팡이"
 db EndText
 
 //end 0xd97be
@@ -690,7 +690,7 @@ db EndText
 //offset 0xd97be
 // 0xd99be
 Dialogue_d97be:
-.stringn "참"
+.stringn "참의 지팡이"
 db EndText
 
 //end 0xd97c7
@@ -698,7 +698,7 @@ db EndText
 //offset 0xd97c7
 // 0xd99c7
 Dialogue_d97c7:
-.stringn "레스트"
+.stringn "레스트의 지팡이"
 db EndText
 
 //end 0xd97cf
@@ -706,7 +706,7 @@ db EndText
 //offset 0xd97cf
 // 0xd99cf
 Dialogue_d97cf:
-.stringn "발키리"
+.stringn "발키리의 지팡이"
 db EndText
 
 //end 0xd97d9
@@ -714,7 +714,7 @@ db EndText
 //offset 0xd97d9
 // 0xd99d9
 Dialogue_d97d9:
-.stringn "사일런스"
+.stringn "사일런스의 지팡이"
 db EndText
 
 //end 0xd97e5
@@ -722,7 +722,7 @@ db EndText
 //offset 0xd97e5
 // 0xd99e5
 Dialogue_d97e5:
-.stringn "슬립"
+.stringn "슬립의 지팡이"
 db EndText
 
 //end 0xd97ee
@@ -730,7 +730,7 @@ db EndText
 //offset 0xd97ee
 // 0xd99ee
 Dialogue_d97ee:
-.stringn "버서크"
+.stringn "버서크의 지팡이"
 db EndText
 
 //end 0xd97f7
@@ -738,7 +738,7 @@ db EndText
 //offset 0xd97f7
 // 0xd99f7
 Dialogue_d97f7:
-.stringn "시프"
+.stringn "시프의 지팡이"
 db EndText
 
 //end 0xd97ff
@@ -762,7 +762,7 @@ db EndText
 //offset 0xd9810
 // 0xd9a10
 Dialogue_d9810:
-.stringn "엘리트 링"
+.stringn "엘리트링"
 db EndText
 
 //end 0xd9819
@@ -794,7 +794,7 @@ db EndText
 //offset 0xd9834
 // 0xd9a34
 Dialogue_d9834:
-.stringn "리커버 링"
+.stringn "리커버링"
 db EndText
 
 //end 0xd983d
@@ -810,7 +810,7 @@ db EndText
 //offset 0xd9846
 // 0xd9a46
 Dialogue_d9846:
-.stringn "나이트 링"
+.stringn "나이트링"
 db EndText
 
 //end 0xd984e
@@ -818,7 +818,7 @@ db EndText
 //offset 0xd984e
 // 0xd9a4e
 Dialogue_d984e:
-.stringn "리턴 링"
+.stringn "리턴링"
 db EndText
 
 //end 0xd9857
@@ -826,7 +826,7 @@ db EndText
 //offset 0xd9857
 // 0xd9a57
 Dialogue_d9857:
-.stringn "스피드 링"
+.stringn "스피드링"
 db EndText
 
 //end 0xd9860
@@ -834,7 +834,7 @@ db EndText
 //offset 0xd9860
 // 0xd9a60
 Dialogue_d9860:
-.stringn "매직 링"
+.stringn "매직링"
 db EndText
 
 //end 0xd9869
@@ -842,7 +842,7 @@ db EndText
 //offset 0xd9869
 // 0xd9a69
 Dialogue_d9869:
-.stringn "파워 링"
+.stringn "파워링"
 db EndText
 
 //end 0xd9871
@@ -850,7 +850,7 @@ db EndText
 //offset 0xd9871
 // 0xd9a71
 Dialogue_d9871:
-.stringn "실드 링"
+.stringn "실드링"
 db EndText
 
 //end 0xd987a
@@ -858,7 +858,7 @@ db EndText
 //offset 0xd987a
 // 0xd9a7a
 Dialogue_d987a:
-.stringn "배리어 링"
+.stringn "배리어링"
 db EndText
 
 //end 0xd9882
@@ -866,7 +866,7 @@ db EndText
 //offset 0xd9882
 // 0xd9a82
 Dialogue_d9882:
-.stringn "레그 링"
+.stringn "레그링"
 db EndText
 
 //end 0xd988a
@@ -874,7 +874,7 @@ db EndText
 //offset 0xd988a
 // 0xd9a8a
 Dialogue_d988a:
-.stringn "스킬 링"
+.stringn "스킬링"
 db EndText
 
 //end 0xd9892

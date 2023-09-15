@@ -13,127 +13,152 @@
 //POINTER #0 @ $3DC12 - STRING #0 @ $3DD26
 
 #WRITE(Item, $3DC12)
-てつの剣[X]
+//てつの剣[X]
+철의　검[X]
 
 //POINTER #1 @ $3DC14 - STRING #1 @ $3DD30
 
 #WRITE(Item, $3DC14)
-はがねの剣[X]
+// はがねの剣[X]
+강철의　검[X]
 
 //POINTER #2 @ $3DC16 - STRING #2 @ $3DD3C
 
 #WRITE(Item, $3DC16)
-ぎんの剣[X]
+// ぎんの剣[X]
+은의　검[X]
 
 //POINTER #3 @ $3DC18 - STRING #3 @ $3DD46
 
 #WRITE(Item, $3DC18)
-てつの<$91><$E5>剣[X]
+// てつの<$91><$E5>剣[X]
+철의　대검[X]
 
 //POINTER #4 @ $3DC1A - STRING #4 @ $3DD52
 
 #WRITE(Item, $3DC1A)
-はがねの<$91><$E5>剣[X]
+// はがねの<$91><$E5>剣[X]
+강철의　대검[X]
 
 //POINTER #5 @ $3DC1C - STRING #5 @ $3DD60
 
 #WRITE(Item, $3DC1C)
-ぎんの<$91><$E5>剣[X]
+// ぎんの<$91><$E5>剣[X]
+은의　대검[X]
 
 //POINTER #6 @ $3DC1E - STRING #6 @ $3DD6C
 
 #WRITE(Item, $3DC1E)
-いのりの剣[X]
+// いのりの剣[X]
+기도의　검[X]
 
 //POINTER #7 @ $3DC20 - STRING #7 @ $3DD78
 
 #WRITE(Item, $3DC20)
-とうぞくの剣[X]
+// とうぞくの剣[X]
+도적의　검[X]
 
 //POINTER #8 @ $3DC22 - STRING #8 @ $3DD86
 
 #WRITE(Item, $3DC22)
-バリアの剣[X]
+// バリアの剣[X]
+베리어의　검[X]
 
 //POINTER #9 @ $3DC24 - STRING #9 @ $3DD92
 
 #WRITE(Item, $3DC24)
-バサークの剣[X]
+// バサークの剣[X]
+버거크의　검[X]
 
 //POINTER #10 @ $3DC26 - STRING #10 @ $3DDA0
 
 #WRITE(Item, $3DC26)
-ゆうしゃの剣[X]
+// ゆうしゃの剣[X]
+용사의　검[X]
 
 //POINTER #11 @ $3DC28 - STRING #11 @ $3DDAE
 
 #WRITE(Item, $3DC28)
-サイレスの剣[X]
+// サイレスの剣[X]
+사일런스의　검[X]
 
 //POINTER #12 @ $3DC2A - STRING #12 @ $3DDBC
 
 #WRITE(Item, $3DC2A)
-スリープの剣[X]
+// スリープの剣[X]
+슬립의　검[X]
 
 //POINTER #13 @ $3DC2C - STRING #13 @ $3DDCA
 
 #WRITE(Item, $3DC2C)
-ほそみの剣[X]
+// ほそみの剣[X]
+가느다란　검[X]
 
 //POINTER #14 @ $3DC2E - STRING #14 @ $3DDD6
 
 #WRITE(Item, $3DC2E)
-まもりの剣[X]
+// まもりの剣[X]
+수비의　검[X]
 
 //POINTER #15 @ $3DC30 - STRING #15 @ $3DDE2
 
 #WRITE(Item, $3DC30)
-ほのおの剣[X]
+// ほのおの剣[X]
+불꽃의　검[X]
 
 //POINTER #16 @ $3DC32 - STRING #16 @ $3DDEE
 
 #WRITE(Item, $3DC32)
-だいちの剣[X]
+// だいちの剣[X]
+대지의　검[X]
 
 //POINTER #17 @ $3DC34 - STRING #17 @ $3DDFA
 
 #WRITE(Item, $3DC34)
-いかずちの剣[X]
+// いかずちの剣[X]
+천둥의　검[X]
 
 //POINTER #18 @ $3DC36 - STRING #18 @ $3DE08
 
 #WRITE(Item, $3DC36)
-かぜの剣[X]
+// かぜの剣[X]
+바람의　검[X]
 
 //POINTER #19 @ $3DC38 - STRING #19 @ $3DE12
 
 #WRITE(Item, $3DC38)
-ひかりの剣[X]
+// ひかりの剣[X]
+빛의　검[X]
 
 //POINTER #20 @ $3DC3A - STRING #20 @ $3DE1E
 
 #WRITE(Item, $3DC3A)
-ミストルティン[X]
+// ミストルティン[X]
+미스틸레인[X]
 
 //POINTER #21 @ $3DC3C - STRING #21 @ $3DE2E
 
 #WRITE(Item, $3DC3C)
-ティルフィング[X]
+// ティルフィング[X]
+튀르핑[X]
 
 //POINTER #22 @ $3DC3E - STRING #22 @ $3DE3E
 
 #WRITE(Item, $3DC3E)
-バルムンク[X]
+// バルムンク[X]
+발뭉[X]
 
 //POINTER #23 @ $3DC40 - STRING #23 @ $3DE4A
 
 #WRITE(Item, $3DC40)
-ざんてつの剣[X]
+// ざんてつの剣[X]
+참철의　검[X]
 
 //POINTER #24 @ $3DC42 - STRING #24 @ $3DE58
 
 #WRITE(Item, $3DC42)
-つばめがえし[X]
+// つばめがえし[X]
+참익도[X]
 
 //POINTER #25 @ $3DC44 - STRING #25 @ $3DE66
 //POINTER #26 @ $3DC46 - STRING #26 @ $3DE66
@@ -144,52 +169,62 @@
 #WRITE(Item, $3DC48)
 #WRITE(Item, $3DC46)
 #WRITE(Item, $3DC44)
-こわれた剣[X]
+// こわれた剣[X]
+망가진　검[X]
 
 //POINTER #28 @ $3DC4A - STRING #28 @ $3DE72
 
 #WRITE(Item, $3DC4A)
-てつのやり[X]
+// てつのやり[X]
+철의　창[X]
 
 //POINTER #29 @ $3DC4C - STRING #29 @ $3DE7E
 
 #WRITE(Item, $3DC4C)
-はがねのやり[X]
+// はがねのやり[X]
+강철의　창[X]
 
 //POINTER #30 @ $3DC4E - STRING #30 @ $3DE8C
 
 #WRITE(Item, $3DC4E)
-ぎんのやり[X]
+// ぎんのやり[X]
+은의　창[X]
 
 //POINTER #31 @ $3DC50 - STRING #31 @ $3DE98
 
 #WRITE(Item, $3DC50)
-てやり[X]
+// てやり[X]
+투척창[X]
 
 //POINTER #32 @ $3DC52 - STRING #32 @ $3DEA0
 
 #WRITE(Item, $3DC52)
-ナイトキラー[X]
+// ナイトキラー[X]
+나이트킬러[X]
 
 //POINTER #33 @ $3DC54 - STRING #33 @ $3DEAE
 
 #WRITE(Item, $3DC54)
-ゆうしゃのやり[X]
+// ゆうしゃのやり[X]
+용사의　창[X]
 
 //POINTER #34 @ $3DC56 - STRING #34 @ $3DEBE
 
 #WRITE(Item, $3DC56)
-ほそみのやり[X]
+// ほそみのやり[X]
+가느다란　창[X]
 
 //POINTER #35 @ $3DC58 - STRING #35 @ $3DECC
 
 #WRITE(Item, $3DC58)
-グングニル[X]
+// グングニル[X]
+궁니르[X]
 
 //POINTER #36 @ $3DC5A - STRING #36 @ $3DED8
 
 #WRITE(Item, $3DC5A)
-ゲイボルグ[X]
+// ゲイボルグ[X]
+게이볼그[X]
 
 //POINTER #37 @ $3DC5C - STRING #37 @ $3DEE4
 //POINTER #38 @ $3DC5E - STRING #38 @ $3DEE4
@@ -200,37 +235,44 @@
 #WRITE(Item, $3DC60)
 #WRITE(Item, $3DC5E)
 #WRITE(Item, $3DC5C)
-こわれたやり[X]
+// こわれたやり[X]
+망가진　창[X]
 
 //POINTER #40 @ $3DC62 - STRING #40 @ $3DEF2
 
 #WRITE(Item, $3DC62)
-てつのおの[X]
+// てつのおの[X]
+철의　도끼[X]
 
 //POINTER #41 @ $3DC64 - STRING #41 @ $3DEFE
 
 #WRITE(Item, $3DC64)
-はがねのおの[X]
+// はがねのおの[X]
+강철의　도끼[X]
 
 //POINTER #42 @ $3DC66 - STRING #42 @ $3DF0C
 
 #WRITE(Item, $3DC66)
-ぎんのおの[X]
+// ぎんのおの[X]
+은의　도끼[X]
 
 //POINTER #43 @ $3DC68 - STRING #43 @ $3DF18
 
 #WRITE(Item, $3DC68)
-ゆうしゃのおの[X]
+// ゆうしゃのおの[X]
+용사의　도끼[X]
 
 //POINTER #44 @ $3DC6A - STRING #44 @ $3DF28
 
 #WRITE(Item, $3DC6A)
-スワンチカ[X]
+// スワンチカ[X]
+스완티카[X]
 
 //POINTER #45 @ $3DC6C - STRING #45 @ $3DF34
 
 #WRITE(Item, $3DC6C)
-ておの[X]
+// ておの[X]
+투척도끼[X]
 
 //POINTER #46 @ $3DC6E - STRING #46 @ $3DF3C
 //POINTER #47 @ $3DC70 - STRING #47 @ $3DF3C
@@ -239,37 +281,44 @@
 #WRITE(Item, $3DC72)
 #WRITE(Item, $3DC70)
 #WRITE(Item, $3DC6E)
-こわれたおの[X]
+// こわれたおの[X]
+망가진　도끼[X]
 
 //POINTER #49 @ $3DC74 - STRING #49 @ $3DF4A
 
 #WRITE(Item, $3DC74)
-てつのゆみ[X]
+// てつのゆみ[X]
+철의　활[X]
 
 //POINTER #50 @ $3DC76 - STRING #50 @ $3DF56
 
 #WRITE(Item, $3DC76)
-はがねのゆみ[X]
+// はがねのゆみ[X]
+강철의　활[X]
 
 //POINTER #51 @ $3DC78 - STRING #51 @ $3DF64
 
 #WRITE(Item, $3DC78)
-ぎんのゆみ[X]
+// ぎんのゆみ[X]
+은의　활[X]
 
 //POINTER #52 @ $3DC7A - STRING #52 @ $3DF70
 
 #WRITE(Item, $3DC7A)
-ゆうしゃのゆみ[X]
+// ゆうしゃのゆみ[X]
+용사의　활[X]
 
 //POINTER #53 @ $3DC7C - STRING #53 @ $3DF80
 
 #WRITE(Item, $3DC7C)
-キラーボウ[X]
+// キラーボウ[X]
+킬러　보우[X]
 
 //POINTER #54 @ $3DC7E - STRING #54 @ $3DF8C
 
 #WRITE(Item, $3DC7E)
-イチイバル[X]
+// イチイバル[X]
+이치이발[X]
 
 //POINTER #55 @ $3DC80 - STRING #55 @ $3DF98
 //POINTER #56 @ $3DC82 - STRING #56 @ $3DF98
@@ -280,142 +329,170 @@
 #WRITE(Item, $3DC84)
 #WRITE(Item, $3DC82)
 #WRITE(Item, $3DC80)
-こわれたゆみ[X]
+// こわれたゆみ[X]
+망가진　활[X]
 
 //POINTER #58 @ $3DC86 - STRING #58 @ $3DFA6
 
 #WRITE(Item, $3DC86)
-ロングアーチ[X]
+// ロングアーチ[X]
+롱아치[X]
 
 //POINTER #59 @ $3DC88 - STRING #59 @ $3DFB4
 
 #WRITE(Item, $3DC88)
-アイアンアーチ[X]
+// アイアンアーチ[X]
+아이언아치[X]
 
 //POINTER #60 @ $3DC8A - STRING #60 @ $3DFC4
 
 #WRITE(Item, $3DC8A)
-キラーアーチ[X]
+// キラーアーチ[X]
+킬러아치[X]
 
 //POINTER #61 @ $3DC8C - STRING #61 @ $3DFD2
 
 #WRITE(Item, $3DC8C)
-グレートアーチ[X]
+// グレートアーチ[X]
+그레이트아치[X]
 
 //POINTER #62 @ $3DC8E - STRING #62 @ $3DFE2
 
 #WRITE(Item, $3DC8E)
-ファイアー[X]
+// ファイアー[X]
+파이어[X]
 
 //POINTER #63 @ $3DC90 - STRING #63 @ $3DFEE
 
 #WRITE(Item, $3DC90)
-エルファイアー[X]
+// エルファイアー[X]
+엘파이어[X]
 
 //POINTER #64 @ $3DC92 - STRING #64 @ $3DFFE
 
 #WRITE(Item, $3DC92)
-ボルガノン[X]
+// ボルガノン[X]
+볼케논[X]
 
 //POINTER #65 @ $3DC94 - STRING #65 @ $3E00A
 
 #WRITE(Item, $3DC94)
-ファラフレイム[X]
+// ファラフレイム[X]
+파라플레임[X]
 
 //POINTER #66 @ $3DC96 - STRING #66 @ $3E01A
 
 #WRITE(Item, $3DC96)
-メティオ[X]
+// メティオ[X]
+메테오[X]
 
 //POINTER #67 @ $3DC98 - STRING #67 @ $3E024
 
 #WRITE(Item, $3DC98)
-サンダー[X]
+// サンダー[X]
+선더[X]
 
 //POINTER #68 @ $3DC9A - STRING #68 @ $3E02E
 
 #WRITE(Item, $3DC9A)
-エルサンダー[X]
+// エルサンダー[X]
+엘선더[X]
 
 //POINTER #69 @ $3DC9C - STRING #69 @ $3E03C
 
 #WRITE(Item, $3DC9C)
-トローン[X]
+// トローン[X]
+트론[X]
 
 //POINTER #70 @ $3DC9E - STRING #70 @ $3E046
 
 #WRITE(Item, $3DC9E)
-トールハンマー[X]
+// トールハンマー[X]
+토르헤머[X]
 
 //POINTER #71 @ $3DCA0 - STRING #71 @ $3E056
 
 #WRITE(Item, $3DCA0)
-サンダストーム[X]
+// サンダストーム[X]
+선더스톰[X]
 
 //POINTER #72 @ $3DCA2 - STRING #72 @ $3E066
 
 #WRITE(Item, $3DCA2)
-ウインド[X]
+// ウインド[X]
+윈드[X]
 
 //POINTER #73 @ $3DCA4 - STRING #73 @ $3E070
 
 #WRITE(Item, $3DCA4)
-エルウインド[X]
+// エルウインド[X]
+엘윈드[X]
 
 //POINTER #74 @ $3DCA6 - STRING #74 @ $3E07E
 
 #WRITE(Item, $3DCA6)
-トルネード[X]
+// トルネード[X]
+토네이도[X]
 
 //POINTER #75 @ $3DCA8 - STRING #75 @ $3E08A
 
 #WRITE(Item, $3DCA8)
-フォルセティ[X]
+// フォルセティ[X]
+폴세티[X]
 
 //POINTER #76 @ $3DCAA - STRING #76 @ $3E098
 
 #WRITE(Item, $3DCAA)
-ブリザード[X]
+// ブリザード[X]
+블리자드[X]
 
 //POINTER #77 @ $3DCAC - STRING #77 @ $3E0A4
 
 #WRITE(Item, $3DCAC)
-ライトニング[X]
+// ライトニング[X]
+라이트닝[X]
 
 //POINTER #78 @ $3DCAE - STRING #78 @ $3E0B2
 
 #WRITE(Item, $3DCAE)
-リザイア[X]
+// リザイア[X]
+리자이어[X]
 
 //POINTER #79 @ $3DCB0 - STRING #79 @ $3E0BC
 
 #WRITE(Item, $3DCB0)
-オーラ[X]
+// オーラ[X]
+오라[X]
 
 //POINTER #80 @ $3DCB2 - STRING #80 @ $3E0C4
 
 #WRITE(Item, $3DCB2)
-ナーガ[X]
+// ナーガ[X]
+나가[X]
 
 //POINTER #81 @ $3DCB4 - STRING #81 @ $3E0CC
 
 #WRITE(Item, $3DCB4)
-ヨツムンガンド[X]
+// ヨツムンガンド[X]
+요르문간드[X]
 
 //POINTER #82 @ $3DCB6 - STRING #82 @ $3E0DC
 
 #WRITE(Item, $3DCB6)
-フェンリル[X]
+// フェンリル[X]
+펜리르[X]
 
 //POINTER #83 @ $3DCB8 - STRING #83 @ $3E0E8
 
 #WRITE(Item, $3DCB8)
-ヘル[X]
+// ヘル[X]
+헬[X]
 
 //POINTER #84 @ $3DCBA - STRING #84 @ $3E0EE
 
 #WRITE(Item, $3DCBA)
-ロプトウス[X]
+// ロプトウス[X]
+로프토우스[X]
 
 //POINTER #85 @ $3DCBC - STRING #85 @ $3E0FA
 //POINTER #86 @ $3DCBE - STRING #86 @ $3E0FA
@@ -446,82 +523,98 @@
 #WRITE(Item, $3DCC0)
 #WRITE(Item, $3DCBE)
 #WRITE(Item, $3DCBC)
-きえたまどう<$8F><$91>[X]
+// きえたまどう<$8F><$91>[X]
+망가진　마도서[X]
 
 //POINTER #88 @ $3DCC2 - STRING #88 @ $3E10A
 
 #WRITE(Item, $3DCC2)
-ライブの<$8F><$F1>[X]
+// ライブの<$8F><$F1>[X]
+라이브의　지팡이[X]
 
 //POINTER #89 @ $3DCC4 - STRING #89 @ $3E116
 
 #WRITE(Item, $3DCC4)
-リライブの<$8F><$F1>[X]
+// リライブの<$8F><$F1>[X]
+리라이브의　지팡이[X]
 
 //POINTER #90 @ $3DCC6 - STRING #90 @ $3E124
 
 #WRITE(Item, $3DCC6)
-リカバーの<$8F><$F1>[X]
+// リカバーの<$8F><$F1>[X]
+리커버의　지팡이[X]
 
 //POINTER #91 @ $3DCC8 - STRING #91 @ $3E132
 
 #WRITE(Item, $3DCC8)
-リブローの<$8F><$F1>[X]
+// リブローの<$8F><$F1>[X]
+리브로의　지팡이[X]
 
 //POINTER #92 @ $3DCCA - STRING #92 @ $3E140
 
 #WRITE(Item, $3DCCA)
-リザーブの<$8F><$F1>[X]
+// リザーブの<$8F><$F1>[X]
+리저브의　지팡이[X]
 
 //POINTER #93 @ $3DCCC - STRING #93 @ $3E14E
 
 #WRITE(Item, $3DCCC)
-リターンの<$8F><$F1>[X]
+// リターンの<$8F><$F1>[X]
+리턴의　지팡이[X]
 
 //POINTER #94 @ $3DCCE - STRING #94 @ $3E15C
 
 #WRITE(Item, $3DCCE)
-ワープの<$8F><$F1>[X]
+// ワープの<$8F><$F1>[X]
+워프의　지팡이[X]
 
 //POINTER #95 @ $3DCD0 - STRING #95 @ $3E168
 
 #WRITE(Item, $3DCD0)
-レスキューの<$8F><$F1>[X]
+// レスキューの<$8F><$F1>[X]
+레스큐의　지팡이[X]
 
 //POINTER #96 @ $3DCD2 - STRING #96 @ $3E178
 
 #WRITE(Item, $3DCD2)
-チャームの<$8F><$F1>[X]
+// チャームの<$8F><$F1>[X]
+참의　지팡이[X]
 
 //POINTER #97 @ $3DCD4 - STRING #97 @ $3E186
 
 #WRITE(Item, $3DCD4)
-レストの<$8F><$F1>[X]
+// レストの<$8F><$F1>[X]
+레스트의　지팡이[X]
 
 //POINTER #98 @ $3DCD6 - STRING #98 @ $3E192
 
 #WRITE(Item, $3DCD6)
-バルキリーの<$8F><$F1>[X]
+// バルキリーの<$8F><$F1>[X]
+발키리의　지팡이[X]
 
 //POINTER #99 @ $3DCD8 - STRING #99 @ $3E1A2
 
 #WRITE(Item, $3DCD8)
-サイレスの<$8F><$F1>[X]
+// サイレスの<$8F><$F1>[X]
+사일런스의　지팡이[X]
 
 //POINTER #100 @ $3DCDA - STRING #100 @ $3E1B0
 
 #WRITE(Item, $3DCDA)
-スリープの<$8F><$F1>[X]
+// スリープの<$8F><$F1>[X]
+슬립의　지팡이[X]
 
 //POINTER #101 @ $3DCDC - STRING #101 @ $3E1BE
 
 #WRITE(Item, $3DCDC)
-バサークの<$8F><$F1>[X]
+// バサークの<$8F><$F1>[X]
+버서크의　지팡이[X]
 
 //POINTER #102 @ $3DCDE - STRING #102 @ $3E1CC
 
 #WRITE(Item, $3DCDE)
-シーフの<$8F><$F1>[X]
+// シーフの<$8F><$F1>[X]
+시프의　지팡이[X]
 
 //POINTER #103 @ $3DCE0 - STRING #103 @ $3E1D8
 //POINTER #104 @ $3DCE2 - STRING #104 @ $3E1D8
@@ -532,90 +625,108 @@
 #WRITE(Item, $3DCE4)
 #WRITE(Item, $3DCE2)
 #WRITE(Item, $3DCE0)
-こわれた<$8F><$F1>[X]
+// こわれた<$8F><$F1>[X]
+망가진　지팡이[X]
 
 //POINTER #106 @ $3DCE6 - STRING #106 @ $3E1E4
 
 #WRITE(Item, $3DCE6)
-ライブのうでわ[X]
+// ライブのうでわ[X]
+라이브의　팔찌[X]
 
 //POINTER #107 @ $3DCE8 - STRING #107 @ $3E1F4
 
 #WRITE(Item, $3DCE8)
-エリートリング[X]
+// エリートリング[X]
+엘리트링[X]
 
 //POINTER #108 @ $3DCEA - STRING #108 @ $3E204
 
 #WRITE(Item, $3DCEA)
-シーフのうでわ[X]
+// シーフのうでわ[X]
+시프의　팔찌[X]
 
 //POINTER #109 @ $3DCEC - STRING #109 @ $3E214
 
 #WRITE(Item, $3DCEC)
-いのりのうでわ[X]
+// いのりのうでわ[X]
+기도의　링[X]
 
 //POINTER #110 @ $3DCEE - STRING #110 @ $3E224
 
 #WRITE(Item, $3DCEE)
-ついげきリング[X]
+// ついげきリング[X]
+추격의　링[X]
 
 //POINTER #111 @ $3DCF0 - STRING #111 @ $3E234
 
 #WRITE(Item, $3DCF0)
-リカバーリング[X]
+// リカバーリング[X]
+리커버링[X]
 
 //POINTER #112 @ $3DCF2 - STRING #112 @ $3E244
 
 #WRITE(Item, $3DCF2)
-ねぎりのうでわ[X]
+// ねぎりのうでわ[X]
+에누리의　팔찌[X]
 
 //POINTER #113 @ $3DCF4 - STRING #113 @ $3E254
 
 #WRITE(Item, $3DCF4)
-ナイトリング[X]
+// ナイトリング[X]
+나이트링[X]
 
 //POINTER #114 @ $3DCF6 - STRING #114 @ $3E262
 
 #WRITE(Item, $3DCF6)
-リターンリング[X]
+// リターンリング[X]
+리턴링[X]
 
 //POINTER #115 @ $3DCF8 - STRING #115 @ $3E272
 
 #WRITE(Item, $3DCF8)
-スピードリング[X]
+// スピードリング[X]
+스피드링[X]
 
 //POINTER #116 @ $3DCFA - STRING #116 @ $3E282
 
 #WRITE(Item, $3DCFA)
-マジックリング[X]
+// マジックリング[X]
+매직링[X]
 
 //POINTER #117 @ $3DCFC - STRING #117 @ $3E292
 
 #WRITE(Item, $3DCFC)
-パワーリング[X]
+// パワーリング[X]
+파워링[X]
 
 //POINTER #118 @ $3DCFE - STRING #118 @ $3E2A0
 
 #WRITE(Item, $3DCFE)
-シールドリング[X]
+// シールドリング[X]
+실드링[X]
 
 //POINTER #119 @ $3DD00 - STRING #119 @ $3E2B0
 
 #WRITE(Item, $3DD00)
-バリアリング[X]
+// バリアリング[X]
+배리어링[X]
 
 //POINTER #120 @ $3DD02 - STRING #120 @ $3E2BE
 
 #WRITE(Item, $3DD02)
-レッグリング[X]
+// レッグリング[X]
+레그링[X]
 
 //POINTER #121 @ $3DD04 - STRING #121 @ $3E2CC
 
 #WRITE(Item, $3DD04)
-スキルリング[X]
+// スキルリング[X]
+스킬링[X]
 
 
 //POINTER #137 @ $3DD24 - STRING #137 @ $3E2DA
 
 #WRITE(Item, $3DD24)
-サークレット[X]
+// サークレット[X]
+셀렉트[X]

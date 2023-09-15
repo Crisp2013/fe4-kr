@@ -1730,7 +1730,7 @@
 
 #WRITE(Unit, $39DF3)
 //アハト[X]
-아하트[X]
+아흐트[X]
 
 //POINTER #462 @ $39DF5 - STRING #462 @ $3A9FB
 

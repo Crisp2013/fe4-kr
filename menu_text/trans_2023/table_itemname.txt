@@ -170,7 +170,7 @@
 #WRITE(Item, $3DC46)
 #WRITE(Item, $3DC44)
 // こわれた剣[X]
-망가진　검[X]
+부서진　검[X]
 
 //POINTER #28 @ $3DC4A - STRING #28 @ $3DE72
 
@@ -236,7 +236,7 @@
 #WRITE(Item, $3DC5E)
 #WRITE(Item, $3DC5C)
 // こわれたやり[X]
-망가진　창[X]
+부서진　창[X]
 
 //POINTER #40 @ $3DC62 - STRING #40 @ $3DEF2
 
@@ -282,7 +282,7 @@
 #WRITE(Item, $3DC70)
 #WRITE(Item, $3DC6E)
 // こわれたおの[X]
-망가진　도끼[X]
+부서진　도끼[X]
 
 //POINTER #49 @ $3DC74 - STRING #49 @ $3DF4A
 
@@ -330,7 +330,7 @@
 #WRITE(Item, $3DC82)
 #WRITE(Item, $3DC80)
 // こわれたゆみ[X]
-망가진　활[X]
+부서진　활[X]
 
 //POINTER #58 @ $3DC86 - STRING #58 @ $3DFA6
 
@@ -524,7 +524,7 @@
 #WRITE(Item, $3DCBE)
 #WRITE(Item, $3DCBC)
 // きえたまどう<$8F><$91>[X]
-망가진　마도서[X]
+부서진　마도서[X]
 
 //POINTER #88 @ $3DCC2 - STRING #88 @ $3E10A
 
@@ -626,7 +626,7 @@
 #WRITE(Item, $3DCE2)
 #WRITE(Item, $3DCE0)
 // こわれた<$8F><$F1>[X]
-망가진　지팡이[X]
+부서진　지팡이[X]
 
 //POINTER #106 @ $3DCE6 - STRING #106 @ $3E1E4
 

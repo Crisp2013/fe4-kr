@@ -86,6 +86,15 @@
 //9:89A7
 // ーー<X>
 
+#JMP($98822)//Item Screen Wep Accuracy
+<$04>
+#JMP($98833)//Item Screen Wep Might
+<$04>
+#JMP($98844)//Item Screen Wep Range
+<$04>
+#JMP($98855)//Item Screen Wep Weight
+<$04>
+
 #JMP($99C52, $99C7B)
 //Stat screen, top right corner
 
@@ -248,7 +257,8 @@
 #JMP($9A781, $9A7C8)
 
 #W16($9A76C)
-せいじょう<X>
+//せいじょう<X>
+정상<X>
 
 #W16($9A76F)
 ちりょう<X>

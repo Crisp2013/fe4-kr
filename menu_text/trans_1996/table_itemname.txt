@@ -650,7 +650,7 @@
 
 #WRITE(Item, $3DCEC)
 // いのりのうでわ[X]
-기도의　링[X]
+기도의　팔찌[X]
 
 //POINTER #110 @ $3DCEE - STRING #110 @ $3E224
 

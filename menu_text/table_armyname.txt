@@ -49,7 +49,8 @@
 //POINTER #6 @ $3D8F4 - STRING #6 @ $3D9AA
 
 #WRITE(Army, $3D8F4)
-ノディオン軍[X]
+//ノディオン軍[X]
+노디온군[X]
 
 //POINTER #7 @ $3D8F6 - STRING #7 @ $3D9B8
 //POINTER #46 @ $3D944 - STRING #46 @ $3DBA4
@@ -96,14 +97,16 @@
 
 #WRITE(Army, $3D94E)
 #WRITE(Army, $3D900)
-シアルフィ軍[X]
+// シアルフィ軍[X]
+시알피군[X]
 
 //POINTER #13 @ $3D902 - STRING #13 @ $3DA02
 //POINTER #52 @ $3D950 - STRING #52 @ $3DBEE
 
 #WRITE(Army, $3D950)
 #WRITE(Army, $3D902)
-ユングヴィ軍[X]
+// ユングヴィ軍[X]
+융그비군[X]
 
 //POINTER #14 @ $3D904 - STRING #14 @ $3DA10
 
@@ -120,7 +123,8 @@
 //POINTER #16 @ $3D908 - STRING #16 @ $3DA2A
 
 #WRITE(Army, $3D908)
-マンスター軍[X]
+// マンスター軍[X]
+먼스터군[X]
 
 //POINTER #17 @ $3D90A - STRING #17 @ $3DA38
 
@@ -137,18 +141,20 @@
 //POINTER #19 @ $3D90E - STRING #19 @ $3DA52
 
 #WRITE(Army, $3D90E)
-オーガヒル軍[X]
+// オーガヒル軍[X]
+오거힐군[X}
 
 //POINTER #20 @ $3D910 - STRING #20 @ $3DA60
 
 #WRITE(Army, $3D910)
-トーヴェ軍[X]
-//토베군[X]
+//トーヴェ軍[X]
+토베군[X]
 
 //POINTER #21 @ $3D912 - STRING #21 @ $3DA6C
 
 #WRITE(Army, $3D912)
-セイレーン軍[X]
+//セイレーン軍[X]
+세이렌군[X]
 
 //POINTER #22 @ $3D914 - STRING #22 @ $3DA7A
 
@@ -171,7 +177,8 @@
 //POINTER #25 @ $3D91A - STRING #25 @ $3DAA2
 
 #WRITE(Army, $3D91A)
-ティルナノグ軍[X]
+//ティルナノグ軍[X]
+티르나노그군[X]
 
 //POINTER #26 @ $3D91C - STRING #26 @ $3DAB2
 
@@ -200,7 +207,8 @@
 //POINTER #30 @ $3D924 - STRING #30 @ $3DAE2
 
 #WRITE(Army, $3D924)
-フィノーラ軍[X]
+//フィノーラ軍[X]
+피노라군[X]
 
 //POINTER #31 @ $3D926 - STRING #31 @ $3DAF0
 
@@ -223,42 +231,50 @@
 //POINTER #34 @ $3D92C - STRING #34 @ $3DB12
 
 #WRITE(Army, $3D92C)
-エバンス軍[X]
+//エバンス軍[X]
+에반스군[X]
 
 //POINTER #35 @ $3D92E - STRING #35 @ $3DB1E
 
 #WRITE(Army, $3D92E)
-ジェノア軍[X]
+//ジェノア軍[X]
+제노아군[X]
 
 //POINTER #36 @ $3D930 - STRING #36 @ $3DB2A
 
 #WRITE(Army, $3D930)
-マーファ軍[X]
+// マーファ軍[X]
+마파군[X]
 
 //POINTER #37 @ $3D932 - STRING #37 @ $3DB36
 
 #WRITE(Army, $3D932)
-ミレトス軍[X]
+// ミレトス軍[X]
+밀레토스군[X]
 
 //POINTER #38 @ $3D934 - STRING #38 @ $3DB42
 
 #WRITE(Army, $3D934)
-ペルルーク軍[X]
+// ペルルーク軍[X]
+페를루크군[X]
 
 //POINTER #39 @ $3D936 - STRING #39 @ $3DB50
 
 #WRITE(Army, $3D936)
-クロノス軍[X]
+// クロノス軍[X]
+크로노스군[X]
 
 //POINTER #40 @ $3D938 - STRING #40 @ $3DB5C
 
 #WRITE(Army, $3D938)
-ラドス軍[X]
+// ラドス軍[X]
+라도스군[X]
 
 //POINTER #41 @ $3D93A - STRING #41 @ $3DB66
 
 #WRITE(Army, $3D93A)
-ミーズ軍[X]
+// ミーズ軍[X]
+미즈군[X]
 
 //POINTER #42 @ $3D93C - STRING #42 @ $3DB70
 
@@ -269,7 +285,8 @@
 //POINTER #43 @ $3D93E - STRING #43 @ $3DB7E
 
 #WRITE(Army, $3D93E)
-ルテキア軍[X]
+// ルテキア軍[X]
+루테키아군[X]
 
 //POINTER #44 @ $3D940 - STRING #44 @ $3DB8A
 

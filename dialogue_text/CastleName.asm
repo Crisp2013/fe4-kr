@@ -119,7 +119,7 @@ db EndText
 //offset 0xd9118
 // 0xd9318
 Dialogue_d9118:
-.stringn "윤그비"
+.stringn "융그비"
 db NewLine
 db EndText
 

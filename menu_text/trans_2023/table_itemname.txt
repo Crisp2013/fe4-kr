@@ -384,7 +384,7 @@
 
 #WRITE(Item, $3DC96)
 // メティオ[X]
-메티오[X
+메티오[X]
 
 //POINTER #67 @ $3DC98 - STRING #67 @ $3E024
 

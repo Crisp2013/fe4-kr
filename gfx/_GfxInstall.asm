@@ -19,6 +19,10 @@ org $F57C2D;size:217h
 incbin "title_gfx/title_shadow_gfx.map.fe4"
 ;shadow gfx tilemap
 
+
+org $DD0000;size:20A0h
+incbin "holyblood.4bpp.fe4"
+
 ;title tm logo hack
 org $80c0f7
 	JSL Title_TM_Hack
@@ -109,6 +113,11 @@ org $D7F3E3
 dl Intro_Tile_12
 org $D7F3F9
 dl Intro_Tile_13
+
+;memo, ch title
+; 1d3fa6
+; 1d629e
+
 ;****************** uncompressed
 org $D76000
 incbin "menu_shop.2bpp"

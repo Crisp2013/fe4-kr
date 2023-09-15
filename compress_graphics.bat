@@ -17,4 +17,5 @@
 "tools/Compression - Decompression/FE45_Compress.exe" gfx/intro/opening11.4bpp
 "tools/Compression - Decompression/FE45_Compress.exe" gfx/intro/opening12.4bpp
 "tools/Compression - Decompression/FE45_Compress.exe" gfx/intro/opening13.4bpp
+"tools/Compression - Decompression/FE45_Compress.exe" gfx/holyblood.4bpp
 pause

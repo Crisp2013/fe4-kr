@@ -1,0 +1,121 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menu_text/menutext.tbl", menu)
+#ACTIVETBL(menu)
+
+//BLOCK #001 NAME: 	Skill Menu Names
+
+#VAR(SkillMenu, CUSTOMPOINTER)
+#CREATEPTR(SkillMenu, "HIROM", $400000, 16)
+//#CREATEPTR(SkillMenu, "LINEAR", $0, 16)
+
+#JMP($D662, $D817)
+
+//POINTER #0 @ $D529 - STRING #0 @ $D662
+
+#WRITE(SkillMenu, $D529)
+おおたて　　　
+せんとう[X]
+
+//POINTER #1 @ $D53A - STRING #1 @ $D67A
+
+#WRITE(SkillMenu, $D53A)
+いかり　　　　
+せんとう[X]
+
+//POINTER #2 @ $D54B - STRING #2 @ $D692
+
+#WRITE(SkillMenu, $D54B)
+ついげき　　　
+せんとう[X]
+
+//POINTER #3 @ $D55C - STRING #3 @ $D6AA
+
+#WRITE(SkillMenu, $D55C)
+れんぞく　　　
+せんとう[X]
+
+//POINTER #4 @ $D56D - STRING #4 @ $D6C2
+
+#WRITE(SkillMenu, $D56D)
+ぬすむ　　　　
+せんとう[X]
+
+//POINTER #5 @ $D57E - STRING #5 @ $D6DA
+
+#WRITE(SkillMenu, $D57E)
+おどる　　　　
+いっぱん[X]
+
+//POINTER #6 @ $D58F - STRING #6 @ $D6F2
+
+#WRITE(SkillMenu, $D58F)
+カリスマ　　　
+いっぱん[X]
+
+//POINTER #7 @ $D5A0 - STRING #7 @ $D70A
+
+#WRITE(SkillMenu, $D5A0)
+みきり　　　　
+せんとう[X]
+
+//POINTER #8 @ $D5B1 - STRING #8 @ $D722
+
+#WRITE(SkillMenu, $D5B1)
+いのり　　　　
+いっぱん[X]
+
+//POINTER #9 @ $D5C2 - STRING #9 @ $D73A
+
+#WRITE(SkillMenu, $D5C2)
+ひっさつ　　　
+せんとう[X]
+
+//POINTER #10 @ $D5D3 - STRING #10 @ $D752
+
+#WRITE(SkillMenu, $D5D3)
+まちぶせ　　　
+せんとう[X]
+
+//POINTER #11 @ $D5E4 - STRING #11 @ $D76A
+
+#WRITE(SkillMenu, $D5E4)
+とつげき　　　
+せんとう[X]
+
+//POINTER #12 @ $D5F5 - STRING #12 @ $D782
+
+#WRITE(SkillMenu, $D5F5)
+りゅうせい剣　
+とくしゅ剣[X]
+
+//POINTER #13 @ $D606 - STRING #13 @ $D79C
+
+#WRITE(SkillMenu, $D606)
+げっこう剣　　
+とくしゅ剣[X]
+
+//POINTER #14 @ $D617 - STRING #14 @ $D7B6
+
+#WRITE(SkillMenu, $D617)
+たいよう剣　　
+とくしゅ剣[X]
+
+//POINTER #15 @ $D628 - STRING #15 @ $D7D0
+
+#WRITE(SkillMenu, $D628)
+ライブ　　　　
+いっぱん[X]
+
+//POINTER #16 @ $D639 - STRING #16 @ $D7E8
+
+#WRITE(SkillMenu, $D639)
+エリート　　　
+いっぱん[X]
+
+//POINTER #17 @ $D64A - STRING #17 @ $D800
+
+#WRITE(SkillMenu, $D64A)
+ねぎり　　　　
+いっぱん[X]

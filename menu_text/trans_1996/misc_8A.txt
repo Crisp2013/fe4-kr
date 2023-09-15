@@ -1,0 +1,128 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menu_text/menutext.tbl", menu)
+#ACTIVETBL(menu)
+#VAR(Ptr, CUSTOMPOINTER)
+#CREATEPTR(Ptr, "HIROM", $400000, 24)
+
+//armptr structure
+//text located [bank]:[addr]
+//A900[bank]85XX
+//A9[addr]85XX
+//So if you want to send text to another bank
+//You also need to change [bank]
+
+#HDR($0)
+
+
+//Castle Menu Choices
+//fe4transrc:castlemenu
+//Spaces are important,
+//otherwise text leaks in from below
+
+#JMP($A88E0, $A897F)
+
+//#W16($A8806)
+#JMP($A88E0, $A88F3)
+　　しゅつげき　　<X>
+
+//#W16($A8819)
+#JMP($A88F4, $A8907)
+　　しゅび　　　　<X>
+
+//#W16($A882C)
+#JMP($A8908, $A891B)
+　　クラスチェンジ<X>
+
+//#W16($A8841)
+#JMP($A891C, $A892F)
+　　まち　　　　　<X>
+
+//#W16($A88C7)
+#JMP($A8930, $A8943)
+　　つえ　　　　　<X>
+
+//#W16($A886A)
+#JMP($A8944, $A8957)
+　　　　　　　　　<X>
+//#W16($A885C)
+//#W16($A88D9)
+#JMP($A8958, $A896B)
+　　おどる　　　　<X>
+  
+//#W16($A884E)
+//#W16($A8894)
+#JMP($A896C, $A897F)
+　　あげる　　　　<X>
+
+
+
+//BLOCK #ABC NAME: 		Shop Menu Choices
+//fe4transrc:shopyesno
+//[asmptr]
+//# Fortune Teller - Lover
+#JMP($AADCE, $AADF3)
+#W16($AADB3)
+こいのゆくえ<X>
+
+//Fortune Teller - Battle Record
+#W16($AADBE)
+しょうはい<X>
+
+//Fortune Teller - Parents
+#W16($AADC9)
+おやのこと<X>
+
+//Buy/Belongings
+#JMP($AC2FE, $AC311)
+#W16($AC1F6)
+かう　　　もちもの<X>
+
+//Sell/Buy
+#JMP($AC447, $AC456)
+#W16($AC33F)
+うる　　　かう<X>
+
+//Yes/No
+#JMP($AA348, $AA36F)
+#W16($AD098)
+　はい　　　いいえ　　　　　　　　　　<X>
+
+//Arena - Fight/Leave
+#JMP($AE789, $AE7B4)
+#W16($AE6A6)
+たたかう　　　やめる　　　　　　　　　　　<X>
+
+//Arena - Quit/Return/Change Weapon
+#JMP($AEA3C, $AEA63)
+#W16($AE944)
+りだつ　　　けいぞく　　　ぶきもちかえ<X>
+
+//Arena - Start/Leave/Change Weapon
+#JMP($AEB56, $AEB7D)
+#W16($AEA97)
+かいし　　　やめる　　　　ぶきもちかえ<X>
+
+//Store/Retrieve
+#JMP($AF475, $AF4A0)
+#W16($AF37A)
+あずける　　ひきだす　　　　　　　　　　　<X>
+
+//fe4transrc:shopyesno2
+
+#JMP($AAEDA, $AAF09)
+#W16($AAE01)
+ＥＮＥＭＹ<X>
+
+#W16($AAEAF)
+ＬＶ<X>
+
+//B Button to quit
+#W16($AAE92)
+☆Ｂボタンでちゅうしできます<X>
+
+#JMP($A85BA)//Castle Character Status
+//<$12>
+#JMP($A85C7)//Castle Character 'Remaining', nullification of said
+//<$39>

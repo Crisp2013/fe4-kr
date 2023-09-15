@@ -1,0 +1,431 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menu_text/menutext.tbl", menu)
+#ACTIVETBL(menu)
+
+//BLOCK #004 NAME:		Class Names
+#VAR(Class, CUSTOMPOINTER)
+#CREATEPTR(Class, "LINEAR", $38AB3, 16)
+
+#JMP($38B43, $38F34)
+
+//POINTER #0 @ $38AB3 - STRING #0 @ $38B43
+
+#WRITE(Class, $38AB3)
+//ソシアルナイト[X]
+소셜나이트[X]
+
+//POINTER #1 @ $38AB5 - STRING #1 @ $38B53
+
+#WRITE(Class, $38AB5)
+//ランスナイト[X]
+랜스나이트[X]
+
+//POINTER #2 @ $38AB7 - STRING #2 @ $38B61
+
+#WRITE(Class, $38AB7)
+//アーチナイト[X]
+아치나이트[X]
+
+//POINTER #3 @ $38AB9 - STRING #3 @ $38B6F
+
+#WRITE(Class, $38AB9)
+//アクスナイト[X]
+액스나이트[X]
+
+//POINTER #4 @ $38ABB - STRING #4 @ $38B7D
+
+#WRITE(Class, $38ABB)
+//フリーナイト[X]
+프리나이트[X]
+
+//POINTER #5 @ $38ABD - STRING #5 @ $38B8B
+
+#WRITE(Class, $38ABD)
+//トルバドール[X]
+트루바두르[X]
+
+//POINTER #6 @ $38ABF - STRING #6 @ $38B99
+
+#WRITE(Class, $38ABF)
+//ロードナイト[X]
+로드나이트[X]
+
+//POINTER #7 @ $38AC1 - STRING #7 @ $38BA7
+
+#WRITE(Class, $38AC1)
+//デュークナイト[X]
+듀크나이트[X]
+
+//POINTER #8 @ $38AC3 - STRING #8 @ $38BB7
+
+#WRITE(Class, $38AC3)
+//マスターナイト[X]
+마스터나이트[X]
+
+//POINTER #9 @ $38AC5 - STRING #9 @ $38BC7
+//POINTER #10 @ $38AC7 - STRING #10 @ $38BC7
+
+#WRITE(Class, $38AC5)
+#WRITE(Class, $38AC7)
+//パラディン[X]
+팔라딘[X]
+
+//POINTER #11 @ $38AC9 - STRING #11 @ $38BD3
+
+#WRITE(Class, $38AC9)
+//ボウナイト[X]
+보우나이트[X]
+
+//POINTER #12 @ $38ACB - STRING #12 @ $38BDF
+
+#WRITE(Class, $38ACB)
+//フォレストナイト[X]
+포레스트나이트[X]
+
+//POINTER #13 @ $38ACD - STRING #13 @ $38BF1
+
+#WRITE(Class, $38ACD)
+//マージナイト[X]
+메이지나이트[X]
+
+//POINTER #14 @ $38ACF - STRING #14 @ $38BFF
+
+#WRITE(Class, $38ACF)
+//グレートナイト[X]
+그레이트나이트[X]
+
+//POINTER #15 @ $38AD1 - STRING #15 @ $38C0F
+
+#WRITE(Class, $38AD1)
+//ペガサスライダー[X]
+페가수스라이더[X]
+
+//POINTER #16 @ $38AD3 - STRING #16 @ $38C21
+
+#WRITE(Class, $38AD3)
+//ペガサスナイト[X]
+페가수스나이트[X]
+
+//POINTER #17 @ $38AD5 - STRING #17 @ $38C31
+
+#WRITE(Class, $38AD5)
+//ファルコンナイト[X]
+팔콘나이트[X]
+
+//POINTER #18 @ $38AD7 - STRING #18 @ $38C43
+
+#WRITE(Class, $38AD7)
+//ドラゴンライダー[X]
+드래곤라이더[X]
+
+//POINTER #19 @ $38AD9 - STRING #19 @ $38C55
+
+#WRITE(Class, $38AD9)
+//ドラゴンナイト[X]
+드래곤나이트[X]
+
+//POINTER #20 @ $38ADB - STRING #20 @ $38C65
+
+#WRITE(Class, $38ADB)
+//ドラゴンマスター[X]
+드래곤마스터[X]
+
+//POINTER #21 @ $38ADD - STRING #21 @ $38C77
+
+#WRITE(Class, $38ADD)
+//ボウファイター[X]
+보우파이터[X]
+
+//POINTER #22 @ $38ADF - STRING #22 @ $38C87
+
+#WRITE(Class, $38ADF)
+//ソードファイター[X]
+소드파이터[X]
+
+//POINTER #23 @ $38AE1 - STRING #23 @ $38C99
+
+#WRITE(Class, $38AE1)
+//ソードマスター[X]
+소드마스터[X]
+
+//POINTER #24 @ $38AE3 - STRING #24 @ $38CA9
+
+#WRITE(Class, $38AE3)
+//スナイパー[X]
+스나이퍼[X]
+
+//POINTER #25 @ $38AE5 - STRING #25 @ $38CB5
+
+#WRITE(Class, $38AE5)
+//フォーレスト[X]
+포레스트[X]
+
+//POINTER #26 @ $38AE7 - STRING #26 @ $38CC3
+
+#WRITE(Class, $38AE7)
+//ジェネラル[X]
+제너럴[X]
+
+//POINTER #27 @ $38AE9 - STRING #27 @ $38CCF
+
+#WRITE(Class, $38AE9)
+//エンペラー[X]
+엠퍼러[X]
+
+//POINTER #28 @ $38AEB - STRING #28 @ $38CDB
+
+#WRITE(Class, $38AEB)
+//バロン[X]
+바론[X]
+
+//POINTER #29 @ $38AED - STRING #29 @ $38CE3
+
+#WRITE(Class, $38AED)
+//ソルジャー[X]
+솔저[X]
+
+//POINTER #30 @ $38AEF - STRING #30 @ $38CEF
+
+#WRITE(Class, $38AEF)
+//スピアソルジャー[X]
+스피어솔저[X]
+
+//POINTER #31 @ $38AF1 - STRING #31 @ $38D01
+
+#WRITE(Class, $38AF1)
+//アクスソルジャー[X]
+액스솔저[X]
+
+//POINTER #32 @ $38AF3 - STRING #32 @ $38D13
+
+#WRITE(Class, $38AF3)
+//アーチャー[X]
+아처[X]
+
+//POINTER #33 @ $38AF5 - STRING #33 @ $38D1F
+
+#WRITE(Class, $38AF5)
+//ソードソルジャー[X]
+소드솔저[X]
+
+//POINTER #34 @ $38AF7 - STRING #34 @ $38D31
+
+#WRITE(Class, $38AF7)
+//アーマー[X]
+아머[X]
+
+//POINTER #35 @ $38AF9 - STRING #35 @ $38D3B
+
+#WRITE(Class, $38AF9)
+//アクスアーマー[X]
+액스아머[X]
+
+//POINTER #36 @ $38AFB - STRING #36 @ $38D4B
+
+#WRITE(Class, $38AFB)
+//ボウアーマー[X]
+보우아머[X]
+
+//POINTER #37 @ $38AFD - STRING #37 @ $38D59
+
+#WRITE(Class, $38AFD)
+//ソードアーマー[X]
+소드아머[X]
+
+//POINTER #38 @ $38AFF - STRING #38 @ $38D69
+
+#WRITE(Class, $38AFF)
+//バーバリアン[X]
+바바리안[X]
+
+//POINTER #39 @ $38B01 - STRING #39 @ $38D77
+
+#WRITE(Class, $38B01)
+//アクスファイター[X]
+액스파이터[X]
+
+//POINTER #40 @ $38B03 - STRING #40 @ $38D89
+
+#WRITE(Class, $38B03)
+//マウンテンシーフ[X]
+마운틴시프[X]
+
+//POINTER #41 @ $38B05 - STRING #41 @ $38D9B
+
+#WRITE(Class, $38B05)
+//ウォーリア[X]
+워리어[X]
+
+//POINTER #42 @ $38B07 - STRING #42 @ $38DA7
+
+#WRITE(Class, $38B07)
+//ハンター[X]
+헌터[X]
+
+//POINTER #43 @ $38B09 - STRING #43 @ $38DB1
+
+#WRITE(Class, $38B09)
+//パイレーツ[X]
+파이레트[X]
+
+//POINTER #44 @ $38B0B - STRING #44 @ $38DBD
+
+#WRITE(Class, $38B0B)
+//ジュニアロード[X]
+주니어로드[X]
+
+//POINTER #45 @ $38B0D - STRING #45 @ $38DCD
+//POINTER #48 @ $38B13 - STRING #48 @ $38DF5
+
+#WRITE(Class, $38B0D)
+#WRITE(Class, $38B13)
+//マージファイター[X]
+메이지파이터[X]
+
+//POINTER #46 @ $38B0F - STRING #46 @ $38DDF
+
+#WRITE(Class, $38B0F)
+//プリンス[X]
+프린스[X]
+
+//POINTER #47 @ $38B11 - STRING #47 @ $38DE9
+
+#WRITE(Class, $38B11)
+//プリンセス[X]
+프린세스[X]
+
+//POINTER #49 @ $38B15 - STRING #49 @ $39007
+
+#WRITE(Class, $38B15)
+//クイーン[X]
+퀸[X]
+
+//POINTER #50 @ $38B17 - STRING #50 @ $39011
+
+#WRITE(Class, $38B17)
+//ダンサー[X]
+댄서[X]
+
+//POINTER #51 @ $38B19 - STRING #51 @ $3901B
+
+#WRITE(Class, $38B19)
+//プリースト[X]
+프리스트[X]
+
+//POINTER #52 @ $38B1B - STRING #52 @ $39027
+
+#WRITE(Class, $38B1B)
+//マージ[X]
+메이지[X]
+
+//POINTER #53 @ $38B1D - STRING #53 @ $3902F
+
+#WRITE(Class, $38B1D)
+//ファイアマージ[X]
+파이어메이지[X]
+
+//POINTER #54 @ $38B1F - STRING #54 @ $3903F
+
+#WRITE(Class, $38B1F)
+//サンダーマージ[X]
+선더메이지[X]
+
+//POINTER #55 @ $38B21 - STRING #55 @ $3904F
+
+#WRITE(Class, $38B21)
+//ウインドマージ[X]
+윈드메이지[X]
+
+//POINTER #56 @ $38B23 - STRING #56 @ $3905F
+
+#WRITE(Class, $38B23)
+//ハイプリースト[X]
+하이프리스트[X]
+
+//POINTER #57 @ $38B25 - STRING #57 @ $3906F
+
+#WRITE(Class, $38B25)
+//ビショップ[X]
+비숍[X]
+
+//POINTER #58 @ $38B27 - STRING #58 @ $3907B
+
+#WRITE(Class, $38B27)
+//セイジ[X]
+세이지[X]
+
+//POINTER #59 @ $38B29 - STRING #59 @ $39083
+
+#WRITE(Class, $38B29)
+//バード[X]
+바드[X]
+
+//POINTER #60 @ $38B2B - STRING #60 @ $3908B
+
+#WRITE(Class, $38B2B)
+//シャーマン[X]
+샤먼[X]
+
+//POINTER #61 @ $38B2D - STRING #61 @ $39097
+
+#WRITE(Class, $38B2D)
+//ダークマージ[X]
+다크메이지[X]
+
+//POINTER #62 @ $38B2F - STRING #62 @ $390A5
+
+#WRITE(Class, $38B2F)
+//ダークビショップ[X]
+다크비숍[X]
+
+//POINTER #63 @ $38B31 - STRING #63 @ $390B7
+
+#WRITE(Class, $38B31)
+//シーフ[X]
+시프[X]
+
+//POINTER #64 @ $38B33 - STRING #64 @ $390BF
+
+#WRITE(Class, $38B33)
+//シーフファイター[X]
+시프파이터[X]
+
+//POINTER #65 @ $38B35 - STRING #65 @ $390D1
+//POINTER #66 @ $38B37 - STRING #66 @ $390DD
+
+#WRITE(Class, $38B35)
+#WRITE(Class, $38B37)
+//シビリアン[X]
+시빌리언[X]
+
+//POINTER #67 @ $38B39 - STRING #67 @ $390E9
+
+#WRITE(Class, $38B39)
+//ロングアーチ[X]
+롱아치[X]
+
+//POINTER #68 @ $38B3B - STRING #68 @ $390F7
+
+#WRITE(Class, $38B3B)
+//アイアンアーチ[X]
+아이언아치[X]
+
+//POINTER #69 @ $38B3D - STRING #69 @ $39107
+
+#WRITE(Class, $38B3D)
+//キラーアーチ[X]
+킬러아치[X]
+
+//POINTER #70 @ $38B3F - STRING #70 @ $39115
+
+#WRITE(Class, $38B3F)
+//グレートアーチ[X]
+그레이트아치[X]
+
+//POINTER #71 @ $38B41 - STRING #71 @ $39125
+
+#WRITE(Class, $38B41)
+//ダークプリンス[X]
+다크프린스[X]

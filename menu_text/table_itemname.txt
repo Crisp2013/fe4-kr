@@ -530,91 +530,91 @@
 
 #WRITE(Item, $3DCC2)
 // ライブの<$8F><$F1>[X]
-라이브의　지팡이[X]
+라이브[X]
 
 //POINTER #89 @ $3DCC4 - STRING #89 @ $3E116
 
 #WRITE(Item, $3DCC4)
 // リライブの<$8F><$F1>[X]
-리라이브의　지팡이[X]
+리라이브[X]
 
 //POINTER #90 @ $3DCC6 - STRING #90 @ $3E124
 
 #WRITE(Item, $3DCC6)
 // リカバーの<$8F><$F1>[X]
-리커버의　지팡이[X]
+리커버[X]
 
 //POINTER #91 @ $3DCC8 - STRING #91 @ $3E132
 
 #WRITE(Item, $3DCC8)
 // リブローの<$8F><$F1>[X]
-리브로의　지팡이[X]
+리브로[X]
 
 //POINTER #92 @ $3DCCA - STRING #92 @ $3E140
 
 #WRITE(Item, $3DCCA)
 // リザーブの<$8F><$F1>[X]
-리저브의　지팡이[X]
+리저브[X]
 
 //POINTER #93 @ $3DCCC - STRING #93 @ $3E14E
 
 #WRITE(Item, $3DCCC)
 // リターンの<$8F><$F1>[X]
-리턴의　지팡이[X]
+리턴[X]
 
 //POINTER #94 @ $3DCCE - STRING #94 @ $3E15C
 
 #WRITE(Item, $3DCCE)
 // ワープの<$8F><$F1>[X]
-워프의　지팡이[X]
+워프[X]
 
 //POINTER #95 @ $3DCD0 - STRING #95 @ $3E168
 
 #WRITE(Item, $3DCD0)
 // レスキューの<$8F><$F1>[X]
-레스큐의　지팡이[X]
+레스큐[X]
 
 //POINTER #96 @ $3DCD2 - STRING #96 @ $3E178
 
 #WRITE(Item, $3DCD2)
 // チャームの<$8F><$F1>[X]
-참의　지팡이[X]
+참[X]
 
 //POINTER #97 @ $3DCD4 - STRING #97 @ $3E186
 
 #WRITE(Item, $3DCD4)
 // レストの<$8F><$F1>[X]
-레스트의　지팡이[X]
+레스트[X]
 
 //POINTER #98 @ $3DCD6 - STRING #98 @ $3E192
 
 #WRITE(Item, $3DCD6)
 // バルキリーの<$8F><$F1>[X]
-발키리의　지팡이[X]
+발키리[X]
 
 //POINTER #99 @ $3DCD8 - STRING #99 @ $3E1A2
 
 #WRITE(Item, $3DCD8)
 // サイレスの<$8F><$F1>[X]
-사일런스의　지팡이[X]
+사일런스[X]
 
 //POINTER #100 @ $3DCDA - STRING #100 @ $3E1B0
 
 #WRITE(Item, $3DCDA)
 // スリープの<$8F><$F1>[X]
-슬립의　지팡이[X]
+슬립[X]
 
 //POINTER #101 @ $3DCDC - STRING #101 @ $3E1BE
 
 #WRITE(Item, $3DCDC)
 // バサークの<$8F><$F1>[X]
-버서크의　지팡이[X]
+버서크[X]
 
 //POINTER #102 @ $3DCDE - STRING #102 @ $3E1CC
 
 #WRITE(Item, $3DCDE)
 // シーフの<$8F><$F1>[X]
-시프의　지팡이[X]
+시프[X]
 
 //POINTER #103 @ $3DCE0 - STRING #103 @ $3E1D8
 //POINTER #104 @ $3DCE2 - STRING #104 @ $3E1D8

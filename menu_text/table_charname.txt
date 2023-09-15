@@ -14,8 +14,7 @@
 
 #WRITE(Unit, $39A59)
 //シグルド[X]
-//[;시구르드[X]
-지구르드[X]
+시구르드[X]
 
 //POINTER #001 @ $39A5B - STRING #001 @ $39ED7
 
@@ -53,7 +52,7 @@
 
 #WRITE(Unit, $39A65)
 //ミデェール[X]
-미델[X]
+미데일[X]
 
 //POINTER #007 @ $39A67 - STRING #007 @ $39F13
 
@@ -185,8 +184,7 @@
 
 #WRITE(Unit, $39A91)
 //リーフ[X]
-//[;리프[X]
-리후[X]
+리프[X]
 
 //POINTER #029 @ $39A93 - STRING #029 @ $39FF1
 
@@ -270,7 +268,7 @@
 
 #WRITE(Unit, $39AAF)
 //アルテナ[X]
-알테나[X]
+아르테나[X]
 
 //POINTER #044 @ $39AB1 - STRING #044 @ $3A077
 
@@ -300,7 +298,7 @@
 
 #WRITE(Unit, $39AB9)
 //ヨハルヴァ[X]
-요할바[X]
+요하르바[X]
 
 //POINTER #049 @ $39ABB - STRING #049 @ $3A0A9
 
@@ -348,7 +346,7 @@
 
 #WRITE(Unit, $39AC9)
 //パティ[X]
-파티[X]
+패티[X]
 
 //POINTER #057 @ $39ACB - STRING #057 @ $3A0F7
 
@@ -601,7 +599,8 @@
 //POINTER #092 @ $39B11 - STRING #092 @ $3A1BB
 
 #WRITE(Unit, $39B11)
-ボルドー[X]
+//ボルドー[X]
+보르도[X]
 
 //POINTER #094 @ $39B15 - STRING #094 @ $3A1D3
 
@@ -735,7 +734,7 @@
 #WRITE(Unit, $39B51)
 #WRITE(Unit, $39B4F)
 //アグスティ兵[X]
-어거스티병[X]
+아그스티병[X]
 
 //POINTER #129 @ $39B5B - STRING #129 @ $3A26B
 
@@ -759,7 +758,7 @@
 
 #WRITE(Unit, $39B69)
 //アルヴァ[X]
-알바[X]
+아르바[X]
 
 //POINTER #137 @ $39B6B - STRING #137 @ $3A2A1
 
@@ -869,12 +868,13 @@
 
 #WRITE(Unit, $39BAB)
 //ドバール[X]
-도발[X]
+듀발[X]
 
 //POINTER #171 @ $39BAF - STRING #171 @ $3A33B
 
 #WRITE(Unit, $39BAF)
-ピサール[X]
+//ピサール[X]
+피사르[X]
 
 //POINTER #176 @ $39BB9 - STRING #176 @ $3A345
 //POINTER #259 @ $39C5F - STRING #259 @ $3A5AF
@@ -1057,7 +1057,8 @@
 //POINTER #212 @ $39C01 - STRING #212 @ $3A479
 
 #WRITE(Unit, $39C01)
-レイミア[X]
+//レイミア[X]
+레이미아[X]
 
 //POINTER #219 @ $39C0F - STRING #219 @ $3A4C3
 //POINTER #386 @ $39D5D - STRING #386 @ $3A8A5
@@ -1271,7 +1272,7 @@
 #WRITE(Unit, $39C83)
 #WRITE(Unit, $39C81)
 //イードマージ[X]
-이드　메이지[X]
+이드메이지[X]
 
 //POINTER #281 @ $39C8B - STRING #281 @ $3A6AB
 //POINTER #282 @ $39C8D - STRING #282 @ $3A6AB
@@ -1301,7 +1302,7 @@
 #WRITE(Unit, $39CB1)
 #WRITE(Unit, $39C95)
 //ダーナ兵[X]
-타나병[X]
+다나병[X]
 
 //POINTER #287 @ $39C97 - STRING #287 @ $3A653
 
@@ -1351,7 +1352,7 @@
 #WRITE(Unit, $39CFB)
 #WRITE(Unit, $39CB9)
 //ヴァンパ[X]
-반파[X]
+뱀파[X]
 
 //POINTER #305 @ $39CBB - STRING #305 @ $3A6C3
 //POINTER #338 @ $39CFD - STRING #338 @ $3A767
@@ -1705,7 +1706,7 @@
 
 #WRITE(Unit, $39DEB)
 //フィーア[X]
-피아[X]
+피어[X]
 
 //POINTER #458 @ $39DED - STRING #458 @ $3A9D5
 
@@ -1741,7 +1742,7 @@
 
 #WRITE(Unit, $39DF7)
 //ツェーン[X]
-셴[X]
+첸[X]
 
 //POINTER #464 @ $39DF9 - STRING #464 @ $3AA0D
 
@@ -1771,7 +1772,7 @@
 
 #WRITE(Unit, $39E07)
 //ブレグ[X]
-브레그[X]
+블레그[X]
 
 //POINTER #472 @ $39E09 - STRING #472 @ $3AA63
 //POINTER #473 @ $39E0B - STRING #473 @ $3AA63

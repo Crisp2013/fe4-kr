@@ -45,6 +45,12 @@ dl Title_TM_Tile
 dw $7DBC
 
 
+;chapter title
+org $dd3fa6;size: 22F8h
+incbin "gfx/chapter_title.4bpp.fe4"
+org $dd629e;size: 3B7h
+incbin "gfx/chapter_title.map.fe4"
+
 
 ;opening
 org $DF005F;1
@@ -113,10 +119,6 @@ org $D7F3E3
 dl Intro_Tile_12
 org $D7F3F9
 dl Intro_Tile_13
-
-;memo, ch title
-; 1d3fa6
-; 1d629e
 
 ;****************** uncompressed
 org $D76000

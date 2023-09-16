@@ -201,3 +201,19 @@ with open("../base_rom/fe4.sfc", "rb") as jpn:
                 if test_jpn[1] != test_eng[1] or test_jpn[2] != test_eng[2]:
                     # if (test_jpn[1] == 0x00 and test_eng[1] == 0x00) or test_jpn[2] >=0x00:
                     print(hex(i)+"\t"+hex(bytestoadress_reverse(test_jpn))+"\t"+hex(bytestoadress_reverse(test_eng)))    
+
+        print ("\n=asmptr part2=")
+        # asptr search
+        for i in range(file_size):
+            jpn.seek(i)
+            eng.seek(i)
+            test_jpn = jpn.read(3)
+            test_eng = eng.read(3)
+            if test_jpn[0] == 0xA9 and test_eng[0] == 0x22 :
+                print(hex(i)+"\t"+hex(bytestoadress_reverse(test_jpn))+"\t"+hex(bytestoadress_reverse(test_eng))+"\t warning: maybe bank")
+            if test_jpn[0] == 0xA9 and test_eng[0] == 0xEA and test_eng[1] == 0xEA and test_eng[2] == 0xEA :
+                print(hex(i)+"\t"+hex(bytestoadress_reverse(test_jpn))+"\t"+hex(bytestoadress_reverse(test_eng))+"\t warning: maybe lobtyte")
+            elif test_jpn[0] == 0xA9 and test_eng[0] == 0xEA :
+                print(hex(i)+"\t"+hex(bytestoadress_reverse(test_jpn))+"\t"+hex(bytestoadress_reverse(test_eng))+"\t warning: maybe lobtyte less")   
+
+

@@ -56,6 +56,7 @@ cd ..
 "tools/textconv.py" dialogue_text/ZDynamic3.asm     dialogue_text/convert/ZDynamic3.asm
 "tools/textconv.py" dialogue_text/ZDynamic4.asm     dialogue_text/convert/ZDynamic4.asm
 "tools/textconv.py" dialogue_text/ZDynamic5.asm     dialogue_text/convert/ZDynamic5.asm
+"tools/textconv.py" dialogue_text/Ending.asm        dialogue_text/convert/Ending.asm
 
 echo install dialogue
 armips dialogue_text/_DialogueInstall.asm

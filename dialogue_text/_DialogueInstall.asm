@@ -128,6 +128,10 @@ translation_org 0xd8dc4
 .include "dialogue_text/convert/FEMain_8D_1.asm"	;0xd8dc4-0xd90b5
 .include "dialogue_text/convert/CastleName.asm"		;0xd90b5-0xd920d
 //.endarea
+//translation_org 0xdc964
+//.area 0xd920d+TRANSLATION_OFFSET-.
+.include "dialogue_text/convert/Ending.asm"	;0xdc964-0xdccb0
+//.endarea
 
 //org 0xd928b
 //.area 0xd9402+TRANSLATION_OFFSET-.
@@ -490,6 +494,35 @@ write_hibank_pointer_org 0x11B0F1+1 , Dialogue_11b112
 write_loword_pointer_org 0x11B0F1+6 , Dialogue_11b112
 write_hibank_pointer_org 0x11B103+1 , Dialogue_11b115
 write_loword_pointer_org 0x11B103+6 , Dialogue_11b115
+//ending ralated
+write_hibank_pointer_org 0xee1e+1 , Dialogue_dc964	
+write_loword_pointer_org 0xee1e+6 , Dialogue_dc964//unused text?
+write_hibank_pointer_org 0xef73+1 , Dialogue_dc9a6	
+write_loword_pointer_org 0xef73+6 , Dialogue_dc9a6
+write_hibank_pointer_org 0xf14a+1 , Dialogue_dc9ff	
+write_loword_pointer_org 0xf14a+6 , Dialogue_dc9ff
+write_hibank_pointer_org 0xDB462+1 , Dialogue_dcc24	
+write_loword_pointer_org 0xDB462+6 , Dialogue_dcc24
+write_hibank_pointer_org 0xDB4D7+1 , Dialogue_dcc24	
+write_loword_pointer_org 0xDB4D7+6 , Dialogue_dcc24
+write_hibank_pointer_org 0xdb3a4+1 , Dialogue_dcc39	
+write_loword_pointer_org 0xdb3a4+6 , Dialogue_dcc39
+write_hibank_pointer_org 0xdb395+1 , Dialogue_dcc3d	
+write_loword_pointer_org 0xdb395+6 , Dialogue_dcc3d
+write_hibank_pointer_org 0xdb3fa+1 , Dialogue_dcc42	
+write_loword_pointer_org 0xdb3fa+6 , Dialogue_dcc42
+write_hibank_pointer_org 0xdb3eb+1 , Dialogue_dcc46	
+write_loword_pointer_org 0xdb3eb+6 , Dialogue_dcc46
+write_hibank_pointer_org 0xdb3dc+1 , Dialogue_dcc4c	
+write_loword_pointer_org 0xdb3dc+6 , Dialogue_dcc4c
+write_hibank_pointer_org 0xdb3cd+1 , Dialogue_dcc54	
+write_loword_pointer_org 0xdb3cd+6 , Dialogue_dcc54
+//not found
+//write_hibank_pointer_org 0x+1 , Dialogue_dcc5d	write_loword_pointer_org 0x+6 , Dialogue_dcc5d
+//write_hibank_pointer_org 0x+1 , Dialogue_dcc5f	write_loword_pointer_org 0x+6 , Dialogue_dcc5f
+//write_hibank_pointer_org 0x+1 , Dialogue_dcc6b	write_loword_pointer_org 0x+6 , Dialogue_dcc6b
+//write_hibank_pointer_org 0x+1 , Dialogue_dcc94	write_loword_pointer_org 0x+6 , Dialogue_dcc94
+
 //bank hack
 write_hibank_pointer_org 0x118D50+1, Dialogue_d928b//Z4
 write_hibank_pointer_org 0x118DF1+1, Dialogue_d9514//Z3

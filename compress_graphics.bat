@@ -1,3 +1,5 @@
+"tools/Compression - Decompression/FE45_Compress.exe" gfx/holyblood.4bpp
+"tools/Compression - Decompression/FE45_Compress.exe" gfx/result.2bpp
 "tools/Compression - Decompression/FE45_Compress.exe" gfx/chapter_title.map
 "tools/Compression - Decompression/FE45_Compress.exe" gfx/chapter_title.4bpp
 "tools/Compression - Decompression/FE45_Compress.exe" gfx/title_gfx/title_gfx.map
@@ -19,5 +21,4 @@
 "tools/Compression - Decompression/FE45_Compress.exe" gfx/intro/opening11.4bpp
 "tools/Compression - Decompression/FE45_Compress.exe" gfx/intro/opening12.4bpp
 "tools/Compression - Decompression/FE45_Compress.exe" gfx/intro/opening13.4bpp
-"tools/Compression - Decompression/FE45_Compress.exe" gfx/holyblood.4bpp
 pause

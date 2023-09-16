@@ -19,6 +19,8 @@ org $F57C2D;size:217h
 incbin "title_gfx/title_shadow_gfx.map.fe4"
 ;shadow gfx tilemap
 
+org $D42273;size:645h
+incbin "result.2bpp.fe4"
 
 org $DD0000;size:20A0h
 incbin "holyblood.4bpp.fe4"

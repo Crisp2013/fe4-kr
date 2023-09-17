@@ -25,23 +25,28 @@
 
 //#W16($A8806)
 #JMP($A88E0, $A88F3)
-　　しゅつげき　　<X>
+// 　　しゅつげき　　<X>
+　　출격　　　　　<X>
 
 //#W16($A8819)
 #JMP($A88F4, $A8907)
-　　しゅび　　　　<X>
+// 　　しゅび　　　　<X>
+　　수비　　　　　<X>
 
 //#W16($A882C)
 #JMP($A8908, $A891B)
-　　クラスチェンジ<X>
+// 　　クラスチェンジ<X>
+　　클래스체인지　<X>
 
 //#W16($A8841)
 #JMP($A891C, $A892F)
-　　まち　　　　　<X>
+// 　　まち　　　　　<X>
+　　거리　　　　　<X>
 
 //#W16($A88C7)
 #JMP($A8930, $A8943)
-　　つえ　　　　　<X>
+// 　　つえ　　　　　<X>
+　　지팡이　　　　<X>
 
 //#W16($A886A)
 #JMP($A8944, $A8957)
@@ -49,12 +54,14 @@
 //#W16($A885C)
 //#W16($A88D9)
 #JMP($A8958, $A896B)
-　　おどる　　　　<X>
+// 　　おどる　　　　<X>
+　　춤추다　　　　<X>
   
 //#W16($A884E)
 //#W16($A8894)
 #JMP($A896C, $A897F)
-　　あげる　　　　<X>
+// 　　あげる　　　　<X>
+　　주다　　　　　<X>
 
 
 
@@ -64,50 +71,60 @@
 //# Fortune Teller - Lover
 #JMP($AADCE, $AADF3)
 #W16($AADB3)
-こいのゆくえ<X>
+// こいのゆくえ<X>
+연애점<X>
 
 //Fortune Teller - Battle Record
 #W16($AADBE)
-しょうはい<X>
+// しょうはい<X>
+승패<X>
 
 //Fortune Teller - Parents
 #W16($AADC9)
-おやのこと<X>
+// おやのこと<X>
+부모에　대해<X>
 
 //Buy/Belongings
 #JMP($AC2FE, $AC311)
 #W16($AC1F6)
-かう　　　もちもの<X>
+// かう　　　もちもの<X>
+사다　　　지닌물건<X>
 
 //Sell/Buy
 #JMP($AC447, $AC456)
 #W16($AC33F)
-うる　　　かう<X>
+// うる　　　かう<X>
+사다　　　팔다<X>
 
 //Yes/No
 #JMP($AA348, $AA36F)
 #W16($AD098)
-　はい　　　いいえ　　　　　　　　　　<X>
+// 　はい　　　いいえ　　　　　　　　　　<X>
+　예　　　　아니요　　　　　　　　　　<X>
 
 //Arena - Fight/Leave
 #JMP($AE789, $AE7B4)
 #W16($AE6A6)
-たたかう　　　やめる　　　　　　　　　　　<X>
+// たたかう　　　やめる　　　　　　　　　　　<X>
+싸우다　　　　그만두다　　　　　　　　　　<X>
 
 //Arena - Quit/Return/Change Weapon
 #JMP($AEA3C, $AEA63)
 #W16($AE944)
-りだつ　　　けいぞく　　　ぶきもちかえ<X>
+// りだつ　　　けいぞく　　　ぶきもちかえ<X>
+이탈하다　　계속하다　　　무기변경　　<X>
 
 //Arena - Start/Leave/Change Weapon
 #JMP($AEB56, $AEB7D)
 #W16($AEA97)
-かいし　　　やめる　　　　ぶきもちかえ<X>
+// かいし　　　やめる　　　　ぶきもちかえ<X>
+개시하다　　그만두다　　　무기변경　　<X>
 
 //Store/Retrieve
 #JMP($AF475, $AF4A0)
 #W16($AF37A)
-あずける　　ひきだす　　　　　　　　　　　<X>
+// あずける　　ひきだす　　　　　　　　　　　<X>
+맡기다　　　회수하다　　　　　　　　　　　<X>
 
 //fe4transrc:shopyesno2
 
@@ -120,7 +137,9 @@
 
 //B Button to quit
 #W16($AAE92)
-☆Ｂボタンでちゅうしできます<X>
+// ☆Ｂボタンでちゅうしできます<X>
+//　☆Ｂ버튼으로　중지　가능　<X>
+　　Ｂ버튼으로　중지가능<X>
 
 #JMP($A85BA)//Castle Character Status
 //<$12>

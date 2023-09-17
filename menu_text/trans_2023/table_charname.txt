@@ -1796,7 +1796,7 @@
 
 #WRITE(Unit, $39E17)
 //ガザック[X]
-거잭[X]
+가자크[X]
 
 //POINTER #480 @ $39E19 - STRING #480 @ $3AA81
 
@@ -1813,406 +1813,480 @@
 //POINTER #482 @ $39E1D - STRING #482 @ $3AA97
 
 #WRITE(Unit, $39E1D)
-シャーク[X]
+// シャーク[X]
+샤크[X]
 
 //POINTER #483 @ $39E1F - STRING #483 @ $3AAA1
 
 #WRITE(Unit, $39E1F)
-フッド[X]
+// フッド[X]
+후드[X]
 
 //POINTER #484 @ $39E21 - STRING #484 @ $3AAA9
 
 #WRITE(Unit, $39E21)
-バッカス[X]
+// バッカス[X]
+바커스[X]
 
 //POINTER #485 @ $39E23 - STRING #485 @ $3AAB3
 
 #WRITE(Unit, $39E23)
-エミール[X]
+// エミール[X]
+에밀[X]
 
 //POINTER #486 @ $39E25 - STRING #486 @ $3AABD
 //POINTER #559 @ $39EB7 - STRING #559 @ $3AD89
 
 #WRITE(Unit, $39EB7)
 #WRITE(Unit, $39E25)
-ダレス[X]
+// ダレス[X]
+달레스[X]
 
 //POINTER #487 @ $39E27 - STRING #487 @ $3AAC5
 
 #WRITE(Unit, $39E27)
-ジロー[X]
+// ジロー[X]
+지로[X]
 
 //POINTER #488 @ $39E29 - STRING #488 @ $3AACD
 
 #WRITE(Unit, $39E29)
-マハトマ[X]
+// マハトマ[X]
+마하트마[X]
 
 //POINTER #489 @ $39E2B - STRING #489 @ $3AAD7
 
 #WRITE(Unit, $39E2B)
-ロヴィン[X]
+// ロヴィン[X]
+로빈[X]
 
 //POINTER #490 @ $39E2D - STRING #490 @ $3AAE1
 
 #WRITE(Unit, $39E2D)
-バークニン[X]
+// バークニン[X]
+바쿠닌[X]
 
 //POINTER #491 @ $39E2F - STRING #491 @ $3AAED
 
 #WRITE(Unit, $39E2F)
-ミレー[X]
+// ミレー[X]
+밀레이[X]
 
 //POINTER #492 @ $39E31 - STRING #492 @ $3AAF5
 
 #WRITE(Unit, $39E31)
-ヘルツォグ[X]
+// ヘルツォグ[X]
+헤르조그[X]
 
 //POINTER #493 @ $39E33 - STRING #493 @ $3AB01
 
 #WRITE(Unit, $39E33)
-チャコフ[X]
+// チャコフ[X]
+차코프[X]
 
 //POINTER #494 @ $39E35 - STRING #494 @ $3AB0B
 //POINTER #560 @ $39EB9 - STRING #560 @ $3AD91
 
 #WRITE(Unit, $39EB9)
 #WRITE(Unit, $39E35)
-ケイモス[X]
+// ケイモス[X]
+케이모스[X]
 
 //POINTER #495 @ $39E37 - STRING #495 @ $3AB15
 //POINTER #561 @ $39EBB - STRING #561 @ $3AD9B
 
 #WRITE(Unit, $39EBB)
 #WRITE(Unit, $39E37)
-マリリン[X]
+// マリリン[X]
+마릴린[X]
 
 //POINTER #496 @ $39E39 - STRING #496 @ $3AB1F
 
 #WRITE(Unit, $39E39)
-タイラー[X]
+// タイラー[X]
+타이라[X]
 
 //POINTER #497 @ $39E3B - STRING #497 @ $3AB29
 //POINTER #516 @ $39E61 - STRING #516 @ $3ABD9
 
 #WRITE(Unit, $39E61)
 #WRITE(Unit, $39E3B)
-リップ[X]
+// リップ[X]
+립[X]
 
 //POINTER #498 @ $39E3D - STRING #498 @ $3AB31
 
 #WRITE(Unit, $39E3D)
-ペリオ[X]
+// ペリオ[X]
+페리오[X]
 
 //POINTER #499 @ $39E3F - STRING #499 @ $3AB39
 
 #WRITE(Unit, $39E3F)
-トレヴィク[X]
+// トレヴィク[X]
+트레빅[X]
 
 //POINTER #500 @ $39E41 - STRING #500 @ $3AB45
 
 #WRITE(Unit, $39E41)
-ゲラー[X]
+// ゲラー[X]
+겔러[X]
 
 //POINTER #501 @ $39E43 - STRING #501 @ $3AB4D
 
 #WRITE(Unit, $39E43)
-バザン[X]
+// バザン[X]
+바잔[X]
 
 //POINTER #502 @ $39E45 - STRING #502 @ $3AB55
 
 #WRITE(Unit, $39E45)
-デュマ[X]
+// デュマ[X]
+듀마[X]
 
 //POINTER #503 @ $39E47 - STRING #503 @ $3AB5D
 
 #WRITE(Unit, $39E47)
-ケーラ[X]
+// ケーラ[X]
+케이러[X]
 
 //POINTER #504 @ $39E49 - STRING #504 @ $3AB65
 //POINTER #564 @ $39EC1 - STRING #564 @ $3ADB9
 
 #WRITE(Unit, $39EC1)
 #WRITE(Unit, $39E49)
-トールトン[X]
+// トールトン[X]
+토르돈[X]
 
 //POINTER #505 @ $39E4B - STRING #505 @ $3AB71
 //POINTER #565 @ $39EC3 - STRING #565 @ $3ADC5
 
 #WRITE(Unit, $39EC3)
 #WRITE(Unit, $39E4B)
-マリオ[X]
+// マリオ[X]
+마리오[X]
 
 //POINTER #506 @ $39E4D - STRING #506 @ $3AB79
 
 #WRITE(Unit, $39E4D)
-ケマル[X]
+// ケマル[X]
+케멀[X]
 
 //POINTER #507 @ $39E4F - STRING #507 @ $3AB81
 
 #WRITE(Unit, $39E4F)
-カレディン[X]
+// カレディン[X]
+칼레딘[X]
 
 //POINTER #508 @ $39E51 - STRING #508 @ $3AB8D
 
 #WRITE(Unit, $39E51)
-キース[X]
+// キース[X]
+키스[X]
 
 //POINTER #509 @ $39E53 - STRING #509 @ $3AB95
 
 #WRITE(Unit, $39E53)
-サンゴール[X]
+// サンゴール[X]
+상고르[X]
 
 //POINTER #510 @ $39E55 - STRING #510 @ $3ABA1
 
 #WRITE(Unit, $39E55)
-ニキータ[X]
+// ニキータ[X]
+니키타[X]
 
 //POINTER #511 @ $39E57 - STRING #511 @ $3ABAB
 
 #WRITE(Unit, $39E57)
-ネネ[X]
+// ネネ[X]
+네네[X]
 
 //POINTER #512 @ $39E59 - STRING #512 @ $3ABB1
 
 #WRITE(Unit, $39E59)
-クラフ[X]
+// クラフ[X]
+클라프[X]
 
 //POINTER #513 @ $39E5B - STRING #513 @ $3ABB9
 
 #WRITE(Unit, $39E5B)
-ニキアス[X]
+// ニキアス[X]
+니키아스[X]
 
 //POINTER #514 @ $39E5D - STRING #514 @ $3ABC3
 //POINTER #567 @ $39EC7 - STRING #567 @ $3ADD5
 
 #WRITE(Unit, $39EC7)
 #WRITE(Unit, $39E5D)
-アトラス[X]
+// アトラス[X]
+아틀라스[X]
 
 //POINTER #515 @ $39E5F - STRING #515 @ $3ABCD
 
 #WRITE(Unit, $39E5F)
-ジャッカル[X]
+// ジャッカル[X]
+자칼[X]
 
 //POINTER #517 @ $39E63 - STRING #517 @ $3ABE1
 
 #WRITE(Unit, $39E63)
-グレイアス[X]
+// グレイアス[X]
+그레이어스[X]
 
 //POINTER #518 @ $39E65 - STRING #518 @ $3ABED
 
 #WRITE(Unit, $39E65)
-ギース[X]
+// ギース[X]
+기스[X]
 
 //POINTER #519 @ $39E67 - STRING #519 @ $3ABF5
 
 #WRITE(Unit, $39E67)
-リー[X]
+// リー[X]
+리[X]
 
 //POINTER #520 @ $39E69 - STRING #520 @ $3ABFB
 
 #WRITE(Unit, $39E69)
-シッシェル[X]
+// シッシェル[X]
+시셀[X]
 
 //POINTER #521 @ $39E6B - STRING #521 @ $3AC07
 
 #WRITE(Unit, $39E6B)
-ホークス[X]
+// ホークス[X]
+호쿠스[X]
 
 //POINTER #522 @ $39E6D - STRING #522 @ $3AC11
 
 #WRITE(Unit, $39E6D)
-ナザール[X]
+// ナザール[X]
+나잘루[X]
 
 //POINTER #523 @ $39E6F - STRING #523 @ $3AC1B
 
 #WRITE(Unit, $39E6F)
 //シーフ[X]
-디프[X]
+시프[X]
 
 //POINTER #524 @ $39E71 - STRING #524 @ $3AC23
 
 #WRITE(Unit, $39E71)
-トルストイ[X]
+// トルストイ[X]
+톨스토이[X]
 
 //POINTER #525 @ $39E73 - STRING #525 @ $3AC2F
 
 #WRITE(Unit, $39E73)
-ボツマン[X]
+// ボツマン[X]
+보트먼[X]
 
 //POINTER #526 @ $39E75 - STRING #526 @ $3AC39
 
 #WRITE(Unit, $39E75)
-クリューゲ[X]
+// クリューゲ[X]
+클뤼케[X]
 
 //POINTER #527 @ $39E77 - STRING #527 @ $3AC45
 
 #WRITE(Unit, $39E77)
-マンスタイン[X]
+// マンスタイン[X]
+만슈타인[X]
 
 //POINTER #528 @ $39E79 - STRING #528 @ $3AC53
 
 #WRITE(Unit, $39E79)
-カシム[X]
+// カシム[X]
+카심[X]
 
 //POINTER #529 @ $39E7B - STRING #529 @ $3AC5B
 
 #WRITE(Unit, $39E7B)
-ヘプナー[X]
+// ヘプナー[X]
+헤프너[X]
 
 //POINTER #530 @ $39E7D - STRING #530 @ $3AC65
 
 #WRITE(Unit, $39E7D)
-ランドック[X]
+// ランドック[X]
+랜독[X]
 
 //POINTER #531 @ $39E7F - STRING #531 @ $3AC71
 
 #WRITE(Unit, $39E7F)
 //ウォルフ[X]
-울프[X]
+볼프[X]
 
 //POINTER #532 @ $39E81 - STRING #532 @ $3AC7B
 
 #WRITE(Unit, $39E81)
-デューイ[X]
+// デューイ[X]
+듀이[X]
 
 //POINTER #533 @ $39E83 - STRING #533 @ $3AC85
 
 #WRITE(Unit, $39E83)
-フェート[X]
+// フェート[X]
+페트[X]
 
 //POINTER #534 @ $39E85 - STRING #534 @ $3AC8F
 
 #WRITE(Unit, $39E85)
-マルシャーク[X]
+// マルシャーク[X]
+마르샤크[X]
 
 //POINTER #535 @ $39E87 - STRING #535 @ $3AC9D
 
 #WRITE(Unit, $39E87)
-ルイス[X]
+// ルイス[X]
+루이스[X]
 
 //POINTER #536 @ $39E89 - STRING #536 @ $3ACA5
 
 #WRITE(Unit, $39E89)
-ヘステ[X]
+// ヘステ[X]
+헤스테[X]
 
 //POINTER #537 @ $39E8B - STRING #537 @ $3ACAD
 
 #WRITE(Unit, $39E8B)
-マーダ[X]
+// マーダ[X]
+마더[X]
 
 //POINTER #538 @ $39E8D - STRING #538 @ $3ACB5
 
 #WRITE(Unit, $39E8D)
-ジスムント[X]
+// ジスムント[X]
+지스문트[X]
 
 //POINTER #539 @ $39E8F - STRING #539 @ $3ACC1
 //POINTER #562 @ $39EBD - STRING #562 @ $3ADA5
 
 #WRITE(Unit, $39E8F)
 #WRITE(Unit, $39EBD)
-ゼノン[X]
+// ゼノン[X]
+제녹[X]
 
 //POINTER #540 @ $39E91 - STRING #540 @ $3ACC9
 //POINTER #563 @ $39EBF - STRING #563 @ $3ADAD
 
 #WRITE(Unit, $39E91)
 #WRITE(Unit, $39EBF)
-ジャクソン[X]
+// ジャクソン[X]
+잭손[X]
 
 //POINTER #541 @ $39E93 - STRING #541 @ $3ACD5
 //POINTER #558 @ $39EB5 - STRING #558 @ $3AD7F
 
 #WRITE(Unit, $39EB5)
 #WRITE(Unit, $39E93)
-インドラ[X]
+// インドラ[X]
+인드라[X]
 
 //POINTER #542 @ $39E95 - STRING #542 @ $3ACDF
 
 #WRITE(Unit, $39E95)
-ニーチェ[X]
+// ニーチェ[X]
+니체[X]
 
 //POINTER #543 @ $39E97 - STRING #543 @ $3ACE9
 
 #WRITE(Unit, $39E97)
-アポストル[X]
+// アポストル[X]
+아포스톨[X]
 
 //POINTER #544 @ $39E99 - STRING #544 @ $3ACF5
 
 #WRITE(Unit, $39E99)
-ミリア[X]
+// ミリア[X]
+미리아[X]
 
 //POINTER #545 @ $39E9B - STRING #545 @ $3ACFD
 
 #WRITE(Unit, $39E9B)
-シロン[X]
+// シロン[X]
+시론[X]
 
 //POINTER #546 @ $39E9D - STRING #546 @ $3AD05
 
 #WRITE(Unit, $39E9D)
-クレイン[X]
+// クレイン[X]
+클레인[X]
 
 //POINTER #547 @ $39E9F - STRING #547 @ $3AD0F
 
 #WRITE(Unit, $39E9F)
-スレイトン[X]
+// スレイトン[X]
+슬레이튼[X]
 
 //POINTER #548 @ $39EA1 - STRING #548 @ $3AD1B
 
 #WRITE(Unit, $39EA1)
-トリエスタ[X]
+// トリエスタ[X]
+트리에스타[X]
 
 //POINTER #549 @ $39EA3 - STRING #549 @ $3AD27
 //POINTER #566 @ $39EC5 - STRING #566 @ $3ADCD
 
 #WRITE(Unit, $39EC5)
 #WRITE(Unit, $39EA3)
-カナン[X]
+// カナン[X]
+가나안[X]
 
 //POINTER #550 @ $39EA5 - STRING #550 @ $3AD2F
 
 #WRITE(Unit, $39EA5)
-ハスマーン[X]
+// ハスマーン[X]
+하스먼[X]
 
 //POINTER #551 @ $39EA7 - STRING #551 @ $3AD3B
 
 #WRITE(Unit, $39EA7)
-グランツ[X]
+// グランツ[X]
+그란츠[X]
 
 //POINTER #552 @ $39EA9 - STRING #552 @ $3AD45
 
 #WRITE(Unit, $39EA9)
-クロスロイ[X]
+// クロスロイ[X]
+크로스로이[X]
 
 //POINTER #553 @ $39EAB - STRING #553 @ $3AD51
 
 #WRITE(Unit, $39EAB)
-ローラン[X]
+// ローラン[X]
+롤랑[X]
 
 //POINTER #554 @ $39EAD - STRING #554 @ $3AD5B
 
 #WRITE(Unit, $39EAD)
-マシグリ[X]
+// マシグリ[X]
+마실리[X]
 
 //POINTER #555 @ $39EAF - STRING #555 @ $3AD65
 
 #WRITE(Unit, $39EAF)
-リヴァ[X]
+// リヴァ[X]
+리바[X]
 
 //POINTER #556 @ $39EB1 - STRING #556 @ $3AD6D
 
 #WRITE(Unit, $39EB1)
-グロリア[X]
+// グロリア[X]
+글로리아[X]
 
 //POINTER #557 @ $39EB3 - STRING #557 @ $3AD77
 
 #WRITE(Unit, $39EB3)
-ノーテ[X]
+// ノーテ[X]
+노테[X]
 
 //POINTER #568 @ $39EC9 - STRING #568 @ $3ADDF
 
 #WRITE(Unit, $39EC9)
-ゼウス[X]
+// ゼウス[X]
+제우스[X]
 
 //POINTER #569 @ $39ECB - STRING #569 @ $3ADE7
 

@@ -18,20 +18,24 @@
 //fe4transsrc:receive.txt
 //[asmptr]
 
-#JMP($5B9BC, $5B9D3)
+#JMP($5F040, $5FFFF)//blank area
+//#JMP($5B9BC, $5B9D3)
 #W16($5B99E)
-　ゴールドてにいれた！<X>
+// 　ゴールドてにいれた！<X>
+　골드를　손에　넣었다！<X>
 
 
 //Castle defeated
-#JMP($5BAB3, $5BAC6)
+//#JMP($5BAB3, $5BAC6)
 #W16($5BA9D)
-　をせいあつした！<X>
+// 　をせいあつした！<X>
+　을（을）　제압했다！<X>
 
 //Item Received
-#JMP($5BC8C, $5BC9D)
+//#JMP($5BC8C, $5BC9D)
 #W16($5BC3D)
-　をてにいれた！<X>
+// 　をてにいれた！<X>
+　을（를）　손에　넣었다！<X>
 
 //Combat forecast
 #JMP($58EA1, $58EC4)
@@ -94,13 +98,16 @@
 
 //Save Game (End of Chapter)
 #W16($5A4A8)
-セーブ　しますか？<X>
+// セーブ　しますか？<X>
+세이브하겠습니까？<X>
 
 #W16($5A4B9)
-はい<X>
+// はい<X>
+예<X>
 
 #W16($5A4CA)
-いいえ<X>
+// いいえ<X>
+아니요<X>
 
 
 //Unit animation settings
@@ -144,24 +151,28 @@
 #JMP($5B6A0, $5B6DF)
 //Store desc 1
 #W16($5B66D)
-もちものが　いっぱいです<X>
+// もちものが　いっぱいです<X>
+소지품이　가득합니다<X>
 //Store desc 2
 #W16($5B67E)
-あずけるアイテムをえらん<X>
+// あずけるアイテムをえらん<X>
+보관소로　보낼　아이템을<X>
 //Store desc 3
 #W16($5B68F)
-でください<X>
+// でください<X>
+선택해　주세요<X>
 
 #JMP($5B5B2, $5B5DD)
 //Store item?
 #W16($5B57F)
-このアイテムをあずけますか？<X>
+// このアイテムをあずけますか？<X>
+이　아이템을　보내겠습니까？<X>
 
 #W16($5B590)
-はい<X>
+예<X>
 
 #W16($5B5A1)
-いいえ<X>
+아니요<X>
 
 
 //Such and such a phase
@@ -177,11 +188,13 @@
 
 #W16($5EA40)
 <$6B><$E9><$85><$01><$01>
-　じょうない<X>
+// 　じょうない<X>
+　성내<X>
 
 #W16($5EA3E)
 <$86><$E9><$85><$01><$01>
-　じょうがい<X>
+// 　じょうがい<X>
+　성외<X>
 
 //This file is for altering the tiles used for the on-map status titles.
 //fe4transsrc:statusmap
@@ -189,15 +202,18 @@
 //all 4byte
 //Silence
 #JMP($5C988)
-サイレス
+//サイレス
+//사일런스
 //<$EC><$EF><$F0><$F1>
 
 //Sleep
 #JMP($5C98D)
 //スリープ
+//슬립
 //<$F1><$F2><$ED><$F3>
 
 //Berserk
 #JMP($5C992)
 //バサーク
+//버서크
 //<$EB><$EC><$ED><$EE>

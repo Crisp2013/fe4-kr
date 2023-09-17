@@ -18,22 +18,27 @@
 //fe4transrc:recieved2
 //[asmptr]
 
+#JMP($1EFD02,1EFFFF)//blank area
 //(weapon, ring, etc) Obtained !
-#JMP($1E98B0, $1E98C3)
+//JMP($1E98B0, $1E98C3)
 #W16($1E988E)
-　を　てにいれた！<X>
+// 　を　てにいれた！<X>
+　（을）를　손에넣었다！<X>
 
 //(weapon) Broke
-#JMP($1E9910, $1E9927)
+//#JMP($1E9910, $1E9927)
 #W16($1E98EE)
-　は　こわれてしまった<X>
+// 　は　こわれてしまった<X>
+　（은）는　망가져　버렸다<X>
 
 //(gold) Obtained!
-#JMP($1E994F, $1E9966)
+//#JMP($1E994F, $1E9966)
 #W16($1E9937)
-ゴールド　てにいれた！<X>
+// ゴールド　てにいれた！<X>
+골드를　손에　넣었다！<X>
 
 //(gold) Stolen
-#JMP($1E998E, $1E99A3)
+//#JMP($1E998E, $1E99A3)
 #W16($1E9976)
-ゴールド　ぬすまれた<X>
+// ゴールド　ぬすまれた<X>
+골드를　빼앗겼다<X>

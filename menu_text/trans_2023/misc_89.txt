@@ -228,29 +228,35 @@
 //Valkyrie dialogue
 //fe4transrc:valkyre
 //[asmptr]
-#JMP($9AE45, $9AE7C)//9AEB2
+#JMP($9F941, $9FFFF)//blank area
+//#JMP($9AE45, $9AE7C)//9AEB2
 //$9B07C for end of proper text
 //Revive? (more than one person dead)
 #W16($9ADED)
-をいきかえらせますか<X>
+// をいきかえらせますか<X>
+（을）를　되살리겠습니까？<X>
 //Revive? (only one person dead)
 #W16($9AE07)
-よろしいですか<X>
+// よろしいですか<X>
+괜찮으시겠습니까？<X>
 
 #W16($9AE18)
-はい　　　いいえ<X>
+// はい　　　いいえ<X>
+예　　　　아니요<X>
 
 //this text localted at bank 80
 #JMP($E23E, $E257)
 //Who? (Original)
 //#W16($E1C)//font position?
 #W16($E1CC)//font position?
-だれをいきかえらせますか<X>
+// だれをいきかえらせますか<X>
+누구를　되살리겠습니까？<X>
 
 #JMP($9AFDE, $9B1F7)//9B02D
 //Who? (Reprint)
 #W16($9AFBB)
-だれをいきかえらせますか<X>
+// だれをいきかえらせますか<X>
+누구를　되살리겠습니까？<X>
 
 
 //Status conditions

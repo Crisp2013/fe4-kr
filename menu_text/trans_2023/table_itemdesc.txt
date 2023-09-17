@@ -140,22 +140,26 @@
 //POINTER #6 @ $3E2F4 - STRING #6 @ $3E400
 
 #WRITE(ItemDesc, $3E2F4)
-じょせいせんよう[X]
+// じょせいせんよう[X]
+여성　전용[X]
 
 //POINTER #7 @ $3E2F6 - STRING #7 @ $3E412
 
 #WRITE(ItemDesc, $3E2F6)
-ゴールドをぬすむ[X]
+// ゴールドをぬすむ[X]
+골드를　훔친다[X]
 
 //POINTER #8 @ $3E2F8 - STRING #8 @ $3E430
 
 #WRITE(ItemDesc, $3E2F8)
-まほうしゅび＋７[X]
+// まほうしゅび＋７[X]
+마법방어＋７[X]
 
 //POINTER #9 @ $3E2FA - STRING #9 @ $3E454
 
 #WRITE(ItemDesc, $3E2FA)
-こんらんさせる[X]
+// こんらんさせる[X]
+혼란에　빠뜨린다[X]
 
 //POINTER #10 @ $3E2FC - STRING #10 @ $3E464
 //POINTER #33 @ $3E32A - STRING #33 @ $3E464
@@ -166,57 +170,68 @@
 #WRITE(ItemDesc, $3E2FC)
 #WRITE(ItemDesc, $3E32A)
 #WRITE(ItemDesc, $3E33E)
-２回こうげき[X]
+// ２回こうげき[X]
+２회　공격[X]
 
 //POINTER #11 @ $3E2FE - STRING #11 @ $3E472
 
 #WRITE(ItemDesc, $3E2FE)
-ちんもくさせる[X]
+// ちんもくさせる[X]
+침묵시킨다[X]
 
 //POINTER #12 @ $3E300 - STRING #12 @ $3E482
 
 #WRITE(ItemDesc, $3E300)
-ねむらせる[X]
+// ねむらせる[X]
+잠들게　한다[X]
 
 //POINTER #14 @ $3E304 - STRING #14 @ $3E442
 
 #WRITE(ItemDesc, $3E304)
-しゅびりょく＋７[X]
+// しゅびりょく＋７[X]
+수비력＋７[X]
 
 //POINTER #15 @ $3E306 - STRING #15 @ $3E48E
 
 #WRITE(ItemDesc, $3E306)
-＋エルファイアー[X]
+// ＋エルファイアー[X]
+＋엘파이어[X]
 
 //POINTER #16 @ $3E308 - STRING #16 @ $3E4A0
 
 #WRITE(ItemDesc, $3E308)
-ＨＰをすいとる[X]
+// ＨＰをすいとる[X]
+ＨＰ를　흡수한다[X]
 
 //POINTER #17 @ $3E30A - STRING #17 @ $3E4B0
 
 #WRITE(ItemDesc, $3E30A)
-＋エルサンダー[X]
+// ＋エルサンダー[X]
+＋엘선더[X]
 
 //POINTER #18 @ $3E30C - STRING #18 @ $3E4C0
 
 #WRITE(ItemDesc, $3E30C)
-＋エルウインド[X]
+// ＋エルウインド[X]
+＋엘윈드[X]
 
 //POINTER #19 @ $3E30E - STRING #19 @ $3E4D0
 
 #WRITE(ItemDesc, $3E30E)
-＋ライトニング[X]
+// ＋ライトニング[X]
+＋라이트닝[X]
 
 //POINTER #20 @ $3E310 - STRING #20 @ $3E4E0
 
 #WRITE(ItemDesc, $3E310)
-　ひっさつ[X]
+// 　ひっさつ[X]
+　필살[X]
 
 //POINTER #21 @ $3E312 - STRING #21 @ $3E4EC
 
 #WRITE(ItemDesc, $3E312)
-　いのり[X]
+// 　いのり[X]
+　기도[X]
 
 //POINTER #22 @ $3E314 - STRING #22 @ $3E4F6
 //POINTER #35 @ $3E32E - STRING #35 @ $3E4F6
@@ -233,12 +248,13 @@
 #WRITE(ItemDesc, $3E330)
 #WRITE(ItemDesc, $3E32E)
 #WRITE(ItemDesc, $3E314)
-せんりょくアップ[X]
+// せんりょくアップ[X]
+전투력을　올린다[X]
 
 //POINTER #23 @ $3E316 - STRING #23 @ $3E536
 
 #WRITE(ItemDesc, $3E316)
-アーマー系に特効[X]
+아머계에　특효[X]
 
 //POINTER #24 @ $3E318 - STRING #24 @ $3E558
 //POINTER #49 @ $3E34A - STRING #49 @ $3E558
@@ -263,236 +279,313 @@
 #WRITE(ItemDesc, $3E34C)
 #WRITE(ItemDesc, $3E34A)
 #WRITE(ItemDesc, $3E318)
-ひこう系に特効[X]
+비행계에　특효[X]
 
 //POINTER #32 @ $3E328 - STRING #32 @ $3E548
 
 #WRITE(ItemDesc, $3E328)
-ナイト系に特効[X]
+// ナイト系に特効[X]
+나이트계에　특효[X]
 
 //POINTER #53 @ $3E352 - STRING #53 @ $3E424
 
 #WRITE(ItemDesc, $3E352)
-　ひっさつ[X]
+// 　ひっさつ[X]
+　필살[X]
 
 //POINTER #54 @ $3E354 - STRING #54 @ $3E508
 
 #WRITE(ItemDesc, $3E354)
-　ライブ[X]
+// 　ライブ[X]
+　라이브[X]
 
 //POINTER #78 @ $3E384 - STRING #78 @ $3E57A
 
 #WRITE(ItemDesc, $3E384)
-ＨＰをすいとる[X]
+// ＨＰをすいとる[X]
+ＨＰ를　흡수한다[X]
 
 //POINTER #80 @ $3E388 - STRING #80 @ $3E524
 
 #WRITE(ItemDesc, $3E388)
-ロプトウスむこう[X]
+// ロプトウスむこう[X]
+로프토우스　무효[X]
 
 //POINTER #83 @ $3E38E - STRING #83 @ $3E568
 
 #WRITE(ItemDesc, $3E38E)
-ＨＰを１にさげる[X]
-
+// ＨＰを１にさげる[X]
+ＨＰ를　１로　　
+만든다[X]
+//나중에 확인 필요
 //POINTER #84 @ $3E390 - STRING #84 @ $3E512
 
 #WRITE(ItemDesc, $3E390)
-こうげきはんげん[X]
+// こうげきはんげん[X]
+공격력　반감[X]
 
 //POINTER #88 @ $3E398 - STRING #88 @ $3E58A
 
 #WRITE(ItemDesc, $3E398)
-ＨＰを回ふくする[X]
+// ＨＰを回ふくする[X]
+ＨＰ를　회복한다[X]
 
 //POINTER #89 @ $3E39A - STRING #89 @ $3E59C
 
 #WRITE(ItemDesc, $3E39A)
-ＨＰをおおく　　
-回ふくする[X]
+// ＨＰをおおく　　
+// 回ふくする[X]
+ＨＰ를　많이　　
+회복한다[X]
 
 //POINTER #90 @ $3E39C - STRING #90 @ $3E5B8
 
 #WRITE(ItemDesc, $3E39C)
-ＨＰをかんぜんに
-回ふくする[X]
+// ＨＰをかんぜんに
+// 回ふくする[X]
+ＨＰ를　완전히　
+회복한다[X]
 
 //POINTER #91 @ $3E39E - STRING #91 @ $3E5D4
 
 #WRITE(ItemDesc, $3E39E)
-１０マスないの　
-みかたひとりに　
-ライブをかける[X]
+// １０マスないの　
+// みかたひとりに　
+// ライブをかける[X]
+１０칸　이내의　
+아군　한명에게　
+라이브를　건다[X]
 
 //POINTER #92 @ $3E3A0 - STRING #92 @ $3E604
 
 #WRITE(ItemDesc, $3E3A0)
-１０マスないの　
-みかたぜんいんに
-ライブをかける[X]
+// １０マスないの　
+// みかたぜんいんに
+// ライブをかける[X]
+１０칸　이내의　
+아군　전원에게　
+라이브를　건다[X]
 
 //POINTER #93 @ $3E3A2 - STRING #93 @ $3E634
 
 #WRITE(ItemDesc, $3E3A2)
-みかたひとりを　
-ほん城へもどす[X]
+// みかたひとりを　
+// ほん城へもどす[X]
+아군　한명을　　
+본성으로　보낸다[X]
 
 //POINTER #94 @ $3E3A4 - STRING #94 @ $3E654
 
 #WRITE(ItemDesc, $3E3A4)
-みかたひとりを　
-じぐんのどれかの
-城にワープさせる[X]
+// みかたひとりを　
+// じぐんのどれかの
+// 城にワープさせる[X]
+아군　한명을　　
+점령중인　성으로
+워프시킨다[X]
 
 //POINTER #95 @ $3E3A6 - STRING #95 @ $3E686
 
 #WRITE(ItemDesc, $3E3A6)
-１０マスないの　
-みかたひとりを　
-そばにひきよせる[X]
+// １０マスないの　
+// みかたひとりを　
+// そばにひきよせる[X]
+１０칸　이내의　
+아군　한명을　　
+곁으로　불러온다[X]
 
 //POINTER #96 @ $3E3A8 - STRING #96 @ $3E6B8
 //POINTER #97 @ $3E3AA - STRING #97 @ $3E6B8
 
 #WRITE(ItemDesc, $3E3AA)
 #WRITE(ItemDesc, $3E3A8)
-１０マスないの　
-みかたひとりの　
-じょうたいを　　
-せいじょうにする[X]
+// １０マスないの　
+// みかたひとりの　
+// じょうたいを　　
+// せいじょうにする[X]
+１０칸　이내의　
+아군　한명을　　
+정상　상태로　　
+되돌린다[X]
 
 //POINTER #98 @ $3E3AC - STRING #98 @ $3E6FA
 
 #WRITE(ItemDesc, $3E3AC)
-しんでしまった　
-みかたひとりを　
-よみがえらせる　
-ほん城でつかえる[X]
+// しんでしまった　
+// みかたひとりを　
+// よみがえらせる　
+// ほん城でつかえる[X]
+이미　사망한　　
+아군　한명을　　
+되살린다　　　　
+본성에서　사용함[X]
 
 //POINTER #99 @ $3E3AE - STRING #99 @ $3E73C
 
 #WRITE(ItemDesc, $3E3AE)
-１０マスないの　
-てきひとりの　　
-まほうをすうター
-ンつかえなくする[X]
+// １０マスないの　
+// てきひとりの　　
+// まほうをすうター
+// ンつかえなくする[X]
+１０칸　이내의　
+적　한명을　　　
+마법을　사용하지
+못하게　만든다[X]
 
 //POINTER #100 @ $3E3B0 - STRING #100 @ $3E77E
 
 #WRITE(ItemDesc, $3E3B0)
-１０マスないの　
-てきひとりを　　
-すうターンうごけ
-なくする[X]
+// １０マスないの　
+// てきひとりを　　
+// すうターンうごけ
+// なくする[X]
+１０칸　이내의　
+적　한명을　　　
+몇턴간　움직이지
+못하게　만든다[X]
 
 //POINTER #101 @ $3E3B2 - STRING #101 @ $3E7B8
 
 #WRITE(ItemDesc, $3E3B2)
-１０マスないの　
-てきひとりを　　
-すうターンこんら
-んさせる[X]
+// １０マスないの　
+// てきひとりを　　
+// すうターンこんら
+// んさせる[X]
+１０칸　이내의　
+적　한명을　　　
+몇턴간　혼란에　
+빠뜨린다[X]
 
 //POINTER #102 @ $3E3B4 - STRING #102 @ $3E7F2
 
 #WRITE(ItemDesc, $3E3B4)
-てきからゴールド
-をぬすむ[X]
+// てきからゴールド
+// をぬすむ[X]
+적으로부터　　　
+골드를　훔친다[X]
 
 //POINTER #106 @ $3E3BC - STRING #106 @ $3E80C
 
 #WRITE(ItemDesc, $3E3BC)
-まいターンＨＰが
-回ふくする[X]
+// まいターンＨＰが
+// 回ふくする[X]
+매　턴　ＨＰ가　
+회복된다[X]
 
 //POINTER #107 @ $3E3BE - STRING #107 @ $3E828
 
 #WRITE(ItemDesc, $3E3BE)
-けいけんちを　　
-２ばいもらえる[X]
+// けいけんちを　　
+// ２ばいもらえる[X]
+경험치를　　　　
+２배로　획득한다[X]
 
 //POINTER #108 @ $3E3C0 - STRING #108 @ $3E848
 
 #WRITE(ItemDesc, $3E3C0)
-てきからゴールド
-をぬすむ[X]
+// てきからゴールド
+// をぬすむ[X]
+적으로부터　　　
+골드를　훔친다[X]
 
 //POINTER #109 @ $3E3C2 - STRING #109 @ $3E862
 
 #WRITE(ItemDesc, $3E3C2)
-ピンチになると　
-かいひりつが　　
-あがる[X]
+// ピンチになると　
+// かいひりつが　　
+// あがる[X]
+빈사　상태일　때　
+회피치가　　　　
+오른다[X]
 
 //POINTER #110 @ $3E3C4 - STRING #110 @ $3E88A
 
 #WRITE(ItemDesc, $3E3C4)
-あいてよりも　　
-みがるならば　　
-さいこうげき[X]
+// あいてよりも　　
+// みがるならば　　
+// さいこうげき[X]
+상대보다　　　　
+날렵하다면　　　
+재공격한다[X]
 
 //POINTER #111 @ $3E3C6 - STRING #111 @ $3E8B8
 
 #WRITE(ItemDesc, $3E3C6)
-まいターンＨＰが
-ぜん回ふくする[X]
+// まいターンＨＰが
+// ぜん回ふくする[X]
+매턴마다　ＨＰ가
+전부　회복된다[X]
 
 //POINTER #112 @ $3E3C8 - STRING #112 @ $3E8D8
 
 #WRITE(ItemDesc, $3E3C8)
-かいものやしゅう
-りのねだんがはん
-ぶんになる[X]
+// かいものやしゅう
+// りのねだんがはん
+// ぶんになる[X]
+구매나　수리에　
+드는　비용이　　
+반값이　된다[X]
 
 //POINTER #113 @ $3E3CA - STRING #113 @ $3E904
 
 #WRITE(ItemDesc, $3E3CA)
-せんとうごにさい
-いどうできる[X]
+전투　후　　　　
+재이동　할수있다[X]
 
 //POINTER #114 @ $3E3CC - STRING #114 @ $3E922
 
 #WRITE(ItemDesc, $3E3CC)
-ほん城にもどれる[X]
+// ほん城にもどれる[X]
+본성으로　돌아감[X]
 
 //POINTER #115 @ $3E3CE - STRING #115 @ $3E934
 
 #WRITE(ItemDesc, $3E3CE)
-すばやさ＋５[X]
+// すばやさ＋５[X]
+날렵함＋５[X]
 
 //POINTER #116 @ $3E3D0 - STRING #116 @ $3E942
 
 #WRITE(ItemDesc, $3E3D0)
-まりょく＋５[X]
+// まりょく＋５[X]
+마력＋５[X]
 
 //POINTER #117 @ $3E3D2 - STRING #117 @ $3E950
 
 #WRITE(ItemDesc, $3E3D2)
-ちから＋５[X]
+// ちから＋５[X]
+힘＋５[X]
 
 //POINTER #118 @ $3E3D4 - STRING #118 @ $3E95C
 
 #WRITE(ItemDesc, $3E3D4)
-しゅびりょく＋５[X]
+// しゅびりょく＋５[X]
+수비력＋５[X]
 
 //POINTER #119 @ $3E3D6 - STRING #119 @ $3E96E
 
 #WRITE(ItemDesc, $3E3D6)
-まほうぼうぎょ ＋５[X]
+// まほうぼうぎょ ＋５[X]
+마법방어 ＋５[X]
 
 //POINTER #120 @ $3E3D8 - STRING #120 @ $3E984
 
 #WRITE(ItemDesc, $3E3D8)
-いどうりょく＋３[X]
+// いどうりょく＋３[X]
+이동력＋３[X]
 
 //POINTER #121 @ $3E3DA - STRING #121 @ $3E996
 
 #WRITE(ItemDesc, $3E3DA)
-わざ＋５[X]
+// わざ＋５[X]
+기술＋５[X]
 
 //POINTER #137 @ $3E3FA - STRING #137 @ $3E9A0
 
 #WRITE(ItemDesc, $3E3FA)
-せいれいのかみ　
-かざり　　　　　
-いのり＋ライブ[X]
+// せいれいのかみ　
+// かざり　　　　　
+// いのり＋ライブ[X]
+정령의　　　　　
+머리장식　　　　
+기도＋라이브[X]

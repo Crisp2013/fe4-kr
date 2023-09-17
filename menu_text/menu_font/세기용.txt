@@ -1,0 +1,6820 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menu_text/menutext.tbl", menu)
+#ACTIVETBL(menu)
+#VAR(Ptr, CUSTOMPOINTER)
+#CREATEPTR(Ptr, "HIROM", $400000, 24)
+
+//armptr structure
+//text located [bank]:[addr]
+//A900[bank]85XX
+//A9[addr]85XX
+//So if you want to send text to another bank
+//You also need to change [bank]
+
+#HDR($0)
+
+
+//Castle Menu Choices
+//fe4transrc:castlemenu
+//Spaces are important,
+//otherwise text leaks in from below
+
+#JMP($A88E0, $A897F)
+
+//#W16($A8806)
+#JMP($A88E0, $A88F3)
+// 　　しゅつげき　　<X>
+　　출격　　　　　<X>
+
+//#W16($A8819)
+#JMP($A88F4, $A8907)
+// 　　しゅび　　　　<X>
+　　수비　　　　　<X>
+
+//#W16($A882C)
+#JMP($A8908, $A891B)
+// 　　クラスチェンジ<X>
+　　클래스체인지　<X>
+
+//#W16($A8841)
+#JMP($A891C, $A892F)
+// 　　まち　　　　　<X>
+　　거리　　　　　<X>
+
+//#W16($A88C7)
+#JMP($A8930, $A8943)
+// 　　つえ　　　　　<X>
+　　지팡이　　　　<X>
+
+//#W16($A886A)
+#JMP($A8944, $A8957)
+　　　　　　　　　<X>
+//#W16($A885C)
+//#W16($A88D9)
+#JMP($A8958, $A896B)
+// 　　おどる　　　　<X>
+　　춤추다　　　　<X>
+  
+//#W16($A884E)
+//#W16($A8894)
+#JMP($A896C, $A897F)
+// 　　あげる　　　　<X>
+　　주다　　　　　<X>
+
+
+
+//BLOCK #ABC NAME: 		Shop Menu Choices
+//fe4transrc:shopyesno
+//[asmptr]
+//# Fortune Teller - Lover
+#JMP($AADCE, $AADF3)
+#W16($AADB3)
+// こいのゆくえ<X>
+연애점<X>
+
+//Fortune Teller - Battle Record
+#W16($AADBE)
+// しょうはい<X>
+승패<X>
+
+//Fortune Teller - Parents
+#W16($AADC9)
+// おやのこと<X>
+부모에　대해<X>
+
+//Buy/Belongings
+#JMP($AC2FE, $AC311)
+#W16($AC1F6)
+// かう　　　もちもの<X>
+사다　　　지닌물건<X>
+
+//Sell/Buy
+#JMP($AC447, $AC456)
+#W16($AC33F)
+// うる　　　かう<X>
+사다　　　팔다<X>
+
+//Yes/No
+#JMP($AA348, $AA36F)
+#W16($AD098)
+// 　はい　　　いいえ　　　　　　　　　　<X>
+　예　　　　아니요　　　　　　　　　　<X>
+
+//Arena - Fight/Leave
+#JMP($AE789, $AE7B4)
+#W16($AE6A6)
+// たたかう　　　やめる　　　　　　　　　　　<X>
+싸우다　　　　그만두다　　　　　　　　　　<X>
+
+//Arena - Quit/Return/Change Weapon
+#JMP($AEA3C, $AEA63)
+#W16($AE944)
+// りだつ　　　けいぞく　　　ぶきもちかえ<X>
+이탈하다　　계속하다　　　무기변경　　<X>
+
+//Arena - Start/Leave/Change Weapon
+#JMP($AEB56, $AEB7D)
+#W16($AEA97)
+// かいし　　　やめる　　　　ぶきもちかえ<X>
+개시하다　　그만두다　　　무기변경　　<X>
+
+//Store/Retrieve
+#JMP($AF475, $AF4A0)
+#W16($AF37A)
+// あずける　　ひきだす　　　　　　　　　　　<X>
+맡기다　　　회수하다　　　　　　　　　　　<X>
+
+//fe4transrc:shopyesno2
+
+#JMP($AAEDA, $AAF09)
+#W16($AAE01)
+ＥＮＥＭＹ<X>//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menu_text/menutext.tbl", menu)
+#ACTIVETBL(menu)
+#VAR(Ptr, CUSTOMPOINTER)
+#CREATEPTR(Ptr, "HIROM", $400000, 24)
+
+//armptr structure
+//text located [bank]:[addr]
+//A900[bank]85XX
+//A9[addr]85XX
+//So if you want to send text to another bank
+//You also need to change [bank]
+
+#HDR($0)
+
+
+//Data menu headings
+//fetranssrc:datascreentiles.txt
+//[asmptr]
+#JMP($BD277, $BD2A2)
+
+#W16($BD15D)
+//リ?ダ?<X>
+리더<X>
+
+#W16($BD16E)
+//かんけい<X>
+관계<X>
+
+#W16($BD17F)
+//ユニット<X>
+유닛<X>
+
+#W16($BD1DD)
+??????<X>
+
+//Alignment
+//fetranssrc:teamrelations
+#JMP($BD2AF, $BD2D6)
+
+#WRITE(Ptr, $BD2A3)
+//じぐん<X>
+아군<X>
+
+#WRITE(Ptr, $BD2A6)
+//てきたい<X>
+적대<X>
+
+#WRITE(Ptr, $BD2A9)
+//どうめい<X>
+동맹<X>
+
+#WRITE(Ptr, $BD2AC)
+//ちゅうりつ<X>
+중립<X>
+
+//Data screen 2
+//fetranssrc:subdata
+//[asmptr]
+#JMP($BD44E, $BD4C5)
+
+#W16($BD306)
+//ほん城<X>
+본성<X>
+
+#W16($BD369)
+//この軍にはひとりもいません<X>
+이군에는　사람이　없습니다<X>
+
+#W16($BD37E)
+//この軍にリ?ダ?はいません<X>
+이군에는　리더가　없습니다<X>
+
+#W16($BD393)
+//リ?ダ?ユニット<X>
+리더　유닛<X>
+
+#W16($BD3C6)
+ＬＶ<X>
+
+#W16($BD3EC)
+ＨＰ　　　／<X>
+
+#W16($BD427)//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menu_text/menutext.tbl", menu)
+#ACTIVETBL(menu)
+#VAR(Ptr, CUSTOMPOINTER)
+#CREATEPTR(Ptr, "HIROM", $400000, 24)
+
+//armptr structure
+//text located [bank]:[addr]
+//A900[bank]85XX
+//A9[addr]85XX
+//So if you want to send text to another bank
+//You also need to change [bank]
+
+#HDR($0)
+
+//fe4transrc:recieved2
+//[asmptr]
+
+#JMP($1EFD02,1EFFFF)//blank area
+//(weapon, ring, etc) Obtained !
+//JMP($1E98B0, $1E98C3)
+#W16($1E988E)
+// 　を　てにいれた！<X>
+　（을）를　손에넣었다！<X>
+
+//(weapon) Broke//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menu_text/menutext.tbl", menu)
+#ACTIVETBL(menu)
+#VAR(Ptr, CUSTOMPOINTER)
+#CREATEPTR(Ptr, "HIROM", $400000, 24)
+
+//armptr structure
+//text located [bank]:[addr]
+//A900[bank]85XX
+//A9[addr]85XX
+//So if you want to send text to another bank
+//You also need to change [bank]
+
+#HDR($0)
+
+//The data menu labels
+//fetranssrc:objandturns.txt
+//[asmptr]
+#JMP($DCA6, $DCC5)
+#W16($DB01)
+//もくてき<X>
+목표<X>
+
+#W16($DB2F)
+//タ?ンすう<X>
+턴　수<X>
+
+#W16($DB56)
+//タ?ンめ<X>
+턴째<X>
+ 
+//Army label
+//fetranssrc:datascreentiles.txt
+//[asmptr]
+#JMP($DD1C, $DD27)
+#W16($DCD2)
+// せいりょく<X>
+세력<X>
+
+//Valkyrie Staff
+
+#JMP($E23E, $E257)
+#W16($E1CC)
+//だれをいきかえらせますか<X>
+누구를　되살리겠습니까<X>
+
+
+//Nobody to revive
+#JMP($E284, $E297)
+#W16($E26B)
+//だれもしんでません<X>//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menu_text/menutext.tbl", menu)
+#ACTIVETBL(menu)
+#VAR(Ptr, CUSTOMPOINTER)
+#CREATEPTR(Ptr, "HIROM", $400000, 24)
+
+//armptr structure
+//text located [bank]:[addr]
+//A900[bank]85XX
+//A9[addr]85XX
+//So if you want to send text to another bank
+//You also need to change [bank]
+
+#HDR($0)
+//General overworld popups
+//fe4transsrc:receive.txt
+//[asmptr]
+
+#JMP($5F040, $5FFFF)//blank area
+//#JMP($5B9BC, $5B9D3)
+#W16($5B99E)
+// 　ゴ?ルドてにいれた！<X>
+　골드를　손에　넣었다！<X>
+
+
+//Castle defeated
+//#JMP($5BAB3, $5BAC6)
+#W16($5BA9D)
+// 　をせいあつした！<X>
+　을（을）　제압했다！<X>
+
+//Item Received
+//#JMP($5BC8C, $5BC9D)
+#W16($5BC3D)
+// 　をてにいれた！<X>
+　을（를）　손에　넣었다！<X>
+
+//Combat forecast
+#JMP($58EA1, $58EC4)
+
+#W16($58DDB)
+ＬＶ<X>
+
+#W16($58DF4)
+#W16($58E07)//need to check
+ＨＰ<X>
+
+//攻?
+#W16($58E1E)
+<$44><$45><$46><$00>
+#W16($58E2F)
+<$54><$55><$56><$00>
+
+//守備
+#W16($58E40)
+<$47><$48><$49><$00>
+#W16($58E51)
+<$57><$58><$59><$00>
+
+//命中
+#W16($58E62)
+<$4A><$4B><$4C><$00>
+#W16($58E73)
+<$5A><$5B><$5C><$00>
+
+#JMP($59953, $59972)
+//攻?
+#W16($598F1)
+<$44><$45><$46><$00>
+#W16($59902)
+<$54><$55><$56><$00>
+
+//命中
+#W16($59913)
+<$4A><$4B><$4C><$00>
+#W16($59924)
+<$5A><$5B><$5C><$00>
+//Typ<X>//why
+
+//回避
+#W16($59935)
+<$4D><$4E><$4F><$00>
+#W16($59946)
+<$5D><$5E><$5F><$00>
+
+//?性
+#W16($598CF)
+<$40><$41><$42><$00>
+#W16($598E0)
+<$50><$51><$52><$00>
+
+//Save prompt
+//fe4transsrc:save.txt
+//[asmptr]
+#JMP($5A4E6, $5A507)
+
+//Save Game (End of Chapter)
+#W16($5A4A8)
+// セ?ブ　しますか？<X>
+세이브하겠습니까？<X>
+
+#W16($5A4B9)
+// はい<X>
+예<X>
+
+#W16($5A4CA)
+// いいえ<X>
+아니요<X>
+
+
+//Unit animation settings
+//fe4transsrc:battlopt
+//[asmptr]
+#JMP($5A670, $5A699)
+
+#W16($5A62C)
+// アニメせってい<X>
+에니메이션설정<X>
+
+#W16($5A63D)
+// リアル<X>
+리얼<X>
+
+#W16($5A64E)
+// マップ<X>
+맵<X>
+
+#W16($5A65F)
+// ぜんいん<X>
+전원<X>
+
+//Within "All"...
+//fe4transsrc:battlopt2
+
+#JMP($5A7CE, $5A7DD)
+
+#W16($5A7A6)
+// リアル<X>
+리얼<X>
+
+#W16($5A7B7)
+// マップ<X>
+맵<X>
+
+
+//Inventory full!
+//fetranssrc:toomanyitem
+//[asmptr]
+#JMP($5B6A0, $5B6DF)
+//Store desc 1
+#W16($5B66D)
+// もちものが　いっぱいです<X>
+소지품이　가득합니다<X>
+//Store desc 2
+#W16($5B67E)
+// あずけるアイテムをえらん<X>
+보관소로　보낼　아이템을<X>
+//Store desc 3
+#W16($5B68F)
+// でください<X>
+선택해　주세요<X>
+
+#JMP($5B5B2, $5B5DD)
+//Store item?
+#W16($5B57F)
+// このアイテムをあずけますか？<X>
+이　아이템을　보내겠습니까？<X>
+
+#W16($5B590)
+예<X>
+
+#W16($5B5A1)
+아니요<X>
+
+
+//Such and such a phase
+
+#JMP($5AD47, $5AD54)
+#W16($5AD32)
+　ＰＨＡＳＥ<X>
+ 
+ 
+//Staff menu options in castle
+//fe4transsrc:staff
+#JMP($5E9A1, $5E9C6)
+
+#W16($5EA40)
+<$6B><$E9><$85><$01><$01>
+// 　じょうない<X>
+　성내<X>
+
+#W16($5EA3E)
+<$86><$E9><$85><$01><$01>
+// 　じょうがい<X>
+　성외<X>
+
+//This file is for altering the tiles used for the on-map status titles.
+//fe4transsrc:statusmap
+
+//all 4byte
+//Silence
+#JMP($5C988)
+//サイレス//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menu_text/menutext.tbl", menu)
+#ACTIVETBL(menu)
+#VAR(Ptr, CUSTOMPOINTER)
+#CREATEPTR(Ptr, "HIROM", $400000, 24)
+
+//armptr structure
+//text located [bank]:[addr]
+//A900[bank]85XX
+//A9[addr]85XX
+//So if you want to send text to another bank
+//You also need to change [bank]
+
+#HDR($0)
+
+
+//Castle Menu Choices
+//fe4transrc:castlemenu
+//Spaces are important,
+//otherwise text leaks in from below
+
+
+//BLOCK NAME: 		Status Screen
+//fe4transrc:status.txt
+//[asmptr]
+#JMP($9BAC1, $9BAE8)
+
+//Weapon stat labels, item menu
+
+#W16($9B9B2)
+//めいちゅう<X>
+명중<X>
+
+#W16($9B9C3)
+//いりょく<X>
+위력<X>
+
+#W16($9B9D4)
+//しゃてい<X>
+사정<X>
+
+#W16($9B9E5)
+//おもさ<X>
+무게<X>
+
+//unused?
+//9:BAE9
+// アイテム<X>
+
+#JMP($9B9B7)//Item Screen Wep Accuracy
+<$16>
+#JMP($9B9C8)//Item Screen Wep Might
+<$16>
+#JMP($9B9D9)//Item Screen Wep Range
+<$16>
+#JMP($9B9EA)//Item Screen Wep Weight
+<$16>
+
+//Weapon stat labels, stat screen
+
+#JMP($98973, $9899A)
+
+#W16($9881D)
+//めいちゅう<X>
+명중<X>
+
+#W16($9882E)
+//いりょく<X>
+위력<X>
+
+#W16($9883F)
+//しゃてい<X>
+사정<X>
+
+#W16($98850)
+//おもさ<X>
+무게<X>
+
+//unused?
+//9:899B
+// のこり<X>
+//9:89A3
+// Ｇ<X>
+//9:89A7
+// ??<X>
+
+#JMP($98822)//Item Screen Wep Accuracy
+<$04>
+#JMP($98833)//Item Screen Wep Might
+<$04>
+#JMP($98844)//Item Screen Wep Range
+<$04>
+#JMP($98855)//Item Screen Wep Weight
+<$04>
+
+#JMP($99C52, $99C7B)
+//Stat screen, top right corner
+
+#W16($99C05)
+//こうげき<X>
+공격<X>
+
+#W16($99C16)
+//めいちゅう<X>
+명중<X>
+
+#W16($99C27)
+//しゃてい<X>
+사정<X>
+
+#W16($99C38)
+//かいひち<X>
+회피<X>
+
+
+#JMP($99D26, $99D71)
+//Stat screen, stat labels
+
+#W16($99CB4)
+//ちから<X>
+힘<X>
+
+#W16($99CC5)
+//まりょく<X>
+마력<X>
+
+#W16($99CD6)
+//わざ<X>
+기술<X>
+
+#W16($99CE7)
+//すばやさ<X>
+날렵함<X>
+
+#W16($99CF8)
+//うんのよさ<X>
+운의　좋음<X>
+
+#W16($99D09)
+//しゅびりょく<X>
+수비력<X>
+
+#W16($99D1A)
+//まほうぼうぎょ<X>
+마법　방어<X>
+
+//Stat screen 2
+#JMP($99F0B, $99FA0)
+#W16($99DD6)
+//しきかん<X>
+지휘관<X>
+
+#W16($99DED)
+//しょぞく<X>
+소속<X>
+
+#W16($99E00)
+//こいびと<X>
+연인<X>
+
+#W16($99E11)
+//かいわ<X>
+회화<X>
+
+#W16($99E22)
+//いどう<X>
+이동<X>
+
+#W16($99E33)
+//しょじきん<X>
+소지금<X>
+
+#W16($99E44)
+//とうぎＬＶ<X>
+투기ＬＶ<X>
+
+#W16($99E55)
+//じょうたい<X>
+상태<X>
+
+//Weapon type strings
+#W16($99E66)
+//けん<X>
+검<X>
+#W16($99E77)
+//やり<X>
+창<X>
+#W16($99E88)
+//おの<X>
+도끼<X>
+#W16($99E99)
+//ゆみ<X>
+활<X>
+#W16($99EAA)
+//つえ<X>
+지팡이<X>
+
+#W16($99EBB)
+//ほのお<X>
+불꽃<X>
+#W16($99ECC)
+//いかずち<X>
+천둥<X>
+#W16($99EDD)
+//かぜ<X>
+바람<X>
+#W16($99EEE)
+//ひかり<X>
+빛<X>
+#W16($99EFF)
+//やみ<X>
+어둠<X>
+
+//Personal/Class skill labels
+#JMP($9A4C5, $9A4E3)
+
+#W16($9A4AC)
+//こじんスキル<X>
+개인　기술<X>
+
+#W16($9A4A0)
+//へいしゅスキル<X>
+병종　스킬<X>
+
+
+//Valkyrie dialogue
+//fe4transrc:valkyre
+//[asmptr]
+#JMP($9F941, $9FFFF)//blank area
+//#JMP($9AE45, $9AE7C)//9AEB2
+//$9B07C for end of proper text
+//Revive? (more than one person dead)
+#W16($9ADED)
+// をいきかえらせますか<X>
+（을）를　되살리겠습니까？<X>
+//Revive? (only one person dead)
+#W16($9AE07)
+// よろしいですか<X>
+괜찮으시겠습니까？<X>
+
+#W16($9AE18)
+// はい　　　いいえ<X>
+예　　　　아니요<X>
+
+//this text localted at bank 80
+#JMP($E23E, $E257)
+//Who? (Original)
+//#W16($E1C)//font position?
+#W16($E1CC)//font position?
+// だれをいきかえらせますか<X>
+누구를　되살리겠습니까？<X>
+
+#JMP($9AFDE, $9B1F7)//9B02D
+//Who? (Reprint)
+#W16($9AFBB)
+// だれをいきかえらせますか<X>
+누구를　되살리겠습니까？<X>
+
+
+//Status conditions
+#JMP($9A781, $9A7C8)
+
+#W16($9A76C)
+//せいじょう<X>
+정상<X>
+
+#W16($9A76F)
+//ちりょう<X>
+치료<X>
+
+#W16($9A772)
+//アルバイト<X>
+아르바이트<X>
+
+#W16($9A775)
+//ほりょ<X>
+포로<X>
+
+#W16($9A778)
+//サイレス<X>
+사일레스<X>//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menu_text/menutext.tbl", menu)
+#ACTIVETBL(menu)
+
+//BLOCK #006 NAME:		Army Names
+#VAR(Army, CUSTOMPOINTER)
+#CREATEPTR(Army, "LINEAR", $3D8E8, 16)
+
+#JMP($3D956, $3DC11)
+
+//POINTER #0 @ $3D8E8 - STRING #0 @ $3D956
+
+#WRITE(Army, $3D8E8)
+//マディノ軍[X]
+마디노군[X]
+
+//POINTER #1 @ $3D8EA - STRING #1 @ $3D962
+
+#WRITE(Army, $3D8EA)
+//シルベ?ル軍[X]
+실베일군[X]
+
+//POINTER #2 @ $3D8EC - STRING #2 @ $3D970
+
+#WRITE(Army, $3D8EC)
+//アンフォニ?軍[X]
+안포니군[X]
+
+//POINTER #3 @ $3D8EE - STRING #3 @ $3D980
+
+#WRITE(Army, $3D8EE)
+//アグスティ軍[X]
+아그스티군[X]
+
+//POINTER #4 @ $3D8F0 - STRING #4 @ $3D98E
+
+#WRITE(Army, $3D8F0)
+//ハイライン軍[X]
+하이라인군[X]
+
+//POINTER #5 @ $3D8F2 - STRING #5 @ $3D99C
+
+#WRITE(Army, $3D8F2)
+//マッキリ?軍[X]
+맥키리군[X]
+
+//POINTER #6 @ $3D8F4 - STRING #6 @ $3D9AA
+
+#WRITE(Army, $3D8F4)
+//ノディオン軍[X]
+노디온군[X]
+
+//POINTER #7 @ $3D8F6 - STRING #7 @ $3D9B8
+//POINTER #46 @ $3D944 - STRING #46 @ $3DBA4
+
+#WRITE(Army, $3D944)
+#WRITE(Army, $3D8F6)
+//ヴェルトマ?軍[X]
+벨트머군[X]
+
+//POINTER #8 @ $3D8F8 - STRING #8 @ $3D9C8
+//POINTER #47 @ $3D946 - STRING #47 @ $3DBB4
+
+#WRITE(Army, $3D946)
+#WRITE(Army, $3D8F8)
+//フリ?ジ軍[X]
+프리지군[X]
+
+//POINTER #9 @ $3D8FA - STRING #9 @ $3D9D4
+//POINTER #48 @ $3D948 - STRING #48 @ $3DBC0
+
+#WRITE(Army, $3D948)
+#WRITE(Army, $3D8FA)
+//バ?ハラ軍[X]
+발할라군[X]
+
+//POINTER #10 @ $3D8FC - STRING #10 @ $3D9E0
+//POINTER #49 @ $3D94A - STRING #49 @ $3DBCC
+
+#WRITE(Army, $3D94A)
+#WRITE(Army, $3D8FC)
+//ドズル軍[X]
+도즐군[X]
+
+//POINTER #11 @ $3D8FE - STRING #11 @ $3D9EA
+//POINTER #50 @ $3D94C - STRING #50 @ $3DBD6
+
+#WRITE(Army, $3D94C)
+#WRITE(Army, $3D8FE)
+//エッダ軍[X]
+에다군[X]
+
+//POINTER #12 @ $3D900 - STRING #12 @ $3D9F4
+//POINTER #51 @ $3D94E - STRING #51 @ $3DBE0
+
+#WRITE(Army, $3D94E)
+#WRITE(Army, $3D900)
+// シアルフィ軍[X]
+시알피군[X]
+
+//POINTER #13 @ $3D902 - STRING #13 @ $3DA02
+//POINTER #52 @ $3D950 - STRING #52 @ $3DBEE
+
+#WRITE(Army, $3D950)
+#WRITE(Army, $3D902)
+// ユングヴィ軍[X]
+잉그비군[X]
+
+//POINTER #14 @ $3D904 - STRING #14 @ $3DA10
+
+#WRITE(Army, $3D904)
+//レンスタ?軍[X]
+렌스터군[X]
+
+//POINTER #15 @ $3D906 - STRING #15 @ $3DA1E
+
+#WRITE(Army, $3D906)
+//コノ?ト軍[X]
+코노트군[X]
+
+//POINTER #16 @ $3D908 - STRING #16 @ $3DA2A
+
+#WRITE(Army, $3D908)
+// マンスタ?軍[X]
+먼스터군[X]
+
+//POINTER #17 @ $3D90A - STRING #17 @ $3DA38
+
+#WRITE(Army, $3D90A)
+//メルゲン軍[X]
+멜겐군[X]
+
+//POINTER #18 @ $3D90C - STRING #18 @ $3DA44
+
+#WRITE(Army, $3D90C)
+//アルスタ?軍[X]
+얼스터군[X]
+
+//POINTER #19 @ $3D90E - STRING #19 @ $3DA52
+
+#WRITE(Army, $3D90E)
+// オ?ガヒル軍[X]
+오거힐군[X]
+
+//POINTER #20 @ $3D910 - STRING #20 @ $3DA60
+
+#WRITE(Army, $3D910)
+//ト?ヴェ軍[X]
+토베군[X]
+
+//POINTER #21 @ $3D912 - STRING #21 @ $3DA6C
+
+#WRITE(Army, $3D912)
+//セイレ?ン軍[X]
+세이렌군[X]
+
+//POINTER #22 @ $3D914 - STRING #22 @ $3DA7A
+
+#WRITE(Army, $3D914)
+//ザクソン軍[X]
+잭슨군[X]
+
+//POINTER #23 @ $3D916 - STRING #23 @ $3DA86
+
+#WRITE(Army, $3D916)
+//シレジア軍[X]
+실레지아군[X]
+
+//POINTER #24 @ $3D918 - STRING #24 @ $3DA92
+
+#WRITE(Army, $3D918)
+//リュ?ベック軍[X]
+뤼벡군[X]
+
+//POINTER #25 @ $3D91A - STRING #25 @ $3DAA2
+
+#WRITE(Army, $3D91A)
+//ティルナノグ軍[X]
+티르나노그군[X]
+
+//POINTER #26 @ $3D91C - STRING #26 @ $3DAB2
+
+#WRITE(Army, $3D91C)
+//ガネ?シャ軍[X]
+가네샤군[X]
+
+//POINTER #27 @ $3D91E - STRING #27 @ $3DAC0
+
+#WRITE(Army, $3D91E)
+//ソファラ軍[X]
+소파라군[X]
+
+//POINTER #28 @ $3D920 - STRING #28 @ $3DACC
+
+#WRITE(Army, $3D920)
+//イザ?ク軍[X]
+이자크군[X]
+
+//POINTER #29 @ $3D922 - STRING #29 @ $3DAD8
+
+#WRITE(Army, $3D922)
+//リボ?軍[X]
+리보군[X]
+
+//POINTER #30 @ $3D924 - STRING #30 @ $3DAE2
+
+#WRITE(Army, $3D924)
+//フィノ?ラ軍[X]
+피노라군[X]
+
+//POINTER #31 @ $3D926 - STRING #31 @ $3DAF0
+
+#WRITE(Army, $3D926)
+//イ?ド軍[X]
+이드군[X]
+
+//POINTER #32 @ $3D928 - STRING #32 @ $3DAFA
+
+#WRITE(Army, $3D928)
+//ダ?ナ軍[X]
+다나군[X]
+
+//POINTER #33 @ $3D92A - STRING #33 @ $3DB04
+
+#WRITE(Army, $3D92A)
+//ヴェルダン軍[X]
+베르던군[X]
+
+//POINTER #34 @ $3D92C - STRING #34 @ $3DB12
+
+#WRITE(Army, $3D92C)
+//エバンス軍[X]
+에반스군[X]
+
+//POINTER #35 @ $3D92E - STRING #35 @ $3DB1E
+
+#WRITE(Army, $3D92E)
+//ジェノア軍[X]
+제노아군[X]
+
+//POINTER #36 @ $3D930 - STRING #36 @ $3DB2A
+
+#WRITE(Army, $3D930)
+// マ?ファ軍[X]
+마파군[X]
+
+//POINTER #37 @ $3D932 - STRING #37 @ $3DB36
+
+#WRITE(Army, $3D932)
+// ミレトス軍[X]
+밀레토스군[X]
+
+//POINTER #38 @ $3D934 - STRING #38 @ $3DB42
+
+#WRITE(Army, $3D934)
+// ペルル?ク軍[X]
+페를루크군[X]
+
+//POINTER #39 @ $3D936 - STRING #39 @ $3DB50
+
+#WRITE(Army, $3D936)
+// クロノス軍[X]
+크로노스군[X]
+
+//POINTER #40 @ $3D938 - STRING #40 @ $3DB5C
+
+#WRITE(Army, $3D938)
+// ラドス軍[X]
+라도스군[X]
+
+//POINTER #41 @ $3D93A - STRING #41 @ $3DB66
+
+#WRITE(Army, $3D93A)
+// ミ?ズ軍[X]
+미즈군[X]
+
+//POINTER #42 @ $3D93C - STRING #42 @ $3DB70
+
+#WRITE(Army, $3D93C)
+//カパトギア軍[X]
+카파토기아군[X]
+
+//POINTER #43 @ $3D93E - STRING #43 @ $3DB7E
+
+#WRITE(Army, $3D93E)
+// ルテキア軍[X]
+루테키아군[X]
+
+//POINTER #44 @ $3D940 - STRING #44 @ $3DB8A
+
+#WRITE(Army, $3D940)
+//トラキア軍[X]
+트라키아군[X]
+
+//POINTER #45 @ $3D942 - STRING #45 @ $3DB96
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menu_text/menutext.tbl", menu)
+#ACTIVETBL(menu)
+
+//BLOCK #009 NAME:		Castle Names
+
+#VAR(Castle, CUSTOMPOINTER)
+#CREATEPTR(Castle, "LINEAR", $3F517, 16)
+
+#JMP($3F573, $3F7C0)
+
+//POINTER #0 @ $3F517 - STRING #0 @ $3F573
+
+#WRITE(Castle, $3F517)
+// マディノ城[X]
+마디노성[X]
+
+//POINTER #1 @ $3F519 - STRING #1 @ $3F57F
+
+#WRITE(Castle, $3F519)
+// シルベ?ル城[X]
+실베일성[X]
+
+//POINTER #2 @ $3F51B - STRING #2 @ $3F58D
+
+#WRITE(Castle, $3F51B)
+// アンフォニ?城[X]
+안포니성[X]
+
+//POINTER #3 @ $3F51D - STRING #3 @ $3F59D
+
+#WRITE(Castle, $3F51D)
+// アグスティ城[X]
+아그스티성[X]
+
+//POINTER #4 @ $3F51F - STRING #4 @ $3F5AB
+
+#WRITE(Castle, $3F51F)
+// ハイライン城[X]
+하이라인성[X]
+
+//POINTER #5 @ $3F521 - STRING #5 @ $3F5B9
+
+#WRITE(Castle, $3F521)
+// マッキリ?城[X]
+맥키리성[X]
+
+//POINTER #6 @ $3F523 - STRING #6 @ $3F5C7
+
+#WRITE(Castle, $3F523)
+// ノディオン城[X]
+노디온성[X]
+
+//POINTER #7 @ $3F525 - STRING #7 @ $3F5D5
+
+#WRITE(Castle, $3F525)
+// ヴェルトマ?城[X]
+벨트머성[X]
+
+//POINTER #8 @ $3F527 - STRING #8 @ $3F5E5
+
+#WRITE(Castle, $3F527)
+// フリ?ジ城[X]
+프리지성[X]
+
+//POINTER #9 @ $3F529 - STRING #9 @ $3F5F1
+
+#WRITE(Castle, $3F529)
+// バ?ハラ城[X]
+발할라성[X]
+
+//POINTER #10 @ $3F52B - STRING #10 @ $3F5FD
+
+#WRITE(Castle, $3F52B)
+// ドズル城[X]
+도즐성[X]
+
+//POINTER #11 @ $3F52D - STRING #11 @ $3F607
+
+#WRITE(Castle, $3F52D)
+// エッダ城[X]
+에다성[X]
+
+//POINTER #12 @ $3F52F - STRING #12 @ $3F611
+
+#WRITE(Castle, $3F52F)
+// シアルフィ城[X]
+시알피성[X]
+
+//POINTER #13 @ $3F531 - STRING #13 @ $3F61F
+
+#WRITE(Castle, $3F531)
+// ユングヴィ城[X]
+잉그비성[X]
+
+//POINTER #14 @ $3F533 - STRING #14 @ $3F62D
+
+#WRITE(Castle, $3F533)
+// レンスタ?城[X]
+렌스터성[X]
+
+//POINTER #15 @ $3F535 - STRING #15 @ $3F63B
+
+#WRITE(Castle, $3F535)
+// コノ?ト城[X]
+코노트성[X]
+
+//POINTER #16 @ $3F537 - STRING #16 @ $3F647
+
+#WRITE(Castle, $3F537)
+// マンスタ?城[X]
+먼스터성[X]
+
+//POINTER #17 @ $3F539 - STRING #17 @ $3F655
+
+#WRITE(Castle, $3F539)
+// メルゲン城[X]
+멜겐성[X]
+
+//POINTER #18 @ $3F53B - STRING #18 @ $3F661
+
+#WRITE(Castle, $3F53B)
+// アルスタ?城[X]
+얼스터성[X]
+
+//POINTER #19 @ $3F53D - STRING #19 @ $3F66F
+
+#WRITE(Castle, $3F53D)
+// オ?ガヒル城[X]
+오거힐성[X]
+
+//POINTER #20 @ $3F53F - STRING #20 @ $3F67D
+
+#WRITE(Castle, $3F53F)
+// ト?ヴェ城[X]
+토베성[X]
+
+//POINTER #21 @ $3F541 - STRING #21 @ $3F689
+
+#WRITE(Castle, $3F541)
+// セイレ?ン城[X]
+세이렌성[X]
+
+//POINTER #22 @ $3F543 - STRING #22 @ $3F697
+
+#WRITE(Castle, $3F543)
+// ザクソン城[X]
+잭슨성[X]
+
+//POINTER #23 @ $3F545 - STRING #23 @ $3F6A3
+
+#WRITE(Castle, $3F545)
+// シレジア城[X]
+실레지아성[X]
+
+//POINTER #24 @ $3F547 - STRING #24 @ $3F6AF
+
+#WRITE(Castle, $3F547)
+// リュ?ベック城[X]
+뤼벡성[X]
+
+//POINTER #25 @ $3F549 - STRING #25 @ $3F6BF
+
+#WRITE(Castle, $3F549)
+// ティルナノグ城[X]
+티르나노그성[X]
+
+//POINTER #26 @ $3F54B - STRING #26 @ $3F6CF
+
+#WRITE(Castle, $3F54B)
+// ガネ?シャ城[X]
+가네샤성[X]
+
+//POINTER #27 @ $3F54D - STRING #27 @ $3F6DD
+
+#WRITE(Castle, $3F54D)
+// ソファラ城[X]
+소파라성[X]
+
+//POINTER #28 @ $3F54F - STRING #28 @ $3F6E9
+
+#WRITE(Castle, $3F54F)
+// イザ?ク城[X]
+이자크성[X]
+
+//POINTER #29 @ $3F551 - STRING #29 @ $3F6F5
+
+#WRITE(Castle, $3F551)
+// リボ?城[X]
+리보성[X]
+
+//POINTER #30 @ $3F553 - STRING #30 @ $3F6FF
+
+#WRITE(Castle, $3F553)
+// フィノ?ラ城[X]
+피노라성[X]
+
+//POINTER #31 @ $3F555 - STRING #31 @ $3F70D
+
+#WRITE(Castle, $3F555)
+// イ?ド城[X]
+이드성[X]
+
+//POINTER #32 @ $3F557 - STRING #32 @ $3F717
+
+#WRITE(Castle, $3F557)
+// ダ?ナ城[X]
+다나성[X]
+
+//POINTER #33 @ $3F559 - STRING #33 @ $3F721
+
+#WRITE(Castle, $3F559)
+// ヴェルダン城[X]
+베르던성[X]
+
+//POINTER #34 @ $3F55B - STRING #34 @ $3F72F
+
+#WRITE(Castle, $3F55B)
+// エバンス城[X]
+에반스성[X]
+
+//POINTER #35 @ $3F55D - STRING #35 @ $3F73B
+
+#WRITE(Castle, $3F55D)
+// ジェノア城[X]
+제노아성[X]
+
+//POINTER #36 @ $3F55F - STRING #36 @ $3F747
+
+#WRITE(Castle, $3F55F)
+// マ?ファ城[X]
+마파성[X]
+
+//POINTER #37 @ $3F561 - STRING #37 @ $3F753
+
+#WRITE(Castle, $3F561)
+// ミレトス城[X]
+밀레토스성[X]
+
+//POINTER #38 @ $3F563 - STRING #38 @ $3F75F
+
+#WRITE(Castle, $3F563)
+// ペルル?ク城[X]
+페를루크성[X]
+
+//POINTER #39 @ $3F565 - STRING #39 @ $3F76D
+
+#WRITE(Castle, $3F565)
+// クロノス城[X]
+크로노스성[X]
+
+//POINTER #40 @ $3F567 - STRING #40 @ $3F779
+
+#WRITE(Castle, $3F567)
+// ラドス城[X]
+라도스성[X]
+
+//POINTER #41 @ $3F569 - STRING #41 @ $3F783
+
+#WRITE(Castle, $3F569)
+// ミ?ズ城[X]
+미즈성[X]
+
+//POINTER #42 @ $3F56B - STRING #42 @ $3F78D
+
+#WRITE(Castle, $3F56B)
+// カパトギア城[X]
+카파토기아성[X]
+
+//POINTER #43 @ $3F56D - STRING #43 @ $3F79B
+
+#WRITE(Castle, $3F56D)
+// ルテキア城[X]
+루테키아성[X]
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menu_text/menutext.tbl", menu)
+#ACTIVETBL(menu)
+
+//BLOCK #005 NAME:		Character Names
+#VAR(Unit, CUSTOMPOINTER)
+#CREATEPTR(Unit, "LINEAR", $39A59, 16)
+
+#JMP($39ECD, $3ADF3)
+
+//POINTER #000 @ $39A59 - STRING #000 @ $39ECD
+
+#WRITE(Unit, $39A59)
+//シグルド[X]
+시구르드[X]
+
+//POINTER #001 @ $39A5B - STRING #001 @ $39ED7
+
+#WRITE(Unit, $39A5B)
+//ノイッシュ[X]
+노이쉬[X]
+
+//POINTER #002 @ $39A5D - STRING #002 @ $39EE3
+
+#WRITE(Unit, $39A5D)
+//アレク[X]
+알렉[X]
+
+//POINTER #003 @ $39A5F - STRING #003 @ $39EEB
+
+#WRITE(Unit, $39A5F)
+//ア?ダン[X]
+아단[X]
+
+//POINTER #004 @ $39A61 - STRING #004 @ $39EF5
+//POINTER #033 @ $39A9B - STRING #033 @ $39EF5
+
+#WRITE(Unit, $39A9B)
+#WRITE(Unit, $39A61)
+//フィン[X]
+핀[X]
+
+//POINTER #005 @ $39A63 - STRING #005 @ $39EFD
+
+#WRITE(Unit, $39A63)
+//キュアン[X]
+큐안[X]
+
+//POINTER #006 @ $39A65 - STRING #006 @ $39F07
+
+#WRITE(Unit, $39A65)
+//ミデェ?ル[X]
+미데일[X]
+
+//POINTER #007 @ $39A67 - STRING #007 @ $39F13
+
+#WRITE(Unit, $39A67)
+//レヴィン[X]
+레빈[X]
+
+//POINTER #008 @ $39A69 - STRING #008 @ $39F1D
+
+#WRITE(Unit, $39A69)
+//ホリン[X]
+호린[X]
+
+//POINTER #009 @ $39A6B - STRING #009 @ $39F25
+
+#WRITE(Unit, $39A6B)
+//アゼル[X]
+아젤[X]
+
+//POINTER #010 @ $39A6D - STRING #010 @ $39F2D
+
+#WRITE(Unit, $39A6D)
+//ジャムカ[X]
+자무카[X]
+
+//POINTER #011 @ $39A6F - STRING #011 @ $39F37
+
+#WRITE(Unit, $39A6F)
+//クロ?ド[X]
+클로드[X]
+
+//POINTER #012 @ $39A71 - STRING #012 @ $39F41
+
+#WRITE(Unit, $39A71)
+//ベオウルフ[X]
+베오울프[X]
+
+//POINTER #013 @ $39A73 - STRING #013 @ $39F4D
+
+#WRITE(Unit, $39A73)
+//レックス[X]
+렉스[X]
+
+//POINTER #014 @ $39A75 - STRING #014 @ $39F57
+
+#WRITE(Unit, $39A75)
+//デュ?[X]
+듀[X]
+
+//POINTER #015 @ $39A77 - STRING #015 @ $39F5F
+
+#WRITE(Unit, $39A77)
+//ディアドラ[X]
+디아도라[X]
+
+//POINTER #016 @ $39A79 - STRING #016 @ $39F6B
+
+#WRITE(Unit, $39A79)
+//エスリン[X]
+에슬린[X]
+
+//POINTER #017 @ $39A7B - STRING #017 @ $39F75
+
+#WRITE(Unit, $39A7B)
+//ラケシス[X]
+라케시스[X]
+
+//POINTER #018 @ $39A7D - STRING #018 @ $39F7F
+
+#WRITE(Unit, $39A7D)
+//アイラ[X]
+아이라[X]
+
+//POINTER #019 @ $39A7F - STRING #019 @ $39F87
+
+#WRITE(Unit, $39A7F)
+//フュリ?[X]
+퓨리[X]
+
+//POINTER #020 @ $39A81 - STRING #020 @ $39F91
+
+#WRITE(Unit, $39A81)
+//ティルテュ[X]
+틸튜[X]
+
+//POINTER #021 @ $39A83 - STRING #021 @ $39F9D
+
+#WRITE(Unit, $39A83)
+//シルヴィア[X]
+실비아[X]
+
+//POINTER #022 @ $39A85 - STRING #022 @ $39FA9
+
+#WRITE(Unit, $39A85)
+//エ?ディン[X]
+에딘[X]
+
+//POINTER #023 @ $39A87 - STRING #023 @ $39FB5
+
+#WRITE(Unit, $39A87)
+//ブリギッド[X]
+브리기드[X]
+
+//POINTER #024 @ $39A89 - STRING #024 @ $39FC1
+
+#WRITE(Unit, $39A89)
+//セリス[X]
+세리스[X]
+
+//POINTER #025 @ $39A8B - STRING #025 @ $39FC9
+
+#WRITE(Unit, $39A8B)
+//シャナン[X]
+샤난[X]
+
+//POINTER #026 @ $39A8D - STRING #026 @ $39FD3
+
+#WRITE(Unit, $39A8D)
+//ロドルバン[X]
+로돌번[X]
+
+//POINTER #027 @ $39A8F - STRING #027 @ $39FDF
+
+#WRITE(Unit, $39A8F)
+//アサエロ[X]
+아사엘로[X]
+
+//POINTER #028 @ $39A91 - STRING #028 @ $39FE9
+
+#WRITE(Unit, $39A91)
+//リ?フ[X]
+리프[X]
+
+//POINTER #029 @ $39A93 - STRING #029 @ $39FF1
+
+#WRITE(Unit, $39A93)
+//ヨハン[X]
+요한[X]
+
+//POINTER #030 @ $39A95 - STRING #030 @ $39FF9
+
+#WRITE(Unit, $39A95)
+//シャルロ?[X]
+샤를로[X]
+
+//POINTER #031 @ $39A97 - STRING #031 @ $3A005
+
+#WRITE(Unit, $39A97)
+//ホ?ク[X]
+호크[X]
+
+//POINTER #032 @ $39A99 - STRING #032 @ $3A00D
+
+#WRITE(Unit, $39A99)
+//トリスタン[X]
+트리스탄[X]
+
+//POINTER #034 @ $39A9D - STRING #034 @ $3A019
+
+#WRITE(Unit, $39A9D)
+//ディムナ[X]
+딤나[X]
+
+//POINTER #035 @ $39A9F - STRING #035 @ $3A023
+
+#WRITE(Unit, $39A9F)
+//ハンニバル[X]
+한니발[X]
+
+//POINTER #036 @ $39AA1 - STRING #036 @ $3A02F
+
+#WRITE(Unit, $39AA1)
+//アレス[X]
+아레스[X]
+
+//POINTER #037 @ $39AA3 - STRING #037 @ $3A037
+
+#WRITE(Unit, $39AA3)
+//アミッド[X]
+아미드[X]
+
+//POINTER #038 @ $39AA5 - STRING #038 @ $3A041
+
+#WRITE(Unit, $39AA5)
+//オイフェ[X]
+오이페[X]
+
+//POINTER #039 @ $39AA7 - STRING #039 @ $3A04B
+
+#WRITE(Unit, $39AA7)
+//デイジ?[X]
+데이지[X]
+
+//POINTER #040 @ $39AA9 - STRING #040 @ $3A055
+
+#WRITE(Unit, $39AA9)
+//ラドネイ[X]
+라드네이[X]
+
+//POINTER #041 @ $39AAB - STRING #041 @ $3A05F
+
+#WRITE(Unit, $39AAB)
+//マナ[X]
+마나[X]
+
+//POINTER #042 @ $39AAD - STRING #042 @ $3A065
+
+#WRITE(Unit, $39AAD)
+//ユリア[X]
+율리아[X]
+
+//POINTER #043 @ $39AAF - STRING #043 @ $3A06D
+
+#WRITE(Unit, $39AAF)
+//アルテナ[X]
+아르테나[X]
+
+//POINTER #044 @ $39AB1 - STRING #044 @ $3A077
+
+#WRITE(Unit, $39AB1)
+//フェミナ[X]
+페미나[X]
+
+//POINTER #045 @ $39AB3 - STRING #045 @ $3A081
+
+#WRITE(Unit, $39AB3)
+//リンダ[X]
+린다[X]
+
+//POINTER #046 @ $39AB5 - STRING #046 @ $3A089
+
+#WRITE(Unit, $39AB5)
+//レイリア[X]
+레일리아[X]
+
+//POINTER #047 @ $39AB7 - STRING #047 @ $3A093
+
+#WRITE(Unit, $39AB7)
+//ジャンヌ[X]
+잔느[X]
+
+//POINTER #048 @ $39AB9 - STRING #048 @ $3A09D
+
+#WRITE(Unit, $39AB9)
+//ヨハルヴァ[X]
+요하르바[X]
+
+//POINTER #049 @ $39ABB - STRING #049 @ $3A0A9
+
+#WRITE(Unit, $39ABB)
+//スカサハ[X]
+스카사하[X]
+
+//POINTER #050 @ $39ABD - STRING #050 @ $3A0B3
+
+#WRITE(Unit, $39ABD)
+//ファバル[X]
+파발[X]
+
+//POINTER #051 @ $39ABF - STRING #051 @ $3A0BD
+
+#WRITE(Unit, $39ABF)
+//コ?プル[X]
+코플[X]
+
+//POINTER #052 @ $39AC1 - STRING #052 @ $3A0C7
+
+#WRITE(Unit, $39AC1)
+//セティ[X]
+세티[X]
+
+//POINTER #053 @ $39AC3 - STRING #053 @ $3A0CF
+
+#WRITE(Unit, $39AC3)
+//デルムッド[X]
+델무드[X]
+
+//POINTER #054 @ $39AC5 - STRING #054 @ $3A0DB
+
+#WRITE(Unit, $39AC5)
+//レスタ?[X]
+레스터[X]
+
+//POINTER #055 @ $39AC7 - STRING #055 @ $3A0E5
+
+#WRITE(Unit, $39AC7)
+//ア?サ?[X]
+아서[X]
+
+//POINTER #056 @ $39AC9 - STRING #056 @ $3A0EF
+
+#WRITE(Unit, $39AC9)
+//パティ[X]
+패티[X]
+
+//POINTER #057 @ $39ACB - STRING #057 @ $3A0F7
+
+#WRITE(Unit, $39ACB)
+//ラクチェ[X]
+라크체[X]
+
+//POINTER #058 @ $39ACD - STRING #058 @ $3A101
+
+#WRITE(Unit, $39ACD)
+//ラナ[X]
+라나[X]
+
+//POINTER #059 @ $39ACF - STRING #059 @ $3A107
+
+#WRITE(Unit, $39ACF)
+//フィ?[X]
+피[X]
+
+//POINTER #060 @ $39AD1 - STRING #060 @ $3A10F
+
+#WRITE(Unit, $39AD1)
+//ティニ?[X]
+티니[X]
+
+//POINTER #061 @ $39AD3 - STRING #061 @ $3A119
+
+#WRITE(Unit, $39AD3)
+//リ?ン[X]
+린[X]
+
+//POINTER #062 @ $39AD5 - STRING #062 @ $3A121
+
+#WRITE(Unit, $39AD5)
+//ナンナ[X]
+난나[X]
+
+//POINTER #063 @ $39AD7 - STRING #063 @ $3A16F
+
+#WRITE(Unit, $39AD7)
+//ゲラルド[X]
+게럴드[X]
+
+//POINTER #064 @ $39AD9 - STRING #064 @ $3A135
+
+#WRITE(Unit, $39AD9)
+//デマジオ[X]
+데마지오[X]
+
+//POINTER #065 @ $39ADB - STRING #065 @ $3A13F
+//POINTER #066 @ $39ADD - STRING #066 @ $3A13F
+//POINTER #067 @ $39ADF - STRING #067 @ $3A13F
+//POINTER #068 @ $39AE1 - STRING #068 @ $3A13F
+//POINTER #069 @ $39AE3 - STRING #069 @ $3A13F
+//POINTER #070 @ $39AE5 - STRING #070 @ $3A13F
+//POINTER #072 @ $39AE9 - STRING #072 @ $3A13F
+//POINTER #073 @ $39AEB - STRING #073 @ $3A13F
+//POINTER #074 @ $39AED - STRING #074 @ $3A13F
+//POINTER #075 @ $39AEF - STRING #075 @ $3A13F
+//POINTER #078 @ $39AF5 - STRING #078 @ $3A13F
+//POINTER #079 @ $39AF7 - STRING #079 @ $3A13F
+//POINTER #080 @ $39AF9 - STRING #080 @ $3A13F
+//POINTER #082 @ $39AFD - STRING #082 @ $3A13F
+//POINTER #083 @ $39AFF - STRING #083 @ $3A13F
+//POINTER #085 @ $39B03 - STRING #085 @ $3A13F
+
+#WRITE(Unit, $39ADB)
+#WRITE(Unit, $39ADD)
+#WRITE(Unit, $39ADF)
+#WRITE(Unit, $39AE1)
+#WRITE(Unit, $39AE3)
+#WRITE(Unit, $39AE5)
+#WRITE(Unit, $39AE9)
+#WRITE(Unit, $39AEB)
+#WRITE(Unit, $39AED)
+#WRITE(Unit, $39AEF)
+#WRITE(Unit, $39AF5)
+#WRITE(Unit, $39AF7)
+#WRITE(Unit, $39AF9)
+#WRITE(Unit, $39AFD)
+#WRITE(Unit, $39AFF)
+#WRITE(Unit, $39B03)
+//ヴェルダン兵[X]
+베르던병[X]
+
+//POINTER #071 @ $39AE7 - STRING #071 @ $3A163
+
+#WRITE(Unit, $39AE7)
+//キンボイス[X]
+킴보이스[X]
+
+//POINTER #076 @ $39AF1 - STRING #076 @ $3A129
+
+#WRITE(Unit, $39AF1)
+//ガンドルフ[X]
+간돌프[X]
+
+//POINTER #077 @ $39AF3 - STRING #077 @ $3A14D
+//POINTER #084 @ $39B01 - STRING #084 @ $3A14D
+//POINTER #091 @ $39B0F - STRING #091 @ $3A14D
+//POINTER #105 @ $39B2B - STRING #105 @ $3A251
+//POINTER #120 @ $39B49 - STRING #120 @ $3A251
+//POINTER #125 @ $39B53 - STRING #125 @ $3A251
+//POINTER #127 @ $39B57 - STRING #127 @ $3A251
+//POINTER #143 @ $39B77 - STRING #143 @ $3A2AD
+//POINTER #145 @ $39B7B - STRING #145 @ $3A2AD
+//POINTER #147 @ $39B7F - STRING #147 @ $3A2AD
+//POINTER #149 @ $39B83 - STRING #149 @ $3A2AD
+//POINTER #151 @ $39B87 - STRING #151 @ $3A2AD
+//POINTER #153 @ $39B8B - STRING #153 @ $3A2AD
+//POINTER #156 @ $39B91 - STRING #156 @ $3A2CF
+//POINTER #186 @ $39BCD - STRING #186 @ $3A3B3
+//POINTER #190 @ $39BD5 - STRING #190 @ $3A3B3
+//POINTER #223 @ $39C17 - STRING #223 @ $3A4D7
+//POINTER #227 @ $39C1F - STRING #227 @ $3A4ED
+//POINTER #253 @ $39C53 - STRING #253 @ $3A5A3
+//POINTER #255 @ $39C57 - STRING #255 @ $3A5A3
+//POINTER #257 @ $39C5B - STRING #257 @ $3A5A3
+//POINTER #260 @ $39C61 - STRING #260 @ $3A5A3
+//POINTER #280 @ $39C89 - STRING #280 @ $3A69F
+//POINTER #301 @ $39CB3 - STRING #301 @ $3A69F
+//POINTER #319 @ $39CD7 - STRING #319 @ $3A73B
+//POINTER #322 @ $39CDD - STRING #322 @ $3A73B
+//POINTER #328 @ $39CE9 - STRING #328 @ $3A73B
+//POINTER #332 @ $39CF1 - STRING #332 @ $3A73B
+//POINTER #334 @ $39CF5 - STRING #334 @ $3A73B
+//POINTER #355 @ $39D1F - STRING #355 @ $3A7F9
+//POINTER #360 @ $39D29 - STRING #360 @ $3A7F9
+//POINTER #362 @ $39D2D - STRING #362 @ $3A7F9
+//POINTER #364 @ $39D31 - STRING #364 @ $3A7F9
+//POINTER #407 @ $39D87 - STRING #407 @ $3A8AD
+//POINTER #410 @ $39D8D - STRING #410 @ $3A8AD
+//POINTER #413 @ $39D93 - STRING #413 @ $3A8AD
+
+#WRITE(Unit, $39D93)
+#WRITE(Unit, $39D8D)
+#WRITE(Unit, $39D87)
+#WRITE(Unit, $39D31)
+#WRITE(Unit, $39D2D)
+#WRITE(Unit, $39D29)
+#WRITE(Unit, $39D1F)
+#WRITE(Unit, $39CF5)
+#WRITE(Unit, $39CF1)
+#WRITE(Unit, $39CE9)
+#WRITE(Unit, $39CDD)
+#WRITE(Unit, $39CD7)
+#WRITE(Unit, $39CB3)
+#WRITE(Unit, $39C89)
+#WRITE(Unit, $39C61)
+#WRITE(Unit, $39C5B)
+#WRITE(Unit, $39C57)
+#WRITE(Unit, $39C53)
+#WRITE(Unit, $39C1F)
+#WRITE(Unit, $39C17)
+#WRITE(Unit, $39BD5)
+#WRITE(Unit, $39BCD)
+#WRITE(Unit, $39B91)
+#WRITE(Unit, $39B8B)
+#WRITE(Unit, $39B87)
+#WRITE(Unit, $39B83)
+#WRITE(Unit, $39B7F)
+#WRITE(Unit, $39B7B)
+#WRITE(Unit, $39B77)
+#WRITE(Unit, $39B57)
+#WRITE(Unit, $39B53)
+#WRITE(Unit, $39B49)
+#WRITE(Unit, $39B2B)
+#WRITE(Unit, $39B0F)
+#WRITE(Unit, $39B01)
+#WRITE(Unit, $39AF3)
+//たいちょう[X]
+대장[X]
+
+//POINTER #081 @ $39AFB - STRING #081 @ $3A179
+
+#WRITE(Unit, $39AFB)
+//サンディマ[X]
+산디마[X]
+
+//POINTER #086 @ $39B05 - STRING #086 @ $3A159
+//POINTER #107 @ $39B2F - STRING #107 @ $3A1EB
+//POINTER #226 @ $39C1D - STRING #226 @ $3A4E3
+//POINTER #265 @ $39C6B - STRING #265 @ $3A5D5
+//POINTER #283 @ $39C8F - STRING #283 @ $3A63F
+//POINTER #318 @ $39CD5 - STRING #318 @ $3A6FD
+//POINTER #346 @ $39D0D - STRING #346 @ $3A791
+//POINTER #478 @ $39E15 - STRING #478 @ $3A779
+
+#WRITE(Unit, $39E15)
+#WRITE(Unit, $39D0D)
+#WRITE(Unit, $39CD5)
+#WRITE(Unit, $39C8F)
+#WRITE(Unit, $39C6B)
+#WRITE(Unit, $39C1D)
+#WRITE(Unit, $39B2F)
+#WRITE(Unit, $39B05)
+//とうぞく[X]
+도적[X]
+
+//POINTER #087 @ $39B07 - STRING #087 @ $3A185
+//POINTER #101 @ $39B23 - STRING #101 @ $3A1DF
+
+#WRITE(Unit, $39B23)
+#WRITE(Unit, $39B07)
+//エリオット[X]
+엘리엇[X]
+
+//POINTER #088 @ $39B09 - STRING #088 @ $3A191
+//POINTER #093 @ $39B13 - STRING #093 @ $3A1C5
+//POINTER #095 @ $39B17 - STRING #095 @ $3A1C5
+//POINTER #096 @ $39B19 - STRING #096 @ $3A1C5
+//POINTER #097 @ $39B1B - STRING #097 @ $3A1C5
+//POINTER #098 @ $39B1D - STRING #098 @ $3A1C5
+//POINTER #099 @ $39B1F - STRING #099 @ $3A1C5
+//POINTER #100 @ $39B21 - STRING #100 @ $3A1C5
+//POINTER #102 @ $39B25 - STRING #102 @ $3A1C5
+//POINTER #103 @ $39B27 - STRING #103 @ $3A1C5
+//POINTER #104 @ $39B29 - STRING #104 @ $3A1C5
+
+#WRITE(Unit, $39B29)
+#WRITE(Unit, $39B27)
+#WRITE(Unit, $39B25)
+#WRITE(Unit, $39B21)
+#WRITE(Unit, $39B1F)
+#WRITE(Unit, $39B1D)
+#WRITE(Unit, $39B1B)
+#WRITE(Unit, $39B19)
+#WRITE(Unit, $39B17)
+#WRITE(Unit, $39B13)
+#WRITE(Unit, $39B09)
+//ハイライン兵[X]
+하이라인병[X]
+
+//POINTER #089 @ $39B0B - STRING #089 @ $3A19F
+//POINTER #158 @ $39B95 - STRING #158 @ $3A2DB
+
+#WRITE(Unit, $39B95)
+#WRITE(Unit, $39B0B)
+//エルトシャン[X]
+엘트샨[X]
+
+//POINTER #090 @ $39B0D - STRING #090 @ $3A1AD
+//POINTER #159 @ $39B97 - STRING #159 @ $3A2E9
+
+#WRITE(Unit, $39B97)
+#WRITE(Unit, $39B0D)
+//クロスナイツ[X]
+크로스나이츠[X]
+
+//POINTER #092 @ $39B11 - STRING #092 @ $3A1BB
+
+#WRITE(Unit, $39B11)
+//ボルド?[X]
+보르도[X]
+
+//POINTER #094 @ $39B15 - STRING #094 @ $3A1D3
+
+#WRITE(Unit, $39B15)
+//フィリップ[X]
+필립[X]
+
+//POINTER #106 @ $39B2D - STRING #106 @ $3A207
+//POINTER #111 @ $39B37 - STRING #111 @ $3A207
+//POINTER #112 @ $39B39 - STRING #112 @ $3A207
+//POINTER #113 @ $39B3B - STRING #113 @ $3A207
+
+#WRITE(Unit, $39B3B)
+#WRITE(Unit, $39B39)
+#WRITE(Unit, $39B37)
+#WRITE(Unit, $39B2D)
+//アンフォニ?兵[X]
+안포니병[X]
+
+//POINTER #108 @ $39B31 - STRING #108 @ $3A237
+//POINTER #117 @ $39B43 - STRING #117 @ $3A237
+//POINTER #118 @ $39B45 - STRING #118 @ $3A237
+//POINTER #119 @ $39B47 - STRING #119 @ $3A237
+//POINTER #121 @ $39B4B - STRING #121 @ $3A237
+
+#WRITE(Unit, $39B4B)
+#WRITE(Unit, $39B47)
+#WRITE(Unit, $39B45)
+#WRITE(Unit, $39B43)
+#WRITE(Unit, $39B31)
+//マッキリ?兵[X]
+맥키리병[X]
+
+//POINTER #109 @ $39B33 - STRING #109 @ $3A1F5
+
+#WRITE(Unit, $39B33)
+//イ?ヴ[X]
+이브[X]
+
+//POINTER #110 @ $39B35 - STRING #110 @ $3A1FD
+
+#WRITE(Unit, $39B35)
+//マクベス[X]
+맥베스[X]
+
+//POINTER #114 @ $39B3D - STRING #114 @ $3A217
+
+#WRITE(Unit, $39B3D)
+//ヴォルツ[X]
+보르츠[X]
+
+//POINTER #115 @ $39B3F - STRING #115 @ $3A221
+//POINTER #213 @ $39C03 - STRING #213 @ $3A483
+//POINTER #214 @ $39C05 - STRING #214 @ $3A48D
+//POINTER #215 @ $39C07 - STRING #215 @ $3A497
+//POINTER #216 @ $39C09 - STRING #216 @ $3A4A1
+//POINTER #217 @ $39C0B - STRING #217 @ $3A4AB
+//POINTER #278 @ $39C85 - STRING #278 @ $3A67F
+//POINTER #297 @ $39CAB - STRING #297 @ $3A67F
+//POINTER #298 @ $39CAD - STRING #298 @ $3A67F
+//POINTER #350 @ $39D15 - STRING #350 @ $3A7B1
+//POINTER #351 @ $39D17 - STRING #351 @ $3A7B1
+//POINTER #384 @ $39D59 - STRING #384 @ $3A86D
+//POINTER #385 @ $39D5B - STRING #385 @ $3A86D
+//POINTER #394 @ $39D6D - STRING #394 @ $3A86D
+//POINTER #395 @ $39D6F - STRING #395 @ $3A86D
+//POINTER #396 @ $39D71 - STRING #396 @ $3A86D
+//POINTER #420 @ $39DA1 - STRING #420 @ $3A8E9
+//POINTER #421 @ $39DA3 - STRING #421 @ $3A8E9
+//POINTER #422 @ $39DA5 - STRING #422 @ $3A8E9
+//POINTER #423 @ $39DA7 - STRING #423 @ $3A8E9
+//POINTER #424 @ $39DA9 - STRING #424 @ $3A8E9
+//POINTER #426 @ $39DAD - STRING #426 @ $3A8E9
+//POINTER #427 @ $39DAF - STRING #427 @ $3A8E9
+
+#WRITE(Unit, $39DAF)
+#WRITE(Unit, $39DAD)
+#WRITE(Unit, $39DA9)
+#WRITE(Unit, $39DA7)
+#WRITE(Unit, $39DA5)
+#WRITE(Unit, $39DA3)
+#WRITE(Unit, $39DA1)
+#WRITE(Unit, $39D71)
+#WRITE(Unit, $39D6F)
+#WRITE(Unit, $39D6D)
+#WRITE(Unit, $39D5B)
+#WRITE(Unit, $39D59)
+#WRITE(Unit, $39D17)
+#WRITE(Unit, $39D15)
+#WRITE(Unit, $39CAD)
+#WRITE(Unit, $39CAB)
+#WRITE(Unit, $39C85)
+#WRITE(Unit, $39C0B)
+#WRITE(Unit, $39C09)
+#WRITE(Unit, $39C07)
+#WRITE(Unit, $39C05)
+#WRITE(Unit, $39C03)
+#WRITE(Unit, $39B3F)
+//ようへい[X]
+용병[X]
+
+//POINTER #116 @ $39B41 - STRING #116 @ $3A22B
+
+#WRITE(Unit, $39B41)
+//クレメント[X]
+클레멘트[X]
+
+//POINTER #122 @ $39B4D - STRING #122 @ $3A245
+//POINTER #160 @ $39B99 - STRING #160 @ $3A2F7
+
+#WRITE(Unit, $39B99)
+#WRITE(Unit, $39B4D)
+//シャガ?ル[X]
+샤갈[X]
+
+//POINTER #123 @ $39B4F - STRING #123 @ $3A281
+//POINTER #124 @ $39B51 - STRING #124 @ $3A281
+//POINTER #126 @ $39B55 - STRING #126 @ $3A281
+//POINTER #128 @ $39B59 - STRING #128 @ $3A25D
+//POINTER #131 @ $39B5F - STRING #131 @ $3A281
+//POINTER #132 @ $39B61 - STRING #132 @ $3A281
+//POINTER #133 @ $39B63 - STRING #133 @ $3A281
+//POINTER #134 @ $39B65 - STRING #134 @ $3A281
+
+#WRITE(Unit, $39B65)
+#WRITE(Unit, $39B63)
+#WRITE(Unit, $39B61)
+#WRITE(Unit, $39B5F)
+#WRITE(Unit, $39B59)
+#WRITE(Unit, $39B55)
+#WRITE(Unit, $39B51)
+#WRITE(Unit, $39B4F)
+//アグスティ兵[X]
+아그스티병[X]
+
+//POINTER #129 @ $39B5B - STRING #129 @ $3A26B
+
+#WRITE(Unit, $39B5B)
+//フュリ?たい[X]
+퓨리대[X]
+
+//POINTER #130 @ $39B5D - STRING #130 @ $3A279
+
+#WRITE(Unit, $39B5D)
+//ザイン[X]
+자인[X]
+
+//POINTER #135 @ $39B67 - STRING #135 @ $3A28F
+
+#WRITE(Unit, $39B67)
+//エヴァ[X]
+에바[X]
+
+//POINTER #136 @ $39B69 - STRING #136 @ $3A297
+
+#WRITE(Unit, $39B69)
+//アルヴァ[X]
+아르바[X]
+
+//POINTER #137 @ $39B6B - STRING #137 @ $3A2A1
+
+#WRITE(Unit, $39B6B)
+//シャコバン[X]
+자코뱅[X]
+
+//POINTER #138 @ $39B6D - STRING #138 @ $3A2B9
+//POINTER #139 @ $39B6F - STRING #139 @ $3A2B9
+//POINTER #140 @ $39B71 - STRING #140 @ $3A2B9
+//POINTER #141 @ $39B73 - STRING #141 @ $3A2B9
+//POINTER #142 @ $39B75 - STRING #142 @ $3A2B9
+//POINTER #144 @ $39B79 - STRING #144 @ $3A2B9
+//POINTER #146 @ $39B7D - STRING #146 @ $3A2B9
+//POINTER #148 @ $39B81 - STRING #148 @ $3A2B9
+//POINTER #150 @ $39B85 - STRING #150 @ $3A2B9
+//POINTER #152 @ $39B89 - STRING #152 @ $3A2B9
+//POINTER #154 @ $39B8D - STRING #154 @ $3A2B9
+
+#WRITE(Unit, $39B8D)
+#WRITE(Unit, $39B89)
+#WRITE(Unit, $39B85)
+#WRITE(Unit, $39B81)
+#WRITE(Unit, $39B7D)
+#WRITE(Unit, $39B79)
+#WRITE(Unit, $39B75)
+#WRITE(Unit, $39B73)
+#WRITE(Unit, $39B71)
+#WRITE(Unit, $39B6F)
+#WRITE(Unit, $39B6D)
+//マディノ兵[X]
+마디노병[X]
+
+//POINTER #155 @ $39B8F - STRING #155 @ $3A2C5
+//POINTER #165 @ $39BA3 - STRING #165 @ $3A327
+//POINTER #166 @ $39BA5 - STRING #166 @ $3A327
+//POINTER #167 @ $39BA7 - STRING #167 @ $3A327
+//POINTER #168 @ $39BA9 - STRING #168 @ $3A327
+//POINTER #170 @ $39BAD - STRING #170 @ $3A327
+//POINTER #172 @ $39BB1 - STRING #172 @ $3A327
+//POINTER #173 @ $39BB3 - STRING #173 @ $3A327
+//POINTER #174 @ $39BB5 - STRING #174 @ $3A327
+//POINTER #175 @ $39BB7 - STRING #175 @ $3A327
+//POINTER #195 @ $39BDF - STRING #195 @ $3A3E7
+//POINTER #379 @ $39D4F - STRING #379 @ $3A845
+
+#WRITE(Unit, $39D4F)
+#WRITE(Unit, $39BDF)
+#WRITE(Unit, $39BB7)
+#WRITE(Unit, $39BB5)
+#WRITE(Unit, $39BB3)
+#WRITE(Unit, $39BB1)
+#WRITE(Unit, $39BAD)
+#WRITE(Unit, $39BA9)
+#WRITE(Unit, $39BA7)
+#WRITE(Unit, $39BA5)
+#WRITE(Unit, $39BA3)
+#WRITE(Unit, $39B8F)
+//かいぞく[X]
+해적[X]
+
+//POINTER #157 @ $39B93 - STRING #157 @ $3A303
+//POINTER #161 @ $39B9B - STRING #161 @ $3A303
+//POINTER #162 @ $39B9D - STRING #162 @ $3A303
+
+#WRITE(Unit, $39B9D)
+#WRITE(Unit, $39B9B)
+#WRITE(Unit, $39B93)
+//シルベ?ル兵[X]
+실베일병[X]
+
+//POINTER #163 @ $39B9F - STRING #163 @ $3A311
+
+#WRITE(Unit, $39B9F)
+//パピヨン[X]
+빠삐용[X]
+
+//POINTER #164 @ $39BA1 - STRING #164 @ $3A31B
+//POINTER #240 @ $39C39 - STRING #240 @ $3A557
+//POINTER #329 @ $39CEB - STRING #329 @ $3A747
+//POINTER #331 @ $39CEF - STRING #331 @ $3A747
+//POINTER #333 @ $39CF3 - STRING #333 @ $3A747
+//POINTER #335 @ $39CF7 - STRING #335 @ $3A747
+//POINTER #344 @ $39D09 - STRING #344 @ $3A805
+//POINTER #345 @ $39D0B - STRING #345 @ $3A805
+//POINTER #353 @ $39D1B - STRING #353 @ $3A805
+//POINTER #361 @ $39D2B - STRING #361 @ $3A805
+//POINTER #363 @ $39D2F - STRING #363 @ $3A805
+//POINTER #365 @ $39D33 - STRING #365 @ $3A805
+
+#WRITE(Unit, $39D33)
+#WRITE(Unit, $39D2F)
+#WRITE(Unit, $39D2B)
+#WRITE(Unit, $39D1B)
+#WRITE(Unit, $39D0B)
+#WRITE(Unit, $39D09)
+#WRITE(Unit, $39CF7)
+#WRITE(Unit, $39CF3)
+#WRITE(Unit, $39CEF)
+#WRITE(Unit, $39CEB)
+#WRITE(Unit, $39C39)
+#WRITE(Unit, $39BA1)
+//トラキア兵[X]
+트라키아병[X]
+
+//POINTER #169 @ $39BAB - STRING #169 @ $3A331
+
+#WRITE(Unit, $39BAB)
+//ドバ?ル[X]
+듀발[X]
+
+//POINTER #171 @ $39BAF - STRING #171 @ $3A33B
+
+#WRITE(Unit, $39BAF)
+//ピサ?ル[X]
+피사르[X]
+
+//POINTER #176 @ $39BB9 - STRING #176 @ $3A345
+//POINTER #259 @ $39C5F - STRING #259 @ $3A5AF
+//POINTER #399 @ $39D77 - STRING #399 @ $3A88D
+
+#WRITE(Unit, $39D77)
+#WRITE(Unit, $39C5F)
+#WRITE(Unit, $39BB9)
+//アルヴィス[X]
+알비스[X]
+
+//POINTER #177 @ $39BBB - STRING #177 @ $3A351
+//POINTER #218 @ $39C0D - STRING #218 @ $3A4B5
+
+#WRITE(Unit, $39C0D)
+#WRITE(Unit, $39BBB)
+//ランゴバルト[X]
+랑고바르트[X]
+
+//POINTER #178 @ $39BBD - STRING #178 @ $3A35F
+//POINTER #440 @ $39DC9 - STRING #440 @ $3A933
+//POINTER #441 @ $39DCB - STRING #441 @ $3A933
+
+#WRITE(Unit, $39DCB)
+#WRITE(Unit, $39DC9)
+#WRITE(Unit, $39BBD)
+//グラオリッタ?[X]
+그라우리터[X]
+
+//POINTER #179 @ $39BBF - STRING #179 @ $3A36F
+//POINTER #244 @ $39C41 - STRING #244 @ $3A58B
+
+#WRITE(Unit, $39C41)
+#WRITE(Unit, $39BBF)
+//レプト?ル[X]
+렙토르[X]
+
+//POINTER #180 @ $39BC1 - STRING #180 @ $3A37B
+//POINTER #447 @ $39DD7 - STRING #447 @ $3A96D
+//POINTER #448 @ $39DD9 - STRING #448 @ $3A96D
+
+#WRITE(Unit, $39DD9)
+#WRITE(Unit, $39DD7)
+#WRITE(Unit, $39BC1)
+//ゲルプリッタ?[X]
+겔프리터[X]
+
+//POINTER #181 @ $39BC3 - STRING #181 @ $3A38B
+//POINTER #198 @ $39BE5 - STRING #198 @ $3A407
+
+#WRITE(Unit, $39BE5)
+#WRITE(Unit, $39BC3)
+//マ?ニャ[X]
+마냐[X]
+
+//POINTER #182 @ $39BC5 - STRING #182 @ $3A395
+//POINTER #196 @ $39BE1 - STRING #196 @ $3A3F1
+
+#WRITE(Unit, $39BE1)
+#WRITE(Unit, $39BC5)
+//シレジア兵[X]
+실레지아병[X]
+
+//POINTER #183 @ $39BC7 - STRING #183 @ $3A3A1
+
+#WRITE(Unit, $39BC7)
+//マイオス[X]
+마이오스[X]
+
+//POINTER #184 @ $39BC9 - STRING #184 @ $3A3BF
+//POINTER #185 @ $39BCB - STRING #185 @ $3A3BF
+//POINTER #187 @ $39BCF - STRING #187 @ $3A3BF
+//POINTER #189 @ $39BD3 - STRING #189 @ $3A3BF
+//POINTER #191 @ $39BD7 - STRING #191 @ $3A3BF
+//POINTER #192 @ $39BD9 - STRING #192 @ $3A3BF
+
+#WRITE(Unit, $39BD9)
+#WRITE(Unit, $39BD7)
+#WRITE(Unit, $39BD3)
+#WRITE(Unit, $39BCF)
+#WRITE(Unit, $39BCB)
+#WRITE(Unit, $39BC9)
+//ト?ヴェ兵[X]
+토베병[X]
+
+//POINTER #188 @ $39BD1 - STRING #188 @ $3A3AB
+
+#WRITE(Unit, $39BD1)
+//クブリ[X]
+쿠블리[X]
+
+//POINTER #193 @ $39BDB - STRING #193 @ $3A3CB
+
+#WRITE(Unit, $39BDB)
+//ディ?トバ[X]
+디트바[X]
+
+//POINTER #194 @ $39BDD - STRING #194 @ $3A3D7
+
+#WRITE(Unit, $39BDD)
+//ディ?トバたい[X]
+디트바대[X]
+
+//POINTER #197 @ $39BE3 - STRING #197 @ $3A3FD
+
+#WRITE(Unit, $39BE3)
+//ダッカ?[X]
+더커[X]
+
+//POINTER #199 @ $39BE7 - STRING #199 @ $3A411
+
+#WRITE(Unit, $39BE7)
+//マ?ニャたい[X]
+마냐대[X]
+
+//POINTER #200 @ $39BE9 - STRING #200 @ $3A41F
+
+#WRITE(Unit, $39BE9)
+//パメラ[X]
+파멜라[X]
+
+//POINTER #201 @ $39BEB - STRING #201 @ $3A427
+
+#WRITE(Unit, $39BEB)
+//パメラたい[X]
+파멜라대[X]
+
+//POINTER #202 @ $39BED - STRING #202 @ $3A433
+//POINTER #232 @ $39C29 - STRING #232 @ $3A513
+
+#WRITE(Unit, $39C29)
+#WRITE(Unit, $39BED)
+//アンドレイ[X]
+안드레이[X]
+
+//POINTER #203 @ $39BEF - STRING #203 @ $3A43F
+//POINTER #233 @ $39C2B - STRING #233 @ $3A51F
+//POINTER #444 @ $39DD1 - STRING #444 @ $3A955
+//POINTER #445 @ $39DD3 - STRING #445 @ $3A955
+
+#WRITE(Unit, $39DD3)
+#WRITE(Unit, $39DD1)
+#WRITE(Unit, $39C2B)
+#WRITE(Unit, $39BEF)
+//バイゲリッタ?[X]
+바이게리터[X]
+
+//POINTER #204 @ $39BF1 - STRING #204 @ $3A44F
+//POINTER #205 @ $39BF3 - STRING #205 @ $3A44F
+//POINTER #326 @ $39CE5 - STRING #326 @ $3A729
+//POINTER #327 @ $39CE7 - STRING #327 @ $3A729
+
+#WRITE(Unit, $39CE7)
+#WRITE(Unit, $39CE5)
+#WRITE(Unit, $39BF3)
+#WRITE(Unit, $39BF1)
+//しみん[X]
+시민[X]
+
+//POINTER #206 @ $39BF5 - STRING #206 @ $3A457
+
+#WRITE(Unit, $39BF5)
+//ドノバン[X]
+도노반[X]
+
+//POINTER #207 @ $39BF7 - STRING #207 @ $3A461
+//POINTER #208 @ $39BF9 - STRING #208 @ $3A461
+//POINTER #209 @ $39BFB - STRING #209 @ $3A461
+//POINTER #210 @ $39BFD - STRING #210 @ $3A461
+//POINTER #211 @ $39BFF - STRING #211 @ $3A46D
+
+#WRITE(Unit, $39BFF)
+#WRITE(Unit, $39BFD)
+#WRITE(Unit, $39BFB)
+#WRITE(Unit, $39BF9)
+#WRITE(Unit, $39BF7)
+//ザクソン兵[X]
+잭슨병[X]
+
+//POINTER #212 @ $39C01 - STRING #212 @ $3A479
+
+#WRITE(Unit, $39C01)
+//レイミア[X]
+레이미아[X]
+
+//POINTER #219 @ $39C0F - STRING #219 @ $3A4C3
+//POINTER #386 @ $39D5D - STRING #386 @ $3A8A5
+//POINTER #387 @ $39D5F - STRING #387 @ $3A8A5
+//POINTER #405 @ $39D83 - STRING #405 @ $3A8A5
+//POINTER #406 @ $39D85 - STRING #406 @ $3A8A5
+
+#WRITE(Unit, $39D85)
+#WRITE(Unit, $39D83)
+#WRITE(Unit, $39D5F)
+#WRITE(Unit, $39D5D)
+#WRITE(Unit, $39C0F)
+//こども[X]
+아이[X]
+
+//POINTER #220 @ $39C11 - STRING #220 @ $3A4F9
+//POINTER #222 @ $39C15 - STRING #222 @ $3A4F9
+//POINTER #224 @ $39C19 - STRING #224 @ $3A4F9
+//POINTER #225 @ $39C1B - STRING #225 @ $3A4F9
+//POINTER #228 @ $39C21 - STRING #228 @ $3A4F9
+//POINTER #229 @ $39C23 - STRING #229 @ $3A4F9
+//POINTER #230 @ $39C25 - STRING #230 @ $3A4F9
+
+#WRITE(Unit, $39C25)
+#WRITE(Unit, $39C23)
+#WRITE(Unit, $39C21)
+#WRITE(Unit, $39C1B)
+#WRITE(Unit, $39C19)
+#WRITE(Unit, $39C15)
+#WRITE(Unit, $39C11)
+//リュ?ベック兵[X]
+뤼벡병[X]
+
+//POINTER #221 @ $39C13 - STRING #221 @ $3A4CB
+
+#WRITE(Unit, $39C13)
+//スレイダ?[X]
+슬레이더[X]
+
+//POINTER #231 @ $39C27 - STRING #231 @ $3A509
+
+#WRITE(Unit, $39C27)
+//バイロン[X]
+바이런[X]
+
+//POINTER #234 @ $39C2D - STRING #234 @ $3A52F
+
+#WRITE(Unit, $39C2D)
+//ヴァハ[X]
+바하[X]
+
+//POINTER #235 @ $39C2F - STRING #235 @ $3A57B
+//POINTER #237 @ $39C33 - STRING #237 @ $3A57B
+//POINTER #243 @ $39C3F - STRING #243 @ $3A57B
+
+#WRITE(Unit, $39C3F)
+#WRITE(Unit, $39C33)
+#WRITE(Unit, $39C2F)
+//ヴェルトマ?兵[X]
+벨트머병[X]
+
+//POINTER #236 @ $39C31 - STRING #236 @ $3A537
+
+#WRITE(Unit, $39C31)
+//そうりょ[X]
+승려[X]
+
+//POINTER #238 @ $39C35 - STRING #238 @ $3A541
+//POINTER #352 @ $39D19 - STRING #352 @ $3A7BB
+
+#WRITE(Unit, $39D19)
+#WRITE(Unit, $39C35)
+//トラバント[X]
+트라반트[X]
+
+//POINTER #239 @ $39C37 - STRING #239 @ $3A54D
+
+#WRITE(Unit, $39C37)
+//マゴ?ネ[X]
+마고네[X]
+
+//POINTER #241 @ $39C3B - STRING #241 @ $3A563
+
+#WRITE(Unit, $39C3B)
+//レンスタ?兵[X]
+렌스터병[X]
+
+//POINTER #242 @ $39C3D - STRING #242 @ $3A571
+
+#WRITE(Unit, $39C3D)
+//アイ?ダ[X]
+아이다[X]
+
+//POINTER #245 @ $39C43 - STRING #245 @ $3A597
+//POINTER #246 @ $39C45 - STRING #246 @ $3A597
+//POINTER #247 @ $39C47 - STRING #247 @ $3A597
+//POINTER #248 @ $39C49 - STRING #248 @ $3A597
+//POINTER #249 @ $39C4B - STRING #249 @ $3A597
+//POINTER #250 @ $39C4D - STRING #250 @ $3A597
+//POINTER #251 @ $39C4F - STRING #251 @ $3A597
+//POINTER #252 @ $39C51 - STRING #252 @ $3A597
+
+#WRITE(Unit, $39C51)
+#WRITE(Unit, $39C4F)
+#WRITE(Unit, $39C4D)
+#WRITE(Unit, $39C4B)
+#WRITE(Unit, $39C49)
+#WRITE(Unit, $39C47)
+#WRITE(Unit, $39C45)
+#WRITE(Unit, $39C43)
+//フリ?ジ兵[X]
+프리지병[X]
+
+//POINTER #254 @ $39C55 - STRING #254 @ $3A5BB
+//POINTER #256 @ $39C59 - STRING #256 @ $3A5BB
+//POINTER #258 @ $39C5D - STRING #258 @ $3A5BB
+//POINTER #261 @ $39C63 - STRING #261 @ $3A5BB
+//POINTER #400 @ $39D79 - STRING #400 @ $3A8B9
+//POINTER #401 @ $39D7B - STRING #401 @ $3A8B9
+//POINTER #402 @ $39D7D - STRING #402 @ $3A8B9
+//POINTER #408 @ $39D89 - STRING #408 @ $3A8B9
+//POINTER #409 @ $39D8B - STRING #409 @ $3A8B9
+//POINTER #411 @ $39D8F - STRING #411 @ $3A8B9
+//POINTER #412 @ $39D91 - STRING #412 @ $3A8B9
+//POINTER #414 @ $39D95 - STRING #414 @ $3A8B9
+//POINTER #415 @ $39D97 - STRING #415 @ $3A8B9
+//POINTER #416 @ $39D99 - STRING #416 @ $3A8B9
+
+#WRITE(Unit, $39D99)
+#WRITE(Unit, $39D97)
+#WRITE(Unit, $39D95)
+#WRITE(Unit, $39D91)
+#WRITE(Unit, $39D8F)
+#WRITE(Unit, $39D8B)
+#WRITE(Unit, $39D89)
+#WRITE(Unit, $39D7D)
+#WRITE(Unit, $39D7B)
+#WRITE(Unit, $39D79)
+#WRITE(Unit, $39C63)
+#WRITE(Unit, $39C5D)
+#WRITE(Unit, $39C59)
+#WRITE(Unit, $39C55)
+//ロ?トリッタ?[X]
+로트리터[X]
+
+//POINTER #262 @ $39C65 - STRING #262 @ $3A5CB
+
+#WRITE(Unit, $39C65)
+//ハロルド[X]
+해럴드[X]
+
+//POINTER #263 @ $39C67 - STRING #263 @ $3A615
+//POINTER #264 @ $39C69 - STRING #264 @ $3A615
+//POINTER #273 @ $39C7B - STRING #273 @ $3A615
+//POINTER #274 @ $39C7D - STRING #274 @ $3A615
+
+#WRITE(Unit, $39C7D)
+#WRITE(Unit, $39C7B)
+#WRITE(Unit, $39C69)
+#WRITE(Unit, $39C67)
+//ガネ?シャ兵[X]
+가네샤병[X]
+
+//POINTER #266 @ $39C6D - STRING #266 @ $3A5EB
+//POINTER #269 @ $39C73 - STRING #269 @ $3A5EB
+
+#WRITE(Unit, $39C73)
+#WRITE(Unit, $39C6D)
+//ソファラ兵[X]
+소파라병[X]
+
+//POINTER #267 @ $39C6F - STRING #267 @ $3A5DF
+//POINTER #268 @ $39C71 - STRING #268 @ $3A5DF
+
+#WRITE(Unit, $39C71)
+#WRITE(Unit, $39C6F)
+//イザ?ク兵[X]
+이자크병[X]
+
+//POINTER #270 @ $39C75 - STRING #270 @ $3A5F7
+
+#WRITE(Unit, $39C75)
+//シュミット[X]
+슈미트[X]
+
+//POINTER #271 @ $39C77 - STRING #271 @ $3A603
+
+#WRITE(Unit, $39C77)
+//リボ?兵[X]
+리보병[X]
+
+//POINTER #272 @ $39C79 - STRING #272 @ $3A60D
+
+#WRITE(Unit, $39C79)
+//ダナン[X]
+다난[X]
+
+//POINTER #275 @ $39C7F - STRING #275 @ $3A623
+//POINTER #477 @ $39E13 - STRING #477 @ $3A623
+
+#WRITE(Unit, $39E13)
+#WRITE(Unit, $39C7F)
+//クトゥ?ゾフ[X]
+쿠투조프[X]
+
+//POINTER #276 @ $39C81 - STRING #276 @ $3A631
+//POINTER #277 @ $39C83 - STRING #277 @ $3A631
+//POINTER #279 @ $39C87 - STRING #279 @ $3A631
+
+#WRITE(Unit, $39C87)
+#WRITE(Unit, $39C83)
+#WRITE(Unit, $39C81)
+//イ?ドマ?ジ[X]
+이드메이지[X]
+
+//POINTER #281 @ $39C8B - STRING #281 @ $3A6AB
+//POINTER #282 @ $39C8D - STRING #282 @ $3A6AB
+//POINTER #285 @ $39C93 - STRING #285 @ $3A6AB
+//POINTER #302 @ $39CB5 - STRING #302 @ $3A6AB
+//POINTER #303 @ $39CB7 - STRING #303 @ $3A6AB
+
+#WRITE(Unit, $39CB7)
+#WRITE(Unit, $39CB5)
+#WRITE(Unit, $39C93)
+#WRITE(Unit, $39C8D)
+#WRITE(Unit, $39C8B)
+//アルスタ?兵[X]
+얼스터병[X]
+
+//POINTER #284 @ $39C91 - STRING #284 @ $3A649
+//POINTER #324 @ $39CE1 - STRING #324 @ $3A713
+
+#WRITE(Unit, $39CE1)
+#WRITE(Unit, $39C91)
+//ブル?ム[X]
+브룸[X]
+
+//POINTER #286 @ $39C95 - STRING #286 @ $3A695
+//POINTER #300 @ $39CB1 - STRING #300 @ $3A695
+
+#WRITE(Unit, $39CB1)
+#WRITE(Unit, $39C95)
+//ダ?ナ兵[X]
+다나병[X]
+
+//POINTER #287 @ $39C97 - STRING #287 @ $3A653
+
+#WRITE(Unit, $39C97)
+//イシュト?[X]
+이슈트[X]
+
+//POINTER #288 @ $39C99 - STRING #288 @ $3A667
+//POINTER #290 @ $39C9D - STRING #290 @ $3A667
+//POINTER #291 @ $39C9F - STRING #291 @ $3A667
+//POINTER #292 @ $39CA1 - STRING #292 @ $3A667
+//POINTER #293 @ $39CA3 - STRING #293 @ $3A667
+//POINTER #294 @ $39CA5 - STRING #294 @ $3A667
+//POINTER #295 @ $39CA7 - STRING #295 @ $3A667
+
+#WRITE(Unit, $39CA7)
+#WRITE(Unit, $39CA5)
+#WRITE(Unit, $39CA3)
+#WRITE(Unit, $39CA1)
+#WRITE(Unit, $39C9F)
+#WRITE(Unit, $39C9D)
+#WRITE(Unit, $39C99)
+//メルゲン兵[X]
+멜겐병[X]
+
+//POINTER #289 @ $39C9B - STRING #289 @ $3A65F
+
+#WRITE(Unit, $39C9B)
+//ライザ[X]
+라이자[X]
+
+//POINTER #296 @ $39CA9 - STRING #296 @ $3A673
+
+#WRITE(Unit, $39CA9)
+//ジャバロ?[X]
+자바로[X]
+
+//POINTER #299 @ $39CAF - STRING #299 @ $3A689
+
+#WRITE(Unit, $39CAF)
+//ブラムセル[X]
+브람셀[X]
+
+//POINTER #304 @ $39CB9 - STRING #304 @ $3A6B9
+//POINTER #337 @ $39CFB - STRING #337 @ $3A75D
+
+#WRITE(Unit, $39CFB)
+#WRITE(Unit, $39CB9)
+//ヴァンパ[X]
+뱀파[X]
+
+//POINTER #305 @ $39CBB - STRING #305 @ $3A6C3
+//POINTER #338 @ $39CFD - STRING #338 @ $3A767
+
+#WRITE(Unit, $39CFD)
+#WRITE(Unit, $39CBB)
+//フェトラ[X]
+페트라[X]
+
+//POINTER #306 @ $39CBD - STRING #306 @ $3A6CD
+//POINTER #339 @ $39CFF - STRING #339 @ $3A771
+
+#WRITE(Unit, $39CFF)
+#WRITE(Unit, $39CBD)
+//エリウ[X]
+엘리우[X]
+
+//POINTER #307 @ $39CBF - STRING #307 @ $3A6D5
+//POINTER #308 @ $39CC1 - STRING #308 @ $3A6D5
+//POINTER #309 @ $39CC3 - STRING #309 @ $3A6D5
+
+#WRITE(Unit, $39CC3)
+#WRITE(Unit, $39CC1)
+#WRITE(Unit, $39CBF)
+//ハイマ?ジ[X]
+하이메이지[X]
+
+//POINTER #310 @ $39CC5 - STRING #310 @ $3A6E1
+
+#WRITE(Unit, $39CC5)
+//ムハマド[X]
+무함마드[X]
+
+//POINTER #311 @ $39CC7 - STRING #311 @ $3A71D
+//POINTER #312 @ $39CC9 - STRING #312 @ $3A71D
+//POINTER #313 @ $39CCB - STRING #313 @ $3A71D
+//POINTER #316 @ $39CD1 - STRING #316 @ $3A71D
+//POINTER #317 @ $39CD3 - STRING #317 @ $3A71D
+//POINTER #320 @ $39CD9 - STRING #320 @ $3A71D
+//POINTER #323 @ $39CDF - STRING #323 @ $3A71D
+//POINTER #325 @ $39CE3 - STRING #325 @ $3A71D
+
+#WRITE(Unit, $39CE3)
+#WRITE(Unit, $39CDF)
+#WRITE(Unit, $39CD9)
+#WRITE(Unit, $39CD3)
+#WRITE(Unit, $39CD1)
+#WRITE(Unit, $39CCB)
+#WRITE(Unit, $39CC9)
+#WRITE(Unit, $39CC7)
+//コノ?ト兵[X]
+코노트병[X]
+
+//POINTER #314 @ $39CCD - STRING #314 @ $3A6EB
+
+#WRITE(Unit, $39CCD)
+//しさい[X]
+사제[X]
+
+//POINTER #315 @ $39CCF - STRING #315 @ $3A6F3
+
+#WRITE(Unit, $39CCF)
+//オ?ヴォ[X]
+오보[X]
+
+//POINTER #321 @ $39CDB - STRING #321 @ $3A707
+//POINTER #398 @ $39D75 - STRING #398 @ $3A881
+//POINTER #468 @ $39E01 - STRING #468 @ $3AA3D
+
+#WRITE(Unit, $39E01)
+#WRITE(Unit, $39D75)
+#WRITE(Unit, $39CDB)
+//イシュタル[X]
+이슈타르[X]
+
+//POINTER #330 @ $39CED - STRING #330 @ $3A731
+
+#WRITE(Unit, $39CED)
+//コル?タ[X]
+콜터[X]
+
+//POINTER #336 @ $39CF9 - STRING #336 @ $3A753
+
+#WRITE(Unit, $39CF9)
+//マイコフ[X]
+마이코프[X]
+
+//POINTER #340 @ $39D01 - STRING #340 @ $3A783
+//POINTER #341 @ $39D03 - STRING #341 @ $3A783
+//POINTER #342 @ $39D05 - STRING #342 @ $3A783
+//POINTER #343 @ $39D07 - STRING #343 @ $3A783
+
+#WRITE(Unit, $39D07)
+#WRITE(Unit, $39D05)
+#WRITE(Unit, $39D03)
+#WRITE(Unit, $39D01)
+//カパトギア兵[X]
+카파토기아병[X]
+
+//POINTER #347 @ $39D0F - STRING #347 @ $3A79B
+
+#WRITE(Unit, $39D0F)
+//カナッツ[X]
+카나츠[X]
+
+//POINTER #348 @ $39D11 - STRING #348 @ $3A7A5
+
+#WRITE(Unit, $39D11)
+//ディスラ?[X]
+디슬라[X]
+
+//POINTER #349 @ $39D13 - STRING #349 @ $3A7CF
+//POINTER #356 @ $39D21 - STRING #356 @ $3A7CF
+
+#WRITE(Unit, $39D21)
+#WRITE(Unit, $39D13)
+//グルティア兵[X]
+그루티아병[X]
+
+//POINTER #354 @ $39D1D - STRING #354 @ $3A7C7
+
+#WRITE(Unit, $39D1D)
+//ジュダ[X]
+쥬다[X]
+
+//POINTER #357 @ $39D23 - STRING #357 @ $3A7DD
+//POINTER #466 @ $39DFD - STRING #466 @ $3AA21
+
+#WRITE(Unit, $39DFD)
+#WRITE(Unit, $39D23)
+//アリオ?ン[X]
+아리온[X]
+
+//POINTER #358 @ $39D25 - STRING #358 @ $3A7E9
+//POINTER #359 @ $39D27 - STRING #359 @ $3A7E9
+//POINTER #467 @ $39DFF - STRING #467 @ $3AA2D
+
+#WRITE(Unit, $39DFF)
+#WRITE(Unit, $39D27)
+#WRITE(Unit, $39D25)
+//ドラゴンナイツ[X]
+드래곤나이츠[X]
+
+//POINTER #366 @ $39D35 - STRING #366 @ $3A811
+
+#WRITE(Unit, $39D35)
+//ム?サ?[X]
+무사[X]
+
+//POINTER #367 @ $39D37 - STRING #367 @ $3A81B
+//POINTER #368 @ $39D39 - STRING #368 @ $3A81B
+//POINTER #369 @ $39D3B - STRING #369 @ $3A81B
+//POINTER #370 @ $39D3D - STRING #370 @ $3A81B
+
+#WRITE(Unit, $39D3D)
+#WRITE(Unit, $39D3B)
+#WRITE(Unit, $39D39)
+#WRITE(Unit, $39D37)
+//帝?兵[X]
+제국병[X]
+
+//POINTER #371 @ $39D3F - STRING #371 @ $3A823
+
+#WRITE(Unit, $39D3F)
+//リデ?ル[X]
+리델[X]
+
+//POINTER #372 @ $39D41 - STRING #372 @ $3A82D
+//POINTER #373 @ $39D43 - STRING #373 @ $3A82D
+//POINTER #374 @ $39D45 - STRING #374 @ $3A82D
+//POINTER #375 @ $39D47 - STRING #375 @ $3A82D
+//POINTER #376 @ $39D49 - STRING #376 @ $3A82D
+
+#WRITE(Unit, $39D49)
+#WRITE(Unit, $39D47)
+#WRITE(Unit, $39D45)
+#WRITE(Unit, $39D43)
+#WRITE(Unit, $39D41)
+//リデ?ルたい[X]
+리델대[X]
+
+//POINTER #377 @ $39D4B - STRING #377 @ $3A83B
+
+#WRITE(Unit, $39D4B)
+//モリガン[X]
+모리건[X]
+
+//POINTER #378 @ $39D4D - STRING #378 @ $3A8C9
+//POINTER #382 @ $39D55 - STRING #382 @ $3A8C9
+//POINTER #383 @ $39D57 - STRING #383 @ $3A8C9
+//POINTER #389 @ $39D63 - STRING #389 @ $3A8C9
+//POINTER #390 @ $39D65 - STRING #390 @ $3A8C9
+//POINTER #391 @ $39D67 - STRING #391 @ $3A8C9
+//POINTER #392 @ $39D69 - STRING #392 @ $3A8C9
+//POINTER #393 @ $39D6B - STRING #393 @ $3A8C9
+//POINTER #403 @ $39D7F - STRING #403 @ $3A8C9
+//POINTER #417 @ $39D9B - STRING #417 @ $3A8C9
+//POINTER #418 @ $39D9D - STRING #418 @ $3A8C9
+//POINTER #434 @ $39DBD - STRING #434 @ $3A997
+//POINTER #435 @ $39DBF - STRING #435 @ $3A997
+//POINTER #450 @ $39DDD - STRING #450 @ $3A997
+//POINTER #452 @ $39DE1 - STRING #452 @ $3A997
+
+#WRITE(Unit, $39DE1)
+#WRITE(Unit, $39DDD)
+#WRITE(Unit, $39DBF)
+#WRITE(Unit, $39DBD)
+#WRITE(Unit, $39D9D)
+#WRITE(Unit, $39D9B)
+#WRITE(Unit, $39D7F)
+#WRITE(Unit, $39D6B)
+#WRITE(Unit, $39D69)
+#WRITE(Unit, $39D67)
+#WRITE(Unit, $39D65)
+#WRITE(Unit, $39D63)
+#WRITE(Unit, $39D57)
+#WRITE(Unit, $39D55)
+#WRITE(Unit, $39D4D)
+//ダ?クマ?ジ[X]
+다크메이지[X]
+
+//POINTER #380 @ $39D51 - STRING #380 @ $3A84F
+//POINTER #446 @ $39DD5 - STRING #446 @ $3A965
+
+#WRITE(Unit, $39DD5)
+#WRITE(Unit, $39D51)
+//ヒルダ[X]
+힐다[X]
+
+//POINTER #381 @ $39D53 - STRING #381 @ $3A857
+//POINTER #449 @ $39DDB - STRING #449 @ $3A97D
+
+#WRITE(Unit, $39DDB)
+#WRITE(Unit, $39D53)
+//やみのしさい[X]
+어둠의　사제[X]
+
+//POINTER #388 @ $39D61 - STRING #388 @ $3A865
+
+#WRITE(Unit, $39D61)
+//ザガム[X]
+자감[X]
+
+//POINTER #397 @ $39D73 - STRING #397 @ $3A877
+//POINTER #453 @ $39DE3 - STRING #453 @ $3A9A5
+
+#WRITE(Unit, $39DE3)
+#WRITE(Unit, $39D73)
+//ユリウス[X]
+율리우스[X]
+
+//POINTER #404 @ $39D81 - STRING #404 @ $3A899
+
+#WRITE(Unit, $39D81)
+//パルマ?ク[X]
+팔마크[X]
+
+//POINTER #419 @ $39D9F - STRING #419 @ $3A8D7
+
+#WRITE(Unit, $39D9F)
+//ロベルト[X]
+로베르트[X]
+
+//POINTER #425 @ $39DAB - STRING #425 @ $3A8E1
+
+#WRITE(Unit, $39DAB)
+//ボイス[X]
+보이스[X]
+
+//POINTER #428 @ $39DB1 - STRING #428 @ $3A8F3
+
+#WRITE(Unit, $39DB1)
+//ロダン[X]
+로던[X]
+
+//POINTER #429 @ $39DB3 - STRING #429 @ $3A8FB
+//POINTER #430 @ $39DB5 - STRING #430 @ $3A8FB
+//POINTER #431 @ $39DB7 - STRING #431 @ $3A8FB
+//POINTER #432 @ $39DB9 - STRING #432 @ $3A8FB
+
+#WRITE(Unit, $39DB9)
+#WRITE(Unit, $39DB7)
+#WRITE(Unit, $39DB5)
+#WRITE(Unit, $39DB3)
+//エッダ兵[X]
+에다병[X]
+
+//POINTER #433 @ $39DBB - STRING #433 @ $3A905
+
+#WRITE(Unit, $39DBB)
+//ユフィ?ル[X]
+유피르[X]
+
+//POINTER #436 @ $39DC1 - STRING #436 @ $3A911
+
+#WRITE(Unit, $39DC1)
+//フイッシャ?[X]
+피셔[X]
+
+//POINTER #437 @ $39DC3 - STRING #437 @ $3A91F
+//POINTER #438 @ $39DC5 - STRING #438 @ $3A91F
+
+#WRITE(Unit, $39DC5)
+#WRITE(Unit, $39DC3)
+//ドズル兵[X]
+도즐병[X]
+
+//POINTER #439 @ $39DC7 - STRING #439 @ $3A929
+
+#WRITE(Unit, $39DC7)
+//ブリアン[X]
+브리앙[X]
+
+//POINTER #442 @ $39DCD - STRING #442 @ $3A943
+
+#WRITE(Unit, $39DCD)
+//ダゴン[X]
+다곤[X]
+
+//POINTER #443 @ $39DCF - STRING #443 @ $3A94B
+
+#WRITE(Unit, $39DCF)
+//スコピオ[X]
+스코피오[X]
+
+//POINTER #451 @ $39DDF - STRING #451 @ $3A98B
+
+#WRITE(Unit, $39DDF)
+//マンフロイ[X]
+만프로이[X]
+
+//POINTER #454 @ $39DE5 - STRING #454 @ $3A9AF
+
+#WRITE(Unit, $39DE5)
+//アインス[X]
+아인즈[X]
+
+//POINTER #455 @ $39DE7 - STRING #455 @ $3A9B9
+
+#WRITE(Unit, $39DE7)
+//ツヴァイ[X]
+츠바이[X]
+
+//POINTER #456 @ $39DE9 - STRING #456 @ $3A9C3
+
+#WRITE(Unit, $39DE9)
+//ドライ[X]
+드라이[X]
+
+//POINTER #457 @ $39DEB - STRING #457 @ $3A9CB
+
+#WRITE(Unit, $39DEB)
+//フィ?ア[X]
+피어[X]
+
+//POINTER #458 @ $39DED - STRING #458 @ $3A9D5
+
+#WRITE(Unit, $39DED)
+//フュンフ[X]
+퓐프[X]
+
+//POINTER #459 @ $39DEF - STRING #459 @ $3A9DF
+
+#WRITE(Unit, $39DEF)
+//ゼクス[X]
+젝스[X]
+
+//POINTER #460 @ $39DF1 - STRING #460 @ $3A9E7
+
+#WRITE(Unit, $39DF1)
+//ズィ?ベン[X]
+지벤[X]
+
+//POINTER #461 @ $39DF3 - STRING #461 @ $3A9F3
+
+#WRITE(Unit, $39DF3)
+//アハト[X]
+아흐트[X]
+
+//POINTER #462 @ $39DF5 - STRING #462 @ $3A9FB
+
+#WRITE(Unit, $39DF5)
+//ノイン[X]
+노인[X]
+
+//POINTER #463 @ $39DF7 - STRING #463 @ $3AA03
+
+#WRITE(Unit, $39DF7)
+//ツェ?ン[X]
+첸[X]
+
+//POINTER #464 @ $39DF9 - STRING #464 @ $3AA0D
+
+#WRITE(Unit, $39DF9)
+//エルフ[X]
+엘프[X]
+
+//POINTER #465 @ $39DFB - STRING #465 @ $3AA15
+
+#WRITE(Unit, $39DFB)
+//ツヴェルフ[X]
+츠벨프[X]
+
+//POINTER #469 @ $39E03 - STRING #469 @ $3AA49
+
+#WRITE(Unit, $39E03)
+メング[X]
+멩[X]
+
+//POINTER #470 @ $39E05 - STRING #470 @ $3AA51
+
+#WRITE(Unit, $39E05)
+//メイベル[X]
+메이벨[X]
+
+//POINTER #471 @ $39E07 - STRING #471 @ $3AA5B
+
+#WRITE(Unit, $39E07)
+//ブレグ[X]
+블레그[X]
+
+//POINTER #472 @ $39E09 - STRING #472 @ $3AA63
+//POINTER #473 @ $39E0B - STRING #473 @ $3AA63
+//POINTER #474 @ $39E0D - STRING #474 @ $3AA63
+//POINTER #475 @ $39E0F - STRING #475 @ $3AA63
+
+#WRITE(Unit, $39E0F)
+#WRITE(Unit, $39E0D)
+#WRITE(Unit, $39E0B)
+#WRITE(Unit, $39E09)
+//バ?ハラ兵[X]
+발할라병[X]
+
+//POINTER #476 @ $39E11 - STRING #476 @ $3AA6F
+
+#WRITE(Unit, $39E11)
+//バラン[X]
+바란[X]
+
+//POINTER #479 @ $39E17 - STRING #479 @ $3AA77
+
+#WRITE(Unit, $39E17)
+//ガザック[X]
+가자크[X]
+
+//POINTER #480 @ $39E19 - STRING #480 @ $3AA81
+
+#WRITE(Unit, $39E19)
+//クロト?[X]
+클로토[X]
+
+//POINTER #481 @ $39E1B - STRING #481 @ $3AA8B
+
+#WRITE(Unit, $39E1B)
+//ワイズマン[X]
+와이즈만[X]
+
+//POINTER #482 @ $39E1D - STRING #482 @ $3AA97
+
+#WRITE(Unit, $39E1D)
+// シャ?ク[X]
+샤크[X]
+
+//POINTER #483 @ $39E1F - STRING #483 @ $3AAA1
+
+#WRITE(Unit, $39E1F)
+// フッド[X]
+후드[X]
+
+//POINTER #484 @ $39E21 - STRING #484 @ $3AAA9
+
+#WRITE(Unit, $39E21)
+// バッカス[X]
+바커스[X]
+
+//POINTER #485 @ $39E23 - STRING #485 @ $3AAB3
+
+#WRITE(Unit, $39E23)
+// エミ?ル[X]
+에밀[X]
+
+//POINTER #486 @ $39E25 - STRING #486 @ $3AABD
+//POINTER #559 @ $39EB7 - STRING #559 @ $3AD89
+
+#WRITE(Unit, $39EB7)
+#WRITE(Unit, $39E25)
+// ダレス[X]
+달레스[X]
+
+//POINTER #487 @ $39E27 - STRING #487 @ $3AAC5
+
+#WRITE(Unit, $39E27)
+// ジロ?[X]
+지로[X]
+
+//POINTER #488 @ $39E29 - STRING #488 @ $3AACD
+
+#WRITE(Unit, $39E29)
+// マハトマ[X]
+마하트마[X]
+
+//POINTER #489 @ $39E2B - STRING #489 @ $3AAD7
+
+#WRITE(Unit, $39E2B)
+// ロヴィン[X]
+로빈[X]
+
+//POINTER #490 @ $39E2D - STRING #490 @ $3AAE1
+
+#WRITE(Unit, $39E2D)
+// バ?クニン[X]
+바쿠닌[X]
+
+//POINTER #491 @ $39E2F - STRING #491 @ $3AAED
+
+#WRITE(Unit, $39E2F)
+// ミレ?[X]
+밀레이[X]
+
+//POINTER #492 @ $39E31 - STRING #492 @ $3AAF5
+
+#WRITE(Unit, $39E31)
+// ヘルツォグ[X]
+헤르조그[X]
+
+//POINTER #493 @ $39E33 - STRING #493 @ $3AB01
+
+#WRITE(Unit, $39E33)
+// チャコフ[X]
+차코프[X]
+
+//POINTER #494 @ $39E35 - STRING #494 @ $3AB0B
+//POINTER #560 @ $39EB9 - STRING #560 @ $3AD91
+
+#WRITE(Unit, $39EB9)
+#WRITE(Unit, $39E35)
+// ケイモス[X]
+케이모스[X]
+
+//POINTER #495 @ $39E37 - STRING #495 @ $3AB15
+//POINTER #561 @ $39EBB - STRING #561 @ $3AD9B
+
+#WRITE(Unit, $39EBB)
+#WRITE(Unit, $39E37)
+// マリリン[X]
+마릴린[X]
+
+//POINTER #496 @ $39E39 - STRING #496 @ $3AB1F
+
+#WRITE(Unit, $39E39)
+// タイラ?[X]
+타이라[X]
+
+//POINTER #497 @ $39E3B - STRING #497 @ $3AB29
+//POINTER #516 @ $39E61 - STRING #516 @ $3ABD9
+
+#WRITE(Unit, $39E61)
+#WRITE(Unit, $39E3B)
+// リップ[X]
+립[X]
+
+//POINTER #498 @ $39E3D - STRING #498 @ $3AB31
+
+#WRITE(Unit, $39E3D)
+// ペリオ[X]
+페리오[X]
+
+//POINTER #499 @ $39E3F - STRING #499 @ $3AB39
+
+#WRITE(Unit, $39E3F)
+// トレヴィク[X]
+트레빅[X]
+
+//POINTER #500 @ $39E41 - STRING #500 @ $3AB45
+
+#WRITE(Unit, $39E41)
+// ゲラ?[X]
+겔러[X]
+
+//POINTER #501 @ $39E43 - STRING #501 @ $3AB4D
+
+#WRITE(Unit, $39E43)
+// バザン[X]
+바잔[X]
+
+//POINTER #502 @ $39E45 - STRING #502 @ $3AB55
+
+#WRITE(Unit, $39E45)
+// デュマ[X]
+듀마[X]
+
+//POINTER #503 @ $39E47 - STRING #503 @ $3AB5D
+
+#WRITE(Unit, $39E47)
+// ケ?ラ[X]
+케이러[X]
+
+//POINTER #504 @ $39E49 - STRING #504 @ $3AB65
+//POINTER #564 @ $39EC1 - STRING #564 @ $3ADB9
+
+#WRITE(Unit, $39EC1)
+#WRITE(Unit, $39E49)
+// ト?ルトン[X]
+토르돈[X]
+
+//POINTER #505 @ $39E4B - STRING #505 @ $3AB71
+//POINTER #565 @ $39EC3 - STRING #565 @ $3ADC5
+
+#WRITE(Unit, $39EC3)
+#WRITE(Unit, $39E4B)
+// マリオ[X]
+마리오[X]
+
+//POINTER #506 @ $39E4D - STRING #506 @ $3AB79
+
+#WRITE(Unit, $39E4D)
+// ケマル[X]
+케멀[X]
+
+//POINTER #507 @ $39E4F - STRING #507 @ $3AB81
+
+#WRITE(Unit, $39E4F)
+// カレディン[X]
+칼레딘[X]
+
+//POINTER #508 @ $39E51 - STRING #508 @ $3AB8D
+
+#WRITE(Unit, $39E51)
+// キ?ス[X]
+키스[X]
+
+//POINTER #509 @ $39E53 - STRING #509 @ $3AB95
+
+#WRITE(Unit, $39E53)
+// サンゴ?ル[X]
+상고르[X]
+
+//POINTER #510 @ $39E55 - STRING #510 @ $3ABA1
+
+#WRITE(Unit, $39E55)
+// ニキ?タ[X]
+니키타[X]
+
+//POINTER #511 @ $39E57 - STRING #511 @ $3ABAB
+
+#WRITE(Unit, $39E57)
+// ネネ[X]
+네네[X]
+
+//POINTER #512 @ $39E59 - STRING #512 @ $3ABB1
+
+#WRITE(Unit, $39E59)
+// クラフ[X]
+클라프[X]
+
+//POINTER #513 @ $39E5B - STRING #513 @ $3ABB9
+
+#WRITE(Unit, $39E5B)
+// ニキアス[X]
+니키아스[X]
+
+//POINTER #514 @ $39E5D - STRING #514 @ $3ABC3
+//POINTER #567 @ $39EC7 - STRING #567 @ $3ADD5
+
+#WRITE(Unit, $39EC7)
+#WRITE(Unit, $39E5D)
+// アトラス[X]
+아틀라스[X]
+
+//POINTER #515 @ $39E5F - STRING #515 @ $3ABCD
+
+#WRITE(Unit, $39E5F)
+// ジャッカル[X]
+자칼[X]
+
+//POINTER #517 @ $39E63 - STRING #517 @ $3ABE1
+
+#WRITE(Unit, $39E63)
+// グレイアス[X]
+그레이어스[X]
+
+//POINTER #518 @ $39E65 - STRING #518 @ $3ABED
+
+#WRITE(Unit, $39E65)
+// ギ?ス[X]
+기스[X]
+
+//POINTER #519 @ $39E67 - STRING #519 @ $3ABF5
+
+#WRITE(Unit, $39E67)
+// リ?[X]
+리[X]
+
+//POINTER #520 @ $39E69 - STRING #520 @ $3ABFB
+
+#WRITE(Unit, $39E69)
+// シッシェル[X]
+시셀[X]
+
+//POINTER #521 @ $39E6B - STRING #521 @ $3AC07
+
+#WRITE(Unit, $39E6B)
+// ホ?クス[X]
+호쿠스[X]
+
+//POINTER #522 @ $39E6D - STRING #522 @ $3AC11
+
+#WRITE(Unit, $39E6D)
+// ナザ?ル[X]
+나잘루[X]
+
+//POINTER #523 @ $39E6F - STRING #523 @ $3AC1B
+
+#WRITE(Unit, $39E6F)
+//シ?フ[X]
+시프[X]
+
+//POINTER #524 @ $39E71 - STRING #524 @ $3AC23
+
+#WRITE(Unit, $39E71)
+// トルストイ[X]
+톨스토이[X]
+
+//POINTER #525 @ $39E73 - STRING #525 @ $3AC2F
+
+#WRITE(Unit, $39E73)
+// ボツマン[X]
+보트먼[X]
+
+//POINTER #526 @ $39E75 - STRING #526 @ $3AC39
+
+#WRITE(Unit, $39E75)
+// クリュ?ゲ[X]
+클뤼케[X]
+
+//POINTER #527 @ $39E77 - STRING #527 @ $3AC45
+
+#WRITE(Unit, $39E77)
+// マンスタイン[X]
+만슈타인[X]
+
+//POINTER #528 @ $39E79 - STRING #528 @ $3AC53
+
+#WRITE(Unit, $39E79)
+// カシム[X]
+카심[X]
+
+//POINTER #529 @ $39E7B - STRING #529 @ $3AC5B
+
+#WRITE(Unit, $39E7B)
+// ヘプナ?[X]
+헤프너[X]
+
+//POINTER #530 @ $39E7D - STRING #530 @ $3AC65
+
+#WRITE(Unit, $39E7D)
+// ランドック[X]
+랜독[X]
+
+//POINTER #531 @ $39E7F - STRING #531 @ $3AC71
+
+#WRITE(Unit, $39E7F)
+//ウォルフ[X]
+볼프[X]
+
+//POINTER #532 @ $39E81 - STRING #532 @ $3AC7B
+
+#WRITE(Unit, $39E81)
+// デュ?イ[X]
+듀이[X]
+
+//POINTER #533 @ $39E83 - STRING #533 @ $3AC85
+
+#WRITE(Unit, $39E83)
+// フェ?ト[X]
+페트[X]
+
+//POINTER #534 @ $39E85 - STRING #534 @ $3AC8F
+
+#WRITE(Unit, $39E85)
+// マルシャ?ク[X]
+마르샤크[X]
+
+//POINTER #535 @ $39E87 - STRING #535 @ $3AC9D
+
+#WRITE(Unit, $39E87)
+// ルイス[X]
+루이스[X]
+
+//POINTER #536 @ $39E89 - STRING #536 @ $3ACA5
+
+#WRITE(Unit, $39E89)
+// ヘステ[X]
+헤스테[X]
+
+//POINTER #537 @ $39E8B - STRING #537 @ $3ACAD
+
+#WRITE(Unit, $39E8B)
+// マ?ダ[X]
+마더[X]
+
+//POINTER #538 @ $39E8D - STRING #538 @ $3ACB5
+
+#WRITE(Unit, $39E8D)
+// ジスムント[X]
+지스문트[X]
+
+//POINTER #539 @ $39E8F - STRING #539 @ $3ACC1
+//POINTER #562 @ $39EBD - STRING #562 @ $3ADA5
+
+#WRITE(Unit, $39E8F)
+#WRITE(Unit, $39EBD)
+// ゼノン[X]
+제녹[X]
+
+//POINTER #540 @ $39E91 - STRING #540 @ $3ACC9
+//POINTER #563 @ $39EBF - STRING #563 @ $3ADAD
+
+#WRITE(Unit, $39E91)
+#WRITE(Unit, $39EBF)
+// ジャクソン[X]
+잭손[X]
+
+//POINTER #541 @ $39E93 - STRING #541 @ $3ACD5
+//POINTER #558 @ $39EB5 - STRING #558 @ $3AD7F
+
+#WRITE(Unit, $39EB5)
+#WRITE(Unit, $39E93)
+// インドラ[X]
+인드라[X]
+
+//POINTER #542 @ $39E95 - STRING #542 @ $3ACDF
+
+#WRITE(Unit, $39E95)
+// ニ?チェ[X]
+니체[X]
+
+//POINTER #543 @ $39E97 - STRING #543 @ $3ACE9
+
+#WRITE(Unit, $39E97)
+// アポストル[X]
+아포스톨[X]
+
+//POINTER #544 @ $39E99 - STRING #544 @ $3ACF5
+
+#WRITE(Unit, $39E99)
+// ミリア[X]
+미리아[X]
+
+//POINTER #545 @ $39E9B - STRING #545 @ $3ACFD
+
+#WRITE(Unit, $39E9B)
+// シロン[X]
+시론[X]
+
+//POINTER #546 @ $39E9D - STRING #546 @ $3AD05
+
+#WRITE(Unit, $39E9D)
+// クレイン[X]
+클레인[X]
+
+//POINTER #547 @ $39E9F - STRING #547 @ $3AD0F
+
+#WRITE(Unit, $39E9F)
+// スレイトン[X]
+슬레이튼[X]
+
+//POINTER #548 @ $39EA1 - STRING #548 @ $3AD1B
+
+#WRITE(Unit, $39EA1)
+// トリエスタ[X]
+트리에스타[X]
+
+//POINTER #549 @ $39EA3 - STRING #549 @ $3AD27
+//POINTER #566 @ $39EC5 - STRING #566 @ $3ADCD
+
+#WRITE(Unit, $39EC5)
+#WRITE(Unit, $39EA3)
+// カナン[X]
+가나안[X]
+
+//POINTER #550 @ $39EA5 - STRING #550 @ $3AD2F
+
+#WRITE(Unit, $39EA5)
+// ハスマ?ン[X]
+하스먼[X]
+
+//POINTER #551 @ $39EA7 - STRING #551 @ $3AD3B
+
+#WRITE(Unit, $39EA7)
+// グランツ[X]
+그란츠[X]
+
+//POINTER #552 @ $39EA9 - STRING #552 @ $3AD45
+
+#WRITE(Unit, $39EA9)
+// クロスロイ[X]
+크로스로이[X]
+
+//POINTER #553 @ $39EAB - STRING #553 @ $3AD51
+
+#WRITE(Unit, $39EAB)
+// ロ?ラン[X]
+롤랑[X]
+
+//POINTER #554 @ $39EAD - STRING #554 @ $3AD5B
+
+#WRITE(Unit, $39EAD)
+// マシグリ[X]
+마실리[X]
+
+//POINTER #555 @ $39EAF - STRING #555 @ $3AD65
+
+#WRITE(Unit, $39EAF)
+// リヴァ[X]
+리바[X]
+
+//POINTER #556 @ $39EB1 - STRING #556 @ $3AD6D
+
+#WRITE(Unit, $39EB1)
+// グロリア[X]
+글로리아[X]
+
+//POINTER #557 @ $39EB3 - STRING #557 @ $3AD77
+
+#WRITE(Unit, $39EB3)
+// ノ?テ[X]
+노테[X]
+
+//POINTER #568 @ $39EC9 - STRING #568 @ $3ADDF
+
+#WRITE(Unit, $39EC9)
+// ゼウス[X]
+제우스[X]
+
+//POINTER #569 @ $39ECB - STRING #569 @ $3ADE7
+
+#WRITE(Unit, $39ECB)
+//フォルセティ[X]
+포르세티[X]
+
+
+//POINTER #44 @ $3F56F - STRING #44 @ $3F7A7
+
+#WRITE(Castle, $3F56F)
+// トラキア城[X]
+트라키아성[X]
+
+//POINTER #45 @ $3F571 - STRING #45 @ $3F7B3
+
+#WRITE(Castle, $3F571)
+// グルティア城[X]
+그루티아성[X]
+
+#WRITE(Army, $3D942)
+//グルティア軍[X]
+그루티아군[X]
+
+//POINTER #53 @ $3D952 - STRING #53 @ $3DBFC
+
+#WRITE(Army, $3D952)
+//シグルド軍[X]
+시구르드군[X]
+
+//POINTER #54 @ $3D954 - STRING #54 @ $3DC08
+
+#WRITE(Army, $3D954)
+//セリス軍[X]
+세리스군[X]
+
+
+#W16($9A77B)
+//スリ?プ<X>
+슬립<X>
+
+#W16($9A77E)
+//バサ?ク<X>
+버서크<X>
+
+
+#JMP($99B9D, $99BA4)
+#W16($99A4B)
+//しぼう<X>
+사망<X>
+//사일런스
+//<$EC><$EF><$F0><$F1>
+
+//Sleep
+#JMP($5C98D)
+//スリ?プ
+//슬립
+//<$F1><$F2><$ED><$F3>
+
+//Berserk
+#JMP($5C992)
+//バサ?ク
+//버서크
+//<$EB><$EC><$ED><$EE>
+아무도　안합니다<X>
+
+
+//Inventory empty
+//fetranssrc:notimes.txt
+//[asmptr]
+//You have none!
+#JMP($D046, $D07D)
+#W16($CF21)
+//わが軍のアイテムはありません<X>
+우리군의　아이템은　없습니다<X>
+
+//Get outta here!
+#W16($CF32)
+//Ｂボタンをおしてください<X>
+Ｂ버튼을　눌러주세요<X>
+//#JMP($1E9910, $1E9927)
+#W16($1E98EE)
+// 　は　こわれてしまった<X>
+　（은）는　망가져　버렸다<X>
+
+//(gold) Obtained!
+//#JMP($1E994F, $1E9966)
+#W16($1E9937)
+// ゴ?ルド　てにいれた！<X>
+골드를　손에　넣었다！<X>
+
+//(gold) Stolen
+//#JMP($1E998E, $1E99A3)
+#W16($1E9976)
+// ゴ?ルド　ぬすまれた<X>
+골드를　빼앗겼다<X>
+ＡＴＣ<X>
+
+#W16($BD32B)
+????<X>
+
+
+//Nobody has a skill
+//fetranssrc:skillnobody
+//[armptr3]
+#JMP($BDFA9, $BDFBE)
+#W16($BDA8E)
+//だれももっていません<X>
+　아무도　없습니다<X>
+
+#W16($AAEAF)
+ＬＶ<X>
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menu_text/menutext.tbl", menu)
+#ACTIVETBL(menu)
+
+//BLOCK #004 NAME:		Class Names
+#VAR(Class, CUSTOMPOINTER)
+#CREATEPTR(Class, "LINEAR", $38AB3, 16)
+
+#JMP($38B43, $38F34)
+
+//POINTER #0 @ $38AB3 - STRING #0 @ $38B43
+
+#WRITE(Class, $38AB3)
+//ソシアルナイト[X]
+소셜나이트[X]
+
+//POINTER #1 @ $38AB5 - STRING #1 @ $38B53
+
+#WRITE(Class, $38AB5)
+//ランスナイト[X]
+랜스나이트[X]
+
+//POINTER #2 @ $38AB7 - STRING #2 @ $38B61
+
+#WRITE(Class, $38AB7)
+//ア?チナイト[X]
+아치나이트[X]
+
+//POINTER #3 @ $38AB9 - STRING #3 @ $38B6F
+
+#WRITE(Class, $38AB9)
+//アクスナイト[X]
+액스나이트[X]
+
+//POINTER #4 @ $38ABB - STRING #4 @ $38B7D
+
+#WRITE(Class, $38ABB)
+//フリ?ナイト[X]
+프리나이트[X]
+
+//POINTER #5 @ $38ABD - STRING #5 @ $38B8B
+
+#WRITE(Class, $38ABD)
+//トルバド?ル[X]
+트루바두르[X]
+
+//POINTER #6 @ $38ABF - STRING #6 @ $38B99
+
+#WRITE(Class, $38ABF)
+//ロ?ドナイト[X]
+로드나이트[X]
+
+//POINTER #7 @ $38AC1 - STRING #7 @ $38BA7
+
+#WRITE(Class, $38AC1)
+//デュ?クナイト[X]
+듀크나이트[X]
+
+//POINTER #8 @ $38AC3 - STRING #8 @ $38BB7
+
+#WRITE(Class, $38AC3)
+//マスタ?ナイト[X]
+마스터나이트[X]
+
+//POINTER #9 @ $38AC5 - STRING #9 @ $38BC7
+//POINTER #10 @ $38AC7 - STRING #10 @ $38BC7
+
+#WRITE(Class, $38AC5)
+#WRITE(Class, $38AC7)
+//パラディン[X]
+팔라딘[X]
+
+//POINTER #11 @ $38AC9 - STRING #11 @ $38BD3
+
+#WRITE(Class, $38AC9)
+//ボウナイト[X]
+보우나이트[X]
+
+//POINTER #12 @ $38ACB - STRING #12 @ $38BDF
+
+#WRITE(Class, $38ACB)
+//フォレストナイト[X]
+포레스트나이트[X]
+
+//POINTER #13 @ $38ACD - STRING #13 @ $38BF1
+
+#WRITE(Class, $38ACD)
+//マ?ジナイト[X]
+메이지나이트[X]
+
+//POINTER #14 @ $38ACF - STRING #14 @ $38BFF
+
+#WRITE(Class, $38ACF)
+//グレ?トナイト[X]
+그레이트나이트[X]
+
+//POINTER #15 @ $38AD1 - STRING #15 @ $38C0F
+
+#WRITE(Class, $38AD1)
+//ペガサスライダ?[X]
+페가수스라이더[X]
+
+//POINTER #16 @ $38AD3 - STRING #16 @ $38C21
+
+#WRITE(Class, $38AD3)
+//ペガサスナイト[X]
+페가수스나이트[X]
+
+//POINTER #17 @ $38AD5 - STRING #17 @ $38C31
+
+#WRITE(Class, $38AD5)
+//ファルコンナイト[X]
+팔콘나이트[X]
+
+//POINTER #18 @ $38AD7 - STRING #18 @ $38C43
+
+#WRITE(Class, $38AD7)
+//ドラゴンライダ?[X]
+드래곤라이더[X]
+
+//POINTER #19 @ $38AD9 - STRING #19 @ $38C55
+
+#WRITE(Class, $38AD9)
+//ドラゴンナイト[X]
+드래곤나이트[X]
+
+//POINTER #20 @ $38ADB - STRING #20 @ $38C65
+
+#WRITE(Class, $38ADB)
+//ドラゴンマスタ?[X]
+드래곤마스터[X]
+
+//POINTER #21 @ $38ADD - STRING #21 @ $38C77
+
+#WRITE(Class, $38ADD)
+//ボウファイタ?[X]
+보우파이터[X]
+
+//POINTER #22 @ $38ADF - STRING #22 @ $38C87
+
+#WRITE(Class, $38ADF)
+//ソ?ドファイタ?[X]
+소드파이터[X]
+
+//POINTER #23 @ $38AE1 - STRING #23 @ $38C99
+
+#WRITE(Class, $38AE1)
+//ソ?ドマスタ?[X]
+소드마스터[X]
+
+//POINTER #24 @ $38AE3 - STRING #24 @ $38CA9
+
+#WRITE(Class, $38AE3)
+//スナイパ?[X]
+스나이퍼[X]
+
+//POINTER #25 @ $38AE5 - STRING #25 @ $38CB5
+
+#WRITE(Class, $38AE5)
+//フォ?レスト[X]
+포레스트[X]
+
+//POINTER #26 @ $38AE7 - STRING #26 @ $38CC3
+
+#WRITE(Class, $38AE7)
+//ジェネラル[X]
+제너럴[X]
+
+//POINTER #27 @ $38AE9 - STRING #27 @ $38CCF
+
+#WRITE(Class, $38AE9)
+//エンペラ?[X]
+엠퍼러[X]
+
+//POINTER #28 @ $38AEB - STRING #28 @ $38CDB
+
+#WRITE(Class, $38AEB)
+//バロン[X]
+바론[X]
+
+//POINTER #29 @ $38AED - STRING #29 @ $38CE3
+
+#WRITE(Class, $38AED)
+//ソルジャ?[X]
+솔저[X]
+
+//POINTER #30 @ $38AEF - STRING #30 @ $38CEF
+
+#WRITE(Class, $38AEF)
+//スピアソルジャ?[X]
+스피어솔저[X]
+
+//POINTER #31 @ $38AF1 - STRING #31 @ $38D01
+
+#WRITE(Class, $38AF1)
+//アクスソルジャ?[X]
+액스솔저[X]
+
+//POINTER #32 @ $38AF3 - STRING #32 @ $38D13
+
+#WRITE(Class, $38AF3)
+//ア?チャ?[X]
+아처[X]
+
+//POINTER #33 @ $38AF5 - STRING #33 @ $38D1F
+
+#WRITE(Class, $38AF5)
+//ソ?ドソルジャ?[X]
+소드솔저[X]
+
+//POINTER #34 @ $38AF7 - STRING #34 @ $38D31
+
+#WRITE(Class, $38AF7)
+//ア?マ?[X]
+아머[X]
+
+//POINTER #35 @ $38AF9 - STRING #35 @ $38D3B
+
+#WRITE(Class, $38AF9)
+//アクスア?マ?[X]
+액스아머[X]
+
+//POINTER #36 @ $38AFB - STRING #36 @ $38D4B
+
+#WRITE(Class, $38AFB)
+//ボウア?マ?[X]
+보우아머[X]
+
+//POINTER #37 @ $38AFD - STRING #37 @ $38D59
+
+#WRITE(Class, $38AFD)
+//ソ?ドア?マ?[X]
+소드아머[X]
+
+//POINTER #38 @ $38AFF - STRING #38 @ $38D69
+
+#WRITE(Class, $38AFF)
+//バ?バリアン[X]
+바바리안[X]
+
+//POINTER #39 @ $38B01 - STRING #39 @ $38D77
+
+#WRITE(Class, $38B01)
+//アクスファイタ?[X]
+액스파이터[X]
+
+//POINTER #40 @ $38B03 - STRING #40 @ $38D89
+
+#WRITE(Class, $38B03)
+//マウンテンシ?フ[X]
+마운틴시프[X]
+
+//POINTER #41 @ $38B05 - STRING #41 @ $38D9B
+
+#WRITE(Class, $38B05)
+//ウォ?リア[X]
+워리어[X]
+
+//POINTER #42 @ $38B07 - STRING #42 @ $38DA7
+
+#WRITE(Class, $38B07)
+//ハンタ?[X]
+헌터[X]
+
+//POINTER #43 @ $38B09 - STRING #43 @ $38DB1
+
+#WRITE(Class, $38B09)
+//パイレ?ツ[X]
+파이레트[X]
+
+//POINTER #44 @ $38B0B - STRING #44 @ $38DBD
+
+#WRITE(Class, $38B0B)
+//ジュニアロ?ド[X]
+주니어로드[X]
+
+//POINTER #45 @ $38B0D - STRING #45 @ $38DCD
+//POINTER #48 @ $38B13 - STRING #48 @ $38DF5
+
+#WRITE(Class, $38B0D)
+#WRITE(Class, $38B13)
+//マ?ジファイタ?[X]
+메이지파이터[X]
+
+//POINTER #46 @ $38B0F - STRING #46 @ $38DDF
+
+#WRITE(Class, $38B0F)
+//プリンス[X]
+프린스[X]
+
+//POINTER #47 @ $38B11 - STRING #47 @ $38DE9
+
+#WRITE(Class, $38B11)
+//プリンセス[X]
+프린세스[X]
+
+//POINTER #49 @ $38B15 - STRING #49 @ $39007
+
+#WRITE(Class, $38B15)
+//クイ?ン[X]
+퀸[X]
+
+//POINTER #50 @ $38B17 - STRING #50 @ $39011
+
+#WRITE(Class, $38B17)
+//ダンサ?[X]
+댄서[X]
+
+//POINTER #51 @ $38B19 - STRING #51 @ $3901B
+
+#WRITE(Class, $38B19)
+//プリ?スト[X]
+프리스트[X]
+
+//POINTER #52 @ $38B1B - STRING #52 @ $39027
+
+#WRITE(Class, $38B1B)
+//マ?ジ[X]
+메이지[X]
+
+//POINTER #53 @ $38B1D - STRING #53 @ $3902F
+
+#WRITE(Class, $38B1D)
+//ファイアマ?ジ[X]
+파이어메이지[X]
+
+//POINTER #54 @ $38B1F - STRING #54 @ $3903F
+
+#WRITE(Class, $38B1F)
+//サンダ?マ?ジ[X]
+선더메이지[X]
+
+//POINTER #55 @ $38B21 - STRING #55 @ $3904F
+
+#WRITE(Class, $38B21)
+//ウインドマ?ジ[X]
+윈드메이지[X]
+
+//POINTER #56 @ $38B23 - STRING #56 @ $3905F
+
+#WRITE(Class, $38B23)
+//ハイプリ?スト[X]
+하이프리스트[X]
+
+//POINTER #57 @ $38B25 - STRING #57 @ $3906F
+
+#WRITE(Class, $38B25)
+//ビショップ[X]
+비숍[X]
+
+//POINTER #58 @ $38B27 - STRING #58 @ $3907B
+
+#WRITE(Class, $38B27)
+//セイジ[X]
+세이지[X]
+
+//POINTER #59 @ $38B29 - STRING #59 @ $39083
+
+#WRITE(Class, $38B29)
+//バ?ド[X]
+바드[X]
+
+//POINTER #60 @ $38B2B - STRING #60 @ $3908B
+
+#WRITE(Class, $38B2B)
+//シャ?マン[X]
+샤먼[X]
+
+//POINTER #61 @ $38B2D - STRING #61 @ $39097
+
+#WRITE(Class, $38B2D)
+//ダ?クマ?ジ[X]
+다크메이지[X]
+
+//POINTER #62 @ $38B2F - STRING #62 @ $390A5
+
+#WRITE(Class, $38B2F)
+//ダ?クビショップ[X]
+다크비숍[X]
+
+//POINTER #63 @ $38B31 - STRING #63 @ $390B7
+
+#WRITE(Class, $38B31)
+//シ?フ[X]
+시프[X]
+
+//POINTER #64 @ $38B33 - STRING #64 @ $390BF
+
+#WRITE(Class, $38B33)
+//シ?フファイタ?[X]
+시프파이터[X]
+
+//POINTER #65 @ $38B35 - STRING #65 @ $390D1
+//POINTER #66 @ $38B37 - STRING #66 @ $390DD
+
+#WRITE(Class, $38B35)
+#WRITE(Class, $38B37)
+//シビリアン[X]
+시빌리언[X]
+
+//POINTER #67 @ $38B39 - STRING #67 @ $390E9
+
+#WRITE(Class, $38B39)
+//ロングア?チ[X]
+롱아치[X]
+
+//POINTER #68 @ $38B3B - STRING #68 @ $390F7
+
+#WRITE(Class, $38B3B)
+//アイアンア?チ[X]
+아이언아치[X]
+
+//POINTER #69 @ $38B3D - STRING #69 @ $39107
+
+#WRITE(Class, $38B3D)
+//キラ?ア?チ[X]
+킬러아치[X]
+
+//POINTER #70 @ $38B3F - STRING #70 @ $39115
+
+#WRITE(Class, $38B3F)
+//グレ?トア?チ[X]//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menu_text/menutext.tbl", menu)
+#ACTIVETBL(menu)
+
+//BLOCK #008 NAME:		Item Descriptions
+#VAR(ItemDesc, CUSTOMPOINTER)
+#CREATEPTR(ItemDesc, "LINEAR", $3E2E8, 16)
+
+#JMP($3E400, $3E9CF)
+
+//POINTER #0 @ $3E2E8 - STRING #0 @ $3E3FC
+//POINTER #1 @ $3E2EA - STRING #1 @ $3E3FC
+//POINTER #2 @ $3E2EC - STRING #2 @ $3E3FC
+//POINTER #3 @ $3E2EE - STRING #3 @ $3E3FC
+//POINTER #4 @ $3E2F0 - STRING #4 @ $3E3FC
+//POINTER #5 @ $3E2F2 - STRING #5 @ $3E3FC
+//POINTER #13 @ $3E302 - STRING #13 @ $3E3FC
+//POINTER #25 @ $3E31A - STRING #25 @ $3E3FC
+//POINTER #26 @ $3E31C - STRING #26 @ $3E3FC
+//POINTER #27 @ $3E31E - STRING #27 @ $3E3FC
+//POINTER #28 @ $3E320 - STRING #28 @ $3E3FC
+//POINTER #29 @ $3E322 - STRING #29 @ $3E3FC
+//POINTER #30 @ $3E324 - STRING #30 @ $3E3FC
+//POINTER #31 @ $3E326 - STRING #31 @ $3E3FC
+//POINTER #34 @ $3E32C - STRING #34 @ $3E3FC
+//POINTER #37 @ $3E332 - STRING #37 @ $3E3FC
+//POINTER #38 @ $3E334 - STRING #38 @ $3E3FC
+//POINTER #39 @ $3E336 - STRING #39 @ $3E3FC
+//POINTER #40 @ $3E338 - STRING #40 @ $3E3FC
+//POINTER #41 @ $3E33A - STRING #41 @ $3E3FC
+//POINTER #42 @ $3E33C - STRING #42 @ $3E3FC
+//POINTER #45 @ $3E342 - STRING #45 @ $3E3FC
+//POINTER #46 @ $3E344 - STRING #46 @ $3E3FC
+//POINTER #47 @ $3E346 - STRING #47 @ $3E3FC
+//POINTER #48 @ $3E348 - STRING #48 @ $3E3FC
+//POINTER #62 @ $3E364 - STRING #62 @ $3E3FC
+//POINTER #63 @ $3E366 - STRING #63 @ $3E3FC
+//POINTER #64 @ $3E368 - STRING #64 @ $3E3FC
+//POINTER #66 @ $3E36C - STRING #66 @ $3E3FC
+//POINTER #67 @ $3E36E - STRING #67 @ $3E3FC
+//POINTER #68 @ $3E370 - STRING #68 @ $3E3FC
+//POINTER #69 @ $3E372 - STRING #69 @ $3E3FC
+//POINTER #71 @ $3E376 - STRING #71 @ $3E3FC
+//POINTER #73 @ $3E37A - STRING #73 @ $3E3FC
+//POINTER #74 @ $3E37C - STRING #74 @ $3E3FC
+//POINTER #76 @ $3E380 - STRING #76 @ $3E3FC
+//POINTER #77 @ $3E382 - STRING #77 @ $3E3FC
+//POINTER #72 @ $3E378 - STRING #72 @ $3E3FC
+//POINTER #79 @ $3E386 - STRING #79 @ $3E3FC
+//POINTER #81 @ $3E38A - STRING #81 @ $3E3FC
+//POINTER #82 @ $3E38C - STRING #82 @ $3E3FC
+//POINTER #85 @ $3E392 - STRING #85 @ $3E3FC
+//POINTER #86 @ $3E394 - STRING #86 @ $3E3FC
+//POINTER #87 @ $3E396 - STRING #87 @ $3E3FC
+//POINTER #103 @ $3E3B6 - STRING #103 @ $3E3FC
+//POINTER #104 @ $3E3B8 - STRING #104 @ $3E3FC
+//POINTER #105 @ $3E3BA - STRING #105 @ $3E3FC
+//POINTER #122 @ $3E3DC - STRING #122 @ $3E3FC
+//POINTER #123 @ $3E3DE - STRING #123 @ $3E3FC
+//POINTER #124 @ $3E3E0 - STRING #124 @ $3E3FC
+//POINTER #125 @ $3E3E2 - STRING #125 @ $3E3FC
+//POINTER #126 @ $3E3E4 - STRING #126 @ $3E3FC
+//POINTER #127 @ $3E3E6 - STRING #127 @ $3E3FC
+//POINTER #128 @ $3E3E8 - STRING #128 @ $3E3FC
+//POINTER #129 @ $3E3EA - STRING #129 @ $3E3FC
+//POINTER #130 @ $3E3EC - STRING #130 @ $3E3FC
+//POINTER #131 @ $3E3EE - STRING #131 @ $3E3FC
+//POINTER #132 @ $3E3F0 - STRING #132 @ $3E3FC
+//POINTER #133 @ $3E3F2 - STRING #133 @ $3E3FC
+//POINTER #134 @ $3E3F4 - STRING #134 @ $3E3FC
+//POINTER #135 @ $3E3F6 - STRING #135 @ $3E3FC
+//POINTER #136 @ $3E3F8 - STRING #136 @ $3E3FC
+
+#WRITE(ItemDesc, $3E3F8)
+#WRITE(ItemDesc, $3E3F6)
+#WRITE(ItemDesc, $3E3F4)
+#WRITE(ItemDesc, $3E3F2)
+#WRITE(ItemDesc, $3E3F0)
+#WRITE(ItemDesc, $3E3EE)
+#WRITE(ItemDesc, $3E3EC)
+#WRITE(ItemDesc, $3E3EA)
+#WRITE(ItemDesc, $3E3E8)
+#WRITE(ItemDesc, $3E3E6)
+#WRITE(ItemDesc, $3E3E4)
+#WRITE(ItemDesc, $3E3E2)
+#WRITE(ItemDesc, $3E3E0)
+#WRITE(ItemDesc, $3E3DE)
+#WRITE(ItemDesc, $3E3DC)
+#WRITE(ItemDesc, $3E3BA)
+#WRITE(ItemDesc, $3E3B8)
+#WRITE(ItemDesc, $3E3B6)
+#WRITE(ItemDesc, $3E396)
+#WRITE(ItemDesc, $3E394)
+#WRITE(ItemDesc, $3E392)
+#WRITE(ItemDesc, $3E38C)
+#WRITE(ItemDesc, $3E38A)
+#WRITE(ItemDesc, $3E386)
+#WRITE(ItemDesc, $3E378)
+#WRITE(ItemDesc, $3E376)
+#WRITE(ItemDesc, $3E382)
+#WRITE(ItemDesc, $3E380)
+#WRITE(ItemDesc, $3E37C)
+#WRITE(ItemDesc, $3E37A)
+#WRITE(ItemDesc, $3E372)
+#WRITE(ItemDesc, $3E370)
+#WRITE(ItemDesc, $3E36E)
+#WRITE(ItemDesc, $3E36C)
+#WRITE(ItemDesc, $3E368)
+#WRITE(ItemDesc, $3E366)
+#WRITE(ItemDesc, $3E364)
+#WRITE(ItemDesc, $3E348)
+#WRITE(ItemDesc, $3E346)
+#WRITE(ItemDesc, $3E344)
+#WRITE(ItemDesc, $3E342)
+#WRITE(ItemDesc, $3E33C)
+#WRITE(ItemDesc, $3E33A)
+#WRITE(ItemDesc, $3E338)
+#WRITE(ItemDesc, $3E336)
+#WRITE(ItemDesc, $3E334)
+#WRITE(ItemDesc, $3E332)
+#WRITE(ItemDesc, $3E32C)
+#WRITE(ItemDesc, $3E326)
+#WRITE(ItemDesc, $3E324)
+#WRITE(ItemDesc, $3E322)
+#WRITE(ItemDesc, $3E320)
+#WRITE(ItemDesc, $3E31E)
+#WRITE(ItemDesc, $3E31C)
+#WRITE(ItemDesc, $3E31A)
+#WRITE(ItemDesc, $3E302)
+#WRITE(ItemDesc, $3E2F2)
+#WRITE(ItemDesc, $3E2F0)
+#WRITE(ItemDesc, $3E2EE)
+#WRITE(ItemDesc, $3E2EC)
+#WRITE(ItemDesc, $3E2EA)
+#WRITE(ItemDesc, $3E2E8)
+　[X]
+
+//POINTER #6 @ $3E2F4 - STRING #6 @ $3E400
+
+#WRITE(ItemDesc, $3E2F4)
+// じょせいせんよう[X]
+여성　전용[X]
+
+//POINTER #7 @ $3E2F6 - STRING #7 @ $3E412
+
+#WRITE(ItemDesc, $3E2F6)
+// ゴ?ルドをぬすむ[X]
+골드를　훔친다[X]
+
+//POINTER #8 @ $3E2F8 - STRING #8 @ $3E430
+
+#WRITE(ItemDesc, $3E2F8)
+// まほうしゅび＋７[X]
+마법방어＋７[X]
+
+//POINTER #9 @ $3E2FA - STRING #9 @ $3E454
+
+#WRITE(ItemDesc, $3E2FA)
+// こんらんさせる[X]
+혼란에　빠뜨린다[X]
+
+//POINTER #10 @ $3E2FC - STRING #10 @ $3E464
+//POINTER #33 @ $3E32A - STRING #33 @ $3E464
+//POINTER #43 @ $3E33E - STRING #43 @ $3E464
+//POINTER #52 @ $3E350 - STRING #52 @ $3E464
+
+#WRITE(ItemDesc, $3E350)
+#WRITE(ItemDesc, $3E2FC)
+#WRITE(ItemDesc, $3E32A)
+#WRITE(ItemDesc, $3E33E)
+// ２回こうげき[X]
+２회　공격[X]
+
+//POINTER #11 @ $3E2FE - STRING #11 @ $3E472
+
+#WRITE(ItemDesc, $3E2FE)
+// ちんもくさせる[X]
+침묵시킨다[X]
+
+//POINTER #12 @ $3E300 - STRING #12 @ $3E482
+
+#WRITE(ItemDesc, $3E300)
+// ねむらせる[X]
+잠들게　한다[X]
+
+//POINTER #14 @ $3E304 - STRING #14 @ $3E442
+
+#WRITE(ItemDesc, $3E304)
+// しゅびりょく＋７[X]
+수비력＋７[X]
+
+//POINTER #15 @ $3E306 - STRING #15 @ $3E48E
+
+#WRITE(ItemDesc, $3E306)
+// ＋エルファイア?[X]
+＋엘파이어[X]
+
+//POINTER #16 @ $3E308 - STRING #16 @ $3E4A0
+
+#WRITE(ItemDesc, $3E308)
+// ＨＰをすいとる[X]
+ＨＰ를　흡수한다[X]
+
+//POINTER #17 @ $3E30A - STRING #17 @ $3E4B0
+
+#WRITE(ItemDesc, $3E30A)
+// ＋エルサンダ?[X]
+＋엘선더[X]
+
+//POINTER #18 @ $3E30C - STRING #18 @ $3E4C0
+
+#WRITE(ItemDesc, $3E30C)
+// ＋エルウインド[X]
+＋엘윈드[X]
+
+//POINTER #19 @ $3E30E - STRING #19 @ $3E4D0
+
+#WRITE(ItemDesc, $3E30E)
+// ＋ライトニング[X]
+＋라이트닝[X]
+
+//POINTER #20 @ $3E310 - STRING #20 @ $3E4E0
+
+#WRITE(ItemDesc, $3E310)
+// 　ひっさつ[X]
+　필살[X]
+
+//POINTER #21 @ $3E312 - STRING #21 @ $3E4EC
+
+#WRITE(ItemDesc, $3E312)
+// 　いのり[X]
+　기도[X]
+
+//POINTER #22 @ $3E314 - STRING #22 @ $3E4F6
+//POINTER #35 @ $3E32E - STRING #35 @ $3E4F6
+//POINTER #36 @ $3E330 - STRING #36 @ $3E4F6
+//POINTER #44 @ $3E340 - STRING #44 @ $3E4F6
+//POINTER #65 @ $3E36A - STRING #65 @ $3E4F6
+//POINTER #70 @ $3E374 - STRING #70 @ $3E4F6
+//POINTER #75 @ $3E37E - STRING #75 @ $3E4F6
+
+#WRITE(ItemDesc, $3E37E)
+#WRITE(ItemDesc, $3E374)
+#WRITE(ItemDesc, $3E36A)
+#WRITE(ItemDesc, $3E340)
+#WRITE(ItemDesc, $3E330)
+#WRITE(ItemDesc, $3E32E)
+#WRITE(ItemDesc, $3E314)
+// せんりょくアップ[X]
+전투력을　올린다[X]
+
+//POINTER #23 @ $3E316 - STRING #23 @ $3E536
+
+#WRITE(ItemDesc, $3E316)
+아머계에　특효[X]
+
+//POINTER #24 @ $3E318 - STRING #24 @ $3E558
+//POINTER #49 @ $3E34A - STRING #49 @ $3E558
+//POINTER #50 @ $3E34C - STRING #50 @ $3E558
+//POINTER #51 @ $3E34E - STRING #51 @ $3E558
+//POINTER #55 @ $3E356 - STRING #55 @ $3E558
+//POINTER #56 @ $3E358 - STRING #56 @ $3E558
+//POINTER #57 @ $3E35A - STRING #57 @ $3E558
+//POINTER #58 @ $3E35C - STRING #58 @ $3E558
+//POINTER #59 @ $3E35E - STRING #59 @ $3E558
+//POINTER #60 @ $3E360 - STRING #60 @ $3E558
+//POINTER #61 @ $3E362 - STRING #61 @ $3E558
+
+#WRITE(ItemDesc, $3E362)
+#WRITE(ItemDesc, $3E360)
+#WRITE(ItemDesc, $3E35E)
+#WRITE(ItemDesc, $3E35C)
+#WRITE(ItemDesc, $3E35A)
+#WRITE(ItemDesc, $3E358)
+#WRITE(ItemDesc, $3E356)
+#WRITE(ItemDesc, $3E34E)
+#WRITE(ItemDesc, $3E34C)
+#WRITE(ItemDesc, $3E34A)
+#WRITE(ItemDesc, $3E318)
+비행계에　특효[X]
+
+//POINTER #32 @ $3E328 - STRING #32 @ $3E548
+
+#WRITE(ItemDesc, $3E328)
+// ナイト系に特?[X]
+나이트계에　특효[X]
+
+//POINTER #53 @ $3E352 - STRING #53 @ $3E424
+
+#WRITE(ItemDesc, $3E352)
+// 　ひっさつ[X]
+　필살[X]
+
+//POINTER #54 @ $3E354 - STRING #54 @ $3E508
+
+#WRITE(ItemDesc, $3E354)
+// 　ライブ[X]
+　라이브[X]
+
+//POINTER #78 @ $3E384 - STRING #78 @ $3E57A
+
+#WRITE(ItemDesc, $3E384)
+// ＨＰをすいとる[X]
+ＨＰ를　흡수한다[X]
+
+//POINTER #80 @ $3E388 - STRING #80 @ $3E524
+
+#WRITE(ItemDesc, $3E388)
+// ロプトウスむこう[X]
+로프토우스　무효[X]
+
+//POINTER #83 @ $3E38E - STRING #83 @ $3E568
+
+#WRITE(ItemDesc, $3E38E)
+// ＨＰを１にさげる[X]
+ＨＰ를　１로　　
+만든다[X]
+//나중에 확인 필요
+//POINTER #84 @ $3E390 - STRING #84 @ $3E512
+
+#WRITE(ItemDesc, $3E390)
+// こうげきはんげん[X]
+공격력　반감[X]
+
+//POINTER #88 @ $3E398 - STRING #88 @ $3E58A
+
+#WRITE(ItemDesc, $3E398)
+// ＨＰを回ふくする[X]
+ＨＰ를　회복한다[X]
+
+//POINTER #89 @ $3E39A - STRING #89 @ $3E59C
+
+#WRITE(ItemDesc, $3E39A)
+// ＨＰをおおく　　
+// 回ふくする[X]
+ＨＰ를　많이　　
+회복한다[X]
+
+//POINTER #90 @ $3E39C - STRING #90 @ $3E5B8
+
+#WRITE(ItemDesc, $3E39C)
+// ＨＰをかんぜんに
+// 回ふくする[X]
+ＨＰ를　완전히　
+회복한다[X]
+
+//POINTER #91 @ $3E39E - STRING #91 @ $3E5D4
+
+#WRITE(ItemDesc, $3E39E)
+// １０マスないの　
+// みかたひとりに　
+// ライブをかける[X]
+１０칸　이내의　
+아군　한명에게　
+라이브를　건다[X]
+
+//POINTER #92 @ $3E3A0 - STRING #92 @ $3E604
+
+#WRITE(ItemDesc, $3E3A0)
+// １０マスないの　
+// みかたぜんいんに
+// ライブをかける[X]
+１０칸　이내의　
+아군　전원에게　
+라이브를　건다[X]
+
+//POINTER #93 @ $3E3A2 - STRING #93 @ $3E634
+
+#WRITE(ItemDesc, $3E3A2)
+// みかたひとりを　
+// ほん城へもどす[X]
+아군　한명을　　
+본성으로　보낸다[X]
+
+//POINTER #94 @ $3E3A4 - STRING #94 @ $3E654
+
+#WRITE(ItemDesc, $3E3A4)
+// みかたひとりを　
+// じぐんのどれかの
+// 城にワ?プさせる[X]
+아군　한명을　　
+점령중인　성으로
+워프시킨다[X]
+
+//POINTER #95 @ $3E3A6 - STRING #95 @ $3E686
+
+#WRITE(ItemDesc, $3E3A6)
+// １０マスないの　
+// みかたひとりを　
+// そばにひきよせる[X]
+１０칸　이내의　
+아군　한명을　　
+곁으로　불러온다[X]
+
+//POINTER #96 @ $3E3A8 - STRING #96 @ $3E6B8
+//POINTER #97 @ $3E3AA - STRING #97 @ $3E6B8
+
+#WRITE(ItemDesc, $3E3AA)
+#WRITE(ItemDesc, $3E3A8)
+// １０マスないの　
+// みかたひとりの　
+// じょうたいを　　
+// せいじょうにする[X]
+１０칸　이내의　
+아군　한명을　　
+정상　상태로　　
+되돌린다[X]
+
+//POINTER #98 @ $3E3AC - STRING #98 @ $3E6FA
+
+#WRITE(ItemDesc, $3E3AC)
+// しんでしまった　
+// みかたひとりを　
+// よみがえらせる　
+// ほん城でつかえる[X]
+이미　사망한　　
+아군　한명을　　
+되살린다　　　　
+본성에서　사용함[X]
+
+//POINTER #99 @ $3E3AE - STRING #99 @ $3E73C
+
+#WRITE(ItemDesc, $3E3AE)
+// １０マスないの　
+// てきひとりの　　
+// まほうをすうタ?
+// ンつかえなくする[X]
+１０칸　이내의　
+적　한명을　　　
+마법을　사용하지
+못하게　만든다[X]
+
+//POINTER #100 @ $3E3B0 - STRING #100 @ $3E77E
+
+#WRITE(ItemDesc, $3E3B0)
+// １０マスないの　
+// てきひとりを　　
+// すうタ?ンうごけ
+// なくする[X]
+１０칸　이내의　
+적　한명을　　　
+몇턴간　움직이지
+못하게　만든다[X]
+
+//POINTER #101 @ $3E3B2 - STRING #101 @ $3E7B8
+
+#WRITE(ItemDesc, $3E3B2)
+// １０マスないの　
+// てきひとりを　　
+// すうタ?ンこんら
+// んさせる[X]
+１０칸　이내의　
+적　한명을　　　
+몇턴간　혼란에　
+빠뜨린다[X]
+
+//POINTER #102 @ $3E3B4 - STRING #102 @ $3E7F2
+
+#WRITE(ItemDesc, $3E3B4)
+// てきからゴ?ルド
+// をぬすむ[X]
+적으로부터　　　
+골드를　훔친다[X]
+
+//POINTER #106 @ $3E3BC - STRING #106 @ $3E80C
+
+#WRITE(ItemDesc, $3E3BC)
+// まいタ?ンＨＰが
+// 回ふくする[X]
+매　턴　ＨＰ가　
+회복된다[X]
+
+//POINTER #107 @ $3E3BE - STRING #107 @ $3E828
+
+#WRITE(ItemDesc, $3E3BE)
+// けいけんちを　　
+// ２ばいもらえる[X]
+경험치를　　　　
+２배로　획득한다[X]
+
+//POINTER #108 @ $3E3C0 - STRING #108 @ $3E848
+
+#WRITE(ItemDesc, $3E3C0)
+// てきからゴ?ルド
+// をぬすむ[X]
+적으로부터　　　
+골드를　훔친다[X]
+
+//POINTER #109 @ $3E3C2 - STRING #109 @ $3E862
+
+#WRITE(ItemDesc, $3E3C2)
+// ピンチになると　
+// かいひりつが　　
+// あがる[X]
+빈사　상태일　때　
+회피치가　　　　
+오른다[X]
+
+//POINTER #110 @ $3E3C4 - STRING #110 @ $3E88A
+
+#WRITE(ItemDesc, $3E3C4)
+// あいてよりも　　
+// みがるならば　　
+// さいこうげき[X]
+상대보다　　　　
+날렵하다면　　　
+재공격한다[X]
+
+//POINTER #111 @ $3E3C6 - STRING #111 @ $3E8B8
+
+#WRITE(ItemDesc, $3E3C6)
+// まいタ?ンＨＰが
+// ぜん回ふくする[X]
+매턴마다　ＨＰ가
+전부　회복된다[X]
+
+//POINTER #112 @ $3E3C8 - STRING #112 @ $3E8D8
+
+#WRITE(ItemDesc, $3E3C8)
+// かいものやしゅう
+// りのねだんがはん
+// ぶんになる[X]
+구매나　수리에　
+드는　비용이　　
+반값이　된다[X]
+
+//POINTER #113 @ $3E3CA - STRING #113 @ $3E904
+
+#WRITE(ItemDesc, $3E3CA)
+전투　후　　　　
+재이동　할수있다[X]
+
+//POINTER #114 @ $3E3CC - STRING #114 @ $3E922
+
+#WRITE(ItemDesc, $3E3CC)
+// ほん城にもどれる[X]
+본성으로　돌아감[X]
+
+//POINTER #115 @ $3E3CE - STRING #115 @ $3E934
+
+#WRITE(ItemDesc, $3E3CE)
+// すばやさ＋５[X]
+날렵함＋５[X]
+
+//POINTER #116 @ $3E3D0 - STRING #116 @ $3E942
+
+#WRITE(ItemDesc, $3E3D0)
+// まりょく＋５[X]
+마력＋５[X]
+
+//POINTER #117 @ $3E3D2 - STRING #117 @ $3E950
+
+#WRITE(ItemDesc, $3E3D2)
+// ちから＋５[X]
+힘＋５[X]
+
+//POINTER #118 @ $3E3D4 - STRING #118 @ $3E95C
+
+#WRITE(ItemDesc, $3E3D4)
+// しゅびりょく＋５[X]
+수비력＋５[X]
+
+//POINTER #119 @ $3E3D6 - STRING #119 @ $3E96E
+
+#WRITE(ItemDesc, $3E3D6)
+// まほうぼうぎょ ＋５[X]
+마법방어 ＋５[X]
+
+//POINTER #120 @ $3E3D8 - STRING #120 @ $3E984
+
+#WRITE(ItemDesc, $3E3D8)
+// いどうりょく＋３[X]
+이동력＋３[X]
+
+//POINTER #121 @ $3E3DA - STRING #121 @ $3E996
+
+#WRITE(ItemDesc, $3E3DA)
+// わざ＋５[X]
+기술＋５[X]
+
+//POINTER #137 @ $3E3FA - STRING #137 @ $3E9A0//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menu_text/menutext.tbl", menu)
+#ACTIVETBL(menu)
+
+//BLOCK #007 NAME:		Item Names
+#VAR(Item, CUSTOMPOINTER)
+#CREATEPTR(Item, "LINEAR", $3DC12, 16)
+
+#JMP($3DD26, $3E2E7)
+
+//POINTER #0 @ $3DC12 - STRING #0 @ $3DD26
+
+#WRITE(Item, $3DC12)
+//てつの?[X]
+철의　검[X]
+
+//POINTER #1 @ $3DC14 - STRING #1 @ $3DD30
+
+#WRITE(Item, $3DC14)
+// はがねの?[X]
+강철의　검[X]
+
+//POINTER #2 @ $3DC16 - STRING #2 @ $3DD3C
+
+#WRITE(Item, $3DC16)
+// ぎんの?[X]
+은의　검[X]
+
+//POINTER #3 @ $3DC18 - STRING #3 @ $3DD46
+
+#WRITE(Item, $3DC18)
+// てつの<$91><$E5>?[X]
+철의　대검[X]
+
+//POINTER #4 @ $3DC1A - STRING #4 @ $3DD52
+
+#WRITE(Item, $3DC1A)
+// はがねの<$91><$E5>?[X]
+강철의　대검[X]
+
+//POINTER #5 @ $3DC1C - STRING #5 @ $3DD60
+
+#WRITE(Item, $3DC1C)
+// ぎんの<$91><$E5>?[X]
+은의　대검[X]
+
+//POINTER #6 @ $3DC1E - STRING #6 @ $3DD6C
+
+#WRITE(Item, $3DC1E)
+// いのりの?[X]
+기도의　검[X]
+
+//POINTER #7 @ $3DC20 - STRING #7 @ $3DD78
+
+#WRITE(Item, $3DC20)
+// とうぞくの?[X]
+도적의　검[X]
+
+//POINTER #8 @ $3DC22 - STRING #8 @ $3DD86
+
+#WRITE(Item, $3DC22)
+// バリアの?[X]
+베리어의　검[X]
+
+//POINTER #9 @ $3DC24 - STRING #9 @ $3DD92
+
+#WRITE(Item, $3DC24)
+// バサ?クの?[X]
+버거크의　검[X]
+
+//POINTER #10 @ $3DC26 - STRING #10 @ $3DDA0
+
+#WRITE(Item, $3DC26)
+// ゆうしゃの?[X]
+용사의　검[X]
+
+//POINTER #11 @ $3DC28 - STRING #11 @ $3DDAE
+
+#WRITE(Item, $3DC28)
+// サイレスの?[X]
+사일런스의　검[X]
+
+//POINTER #12 @ $3DC2A - STRING #12 @ $3DDBC
+
+#WRITE(Item, $3DC2A)
+// スリ?プの?[X]
+슬립의　검[X]
+
+//POINTER #13 @ $3DC2C - STRING #13 @ $3DDCA
+
+#WRITE(Item, $3DC2C)
+// ほそみの?[X]
+가느다란　검[X]
+
+//POINTER #14 @ $3DC2E - STRING #14 @ $3DDD6
+
+#WRITE(Item, $3DC2E)
+// まもりの?[X]
+수비의　검[X]
+
+//POINTER #15 @ $3DC30 - STRING #15 @ $3DDE2
+
+#WRITE(Item, $3DC30)
+// ほのおの?[X]
+불꽃의　검[X]
+
+//POINTER #16 @ $3DC32 - STRING #16 @ $3DDEE
+
+#WRITE(Item, $3DC32)
+// だいちの?[X]
+대지의　검[X]
+
+//POINTER #17 @ $3DC34 - STRING #17 @ $3DDFA
+
+#WRITE(Item, $3DC34)
+// いかずちの?[X]
+천둥의　검[X]
+
+//POINTER #18 @ $3DC36 - STRING #18 @ $3DE08
+
+#WRITE(Item, $3DC36)
+// かぜの?[X]
+바람의　검[X]
+
+//POINTER #19 @ $3DC38 - STRING #19 @ $3DE12
+
+#WRITE(Item, $3DC38)
+// ひかりの?[X]
+빛의　검[X]
+
+//POINTER #20 @ $3DC3A - STRING #20 @ $3DE1E
+
+#WRITE(Item, $3DC3A)
+// ミストルティン[X]
+미스틸테인[X]
+
+//POINTER #21 @ $3DC3C - STRING #21 @ $3DE2E
+
+#WRITE(Item, $3DC3C)
+// ティルフィング[X]
+튀르핑[X]
+
+//POINTER #22 @ $3DC3E - STRING #22 @ $3DE3E
+
+#WRITE(Item, $3DC3E)
+// バルムンク[X]
+발뭉[X]
+
+//POINTER #23 @ $3DC40 - STRING #23 @ $3DE4A
+
+#WRITE(Item, $3DC40)
+// ざんてつの?[X]
+참철의　검[X]
+
+//POINTER #24 @ $3DC42 - STRING #24 @ $3DE58
+
+#WRITE(Item, $3DC42)
+// つばめがえし[X]
+참익도[X]
+
+//POINTER #25 @ $3DC44 - STRING #25 @ $3DE66
+//POINTER #26 @ $3DC46 - STRING #26 @ $3DE66
+//POINTER #27 @ $3DC48 - STRING #27 @ $3DE66
+//POINTER #122 @ $3DD06 - STRING #122 @ $3DE66
+
+#WRITE(Item, $3DD06)
+#WRITE(Item, $3DC48)
+#WRITE(Item, $3DC46)
+#WRITE(Item, $3DC44)
+// こわれた?[X]
+부서진　검[X]
+
+//POINTER #28 @ $3DC4A - STRING #28 @ $3DE72
+
+#WRITE(Item, $3DC4A)
+// てつのやり[X]
+철의　창[X]
+
+//POINTER #29 @ $3DC4C - STRING #29 @ $3DE7E
+
+#WRITE(Item, $3DC4C)
+// はがねのやり[X]
+강철의　창[X]
+
+//POINTER #30 @ $3DC4E - STRING #30 @ $3DE8C
+
+#WRITE(Item, $3DC4E)
+// ぎんのやり[X]
+은의　창[X]
+
+//POINTER #31 @ $3DC50 - STRING #31 @ $3DE98
+
+#WRITE(Item, $3DC50)
+// てやり[X]
+투척창[X]
+
+//POINTER #32 @ $3DC52 - STRING #32 @ $3DEA0
+
+#WRITE(Item, $3DC52)
+// ナイトキラ?[X]
+나이트킬러[X]
+
+//POINTER #33 @ $3DC54 - STRING #33 @ $3DEAE
+
+#WRITE(Item, $3DC54)
+// ゆうしゃのやり[X]
+용사의　창[X]
+
+//POINTER #34 @ $3DC56 - STRING #34 @ $3DEBE
+
+#WRITE(Item, $3DC56)
+// ほそみのやり[X]
+가느다란　창[X]
+
+//POINTER #35 @ $3DC58 - STRING #35 @ $3DECC
+
+#WRITE(Item, $3DC58)
+// グングニル[X]
+궁니르[X]
+
+//POINTER #36 @ $3DC5A - STRING #36 @ $3DED8
+
+#WRITE(Item, $3DC5A)
+// ゲイボルグ[X]
+게이볼그[X]
+
+//POINTER #37 @ $3DC5C - STRING #37 @ $3DEE4
+//POINTER #38 @ $3DC5E - STRING #38 @ $3DEE4
+//POINTER #39 @ $3DC60 - STRING #39 @ $3DEE4
+//POINTER #123 @ $3DD08 - STRING #123 @ $3DEE4
+
+#WRITE(Item, $3DD08)
+#WRITE(Item, $3DC60)
+#WRITE(Item, $3DC5E)
+#WRITE(Item, $3DC5C)
+// こわれたやり[X]
+부서진　창[X]
+
+//POINTER #40 @ $3DC62 - STRING #40 @ $3DEF2
+
+#WRITE(Item, $3DC62)
+// てつのおの[X]
+철의　도끼[X]
+
+//POINTER #41 @ $3DC64 - STRING #41 @ $3DEFE
+
+#WRITE(Item, $3DC64)
+// はがねのおの[X]
+강철의　도끼[X]
+
+//POINTER #42 @ $3DC66 - STRING #42 @ $3DF0C
+
+#WRITE(Item, $3DC66)
+// ぎんのおの[X]
+은의　도끼[X]
+
+//POINTER #43 @ $3DC68 - STRING #43 @ $3DF18
+
+#WRITE(Item, $3DC68)
+// ゆうしゃのおの[X]
+용사의　도끼[X]
+
+//POINTER #44 @ $3DC6A - STRING #44 @ $3DF28
+
+#WRITE(Item, $3DC6A)
+// スワンチカ[X]
+스완티카[X]
+
+//POINTER #45 @ $3DC6C - STRING #45 @ $3DF34
+
+#WRITE(Item, $3DC6C)
+// ておの[X]
+투척도끼[X]
+
+//POINTER #46 @ $3DC6E - STRING #46 @ $3DF3C
+//POINTER #47 @ $3DC70 - STRING #47 @ $3DF3C
+//POINTER #48 @ $3DC72 - STRING #48 @ $3DF3C
+
+#WRITE(Item, $3DC72)
+#WRITE(Item, $3DC70)
+#WRITE(Item, $3DC6E)
+// こわれたおの[X]
+부서진　도끼[X]
+
+//POINTER #49 @ $3DC74 - STRING #49 @ $3DF4A
+
+#WRITE(Item, $3DC74)
+// てつのゆみ[X]
+철의　활[X]
+
+//POINTER #50 @ $3DC76 - STRING #50 @ $3DF56
+
+#WRITE(Item, $3DC76)
+// はがねのゆみ[X]
+강철의　활[X]
+
+//POINTER #51 @ $3DC78 - STRING #51 @ $3DF64
+
+#WRITE(Item, $3DC78)
+// ぎんのゆみ[X]
+은의　활[X]
+
+//POINTER #52 @ $3DC7A - STRING #52 @ $3DF70
+
+#WRITE(Item, $3DC7A)
+// ゆうしゃのゆみ[X]
+용사의　활[X]
+
+//POINTER #53 @ $3DC7C - STRING #53 @ $3DF80
+
+#WRITE(Item, $3DC7C)
+// キラ?ボウ[X]
+킬러　보우[X]
+
+//POINTER #54 @ $3DC7E - STRING #54 @ $3DF8C
+
+#WRITE(Item, $3DC7E)
+// イチイバル[X]
+이치이발[X]
+
+//POINTER #55 @ $3DC80 - STRING #55 @ $3DF98
+//POINTER #56 @ $3DC82 - STRING #56 @ $3DF98
+//POINTER #57 @ $3DC84 - STRING #57 @ $3DF98
+//POINTER #124 @ $3DD0A - STRING #124 @ $3DF98
+
+#WRITE(Item, $3DD0A)
+#WRITE(Item, $3DC84)
+#WRITE(Item, $3DC82)
+#WRITE(Item, $3DC80)
+// こわれたゆみ[X]
+부서진　활[X]
+
+//POINTER #58 @ $3DC86 - STRING #58 @ $3DFA6
+
+#WRITE(Item, $3DC86)
+// ロングア?チ[X]
+롱아치[X]
+
+//POINTER #59 @ $3DC88 - STRING #59 @ $3DFB4
+
+#WRITE(Item, $3DC88)
+// アイアンア?チ[X]
+아이언아치[X]
+
+//POINTER #60 @ $3DC8A - STRING #60 @ $3DFC4
+
+#WRITE(Item, $3DC8A)
+// キラ?ア?チ[X]
+킬러아치[X]
+
+//POINTER #61 @ $3DC8C - STRING #61 @ $3DFD2
+
+#WRITE(Item, $3DC8C)
+// グレ?トア?チ[X]
+그레이트아치[X]
+
+//POINTER #62 @ $3DC8E - STRING #62 @ $3DFE2
+
+#WRITE(Item, $3DC8E)
+// ファイア?[X]
+파이어[X]
+
+//POINTER #63 @ $3DC90 - STRING #63 @ $3DFEE
+
+#WRITE(Item, $3DC90)
+// エルファイア?[X]
+엘파이어[X]
+
+//POINTER #64 @ $3DC92 - STRING #64 @ $3DFFE
+
+#WRITE(Item, $3DC92)
+// ボルガノン[X]
+볼케논[X]
+
+//POINTER #65 @ $3DC94 - STRING #65 @ $3E00A
+
+#WRITE(Item, $3DC94)
+// ファラフレイム[X]
+파라플레임[X]
+
+//POINTER #66 @ $3DC96 - STRING #66 @ $3E01A
+
+#WRITE(Item, $3DC96)
+// メティオ[X]
+메티오[X]
+
+//POINTER #67 @ $3DC98 - STRING #67 @ $3E024
+
+#WRITE(Item, $3DC98)
+// サンダ?[X]
+선더[X]
+
+//POINTER #68 @ $3DC9A - STRING #68 @ $3E02E
+
+#WRITE(Item, $3DC9A)
+// エルサンダ?[X]
+엘선더[X]
+
+//POINTER #69 @ $3DC9C - STRING #69 @ $3E03C
+
+#WRITE(Item, $3DC9C)
+// トロ?ン[X]
+트론[X]
+
+//POINTER #70 @ $3DC9E - STRING #70 @ $3E046
+
+#WRITE(Item, $3DC9E)
+// ト?ルハンマ?[X]
+토르헤머[X]
+
+//POINTER #71 @ $3DCA0 - STRING #71 @ $3E056
+
+#WRITE(Item, $3DCA0)
+// サンダスト?ム[X]
+선더스톰[X]
+
+//POINTER #72 @ $3DCA2 - STRING #72 @ $3E066
+
+#WRITE(Item, $3DCA2)
+// ウインド[X]
+윈드[X]
+
+//POINTER #73 @ $3DCA4 - STRING #73 @ $3E070
+
+#WRITE(Item, $3DCA4)
+// エルウインド[X]
+엘윈드[X]
+
+//POINTER #74 @ $3DCA6 - STRING #74 @ $3E07E
+
+#WRITE(Item, $3DCA6)
+// トルネ?ド[X]
+토네이도[X]
+
+//POINTER #75 @ $3DCA8 - STRING #75 @ $3E08A
+
+#WRITE(Item, $3DCA8)
+// フォルセティ[X]
+포르세티[X]
+
+//POINTER #76 @ $3DCAA - STRING #76 @ $3E098
+
+#WRITE(Item, $3DCAA)
+// ブリザ?ド[X]
+블리자드[X]
+
+//POINTER #77 @ $3DCAC - STRING #77 @ $3E0A4
+
+#WRITE(Item, $3DCAC)
+// ライトニング[X]
+라이트닝[X]
+
+//POINTER #78 @ $3DCAE - STRING #78 @ $3E0B2
+
+#WRITE(Item, $3DCAE)
+// リザイア[X]
+리자이어[X]
+
+//POINTER #79 @ $3DCB0 - STRING #79 @ $3E0BC
+
+#WRITE(Item, $3DCB0)
+// オ?ラ[X]
+오라[X]
+
+//POINTER #80 @ $3DCB2 - STRING #80 @ $3E0C4
+
+#WRITE(Item, $3DCB2)
+// ナ?ガ[X]
+나가[X]
+
+//POINTER #81 @ $3DCB4 - STRING #81 @ $3E0CC
+
+#WRITE(Item, $3DCB4)
+// ヨツムンガンド[X]
+요르문간드[X]
+
+//POINTER #82 @ $3DCB6 - STRING #82 @ $3E0DC
+
+#WRITE(Item, $3DCB6)
+// フェンリル[X]
+펜리르[X]
+
+//POINTER #83 @ $3DCB8 - STRING #83 @ $3E0E8
+
+#WRITE(Item, $3DCB8)
+// ヘル[X]
+헬[X]
+
+//POINTER #84 @ $3DCBA - STRING #84 @ $3E0EE
+
+#WRITE(Item, $3DCBA)
+// ロプトウス[X]
+로프토우스[X]
+
+//POINTER #85 @ $3DCBC - STRING #85 @ $3E0FA
+//POINTER #86 @ $3DCBE - STRING #86 @ $3E0FA
+//POINTER #87 @ $3DCC0 - STRING #87 @ $3E0FA
+//POINTER #125 @ $3DD0C - STRING #125 @ $3E0FA
+//POINTER #126 @ $3DD0E - STRING #126 @ $3E0FA
+//POINTER #127 @ $3DD10 - STRING #127 @ $3E0FA
+//POINTER #128 @ $3DD12 - STRING #128 @ $3E0FA
+//POINTER #129 @ $3DD14 - STRING #129 @ $3E0FA
+//POINTER #130 @ $3DD16 - STRING #130 @ $3E0FA
+//POINTER #131 @ $3DD18 - STRING #131 @ $3E0FA
+//POINTER #132 @ $3DD1A - STRING #132 @ $3E0FA
+//POINTER #133 @ $3DD1C - STRING #133 @ $3E0FA
+//POINTER #134 @ $3DD1E - STRING #134 @ $3E0FA
+//POINTER #135 @ $3DD20 - STRING #135 @ $3E0FA
+
+#WRITE(Item, $3DD20)
+#WRITE(Item, $3DD1E)
+#WRITE(Item, $3DD1C)
+#WRITE(Item, $3DD1A)
+#WRITE(Item, $3DD18)
+#WRITE(Item, $3DD16)
+#WRITE(Item, $3DD14)
+#WRITE(Item, $3DD12)
+#WRITE(Item, $3DD10)
+#WRITE(Item, $3DD0E)
+#WRITE(Item, $3DD0C)
+#WRITE(Item, $3DCC0)
+#WRITE(Item, $3DCBE)
+#WRITE(Item, $3DCBC)
+// きえたまどう<$8F><$91>[X]
+부서진　마도서[X]
+
+//POINTER #88 @ $3DCC2 - STRING #88 @ $3E10A
+
+#WRITE(Item, $3DCC2)
+// ライブの<$8F><$F1>[X]
+라이브[X]
+
+//POINTER #89 @ $3DCC4 - STRING #89 @ $3E116
+
+#WRITE(Item, $3DCC4)
+// リライブの<$8F><$F1>[X]
+리라이브[X]
+
+//POINTER #90 @ $3DCC6 - STRING #90 @ $3E124
+
+#WRITE(Item, $3DCC6)
+// リカバ?の<$8F><$F1>[X]
+리커버[X]
+
+//POINTER #91 @ $3DCC8 - STRING #91 @ $3E132
+
+#WRITE(Item, $3DCC8)
+// リブロ?の<$8F><$F1>[X]
+리브로[X]
+
+//POINTER #92 @ $3DCCA - STRING #92 @ $3E140
+
+#WRITE(Item, $3DCCA)
+// リザ?ブの<$8F><$F1>[X]
+리저브[X]
+
+//POINTER #93 @ $3DCCC - STRING #93 @ $3E14E
+
+#WRITE(Item, $3DCCC)
+// リタ?ンの<$8F><$F1>[X]
+리턴[X]
+
+//POINTER #94 @ $3DCCE - STRING #94 @ $3E15C
+
+#WRITE(Item, $3DCCE)
+// ワ?プの<$8F><$F1>[X]
+워프[X]
+
+//POINTER #95 @ $3DCD0 - STRING #95 @ $3E168
+
+#WRITE(Item, $3DCD0)
+// レスキュ?の<$8F><$F1>[X]
+레스큐[X]
+
+//POINTER #96 @ $3DCD2 - STRING #96 @ $3E178
+
+#WRITE(Item, $3DCD2)
+// チャ?ムの<$8F><$F1>[X]
+참[X]
+
+//POINTER #97 @ $3DCD4 - STRING #97 @ $3E186
+
+#WRITE(Item, $3DCD4)
+// レストの<$8F><$F1>[X]
+레스트[X]
+
+//POINTER #98 @ $3DCD6 - STRING #98 @ $3E192
+
+#WRITE(Item, $3DCD6)
+// バルキリ?の<$8F><$F1>[X]
+발키리[X]
+
+//POINTER #99 @ $3DCD8 - STRING #99 @ $3E1A2
+
+#WRITE(Item, $3DCD8)
+// サイレスの<$8F><$F1>[X]
+사일런스[X]
+
+//POINTER #100 @ $3DCDA - STRING #100 @ $3E1B0
+
+#WRITE(Item, $3DCDA)
+// スリ?プの<$8F><$F1>[X]
+슬립[X]
+
+//POINTER #101 @ $3DCDC - STRING #101 @ $3E1BE
+
+#WRITE(Item, $3DCDC)
+// バサ?クの<$8F><$F1>[X]
+버서크[X]
+
+//POINTER #102 @ $3DCDE - STRING #102 @ $3E1CC
+
+#WRITE(Item, $3DCDE)
+// シ?フの<$8F><$F1>[X]
+시프[X]
+
+//POINTER #103 @ $3DCE0 - STRING #103 @ $3E1D8
+//POINTER #104 @ $3DCE2 - STRING #104 @ $3E1D8
+//POINTER #105 @ $3DCE4 - STRING #105 @ $3E1D8
+//POINTER #136 @ $3DD22 - STRING #136 @ $3E1D8
+
+#WRITE(Item, $3DD22)
+#WRITE(Item, $3DCE4)
+#WRITE(Item, $3DCE2)
+#WRITE(Item, $3DCE0)
+// こわれた<$8F><$F1>[X]
+부서진　지팡이[X]
+
+//POINTER #106 @ $3DCE6 - STRING #106 @ $3E1E4
+
+#WRITE(Item, $3DCE6)
+// ライブのうでわ[X]
+라이브의　팔찌[X]
+
+//POINTER #107 @ $3DCE8 - STRING #107 @ $3E1F4
+
+#WRITE(Item, $3DCE8)
+// エリ?トリング[X]
+엘리트링[X]
+
+//POINTER #108 @ $3DCEA - STRING #108 @ $3E204
+
+#WRITE(Item, $3DCEA)
+// シ?フのうでわ[X]
+시프의　팔찌[X]
+
+//POINTER #109 @ $3DCEC - STRING #109 @ $3E214
+
+#WRITE(Item, $3DCEC)
+// いのりのうでわ[X]
+기도의　팔찌[X]
+
+//POINTER #110 @ $3DCEE - STRING #110 @ $3E224
+
+#WRITE(Item, $3DCEE)
+// ついげきリング[X]
+추격의　링[X]
+
+//POINTER #111 @ $3DCF0 - STRING #111 @ $3E234
+
+#WRITE(Item, $3DCF0)
+// リカバ?リング[X]
+리커버링[X]
+
+//POINTER #112 @ $3DCF2 - STRING #112 @ $3E244
+
+#WRITE(Item, $3DCF2)
+// ねぎりのうでわ[X]
+에누리의　팔찌[X]
+
+//POINTER #113 @ $3DCF4 - STRING #113 @ $3E254
+
+#WRITE(Item, $3DCF4)
+// ナイトリング[X]
+나이트링[X]
+
+//POINTER #114 @ $3DCF6 - STRING #114 @ $3E262
+
+#WRITE(Item, $3DCF6)
+// リタ?ンリング[X]
+리턴링[X]
+
+//POINTER #115 @ $3DCF8 - STRING #115 @ $3E272
+
+#WRITE(Item, $3DCF8)
+// スピ?ドリング[X]
+스피드링[X]
+
+//POINTER #116 @ $3DCFA - STRING #116 @ $3E282
+
+#WRITE(Item, $3DCFA)
+// マジックリング[X]
+매직링[X]
+
+//POINTER #117 @ $3DCFC - STRING #117 @ $3E292
+
+#WRITE(Item, $3DCFC)
+// パワ?リング[X]
+파워링[X]
+
+//POINTER #118 @ $3DCFE - STRING #118 @ $3E2A0
+
+#WRITE(Item, $3DCFE)
+// シ?ルドリング[X]
+실드링[X]
+
+//POINTER #119 @ $3DD00 - STRING #119 @ $3E2B0
+
+#WRITE(Item, $3DD00)
+// バリアリング[X]
+배리어링[X]
+
+//POINTER #120 @ $3DD02 - STRING #120 @ $3E2BE
+
+#WRITE(Item, $3DD02)
+// レッグリング[X]
+레그링[X]
+
+//POINTER #121 @ $3DD04 - STRING #121 @ $3E2CC
+
+#WRITE(Item, $3DD04)
+// スキルリング[X]
+스킬링[X]//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menu_text/menutext.tbl", menu)
+#ACTIVETBL(menu)
+
+//BLOCK #010 NAME:		Menu Commands
+
+//POINTER #0 @ $5E2AF - STRING #0 @ $5E159
+
+#JMP($5E070, $5E1B8)
+
+#W16($5E2AF)
+// <$98><$DF><$85><$01><$01>　城にもどる[X]
+<$98><$DF><$85><$01><$01>　본성복귀[X]
+
+
+//POINTER #1 @ $5E2B1 - STRING #1 @ $5E17B
+
+#W16($5E2B1)
+// <$04><$E0><$85><$01><$01>　城にもどる[X]
+<$04><$E0><$85><$01><$01>　본성복귀[X]
+
+//POINTER #2 @ $5E2B3 - STRING #2 @ $5E1B9
+
+#W16($5E2B3)
+// <$FD><$DF><$85><$01><$01>　アニメ[X]
+<$FD><$DF><$85><$01><$01>　에니메이션[X]
+
+//POINTER #3 @ $5E2B5 - STRING #3 @ $5E1AA
+
+#W16($5E2B5)
+// <$DE><$DF><$85><$01><$01>　そうび[X]
+<$DE><$DF><$85><$01><$01>　수비[X]
+
+//POINTER #4 @ $5E2B7 - STRING #4 @ $5E19B
+
+#W16($5E2B7)
+// <$A6><$DF><$85><$01><$01>　おりる[X]
+<$A6><$DF><$85><$01><$01>　내리다[X]
+
+//POINTER #5 @ $5E2B9 - STRING #5 @ $5E18E
+
+#W16($5E2B9)
+// <$B4><$DF><$85><$01><$01>　のる[X]
+<$B4><$DF><$85><$01><$01>　타다[X]
+
+//POINTER #6 @ $5E2BB - STRING #6 @ $5E2DD
+
+#W16($5E2BB)
+// <$50><$E0><$85><$01><$01>　あげる[X]
+<$50><$E0><$85><$01><$01>　건내다[X]
+
+//POINTER #7 @ $5E2BD - STRING #7 @ $5E2CE
+
+#W16($5E2BD)
+// <$30><$E0><$85><$01><$01>　あげる[X]
+<$30><$E0><$85><$01><$01>　건내다[X]
+
+//POINTER #8 @ $5E2BF - STRING #8 @ $5E2AE
+
+#W16($5E2BF)
+// <$FB><$DE><$85><$01><$01>　もちもの[X]
+<$FB><$DE><$85><$01><$01>　지닌물건[X]
+
+//POINTER #9 @ $5E2C1 - STRING #9 @ $5E2A1
+
+#W16($5E2C1)
+// <$D6><$DE><$85><$01><$01>　つえ[X]
+<$D6><$DE><$85><$01><$01>　지팡이[X]
+
+//POINTER #10 @ $5E2C3 - STRING #10 @ $5E16C
+
+#W16($5E2C3)
+// <$43><$DE><$85><$01><$01>　たいき[X]
+<$43><$DE><$85><$01><$01>　대기[X]
+
+//POINTER #11 @ $5E2C5 - STRING #11 @ $5E2BF
+
+#W16($5E2C5)
+// <$C2><$DF><$85><$01><$01>　はなす[X]
+<$C2><$DF><$85><$01><$01>　놓다[X]
+
+//POINTER #12 @ $5E2C7 - STRING #12 @ $5E146
+
+#W16($5E2C7)
+// <$8A><$DF><$85><$01><$01>　しゅつげき[X]
+<$8A><$DF><$85><$01><$01>　출격[X]
+
+//POINTER #13 @ $5E2C9 - STRING #13 @ $5E137
+
+#W16($5E2C9)
+// <$7D><$DF><$85><$01><$01>　しゅび[X]
+<$7D><$DF><$85><$01><$01>　수비[X]
+
+//POINTER #14 @ $5E2CB - STRING #14 @ $5E12A
+
+#W16($5E2CB)
+// <$61><$DF><$85><$01><$01>　むら[X]
+<$61><$DF><$85><$01><$01>　마을[X]
+
+//POINTER #15 @ $5E2CD - STRING #15 @ $5E11D
+
+#W16($5E2CD)
+// <$3F><$DF><$85><$01><$01>　まち[X]
+<$3F><$DF><$85><$01><$01>　거리[X]
+
+//POINTER #16 @ $5E2CF - STRING #16 @ $5E2FD
+
+#W16($5E2CF)
+// <$6F><$DF><$85><$01><$01>　せいあつ[X]
+<$6F><$DF><$85><$01><$01>　제압[X]
+
+//POINTER #17 @ $5E2D1 - STRING #17 @ $5E10E
+
+#W16($5E2D1)
+// <$20><$DF><$85><$01><$01>　はいる[X]
+<$20><$DF><$85><$01><$01>　들어가다[X]
+
+//POINTER #18 @ $5E2D3 - STRING #18 @ $5E292
+
+#W16($5E2D3)
+// <$AB><$DE><$85><$01><$01>　おどる[X]
+<$AB><$DE><$85><$01><$01>　춤추다[X]
+
+//POINTER #19 @ $5E2D5 - STRING #19 @ $5E2A1
+
+#W16($5E2D5)
+// <$D6><$DE><$85><$01><$01>　つえ[X]
+<$D6><$DE><$85><$01><$01>　지팡이[X]
+
+//POINTER #20 @ $5E2D7 - STRING #20 @ $5E270
+
+#W16($5E2D7)
+// <$57><$DE><$85><$01><$01>　こうげき[X]
+<$57><$DE><$85><$01><$01>　공격[X]
+
+//POINTER #21 @ $5E2D9 - STRING #21 @ $5E281
+
+#W16($5E2D9)
+// <$7C><$DE><$85><$01><$01>　とつげき[X]
+<$7C><$DE><$85><$01><$01>　돌격[X]
+
+//POINTER #22 @ $5E2DB - STRING #22 @ $5E2EC
+
+#W16($5E2DB)
+// <$12><$E0><$85><$01><$01>　たすける[X]
+<$12><$E0><$85><$01><$01>　구출[X]
+
+//POINTER #23 @ $5E2DD - STRING #23 @ $5E2BF
+
+#W16($5E2DD)
+// <$C2><$DF><$85><$01><$01>　はなす[X]
+<$C2><$DF><$85><$01><$01>　놓다[X]
+
+
+//BLOCK #011 NAME:		System Menu
+
+#JMP($5DD0C, $5DD91)
+
+//POINTER #0 @ $5DD98 - STRING #0 @ $5DD0C
+
+#W16($5DD98)
+#W16($5DDBF)
+//<$DD><$DB><$85><$01><$01>　ユニット[X]
+<$DD><$DB><$85><$01><$01>　유닛[X]
+
+//POINTER #1 @ $5DD9D - STRING #1 @ $5DD1D
+
+#W16($5DD9D)
+#W16($5DDC4)
+// <$ED><$DB><$85><$01><$01>　アイテム[X]
+<$ED><$DB><$85><$01><$01>　아이템[X]
+
+//POINTER #2 @ $5DDA2 - STRING #2 @ $5DD2E
+
+#W16($5DDA2)
+#W16($5DDC9)
+// <$F6><$DB><$85><$01><$01>　デ?タ[X]
+<$F6><$DB><$85><$01><$01>　데이터[X]
+
+//POINTER #3 @ $5DDA7 - STRING #3 @ $5DD3D
+
+#W16($5DDA7)
+#W16($5DDCE)
+// <$0E><$DC><$85><$01><$01>　スキル[X]
+<$0E><$DC><$85><$01><$01>　스킬[X]
+
+//POINTER #4 @ $5DDAC - STRING #4 @ $5DD4C
+
+#W16($5DDAC)
+#W16($5DDD3)
+// <$CA><$DC><$85><$01><$01>　コンフィグ[X]
+<$CA><$DC><$85><$01><$01>　컨피그[X]
+
+//POINTER #5 @ $5DDB1 - STRING #5 @ $5DD6E
+
+#W16($5DDB1)
+// <$AB><$DC><$85><$01><$01>　セ?ブ[X]
+<$AB><$DC><$85><$01>//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menu_text/menutext.tbl", menu)
+#ACTIVETBL(menu)
+
+//BLOCK #000 NAME:		Chapter Objectives
+
+#VAR(Goals, CUSTOMPOINTER)
+#CREATEPTR(Goals, "HIROM", $400000, 24)
+
+#JMP($DB98, $DCA5)
+
+//POINTER #0 @ $DB74 - STRING #0 @ $DB98
+
+#WRITE(Goals, $DB74)
+//エバンス城のせいあつ[X]
+에반스성의　제압[X]
+
+//POINTER #1 @ $DB77 - STRING #1 @ $DBAE
+
+#WRITE(Goals, $DB77)
+//ヴェルダン城のせいあつ[X]
+베르던성의　제압[X]
+
+//POINTER #2 @ $DB7A - STRING #2 @ $DBC6
+
+#WRITE(Goals, $DB7A)
+//アグスティ城のせいあつ[X]
+아그스티성의　제압[X]
+
+//POINTER #3 @ $DB7D - STRING #3 @ $DBDE
+
+#WRITE(Goals, $DB7D)
+//オ?ガヒル城のせいあつ[X]
+오거힐성의　제압[X]
+
+//POINTER #4 @ $DB80 - STRING #4 @ $DBF6
+
+#WRITE(Goals, $DB80)
+//ザクソン城のせいあつ[X]
+잭슨성의　제압[X]
+
+//POINTER #5 @ $DB83 - STRING #5 @ $DC0C
+//POINTER #11 @ $DB95 - STRING #11 @ $DC90
+
+#WRITE(Goals, $DB95)
+#WRITE(Goals, $DB83)
+//バ?ハラ城のせいあつ[X]
+발할라성의　제압[X]
+
+//POINTER #6 @ $DB86 - STRING #6 @ $DC22
+
+#WRITE(Goals, $DB86)
+//リボ?城のせいあつ[X]
+리보성의　제압[X]
+
+//POINTER #7 @ $DB89 - STRING #7 @ $DC36
+
+#WRITE(Goals, $DB89)
+//アルスタ?城のせいあつ[X]
+얼스터성의　제압[X]
+
+//POINTER #8 @ $DB8C - STRING #8 @ $DC4E
+
+#WRITE(Goals, $DB8C)
+//ミ?ズ城のせいあつ[X]
+미즈성의　제압[X]
+
+//POINTER #9 @ $DB8F - STRING #9 @ $DC62
+
+#WRITE(Goals, $DB8F)
+//トラキア城のせいあつ[X]
+트라키아성의　제압[X]//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menu_text/optiontext.tbl", menu)
+#ACTIVETBL(menu)
+
+//BLOCK #002 NAME:		Options Menu
+
+#VAR(OptionsMenu, CUSTOMPOINTER)
+#CREATEPTR(OptionsMenu, "HIROM", $400000, 16)
+
+#JMP($E84E, $E8EF)
+
+//POINTER #0 @ $E7A7 - STRING #0 @ $E84E
+
+#WRITE(OptionsMenu, $E7A7)
+// アニメせってい[X]
+에니메이션　설정[X]
+
+//POINTER #1 @ $E7B8 - STRING #1 @ $E85E
+
+#WRITE(OptionsMenu, $E7B8)
+// ちけいウィンドウ[X]
+지형　윈도우[X]
+
+//POINTER #2 @ $E7C9 - STRING #2 @ $E870
+
+#WRITE(OptionsMenu, $E7C9)
+// ユニットウィンドウ[X]
+유닛　윈도우[X]
+
+//POINTER #3 @ $E7DA - STRING #3 @ $E884
+
+#WRITE(OptionsMenu, $E7DA)
+// メッセ?ジスピ?ド[X]
+메세지　스피드[X]
+
+//POINTER #4 @ $E7EB - STRING #4 @ $E898
+
+#WRITE(OptionsMenu, $E7EB)
+// てきいどうスピ?ド[X]
+적　이동　스피드[X]
+
+//POINTER #5 @ $E7FC - STRING #5 @ $E8AC
+
+#WRITE(OptionsMenu, $E7FC)
+// サウンドせってい[X]
+사운드　설정[X]
+
+//POINTER #6 @ $E80D - STRING #6 @ $E8BE
+
+#WRITE(OptionsMenu, $E80D)
+// オ?トセ?ブ[X]
+오토　세이브[X]
+
+//POINTER #7 @ $E81E - STRING #7 @ $E8CC
+
+#WRITE(OptionsMenu, $E81E)
+// オ?トカ?ソル[X]//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menu_text/optiontext.tbl", menu)
+#ACTIVETBL(menu)
+
+//BLOCK #015 NAME:		Top of Option Choice Panel
+
+#VAR(OptionsMenu, CUSTOMPOINTER)
+#CREATEPTR(OptionsMenu, "HIROM", $400000, 24)
+
+#JMP($9F594, $9F622)
+
+//POINTER #0 @ $9F579 - STRING #0 @ $9F5BC
+
+#WRITE(OptionsMenu, $9F579)
+// リアル　　　こ部つ[X]
+리얼　　맵　　개별[X]
+
+//POINTER #1 @ $9F57C - STRING #1 @ $9F5A8
+//POINTER #2 @ $9F57F - STRING #2 @ $9F5A8
+//POINTER #7 @ $9F58E - STRING #7 @ $9F5A8
+
+#WRITE(OptionsMenu, $9F58E)
+#WRITE(OptionsMenu, $9F57F)
+#WRITE(OptionsMenu, $9F57C)
+// する　　　　しない[X]
+안다　　　　안한다[X]
+//POINTER #3 @ $9F582 - STRING #3 @ $9F5D0
+
+#WRITE(OptionsMenu, $9F582)
+// おそい　　　はやい[X]
+느리게　　　빠르게[X]
+
+//POINTER #4 @ $9F585 - STRING #4 @ $9F594
+
+#WRITE(OptionsMenu, $9F585)
+// 　いどうスピ?ド　[X]
+　이동　스피드　　[X]
+
+//POINTER #5 @ $9F588 - STRING #5 @ $9F5E4
+
+#WRITE(OptionsMenu, $9F588)
+// ステレオ　　　オフ[X]
+스테레오　　　오프[X]
+
+//POINTER #6 @ $9F58B - STRING #6 @ $9F5F8
+
+#WRITE(OptionsMenu, $9F58B)
+// オフ　　ファイル　[X]
+오프　　　　파일　[X]
+
+//POINTER #8 @ $9F591 - STRING #8 @ $9F60C
+
+#WRITE(OptionsMenu, $9F591)
+　머리의　좋음　　[X]//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menu_text/optiontext.tbl", menu)
+#ACTIVETBL(menu)
+
+//BLOCK #013 NAME:		Option Choices
+
+#VAR(OptionsMenu, CUSTOMPOINTER)
+#CREATEPTR(OptionsMenu, "HIROM", $400000, 24)
+
+#JMP($9F1C8, $9F245)
+
+//POINTER #0 @ $9F180 - STRING #0 @ $9FAA3
+//POINTER #22 @ $9F1C2 - STRING #22 @ $9FAA3
+
+// #WRITE(OptionsMenu, $9F1C2)
+// #WRITE(OptionsMenu, $9F180)
+// ＯＮ　　[X]
+
+//POINTER #1 @ $9F183 - STRING #1 @ $9FAAD
+//POINTER #11 @ $9F1A1 - STRING #11 @ $9FAAD
+//POINTER #12 @ $9F1A4 - STRING #12 @ $9FAAD
+//POINTER #23 @ $9F1C5 - STRING #23 @ $9FAAD
+
+// #WRITE(OptionsMenu, $9F1C5)
+// #WRITE(OptionsMenu, $9F183)
+// #WRITE(OptionsMenu, $9F1A1)
+// #WRITE(OptionsMenu, $9F1A4)
+// ＯＦＦ　[X]
+
+//POINTER #2 @ $9F186 - STRING #2 @ $9FA8F
+
+// #WRITE(OptionsMenu, $9F186)
+// １[X]
+
+//POINTER #3 @ $9F189 - STRING #3 @ $9FA93
+
+// #WRITE(OptionsMenu, $9F189)
+// ２[X]
+
+//POINTER #4 @ $9F18C - STRING #4 @ $9FA97
+
+// #WRITE(OptionsMenu, $9F18C)
+// ３[X]
+
+//POINTER #5 @ $9F18F - STRING #5 @ $9FA9B
+
+// #WRITE(OptionsMenu, $9F18F)
+// ４[X]
+
+//POINTER #6 @ $9F192 - STRING #6 @ $9FA9F
+
+// #WRITE(OptionsMenu, $9F192)
+// ５[X]
+
+//POINTER #7 @ $9F195 - STRING #7 @ $9F1D0
+
+#WRITE(OptionsMenu, $9F195)
+// リアル[X]
+리얼　[X]
+
+//POINTER #8 @ $9F198 - STRING #8 @ $9F1C8
+
+#WRITE(OptionsMenu, $9F198)
+// はやい[X]
+빠르게[X]
+
+//POINTER #9 @ $9F19B - STRING #9 @ $9F1D8
+
+#WRITE(OptionsMenu, $9F19B)
+// ステレオ[X]
+스테레오[X]
+
+//POINTER #10 @ $9F19E - STRING #10 @ $9F1E2
+
+#WRITE(OptionsMenu, $9F19E)
+// モノラル[X]
+모노　　[X]
+
+//POINTER #13 @ $9F1A7 - STRING #13 @ $9F20A
+
+#WRITE(OptionsMenu, $9F1A7)
+// セ?ブ１[X]
+세이브１[X]
+
+//POINTER #14 @ $9F1AA - STRING #14 @ $9F214
+
+#WRITE(OptionsMenu, $9F1AA)
+// セ?ブ２[X]
+세이브２[X]
+
+//POINTER #15 @ $9F1AD - STRING #15 @ $9F21E
+
+#WRITE(OptionsMenu, $9F1AD)
+// セ?ブ３[X]
+세이브３[X]
+
+//POINTER #16 @ $9F1B0 - STRING #16 @ $9F228
+
+#WRITE(OptionsMenu, $9F1B0)
+// セ?ブ４[X]
+세이브４[X]
+
+//POINTER #17 @ $9F1B3 - STRING #17 @ $9F1EC
+
+#WRITE(OptionsMenu, $9F1B3)
+// リアル　[X]
+리얼　[X]
+
+//POINTER #18 @ $9F1B6 - STRING #18 @ $9F1F6
+
+#WRITE(OptionsMenu, $9F1B6)
+// マップ　[X]
+맵　　[X]
+
+//POINTER #19 @ $9F1B9 - STRING #19 @ $9F200
+
+#WRITE(OptionsMenu, $9F1B9)
+// こ部つ　[X]
+개별　[X]
+
+//POINTER #20 @ $9F1BC - STRING #20 @ $9F23C
+
+#WRITE(OptionsMenu, $9F1BC)
+// ふつう　[X]
+보통　　[X]
+
+//POINTER #21 @ $9F1BF - STRING #21 @ $9F232
+
+#WRITE(OptionsMenu, $9F1BF)
+//かしこい[X]
+현명하게[X]
+
+
+//asmptr
+#JMP($9EF40, $9EF4F)
+#W16($9EF19)
+// リアル[X]
+리얼　[X]
+#W16($9EF28)
+// はやい[X]
+빠르게[X]
+
+
+#JMP($9F051, $9F064)
+#W16($9F033)
+//ふつう　[X]
+보통　　[X]
+#W16($9F045)
+//かしこい[X]
+현명하게[X]
+
+//[ASMPTR]
+
+// # Norm (Speed)
+// # @@9EF13@@//89:EF40
+// Norm
+// [exit]
+
+// # Fast
+// # @@9EF22@@//89:EF48
+// Fast
+// [exit]
+
+// # Norm (AI)
+// # @@9F02D@@//89:f05B
+// Norm//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menu_text/optiontext.tbl", menu)
+#ACTIVETBL(menu)
+
+//BLOCK #014 NAME:		Option Descriptions
+
+#VAR(OptionsDesc, CUSTOMPOINTER)
+#CREATEPTR(OptionsDesc, "HIROM", $400000, 24)
+
+#JMP($9F353, $9F578)
+
+//POINTER #0 @ $9F338 - STRING #0 @ $9F353
+
+#WRITE(OptionsDesc, $9F338)
+// アニメせってい　　
+// 　１?リアル　　　
+// 　２?マップ　　　
+// 　３?こ部つ[X]
+에니메이션　설정　
+　１?리얼　　　　
+　２?맵　　　　　
+　３?개별[X]
+//POINTER #1 @ $9F33B - STRING #1 @ $9F397
+
+#WRITE(OptionsDesc, $9F33B)
+// ちけいウィンドウ　
+// ちけいウィンドウの
+// ひょうじ[X]
+지형　윈도우　　　
+지형　윈도우의　　
+표시[X]
+
+//POINTER #2 @ $9F33E - STRING #2 @ $9F3C5
+
+#WRITE(OptionsDesc, $9F33E)
+// ユニットウィンドウ
+// ユニットウィンドウ
+// のひょうじ[X]
+유닛　윈도우　　　
+유닛　윈도우의　　
+표시[X]
+
+//POINTER #3 @ $9F341 - STRING #3 @ $9F3F5
+
+#WRITE(OptionsDesc, $9F341)
+// メッセ?ジスピ?ド
+// メッセ?ジを　　　
+// ひょうじするはやさ[X]
+메세지　스피드　　
+메세지를　　　　　
+표시하는　속도[X]
+
+//POINTER #4 @ $9F344 - STRING #4 @ $9F42D
+
+#WRITE(OptionsDesc, $9F344)
+// てきいどうスピ?ド
+// てきのいどうする　
+// スピ?ド[X]
+적　이동　스피드　
+적이　이동하는　　
+스피드[X]
+
+//POINTER #5 @ $9F347 - STRING #5 @ $9F45B
+
+#WRITE(OptionsDesc, $9F347)
+// サウンドせってい　
+// ＢＧＭのせってい　
+// 　１?ステレオ　　
+// 　２?モノラル　　
+// 　３?オフ[X]
+사운드　설정　　　
+ＢＧＭ의　설정　　
+　１?스테레오　　
+　２?모노　　　　
+　３?오프[X]
+
+//POINTER #6 @ $9F34A - STRING #6 @ $9F4AF
+
+#WRITE(OptionsDesc, $9F34A)
+// オ?トセ?ブ　　　
+// タ?ンのはじめに　
+// えらんだファイルへ
+// じどうてきにセ?ブ
+// する[X]
+오토　세이브　　　
+턴의　시작에　　　
+선택한　파일에　　
+자동적으로　세이브
+한다[X]
+
+//POINTER #7 @ $9F34D - STRING #7 @ $9F52F
+
+#WRITE(OptionsDesc, $9F34D)
+// オ?トカ?ソル　　
+// タ?ンのはじめに　
+// しゅじんこうに　　
+// カ?ソルをあわせる[X]
+오토　커서　　　　
+턴의　시작에　　　
+주인공에게　　　　
+커서를　맞춘다[X]
+
+//POINTER #8 @ $9F350 - STRING #8 @ $9F4FD
+
+#WRITE(OptionsDesc, $9F350)
+// てきのあたまのよさ
+// てきユニットの　　
+// あたまのよさ[X]//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menu_text/menutext.tbl", menu)
+#ACTIVETBL(menu)
+
+//BLOCK #012 NAME: 	Skill Descriptions
+
+#VAR(Skills, CUSTOMPOINTER)
+#CREATEPTR(Skills, "HIROM", $400000, 24)
+
+#JMP($9A7C9, $9ABF8)
+
+//POINTER #5 @ $9AC0E - STRING #5 @ $200
+//POINTER #7 @ $9AC14 - STRING #7 @ $200
+//POINTER #8 @ $9AC17 - STRING #8 @ $200
+//POINTER #9 @ $9AC1A - STRING #9 @ $200
+//POINTER #11 @ $9AC20 - STRING #11 @ $200
+//POINTER #20 @ $9AC3B - STRING #20 @ $200
+//POINTER #21 @ $9AC3E - STRING #21 @ $200
+//POINTER #24 @ $9AC47 - STRING #24 @ $200
+//POINTER #25 @ $9AC4A - STRING #25 @ $200
+//POINTER #27 @ $9AC50 - STRING #27 @ $200
+//POINTER #28 @ $9AC53 - STRING #28 @ $200
+//POINTER #29 @ $9AC56 - STRING #29 @ $200
+//POINTER #30 @ $9AC59 - STRING #30 @ $200
+//POINTER #36 @ $9AC6B - STRING #36 @ $200
+//POINTER #38 @ $9AC71 - STRING #38 @ $200
+//POINTER #39 @ $9AC74 - STRING #39 @ $200
+//POINTER #40 @ $9AC77 - STRING #40 @ $200
+//POINTER #42 @ $9AC7D - STRING #42 @ $200
+//POINTER #51 @ $9AC98 - STRING #51 @ $200
+//POINTER #52 @ $9AC9B - STRING #52 @ $200
+//POINTER #55 @ $9ACA4 - STRING #55 @ $200
+//POINTER #56 @ $9ACA7 - STRING #56 @ $200
+//notext
+
+//POINTER #0 @ $9ABFF - STRING #0 @ $9A7C9
+
+#WRITE(Skills, $9ABFF)
+// あいてのこうげきを　
+// うけとめダメ?ジを　
+// むこうにする[X]
+적의　공격을　　　　
+맞받아쳐　데미지를　
+무효화한다[X]
+
+//POINTER #1 @ $9AC02 - STRING #1 @ $9A7FF
+
+#WRITE(Skills, $9AC02)
+// ピンチになったとき　
+// いかりのこうげき[X]
+빈사　상태가　될　때
+필살의　공격[X]
+
+//POINTER #2 @ $9AC05 - STRING #2 @ $9A825
+
+#WRITE(Skills, $9AC05)
+// あいてよりも　　　　
+// みがるならば　　　　
+// さいこうげき[X]
+상대보다　　　　　　
+날렵하다면　　　　　
+재공격한다[X]
+
+//POINTER #3 @ $9AC08 - STRING #3 @ $9A85B
+
+#WRITE(Skills, $9AC08)
+// すばやさのかくりつで
+// れんぞくこうげき[X]
+날렵함에　따른　확률
+로　연속공격을　한다[X]
+
+//POINTER #4 @ $9AC0B - STRING #4 @ $9A881
+
+#WRITE(Skills, $9AC0B)
+// こうげきがあたると　
+// あいてのゴ?ルドを　
+// うばう[X]
+공격이　명중했을　때
+상대의　골드를　　　
+빼앗는다[X]
+
+
+//POINTER #6 @ $9AC11 - STRING #6 @ $9A8B1
+
+#WRITE(Skills, $9AC11)
+// りんせつした　　　　
+// ユニットを　　　　　
+// いどうかのうにする[X]
+인접한　유닛을　　　
+재행동시킨다[X]
+
+
+//POINTER #10 @ $9AC1D - STRING #10 @ $9A8ED
+
+#WRITE(Skills, $9AC1D)
+// ちかくにいるみかたに
+// １０％のしえんこうか[X]
+근처에　있는　아군에
+１０％의　지원효과[X]
+
+
+//POINTER #12 @ $9AC23 - STRING #12 @ $9A917
+
+#WRITE(Skills, $9AC23)
+// ひっさつこうげきなど
+// をふうじる[X]
+적의　필살　특효　　
+특수　검을　봉인한다[X]
+
+//POINTER #13 @ $9AC26 - STRING #13 @ $9A937
+
+#WRITE(Skills, $9AC26)
+// ピンチになると　　　
+// かいひりつがあがる[X]
+빈사　상태일　때　　
+회피치가　올라간다[X]
+
+//POINTER #14 @ $9AC29 - STRING #14 @ $9A95F
+
+#WRITE(Skills, $9AC29)
+// ひっさつのいちげき　
+// こうげきりょくが　　
+// ２ばいになる[X]
+필살의　일격　　　　
+공격력이　　　　　　
+２배가　된다[X]
+
+//POINTER #15 @ $9AC2C - STRING #15 @ $9A995
+
+#WRITE(Skills, $9AC2C)
+// ピンチになったとき　
+// せんせいこうげき　　
+// をする[X]
+빈사　상태가　될　때
+선제공격을　한다[X]
+
+//POINTER #16 @ $9AC2F - STRING #16 @ $9A9C5
+
+#WRITE(Skills, $9AC2F)
+// みがるであれば　　　
+// ときおり　せんとうが
+// けいぞくする[X]
+여유롭다면　　　　　
+때때로　전투가　　　
+계속된다[X]
+
+//POINTER #17 @ $9AC32 - STRING #17 @ $9A9FB
+
+#WRITE(Skills, $9AC32)
+// ５かいれんぞくで　　
+// こうげきする[X]
+５회　연속으로　　　
+공격한다[X]
+
+//POINTER #18 @ $9AC35 - STRING #18 @ $9AA1D
+
+#WRITE(Skills, $9AC35)
+// あいてのしゅびりょく
+// をむこうにする[X]
+상대의　수비력을　　
+무효화한다[X]
+
+//POINTER #19 @ $9AC38 - STRING #19 @ $9AA41
+
+#WRITE(Skills, $9AC38)
+// あたえたダメ?ジだけ
+// ＨＰがかいふくする[X]
+가한　데미지　만큼　
+ＨＰ가　회복된다[X]
+
+
+//POINTER #22 @ $9AC41 - STRING #22 @ $9AA69
+
+#WRITE(Skills, $9AC41)
+// まいタ?ン　　　　　
+// ＨＰが５から１０　　
+// かいふくする[X]
+매　턴마다　ＨＰ가　
+５에서　１０만큼　　
+회복된다[X]
+
+//POINTER #23 @ $9AC44 - STRING #23 @ $9AA9F
+
+#WRITE(Skills, $9AC44)
+// けいけんちを　　　　
+// ２ばいもらえる[X]
+경험치를　　　　　　
+２배로　획득한다[X]
+
+
+//POINTER #26 @ $9AC4D - STRING #26 @ $9AAC3
+
+#WRITE(Skills, $9AC4D)
+// かいものや　　　　　
+// しゅうりが　　　　　
+// はんがくでできる[X]
+구매나　　　　　　　
+수리에　드는　돈이　
+반값이　된다[X]
+
+
+//POINTER #31 @ $9AC5C - STRING #31 @ $9AAFD
+
+#WRITE(Skills, $9AC5C)
+// おおたて　　[X]
+큰　방패　　[X]
+
+//POINTER #32 @ $9AC5F - STRING #32 @ $9AB0B
+
+#WRITE(Skills, $9AC5F)
+// いかり　　　[X]
+분노　　　　[X]
+
+//POINTER #33 @ $9AC62 - STRING #33 @ $9AB19
+
+#WRITE(Skills, $9AC62)
+// ついげき　　[X]
+추격　　　　[X]
+
+//POINTER #34 @ $9AC65 - STRING #34 @ $9AB27
+
+#WRITE(Skills, $9AC65)
+// れんぞく　　[X]
+연속　　　　[X]
+
+//POINTER #35 @ $9AC68 - STRING #35 @ $9AB35
+
+#WRITE(Skills, $9AC68)
+// ぬすむ　　　[X]
+도둑질　　　[X]
+
+
+//POINTER #37 @ $9AC6E - STRING #37 @ $9AB43
+
+#WRITE(Skills, $9AC6E)
+// おどる　　　[X]
+춤　　　　　[X]
+
+
+//POINTER #41 @ $9AC7A - STRING #41 @ $9AB51
+
+#WRITE(Skills, $9AC7A)
+// カリスマ　　[X]
+카리스마　　[X]
+
+
+//POINTER #43 @ $9AC80 - STRING #43 @ $9AB5F
+
+#WRITE(Skills, $9AC80)
+// みきり　　　[X]
+간파　　　　[X]
+
+//POINTER #44 @ $9AC83 - STRING #44 @ $9AB6D
+
+#WRITE(Skills, $9AC83)
+// いのり　　　[X]
+기도　　　　[X]
+
+//POINTER #45 @ $9AC86 - STRING #45 @ $9AB7B
+
+#WRITE(Skills, $9AC86)
+// ひっさつ　　[X]
+필살　　　　[X]
+
+//POINTER #46 @ $9AC89 - STRING #46 @ $9AB89
+
+#WRITE(Skills, $9AC89)
+// まちぶせ　　[X]
+매복　　　　[X]
+
+//POINTER #47 @ $9AC8C - STRING #47 @ $9AB97
+
+#WRITE(Skills, $9AC8C)
+// とつげき　　[X]
+돌격　　　　[X]
+
+//POINTER #48 @ $9AC8F - STRING #48 @ $9ABA5
+
+#WRITE(Skills, $9AC8F)
+// りゅうせい?[X]
+유성검　　　[X]
+
+//POINTER #49 @ $9AC92 - STRING #49 @ $9ABB3
+
+#WRITE(Skills, $9AC92)
+// げっこう?　[X]
+월광검　　　[X]
+
+//POINTER #50 @ $9AC95 - STRING #50 @ $9ABC1
+
+#WRITE(Skills, $9AC95)
+// たいよう?　[X]
+태양검　　　[X]
+
+//POINTER #53 @ $9AC9E - STRING #53 @ $9ABCF
+
+#WRITE(Skills, $9AC9E)
+// ライブ　　　[X]
+라이브　　　[X]
+
+//POINTER #54 @ $9ACA1 - STRING #54 @ $9ABDD
+
+#WRITE(Skills, $9ACA1)
+// エリ?ト　　[X]
+엘리트　　　[X]
+
+
+//POINTER #57 @ $9ACAA - S//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menu_text/menutext.tbl", menu)
+#ACTIVETBL(menu)
+
+//BLOCK #001 NAME: 	Skill Menu Names
+
+#VAR(SkillMenu, CUSTOMPOINTER)
+#CREATEPTR(SkillMenu, "HIROM", $400000, 16)
+//#CREATEPTR(SkillMenu, "LINEAR", $0, 16)
+
+#JMP($D662, $D817)
+
+//POINTER #0 @ $D529 - STRING #0 @ $D662
+
+#WRITE(SkillMenu, $D529)
+// おおたて　　　せんとう[X]
+큰　방패　　　전투[X]
+
+//POINTER #1 @ $D53A - STRING #1 @ $D67A
+
+#WRITE(SkillMenu, $D53A)
+// いかり　　　　せんとう[X]
+분노　　　　　전투[X]
+
+//POINTER #2 @ $D54B - STRING #2 @ $D692
+
+#WRITE(SkillMenu, $D54B)
+// ついげき　　　せんとう[X]
+추격　　　　　전투[X]
+
+//POINTER #3 @ $D55C - STRING #3 @ $D6AA
+
+#WRITE(SkillMenu, $D55C)
+// れんぞく　　　せんとう[X]
+연속　　　　　전투[X]
+
+//POINTER #4 @ $D56D - STRING #4 @ $D6C2
+
+#WRITE(SkillMenu, $D56D)
+// ぬすむ　　　　せんとう[X]
+도둑질　　　　전투[X]
+
+//POINTER #5 @ $D57E - STRING #5 @ $D6DA
+
+#WRITE(SkillMenu, $D57E)
+// おどる　　　　いっぱん[X]
+춤　　　　　　일반[X]
+
+//POINTER #6 @ $D58F - STRING #6 @ $D6F2
+
+#WRITE(SkillMenu, $D58F)
+// カリスマ　　　いっぱん[X]
+카리스마　　　일반[X]
+
+//POINTER #7 @ $D5A0 - STRING #7 @ $D70A
+
+#WRITE(SkillMenu, $D5A0)
+// みきり　　　　せんとう[X]
+간파　　　　　전투[X]
+
+//POINTER #8 @ $D5B1 - STRING #8 @ $D722
+
+#WRITE(SkillMenu, $D5B1)
+// いのり　　　　いっぱん[X]
+기도　　　　　일반[X]
+
+//POINTER #9 @ $D5C2 - STRING #9 @ $D73A
+
+#WRITE(SkillMenu, $D5C2)
+// ひっさつ　　　せんとう[X]
+필살　　　　　전투[X]
+
+//POINTER #10 @ $D5D3 - STRING #10 @ $D752
+
+#WRITE(SkillMenu, $D5D3)
+// まちぶせ　　　せんとう[X]
+매복　　　　　전투[X]
+
+//POINTER #11 @ $D5E4 - STRING #11 @ $D76A
+
+#WRITE(SkillMenu, $D5E4)
+// とつげき　　　せんとう[X]
+돌격　　　　　전투[X]
+
+//POINTER #12 @ $D5F5 - STRING #12 @ $D782
+
+#WRITE(SkillMenu, $D5F5)
+// りゅうせい?　とくしゅ?[X]
+유성검　　　　특수검[X]
+
+//POINTER #13 @ $D606 - STRING #13 @ $D79C
+
+#WRITE(SkillMenu, $D606)
+// げっこう?　　とくしゅ?[X]
+월광검　　　　특수검[X]
+
+//POINTER #14 @ $D617 - STRING #14 @ $D7B6
+
+#WRITE(SkillMenu, $D617)
+// たいよう?　　とくしゅ?[X]
+태양검　　　　특수검[X]
+
+//POINTER #15 @ $D628 - STRING #15 @ $D7D0
+
+#WRITE(SkillMenu, $D628)
+// ライブ　　　　いっぱん[X]
+라이브　　　　일반[X]
+
+//POINTER #16 @ $D639 - STRING #16 @ $D7E8
+
+#WRITE(SkillMenu, $D639)
+// エリ?ト　　　いっぱん[X]
+엘리트　　　　일반[X]
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menu_text/menutext.tbl", menu)
+#ACTIVETBL(menu)
+
+//BLOCK #003 NAME:		Terrain Names
+
+#VAR(Terrain, CUSTOMPOINTER)
+#CREATEPTR(Terrain, "LINEAR", $3837B, 16)
+
+#JMP($383AF, $3848C)
+
+//POINTER #0 @ $3837B - STRING #0 @ $383AF
+
+#WRITE(Terrain, $3837B)
+// たかいやま[X]
+높은　산[X]
+
+//POINTER #1 @ $3837D - STRING #1 @ $383BB
+
+#WRITE(Terrain, $3837D)
+// ふかいもり[X]
+깊은　숲[X]
+
+//POINTER #2 @ $3837F - STRING #2 @ $383C7
+
+#WRITE(Terrain, $3837F)
+// がけ[X]
+절벽[X]
+
+//POINTER #3 @ $38381 - STRING #3 @ $383CD
+
+#WRITE(Terrain, $38381)
+// へいち[X]
+평지[X]
+
+//POINTER #4 @ $38383 - STRING #4 @ $383D5
+
+#WRITE(Terrain, $38383)
+// もり[X]
+숲[X]
+
+//POINTER #5 @ $38385 - STRING #5 @ $383DB
+
+#WRITE(Terrain, $38385)
+// うみ[X]
+바다[X]
+
+//POINTER #6 @ $38387 - STRING #6 @ $383E1
+
+#WRITE(Terrain, $38387)
+// かわ[X]
+강[X]
+
+//POINTER #7 @ $38389 - STRING #7 @ $383E7
+
+#WRITE(Terrain, $38389)
+// やま[X]
+산[X]
+
+//POINTER #8 @ $3838B - STRING #8 @ $383ED
+
+#WRITE(Terrain, $3838B)
+// さばく[X]
+사막[X]
+
+//POINTER #9 @ $3838D - STRING #9 @ $383F5
+
+#WRITE(Terrain, $3838D)
+// しろ[X]
+성[X]
+
+//POINTER #10 @ $3838F - STRING #10 @ $383FB
+
+#WRITE(Terrain, $3838F)
+// とりで[X]
+요새[X]
+
+//POINTER #11 @ $38391 - STRING #11 @ $38403
+
+#WRITE(Terrain, $38391)
+// まち[X]
+도로[X]
+
+//POINTER #12 @ $38393 - STRING #12 @ $38409
+//POINTER #17 @ $3839D - STRING #17 @ $38435
+
+#WRITE(Terrain, $3839D)
+#WRITE(Terrain, $38393)
+//じょうもん[X]
+성문[X]
+
+//POINTER #13 @ $38395 - STRING #13 @ $38415
+
+#WRITE(Terrain, $38395)
+// じょうへき[X]
+성벽[X]
+
+//POINTER #14 @ $38397 - STRING #14 @ $38421
+
+#WRITE(Terrain, $38397)
+// すなち[X]
+모래[X]
+
+//POINTER #15 @ $38399 - STRING #15 @ $38429
+
+#WRITE(Terrain, $38399)
+// はし[X]
+다리[X]
+
+//POINTER #16 @ $3839B - STRING #16 @ $3842F
+
+#WRITE(Terrain, $3839B)
+// ぬま[X]
+늪[X]
+
+//POINTER #18 @ $3839F - STRING #18 @ $38441
+
+#WRITE(Terrain, $3839F)
+// むら[X]
+마을[X]
+
+//POINTER #19 @ $383A1 - STRING #19 @ $38447
+//POINTER #21 @ $383A5 - STRING #21 @ $38459
+
+#WRITE(Terrain, $383A5)
+#WRITE(Terrain, $383A1)
+// はいきょ[X]
+폐허[X]
+
+//POINTER #20 @ $383A3 - STRING #20 @ $38451
+
+#WRITE(Terrain, $383A3)
+// そうこ[X]
+창고[X]
+
+//POINTER #22 @ $383A7 - STRING #22 @ $38463
+
+#WRITE(Terrain, $383A7)
+// きょうかい[X]
+교회[X]
+
+//POINTER #23 @ $383A9 - STRING #23 @ $3846F
+
+#WRITE(Terrain, $383A9)
+// しんでん[X]
+신전[X]
+
+//POINTER #24 @ $383AB - STRING #24 @ $38479
+
+#WRITE(Terrain, $383AB)
+// ブラギのとう[X]
+브라기의　탑[X]
+
+//POINTER #25 @ $383AD - STRING #25 @ $38487
+
+#WRITE(Terrain, $383AD)
+// みち[X]
+길[X]
+
+//POINTER #17 @ $D64A - STRING #17 @ $D800
+
+#WRITE(SkillMenu, $D64A)
+// ねぎり　　　　いっぱん[X]
+에누리　　　　일반[X]
+TRING #57 @ $9ABEB
+
+#WRITE(Skills, $9ACAA)
+// ねぎり　　　[X]
+에누리　　　[X]
+
+적　지능의　좋음　
+적　유닛의　　　　
+지능의　좋음[X]
+
+// [exit]
+
+// # Hard
+// # @@9F03F@@//89:f051
+// Hard
+// [exit]
+
+
+
+//pointer unknown
+#JMP($9EDC1)
+//リアル　　　はやい[X]
+리얼　　　　빠르게[X]
+#JMP($9EDE9)
+//ふつう　　かしこい[X]
+보통　　　현명하게[X]
+오토　커서[X]
+
+//POINTER #8 @ $E835 - STRING #8 @ 
+
+#WRITE(OptionsMenu, $E835)
+//てきのあたまのよさ[X]
+적　지능의　좋음[X]
+
+
+
+//POINTER #10 @ $DB92 - STRING #10 @ $DC78
+
+#WRITE(Goals, $DB92)
+//シアルフィ城のせいあつ[X]
+시알피성의　제압[X]<$01>　세이브[X]
+
+//POINTER #6 @ $5DDB6 - STRING #6 @ $5DD7D
+
+#W16($5DDB6)
+#W16($5DDD8)
+// <$26><$DC><$85><$01><$01>　タ?ンエンド[X]
+<$26><$DC><$85><$01><$01>　턴　엔드[X]
+
+
+
+//POINTER #137 @ $3DD24 - STRING #137 @ $3E2DA
+
+#WRITE(Item, $3DD24)
+// サ?クレット[X]
+서클렛[X]
+
+
+#WRITE(ItemDesc, $3E3FA)
+// せいれいのかみ　
+// かざり　　　　　
+// いのり＋ライブ[X]
+정령의　　　　　
+머리장식　　　　
+기도＋라이브[X]
+
+그레이트아치[X]
+
+//POINTER #71 @ $38B41 - STRING #71 @ $39125
+
+#WRITE(Class, $38B41)
+//ダ?クプリンス[X]
+다크프린스[X]
+
+//B Button to quit
+#W16($AAE92)
+// ☆Ｂボタンでちゅうしできます<X>
+//　☆Ｂ버튼으로　중지　가능　<X>
+　　Ｂ버튼으로　중지가능<X>
+
+#JMP($A85BA)//Castle Character Status
+//<$12>
+#JMP($A85C7)//Castle Character 'Remaining', nullification of said
+//<$39>

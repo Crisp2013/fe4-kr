@@ -4,7 +4,7 @@ copy base_rom\fe4.sfc fe4_trans.sfc
 echo install gfx
 asar gfx/_GfxInstall.asm fe4_trans.sfc 
 
-echo conver text
+echo convert text
 cd dialogue_text
 if not exist convert (
     mkdir convert
@@ -66,7 +66,7 @@ pause
 echo install menu
 asar   menu_text/_MenuFontInstall.asm fe4_trans.sfc 
 armips menu_text/_MenuFontInstall_armips.asm
-pause
+REM pause
 Atlas fe4_trans.sfc menu_text/trans_2023/misc_80.txt
 Atlas fe4_trans.sfc menu_text/trans_2023/misc_85.txt
 Atlas fe4_trans.sfc menu_text/trans_2023/misc_89.txt
@@ -88,4 +88,13 @@ Atlas fe4_trans.sfc menu_text/trans_2023/table_optiondesc.txt
 Atlas fe4_trans.sfc menu_text/trans_2023/table_skilldesc.txt
 Atlas fe4_trans.sfc menu_text/trans_2023/table_skillname.txt
 Atlas fe4_trans.sfc menu_text/trans_2023/table_terrain.txt
+pause
+
+echo make msu rom
+if not exist msu_rom (
+    mkdir msu_rom
+)
+copy fe4_trans.sfc msu_rom\fe4-msu.sfc
+asar "msu_hack/msu_hack.asm" "msu_rom/fe4-msu.sfc"
+
 pause

@@ -1,6 +1,7 @@
-//offset 0xdc964
-// 0xdcb64
-Dialogue_dc964:
+//offset 0xdc962
+// 0xdcb62
+Dialogue_dc962:
+dh unknown_006B
 .stringn "・・・かくして"
 db NewLine
 .stringn "二十年にもおよぶ長く苦しい戦いは、"
@@ -21,25 +22,19 @@ db NewLine
 db NewLine
 db NewLine
 db NewLine
-;.stringn "人の悲しみがわかる優しさと"
-.stringn "인간의 슬픔을 이해하는 따뜻함과"
-;.stringn "인간의 슬픔을 아는 마음과"
+.stringn "人の悲しみがわかる優しさと"
 db NewLine
 db NewLine
 db NewLine
 dh PauseForTime
 db 0x3C
-;.stringn "人の悲しみを救える勇気と"
-.stringn "인간의 슬픔을 이해하는 따뜻함과"
-;.stringn "인간의 슬픔을 구하는 용기와"
+.stringn "人の悲しみを救える勇気と"
 db NewLine
 db NewLine
 db NewLine
 dh PauseForTime
 db 0x3C
-;.stringn "人の悲しみに打ち승つ力を"
-.stringn "인간의 슬픔을 이겨내는 힘을"
-;.stringn "인간의 슬픔에 맞서는 힘을"
+.stringn "人の悲しみに打ち勝つ力を"
 db NewLine
 db NewLine
 db NewLine
@@ -67,122 +62,122 @@ db NewLine
 db NewLine
 .stringn "⑫"
 db NewLine
-.stringn "서⑩장⑫⑫성기사 탄생⑫⑫⑫⑫"
+.stringn "序⑫章⑫⑫聖騎士誕生⑫⑫⑫⑫"
 db NewLine
 dh InsBlockText_2D //1DCC0D00
 dh 0xB2D0
 db 0x8D //bank
 .stringn "⑫⑫⑫⑫⑫⑫⑫"
 dh IntBuffer1 //FightLv or Gold or Wins
-.stringn "턴"
+.stringn "ターン"
 db NewLine
-.stringn "제1장⑫⑫정령의 숲의 소녀⑫⑫"
+.stringn "第一章⑫⑫精霊の森の少女⑫⑫"
 db NewLine
 dh InsBlockText_2D //4ACC0D00
 dh 0xB2DD
 db 0x8D //bank
 .stringn "⑫⑫⑫⑫⑫⑫⑫"
 dh IntBuffer1 //FightLv or Gold or Wins
-.stringn "턴"
+.stringn "ターン"
 db NewLine
-.stringn "제2장⑫⑫아그스트리아 동란"
+.stringn "第二章⑫⑫アグストリアの動乱"
 db NewLine
 dh InsBlockText_2D //70CC0D00
 dh 0xB2EA
 db 0x8D //bank
 .stringn "⑫⑫⑫⑫⑫⑫⑫"
 dh IntBuffer1 //FightLv or Gold or Wins
-.stringn "턴"
+.stringn "ターン"
 db NewLine
-.stringn "제3장⑫⑫사자왕 엘트샨"
+.stringn "第三章⑫⑫獅子王エルトシャン"
 db NewLine
 dh InsBlockText_2D //99CC0D00
 dh 0xB2F7
 db 0x8D //bank
 .stringn "⑫⑫⑫⑫⑫⑫⑫"
 dh IntBuffer1 //FightLv or Gold or Wins
-.stringn "턴"
+.stringn "ターン"
 db NewLine
-.stringn "제4장⑫⑫하늘에 춤추다⑫⑫⑫⑫⑫"
+.stringn "第四章⑫⑫空に舞う⑫⑫⑫⑫⑫"
 db NewLine
 dh InsBlockText_2D //C2CC0D00
 dh 0xB304
 db 0x8D //bank
 .stringn "⑫⑫⑫⑫⑫⑫⑫"
 dh IntBuffer1 //FightLv or Gold or Wins
-.stringn "턴"
+.stringn "ターン"
 db NewLine
-.stringn "제5장⑫⑫운명의 문⑫⑫⑫⑫⑫"
+.stringn "第五章⑫⑫運命の扉⑫⑫⑫⑫⑫"
 db NewLine
 dh InsBlockText_2D //ECCC0D00
 dh 0xB311
 db 0x8D //bank
 .stringn "⑫⑫⑫⑫⑫⑫⑫"
 dh IntBuffer1 //FightLv or Gold or Wins
-.stringn "턴"
+.stringn "ターン"
 db NewLine
-.stringn "제6장⑫⑫운명의 문⑫⑫⑫"
+.stringn "第六章⑫⑫光をつぐもの⑫⑫⑫"
 db NewLine
 dh InsBlockText_2D //13CD0D00
 dh 0xB31E
 db 0x8D //bank
 .stringn "⑫⑫⑫⑫⑫⑫⑫"
 dh IntBuffer1 //FightLv or Gold or Wins
-.stringn "턴"
+.stringn "ターン"
 db NewLine
-.stringn "제7장⑫⑫사막을 넘어서⑫⑫⑫"
+.stringn "第七章⑫⑫砂漠をこえて⑫⑫⑫"
 db NewLine
 dh InsBlockText_2D //3ACD0D00
 dh 0xB32B
 db 0x8D //bank
 .stringn "⑫⑫⑫⑫⑫⑫⑫"
 dh IntBuffer1 //FightLv or Gold or Wins
-.stringn "턴"
+.stringn "ターン"
 db NewLine
-.stringn "제8장⑫⑫트라키아의 용기사⑫"
+.stringn "第八章⑫⑫トラキアの竜騎士⑫"
 db NewLine
 dh InsBlockText_2D //61CD0D00
 dh 0xB338
 db 0x8D //bank
 .stringn "⑫⑫⑫⑫⑫⑫⑫"
 dh IntBuffer1 //FightLv or Gold or Wins
-.stringn "턴"
+.stringn "ターン"
 db NewLine
-.stringn "제9장⑫⑫누구를 위하여⑫⑫⑫⑫"
+.stringn "第九章⑫⑫誰がために⑫⑫⑫⑫"
 db NewLine
 dh InsBlockText_2D //88CD0D00
 dh 0xB345
 db 0x8D //bank
 .stringn "⑫⑫⑫⑫⑫⑫⑫"
 dh IntBuffer1 //FightLv or Gold or Wins
-.stringn "턴"
+.stringn "ターン"
 db NewLine
-.stringn "제10장⑫②빛과 어둠과⑫⑫⑫⑫⑫"
+.stringn "第十章⑫⑫光と闇と⑫⑫⑫⑫⑫"
 db NewLine
 dh InsBlockText_2D //B1CD0D00
 dh 0xB352
 db 0x8D //bank
 .stringn "⑫⑫⑫⑫⑫⑫⑫"
 dh IntBuffer1 //FightLv or Gold or Wins
-.stringn "턴"
+.stringn "ターン"
 db NewLine
-.stringn "종⑩장⑫⑫최후의 성전⑫⑫⑫⑫"
+.stringn "終⑩①章⑫⑫最後の聖戦⑫⑫⑫⑫"
 db NewLine
 dh InsBlockText_2D //DBCD0D00
 dh 0xB35F
 db 0x8D //bank
 .stringn "⑫⑫⑫⑫⑫⑫⑫"
 dh IntBuffer1 //FightLv or Gold or Wins
-.stringn "턴"
+.stringn "ターン"
 db NewLine
 db NewLine
-.stringn "합계"
+.stringn "合計"
 dh InsBlockText_2D //F2CD0D00
 dh 0xB36C
 db 0x8D //bank
 .stringn "⑫④"
 dh IntBuffer1 //FightLv or Gold or Wins
-.stringn "턴"
+.stringn "ターン"
 db NewLine
 db NewLine
 db NewLine
@@ -223,9 +218,9 @@ dh SringBuffer1 //Lover or father
 db NewLine
 .stringn "⑫⑫⑫"
 dh IntBuffer1 //FightLv or Gold or Wins
-.stringn "승⑫"
+.stringn "勝⑫"
 dh IntBuffer2 //Loses
-.stringn "패"
+.stringn "敗"
 db NewLine
 db NewLine
 db EndText
@@ -285,7 +280,18 @@ db EndText
 Dialogue_dcc5d:
 db Target_Slot
 db 0x01
+db ClearText
+.stringn "⑫⑫⑫"
+dh SringBuffer1 //Lover or father
+db NewLine
+dh PauseForTime
+db 0x5A
+db EndText
 
+//end 0xdcc6b
+
+//offset 0xdcc5f
+// 0xdce5f
 Dialogue_dcc5f:
 db ClearText
 .stringn "⑫⑫⑫"
@@ -330,4 +336,3 @@ db 0x5A
 db EndText
 
 //end 0xdccb0
-

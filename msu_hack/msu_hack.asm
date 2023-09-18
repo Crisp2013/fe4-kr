@@ -156,7 +156,8 @@ resumeMusic:
 
 MSUIndexTable:
 ;00 = noMSU
-;still missing: $54 (lover 4) $63 (gold and silver song)
+;missing: $54 (lover 4) -> what?
+;missing: $63 (gold and silver song) -> BGM 8F
 Db $00,$01,$73,$02,$03,$00,$00,$00,$00,$00,$00,$72,$19,$18,$1a,$17; bytes 00-0f
 Db $00,$05,$10,$06,$09,$00,$00,$26,$11,$25,$15,$14,$08,$27,$12,$1f; bytes 10-1f
 Db $1b,$1c,$1d,$1e,$13,$20,$21,$22,$23,$24,$28,$0b,$07,$16,$16,$00; bytes 20-2f

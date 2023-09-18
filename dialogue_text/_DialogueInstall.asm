@@ -104,6 +104,7 @@ unknown_0087	 equ 0x8700
 /********************3byte pointer area************************/
 .include "dialogue_text/pointer_3byte.asm"
 
+
 ;bank 88
 translation_org 0x8e9e5
 //.area 0x8ee3c+TRANSLATION_OFFSET-.
@@ -394,6 +395,14 @@ write_hibank_pointer_org 0x8E13B+1 , Dialogue_8e9e5
 write_loword_pointer_org 0x8E13B+6 , Dialogue_8e9e5
 //halfasm:todo move this text to original position
 write_loword_pointer_org 0x8E436+1 , Dialogue_8ebfd
+; -C8E42A
+; BEQ $C8E436
+
+; -C8E436
+; LDA #LOW(Dialogue_8ebfd)
+; STA $24
+; JSL $918e6e
+; RTL
 
 //Shop
 write_hibank_pointer_org 0xac10b+1 , Dialogue_ad3aa
@@ -702,11 +711,20 @@ write_loword_pointer_org 0x11bb89+1 , Dialogue_1dd0f8
 /********************2byte pointer area************************/
 .include "dialogue_text/pointer_2byte.asm"
 
+
+;bank 88
+//.org 0x8e9e5
+//.area 0x8ee3c-.
+//.include "dialogue_text/convert/Intermission_hook.asm"
+//.endarea;end 0x8ee3c
+
+;bank 8D
 .org 0xd9cb8
 .area 0xd9ed5-.
 .include "dialogue_text/convert/Chronology.asm"		;0xd9cb8-0xd9ed5
 .endarea
 
+;bank 8E
 //.org 0xed7de//temp fix
 .org 0xe9b61
 .area 0xef1da-.
@@ -728,6 +746,7 @@ write_loword_pointer_org 0x11bb89+1 , Dialogue_1dd0f8
 //.include "dialogue_text/convert/ZDynamic1.asm"
 //.endarea
 
+;bank 8D
 org 0xd9b7b
 .area 0xd9bf6-.
 .include "dialogue_text/convert/MainMenu.asm"

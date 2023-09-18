@@ -11,7 +11,7 @@ db EndText
 Dialogue_d9c8f:
 .stringn "제"
 db Font1
-db 0xB0
+db 0xB1
 .stringn "장"
 db EndText
 

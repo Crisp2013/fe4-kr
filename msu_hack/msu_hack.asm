@@ -54,10 +54,10 @@ db $00,$00
 ;; Main MSU-1 hook
 ;; =====================================
 org $80963b ;ldx #$0000
-jsr $f628
+jsr $f860
 
 org $809667 ;ldx #$0000
-jsr $f628
+jsr $f860
 
 ;==================
 ;OLD MUTE/HOOK
@@ -75,7 +75,7 @@ jsr $f628
 ;JML MSUHook
 ; original routine ends at 809932
 
-org $80f628 ; this should be freespace?
+org $80f860 ; this should be freespace?
 print "Patch start: $", pc
 
 MSUHook:

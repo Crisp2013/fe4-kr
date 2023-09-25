@@ -19,3 +19,7 @@ a.sym
 doc/~$*.xlsx
 dialogue_text/convert/*
 msu_rom/*
+fe4_trans.cpu.sym
+fe4_trans.smp.sym
+fe4_trans.srm
+snes_intro/image/*

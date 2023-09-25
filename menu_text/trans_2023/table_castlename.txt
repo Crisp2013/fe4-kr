@@ -195,7 +195,7 @@
 
 #WRITE(Castle, $3F553)
 // フィノーラ城[X]
-피노라성[X]
+피놀라성[X]
 
 //POINTER #31 @ $3F555 - STRING #31 @ $3F70D
 

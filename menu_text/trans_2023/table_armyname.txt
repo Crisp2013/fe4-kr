@@ -208,7 +208,7 @@
 
 #WRITE(Army, $3D924)
 //フィノーラ軍[X]
-피노라군[X]
+피놀라군[X]
 
 //POINTER #31 @ $3D926 - STRING #31 @ $3DAF0
 

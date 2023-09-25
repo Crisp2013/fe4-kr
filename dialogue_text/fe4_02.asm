@@ -1,4 +1,4 @@
-
+//Script:Chapter 2
 //offset 0xf806b
 // 0xf826b
 Dialogue_f806b:
@@ -519,7 +519,7 @@ db Top_Slot// Deirdre
 dh ScrollText_DBC
 .stringn "시구르드 님께선 약속하셨지요?"
 db NewLine
-.stringn "絶対わたしを離さないって"
+.stringn "결코 홀로 내버려 두지 않으시겠다고"
 db NewLine
 .stringn "저・・・ 불안해요・・・"
 db WaitForA
@@ -764,7 +764,7 @@ dh LoadPortrait
 dh 0x005D//Bordeaux
 .stringn "뭣이, 그란벨군이라고!?"
 db NewLine
-.stringn "제기랄・・・ 이놈이고 저놈이고"
+.stringn "젠장・・・ 이놈이고 저놈이고"
 db NewLine
 .stringn "도움이 안 되는군!"
 db WaitForA
@@ -842,9 +842,9 @@ db ScrollText
 db Top_Slot// Lewyn
 .stringn "그거 참 너무하는군, 좋아"
 db NewLine
-.stringn "俺がちょっくら出かけて"
+.stringn "내가 냉큼 나가서"
 db NewLine
-.stringn "ヤツらを片づけてやるよ"
+.stringn "처리해 주도록 하지"
 db WaitForA
 db ScrollText
 
@@ -1195,7 +1195,7 @@ db WaitForA
 
 db Top_Slot// Lachesis
 dh ScrollText_DBC
-.stringn "네, 오라버니는 아직 아그스티에・・・"
+.stringn "네, 아직도 아그스티에 계시고・・・"
 db NewLine
 .stringn "아그스트리아 제공들은"
 db NewLine
@@ -1205,7 +1205,7 @@ db ScrollText
 
 .stringn "시구르드 님,"
 db NewLine
-.stringn "부디 제게 힘을 빌려 주세요"
+.stringn "부디 제게 힘을 빌려주세요"
 db NewLine
 db WaitForA
 db ScrollText

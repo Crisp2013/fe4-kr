@@ -1,3 +1,4 @@
+
 //offset 0x32fa8d
 // 0x32fc8d
 Dialogue_32fa8d:
@@ -9,29 +10,29 @@ dh ClearPortrait
 dh DialogOpen
 dh unknown_002E
 dh SringBuffer2 //CharName or mother
-.stringn "って可愛いね"
+.stringn "도 참 귀엽다니까"
 db NewLine
-.stringn "これからは、私がお妹さんになって"
+.stringn "앞으론 내가 누나가 돼서"
 db NewLine
-.stringn "あげるからね"
+.stringn "같이 옆에 있어 줄게"
 
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn "え、"
+.stringn "어, "
 dh SringBuffer1 //Lover or father
-.stringn "さんが？"
+.stringn " 씨가?"
 db NewLine
-.stringn "でも、どうして？"
+.stringn "나를 왜・・・?"
 db NewLine
 dh PauseForTime
 db 0x60
 
 db Top_Slot
 dh ScrollText_DBC
-.stringn "うふっ、やっぱり子供なんだ"
+.stringn "후후, 역시 어린애구나"
 db NewLine
-.stringn "でもいいのよ、今にわかるからねっ"
+.stringn "뭐 괜찮아, 곧 알게 될 거야"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -50,31 +51,31 @@ dh ClearPortrait
 dh DialogOpen
 dh unknown_002E
 dh SringBuffer2 //CharName or mother
-.stringn "は可愛いね"
+.stringn "도 참 귀엽다니까"
 db NewLine
-.stringn "これからは"
+.stringn "앞으론 내가 누나가 돼서"
 db NewLine
-.stringn "私があなたのねえさんになってあげる"
+.stringn "같이 옆에 있어 줄게"
 
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn "え、"
+.stringn "어, "
 dh SringBuffer1 //Lover or father
-.stringn "さんが？"
+.stringn " 씨가?"
 db NewLine
-.stringn "でも、どうして？・・・"
+.stringn "나를 왜・・・?"
 db NewLine
 dh PauseForTime
 db 0x60
 
 db Top_Slot
 dh ScrollText_DBC
-.stringn "やっぱり"
+.stringn "역시 아직 어린애구나, "
 dh SringBuffer2 //CharName or mother
 .stringn "は子供ね"
 db NewLine
-.stringn "でもいいのよ、今にわかるから"
+.stringn "뭐 괜찮아, 곧 알게 될 테니까"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -93,31 +94,31 @@ dh ClearPortrait
 dh DialogOpen
 dh unknown_002E
 dh SringBuffer2 //CharName or mother
-.stringn "は可愛いね"
+.stringn ", 정말 기특하네요"
 db NewLine
-.stringn "これからは、私があなたの"
+.stringn "앞으론 제가 누나가 돼서"
 db NewLine
-.stringn "ねえさんになってあげます"
+.stringn "같이 옆에 있어 줄게요"
 
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn "え、"
+.stringn "어, "
 dh SringBuffer1 //Lover or father
-.stringn "さんが？"
+.stringn " 씨가?"
 db NewLine
-.stringn "でも、どうして？・・・"
+.stringn "나를 왜・・・?"
 db NewLine
 dh PauseForTime
 db 0x60
 
 db Top_Slot
 dh ScrollText_DBC
-.stringn "やっぱり"
+.stringn "역시 아직은 어리군요, "
 dh SringBuffer2 //CharName or mother
 .stringn "は子供ね"
 db NewLine
-.stringn "でもいいのよ、今にわか①ります"
+.stringn "괜찮아요, 곧 알게 될 테니까"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -136,11 +137,11 @@ dh ClearPortrait
 dh DialogOpen
 dh unknown_002E
 dh SringBuffer2 //CharName or mother
-.stringn "は可愛いね"
+.stringn ", 참 기특하네요"
 db NewLine
-.stringn "これからは"
+.stringn "앞으론 제가 누나가 돼서"
 db NewLine
-.stringn "私があなたの妹さんになってあげるわ"
+.stringn "같이 옆에 있어 줄게요"
 
 db Bottom_Slot
 dh PauseForTime
@@ -156,11 +157,11 @@ db 0x60
 
 db Top_Slot
 dh ScrollText_DBC
-.stringn "やっぱり"
+.stringn "역시 아직 어리군요, "
 dh SringBuffer2 //CharName or mother
 .stringn "は子供ね"
 db NewLine
-.stringn "でもいいのよ、今にわかるから"
+.stringn "괜찮아요, 곧 알게 될 테니까"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -179,11 +180,11 @@ dh ClearPortrait
 dh DialogOpen
 dh unknown_002E
 dh SringBuffer2 //CharName or mother
-.stringn "は可愛いね"
+.stringn "도 참 귀엽다니까"
 db NewLine
-.stringn "これからは"
+.stringn "앞으론 내가 누나가 돼서"
 db NewLine
-.stringn "私があなたのお妹さんになってあげるわ"
+.stringn "같이 옆에 있어 줄게"
 
 db Bottom_Slot
 dh PauseForTime
@@ -199,11 +200,11 @@ db 0x60
 
 db Top_Slot
 dh ScrollText_DBC
-.stringn "やっぱり"
+.stringn "역시 아직 어린애구나, "
 dh SringBuffer2 //CharName or mother
 .stringn "は子供ね"
 db NewLine
-.stringn "でもいいのよ、今にわかるから"
+.stringn "뭐 괜찮아, 곧 알게 될 거야"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -221,43 +222,43 @@ dh ClearPortrait
 dh DialogOpen
 dh unknown_002E
 dh SringBuffer2 //CharName or mother
-.stringn "ってば、"
+.stringn "도 참,"
 db NewLine
-.stringn "なに一人でカッコつけてるの"
+.stringn "또 혼자 무게 잡고 있네"
 db NewLine
-.stringn "元気を出しなさいよ、私がいるじゃない"
+.stringn "기운 내, 내가 있잖아"
 
 db Bottom_Slot
 dh PauseForTime
 db 0x20
 dh SringBuffer1 //Lover or father
-.stringn "、おまえなぁ・・・"
+.stringn ", 너는 진짜・・・"
 db NewLine
-.stringn "まっ、いいか"
+.stringn "뭐, 됐어"
 db NewLine
-.stringn "おまえでもいないよかマシだしな"
+.stringn "너라도 없는 것보단 나으니까"
 dh PauseForTime
 db 0x60
 
 db Top_Slot
 dh ScrollText_DBC
-.stringn "ふふっ、"
+.stringn "후훗,"
 db NewLine
-.stringn "その方が"
+.stringn "그래야 "
 dh SringBuffer2 //CharName or mother
-.stringn "らしくていいよ"
+.stringn "답지"
 db NewLine
-.stringn "がんばろうよ、"
+.stringn "같이 힘내자, "
 dh SringBuffer5 //Brother Name
-.stringn "のためにもね"
+.stringn "를 위해서라도"
 
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn "ああ、そうだな"
+.stringn "그래・・・"
 db NewLine
 dh SringBuffer1 //Lover or father
-.stringn "、ありがとな"
+.stringn ", 고마워"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -275,38 +276,9 @@ dh ClearPortrait
 dh DialogOpen
 dh unknown_002E
 dh SringBuffer2 //CharName or mother
-.stringn "、元気をだして、"
+.stringn ", 기운 내"
 db NewLine
-.stringn "あなたにはそんな顔はにあわないわ"
-db NewLine
-
-db Bottom_Slot
-dh PauseForTime
-db 0x20
-dh SringBuffer1 //Lover or father
-.stringn "、"
-db NewLine
-.stringn "それはわかってるけどさ"
-db NewLine
-.stringn "俺だって泣きたいときはあるんだ"
-dh PauseForTime
-db 0x60
-
-db Top_Slot
-dh ScrollText_DBC
-.stringn "じゃあ泣きなさいよ"
-db NewLine
-.stringn "でも、そんなことで"
-db NewLine
-dh SringBuffer5 //Brother Name
-.stringn "は喜んでくれるの"
-dh PauseForTime
-db 0x60
-db ScrollText
-
-.stringn "いつまでも落ち込んでいるなんて"
-db NewLine
-.stringn "男らしくないわよ！"
+.stringn "너한테 그런 얼굴은 안 어울려"
 db NewLine
 
 db Bottom_Slot
@@ -315,9 +287,38 @@ db 0x20
 dh SringBuffer1 //Lover or father
 .stringn "・・・"
 db NewLine
-.stringn "おまえは強いな、"
+.stringn "그야 모르는 건 아니지만"
 db NewLine
-.stringn "やっぱり俺がほれただけのことはあるぜ"
+.stringn "나도 울고 싶어질 때는 있다구"
+dh PauseForTime
+db 0x60
+
+db Top_Slot
+dh ScrollText_DBC
+.stringn "그러면 마음껏 울어"
+db NewLine
+.stringn "하지만 그런다고"
+db NewLine
+dh SringBuffer5 //Brother Name
+.stringn "가 기뻐해 줄까?"
+dh PauseForTime
+db 0x60
+db ScrollText
+
+.stringn "언제까지 풀 죽어 있을 거야?"
+db NewLine
+.stringn "남자답지 않아!"
+db NewLine
+
+db Bottom_Slot
+dh PauseForTime
+db 0x20
+dh SringBuffer1 //Lover or father
+.stringn "・・・"
+db NewLine
+.stringn "넌 정말 강하구나"
+db NewLine
+.stringn "역시 내가 선택한 사람이야"
 dh PauseForTime
 db 0x60
 db EndText
@@ -336,40 +337,39 @@ dh unknown_002E
 dh SringBuffer2 //CharName or mother
 .stringn "・・・"
 db NewLine
-.stringn "元気をだして・・・"
+.stringn "기운 내세요・・・"
 db NewLine
 
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn "そうだな・・・"
+.stringn "그래・・・"
 db NewLine
-.stringn "いつまでも悔やんでばか①りじゃ"
+.stringn "언제까지고"
 db NewLine
-.stringn "しかたないしな"
+.stringn "풀 죽어 있을 순 없겠지"
 dh PauseForTime
 db 0x60
 
 db Top_Slot
 dh ScrollText_DBC
-.stringn "私では"
+.stringn "저는"
 db NewLine
 dh SringBuffer5 //Brother Name
-.stringn "の代わりにはなれない？"
+.stringn " 대신으로 부족할까요?"
 db NewLine
 
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn "バカを言うなよ"
+.stringn "그게 무슨 소리야?"
 db NewLine
 dh SringBuffer1 //Lover or father
-.stringn "は俺の宝物なんだぜ！"
+.stringn "는 내 보물인걸!"
 db NewLine
 dh PauseForTime
 db 0x60
 db EndText
 
 //end 0x32fed6
-
 

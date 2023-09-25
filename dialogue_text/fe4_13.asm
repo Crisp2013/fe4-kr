@@ -1,4 +1,4 @@
-
+//Script:Units conversation Ch3-Ch5
 
 //offset 0x2ea5c2
 // 0x2ea7c2
@@ -237,7 +237,7 @@ db NewLine
 db Bottom_Slot// Brigid
 dh PauseForTime
 db 0x10
-.stringn "나같은 사람을 맞이하러 왔다고?"
+.stringn "나 같은 사람을 맞이하러 왔다고?"
 db NewLine
 db WaitForA
 
@@ -408,7 +408,7 @@ db ScrollText
 
 .stringn "공자는 잠시 기다려 주세요"
 db NewLine
-.stringn "섣부리 행동해선 안 됩니다"
+.stringn "섣불리 행동해선 안 됩니다"
 db NewLine
 
 db Bottom_Slot// Sigurd
@@ -534,49 +534,49 @@ dh LoadPortrait
 dh 0x0006//Quan
 
 db Top_Slot// Ethlyn
-.stringn "キュアン・・・"
+.stringn "큐안・・・"
 db NewLine
-.stringn "あなたに謝りたいことがあるの・・・"
+.stringn "당신에게 주고 싶은 게 있어요・・・"
 db NewLine
 
 db Bottom_Slot// Quan
 dh PauseForTime
 db 0x10
-.stringn "えっ？⑫どうしたんだエスリン"
+.stringn "응? 왜 그래 에슬린"
 db NewLine
-.stringn "そんな深刻な顔をして"
+.stringn "그런 심각한 얼굴을 다 하고"
 db NewLine
 db WaitForA
 
 db Top_Slot// Ethlyn
 dh ScrollText_DBC
-.stringn "これ・・・"
+.stringn "이걸・・・"
 db NewLine
 
 db Bottom_Slot// Quan
 dh PauseForTime
 db 0x10
-.stringn "ん・・・！？"
+.stringn "응・・・?"
 db NewLine
 .stringn "이, 이건 게이볼그잖아!"
 db NewLine
-.stringn "どうしてきみが・・・"
+.stringn "어째서 네가・・・"
 db WaitForA
 
 db Top_Slot// Ethlyn
 dh ScrollText_DBC
-.stringn "お父さまから預かっていたの"
+.stringn "아버님께 맡아 두고 있었어요"
 db NewLine
-.stringn "もし戦いが激しくなるようなら"
+.stringn "만약 전투가 힘들게 돌아간다면"
 db NewLine
-.stringn "あなたにわたすようにと"
+.stringn "당신에게 주라고 하셔서"
 
 db Bottom_Slot// Quan
 dh PauseForTime
 db 0x10
-.stringn "そうか、この槍があれば大助か①りだ"
+.stringn "그렇군, 이 창이 있다면 든든해"
 db NewLine
-.stringn "でもどうして今まで黙っていたんだ？"
+.stringn "하지만 왜 지금까지 갖고만 있었어?"
 db NewLine
 db WaitForA
 
@@ -1034,7 +1034,7 @@ db ScrollText
 
 .stringn "뭐, 조만간 괜찮아질테니"
 db NewLine
-.stringn "신경쓰지 마"
+.stringn "신경 쓰지 마"
 db NewLine
 db WaitForA
 db ScrollText
@@ -2236,7 +2236,7 @@ db ScrollText
 db NewLine
 .stringn "네겐 너만의 삶이 있으니까"
 db NewLine
-.stringn "너무 신경쓰지 마"
+.stringn "너무 신경 쓰지 마"
 
 db Bottom_Slot// Azelle
 dh PauseForTime
@@ -3423,10 +3423,10 @@ db NewLine
 db NewLine
 
 db Bottom_Slot// Chulainn
+
 dh PauseForTime
 db 0x10
 .stringn "난 소파라 영주의 아들, 그리고"
-
 db NewLine
 .stringn "한 명의 아름다운 소녀에게"
 db NewLine
@@ -3770,7 +3770,7 @@ db NewLine
 db Bottom_Slot// Midir
 dh PauseForTime
 db 0x10
-.stringn "네, 에딘 님을 좋아했습니다"
+.stringn "네, 전 에딘 님을 좋아했습니다"
 db NewLine
 .stringn "하지만 그건 사랑이 아니었습니다"
 db NewLine

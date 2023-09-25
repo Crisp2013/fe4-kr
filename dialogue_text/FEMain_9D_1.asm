@@ -109,7 +109,7 @@ db ScrollText
 
 dh unknown_0080
 db 0x4C, 0x14, 0x0C, 0x14
-.stringn "재상을 맡고 있는"
+.stringn "재상을 맡은"
 db NewLine
 dh unknown_0082
 db 0x02, 0x46, 0x02
@@ -121,7 +121,7 @@ db 0x0C
 db WaitForA
 db ScrollText
 
-.stringn "자신의 지위가 불안정해지는 데에"
+.stringn "자신의 지위가 불안해지는 데에"
 db NewLine
 .stringn "위기감을 느끼고,"
 db WaitForA
@@ -129,7 +129,7 @@ db ScrollText
 
 dh unknown_0080
 db 0x74, 0x34, 0x0C, 0x16
-.stringn "탐욕스럽기 짝이 없다 알려진"
+.stringn "탐욕스럽기 짝이 없기로 알려진"
 db NewLine
 dh unknown_0082
 db 0x04, 0x44, 0x02
@@ -205,7 +205,7 @@ dh unknown_0080
 db 0x72, 0x78, 0x00, 0x02
 dh PauseForTime
 db 0x3C
-.stringn "이드 사막의 우호도시 다나가"
+.stringn "이드 사막의 우호 도시 다나가"
 db NewLine
 .stringn "동방 야만족 이자크에게 침략당해"
 dh PauseForTime
@@ -324,7 +324,7 @@ dh PauseForTime
 db 0x0A
 db ScrollText
 
-.stringn "뒷일을 걱정할 필요는 없었다."
+.stringn "뒷일은 크게 우려하지 않았다."
 db NewLine
 dh PauseForTime
 db 0x0A
@@ -340,7 +340,7 @@ db EndText
 Dialogue_1d8504:
 .stringn "하지만 그 기대는"
 db NewLine
-.stringn "어이없게 배신당하고 만다."
+.stringn "어처구니없이 배신당하고 만다."
 db WaitForA
 db ScrollText
 
@@ -356,7 +356,7 @@ db 0x06, 0x20, 0x40
 db WaitForA
 db ScrollText
 
-.stringn "갑자기 국경을 돌파하여"
+.stringn "돌연 국경을 돌파하여"
 db NewLine
 .stringn "잉그비성을 포위한 것이었다."
 db WaitForA
@@ -372,9 +372,9 @@ db 0x02, 0x88, 0x18
 db WaitForA
 db ScrollText
 
-.stringn "아버지 바이런으로부터 나라를 지키라는"
+.stringn "부친인 바이런으로부터 나라의 방비를"
 db NewLine
-.stringn "명을 받아 몇몇 부하들과 함께 성에 남은"
+.stringn "명령받아 몇몇 부하와 함께 성에 남은"
 dh unknown_0084
 db 0x02
 db WaitForA
@@ -384,13 +384,13 @@ dh unknown_0082
 db 0x04, 0x01, 0x00
 dh unknown_0083
 db 0x04, 0xB4, 0x06
-.stringn "시알피 공국의 시구르드 공자는"
+.stringn "시알피 공국의 시구르드 공자는,"
 db NewLine
-.stringn "이 소식을 듣고 크게 놀랐다."
+.stringn "어릴 적부터 막역했던 사이인"
 db WaitForA
 db ScrollText
 
-.stringn "에딘 공녀와는 소꿉친구였기 때문이다."
+.stringn "에딘의 위기를 듣고 크게 놀란다."
 db NewLine
 db WaitForA
 db ScrollText
@@ -403,7 +403,7 @@ db ScrollText
 
 .stringn "시구르드 공자는"
 db NewLine
-.stringn "출진을 결의했다."
+.stringn "곧 출진을 결의했다."
 db WaitForA
 db ScrollText
 

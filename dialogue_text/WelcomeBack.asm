@@ -17,7 +17,7 @@ Dialogue_cf102:
 db Top_Slot
 .stringn "어, "
 dh SringBuffer2 //CharName or mother
-.stringn "、"
+.stringn ","
 db NewLine
 .stringn "계속 기다려 준 거야?"
 db NewLine
@@ -128,7 +128,7 @@ Dialogue_cf1cc:
 
 db Top_Slot
 dh SringBuffer2 //CharName or mother
-.stringn "・・・다녀왔어"
+.stringn "・・・ 다녀왔어"
 db NewLine
 .stringn "기다려 줬구나"
 db NewLine
@@ -202,7 +202,7 @@ db Top_Slot
 db NewLine
 .stringn "아아, 배고파!"
 db NewLine
-.stringn "엥?"
+.stringn "엥? "
 dh SringBuffer2 //CharName or mother
 .stringn " 씨"
 db WaitForA
@@ -287,7 +287,7 @@ db EndText
 Dialogue_cf30e:
 
 db Top_Slot
-.stringn "다녀왔어요오~"
+.stringn "다녀왔어요오～"
 db NewLine
 .stringn "어라? "
 dh SringBuffer2 //CharName or mother
@@ -483,7 +483,7 @@ db EndText
 Dialogue_cf49c:
 
 db Top_Slot
-.stringn "어라?"
+.stringn "어라? "
 dh SringBuffer2 //CharName or mother
 .stringn ", 왜 여기 있어?"
 db NewLine
@@ -548,14 +548,14 @@ db EndText
 Dialogue_cf510:
 
 db Top_Slot
-.stringn "다녀왔어요~ 어라?"
+.stringn "다녀왔어요～ 어라?"
 db NewLine
 dh InsBlockText_2D //22F70C00
 dh 0xF09B
 db 0x8C //bank
 .stringn ", 날 기다려 줬구나?"
 db NewLine
-.stringn "꺄아~ 완전 좋아!!"
+.stringn "꺄아～ 완전 좋아!!"
 db NewLine
 db EndText
 
@@ -699,7 +699,7 @@ db EndText
 Dialogue_cf671:
 
 db Top_Slot
-.stringn "여어, "
+.stringn "오,  "
 dh SringBuffer2 //CharName or mother
 .stringn " 아니야"
 db NewLine
@@ -813,7 +813,7 @@ db EndText
 Dialogue_cf750:
 
 db Top_Slot
-.stringn "다녀왔어요~ 어라?"
+.stringn "다녀왔어요～ 어라?"
 db NewLine
 dh InsBlockText_2D //62F90C00
 dh 0xF09B
@@ -822,7 +822,7 @@ db 0x8C //bank
 db NewLine
 .stringn "날 기다려 줬구나?"
 db NewLine
-.stringn "꺄아~ 완전 좋아!!"
+.stringn "꺄아～ 완전 좋아!!"
 db EndText
 
 //end 0xcf786
@@ -872,7 +872,7 @@ db NewLine
 dh InsBlockText_2D //E6F90C00
 dh 0xF09B
 db 0x8C //bank
-.stringn ", 왠일이야?"
+.stringn ", 웬일이야?"
 db NewLine
 .stringn "당신이 마중을 다 나오고!"
 db EndText
@@ -1238,7 +1238,7 @@ Dialogue_cfabc:
 db Bottom_Slot
 .stringn "응, 물론이지!"
 db NewLine
-.stringn "어서 와, 여보~!"
+.stringn "어서 와, 여보～!"
 db NewLine
 db WaitForA
 db EndText
@@ -1278,7 +1278,7 @@ db EndText
 Dialogue_cfb18:
 
 db Bottom_Slot
-.stringn "맞아,"
+.stringn "그래, "
 dh SringBuffer1 //Lover or father
 db NewLine
 .stringn "네가 걱정돼서・・・"
@@ -1345,7 +1345,7 @@ db EndText
 Dialogue_cfb96:
 
 db Bottom_Slot
-.stringn "물론이지,"
+.stringn "물론이지, "
 dh SringBuffer1 //Lover or father
 db NewLine
 .stringn "너는 내 전부인걸・・・"
@@ -1360,7 +1360,7 @@ db EndText
 Dialogue_cfbb5:
 
 db Bottom_Slot
-.stringn "응, 어서 와"
+.stringn "응, 어서 와 "
 dh SringBuffer1 //Lover or father
 db NewLine
 .stringn "다행이야, 무사해서・・・"
@@ -1653,7 +1653,7 @@ db EndText
 Dialogue_cfe40:
 
 db Bottom_Slot
-.stringn "응, 어서 와"
+.stringn "응, 어서 와 "
 dh SringBuffer1 //Lover or father
 db NewLine
 .stringn "다행이야, 무사해서・・・"

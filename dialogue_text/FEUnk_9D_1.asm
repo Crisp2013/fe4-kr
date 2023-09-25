@@ -46,7 +46,7 @@ db ScrollText
 db NewLine
 .stringn "너는 쓰러져간 사람들의 마음을"
 db NewLine
-.stringn "이어가야만 한다"
+.stringn "미래로 이어가야만 한다"
 dh PauseForTime
 db 0x60
 db ScrollText
@@ -92,7 +92,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0280//Lewyn
-.stringn "세리스, 잘 했다"
+.stringn "세리스, 잘했다"
 db NewLine
 .stringn "시련을 딛고 마침내 여기까지 왔구나"
 db NewLine
@@ -113,7 +113,7 @@ dh PauseForTime
 db 0x20
 .stringn "황폐해진 나라들을 바로잡기 위해선"
 db NewLine
-.stringn "모든 사람들이 힘을 모아"
+.stringn "모든 사람이 힘을 모아"
 db NewLine
 .stringn "어려움을 나눠야 한다"
 dh PauseForTime
@@ -128,7 +128,7 @@ dh PauseForTime
 db 0x60
 db ScrollText
 
-.stringn "국민들과 함께 노력하여"
+.stringn "국민과 함께 노력하여"
 db NewLine
 .stringn "누구나 행복하게 살 수 있는"
 db NewLine
@@ -154,7 +154,7 @@ db 0x60
 dh ScrollText_DBC
 .stringn "네겐 그란벨 왕으로서"
 db NewLine
-.stringn "이 세상을 인도해 나아갈"
+.stringn "이 세상을 이끌어 나갈"
 db NewLine
 .stringn "책임이 있어"
 dh PauseForTime
@@ -228,7 +228,7 @@ db ScrollText
 db NewLine
 .stringn "너는 쓰러져간 사람들의 마음을"
 db NewLine
-.stringn "이어가야만 한다"
+.stringn "미래로 이어가야만 한다"
 dh PauseForTime
 db 0x60
 db ScrollText
@@ -549,7 +549,7 @@ dh PauseForTime
 db 0x60
 db ScrollText
 
-.stringn "당신은 줄곧 곁에서 나를 지켜 주었어"
+.stringn "늘 곁에서 나를 지켜 줬으니까"
 db NewLine
 .stringn "어떻게 감사를 표해야 할지・・・"
 db NewLine
@@ -666,7 +666,7 @@ dh PauseForTime
 db 0x20
 .stringn "훗, 됐다"
 db NewLine
-.stringn "네겐 거짓말도 못하겠구나"
+.stringn "네겐 거짓말도 못 하겠구나"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -695,9 +695,9 @@ db EndText
 Dialogue_1dd400:
 
 db Top_Slot
-.stringn "샤난, 나는 당신을 형으로 생각해"
+.stringn "샤난, 난 당신을 형처럼 생각하고 있어"
 db NewLine
-.stringn "부디 언제까지나 잊지 말아 줘"
+.stringn "언제까지나 잊지 말아 줘"
 db NewLine
 
 db Bottom_Slot
@@ -849,7 +849,7 @@ db 0x60
 
 db Top_Slot
 dh ScrollText_DBC
-.stringn "응,"
+.stringn "응, "
 dh SringBuffer2 //CharName or mother
 .stringn "만 좋다면・・・"
 db NewLine
@@ -1293,7 +1293,7 @@ dh 0x0019//Seliph
 db Bottom_Slot
 dh DialogOpen
 dh unknown_002F
-.stringn "세리스 님, 저도 오빠와 돌아가겠습니다"
+.stringn "세리스 님, 저도 같이 돌아갈게요"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -1694,9 +1694,9 @@ dh ScrollText_DBC
 dh SringBuffer1 //Lover or father
 .stringn "의 죽음은 내 책임이야・・・"
 db NewLine
-.stringn "하지만 분명 너를 지켜보고 있겠지"
+.stringn "하지만 분명 너를 지켜보고"
 db NewLine
-.stringn "부디 기운냈으면 좋겠어"
+.stringn "있을 테니까, 기운을 내"
 
 db Bottom_Slot// Muirne
 dh PauseForTime
@@ -2179,7 +2179,7 @@ db ScrollText
 
 .stringn "전화로 황폐해진 트라키아 반도의"
 db NewLine
-.stringn "나라들을 내버려둘 순 없으니까요"
+.stringn "나라들을 내버려 둘 순 없으니까요"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -2712,7 +2712,7 @@ dh PauseForTime
 db 0x20
 .stringn "네, 아빠는 제 자랑이니까요"
 db NewLine
-.stringn "설령 피가 이어져있지 않아도"
+.stringn "설령 피가 이어져 있지 않더라도"
 db NewLine
 .stringn "전 한니발의 아들이에요"
 dh PauseForTime
@@ -3036,7 +3036,7 @@ dh PauseForTime
 db 0x20
 .stringn "응・・・ 힘낼게요・・・"
 db NewLine
-.stringn "그래도 소원 하나만 들어 주세요"
+.stringn "그래도 소원 하나만 들어주세요"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -3385,7 +3385,7 @@ dh PauseForTime
 db 0x20
 .stringn "훗, 됐다"
 db NewLine
-.stringn "네겐 거짓말도 못하겠구나"
+.stringn "네겐 거짓말도 못 하겠구나"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -3464,7 +3464,7 @@ dh PauseForTime
 db 0x20
 .stringn "훗, 됐다"
 db NewLine
-.stringn "네겐 거짓말도 못하겠구나"
+.stringn "네겐 거짓말도 못 하겠구나"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -3536,7 +3536,7 @@ db 0x60
 
 db Top_Slot
 dh ScrollText_DBC
-.stringn "응,"
+.stringn "응, "
 dh SringBuffer2 //CharName or mother
 .stringn "만 좋다면・・・"
 db NewLine
@@ -3593,7 +3593,7 @@ db 0x60
 
 db Top_Slot
 dh ScrollText_DBC
-.stringn "응,"
+.stringn "응, "
 dh SringBuffer2 //CharName or mother
 .stringn "만 좋다면・・・"
 db NewLine
@@ -3652,7 +3652,7 @@ db 0x60
 
 db Top_Slot
 dh ScrollText_DBC
-.stringn "응,"
+.stringn "응, "
 dh SringBuffer2 //CharName or mother
 .stringn "만 좋다면・・・"
 db NewLine
@@ -3778,7 +3778,7 @@ db Bottom_Slot
 dh PauseForTime
 db 0x20
 dh SringBuffer1 //Lover or father
-.stringn " , 나와 함께 가 줄래?"
+.stringn ", 나와 함께 가 줄래?"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -3839,7 +3839,7 @@ db 0x60
 
 db Top_Slot
 dh ScrollText_DBC
-.stringn "혹시,"
+.stringn "혹시, "
 dh SringBuffer5 //Brother Name
 .stringn " 대용으로?"
 db NewLine
@@ -3904,7 +3904,7 @@ db 0x60
 
 db Top_Slot
 dh ScrollText_DBC
-.stringn "혹시,"
+.stringn "혹시, "
 dh SringBuffer5 //Brother Name
 .stringn " 대용으로?"
 db NewLine
@@ -3970,7 +3970,7 @@ db 0x60
 
 db Top_Slot
 dh ScrollText_DBC
-.stringn "혹시,"
+.stringn "혹시, "
 dh SringBuffer5 //Brother Name
 .stringn " 대용으로?"
 db NewLine

@@ -54,7 +54,7 @@ db EndText
 // 0xad321
 Dialogue_ad121:
 db ClearText
-.stringn "もちものがいっぱいだぜ"
+.stringn "소지품이 가득하군"
 db NewLine
 db WaitForA
 db EndText
@@ -71,7 +71,7 @@ db NewLine
 db NewLine
 db WaitForA
 db ClearText
-.stringn "따로 용무가 있나?"
+.stringn "다른 용무는?"
 db NewLine
 db EndText
 
@@ -81,9 +81,9 @@ db EndText
 // 0xad354
 Dialogue_ad154:
 db ClearText
-.stringn "自分の持ち物なんかみてねぇで"
+.stringn "남의 가게에서 구경할 거면"
 db NewLine
-.stringn "店の商品をみてくれよ"
+.stringn "자기 소지품 정돈 확인하라고"
 db NewLine
 db EndText
 
@@ -93,7 +93,7 @@ db EndText
 // 0xad37b
 Dialogue_ad17b:
 db ClearText
-.stringn "ほかに用はあるかい？"
+.stringn "다른 용무는?"
 db NewLine
 db EndText
 
@@ -103,7 +103,7 @@ db EndText
 // 0xad38b
 Dialogue_ad18b:
 db ClearText
-.stringn "ありがとよ"
+.stringn "고맙다"
 db NewLine
 db WaitForA
 db EndText
@@ -136,7 +136,7 @@ db EndText
 // 0xad3d2
 Dialogue_ad1d2:
 db ClearText
-.stringn "どれがほしいんだい？"
+.stringn "어떤 것이 필요하지?"
 db NewLine
 db EndText
 
@@ -146,7 +146,7 @@ db EndText
 // 0xad3e0
 Dialogue_ad1e0:
 db ClearText
-.stringn "その品物でいいのかい？"
+.stringn "그 물건으로 하겠어?"
 db NewLine
 db EndText
 
@@ -156,7 +156,7 @@ db EndText
 // 0xad3f2
 Dialogue_ad1f2:
 db ClearText
-.stringn "ほかにもほしいものはあるかい？"
+.stringn "달리 원하는 게 있나?"
 db NewLine
 db EndText
 
@@ -166,7 +166,7 @@ db EndText
 // 0xad405
 Dialogue_ad205:
 db ClearText
-.stringn "どのもちものを売るんだ？"
+.stringn "어떤 물건을 팔 거지?"
 db NewLine
 db EndText
 
@@ -176,7 +176,7 @@ db EndText
 // 0xad417
 Dialogue_ad217:
 db ClearText
-.stringn "それでいいのかい？"
+.stringn "그거면 되나?"
 db NewLine
 db EndText
 
@@ -186,7 +186,7 @@ db EndText
 // 0xad424
 Dialogue_ad224:
 db ClearText
-.stringn "ほかにも売るのか？"
+.stringn "달리 팔고 싶은 게 있나?"
 db NewLine
 db EndText
 
@@ -196,13 +196,13 @@ db EndText
 // 0xad433
 Dialogue_ad233:
 db ClearText
-.stringn "すまねぇな"
+.stringn "미안하군"
 db NewLine
-.stringn "ぜんぶ売りきれだ"
+.stringn "다 팔렸어"
 db NewLine
 db WaitForA
 db ClearText
-.stringn "ほかにも用があるのか？"
+.stringn "다른 용무는?"
 db NewLine
 db EndText
 
@@ -212,11 +212,11 @@ db EndText
 // 0xad457
 Dialogue_ad257:
 db ClearText
-.stringn "ちぇ、なにももってねぇじゃないか"
+.stringn "쳇, 아무것도 없잖아"
 db NewLine
 db WaitForA
 db ClearText
-.stringn "ほかにも用があるのか？"
+.stringn "다른 용무는?"
 db NewLine
 db EndText
 
@@ -226,7 +226,7 @@ db EndText
 // 0xad47b
 Dialogue_ad27b:
 db ClearText
-.stringn "お金がたりねえぜ"
+.stringn "돈이 부족한걸"
 db NewLine
 db WaitForA
 db EndText
@@ -237,9 +237,9 @@ db EndText
 // 0xad48a
 Dialogue_ad28a:
 db ClearText
-.stringn "おいおい"
+.stringn "이봐,"
 db NewLine
-.stringn "もちものがいっぱいだぜ"
+.stringn "소지품이 가득하잖아"
 db NewLine
 db WaitForA
 db EndText
@@ -250,9 +250,9 @@ db EndText
 // 0xad49f
 Dialogue_ad29f:
 db ClearText
-.stringn "わるいがその品物は"
+.stringn "미안하지만 그런 물건은"
 db NewLine
-.stringn "あつかえねぇな"
+.stringn "취급 못 해"
 db NewLine
 db WaitForA
 db EndText
@@ -263,7 +263,7 @@ db EndText
 // 0xad4b8
 Dialogue_ad2b8:
 db ClearText
-.stringn "ほかに用があるのか？"
+.stringn "다른 용무는?"
 db NewLine
 db EndText
 
@@ -273,9 +273,9 @@ db EndText
 // 0xad4c8
 Dialogue_ad2c8:
 db ClearText
-.stringn "ありがとよ"
+.stringn "고맙군,"
 db NewLine
-.stringn "またきてくれ"
+.stringn "또 오라고"
 db NewLine
 db WaitForA
 db EndText
@@ -285,9 +285,9 @@ db EndText
 //offset 0xad2d9
 // 0xad4d9
 Dialogue_ad2d9:
-.stringn "よお、ここは修理屋だ"
+.stringn "여어, 여긴 수리점이다"
 db NewLine
-.stringn "どれを修理するんだい？"
+.stringn "어떤 걸 수리할 거지?"
 db NewLine
 db EndText
 
@@ -297,7 +297,7 @@ db EndText
 // 0xad4f8
 Dialogue_ad2f8:
 db ClearText
-.stringn "なにを修理するんだい？"
+.stringn "뭘 수리할 거지?"
 db NewLine
 db EndText
 
@@ -307,7 +307,7 @@ db EndText
 // 0xad50a
 Dialogue_ad30a:
 db ClearText
-.stringn "どれを修理するんだい？"
+.stringn "어떤 걸 수리할 거지?"
 db NewLine
 db EndText
 
@@ -317,7 +317,7 @@ db EndText
 // 0xad51c
 Dialogue_ad31c:
 db ClearText
-.stringn "それを修理するのかい？"
+.stringn "그걸 수리할 건가?"
 db NewLine
 db EndText
 
@@ -327,9 +327,9 @@ db EndText
 // 0xad52e
 Dialogue_ad32e:
 db ClearText
-.stringn "それを修理するのかい？"
+.stringn "그걸 수리할 건가?"
 db NewLine
-.stringn "いい品だな、大事にしろよ"
+.stringn "좋은 물건이군, 조심히 다루라고"
 db NewLine
 db EndText
 
@@ -339,7 +339,7 @@ db EndText
 // 0xad551
 Dialogue_ad351:
 db ClearText
-.stringn "ほかにも修理するかい？"
+.stringn "달리 수리하고 싶은 게 있나?"
 db NewLine
 db EndText
 
@@ -349,7 +349,7 @@ db EndText
 // 0xad563
 Dialogue_ad363:
 db ClearText
-.stringn "お金がたりないぜ？"
+.stringn "돈이 부족한데?"
 db NewLine
 db WaitForA
 db EndText
@@ -360,9 +360,9 @@ db EndText
 // 0xad573
 Dialogue_ad373:
 db ClearText
-.stringn "わるいがそのアイテムは"
+.stringn "미안하지만 그 아이템은"
 db NewLine
-.stringn "うちではあつかえないよ"
+.stringn "여기서 접수 못 해줘"
 db NewLine
 db WaitForA
 db EndText
@@ -373,7 +373,7 @@ db EndText
 // 0xad58f
 Dialogue_ad38f:
 db ClearText
-.stringn "ほかに用はあるかい？"
+.stringn "다른 용무는?"
 db NewLine
 db EndText
 
@@ -383,7 +383,7 @@ db EndText
 // 0xad59f
 Dialogue_ad39f:
 db ClearText
-.stringn "じゃ、またな"
+.stringn "그럼, 또 보자고"
 db NewLine
 db WaitForA
 db EndText
@@ -394,13 +394,13 @@ db EndText
 // 0xad5aa
 Dialogue_ad3aa:
 db ClearText
-.stringn "よお、ここは修理屋だ"
+.stringn "여어, 여긴 수리점이다"
 db NewLine
 db WaitForA
 db ClearText
-.stringn "なにも持ってないのか？"
+.stringn "아무것도 없잖아?"
 db NewLine
-.stringn "じゃ、またな"
+.stringn "나중에 다시 오라고"
 db NewLine
 db WaitForA
 db EndText
@@ -410,9 +410,9 @@ db EndText
 //offset 0xad3d3
 // 0xad5d3
 Dialogue_ad3d3:
-.stringn "ここは預かり所よ"
+.stringn "여긴 보관소야"
 db NewLine
-.stringn "ご用は何かしら？"
+.stringn "무슨 볼일이니?"
 db NewLine
 db EndText
 
@@ -422,7 +422,7 @@ db EndText
 // 0xad5ef
 Dialogue_ad3ef:
 db ClearText
-.stringn "どれを預かってほしいの？"
+.stringn "어떤 걸 맡아줄까?"
 db NewLine
 db EndText
 
@@ -432,7 +432,7 @@ db EndText
 // 0xad601
 Dialogue_ad401:
 db ClearText
-.stringn "それでいい？"
+.stringn "그거면 되니?"
 db NewLine
 db EndText
 
@@ -442,7 +442,7 @@ db EndText
 // 0xad60b
 Dialogue_ad40b:
 db ClearText
-.stringn "ほかにもあずける？"
+.stringn "다른 것도 맡아줄까?"
 db NewLine
 db EndText
 
@@ -452,13 +452,13 @@ db EndText
 // 0xad618
 Dialogue_ad418:
 db ClearText
-.stringn "あなたは何も"
+.stringn "넌 소지품이"
 db NewLine
-.stringn "もってないじゃない"
+.stringn "하나도 없구나"
 db NewLine
 db WaitForA
 db ClearText
-.stringn "ほかに用はあるかしら？"
+.stringn "따로 볼일이 있니?"
 db NewLine
 db EndText
 
@@ -468,7 +468,7 @@ db EndText
 // 0xad63e
 Dialogue_ad43e:
 db ClearText
-.stringn "そんなにもてないでしょ"
+.stringn "더는 맡아줄 수 없어"
 db NewLine
 db WaitForA
 db EndText
@@ -479,7 +479,7 @@ db EndText
 // 0xad64e
 Dialogue_ad44e:
 db ClearText
-.stringn "どれをひき取るの？"
+.stringn "어떤 걸 가져갈래?"
 db NewLine
 db EndText
 
@@ -489,7 +489,7 @@ db EndText
 // 0xad65d
 Dialogue_ad45d:
 db ClearText
-.stringn "ほかにもひき出しますか？"
+.stringn "다른 것도 가져갈 거니?"
 db NewLine
 db EndText
 
@@ -499,11 +499,11 @@ db EndText
 // 0xad66f
 Dialogue_ad46f:
 db ClearText
-.stringn "なにもあずかってないわよ"
+.stringn "가져갈 게 없는걸"
 db NewLine
 db WaitForA
 db ClearText
-.stringn "ほかに用はあるかしら？"
+.stringn "따로 볼일이 있니?"
 db NewLine
 db EndText
 
@@ -513,7 +513,7 @@ db EndText
 // 0xad68f
 Dialogue_ad48f:
 db ClearText
-.stringn "ほかに用はあるかしら？"
+.stringn "따로 볼일이 있니?"
 db NewLine
 db EndText
 
@@ -523,9 +523,9 @@ db EndText
 // 0xad6a0
 Dialogue_ad4a0:
 db ClearText
-.stringn "じゃあまたね"
+.stringn "그럼 또 봐"
 db NewLine
-.stringn "ばいばい"
+.stringn "바이바이"
 db NewLine
 db WaitForA
 db EndText
@@ -535,7 +535,7 @@ db EndText
 //offset 0xad4b0
 // 0xad6b0
 Dialogue_ad4b0:
-.stringn "ここは閾技場だ"
+.stringn "여긴 투기장이다"
 db NewLine
 db EndText
 
@@ -545,11 +545,11 @@ db EndText
 // 0xad6bc
 Dialogue_ad4bc:
 db ClearText
-.stringn "閾技レベル"
+.stringn "투기 레벨 "
 dh IntBuffer1 //FightLv or Gold or Wins
-.stringn "からの相手だ"
+.stringn "에 맞는 상대다"
 db NewLine
-.stringn "がんばりな"
+.stringn "힘내라고"
 db NewLine
 db EndText
 
@@ -559,7 +559,7 @@ db EndText
 // 0xad6d7
 Dialogue_ad4d7:
 db ClearText
-.stringn "まず武器を装備しな"
+.stringn "먼저 무기를 장비해라"
 db NewLine
 db EndText
 
@@ -569,11 +569,11 @@ db EndText
 // 0xad6e9
 Dialogue_ad4e9:
 db ClearText
-.stringn "おい、武器がないと戦えないぞ"
+.stringn "이봐, 무기가 없으면 싸울 수 없어"
 db NewLine
 db WaitForA
 db ClearText
-.stringn "どうする？"
+.stringn "어쩔 거야?"
 db NewLine
 db EndText
 
@@ -583,15 +583,15 @@ db EndText
 // 0xad707
 Dialogue_ad507:
 db ClearText
-.stringn "この店では武器を持ってないやつは"
+.stringn "여기선 무기가 없는 녀석은"
 db NewLine
-.stringn "やとえないんだ"
+.stringn "받아줄 수 없어"
 db NewLine
-.stringn "ちょっとわけありでね"
+.stringn "우리도 사정이 있거든"
 db NewLine
 db WaitForA
 db ClearText
-.stringn "どうする？"
+.stringn "어쩔 거야?"
 db NewLine
 db EndText
 
@@ -601,9 +601,9 @@ db EndText
 // 0xad73c
 Dialogue_ad53c:
 db ClearText
-.stringn "もうあんたにゃ"
+.stringn "더이상 네겐"
 db NewLine
-.stringn "相手はいないよ"
+.stringn "상대가 없어"
 db NewLine
 db WaitForA
 db EndText
@@ -614,11 +614,11 @@ db EndText
 // 0xad753
 Dialogue_ad553:
 db ClearText
-.stringn "なんだ"
+.stringn "뭐야,"
 db NewLine
-.stringn "負けちまったのか"
+.stringn "져버린 거냐?"
 db NewLine
-.stringn "ケガをなおしてまた来いよ"
+.stringn "상처를 치료하고 다시 와라"
 db WaitForA
 db EndText
 
@@ -628,17 +628,17 @@ db EndText
 // 0xad774
 Dialogue_ad574:
 db ClearText
-.stringn "やるじゃねえか"
+.stringn "제법 하는데"
 db NewLine
-.stringn "ほらよ賞金の"
+.stringn "자, 상금인 "
 dh IntBuffer1 //FightLv or Gold or Wins
-.stringn "ゴールドだ"
+.stringn "골드다"
 db NewLine
 db WaitForA
 db ClearText
-.stringn "つぎの相手とも"
+.stringn "다음 상대도"
 db NewLine
-.stringn "戦うかい？"
+.stringn "받을 거냐?"
 db NewLine
 db EndText
 
@@ -648,7 +648,7 @@ db EndText
 // 0xad7a5
 Dialogue_ad5a5:
 db ClearText
-.stringn "どうした、降参するか？"
+.stringn "뭐야, 항복하려고?"
 db NewLine
 db EndText
 
@@ -658,9 +658,9 @@ db EndText
 // 0xad7b7
 Dialogue_ad5b7:
 db ClearText
-.stringn "やめるのか"
+.stringn "포기한 거냐"
 db NewLine
-.stringn "あばよ"
+.stringn "잘 가라"
 db NewLine
 db WaitForA
 db EndText
@@ -671,13 +671,13 @@ db EndText
 // 0xad7c5
 Dialogue_ad5c5:
 db ClearText
-.stringn "すげえやつだな"
+.stringn "대단한 녀석이군"
 db NewLine
-.stringn "もうあんたにゃ相手はいないよ"
+.stringn "더 이상 네겐 상대가 없어"
 db NewLine
-.stringn "賞金の"
+.stringn "상금인 "
 dh IntBuffer1 //FightLv or Gold or Wins
-.stringn "ゴールドだ"
+.stringn "골드다"
 db WaitForA
 db EndText
 
@@ -687,7 +687,7 @@ db EndText
 // 0xad7f0
 Dialogue_ad5f0:
 db ClearText
-.stringn "またこいよ"
+.stringn "또 오라고"
 db NewLine
 db EndText
 
@@ -697,9 +697,9 @@ db EndText
 // 0xad7f9
 Dialogue_ad5f9:
 db ClearText
-.stringn "あばよ"
+.stringn "잘 가라"
 db NewLine
-.stringn "いきていたらまたこいよ"
+.stringn "살아 있으면 또 보자고"
 db NewLine
 db WaitForA
 db EndText
@@ -710,7 +710,7 @@ db EndText
 // 0xad80d
 Dialogue_ad60d:
 db ClearText
-.stringn "どうする？"
+.stringn "어쩔 거야?"
 db NewLine
 db EndText
 
@@ -720,14 +720,14 @@ db EndText
 // 0xad816
 Dialogue_ad616:
 db ClearText
-.stringn "よくきたのぉ"
+.stringn "잘 왔네"
 db NewLine
-.stringn "そなたの知りたいことを"
+.stringn "그대가 알고 싶은 것들을"
 db NewLine
-.stringn "占ってしんぜよう"
+.stringn "점쳐 주도록 하지"
 db WaitForA
 db ClearText
-.stringn "なにが知りたいのじゃ？"
+.stringn "무엇이 알고 싶은가?"
 db NewLine
 db EndText
 
@@ -737,7 +737,7 @@ db EndText
 // 0xad848
 Dialogue_ad648:
 db ClearText
-.stringn "他にも何か、知りたいのか？"
+.stringn "달리 알고 싶은 게 있나?"
 db NewLine
 db EndText
 
@@ -747,11 +747,11 @@ db EndText
 // 0xad85e
 Dialogue_ad65e:
 db ClearText
-.stringn "そなたは"
+.stringn "그대는"
 dh SringBuffer1 //Lover or father
-.stringn "が"
+.stringn " 공에게"
 db NewLine
-.stringn "気になっておるようじゃ"
+.stringn "관심이 있는 듯하군"
 db NewLine
 db WaitForA
 db EndText
@@ -762,11 +762,11 @@ db EndText
 // 0xad878
 Dialogue_ad678:
 db ClearText
-.stringn "そなたは"
+.stringn "그대는"
 dh SringBuffer1 //Lover or father
-.stringn "が"
+.stringn " 공을"
 db NewLine
-.stringn "好きなようじゃ"
+.stringn "좋아하는 듯하군"
 db NewLine
 db WaitForA
 db EndText
@@ -777,11 +777,11 @@ db EndText
 // 0xad88e
 Dialogue_ad68e:
 db ClearText
-.stringn "そなたは"
+.stringn "그대는"
 dh SringBuffer1 //Lover or father
-.stringn "を"
+.stringn " 공을"
 db NewLine
-.stringn "愛してしまったようじゃ"
+.stringn "사랑하는 듯하군"
 db NewLine
 db WaitForA
 db EndText
@@ -792,11 +792,11 @@ db EndText
 // 0xad8a8
 Dialogue_ad6a8:
 db ClearText
-.stringn "そなたは"
+.stringn "그대는"
 dh SringBuffer1 //Lover or father
-.stringn "と"
+.stringn " 공과"
 db NewLine
-.stringn "結ばれておるぞ"
+.stringn "맺어진 듯하군"
 db NewLine
 db WaitForA
 db EndText
@@ -807,9 +807,9 @@ db EndText
 // 0xad8be
 Dialogue_ad6be:
 db ClearText
-.stringn "そなたはまだ誰にも"
+.stringn "그대는 아직 누구에게도"
 db NewLine
-.stringn "開心がないようじゃな"
+.stringn "관심이 없는 듯하군"
 db WaitForA
 db EndText
 
@@ -819,7 +819,7 @@ db EndText
 // 0xad8da
 Dialogue_ad6da:
 db ClearText
-.stringn "また、きなされよ"
+.stringn "또 오게나"
 db NewLine
 db WaitForA
 db EndText
@@ -830,12 +830,12 @@ db EndText
 // 0xad8e7
 Dialogue_ad6e7:
 db ClearText
-.stringn "現在までの⑫そなたの戦績は"
+.stringn "지금까지 그대의 전적은"
 db NewLine
 dh IntBuffer1 //FightLv or Gold or Wins
-.stringn "勝⑫"
+.stringn "승"
 dh IntBuffer2 //Loses
-.stringn "敗⑫じゃ"
+.stringn "패라네"
 db NewLine
 db WaitForA
 db EndText
@@ -846,12 +846,12 @@ db EndText
 // 0xad90d
 Dialogue_ad70d:
 db ClearText
-.stringn "そなたの父親は"
+.stringn "그대의 부친은 "
 dh SringBuffer1 //Lover or father
 db NewLine
-.stringn "母親は"
+.stringn "모친은 "
 dh SringBuffer2 //CharName or mother
-.stringn "じゃな"
+.stringn "인가 보군"
 db WaitForA
 db EndText
 
@@ -868,16 +868,16 @@ db EndText
 // 0xad928
 Dialogue_ad728:
 db ClearText
-.stringn "がんばりましたね"
+.stringn "고생하셨습니다"
 db NewLine
-.stringn "あなたは"
+.stringn "당신은 "
 dh SringBuffer4 //Class Change Name
-.stringn "に"
+.stringn " 클래스로"
 db NewLine
-.stringn "クラスチェンジできます"
+.stringn "전직하실 수 있습니다"
 db WaitForA
 db ClearText
-.stringn "クラスチェンジしますか？"
+.stringn "전직하시겠습니까?"
 db NewLine
 db EndText
 
@@ -887,11 +887,11 @@ db EndText
 // 0xad956
 Dialogue_ad756:
 db ClearText
-.stringn "クラスチェンジはレベル２０に"
+.stringn "전직하려면"
 db NewLine
-.stringn "ならないとできません"
+.stringn "레벨이 20은 되셔야 합니다"
 db NewLine
-.stringn "もっと経験をつんで下さいね"
+.stringn "좀 더 경험을 쌓아 주세요"
 db WaitForA
 db EndText
 
@@ -901,11 +901,11 @@ db EndText
 // 0xad985
 Dialogue_ad785:
 db ClearText
-.stringn "あなたはクラスチェンジ"
+.stringn "당신은"
 db NewLine
-.stringn "できません"
+.stringn "전직할 수 없습니다"
 db NewLine
-.stringn "あきらめてください"
+.stringn "포기하세요"
 db WaitForA
 db EndText
 
@@ -915,16 +915,16 @@ db EndText
 // 0xad9a4
 Dialogue_ad7a4:
 db ClearText
-.stringn "がんばったな"
+.stringn "고생했군"
 db NewLine
-.stringn "おまえは"
+.stringn "너는 "
 dh SringBuffer4 //Class Change Name
-.stringn "に"
+.stringn " 클래스로"
 db NewLine
-.stringn "クラスチェンジできるぞ"
+.stringn "전직할 수 있다"
 db WaitForA
 db ClearText
-.stringn "クラスチェンジするのか？"
+.stringn "전직할 테냐?"
 db NewLine
 db EndText
 
@@ -934,11 +934,11 @@ db EndText
 // 0xad9d0
 Dialogue_ad7d0:
 db ClearText
-.stringn "クラスチェンジはレベル２０に"
+.stringn "전직하고 싶으면"
 db NewLine
-.stringn "ならないとできないぞ"
+.stringn "레벨이 20은 되어야 한다"
 db NewLine
-.stringn "もっと経験をつむことだな"
+.stringn "좀 더 경험을 쌓아 와라"
 db WaitForA
 db EndText
 
@@ -948,11 +948,11 @@ db EndText
 // 0xad9fc
 Dialogue_ad7fc:
 db ClearText
-.stringn "おまえはクラスチェンジ"
+.stringn "너는"
 db NewLine
-.stringn "できないんだ"
+.stringn "전직할 수 없다"
 db NewLine
-.stringn "あきらめてくれ"
+.stringn "포기해 다오"
 db WaitForA
 db EndText
 

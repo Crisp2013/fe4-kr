@@ -1,4 +1,4 @@
-
+//Script:Units conversation Ch7
 
 //offset 0xdf32d
 // 0xdf52d
@@ -15,7 +15,7 @@ dh LoadPortrait
 dh 0x0019//Seliph
 
 db Top_Slot// Leif
-.stringn "세리스 님, 만나뵙게 되어 영광입니다"
+.stringn "세리스 님, 만나 뵙게 되어 영광입니다"
 db NewLine
 .stringn "저는 렌스터 왕 큐안의 아들입니다"
 db NewLine

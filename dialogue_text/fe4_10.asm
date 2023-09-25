@@ -1,4 +1,4 @@
-
+//Script:Chapter 10
 //offset 0x33ad0a
 // 0x33af0a
 Dialogue_33ad0a:
@@ -68,9 +68,9 @@ db WaitForA
 
 db Top_Slot// Julius
 dh ScrollText_DBC
-.stringn "채워지는대로 발할라로 보내"
+.stringn "채워지는 대로 발할라로 보내"
 db NewLine
-.stringn "아이들은 내가 교육시킬 테니까"
+.stringn "아이들은 내가 교육할 테니까"
 db NewLine
 db WaitForA
 db ScrollText
@@ -198,7 +198,7 @@ db ScrollText
 db NewLine
 .stringn "세리스는 제 아비와 마찬가지로"
 db NewLine
-.stringn "우리 프리지가의 증오스런 원수지"
+.stringn "우리 프리지의 증오스러운 원수지"
 db WaitForA
 db ScrollText
 
@@ -566,7 +566,7 @@ db NewLine
 db Bottom_Slot// Julia
 dh PauseForTime
 db 0x10
-.stringn "아아・・・ 도와 주세요・・・ 세리스 님・・・"
+.stringn "아아, 도와 주세요・・・ 세리스 님・・・"
 db NewLine
 db WaitForA
 dh BGMFade
@@ -627,7 +627,7 @@ db Top_Slot// Lewyn
 dh ScrollText_DBC
 .stringn "그래, 지금 상황에선"
 db NewLine
-.stringn "적에게 붙잡혔다고밖에"
+.stringn "적에게 붙잡혔다고 밖에"
 db NewLine
 .stringn "생각할 수 없겠지"
 db WaitForA
@@ -671,7 +671,7 @@ db NewLine
 db Bottom_Slot// Lewyn
 dh PauseForTime
 db 0x10
-.stringn "이미 밀레토스로 옮겨졌나보군"
+.stringn "이미 밀레토스로 옮겨졌나 보군"
 db NewLine
 .stringn "밀레토스 해방을 서둘러야겠다"
 db NewLine
@@ -890,7 +890,7 @@ db NewLine
 db Bottom_Slot// Julius
 dh PauseForTime
 db 0x10
-.stringn "아직도 주제파악을 못하시는군요"
+.stringn "아직도 주제 파악을 못 하시는군요"
 db NewLine
 .stringn "・・・나이도 제법 차셨는데"
 db NewLine
@@ -899,7 +899,7 @@ db WaitForA
 dh ScrollText_DBC
 .stringn "아니면 또 저를 추방하려는"
 db NewLine
-.stringn "생각이라도 하고 계신지요?"
+.stringn "생각이라도 하고 계시는지요?"
 db NewLine
 db WaitForA
 db ScrollText
@@ -995,7 +995,7 @@ db NewLine
 .stringn "그 여자는 얌전히 운명에 따랐다"
 db WaitForA
 dh ScrollText_DBC
-.stringn "하지만 마지막 힘을 쥐어짜내"
+.stringn "하지만 마지막 힘을 쥐어짜 내"
 db NewLine
 .stringn "제 딸만은 탈출시키고 말았지"
 db NewLine
@@ -1004,7 +1004,7 @@ db ScrollText
 
 .stringn "율리아는 디아도라에게서"
 db NewLine
-.stringn "나가의 힘을 계승받았다"
+.stringn "나가의 힘을 계승 받았다"
 db NewLine
 db WaitForA
 db ScrollText
@@ -1033,11 +1033,11 @@ db NewLine
 db Bottom_Slot// Julius
 dh PauseForTime
 db 0x10
-.stringn "똑같은 말 여러 번 시키지 마라"
+.stringn "몇 번을 말해야 알아듣느냐"
 db NewLine
 .stringn "나가의 화신, 헤임 왕가의 핏줄은"
 db NewLine
-.stringn "이 세상에서 모조리 없애야만 한다!"
+.stringn "세상에서 모조리 없애야만 한다!"
 db WaitForA
 
 db Top_Slot// Manfroi
@@ -1100,13 +1100,13 @@ dh PauseForTime
 db 0x10
 .stringn "놈은 고작 성전사 발드의 피밖에"
 db NewLine
-.stringn "계승받지 못했다"
+.stringn "계승 받지 못했다"
 db NewLine
 db WaitForA
 dh ScrollText_DBC
 .stringn "그리 걱정할 필요는 없어 보인다만,"
 db NewLine
-.stringn "어디 네 마음대로 해 보아라"
+.stringn "어디 마음대로 해 보아라"
 db NewLine
 db WaitForA
 db ScrollText
@@ -1279,7 +1279,7 @@ db WaitForA
 
 db Top_Slot// Emperor Arvis
 dh ScrollText_DBC
-.stringn "그리고, 이걸 자네에게 맡기겠다"
+.stringn "그리고, 이걸 가져가라"
 db NewLine
 
 db Bottom_Slot// Palmarch
@@ -1291,7 +1291,7 @@ db WaitForA
 
 db Top_Slot// Emperor Arvis
 dh ScrollText_DBC
-.stringn "사제는 지난날 시구르드의 측근이었지"
+.stringn "자네는 지난날 시구르드의 측근이었지"
 db NewLine
 .stringn "그럼 이것이 무엇을 의미하는지"
 db NewLine
@@ -1518,7 +1518,7 @@ db Top_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x026C//Manfroi
-.stringn "뭘 중얼중얼거리고 있나!"
+.stringn "뭘 중얼거리고 있느냐!"
 db NewLine
 .stringn "자, 냉큼 따라와라!"
 db NewLine
@@ -1679,7 +1679,7 @@ db ScrollText
 db Top_Slot// Seliph
 .stringn "네, 이 성검만 있다면"
 db NewLine
-.stringn "두려울 것따윈 없어요"
+.stringn "두려울 것 따윈 없어요"
 db NewLine
 .stringn "안심하세요, 사제님!"
 db WaitForA
@@ -1748,7 +1748,7 @@ db Top_Slot// Lewyn
 dh ScrollText_DBC
 .stringn "사람들 말로는"
 db NewLine
-.stringn "만프로이에게"
+.stringn "만프로이 사교에게"
 db NewLine
 .stringn "붙잡혀 갔다는 것 같구나"
 db WaitForA
@@ -1842,7 +1842,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x026D//Riddell
-.stringn "오랜만에 제대로 된 전투가 되겠군"
+.stringn "오랜만에 제대로 된 전투군"
 db NewLine
 .stringn "감사를 표하마!"
 db NewLine
@@ -1863,7 +1863,7 @@ dh 0x0268//Hilda
 db NewLine
 .stringn "그리고 내 아들의 원한을・・・"
 db NewLine
-.stringn "지금 맛보게 해 주마!!"
+.stringn "맛보게 해 주마!!"
 db WaitForA
 db EndText
 
@@ -2053,7 +2053,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x026E//Emperor Arvis
-.stringn "가련한 자들이여"
+.stringn "훗・・・ 가련한 자들이여,"
 db NewLine
 .stringn "내 지옥의 불꽃에 타올라라!"
 db NewLine
@@ -2133,7 +2133,7 @@ db ScrollText
 
 .stringn "얼마 전까진 알비스 황제 폐하께서"
 db NewLine
-.stringn "이것만은 허락하지 않는다 하셨는데,"
+.stringn "절대 허락하지 않겠다고 하셨는데,"
 db NewLine
 .stringn "대체 어떻게 된 일인지・・・"
 db WaitForA
@@ -2141,7 +2141,7 @@ db ScrollText
 
 .stringn "부탁이에요,"
 db NewLine
-.stringn "이 매직 링을 드릴테니"
+.stringn "이 매직 링을 드릴 테니"
 db NewLine
 .stringn "아이들을 구해 주세요!"
 db WaitForA
@@ -2159,7 +2159,7 @@ dh LoadPortrait
 dh 0x02AB//Old villager
 .stringn "로프토 제국과 십이성전사의 싸움은"
 db NewLine
-.stringn "십오 년동안 이어져"
+.stringn "십오 년 동안 이어져"
 db NewLine
 db WaitForA
 db ScrollText
@@ -2179,7 +2179,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "하지만・・・ 암흑신은 다시 되살아났네"
+.stringn "하지만・・・ 암흑신은 되살아났네"
 db NewLine
 .stringn "성전사여, 부디 우리를 지켜주게・・・"
 db NewLine

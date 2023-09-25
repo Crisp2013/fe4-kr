@@ -162,7 +162,7 @@ db EndText
 //offset 0xd9e21
 // 0xda021
 Dialogue_d9e21:
-.stringn " 해방군의 전사들에게 신이 강림 "
+.stringn " 해방군의 전사들에게 신이 강림, "
 db EndText
 
 //end 0xd9e3a
@@ -170,7 +170,7 @@ db EndText
 //offset 0xd9e3a
 // 0xda03a
 Dialogue_d9e3a:
-.stringn " 십이성전사가 탄생하다 "
+.stringn "⑫십이성전사가 탄생하다⑫"
 db EndText
 
 //end 0xd9e4d
@@ -235,7 +235,7 @@ db EndText
 //offset 0xd9eb5
 // 0xda0b5
 Dialogue_d9eb5:
-.stringn "동방의 이자크로 원정 "
+.stringn "동방국 이자크로 원정 "
 db EndText
 
 //end 0xd9ec8

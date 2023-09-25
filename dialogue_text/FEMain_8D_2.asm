@@ -16,27 +16,27 @@ db EndText
 //offset 0xddcb3
 // 0xddeb3
 Dialogue_ddcb3:
-.stringn "오랫동안 제국의 지배하에 놓인 실레지아에선"
+.stringn "오랜 세월 제국의 지배하에 놓였던"
 db NewLine
 dh unknown_0086
 db NewLine
-.stringn "민중들의 봉기가 잇달아 발생해"
+.stringn "실레지아는 민중 봉기가 잇달아 발생해"
 db NewLine
 .stringn "성전의 승리 이후"
 db NewLine
-.stringn "마침내 전 국토가 해방되었다."
+.stringn "마침내 전 국토가 해방되었지만,"
 db NewLine
-.stringn "그러나, 이미 왕위를 이을 자는 남아있지 않았고"
+.stringn "이미 왕위를 이을 자는 남아있지 않았다."
 db NewLine
 .stringn "사람들은 세리스 왕에게"
 db NewLine
 .stringn "그란벨에 의한 통합을 요청했다."
 db NewLine
-.stringn "아름다운 대지와, 평화를 사랑하는 사람들."
+.stringn "아름다운 대지, 평화를 사랑하는 사람들."
 db NewLine
-.stringn "세리스는 아버지가 사랑한 실레지아를 사랑해"
+.stringn "그는 아버지가 사랑한 나라를 사랑하여"
 db NewLine
-.stringn "황폐해진 국토의 부흥에 온 힘을 다했다."
+.stringn "황폐해진 국토의 부흥에 진력했다."
 db NewLine
 dh unknown_0087
 dh PauseForTime
@@ -60,7 +60,7 @@ db EndText
 //offset 0xdde0c
 // 0xde00c
 Dialogue_dde0c:
-.stringn "오랫동안 제국의 지배하에 놓였던 실레지아로"
+.stringn "오랜 세월 제국의 지배하에 놓였던 실레"
 db NewLine
 dh unknown_0086
 db NewLine
@@ -68,11 +68,11 @@ dh PauseForTime
 db 0x02
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "마침내 귀국한 "
+.stringn "지아로 귀국한 "
 dh SringBuffer1 //Lover or father
-.stringn ", 그는 왕위를 이어"
+.stringn " 왕은, 즉위 직후"
 db NewLine
-.stringn "황폐해진 땅의 재생에 힘을 쏟았다."
+.stringn "황폐해진 국토의 부흥을 추진했다."
 db NewLine
 dh InsBlockText_2D //6AE00D00
 dh 0xB76C
@@ -98,7 +98,7 @@ db 0x8D //bank
 dh InsBlockText_2D //8DE00D00
 dh 0xB708
 db 0x8D //bank
-.stringn "아름다운 대지와, 평화를 사랑하는 사람들."
+.stringn "아름다운 대지, 평화를 사랑하는 사람들."
 db NewLine
 .stringn "레빈이 그 목숨을 바쳐 지켜내려 했던"
 db NewLine
@@ -343,12 +343,12 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "새로운 나라의 초대 국왕 자리에는"
+.stringn "그리고 사람들의 열렬한 희망에 의하여,"
 db NewLine
 dh SringBuffer1 //Lover or father
-.stringn "가 사람들의 뜨거운 희망으로"
+.stringn "가 새 왕조의 초대 국왕으로서"
 db NewLine
-.stringn "선출되어 즉위하였다."
+.stringn "즉위하게 되었다."
 db NewLine
 dh InsBlockText_2D //9CE30D00
 dh 0xB91A
@@ -382,7 +382,7 @@ dh 0xB8ED
 db 0x8D //bank
 .stringn "트라키아 반도에 태어난 새로운 나라."
 db NewLine
-.stringn "그 이름을, 신 트라키아 왕국이라 하였다."
+.stringn "그 이름은, 신 트라키아 왕국이다."
 db NewLine
 db EndText
 
@@ -407,11 +407,11 @@ db 0x02
 dh PauseForTime
 db 0x28
 db NewLine
-.stringn "자신을 사랑으로 길러준"
+.stringn "그녀는 자신을 사랑으로 길러준"
 db NewLine
 .stringn "이 트라키아의 대지를"
 db NewLine
-.stringn "그녀는 평생토록 사랑했다고 한다."
+.stringn "평생토록 사랑했다고 한다."
 db NewLine
 db EndText
 
@@ -648,13 +648,13 @@ db 0x8D //bank
 dh unknown_0087
 .stringn "이 나라를 제2의 조국으로 여기는"
 db NewLine
-.stringn "세리스에게 있어,"
+.stringn "세리스에게 있어, 이자크인들의 슬픔은"
 db NewLine
-.stringn "이자크인들의 슬픔은 마음 아픈 일이었다."
+.stringn "실로 마음 아픈 일이었다."
 db NewLine
 .stringn "사람들은 세리스에게 소원했다."
 db NewLine
-.stringn "이자크를 버리지 말아달라고"
+.stringn "이자크를 버리지 말아 달라고"
 db NewLine
 .stringn "그에게 애원한 것이다."
 db NewLine
@@ -685,11 +685,11 @@ db NewLine
 db NewLine
 .stringn "풍요로움을 누리게 되었다."
 db NewLine
-.stringn "훗날 이자크는"
+.stringn "훗날 이자크는 그란벨 왕국의"
 db NewLine
-.stringn "그란벨 왕국의 한 지방으로서"
+.stringn "한 지방으로서, 세리스와 함께"
 db NewLine
-.stringn "세리스와 함께 살아가는 길을 선택하게 된다."
+.stringn "살아가는 길을 선택하게 된다."
 db NewLine
 db EndText
 
@@ -724,9 +724,9 @@ db NewLine
 dh InsBlockText_2D //96E70D00
 dh 0xBC6F
 db 0x8D //bank
-.stringn "이자크 국민들을 환희에 떨게 만들었다."
+.stringn "이자크 국민들을 환희에 떨게 했다."
 db NewLine
-.stringn "머잖아 즉위한"
+.stringn "머잖아 즉위한 "
 dh SringBuffer1 //Lover or father
 .stringn " 왕은"
 dh InsBlockText_2D //BBE70D00
@@ -993,13 +993,13 @@ db EndText
 Dialogue_de7ee:
 .stringn "때문에 해방군의 승리는"
 db NewLine
-.stringn "아그스트리아 국민들을 환호시켰고"
+.stringn "아그스트리아 국민들을 환호시켰고,"
 db NewLine
-.stringn "그들은 세리스 왕의 통치하에 들어가기를"
+.stringn "그들은 세리스 왕의 통치하에 놓이기를"
 db NewLine
 .stringn "스스로 바랐다."
 db NewLine
-.stringn "그들의 마음 속에는 과거 정복자로서"
+.stringn "그들의 마음속에는 과거 정복자로서"
 db NewLine
 .stringn "군림하면서도"
 db NewLine
@@ -1042,7 +1042,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "사람들은"
+.stringn "사람들은 "
 dh SringBuffer1 //Lover or father
 .stringn "의 귀환을"
 db NewLine
@@ -1051,9 +1051,9 @@ dh InsBlockText_2D //85EB0D00
 dh 0xBF75
 db 0x8D //bank
 db NewLine
-.stringn "그것은,"
+.stringn "그것은, "
 dh SringBuffer1 //Lover or father
-.stringn "의 모습에서"
+.stringn "에게서"
 db NewLine
 .stringn "젊은 날의 엘트샨 왕을"
 db NewLine
@@ -1217,7 +1217,7 @@ db EndText
 Dialogue_deab1:
 .stringn "등과 함께"
 db NewLine
-.stringn "통일 아그스트리아의 부흥에 힘을 쏟았다."
+.stringn "통일 아그스트리아의 부흥에 진력했다."
 db EndText
 
 //end 0xdead6
@@ -1229,7 +1229,7 @@ Dialogue_dead6:
 db NewLine
 dh unknown_0086
 dh unknown_000A
-.stringn "제국의 압정하에서도"
+.stringn "제국의 압정 하에서도"
 db NewLine
 .stringn "거의 통치되는 일 없이"
 db NewLine
@@ -1287,7 +1287,7 @@ db NewLine
 db NewLine
 .stringn "세리스도 어머니가 나고 자란"
 db NewLine
-.stringn "이 나라에 깊은 애정을 갖고 있었다."
+.stringn "이 나라에 깊은 애정을 품고 있었다."
 db NewLine
 .stringn "베르던은 그란벨에 통합되어,"
 db NewLine
@@ -1318,9 +1318,9 @@ db 0x8D //bank
 dh InsBlockText_2D //E0EE0D00
 dh 0xC24D
 db 0x8D //bank
-.stringn "의 귀환은, 사람들에게 용기를"
+.stringn "의 귀환은 사람들에게 용기를"
 db NewLine
-.stringn "불어넣어 많은 젊은이들이"
+.stringn "불어넣어, 많은 젊은이가"
 db NewLine
 dh SringBuffer1 //Lover or father
 .stringn "의 곁에 모였다."
@@ -1366,7 +1366,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x04, 0x68, 0x3C
-.stringn "그리고 그의 연인"
+.stringn "그리고 그의 연인 "
 dh SringBuffer1 //Lover or father
 dh PauseForTime
 db 0x28
@@ -1493,7 +1493,7 @@ db EndText
 //offset 0xdef1a
 // 0xdf11a
 Dialogue_def1a:
-.stringn "항상 미소지으며 다가가는"
+.stringn "항상 미소 지으며 다가가는"
 db NewLine
 dh PauseForTime
 db 0x14
@@ -1516,7 +1516,7 @@ db EndText
 //offset 0xdef52
 // 0xdf152
 Dialogue_def52:
-.stringn "항상 미소지으며 다가가는"
+.stringn "항상 미소 지으며 다가가는"
 db NewLine
 dh PauseForTime
 db 0x14
@@ -1790,7 +1790,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x04, 0x68, 0x3C
-.stringn "그 연인"
+.stringn "그 연인 "
 dh SringBuffer1 //Lover or father
 db EndText
 
@@ -1804,7 +1804,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn "그리고,"
+.stringn "그리고, "
 dh SringBuffer1 //Lover or father
 dh PauseForTime
 db 0x28
@@ -2050,7 +2050,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x04, 0x68, 0x3C
-.stringn "와 그의 연인"
+.stringn "와 그의 연인 "
 dh SringBuffer1 //Lover or father
 db EndText
 

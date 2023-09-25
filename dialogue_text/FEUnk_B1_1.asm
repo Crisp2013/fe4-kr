@@ -138,7 +138,7 @@ db NewLine
 dh PauseForTime
 db 0x60
 dh ScrollText_DBC
-.stringn "이래봬도"
+.stringn "이래 봬도"
 db NewLine
 .stringn "할 땐 하는 몸이니까"
 db NewLine
@@ -396,12 +396,12 @@ dh PauseForTime
 db 0x20
 .stringn "네・・・ 저도 이렇게 될 줄은"
 db NewLine
-.stringn "생각도 못했는데 말이에요"
+.stringn "생각도 못 했는데 말이에요"
 db NewLine
 dh PauseForTime
 db 0x60
 dh ScrollText_DBC
-.stringn "하지만 세리스 님을 바로 옆에서"
+.stringn "하지만 세리스 님을 바로 가까이서"
 db NewLine
 .stringn "모실 수 있다고 생각하니 기뻐요"
 db NewLine
@@ -413,13 +413,13 @@ db ScrollText
 db Top_Slot// Seliph
 .stringn "라나와는 쭉 함께 자랐었지"
 db NewLine
-.stringn "・・・운명이란 건 참 신기해"
+.stringn "・・・운명이란 참 신기해"
 db NewLine
 
 db Bottom_Slot// Lana
 dh PauseForTime
 db 0x20
-.stringn "네・・・ 정말로요"
+.stringn "네・・・ 정말 그래요"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -915,7 +915,7 @@ dh SringBuffer2 //CharName or mother
 db NewLine
 .stringn "그래도 가끔은"
 db NewLine
-.stringn "발할라에 놀러와 줘"
+.stringn "발할라에 놀러 와 줘"
 
 db Bottom_Slot
 dh PauseForTime
@@ -1091,7 +1091,7 @@ dh ScrollText_DBC
 db NewLine
 .stringn "그란벨과 이 세상을 위해"
 db NewLine
-.stringn "제게 앞으로도 힘을 빌려 주세요 "
+.stringn "제게 앞으로도 힘을 빌려주세요 "
 
 db Bottom_Slot// Iuchar
 dh PauseForTime
@@ -1340,7 +1340,7 @@ dh ScrollText_DBC
 dh SringBuffer2 //CharName or mother
 .stringn "다워"
 db NewLine
-.stringn "내쪽에서도 감사를 표할게"
+.stringn "내 쪽에서도 감사를 표할게"
 db NewLine
 
 db Bottom_Slot
@@ -1786,7 +1786,7 @@ db ScrollText
 dh SringBuffer2 //CharName or mother
 .stringn "와 힘을 합쳐"
 db NewLine
-.stringn "실레지아 사람들을 도와 줘"
+.stringn "실레지아 사람들을 도와줘"
 db NewLine
 
 db Bottom_Slot
@@ -1828,7 +1828,7 @@ db ScrollText
 dh SringBuffer2 //CharName or mother
 .stringn "와 힘을 합쳐"
 db NewLine
-.stringn "실레지아 사람들을 도와 줘"
+.stringn "실레지아 사람들을 도와줘"
 db NewLine
 
 db Bottom_Slot

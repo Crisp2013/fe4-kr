@@ -1,4 +1,4 @@
-
+//Script:Chapter 8
 //offset 0xfc115
 // 0xfc315
 Dialogue_fc115:
@@ -21,7 +21,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "뱀파, 너희까지"
+.stringn "반파, 너희까지"
 db NewLine
 .stringn "도망쳐 올 줄은 몰랐구나"
 db NewLine
@@ -93,7 +93,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "뱀파, 페트라, 엘리우, 가라"
+.stringn "반파, 페틀라, 에리우, 가라"
 db NewLine
 .stringn "이번에야말로 놈들의 목을 가져와라!"
 db NewLine
@@ -241,7 +241,7 @@ db ScrollText
 
 .stringn "브룸 그놈이 끼어들고 말았지"
 db NewLine
-.stringn "그때의 분함은 지금도 잊혀지지 않아"
+.stringn "그때의 분함은 지금도 잊을 수 없다"
 db NewLine
 db WaitForA
 db ScrollText
@@ -269,7 +269,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "그럼에도 타국에 불려나가"
+.stringn "그럼에도 타국에 불려 나가"
 db NewLine
 .stringn "용병으로서 싸워온 것은"
 db NewLine
@@ -277,7 +277,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "아리온, 난 오래도록 참아왔다만"
+.stringn "아리온, 난 오래도록 참아왔다"
 db NewLine
 .stringn "드디어 일어설 때가 온 듯하구나"
 db NewLine
@@ -409,7 +409,7 @@ dh LoadPortrait
 dh 0x0255//Banba
 .stringn "슬슬 오는군"
 db NewLine
-.stringn "페트라, 엘리우, 가자"
+.stringn "페틀라, 에리우, 가자"
 db NewLine
 .stringn "이번엔 실수하면 안 돼"
 db WaitForA
@@ -584,7 +584,7 @@ dh 0x003D//Tine
 .stringn "마저 잃었다"
 db WaitForA
 dh ScrollText_DBC
-.stringn "뱀파 세 자매도 믿음직하지 못하니,"
+.stringn "반파 세 자매도 믿음직하지 못하니,"
 db NewLine
 .stringn "이제 네 힘을"
 db NewLine
@@ -704,7 +704,7 @@ db WaitForA
 
 db Top_Slot// Lewyn
 dh ScrollText_DBC
-.stringn "그렇게 잘 풀리면 좋겠다만"
+.stringn "그렇게 잘 풀리면 좋겠지만"
 db NewLine
 .stringn "문제는 트라키아다・・・"
 db NewLine
@@ -730,7 +730,7 @@ db ScrollText
 
 .stringn "그것도 기사로서 있을 수 없는 비열한"
 db NewLine
-.stringn "방법이었지, 방심하지 마라"
+.stringn "방식이었지, 방심하지 마라"
 db NewLine
 .stringn "놈은 분명 뭔가를 꾸미고 있다・・・"
 db WaitForA
@@ -809,7 +809,7 @@ db Top_Slot// Travant
 db NewLine
 .stringn "넌 내가 시키는 대로만 하면 된다"
 db NewLine
-.stringn "말대답 하지 마라!"
+.stringn "말대답하지 마라!"
 
 db Bottom_Slot// Altena
 dh PauseForTime
@@ -994,7 +994,7 @@ dh PauseForTime
 db 0x10
 .stringn "당신들은 코노트로 도망치세요"
 db NewLine
-.stringn "잠시 동안은"
+.stringn "잠깐이겠지만"
 db NewLine
 .stringn "저 혼자 적을 막아 보겠습니다"
 db WaitForA
@@ -1216,15 +1216,15 @@ db ScrollText
 
 .stringn "트라키아 병사들이 트라반트에게"
 db NewLine
-.stringn "충성하는 건, 왕이야말로 자신들을"
+.stringn "충성하는 건, 왕이야말로 자신들의"
 db NewLine
-.stringn "구해줄 거라고 굳게 믿기 때문이지"
+.stringn "구원자라고 믿기 때문이지"
 db WaitForA
 db ScrollText
 
 
 db Top_Slot// Seliph
-.stringn "그렇군요・・・"
+.stringn "그랬군요・・・"
 db NewLine
 .stringn "그래서 그들은 그렇게나・・・"
 db NewLine
@@ -1254,7 +1254,7 @@ db ScrollText
 
 .stringn "세리스, 불편한 건 알겠다만"
 db NewLine
-.stringn "이제와서 발을 뺄 순 없어"
+.stringn "이제 와서 발을 뺄 순 없어"
 db NewLine
 db WaitForA
 db ScrollText
@@ -1309,7 +1309,7 @@ dh 0x0033//Febail
 db Top_Slot// Patty
 .stringn "오빠!?"
 db NewLine
-.stringn "이런 데서 뭐하고 있어?"
+.stringn "이런 데서 뭐 하고 있어?"
 db NewLine
 db WaitForA
 db ScrollText
@@ -1372,7 +1372,7 @@ dh ScrollText_DBC
 db NewLine
 .stringn "잘못한 줄 알면 오빠도 우리 쪽으로 와"
 db NewLine
-.stringn "다함께 평화를 되찾는 거야"
+.stringn "다 함께 평화를 되찾는 거야"
 
 db Bottom_Slot// Febail
 dh PauseForTime
@@ -1428,14 +1428,14 @@ db WaitForA
 dh ScrollText_DBC
 .stringn "세리스 님, 세계를 구해 주십시오"
 db NewLine
-.stringn "많은 사람들이 절망에 빠져 있습니다"
+.stringn "사람들이 절망에 빠져 있습니다"
 db NewLine
 db WaitForA
 db ScrollText
 
 .stringn "이 먼스터에서도"
 db NewLine
-.stringn "많은 아이들이 붙잡혀"
+.stringn "수많은 아이들이 붙잡혀"
 db NewLine
 .stringn "밀레토스 신전으로 끌려갔습니다"
 db WaitForA
@@ -1472,7 +1472,7 @@ dh InsName
 dh 0x0035//Ced
 .stringn ", 당신의 힘이 필요해요"
 db NewLine
-.stringn "부디 제게 힘을 빌려 주세요"
+.stringn "부디 제게 힘을 빌려주세요"
 db NewLine
 
 db Bottom_Slot// Ced
@@ -1527,7 +1527,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x02AF//Villager
-.stringn "세리스 님, 만세~!"
+.stringn "세리스 님, 만세～!"
 db NewLine
 db WaitForA
 db EndText
@@ -1563,7 +1563,7 @@ dh 0x02B0//Girl
 db NewLine
 dh InsName
 dh 0x0035//Ced
-.stringn " 님을 구해주세요!"
+.stringn " 님을 구해 주세요!"
 db NewLine
 db WaitForA
 db EndText
@@ -1794,7 +1794,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0271//Ishtar
-.stringn "미안하지만・・・ 죽어 줘야겠어!"
+.stringn "미안하지만・・・ 죽어다오!"
 db NewLine
 .stringn "토르 해머!!"
 db NewLine
@@ -1880,7 +1880,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0255//Banba
-.stringn "페트라, 엘리우!"
+.stringn "페틀라, 에리우!"
 db NewLine
 .stringn "이번에야말로 가자!"
 db NewLine
@@ -1913,7 +1913,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0256//Fotla
-.stringn "뱀파, 엘리우!"
+.stringn "반파, 에리우!"
 db NewLine
 .stringn "이번에야말로 가자!"
 db NewLine
@@ -1946,7 +1946,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0257//Eriu
-.stringn "뱀파, 페트라!"
+.stringn "반파, 페틀라!"
 db NewLine
 .stringn "이번에야말로 가자!"
 db NewLine

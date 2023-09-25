@@ -130,13 +130,13 @@ db EndText
 Dialogue_3286e8:
 .stringn "에딘은 대체 어디에 있는 것일까?"
 db NewLine
-.stringn "바투 왕이 어째서 전쟁을 바라는 것일까?"
+.stringn "왕은 어째서 전쟁을 바라는 것일까?"
 db WaitForA
 db ScrollText
 
 .stringn "눈앞에 펼쳐진 것은"
 db NewLine
-.stringn "낮에도 어둠에 휩싸인 베르던의 대삼림."
+.stringn "낮에도 어두컴컴한 베르던의 대삼림."
 db WaitForA
 db ScrollText
 

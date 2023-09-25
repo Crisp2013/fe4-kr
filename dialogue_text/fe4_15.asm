@@ -1,4 +1,4 @@
-
+//Script:Ending cut scene + game over
 
 //offset 0xd9ed5
 // 0xda0d5

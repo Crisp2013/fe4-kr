@@ -1,4 +1,4 @@
-
+//Script:Units conversation Ch6-Ch7
 
 //offset 0x2ee07d
 // 0x2ee27d
@@ -31,7 +31,7 @@ db Top_Slot// Oifey
 dh ScrollText_DBC
 .stringn "상황은 점점 심각해지고 있습니다"
 db NewLine
-.stringn "온 세상 사람들이 압정을 견디다못해"
+.stringn "온 세상 사람들이 압정을 견디다 못해"
 db NewLine
 .stringn "반란을 일으키고 있습니다"
 
@@ -169,7 +169,7 @@ db NewLine
 db NewLine
 db WaitForA
 dh ScrollText_DBC
-.stringn "저희들은"
+.stringn "저희 가족은"
 db NewLine
 .stringn "이자크 사람들에게 은혜를 입었으니"
 db NewLine
@@ -804,9 +804,9 @@ db WaitForA
 
 db Top_Slot// Dalvin
 dh ScrollText_DBC
-.stringn "네 남성혐오는 제국군 때문이겠지"
+.stringn "네 남성 혐오는 제국군 때문이겠지"
 db NewLine
-.stringn "그래도 남자들이라고"
+.stringn "그래도 남자라고"
 db NewLine
 .stringn "다 놈들 같진 않아"
 
@@ -1150,7 +1150,7 @@ db WaitForA
 dh ScrollText_DBC
 
 db Top_Slot// Patty
-.stringn "저, 샤난 님을 동경해왔어요"
+.stringn "저, 샤난 님을 동경해 왔어요"
 db NewLine
 .stringn "한 번이라도 만나고 싶었는데・・・"
 db NewLine
@@ -1249,7 +1249,7 @@ db NewLine
 db Bottom_Slot// Shannan
 dh PauseForTime
 db 0x10
-.stringn "세리스는 의젓해졌구나"
+.stringn "많이 의젓해졌구나"
 db NewLine
 .stringn "그래・・・ 드디어・・・"
 db NewLine
@@ -1267,7 +1267,7 @@ db 0x10
 db NewLine
 .stringn "・・・아니, 아무것도 아니다"
 db NewLine
-.stringn "신경쓰지 마라"
+.stringn "신경 쓰지 마라"
 db WaitForA
 
 db Top_Slot// Seliph
@@ -1282,7 +1282,7 @@ dh PauseForTime
 db 0x10
 .stringn "후훗, 물론이다 세리스"
 db NewLine
-.stringn "나도 이 날이 오기만을 기다렸거든"
+.stringn "나도 이날이 오기만을 기다렸거든"
 db NewLine
 db WaitForA
 
@@ -1563,7 +1563,7 @@ db NewLine
 db Bottom_Slot// Seliph
 dh PauseForTime
 db 0x10
-.stringn "ああ、もちろん"
+.stringn "그래, 물론이지"
 db NewLine
 db WaitForA
 
@@ -1619,7 +1619,7 @@ db NewLine
 db Bottom_Slot// Seliph
 dh PauseForTime
 db 0x10
-.stringn "당신은・・・?"
+.stringn "너는・・・?"
 db NewLine
 db WaitForA
 
@@ -1634,7 +1634,7 @@ db NewLine
 db Bottom_Slot// Seliph
 dh PauseForTime
 db 0x10
-.stringn "네!?"
+.stringn "뭐라고!?"
 db NewLine
 .stringn "・・・설마, 노디온 왕"
 db NewLine
@@ -1662,14 +1662,14 @@ dh PauseForTime
 db 0x10
 .stringn "그랬군요・・・"
 db NewLine
-.stringn "하지만 아레스, 당신 아버님과"
+.stringn "하지만 아레스, 엘트샨 왕과"
 db NewLine
-.stringn "제 아버지는 절친한 벗이었어요"
+.stringn "우리 아버지는 절친한 벗이었어"
 db WaitForA
 dh ScrollText_DBC
 .stringn "불행한 결말을 맞고 말았지만"
 db NewLine
-.stringn "서로에게 원한은 없었을 겁니다"
+.stringn "서로에게 원한은 없었을 거야"
 db NewLine
 db WaitForA
 db ScrollText
@@ -1685,18 +1685,18 @@ db NewLine
 db Bottom_Slot// Seliph
 dh PauseForTime
 db 0x10
-.stringn "아레스, 조금만 시간을 주세요"
+.stringn "아레스, 조금만 시간을 줘"
 db NewLine
 .stringn "당분간 이 군에 머무르면"
 db NewLine
-.stringn "곧 모든 게 확실해질 거예요"
+.stringn "곧 모든 게 밝혀질 거야"
 db WaitForA
 dh ScrollText_DBC
-.stringn "저는 아버지와 마찬가지로"
+.stringn "나는 아버지와 마찬가지로"
 db NewLine
-.stringn "엘트샨 왕도 존경하고 있어요"
+.stringn "엘트샨 왕도 존경하고 있어"
 db NewLine
-.stringn "아레스, 부디 알아줬으면 해요"
+.stringn "아레스, 부디 알아줬으면 해"
 db WaitForA
 db ScrollText
 
@@ -1723,15 +1723,15 @@ db NewLine
 db Bottom_Slot// Seliph
 dh PauseForTime
 db 0x10
-.stringn "그땐 좋을대로 하시죠"
+.stringn "그땐 마음대로 해도 좋아"
 db NewLine
 db WaitForA
 dh ScrollText_DBC
 .stringn "아레스・・・ 당신과의 만남을"
 db NewLine
-.stringn "아버님들께서 분명 기뻐하실 거예요"
+.stringn "아버님들께서 분명 기뻐하실 거야"
 db NewLine
-.stringn "그런 느낌이 들어요・・・"
+.stringn "그런 느낌이 들어・・・"
 db WaitForA
 db EndText
 

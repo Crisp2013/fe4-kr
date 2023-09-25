@@ -29,7 +29,7 @@ db EndText
 //offset 0xe8b27
 // 0xe8d27
 Dialogue_e8b27:
-.stringn "그란벨에 의한 베르던 제압은"
+.stringn "그란벨에 의한 베르던 제압으로"
 db NewLine
 dh unknown_0086
 db EndText
@@ -39,7 +39,7 @@ db EndText
 //offset 0xe8b3e
 // 0xe8d3e
 Dialogue_e8b3e:
-.stringn "아그스트리아에 큰 혼란을 일으켰다."
+.stringn "아그스트리아는 큰 혼란에 빠졌다."
 db WaitForA
 db ScrollText
 
@@ -166,7 +166,7 @@ db EndText
 Dialogue_e8d17:
 .stringn "아그스티 성에서 병사들을 쉬게 하고,"
 db NewLine
-.stringn "엘트샨과의 약속을 다하기 위해"
+.stringn "엘트샨과의 약속을 지키기 위해"
 db WaitForA
 db ScrollText
 
@@ -178,7 +178,7 @@ db ScrollText
 
 .stringn "그러나, 발할라로부터의 회답은 늘"
 db NewLine
-.stringn "그대로 어거스티에 주군하여"
+.stringn "그대로 어거스티에 주둔하여"
 db WaitForA
 db ScrollText
 
@@ -194,7 +194,7 @@ db EndText
 //offset 0xe8dab
 // 0xe8fab
 Dialogue_e8dab:
-.stringn "반 년이 지나자"
+.stringn "반년이 지나자"
 db NewLine
 .stringn "그란벨에서 파견된 관리들이"
 db WaitForA
@@ -318,9 +318,9 @@ dh unknown_0084
 db 0x06
 db ScrollText
 
-.stringn "발할라로부터"
+.stringn "발할라로부터 아그스티를"
 db NewLine
-.stringn "아그스티를 사수하라는 명령이 떨어지고"
+.stringn "사수하라는 명령이 떨어지고"
 db WaitForA
 db ScrollText
 
@@ -345,13 +345,13 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "시구르드는 그때"
+.stringn "이때 시구르드는"
 db NewLine
-.stringn "아그스트리아의 북쪽 끝에서"
+.stringn "아그스트리아 북쪽 끝에서"
 db WaitForA
 db ScrollText
 
-.stringn "역사를 바꾸는 싸움에 임하고 있었다."
+.stringn "역사를 바꾸는 전투를 마주하게 된다."
 db NewLine
 db WaitForA
 dh unknown_0084

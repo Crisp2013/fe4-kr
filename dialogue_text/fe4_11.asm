@@ -1,4 +1,4 @@
-
+//Script:Chapter 11
 
 //offset 0x329916
 // 0x329b16
@@ -33,7 +33,7 @@ dh ScrollText_DBC
 db NewLine
 .stringn "네놈에게 이용당할 대로 이용당하고"
 db NewLine
-.stringn "쓸모가 없어지니 가차없이 버림받는가"
+.stringn "쓸모가 없어지니 가차 없이 버림받는가"
 
 db Bottom_Slot// Manfroi
 dh PauseForTime
@@ -64,7 +64,7 @@ db Top_Slot// Julius
 db NewLine
 .stringn "반란군이 시알피까지 들어왔다던데"
 db NewLine
-.stringn "제도의 방비는 문제 없겠지?"
+.stringn "제도의 방비는 문제없겠지?"
 
 db Bottom_Slot// Manfroi
 dh PauseForTime
@@ -93,7 +93,7 @@ dh PauseForTime
 db 0x10
 .stringn "별채에 가둬 두었습니다"
 db NewLine
-.stringn "누가 가서 율리아 황녀를 데려와라!"
+.stringn "누구 없느냐, 황녀를 데려와라!"
 db NewLine
 db WaitForA
 dh ScrollText_DBC
@@ -173,7 +173,7 @@ db ScrollText
 
 .stringn "남은 건 무서운 힘을 지닌"
 db NewLine
-.stringn "악마의 자식 뿐이었지"
+.stringn "악마의 자식뿐이었지"
 db NewLine
 db WaitForA
 db ScrollText
@@ -847,7 +847,7 @@ db ScrollText
 
 .stringn "흥, 이놈이고 저놈이고"
 db NewLine
-.stringn "쓸모없는 녀석들 뿐이라니까"
+.stringn "쓸모없는 녀석들뿐이라니까"
 db NewLine
 .stringn "이제 됐어, 내가 나서야지 원"
 db WaitForA
@@ -971,7 +971,7 @@ db WaitForA
 dh ScrollText_DBC
 .stringn "사실 폐하의 밀명을 받고"
 db NewLine
-.stringn "붙잡혀온 아이들을"
+.stringn "붙잡혀 온 아이들을"
 db NewLine
 .stringn "이 프리지에서 보호하고 있었습니다"
 db WaitForA
@@ -1227,7 +1227,7 @@ db Top_Slot// Ishtar
 dh ScrollText_DBC
 .stringn "네・・・ 죄송합니다"
 db NewLine
-.stringn "멩, 메이벨, 블레그, 출진한다"
+.stringn "멩, 메이벨, 브레그, 출진한다"
 db NewLine
 .stringn "나를 따라와라!"
 
@@ -1520,7 +1520,7 @@ db Top_Slot// Altena
 dh ScrollText_DBC
 .stringn "오라버니・・・ 전 이제 싸우기 싫어요"
 db NewLine
-.stringn "도저히 이해해줄 수 없다면"
+.stringn "도저히 이해해 줄 수 없다면"
 db NewLine
 .stringn "나를 죽이고 가세요"
 db WaitForA
@@ -1719,7 +1719,7 @@ dh LoadPortrait
 dh 0x0019//Seliph
 
 db Top_Slot// Lewyn
-.stringn "세리스, 잘 했다"
+.stringn "세리스, 잘했다"
 db NewLine
 .stringn "시련을 딛고 마침내 여기까지 왔구나"
 db NewLine
@@ -1776,7 +1776,7 @@ db ScrollText
 
 .stringn "만프로이를 쓰러뜨리고"
 db NewLine
-.stringn "다시 한 번 말을 걸어봐라!"
+.stringn "다시 한번 말을 걸어봐라!"
 db NewLine
 db WaitForA
 db EndText
@@ -1854,7 +1854,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x01A4//Roberto
-.stringn "걸어다니는 현상금이로군"
+.stringn "걸어 다니는 현상금이로군"
 db NewLine
 .stringn "미안하지만 여기서 죽어라!"
 db NewLine
@@ -1923,9 +1923,9 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x01B5//Fisher
-.stringn "빌어먹을,"
+.stringn "빌어먹을, 그 목을"
 db NewLine
-.stringn "그 목을 몸뚱이에서 떨어뜨려 주마!"
+.stringn "몸뚱이에서 떨어뜨려 주마!"
 db NewLine
 db WaitForA
 db EndText
@@ -1942,7 +1942,7 @@ dh LoadPortrait
 dh 0x01B8//Brian
 .stringn "감히 내 아버지를 죽였겠다!"
 db NewLine
-.stringn "도즐 가문 3대에 거린 원한을"
+.stringn "도즐 가문 3대에 걸친 원한을"
 db NewLine
 .stringn "깨닫거라!"
 db WaitForA
@@ -1993,7 +1993,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0272//Scipio?
-.stringn "내 아버지 안드레이의 원통함을,"
+.stringn "안드레이 아버님의 원통함을,"
 db NewLine
 .stringn "지금 깨닫게 해 주마!"
 db NewLine
@@ -2090,9 +2090,9 @@ dh LoadPortrait
 dh 0x0271//Ishtar
 .stringn "더 이상 할 말은 없어・・・"
 db NewLine
-.stringn "네놈에게 보여주마,"
+.stringn "보여주마, 뇌신 이슈타르의"
 db NewLine
-.stringn "뇌신 이슈타르의 마지막 싸움을!"
+.stringn "마지막 싸움을!"
 db WaitForA
 db EndText
 
@@ -2106,11 +2106,11 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x026C//Manfroi
-.stringn "네놈들 따위가・・・"
+.stringn "말도 안 돼・・・ 내가 평생에"
 db NewLine
-.stringn "내 생애를 다해 쌓아올린 것들을・・・"
+.stringn "걸쳐 쌓아 올린 것들이・・・"
 db NewLine
-.stringn "용서하지 않겠다!"
+.stringn "네놈들, 용서하지 않겠다!"
 db WaitForA
 db EndText
 
@@ -2508,7 +2508,7 @@ db ScrollText
 db NewLine
 .stringn "너희 손에 달려 있어"
 db NewLine
-.stringn "둘이서 힘내줬으면 해"
+.stringn "둘이 함께 힘내줬으면 해"
 
 db Bottom_Slot
 dh PauseForTime
@@ -2546,7 +2546,7 @@ dh PauseForTime
 db 0x20
 .stringn "네, 그래도 외로울 땐"
 db NewLine
-.stringn "발할라로 놀러와도 되죠?"
+.stringn "발할라로 놀러 와도 되죠?"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -2796,7 +2796,7 @@ db NewLine
 db Bottom_Slot// Ced
 dh PauseForTime
 db 0x20
-.stringn "네, 많은 사람들이 기다리고 있으니까요"
+.stringn "네, 국민들이 기다리고 있으니까요"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -2856,7 +2856,7 @@ db 0x60
 
 db Top_Slot
 dh ScrollText_DBC
-.stringn "미안해,"
+.stringn "미안해, "
 dh SringBuffer2 //CharName or mother
 .stringn "를 슬프게 만들어 버려서"
 db NewLine
@@ -3124,7 +3124,7 @@ dh 0x0280//Lewyn
 dh SringBuffer1 //Lover or father
 .stringn ", "
 dh SringBuffer2 //CharName or mother
-.stringn " 잘 부탁한다"
+.stringn "녀석을 잘 부탁한다"
 db NewLine
 .stringn "나는 돌아가지 않는다"
 db NewLine
@@ -3137,7 +3137,7 @@ dh DialogClose
 dh ClearPortrait
 dh DialogOpen
 dh unknown_002F
-.stringn "네? 무슨 말씀이십니까, 아버지!"
+.stringn "네? 무슨 말씀이세요, 아버지!"
 db NewLine
 .stringn "전쟁은 끝났습니다"
 db NewLine
@@ -3363,7 +3363,7 @@ db NewLine
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn "네? 무슨 말씀이십니까, 아버지!"
+.stringn "네? 무슨 말씀이세요, 아버지!"
 db NewLine
 .stringn "전쟁은 끝났습니다"
 db NewLine
@@ -3416,8 +3416,8 @@ dh unknown_002F
 db NewLine
 .stringn "함께 실레지아로 돌아갈게요"
 db NewLine
-.stringn "그동안 신세 많이 졌습니다"
 
+.stringn "그동안 신세 많이 졌습니다"
 dh PauseForTime
 db 0x60
 db ScrollText
@@ -3642,7 +3642,7 @@ db 0x60
 dh ScrollText_DBC
 .stringn "그리고 빛은,"
 db NewLine
-.stringn "너희 모두의 마음 속에 있어"
+.stringn "너희 모두의 마음속에 있어"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -3667,7 +3667,7 @@ dh PauseForTime
 db 0x60
 db ScrollText
 
-.stringn "우리는 이 대지가 살아 숨쉬는 한"
+.stringn "우리는 이 대지가 살아 숨 쉬는 한"
 db NewLine
 .stringn "당신의 은혜를 잊지 못할 거예요"
 db NewLine

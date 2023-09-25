@@ -272,7 +272,7 @@ db EndText
 //offset 0xd9199
 // 0xd9399
 Dialogue_d9199:
-.stringn "피노라"
+.stringn "피놀라"
 db NewLine
 db EndText
 

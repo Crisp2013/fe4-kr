@@ -1,14 +1,14 @@
 //offset 0xdc964
 // 0xdcb64
 Dialogue_dc964:
-.stringn "・・・かくして"
+.stringn "・・・이리하여 20년에 거친"
 db NewLine
-.stringn "二十年にもおよぶ長く苦しい戦いは、"
+.stringn "고통스럽고 기나긴 전쟁은"
 db NewLine
-.stringn "ようやく終わりを告げた"
+.stringn "마침내 막을 내렸다"
 db NewLine
 db NewLine
-.stringn "そして世界は・・・"
+.stringn "그리고 세상은・・・"
 db NewLine
 db EndText
 
@@ -303,10 +303,10 @@ Dialogue_dcc6b:
 db Target_Slot
 db 0x01
 db ClearText
-.stringn "⑫⑫⑫"
+.stringn  "⑫⑫⑫"
 dh SringBuffer1 //Lover or father
 db NewLine
-.stringn "⑫⑫⑫セリスと共に国々の復興をたすけた"
+.stringn "⑫⑫⑫세리스와 함께 나라들의 부흥을 도왔다"
 db NewLine
 dh PauseForTime
 db 0x5A
@@ -320,10 +320,10 @@ Dialogue_dcc94:
 db Target_Slot
 db 0x01
 db ClearText
-.stringn "⑫⑫⑫"
+.stringn  "⑫⑫⑫"
 dh SringBuffer1 //Lover or father
 db NewLine
-.stringn "⑫⑫⑫たのしく暮らした"
+.stringn "⑫⑫⑫즐겁게 살아갔다고 한다"
 db NewLine
 dh PauseForTime
 db 0x5A

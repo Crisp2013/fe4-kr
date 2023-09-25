@@ -1,4 +1,4 @@
-
+//Script:Units conversation Pro-Ch2
 
 //offset 0x2e8000
 // 0x2e8200
@@ -1514,7 +1514,7 @@ db WaitForA
 
 db Top_Slot// Dew
 dh ScrollText_DBC
-.stringn "됐어, 신경쓰지 마"
+.stringn "됐어, 신경 쓰지 마"
 db NewLine
 .stringn "어차피 내가 써봤자"
 db NewLine

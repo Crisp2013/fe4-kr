@@ -1,4 +1,4 @@
-
+//Script: Ch10 worldmap text
 //offset 0xd8dc4
 // 0xd8fc4
 Dialogue_d8dc4:
@@ -67,7 +67,7 @@ db ScrollText
 
 .stringn "광기에 가까운 잔혹함으로"
 db NewLine
-.stringn "많은 시민들을 죽음에 몰아넣었고"
+.stringn "많은 시민을 죽음으로 몰아넣었고"
 db WaitForA
 db ScrollText
 
@@ -85,7 +85,7 @@ db 0x06, 0x20, 0x50
 db WaitForA
 db ScrollText
 
-.stringn "가차없는 아이 사냥을 행하고 있었다."
+.stringn "가차 없는 아이 사냥을 행하고 있었다."
 db NewLine
 db WaitForA
 db ScrollText
@@ -102,7 +102,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "세리스는 두고볼 수 없었다."
+.stringn "세리스는 두고 볼 수 없었다."
 db NewLine
 db WaitForA
 db ScrollText

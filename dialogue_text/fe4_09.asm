@@ -1,4 +1,4 @@
-
+//Script:Chapter 9
 //offset 0x338000
 // 0x338200
 Dialogue_338000:
@@ -37,9 +37,9 @@ db ScrollText
 
 .stringn "넌 여자이면서도 무용이 뛰어나"
 db NewLine
-.stringn "아리온과 함께 내 수족으로서"
+.stringn "아리온과 함께 내 손과 발이 되어"
 db NewLine
-.stringn "활약해주리라 기대하고 있었다"
+.stringn "활약해 주리라 기대하고 있었다"
 db WaitForA
 db ScrollText
 
@@ -184,7 +184,7 @@ db 0x10
 db NewLine
 .stringn "감정섞인 말을 하는 것도"
 db NewLine
-.stringn "저 나이땐 자연스러운・・・"
+.stringn "저 나이 땐 자연스러운・・・"
 db WaitForA
 
 db Top_Slot// Travant
@@ -278,7 +278,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "이제와서 휴전은 무슨 휴전이냐!"
+.stringn "이제 와서 휴전은 무슨 휴전이냐!"
 db NewLine
 
 db Bottom_Slot// Hannibal
@@ -331,7 +331,7 @@ db Top_Slot// Travant
 dh ScrollText_DBC
 .stringn "배신할 생각이 들지 않으려면"
 db NewLine
-.stringn "자식 걱정 정돈 할 필요가 있겠지"
+.stringn "자식 걱정 정도는 할 필요가 있겠지"
 db NewLine
 
 db Bottom_Slot// Hannibal
@@ -376,7 +376,7 @@ db Top_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0260//Travant
-.stringn "걱정 마라"
+.stringn "걱정하지 마라"
 db NewLine
 .stringn "이번 일만 끝나면 돌려보내 주마"
 db NewLine
@@ -394,7 +394,7 @@ dh PauseForTime
 db 0x10
 dh InsName
 dh 0x0034//Coirpre
-.stringn ", 그 아이는 제 보물입니다"
+.stringn "・・・ 그 아이는 제 보물입니다"
 db NewLine
 .stringn "피를 나눴는가는 중요하지 않습니다"
 db NewLine
@@ -529,7 +529,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "반란군에게 발목잡히지 않게"
+.stringn "반란군에게 발목 잡히지 않게"
 db NewLine
 .stringn "주의하도록!"
 db NewLine
@@ -678,7 +678,7 @@ db ScrollText
 
 .stringn "피할 수 없는 전쟁이라면, 어떻게든"
 db NewLine
-.stringn "의미있는 전쟁으로 만드는 것이"
+.stringn "의미 있는 전쟁으로 만드는 것이"
 db NewLine
 .stringn "내 역할이겠지"
 db WaitForA
@@ -993,7 +993,7 @@ db ScrollText
 
 .stringn "놈도 트라키아의 방패라 불리는 무인"
 db NewLine
-.stringn "이제와서 도망칠 수 있을 것 같으냐?"
+.stringn "이제 와서 도망칠 수 있을 것 같으냐?"
 db NewLine
 .stringn "놈은 마지막까지 우리와 함께 싸운다!"
 
@@ -1100,7 +1100,7 @@ db Top_Slot// Leif
 db NewLine
 .stringn "제가 말하는 바가 거짓인지는,"
 db NewLine
-.stringn "절 보면 알 수 있을 것입니다"
+.stringn "보면 알 수 있을 것입니다"
 db WaitForA
 db ScrollText
 
@@ -1213,7 +1213,7 @@ db ScrollText
 
 .stringn "전쟁이란 본래 죽고 죽이는 것"
 db NewLine
-.stringn "이제와서 따지는 데 의미가 있느냐?"
+.stringn "이제 와서 따지는 데 의미가 있느냐?"
 db NewLine
 
 db Bottom_Slot// Altena
@@ -1332,7 +1332,7 @@ db ScrollText
 
 .stringn "곧 출격하셔야 할 때에"
 db NewLine
-.stringn "어찌하여 제게 주신단 말씀을?"
+.stringn "어찌하여 제게 주시는 겁니까?"
 db NewLine
 .stringn "설마・・・ 아버지?"
 
@@ -1358,12 +1358,12 @@ dh PauseForTime
 db 0x10
 .stringn "그러니 바라는 대로 하라지 않았느냐"
 db NewLine
-.stringn "다만, 백성들만은 괴롭히지 말아다오"
+.stringn "그저 백성들이 괴롭지만 않게 해 다오"
 db NewLine
 .stringn "내 바람은 이것뿐이다"
 db WaitForA
 dh ScrollText_DBC
-.stringn "잘 있어라, 아리온!"
+.stringn "그럼 잘 있어라, 아리온!"
 db NewLine
 db WaitForA
 db ScrollText
@@ -1583,7 +1583,7 @@ db ScrollText
 
 .stringn "곧 출격하셔야 할 때에"
 db NewLine
-.stringn "어찌하여 제게 주신단 말씀을?"
+.stringn "어찌하여 제게 주시는 겁니까?"
 db NewLine
 .stringn "설마・・・ 아버지?"
 
@@ -1609,12 +1609,12 @@ dh PauseForTime
 db 0x10
 .stringn "그러니 바라는 대로 하라지 않았느냐"
 db NewLine
-.stringn "다만, 백성들만은 괴롭히지 말아다오"
+.stringn "그저 백성들이 괴롭지만 않게 해 다오"
 db NewLine
 .stringn "내 바람은 이것뿐이다"
 db WaitForA
 dh ScrollText_DBC
-.stringn "잘 있어라, 아리온!"
+.stringn "그럼 잘 있어라, 아리온!"
 db NewLine
 db WaitForA
 db ScrollText
@@ -1795,14 +1795,14 @@ dh PauseForTime
 db 0x10
 .stringn "네, 왕자는 훌륭한 사람이라 들었어요"
 db NewLine
-.stringn "저도 되도록이면 싸우고 싶지 않아요"
+.stringn "저도 될 수 있으면 싸우고 싶지 않지만,"
 db NewLine
-.stringn "하지만 저희 말을 들어 줄지・・・"
+.stringn "저희 말을 들어 줄지・・・"
 db WaitForA
 
 db Top_Slot// Altena
 dh ScrollText_DBC
-.stringn "제가 한 번 설득해 보겠습니다"
+.stringn "제가 한번 설득해 보겠습니다"
 db NewLine
 .stringn "그러니, 조금만 시간을 주십시오!"
 db NewLine
@@ -1920,7 +1920,7 @@ db ScrollText
 
 .stringn "아빠는 원래 세리스 님과"
 db NewLine
-.stringn "싸우고 싶어하지 않았는데"
+.stringn "싸우고 싶어 하지 않았는데"
 db NewLine
 .stringn "나 때문에 억지로・・・"
 db WaitForA
@@ -2105,7 +2105,7 @@ dh LoadPortrait
 dh 0x0267//Judah
 .stringn "카파토기아가 적의 손에 떨어져!?"
 db NewLine
-.stringn "트라키아군은 순 머저리들 뿐인가!"
+.stringn "트라키아군은 순 머저리들뿐인가!"
 db NewLine
 db WaitForA
 db ScrollText
@@ -2130,7 +2130,7 @@ dh LoadPortrait
 dh 0x0261//Musar
 .stringn "여기가 트라키아인가"
 db NewLine
-.stringn "・・・훗, 볼것도 없는 황무지로군"
+.stringn "・・・훗, 터무니없는 황무지로군"
 db NewLine
 db WaitForA
 db ScrollText
@@ -2266,11 +2266,11 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x025B//Arion
-.stringn "왔구나・・・좋아, 가자!"
+.stringn "왔구나・・・ 좋아, 가자!"
 db NewLine
 .stringn "승리할 것인가, 죽을 것인가・・・"
 db NewLine
-.stringn "모든 건 너희들이 하기 나름이다"
+.stringn "모든 건 너희에게 달려 있다!"
 db WaitForA
 db ScrollText
 
@@ -2520,7 +2520,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "그후로 쭉 친아들처럼 기르고 계시죠"
+.stringn "그 후로 쭉 친아들처럼 기르고 계시죠"
 db NewLine
 .stringn "정말 따뜻한 분이시랍니다"
 db NewLine
@@ -2546,7 +2546,7 @@ db ScrollText
 
 .stringn "별 힘도 없는 주제에 잘난 척만 하고,"
 db NewLine
-.stringn "정말 꼴보기 싫은 놈이야!"
+.stringn "정말 꼴 보기 싫은 놈이야!"
 db NewLine
 db WaitForA
 db EndText
@@ -2600,7 +2600,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x02AF//Villager
-.stringn "소문으로 듣자하니"
+.stringn "소문으로 듣자 하니"
 db NewLine
 .stringn "제국에서 원군이 오고 있다나 봐"
 db NewLine
@@ -2636,7 +2636,7 @@ dh 0x02AF//Villager
 db NewLine
 .stringn "제국에서 온 원군을"
 db NewLine
-.stringn "그새 박살내 버렸구나"
+.stringn "그새 박살 내 버렸구나"
 db WaitForA
 db EndText
 
@@ -2652,7 +2652,7 @@ dh LoadPortrait
 dh 0x002C//Altena
 .stringn "무의미하게 덤비지 마라"
 db NewLine
-.stringn "그정도 실력으론 날 쓰러뜨릴 수 없다!"
+.stringn "너는 날 쓰러뜨릴 수 없다!"
 db NewLine
 db WaitForA
 db EndText
@@ -2667,9 +2667,9 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0024//Hannibal
-.stringn "역시 싸워야만 하는가・・・"
+.stringn "역시 싸워야만 하는가"
 db NewLine
-.stringn "이것도 트라키아를 위한 일・・・"
+.stringn "이것도 트라키아를 위해・・・"
 db NewLine
 .stringn "어쩔 수 없겠지・・・"
 db WaitForA
@@ -2687,14 +2687,14 @@ dh LoadPortrait
 dh 0x0263//Kanatz
 .stringn "이 성은 한니발 님께서"
 db NewLine
-.stringn "내게 맡기신 곳이다"
+.stringn "맡기신 곳이다"
 db NewLine
 db WaitForA
 db ScrollText
 
 .stringn "내 목숨과 바꿔서라도,"
 db NewLine
-.stringn "결코 넘겨주지 않겠다!"
+.stringn "절대 넘겨주지 않겠다!"
 db NewLine
 db WaitForA
 db EndText
@@ -2744,7 +2744,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0267//Judah
-.stringn "네 이놈・・・ 뭐가 해방군이냐・・・"
+.stringn "흥・・・ 뭐가 해방군이냐・・・"
 db NewLine
 .stringn "세상에 빛 따윈 필요 없다"
 db NewLine

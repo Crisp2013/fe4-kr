@@ -1,4 +1,4 @@
-
+//Script:Prologue
 //offset 0x318771
 // 0x318971
 Dialogue_318771:
@@ -27,7 +27,7 @@ db 0x10
 db NewLine
 .stringn "・・・・・다들 잘 싸워주었어요"
 db NewLine
-.stringn "저는 신경쓰지 마시고"
+.stringn "저는 더 이상 신경 쓰지 말고"
 db WaitForA
 dh ScrollText_DBC
 .stringn "지금은 한 명이라도 더 살아남아 주세요"
@@ -121,7 +121,7 @@ db NewLine
 .stringn "싸우다 죽는 건 당연한 일입니다"
 db WaitForA
 dh ScrollText_DBC
-.stringn "주군을 홀로 죽게 내버려두고"
+.stringn "주군을 홀로 죽게 내버려 두고"
 db NewLine
 .stringn "뻔뻔하게 살아남을 순 없습니다"
 db NewLine
@@ -151,7 +151,7 @@ db ScrollText
 
 .stringn "야만족 놈들은 마을이 보이는 족족"
 db NewLine
-.stringn "약탈하고 죽이고 불태운다 들었어"
+.stringn "약탈하고 죽이고 불태운다고 들었어"
 db NewLine
 db WaitForA
 db ScrollText
@@ -244,7 +244,7 @@ db Top_Slot// Sigurd
 db NewLine
 .stringn "네가 기사가 되기 위해"
 db NewLine
-.stringn "나한테 온 것도 이제 2년째지"
+.stringn "나한테 온 것도 이제 2년 째지"
 db WaitForA
 db ScrollText
 
@@ -381,10 +381,10 @@ dh 0x004D//Munnir
 db NewLine
 .stringn "혼자서 수고 많았어, 형씨"
 db NewLine
-.stringn "하지만 그것도 여기까지다"
+.stringn "하지만 여기까지다, "
 dh PauseForTime
 db 0x10
-.stringn "죽어랏!"
+.stringn "죽어라!"
 db WaitForA
 db EndText
 
@@ -455,7 +455,7 @@ db ScrollText
 
 
 db Top_Slot// DiMaggio
-.stringn "헤・・・"
+.stringn "저희만 말입니까?"
 db NewLine
 
 db Bottom_Slot// Munnir
@@ -471,7 +471,7 @@ dh ScrollText_DBC
 db NewLine
 .stringn "치고 올라가는 거다, 어차피 지금"
 db NewLine
-.stringn "이 나라에 군대라곤 없어"
+.stringn "이 나라엔 제대로 된 군대가 없어"
 db WaitForA
 db ScrollText
 
@@ -482,7 +482,7 @@ db ScrollText
 
 
 db Top_Slot// DiMaggio
-.stringn "예이, 알겠습니다요. 맡겨만 주십쇼!"
+.stringn "예입, 알겠습니다요. 맡겨만 주십쇼!"
 db NewLine
 db WaitForA
 db EndText
@@ -534,9 +534,9 @@ dh LoadPortrait
 dh 0x0017//Edain
 
 db Top_Slot// Munnir
-.stringn "발이 그렇게 느려서 어디 쓰겠냐!"
+.stringn "꾸물거리지 마라!"
 db NewLine
-.stringn "빨리 오라고!!"
+.stringn "빨리 따라와!!"
 db NewLine
 
 db Bottom_Slot// Edain
@@ -561,7 +561,7 @@ dh 0x0041//DiMaggio
 db NewLine
 .stringn "다음은 시알피다!"
 db NewLine
-.stringn "마을도 잊지 말고 챙겨라!"
+.stringn "마을 약탈도 잊지 마라!"
 db WaitForA
 db EndText
 
@@ -582,7 +582,7 @@ dh LoadPortrait
 dh 0x0011//Ethlyn
 
 db Top_Slot// Quan
-.stringn "제때 온 모양이군, 시구르드는 무사한가?"
+.stringn "늦진 않았나, 시구르드는 무사하겠지?"
 db NewLine
 
 db Bottom_Slot// Ethlyn
@@ -612,7 +612,7 @@ db ScrollText
 db NewLine
 .stringn "더 이상 시알피 집안 사람이 아닌데도"
 db NewLine
-.stringn "가만히 두고볼 수가 없어서・・・"
+.stringn "가만히 두고 볼 수가 없어서・・・"
 db WaitForA
 db ScrollText
 
@@ -623,16 +623,16 @@ db ScrollText
 
 
 db Top_Slot// Quan
-.stringn "사과는 필요 없어, 에슬린"
+.stringn "사과할 필요 없어, 에슬린"
 db NewLine
-.stringn "시구르드는 내게 있어서도 소중한 친구지"
+.stringn "시구르드는 나에게도 소중한 친구야"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "그리고 널 아내로 들인 지금"
+.stringn "그리고 널 아내로 들인 지금은"
 db NewLine
-.stringn "그는 내 처남이기도 해"
+.stringn "내 처남이기도 해"
 db NewLine
 .stringn "너 혼자만 싸우게 둘 순 없어"
 
@@ -650,7 +650,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0005//Finn
-.stringn "서두르죠,"
+.stringn "서두릅시다,"
 db NewLine
 .stringn "큐안 님, 에슬린 님"
 db NewLine
@@ -772,7 +772,7 @@ dh 0x0040//Gerrard
 db NewLine
 .stringn "간돌프 왕자님께 부탁받고도 실패하다니,"
 db NewLine
-.stringn "하여튼 쓸모없는 놈이라니까!"
+.stringn "하여튼 쓸모없는 놈 같으니!"
 db WaitForA
 db ScrollText
 
@@ -914,12 +914,12 @@ db Top_Slot// Munnir
 db NewLine
 .stringn "난 마파로 돌아가겠다"
 db NewLine
-.stringn "이 성은 너한테 맡기마, 제대로 지켜"
+.stringn "이 성을 맡길 테니 똑바로 지켜라"
 
 db Bottom_Slot// Gerrard
 dh PauseForTime
 db 0x10
-.stringn "예이, 알겠습니다"
+.stringn "예입, 알겠습니다"
 db NewLine
 .stringn "그런데 간돌프 왕자님"
 db NewLine
@@ -945,11 +945,11 @@ db WaitForA
 
 db Top_Slot// Munnir
 dh ScrollText_DBC
-.stringn "멍청한 놈, 부러운 표정 지을 필요 없어"
+.stringn "멍청한 놈, 부러운 표정 지을 필요 없다"
 db NewLine
 .stringn "그란벨을 점령하고 나면"
 db NewLine
-.stringn "너한테도 질릴 만큼 던져주지"
+.stringn "너한테도 질릴 만큼 던져줄 테니"
 db WaitForA
 db ScrollText
 
@@ -973,9 +973,9 @@ db WaitForA
 
 db Top_Slot// Munnir
 dh ScrollText_DBC
-.stringn "뭐라고 궁시렁대는 거야?"
+.stringn "뭐라고 구시렁대는 거야?"
 db NewLine
-.stringn "자, 가자! 꾸물대지 마라!!"
+.stringn "자, 가자! 꾸물거리지 마라!!"
 db NewLine
 db WaitForA
 db EndText
@@ -997,7 +997,7 @@ dh LoadPortrait
 dh 0x000E//Lex
 
 db Top_Slot// Azelle
-.stringn "렉스, 제때 맞춘 것 같아"
+.stringn "렉스, 제때 맞춘 것 같네"
 db NewLine
 
 db Bottom_Slot// Lex
@@ -1010,7 +1010,7 @@ db NewLine
 .stringn "고생하고 있을 거야"
 db WaitForA
 dh ScrollText_DBC
-.stringn "우리가 가면 기뻐하겠지"
+.stringn "우리가 가면 분명 기뻐하겠지"
 db NewLine
 .stringn "하지만 너도 참 별난 녀석이다"
 db NewLine
@@ -1058,7 +1058,7 @@ dh PauseForTime
 db 0x10
 .stringn "잉그비의 에딘 공녀가 걱정되는 거겠지"
 db NewLine
-.stringn "네가 걔를 좋아한다는 건"
+.stringn "네 짝사랑 상대라는 건"
 db NewLine
 .stringn "다 알고 있다고"
 db WaitForA
@@ -1087,9 +1087,9 @@ db NewLine
 db Bottom_Slot// Lex
 dh PauseForTime
 db 0x10
-.stringn "하하하, 알았어. 간만에"
+.stringn "하하하, 알았어"
 db NewLine
-.stringn "실력 행사 좀 해 볼까?"
+.stringn "간만에 실력 행사 좀 해 볼까?"
 db NewLine
 db WaitForA
 db EndText
@@ -1242,12 +1242,12 @@ db ScrollText
 
 .stringn "이 돈은 마을 사람들이 모은 겁니다"
 db NewLine
-.stringn "조금이지만 싸움에 보탬이 되면 좋겠네요"
+.stringn "적지만 도움이 되면 좋겠네요"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "다른 마을도 구해주기만 한다면"
+.stringn "다른 마을 사람들도 구해주신다면"
 db NewLine
 .stringn "분명 당신들에게 협력할 거예요"
 db NewLine
@@ -1335,9 +1335,9 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x02AB//Old villager
-.stringn "잉그비는 활솜씨가 좋은 집안이지"
+.stringn "잉그비는 활솜씨가 좋은 집안이라네"
 db NewLine
-.stringn "공작가 사람들은 활의 신 울르의 자손이라네"
+.stringn "가문 사람들은 활의 신 울르의 자손이지"
 db NewLine
 db WaitForA
 db ScrollText
@@ -1450,24 +1450,24 @@ db NewLine
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn "알비스 경!?"
+.stringn "알비스 경!? 어째서 당신이・・・"
 db NewLine
 db WaitForA
 
 db Top_Slot// Arvis
 dh ScrollText_DBC
-.stringn "폐하께서 걱정하고 계신다"
+.stringn "폐하께서 여간 걱정이 아니신지,"
 db NewLine
-.stringn "내게 지켜보고 오라고 명하시더군"
+.stringn "한 번 지켜보고 오라고 명하셨다네"
 db NewLine
 db WaitForA
 db ScrollText
 
 .stringn "그리고,"
 db NewLine
-.stringn "이건 폐하께서 보내신 것이다"
+.stringn "이건 폐하께서 보내신 선물일세"
 db NewLine
-.stringn "받아주게"
+.stringn "부디 받아주게나"
 
 db Bottom_Slot// Sigurd
 dh PauseForTime
@@ -1476,7 +1476,7 @@ db 0x10
 db NewLine
 .stringn "・・・폐하께서 이걸 제게・・・"
 db NewLine
-.stringn "아아, 이리 명예로울 데가"
+.stringn "아아, 이리 명예로울 데가・・・"
 db WaitForA
 dh ScrollText_DBC
 .stringn "알비스 경, 폐하께"
@@ -1545,9 +1545,9 @@ db WaitForA
 
 db Top_Slot// Arvis
 dh ScrollText_DBC
-.stringn "그걸 들으니 안심이 되는군"
+.stringn "그 말을 들으니 안심이 되는군"
 db NewLine
-.stringn "그럼 난 발할라로 돌아가겠네"
+.stringn "그럼 난 이만 발할라로 돌아가겠네"
 db NewLine
 .stringn "폐하를 지켜야 하니까 말이야"
 db WaitForA
@@ -1589,16 +1589,16 @@ db WaitForA
 
 db Top_Slot// Arvis
 dh ScrollText_DBC
-.stringn "폐하께서 걱정하고 계신다"
+.stringn "폐하께서 여간 걱정이 아니신지,"
 db NewLine
-.stringn "내게 지켜보고 오라고 명하시더군"
+.stringn "한 번 지켜보고 오라고 명하셨다네"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "그리고 이건 폐하께서 보내신 것이다"
+.stringn "이건 폐하께서 보내신 선물일세"
 db NewLine
-.stringn "받아주게"
+.stringn "부디 받아주게나"
 db NewLine
 
 db Bottom_Slot// Sigurd
@@ -1608,7 +1608,7 @@ db 0x10
 db NewLine
 .stringn "・・・폐하께서 이걸 제게・・・"
 db NewLine
-.stringn "아아, 이리 명예로울 데가"
+.stringn "아아, 이리 명예로울 데가・・・"
 db WaitForA
 dh ScrollText_DBC
 .stringn "알비스 경, 폐하께"
@@ -1623,9 +1623,9 @@ db ScrollText
 db Top_Slot// Arvis
 .stringn "그러지, 그건 그렇고 시구르드"
 db NewLine
-.stringn "동생 아젤이 자네 군에"
+.stringn "동생 아젤이 자네 군에 있다고"
 db NewLine
-.stringn "합류했다고 들었다만 잘 지내고 있나?"
+.stringn "들었다만, 무사히 잘 있는가?"
 
 db Bottom_Slot// Sigurd
 dh PauseForTime
@@ -1636,7 +1636,7 @@ db WaitForA
 
 db Top_Slot// Arvis
 dh ScrollText_DBC
-.stringn "설마 전사했다는 말인가?"
+.stringn "전사한 모양이군"
 db NewLine
 
 db Bottom_Slot// Sigurd

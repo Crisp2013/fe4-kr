@@ -1,5 +1,5 @@
 
-
+//Script:Chapter 1
 //offset 0x108d0a
 // 0x108f0a
 Dialogue_108d0a:
@@ -194,9 +194,9 @@ db WaitForA
 
 db Top_Slot// Cimbaeth
 dh ScrollText_DBC
-.stringn "그래, 걱정 말라고. 에반스만"
+.stringn "그래, 걱정하지 말라고"
 db NewLine
-.stringn "탈환하면 돌려보내 주지"
+.stringn "에반스만 탈환하면 돌려보내 주지"
 db NewLine
 
 db Bottom_Slot// Ayra
@@ -423,7 +423,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x000B//Jamke
-.stringn "에딘, 너와는 다시 한 번 만나고 싶어"
+.stringn "에딘, 너와는 다시 한번 만나고 싶어"
 db NewLine
 .stringn "그리고 그땐・・・"
 db NewLine
@@ -450,7 +450,7 @@ db ScrollText
 
 .stringn "너희들,"
 db NewLine
-.stringn "당장 그 여자랑 도둑 꼬맹이를 잡아와라"
+.stringn "당장 그 여자랑 도둑 꼬마를 잡아 와라"
 db NewLine
 .stringn "저항하면 죽여도 상관없다!"
 db WaitForA
@@ -511,7 +511,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "이런 의미없는 싸움으로"
+.stringn "이런 의미 없는 싸움으로"
 db NewLine
 .stringn "목숨을 잃을 필요는 없을 것이다"
 db NewLine
@@ -555,7 +555,7 @@ db 0x10
 db NewLine
 .stringn "그것이 이자크의 법도"
 db NewLine
-.stringn "당분간 당신에게 검을 이 검을 바치겠다"
+.stringn "당분간 그대에게 이 검을 바치겠다"
 db WaitForA
 dh ScrollText_DBC
 .stringn "하지만 그란벨이"
@@ -679,14 +679,14 @@ db WaitForA
 
 db Top_Slot// Yong Shannan
 dh ScrollText_DBC
-.stringn "정말이야? 그럼 아이라도"
+.stringn "정말이야? 그러면 아이라도"
 db NewLine
 .stringn "이제 싸우지 않아도 되겠네"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "아이라 누나는 날 위해"
+.stringn "아이라는 날 위해"
 db NewLine
 .stringn "억지로 싸우고 있어"
 db NewLine
@@ -861,14 +861,14 @@ db ScrollText
 
 
 db Top_Slot// Yong Shannan
-.stringn "정말이야? 그럼 아이라도"
+.stringn "정말이야? 그러면 아이라도"
 db NewLine
 .stringn "이제 싸우지 않아도 되겠네"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "아이라 누나는 날 위해"
+.stringn "아이라는 날 위해"
 db NewLine
 .stringn "억지로 싸우고 있어"
 db NewLine
@@ -1331,9 +1331,9 @@ db WaitForA
 
 db Top_Slot// Sigurd
 dh ScrollText_DBC
-.stringn "알았으면 빨리 떠나라"
+.stringn "알았으면 어서 꺼져라"
 db NewLine
-.stringn "나는 네놈들같은 부류를"
+.stringn "나는 네놈들 같은 부류를"
 db NewLine
 .stringn "가장 경멸하니"
 db WaitForA
@@ -1520,7 +1520,7 @@ dh ScrollText_DBC
 db NewLine
 .stringn "애초에 정령의 마을 사람들은"
 db NewLine
-.stringn "바깥 세상으로 잘 나오지도 않는데다"
+.stringn "바깥세상으로 잘 나오지도 않는데다"
 db WaitForA
 db ScrollText
 
@@ -1536,8 +1536,10 @@ db ScrollText
 db NewLine
 .stringn "세상에 큰 재앙이 닥친다고"
 db NewLine
+.stringn "그 마을 사람들은 믿고 있습니다"
 db WaitForA
 db ScrollText
+
 
 .stringn "당신을 위해서 하는 말입니다"
 db NewLine
@@ -1725,7 +1727,7 @@ db NewLine
 db Bottom_Slot// Sandima
 dh PauseForTime
 db 0x10
-.stringn "훗・・・ 이제와서 무슨 헛소리냐"
+.stringn "훗・・・ 이제 와서 무슨 헛소리냐"
 db NewLine
 .stringn "베르던도 조금은 도움이 될 줄 알았다만"
 db NewLine
@@ -1974,7 +1976,7 @@ db WaitForA
 dh ScrollText_DBC
 .stringn "다행이다,"
 db NewLine
-.stringn "정말로 다시는 못 볼줄 알았어"
+.stringn "정말로 다시는 못 볼 줄 알았어"
 db NewLine
 db WaitForA
 db ScrollText
@@ -2107,7 +2109,7 @@ db WaitForA
 dh ScrollText_DBC
 .stringn "다행이다,"
 db NewLine
-.stringn "정말로 다시는 못 볼줄 알았어"
+.stringn "정말로 다시는 못 볼 줄 알았어"
 db NewLine
 db WaitForA
 db ScrollText
@@ -2246,8 +2248,10 @@ db ScrollText
 db NewLine
 .stringn "그 벌은 저 한 사람에게 주소서!"
 db NewLine
+.stringn "저는 맹세합니다!"
 db WaitForA
 db ScrollText
+
 
 .stringn "설령 이 몸이 갈가리 찢길지라도,"
 db NewLine

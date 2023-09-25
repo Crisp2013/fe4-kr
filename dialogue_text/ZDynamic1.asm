@@ -2,7 +2,7 @@
 //offset 0xd9922
 // 0xd9b22
 Dialogue_d9922:
-.stringn "소셜나이트"
+.stringn "소셜 나이트"
 db EndText
 
 //end 0xd992b
@@ -10,7 +10,7 @@ db EndText
 //offset 0xd992b
 // 0xd9b2b
 Dialogue_d992b:
-.stringn "랜스나이트"
+.stringn "랜스 나이트"
 db EndText
 
 //end 0xd9933
@@ -18,7 +18,7 @@ db EndText
 //offset 0xd9933
 // 0xd9b33
 Dialogue_d9933:
-.stringn "아치나이트"
+.stringn "아치 나이트"
 db EndText
 
 //end 0xd993b
@@ -26,7 +26,7 @@ db EndText
 //offset 0xd993b
 // 0xd9b3b
 Dialogue_d993b:
-.stringn "액스나이트"
+.stringn "액스 나이트"
 db EndText
 
 //end 0xd9943
@@ -34,7 +34,7 @@ db EndText
 //offset 0xd9943
 // 0xd9b43
 Dialogue_d9943:
-.stringn "프리나이트"
+.stringn "프리 나이트"
 db EndText
 
 //end 0xd994b
@@ -50,7 +50,7 @@ db EndText
 //offset 0xd9953
 // 0xd9b53
 Dialogue_d9953:
-.stringn "로드나이트"
+.stringn "로드 나이트"
 db EndText
 
 //end 0xd995b
@@ -58,7 +58,7 @@ db EndText
 //offset 0xd995b
 // 0xd9b5b
 Dialogue_d995b:
-.stringn "듀크나이트"
+.stringn "듀크 나이트"
 db EndText
 
 //end 0xd9964
@@ -66,7 +66,7 @@ db EndText
 //offset 0xd9964
 // 0xd9b64
 Dialogue_d9964:
-.stringn "마스터나이트"
+.stringn "마스터 나이트"
 db EndText
 
 //end 0xd996d
@@ -82,7 +82,7 @@ db EndText
 //offset 0xd9974
 // 0xd9b74
 Dialogue_d9974:
-.stringn "보우나이트"
+.stringn "보우 나이트"
 db EndText
 
 //end 0xd997b
@@ -90,7 +90,7 @@ db EndText
 //offset 0xd997b
 // 0xd9b7b
 Dialogue_d997b:
-.stringn "포레스트나이트"
+.stringn "포레스트 나이트"
 db EndText
 
 //end 0xd9985
@@ -98,7 +98,7 @@ db EndText
 //offset 0xd9985
 // 0xd9b85
 Dialogue_d9985:
-.stringn "메이지나이트"
+.stringn "메이지 나이트"
 db EndText
 
 //end 0xd998d
@@ -106,7 +106,7 @@ db EndText
 //offset 0xd998d
 // 0xd9b8d
 Dialogue_d998d:
-.stringn "그레이트나이트"
+.stringn "그레이트 나이트"
 db EndText
 
 //end 0xd9996
@@ -114,7 +114,7 @@ db EndText
 //offset 0xd9996
 // 0xd9b96
 Dialogue_d9996:
-.stringn "페가수스라이더"
+.stringn "페가수스 라이더"
 db EndText
 
 //end 0xd99a0
@@ -122,7 +122,7 @@ db EndText
 //offset 0xd99a0
 // 0xd9ba0
 Dialogue_d99a0:
-.stringn "페가수스나이트"
+.stringn "페가수스 나이트"
 db EndText
 
 //end 0xd99a9
@@ -130,7 +130,7 @@ db EndText
 //offset 0xd99a9
 // 0xd9ba9
 Dialogue_d99a9:
-.stringn "팔콘나이트"
+.stringn "팔콘 나이트"
 db EndText
 
 //end 0xd99b3
@@ -138,7 +138,7 @@ db EndText
 //offset 0xd99b3
 // 0xd9bb3
 Dialogue_d99b3:
-.stringn "드래곤라이더"
+.stringn "드래곤 라이더"
 db EndText
 
 //end 0xd99bd
@@ -146,7 +146,7 @@ db EndText
 //offset 0xd99bd
 // 0xd9bbd
 Dialogue_d99bd:
-.stringn "드래곤나이트"
+.stringn "드래곤 나이트"
 db EndText
 
 //end 0xd99c6
@@ -154,7 +154,7 @@ db EndText
 //offset 0xd99c6
 // 0xd9bc6
 Dialogue_d99c6:
-.stringn "드래곤마스터"
+.stringn "드래곤 마스터"
 db EndText
 
 //end 0xd99d0
@@ -162,7 +162,7 @@ db EndText
 //offset 0xd99d0
 // 0xd9bd0
 Dialogue_d99d0:
-.stringn "보우파이터"
+.stringn "보우 파이터"
 db EndText
 
 //end 0xd99d9
@@ -170,7 +170,7 @@ db EndText
 //offset 0xd99d9
 // 0xd9bd9
 Dialogue_d99d9:
-.stringn "소드파이터"
+.stringn "소드 파이터"
 db EndText
 
 //end 0xd99e3
@@ -178,7 +178,7 @@ db EndText
 //offset 0xd99e3
 // 0xd9be3
 Dialogue_d99e3:
-.stringn "소드마스터"
+.stringn "소드 마스터"
 db EndText
 
 //end 0xd99ec
@@ -234,7 +234,7 @@ db EndText
 //offset 0xd9a15
 // 0xd9c15
 Dialogue_d9a15:
-.stringn "스피어솔저"
+.stringn "스피어 솔저"
 db EndText
 
 //end 0xd9a1f
@@ -242,7 +242,7 @@ db EndText
 //offset 0xd9a1f
 // 0xd9c1f
 Dialogue_d9a1f:
-.stringn "액스솔저"
+.stringn "액스 솔저"
 db EndText
 
 //end 0xd9a29
@@ -258,7 +258,7 @@ db EndText
 //offset 0xd9a30
 // 0xd9c30
 Dialogue_d9a30:
-.stringn "소드솔저"
+.stringn "소드 솔저"
 db EndText
 
 //end 0xd9a3a
@@ -274,7 +274,7 @@ db EndText
 //offset 0xd9a40
 // 0xd9c40
 Dialogue_d9a40:
-.stringn "액스아머"
+.stringn "액스 아머"
 db EndText
 
 //end 0xd9a49
@@ -282,7 +282,7 @@ db EndText
 //offset 0xd9a49
 // 0xd9c49
 Dialogue_d9a49:
-.stringn "보우아머"
+.stringn "보우 아머"
 db EndText
 
 //end 0xd9a51
@@ -290,7 +290,7 @@ db EndText
 //offset 0xd9a51
 // 0xd9c51
 Dialogue_d9a51:
-.stringn "소드아머"
+.stringn "소드 아머"
 db EndText
 
 //end 0xd9a5a
@@ -306,7 +306,7 @@ db EndText
 //offset 0xd9a62
 // 0xd9c62
 Dialogue_d9a62:
-.stringn "액스파이터"
+.stringn "액스 파이터"
 db EndText
 
 //end 0xd9a6c
@@ -314,7 +314,7 @@ db EndText
 //offset 0xd9a6c
 // 0xd9c6c
 Dialogue_d9a6c:
-.stringn "마운틴시프"
+.stringn "마운틴 시프"
 db EndText
 
 //end 0xd9a76
@@ -338,7 +338,7 @@ db EndText
 //offset 0xd9a83
 // 0xd9c83
 Dialogue_d9a83:
-.stringn "파이레츠"
+.stringn "파이레트"
 db EndText
 
 //end 0xd9a8a
@@ -346,7 +346,7 @@ db EndText
 //offset 0xd9a8a
 // 0xd9c8a
 Dialogue_d9a8a:
-.stringn "주니어로드"
+.stringn "주니어 로드"
 db EndText
 
 //end 0xd9a93
@@ -354,7 +354,7 @@ db EndText
 //offset 0xd9a93
 // 0xd9c93
 Dialogue_d9a93:
-.stringn "메이지파이터"
+.stringn "메이지 파이터"
 db EndText
 
 //end 0xd9a9d
@@ -378,7 +378,7 @@ db EndText
 //offset 0xd9aaa
 // 0xd9caa
 Dialogue_d9aaa:
-.stringn "메이지파이터"
+.stringn "메이지 파이터"
 db EndText
 
 //end 0xd9ab4
@@ -418,7 +418,7 @@ db EndText
 //offset 0xd9acf
 // 0xd9ccf
 Dialogue_d9acf:
-.stringn "파이어메이지"
+.stringn "파이어 메이지"
 db EndText
 
 //end 0xd9ad8
@@ -426,7 +426,7 @@ db EndText
 //offset 0xd9ad8
 // 0xd9cd8
 Dialogue_d9ad8:
-.stringn "선더메이지"
+.stringn "선더 메이지"
 db EndText
 
 //end 0xd9ae4
@@ -434,7 +434,7 @@ db EndText
 //offset 0xd9ae4
 // 0xd9ce4
 Dialogue_d9ae4:
-.stringn "윈드메이지"
+.stringn "윈드 메이지"
 db EndText
 
 //end 0xd9aed
@@ -442,7 +442,7 @@ db EndText
 //offset 0xd9aed
 // 0xd9ced
 Dialogue_d9aed:
-.stringn "하이프리스트"
+.stringn "하이 프리스트"
 db EndText
 
 //end 0xd9af6
@@ -482,7 +482,7 @@ db EndText
 //offset 0xd9b0e
 // 0xd9d0e
 Dialogue_d9b0e:
-.stringn "다크메이지"
+.stringn "다크 메이지"
 db EndText
 
 //end 0xd9b16
@@ -506,7 +506,7 @@ db EndText
 //offset 0xd9b22
 // 0xd9d22
 Dialogue_d9b22:
-.stringn "시프파이터"
+.stringn "시프 파이터"
 db EndText
 
 //end 0xd9b2c
@@ -530,7 +530,7 @@ db EndText
 //offset 0xd9b3a
 // 0xd9d3a
 Dialogue_d9b3a:
-.stringn "롱아치"
+.stringn "롱 아치"
 db EndText
 
 //end 0xd9b42
@@ -538,7 +538,7 @@ db EndText
 //offset 0xd9b42
 // 0xd9d42
 Dialogue_d9b42:
-.stringn "아이언아치"
+.stringn "아이언 아치"
 db EndText
 
 //end 0xd9b4b
@@ -546,7 +546,7 @@ db EndText
 //offset 0xd9b4b
 // 0xd9d4b
 Dialogue_d9b4b:
-.stringn "킬러아치"
+.stringn "킬러 아치"
 db EndText
 
 //end 0xd9b53
@@ -554,7 +554,7 @@ db EndText
 //offset 0xd9b53
 // 0xd9d53
 Dialogue_d9b53:
-.stringn "그레이트아치"
+.stringn "그레이트 아치"
 db EndText
 
 //end 0xd9b5c
@@ -562,7 +562,7 @@ db EndText
 //offset 0xd9b5c
 // 0xd9d5c
 Dialogue_d9b5c:
-.stringn "다크프린스"
+.stringn "다크 프린스"
 db EndText
 
 //end 0xd9b65

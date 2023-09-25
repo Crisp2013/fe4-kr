@@ -2,7 +2,7 @@
 //offset 0xeca72
 // 0xecc72
 Dialogue_eca72:
-.stringn "갑작스럽게도 사랑하는 조국으로부터"
+.stringn "뜻밖에도 사랑하는 조국으로부터"
 db NewLine
 .stringn "반역자의 오명을 뒤집어쓴 시구르드는"
 dh unknown_0082
@@ -56,7 +56,7 @@ dh unknown_0087
 db NewLine
 dh unknown_0080
 db 0x9D, 0x63, 0x0C, 0x24
-.stringn "왕족 내에서 후사를 둘러싼 대립이 일어나"
+.stringn "왕족 내에 후사를 둘러싼 대립이 일어나"
 db WaitForA
 db ScrollText
 
@@ -88,7 +88,7 @@ dh unknown_0083
 db 0x04, 0xC0, 0x50
 .stringn "야심가인 왕제 더커 공은"
 db NewLine
-.stringn "레빈의 왕위 계승을 우려하며"
+.stringn "레빈의 왕위 계승에 불복하여"
 db WaitForA
 db ScrollText
 
@@ -211,7 +211,7 @@ db ScrollText
 
 dh unknown_0080
 db 0x94, 0x3C, 0x0C, 0x2A
-.stringn "사막 도시 피노라에선"
+.stringn "사막 도시 피놀라에선"
 db NewLine
 .stringn "알비스 경의 유능한 부하인"
 db WaitForA
@@ -276,7 +276,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "신세졌던 실레지아를 더 이상"
+.stringn "신세를 졌던 실레지아를 더 이상"
 db NewLine
 .stringn "전란에 말려들게 할 순 없다."
 db WaitForA
@@ -345,7 +345,7 @@ dh PauseForTime
 db 0x0A
 .stringn "왕도 발할라를 둘러싼 격렬한 전쟁은"
 db NewLine
-.stringn "유력 제공 대부분을 죽음으로 몰아넣었고"
+.stringn "유력 제공 대부분의 목숨을 앗아갔고"
 db WaitForA
 dh PauseForTime
 db 0x0A
@@ -406,9 +406,9 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn "그란벨 제국 초대 황제에"
+.stringn "그란벨 제국의"
 db NewLine
-.stringn "오르게 되었다."
+.stringn "초대 황제가 되었다."
 db WaitForA
 dh PauseForTime
 db 0x0A
@@ -426,7 +426,7 @@ db EndText
 Dialogue_ed160:
 .stringn "그리고 발할라 전쟁으로부터"
 db NewLine
-.stringn "17년의 시간이 흘렀다."
+.stringn "17년의 세월이 흘렀다."
 db WaitForA
 db ScrollText
 
@@ -479,9 +479,9 @@ db 0x02
 dh unknown_0086
 db ScrollText
 
-.stringn "이곳 이자크에서도"
+.stringn "이곳 이자크에서도 사람들의"
 db NewLine
-.stringn "사람들의 고통은 한계에 다다르고 있다."
+.stringn "고통은 한계에 다다르고 있다."
 db WaitForA
 dh unknown_0087
 db ScrollText

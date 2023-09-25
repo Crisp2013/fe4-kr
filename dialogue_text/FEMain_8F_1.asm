@@ -2,7 +2,7 @@
 //offset 0xfdffa
 // 0xfe1fa
 Dialogue_fdffa:
-.stringn "８章"
+.stringn "8장"
 
 //offset 0xfdffe
 // 0xfe1fe

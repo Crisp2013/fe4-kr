@@ -60,3 +60,6 @@ goto next2
 echo 　 인트로 삽입이 완료되었습니다.
 echo.
 pause
+
+xdelta -e -f -s fe4.sfc fe4_trans.sfc fe4_k.xdelta
+pause

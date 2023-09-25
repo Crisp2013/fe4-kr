@@ -12,7 +12,7 @@ REM echo    (만약을 위해 최종 적용 직전에 자동 백업됩니다)
 REM echo  ㆍ어셈블리 코드 작성 오류 시 정상적으로 실행되지 않을 수 있습니다.
 REM echo.
 
-copy ..\msu_rom\fe4-msu.sfc fe4_msu.sfc
+
 set romname="..\msu_rom\fe4-msu.sfc"
 set choice=4
 

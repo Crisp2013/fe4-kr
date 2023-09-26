@@ -347,3 +347,6 @@ warnpc $80ffaf
 print "Patch end:   $", pc
 print "MSUIndexTable: $", hex(MSUIndexTable)
 ;eof
+
+org $F55B0E;size:1A8Bh
+incbin "title_gfx.4bpp.fe4"

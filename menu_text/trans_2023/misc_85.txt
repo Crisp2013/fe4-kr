@@ -29,13 +29,13 @@
 //#JMP($5BAB3, $5BAC6)
 #W16($5BA9D)
 // 　をせいあつした！<X>
-　을（을）　제압했다！<X>
+을／를　제압했다！<X>
 
 //Item Received
 //#JMP($5BC8C, $5BC9D)
 #W16($5BC3D)
 // 　をてにいれた！<X>
-　을（를）　손에　넣었다！<X>
+을／를　손에　넣었다！<X>
 
 //Combat forecast
 #JMP($58EA1, $58EC4)

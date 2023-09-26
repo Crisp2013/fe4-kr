@@ -5,7 +5,7 @@
 //offset 0xd9bd8
 // 0xd9dd8
 Dialogue_d9bd8:
-.stringn " 취소⑫"
+.stringn "관두다⑫"
 db EndText
 
 

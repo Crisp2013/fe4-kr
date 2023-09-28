@@ -50,7 +50,8 @@ db EndText
 //offset 0xd9bca
 // 0xd9dca
 Dialogue_d9bca:
-.stringn "기록⑫"//구버전에서 보존으로 할것
+.stringn "기록⑫"
+//구버전에서 보존으로 할것
 db EndText
 
 //end 0xd9bd1

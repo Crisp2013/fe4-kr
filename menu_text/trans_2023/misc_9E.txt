@@ -1,4 +1,4 @@
-(//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
 
 #VAR(menu, TABLE)
 #ADDTBL("menu_text/menutext.tbl", menu)
@@ -41,4 +41,4 @@
 //#JMP($1E998E, $1E99A3)
 #W16($1E9976)
 // ゴールド　ぬすまれた<X>
-골드를　빼앗겼다<X>)
+골드를　빼앗겼다<X>

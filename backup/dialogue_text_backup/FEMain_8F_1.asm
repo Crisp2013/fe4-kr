@@ -30,8 +30,7 @@ Dialogue_fe046:
 .stringn "南半島は険しい山々と不毛の大地に"
 db NewLine
 dh unknown_0086
-
-db Top_Slot
+db 0x06
 .stringn "竜騎士で知られるトラキア王国がある。"
 db WaitForA
 db ScrollText
@@ -261,8 +260,7 @@ db ScrollText
 db NewLine
 .stringn "竜騎士の国、トラキアである。"
 dh unknown_0086
-
-db Top_Slot
+db 0x06
 db WaitForA
 db ScrollText
 
@@ -409,7 +407,7 @@ db EndText
 // 0xfe8cc
 Dialogue_fe6cc:
 dh unknown_0086
-db NewLine
+db 0x02
 .stringn "まず最初にシレジアが住民の手に戻り、"
 db NewLine
 db WaitForA
@@ -426,13 +424,7 @@ db EndText
 // 0xfe8f5
 Dialogue_fe6f5:
 dh unknown_0086
-db EndText
-
-//end 0xfe6f8
-
-//offset 0xfe6f8
-// 0xfe8f8
-Dialogue_fe6f8:
+db 0x01
 .stringn "そして次に、アグストリアが"
 db NewLine
 .stringn "解放軍に呼応して兵を挙げた。"

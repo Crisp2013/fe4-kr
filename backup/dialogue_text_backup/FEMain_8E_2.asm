@@ -34,7 +34,7 @@ Dialogue_ecae4:
 db NewLine
 .stringn "シレジア王国は、"
 dh unknown_0086
-db NewLine
+db 0x02
 db WaitForA
 db ScrollText
 
@@ -397,7 +397,7 @@ db 0x00
 dh PauseForTime
 db 0x0A
 dh unknown_0086
-db WaitForA
+db 0x08
 db ScrollText
 
 .stringn "国民の圧倒的な支持によって"
@@ -476,7 +476,7 @@ Dialogue_ed21d:
 dh PauseForTime
 db 0x02
 dh unknown_0086
-db ScrollText
+db 0x04
 
 .stringn "ここイザークでも、"
 db NewLine

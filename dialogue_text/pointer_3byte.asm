@@ -1090,41 +1090,41 @@ write_hirom_pointer_org 0x1dca84, Dialogue_30b5fc	;FE4_05
 write_hirom_pointer_org 0x1dca9c, Dialogue_30b66a	;FE4_05	
 write_hirom_pointer_org 0x1dcadf, Dialogue_32dbc9	;FE4_Share	
 //need to check
-; write_hirom_pointer_org 0x1dcb06, Dialogue_1dcb49	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1dcb0b, Dialogue_1dccf4	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1dcb26, Dialogue_1dcf22	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1dd14f, Dialogue_1dd168	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1dd154, Dialogue_1dd400	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1dd464, Dialogue_1dd484	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1dd475, Dialogue_1dd5ff	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1dd78b, Dialogue_1dd7ab	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1dd79c, Dialogue_1dd87e	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1dd9f8, Dialogue_1ddb49	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1ddb79, Dialogue_1dd9fc	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1ddc0f, Dialogue_1ddb14	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1ddc15, Dialogue_1ddc35	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1ddc26, Dialogue_1dddba	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1de080, Dialogue_1de089	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1de085, Dialogue_1de0a4	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1de08b, Dialogue_1de0b3	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1de0bd, Dialogue_1de163	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1de0e0, Dialogue_1de1c5	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1de351, Dialogue_1de3f9	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1de38d, Dialogue_1de4ff	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1de393, Dialogue_1de547	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1de5d7, Dialogue_1de786	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1de814, Dialogue_1de849	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1de81f, Dialogue_1de897	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1de82a, Dialogue_1de8f8	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1de962, Dialogue_1de982	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1de973, Dialogue_1dea83	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1deb2a, Dialogue_1debce	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1deb3b, Dialogue_1dec7d	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1debd0, Dialogue_1deb4a	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1decdd, Dialogue_1ded84	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1ded2e, Dialogue_1deeab	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1def70, Dialogue_1de0b3	;FEUnk_9D_1	;]NOTICE:not same start
-; write_hirom_pointer_org 0x1def8b, Dialogue_1def8f	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1dcb06, Dialogue_1dcb49	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1dcb0b, Dialogue_1dccf4	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1dcb26, Dialogue_1dcf22	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1dd14f, Dialogue_1dd168	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1dd154, Dialogue_1dd400	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1dd464, Dialogue_1dd484	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1dd475, Dialogue_1dd5ff	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1dd78b, Dialogue_1dd7ab	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1dd79c, Dialogue_1dd87e	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1dd9f8, Dialogue_1ddb49	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1ddb79, Dialogue_1dd9fc	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1ddc0f, Dialogue_1ddb14	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1ddc15, Dialogue_1ddc35	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1ddc26, Dialogue_1dddba	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1de080, Dialogue_1de089	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1de085, Dialogue_1de0a4	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1de08b, Dialogue_1de0b3	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1de0bd, Dialogue_1de163	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1de0e0, Dialogue_1de1c5	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1de351, Dialogue_1de3f9	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1de38d, Dialogue_1de4ff	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1de393, Dialogue_1de547	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1de5d7, Dialogue_1de786	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1de814, Dialogue_1de849	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1de81f, Dialogue_1de897	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1de82a, Dialogue_1de8f8	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1de962, Dialogue_1de982	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1de973, Dialogue_1dea83	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1deb2a, Dialogue_1debce	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1deb3b, Dialogue_1dec7d	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1debd0, Dialogue_1deb4a	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1decdd, Dialogue_1ded84	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1ded2e, Dialogue_1deeab	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1def70, Dialogue_1de0b3	;FEUnk_9D_1	;]NOTICE:not same start
+write_hirom_pointer_org 0x1def8b, Dialogue_1def8f	;FEUnk_9D_1	;]NOTICE:not same start
 //need to check
 write_hirom_pointer_org 0x3081ef, Dialogue_33ca04	;FE4_10	
 write_hirom_pointer_org 0x308200, Dialogue_30e61e	;FEUnk_B0_2	

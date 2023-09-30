@@ -31,13 +31,7 @@ Dialogue_e8b27:
 .stringn "グランベルによるヴェルダン制圧は"
 db NewLine
 dh unknown_0086
-db EndText
-
-//end 0xe8b3e
-
-//offset 0xe8b3e
-// 0xe8d3e
-Dialogue_e8b3e:
+db 0x01
 .stringn "アグストリアに大きな混乱をもたらした。"
 db WaitForA
 db ScrollText

@@ -19,7 +19,7 @@ Dialogue_ddcb3:
 .stringn "長らく帝国の支配下にあったシレジアでは"
 db NewLine
 dh unknown_0086
-db NewLine
+db 0x02
 .stringn "住民による蜂起が相次ぎ、"
 db NewLine
 .stringn "聖戦の勝利の後"
@@ -63,7 +63,7 @@ Dialogue_dde0c:
 .stringn "長らく帝国の支配下にあったシレジアでは、"
 db NewLine
 dh unknown_0086
-db NewLine
+db 0x02
 dh PauseForTime
 db 0x02
 dh unknown_0083
@@ -264,6 +264,7 @@ Dialogue_ddfae:
 .stringn "トラキア半島は、その後を維ぐべき"
 db NewLine
 dh unknown_0086
+db 0x0A
 .stringn "リーフ王子とアルテナ王女を失い、"
 db NewLine
 .stringn "統一の機会を失った。"
@@ -328,6 +329,7 @@ Dialogue_de0e8:
 .stringn "トラキア半島は統一された。"
 db NewLine
 dh unknown_0086
+db 0x0A
 .stringn "かつては多くの小国が乱立し"
 db NewLine
 .stringn "戦いにあけくれたこの地方も、"
@@ -637,7 +639,7 @@ Dialogue_de3d3:
 .stringn "イザークは王位を維ぐべき"
 db NewLine
 dh unknown_0086
-db ScrollText
+db 0x04
 
 dh InsBlockText_2D //EBE50D00
 dh 0xBC35
@@ -701,7 +703,7 @@ Dialogue_de517:
 .stringn "イザーク王国は、いちはやく"
 db NewLine
 dh unknown_0086
-db ScrollText
+db 0x04
 
 .stringn "帝国の圧政から解放されたが"
 db NewLine
@@ -962,13 +964,7 @@ Dialogue_de7a8:
 .stringn "アグストリアは内乱のあと"
 db NewLine
 dh unknown_0086
-db EndText
-
-//end 0xde7bc
-
-//offset 0xde7bc
-// 0xde9bc
-Dialogue_de7bc:
+db 0x01
 .stringn "グランベルに併合されて"
 db NewLine
 .stringn "きびしい圧政のもとにあった。"
@@ -1228,7 +1224,8 @@ Dialogue_dead6:
 .stringn "ヴェルダン王国は"
 db NewLine
 dh unknown_0086
-dh unknown_000A
+db 0x00
+db 0x0A;maybe not needed?
 .stringn "へサの圧政下においても、"
 db NewLine
 .stringn "ほとんどかえりみられる事なく"
@@ -1407,7 +1404,7 @@ db 0x02, 0x98, 0x1C
 .stringn "セリス皇子が国民の圧倒的な支持によって"
 db NewLine
 dh unknown_0086
-db WaitForA
+db 0x08
 .stringn "国王として正式に迎えられた。"
 db NewLine
 .stringn "王となったセリスは国の復興と"

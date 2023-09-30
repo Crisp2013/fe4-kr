@@ -2,7 +2,7 @@
 // 0x1d8200
 Dialogue_1d8000:
 dh unknown_0086
-db WaitForA
+db 0x08
 .stringn "ユグドラル大陸の中央に位置する大国"
 db NewLine
 .stringn "グランベルは、十二聖戦士の一人、"

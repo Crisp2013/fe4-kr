@@ -115,7 +115,7 @@ db EndText
 
 //offset 0x1dcb39
 // 0x1dcd39
-Dialogue_1dcb39:
+Dialogue_1dcb39://문제?
 dh InsBlockText_2A
 write_hirom_pointer Dialogue_1dcb49
 dh InsBlockText_2A

@@ -1759,7 +1759,7 @@
 //POINTER #469 @ $39E03 - STRING #469 @ $3AA49
 
 #WRITE(Unit, $39E03)
-メング[X]
+//メング[X]
 멩[X]
 
 //POINTER #470 @ $39E05 - STRING #470 @ $3AA51

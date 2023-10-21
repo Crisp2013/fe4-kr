@@ -402,32 +402,32 @@ write_hirom_pointer_org 0xcf062, Dialogue_cff91	;WelcomeBack
 write_hirom_pointer_org 0xcf065, Dialogue_cffb5	;WelcomeBack	;]NOTICE:not same start
 //table end
 
-; write_hirom_pointer_org 0xd8128, Dialogue_16fd6f	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0xd812b, Dialogue_16fd84	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0xd8152, Dialogue_18ffc9	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0xd8155, Dialogue_18ffee	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0xd8186, Dialogue_16ff3e	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0xd81a9, Dialogue_16ff5d	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0xd81cc, Dialogue_16ff7a	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0xd81f1, Dialogue_16ffa6	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0xd8210, Dialogue_16fda0	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0xd8213, Dialogue_16fdcc	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0xd8236, Dialogue_16fde2	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0xd8239, Dialogue_16fe02	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0xd825e, Dialogue_16ffe0	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0xd8285, Dialogue_d8468	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0xd82ac, Dialogue_16fe35	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0xd82af, Dialogue_16fe68	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0xd82e6, Dialogue_16fe9c	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0xd82e9, Dialogue_16fec1	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0xd833e, Dialogue_d8487	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0xd8387, Dialogue_16fef4	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0xd838a, Dialogue_16ff29	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0xd83ab, Dialogue_d85f4	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0xd83d2, Dialogue_d860d	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0xd83f5, Dialogue_d8556	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0xd8416, Dialogue_d8575	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0xd8439, Dialogue_d8597	;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0xd8128, Dialogue_16fd6f	;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0xd812b, Dialogue_16fd84	;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0xd8152, Dialogue_18ffc9	;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0xd8155, Dialogue_18ffee	;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0xd8186, Dialogue_16ff3e	;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0xd81a9, Dialogue_16ff5d	;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0xd81cc, Dialogue_16ff7a	;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0xd81f1, Dialogue_16ffa6	;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0xd8210, Dialogue_16fda0	;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0xd8213, Dialogue_16fdcc	;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0xd8236, Dialogue_16fde2	;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0xd8239, Dialogue_16fe02	;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0xd825e, Dialogue_16ffe0	;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0xd8285, Dialogue_d8468	    ;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0xd82ac, Dialogue_16fe35	;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0xd82af, Dialogue_16fe68	;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0xd82e6, Dialogue_16fe9c	;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0xd82e9, Dialogue_16fec1	;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0xd833e, Dialogue_d8487	    ;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0xd8387, Dialogue_16fef4	;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0xd838a, Dialogue_16ff29	;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0xd83ab, Dialogue_d85f4	    ;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0xd83d2, Dialogue_d860d	    ;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0xd83f5, Dialogue_d8556	    ;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0xd8416, Dialogue_d8575	    ;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0xd8439, Dialogue_d8597	    ;unknown	;]NOTICE:english pointer but not in jpn
 write_hirom_pointer_org 0xd86c0, Dialogue_d91dc	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0xd86c7, Dialogue_33ad0a	;FE4_10	
 write_hirom_pointer_org 0xd86df, Dialogue_33b1eb	;FE4_10	
@@ -983,14 +983,14 @@ write_hirom_pointer_org 0x11d5f0, Dialogue_32ee5f	;FE4_Share
 ; write_hirom_pointer_org 0x14adb3, Dialogue_80c0	;unknown	;]NOTICE:not in list
 ; write_hirom_pointer_org 0x14afd8, Dialogue_20c040	;unknown	;]NOTICE:not in list
 ; write_hirom_pointer_org 0x176154, Dialogue_a868a	;unknown	;]NOTICE:not in list
-; write_hirom_pointer_org 0x1afec4, Dialogue_d84a0	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0x1afec7, Dialogue_d85b7	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0x1afee8, Dialogue_d84c1	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0x1aff0b, Dialogue_d84ec	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0x1aff2e, Dialogue_d85d1	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0x1aff55, Dialogue_d8508	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0x1aff7a, Dialogue_d8524	;unknown	;]NOTICE:english pointer but not in jpn
-; write_hirom_pointer_org 0x1aff9f, Dialogue_d853e	;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0x1afec4, Dialogue_d84a0	;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0x1afec7, Dialogue_d85b7	;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0x1afee8, Dialogue_d84c1	;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0x1aff0b, Dialogue_d84ec	;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0x1aff2e, Dialogue_d85d1	;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0x1aff55, Dialogue_d8508	;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0x1aff7a, Dialogue_d8524	;unknown	;]NOTICE:english pointer but not in jpn
+write_hirom_pointer_org 0x1aff9f, Dialogue_d853e	;unknown	;]NOTICE:english pointer but not in jpn
 ; write_hirom_pointer_org 0x1cf8e5, Dialogue_3070d0	;unknown	;]NOTICE:not in list
 write_hirom_pointer_org 0x1d870b, Dialogue_d90b5	;CastleName	;]NOTICE:under 0x600000
 write_hirom_pointer_org 0x1d8712, Dialogue_1d9381	;FE4_03	

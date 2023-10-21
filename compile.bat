@@ -42,6 +42,8 @@ cd ..
 "tools/textconv.py" dialogue_text/FEMain_9D_1.asm   dialogue_text/convert/FEMain_9D_1.asm
 "tools/textconv.py" dialogue_text/FEMain_B2_1.asm   dialogue_text/convert/FEMain_B2_1.asm
 "tools/textconv.py" dialogue_text/FEMain_B2_2.asm   dialogue_text/convert/FEMain_B2_2.asm
+"tools/textconv.py" dialogue_text/FEUnk_8D_1.asm    dialogue_text/convert/FEUnk_8D_1.asm
+"tools/textconv.py" dialogue_text/FEUnk_96_1.asm    dialogue_text/convert/FEUnk_96_1.asm
 "tools/textconv.py" dialogue_text/FEUnk_9D_1.asm    dialogue_text/convert/FEUnk_9D_1.asm
 "tools/textconv.py" dialogue_text/FEUnk_B0_1.asm    dialogue_text/convert/FEUnk_B0_1.asm
 "tools/textconv.py" dialogue_text/FEUnk_B0_2.asm    dialogue_text/convert/FEUnk_B0_2.asm
@@ -59,7 +61,7 @@ cd ..
 "tools/textconv.py" dialogue_text/Ending.asm        dialogue_text/convert/Ending.asm
 
 echo install dialogue
-armips dialogue_text/_DialogueInstall.asm
+armips dialogue_text/_DialogueInstall.asm -sym table.sym
 
 pause
 

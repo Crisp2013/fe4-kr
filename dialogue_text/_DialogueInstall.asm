@@ -126,6 +126,7 @@ translation_org 0xcf0f1
 ;bank 8D
 translation_org 0xd8dc4
 //.area 0xd920d+TRANSLATION_OFFSET-.
+.include "dialogue_text/convert/FEUnk_8D_1.asm"	;0xd8468-0xd863f
 .include "dialogue_text/convert/FEMain_8D_1.asm"	;0xd8dc4-0xd90b5
 .include "dialogue_text/convert/CastleName.asm"		;0xd90b5-0xd920d
 //.endarea
@@ -221,10 +222,19 @@ dh unknown_0002
 dh unknown_0001
 db EndText
 
+;bank 96
+;translation_org 0x16ff6f
+translation_org 0x168000
+//.area 0x16fff8+TRANSLATION_OFFSET-.
+.include "dialogue_text/convert/FEUnk_96_1.asm"		;0x16ff6f-0x18ffc9
+//.endarea
+
+
 ;bank 98
-translation_org 0x18ff87
-//.area 0x18ffc9+TRANSLATION_OFFSET-.
-.include "dialogue_text/convert/RealReport.asm"		;0x18ff87-0x18ffc9
+;translation_org 0x18ff87
+translation_org 0x188000
+//.area 0x18ffff+TRANSLATION_OFFSET-.
+.include "dialogue_text/convert/RealReport.asm"		;0x18ff87-0x18ffff
 //.endarea
 
 ;bank 9D

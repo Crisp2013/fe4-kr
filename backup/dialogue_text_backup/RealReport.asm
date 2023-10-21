@@ -43,4 +43,109 @@ dh SringBuffer3 //Item name
 .stringn "はこわれてしまった"
 db EndText
 
-//end 0x18ffc9
+
+//offset 0x18ffc9
+// 0x1901c9
+Dialogue_18ffc9:
+
+db Bottom_Slot
+dh unknown_0005
+db EndText
+
+//end 0x18ffcd
+
+//offset 0x18ffcd
+// 0x1901cd
+Dialogue_18ffcd:
+dh DialogOpen
+dh LoadPortrait
+dh 0x0004//Arden
+.stringn "俺の強さをみせつけてやる！"
+db NewLine
+.stringn "いくぜ、アイラ！"
+db EndText
+
+//end 0x18ffee
+
+//offset 0x18ffee
+// 0x1901ee
+Dialogue_18ffee:
+
+db Bottom_Slot
+dh unknown_0005
+db EndText
+
+//end 0x18fff2
+
+//offset 0x18fff2
+// 0x1901f2
+Dialogue_18fff2:
+dh DialogOpen
+dh LoadPortrait
+dh 0x0013//Ayra
+.stringn "ふっ・・・"
+db EndText
+
+//end 0x18ffff
+
+
+//offset 0x1dcb04
+// 0x1dcd04
+Dialogue_1dcb04:
+dh InsBlockText_2A
+write_hirom_pointer Dialogue_1dcb49
+dh InsBlockText_2A
+write_hirom_pointer Dialogue_1dccf4
+db EndText
+
+//end 0x1dcb0f
+
+//offset 0x1dcb0f
+// 0x1dcd0f
+Dialogue_1dcb0f:
+dh InsBlockText_2A
+write_hirom_pointer Dialogue_1dcb49
+dh InsBlockText_2A
+write_hirom_pointer Dialogue_1dccf4
+dh InsBlockText_2D //1BCD1D00
+dh 0xBC40
+db 0x91 //bank
+db EndText
+
+//end 0x1dcb1f
+
+//offset 0x1dcb1f
+// 0x1dcd1f
+Dialogue_1dcb1f://문제의 대사
+dh InsBlockText_2A
+write_hirom_pointer Dialogue_1dcb49
+dh InsBlockText_2A
+write_hirom_pointer Dialogue_1dcf22
+db ScrollText
+
+dh DialogClose
+dh ClearPortrait
+dh PauseForTime
+db 0x20
+
+db Top_Slot
+dh DialogOpen
+dh LoadPortrait
+dh 0x0019//Seliph
+db EndText
+
+//end 0x1dcb39
+
+//offset 0x1dcb39
+// 0x1dcd39
+Dialogue_1dcb39://문제?
+dh InsBlockText_2A
+write_hirom_pointer Dialogue_1dcb49
+dh InsBlockText_2A
+write_hirom_pointer Dialogue_1dcf22
+dh InsBlockText_2D //45CD1D00
+dh 0xBC46
+db 0x91 //bank
+db EndText
+
+//end 0x1dcb49

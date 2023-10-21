@@ -14,7 +14,7 @@ dh LoadPortrait
 dh 0x0017//Edain
 
 db Top_Slot// Midir
-.stringn "에딘 님, 적에게 성이 포위됐습니다"
+.stringn "유감이지만 저희 군의 패배입니다・・・"
 db NewLine
 .stringn "공주님을 지켜드려야 하는데,"
 db NewLine
@@ -381,7 +381,10 @@ dh 0x004D//Munnir
 db NewLine
 .stringn "혼자서 수고 많았어, 형씨"
 db NewLine
-.stringn "하지만 여기까지다, "
+db WaitForA
+db ScrollText
+.stringn "하지만 그것도 여기까지다"
+db NewLine
 dh PauseForTime
 db 0x10
 .stringn "죽어라!"

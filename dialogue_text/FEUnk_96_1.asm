@@ -1,3 +1,4 @@
+
 //offset 0x16fd6f
 // 0x16ff6f
 Dialogue_16fd6f:
@@ -14,7 +15,7 @@ Dialogue_16fd73:
 dh DialogOpen
 dh LoadPortrait
 dh 0x0002//Naoise
-.stringn "勝負だ、アレク！"
+.stringn "승부다, 알렉!"
 db EndText
 
 //end 0x16fd84
@@ -35,9 +36,9 @@ Dialogue_16fd88:
 dh DialogOpen
 dh LoadPortrait
 dh 0x0003//Alec
-.stringn "なかなかやるな"
+.stringn "제법 하는군"
 db NewLine
-.stringn "だが、まだまだ！"
+.stringn "하지만 아직 멀었어!"
 db EndText
 
 //end 0x16fda0
@@ -58,11 +59,11 @@ Dialogue_16fda4:
 dh DialogOpen
 dh LoadPortrait
 dh 0x0016//Silvia
-.stringn "なにさ！"
+.stringn "대체 뭐야!"
 db NewLine
-.stringn "あんたなんかがいるから"
+.stringn "너 때문에"
 db NewLine
-.stringn "レヴィンがあたしのことを・・・"
+.stringn "레빈이 나를・・・"
 db EndText
 
 //end 0x16fdcc
@@ -83,7 +84,7 @@ Dialogue_16fdd0:
 dh DialogOpen
 dh LoadPortrait
 dh 0x0014//Erinys
-.stringn "私は、そんな・・・"
+.stringn "난, 그러려던 게・・・"
 db EndText
 
 //end 0x16fde2
@@ -104,9 +105,9 @@ Dialogue_16fde6:
 dh DialogOpen
 dh LoadPortrait
 dh 0x0016//Silvia
-.stringn "レヴィンのばか！"
+.stringn "레빈, 이 바보!"
 db NewLine
-.stringn "なによ、あんな女！"
+.stringn "그 여자는 대체 뭐야!"
 db EndText
 
 //end 0x16fe02
@@ -127,11 +128,11 @@ Dialogue_16fe06:
 dh DialogOpen
 dh LoadPortrait
 dh 0x0008//Lewyn
-.stringn "わっ、落ち着けシルヴィア！"
+.stringn "우왓, 진정해 실비아!"
 db NewLine
-.stringn "そんな物ふりまわしたら"
+.stringn "그런 걸 휘두르면"
 db NewLine
-.stringn "あぶないだろ！"
+.stringn "위험하잖아!"
 db EndText
 
 //end 0x16fe35
@@ -152,9 +153,9 @@ Dialogue_16fe39:
 dh DialogOpen
 dh LoadPortrait
 dh 0x0032//Scﾃ｡thach
-.stringn "修行の成果を見せてやる！"
+.stringn "수행의 성과를 보여주지!"
 db NewLine
-.stringn "ラクチェ、今日は負けないぞ！！"
+.stringn "오늘은 안 진다, 라크체!!"
 db EndText
 
 //end 0x16fe68
@@ -175,11 +176,11 @@ Dialogue_16fe6c:
 dh DialogOpen
 dh LoadPortrait
 dh 0x003A//Larcei
-.stringn "あははっ、スカサハったら"
+.stringn "아하하, 스카사하"
 db NewLine
-.stringn "修行してよけいに"
+.stringn "말은 그렇게 해도"
 db NewLine
-.stringn "腕がなまったんじゃないの？"
+.stringn "실력이 더 떨어진 것 같은데?"
 db EndText
 
 //end 0x16fe9c
@@ -200,9 +201,9 @@ Dialogue_16fea0:
 dh DialogOpen
 dh LoadPortrait
 dh 0x003A//Larcei
-.stringn "シャナン様、"
+.stringn "샤난 님,"
 db NewLine
-.stringn "今日こそ勝ってみせます！"
+.stringn "오늘은 꼭 이길 거예요!"
 db EndText
 
 //end 0x16fec1
@@ -223,11 +224,11 @@ Dialogue_16fec5:
 dh DialogOpen
 dh LoadPortrait
 dh 0x001A//Shannan
-.stringn "ふう・・・"
+.stringn "훗・・・"
 db NewLine
-.stringn "そのていどの腕では、まだまだ"
+.stringn "그정도 실력으론"
 db NewLine
-.stringn "実戦には加えられないな"
+.stringn "아직 실전에 따라나갈 수 없겠는걸"
 db EndText
 
 //end 0x16fef4
@@ -248,11 +249,11 @@ Dialogue_16fef8:
 dh DialogOpen
 dh LoadPortrait
 dh 0x003B//Lana
-.stringn "あら、またヨハンさんですか"
+.stringn "어머, 또 요한 씨네요"
 db NewLine
-.stringn "・・・ヨハンさんって、みためは"
+.stringn "・・・요한 씨는 겉만 보면"
 db NewLine
-.stringn "強そうなのに・・・"
+.stringn "참 강한데・・・"
 db EndText
 
 //end 0x16ff29
@@ -294,9 +295,9 @@ Dialogue_16ff42:
 dh DialogOpen
 dh LoadPortrait
 dh 0x0052//Sandima
-.stringn "くっ、"
+.stringn "큭,"
 db NewLine
-.stringn "呪文がとなえられん・・・"
+.stringn "주문이 나가질 않아・・・"
 db EndText
 
 //end 0x16ff5d
@@ -317,7 +318,7 @@ Dialogue_16ff61:
 dh DialogOpen
 dh LoadPortrait
 dh 0x0017//Edain
-.stringn "アゼル、無理をしてはだめです"
+.stringn "아젤, 무리하면 안 돼요"
 db EndText
 
 //end 0x16ff7a
@@ -338,9 +339,9 @@ Dialogue_16ff7e:
 dh DialogOpen
 dh LoadPortrait
 dh 0x0001//Sigurd
-.stringn "やめろ、エルトシャン！"
+.stringn "그만둬, 엘트샨!"
 db NewLine
-.stringn "この戦いに何の意味がある！"
+.stringn "이 싸움에 무슨 의미가 있나!"
 db EndText
 
 //end 0x16ffa6
@@ -361,11 +362,11 @@ Dialogue_16ffaa:
 dh DialogOpen
 dh LoadPortrait
 dh 0x0012//Lachesis
-.stringn "兄上はバカです！"
+.stringn "오라버니는 바보야!"
 db NewLine
-.stringn "もしどうしても戦うと言うなら"
+.stringn "정 싸우고 싶다면,"
 db NewLine
-.stringn "その剣で私をスキにして！"
+.stringn "그 검으로 저를 마음대로 하세요!"
 db EndText
 
 //end 0x16ffe0
@@ -386,7 +387,8 @@ Dialogue_16ffe4:
 dh DialogOpen
 dh LoadPortrait
 dh 0x0006//Quan
-.stringn "くっ、無念だ・・・"
+.stringn "큭, 원통하다・・・"
 db EndText
 
 //end 0x16fff8
+

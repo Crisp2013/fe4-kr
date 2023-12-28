@@ -1,3 +1,6 @@
+
+
+
 //offset 0xdc964
 // 0xdcb64
 Dialogue_dc964:

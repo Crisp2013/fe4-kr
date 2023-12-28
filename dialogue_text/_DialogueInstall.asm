@@ -3,7 +3,7 @@
 .loadtable "dialogue_text/font_table.tbl"
 
 TRANSLATION_TEST equ 0
-
+_USE_OLD_TRANSLATION equ 0
 .macro write_hirom_pointer, offset
 	dh (offset & 0xFFFF)
 	.if offset>=0x400000

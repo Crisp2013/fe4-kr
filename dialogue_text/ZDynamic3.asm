@@ -586,7 +586,7 @@ db EndText
 //offset 0xd9752
 // 0xd9952
 Dialogue_d9752:
-.stringn "요르문간드"
+.stringn "요츠문간드"
 db EndText
 
 //end 0xd975b
@@ -618,7 +618,7 @@ db EndText
 //offset 0xd976d
 // 0xd996d
 Dialogue_d976d:
-.stringn "부서진 마도서"
+.stringn "사라진 마도서"
 db EndText
 
 //end 0xd9777

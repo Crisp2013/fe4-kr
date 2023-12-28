@@ -1,3 +1,4 @@
+
 //offset 0xd8468
 // 0xd8668
 Dialogue_d8468:
@@ -14,7 +15,7 @@ Dialogue_d846c:
 dh DialogOpen
 dh LoadPortrait
 dh 0x001D//Leif
-.stringn "父上、見ていてくれましたか・・・"
+.stringn "아버지, 보고 계십니까・・・?"
 db EndText
 
 //end 0xd8487
@@ -35,7 +36,7 @@ Dialogue_d848b:
 dh DialogOpen
 dh LoadPortrait
 dh 0x0035//Ced
-.stringn "ティニー、むちゃをするな！"
+.stringn "티니, 무모한 행동은 삼가거라!"
 db EndText
 
 //end 0xd84a0
@@ -56,9 +57,9 @@ Dialogue_d84a4:
 dh DialogOpen
 dh LoadPortrait
 dh 0x0016//Silvia
-.stringn "クロード様、"
+.stringn "클로드 님,"
 db NewLine
-.stringn "あたしが踊ってあげる"
+.stringn "내가 춤춰 줄게요!"
 db EndText
 
 //end 0xd84c1
@@ -79,9 +80,9 @@ Dialogue_d84c5:
 dh DialogOpen
 dh LoadPortrait
 dh 0x003E//Lene
-.stringn "アレス、見ていてね"
+.stringn "아레스, 지켜봐 줘"
 db NewLine
-.stringn "わたしの最後の踊りだから・・・"
+.stringn "내 마지막 춤을・・・"
 db EndText
 
 //end 0xd84ec
@@ -102,7 +103,7 @@ Dialogue_d84f0:
 dh DialogOpen
 dh LoadPortrait
 dh 0x0011//Ethlyn
-.stringn "あなた、無理はなさらないで"
+.stringn "여보, 무리하면 안 돼요"
 db EndText
 
 //end 0xd8508
@@ -123,7 +124,7 @@ Dialogue_d850c:
 dh DialogOpen
 dh LoadPortrait
 dh 0x0033//Febail
-.stringn "パティは大丈夫かな・・・"
+.stringn "패티는 잘 지내려나・・・"
 db EndText
 
 //end 0xd8524
@@ -144,7 +145,7 @@ Dialogue_d8528:
 dh DialogOpen
 dh LoadPortrait
 dh 0x0039//Patty
-.stringn "あはは、またもうかっちゃった"
+.stringn "아하하, 또 건졌다!"
 db EndText
 
 //end 0xd853e
@@ -165,7 +166,7 @@ Dialogue_d8542:
 dh DialogOpen
 dh LoadPortrait
 dh 0x0008//Lewyn
-.stringn "くっ、俺はまだ・・・"
+.stringn "큭, 나는 아직・・・"
 db EndText
 
 //end 0xd8556
@@ -186,9 +187,9 @@ Dialogue_d855a:
 dh DialogOpen
 dh LoadPortrait
 dh 0x0010//Deirdre
-.stringn "ユリア、"
+.stringn "율리아,"
 db NewLine
-.stringn "あなただけは生きて・・・"
+.stringn "너만은 살아남으렴・・・"
 db EndText
 
 //end 0xd8575
@@ -209,9 +210,9 @@ Dialogue_d8579:
 dh DialogOpen
 dh LoadPortrait
 dh 0x01C6//Julius
-.stringn "ククク・・・"
+.stringn "크크크・・・"
 db NewLine
-.stringn "おまえにもう用はない・・・"
+.stringn "너는 더 이상 쓸모가 없다・・・"
 db EndText
 
 //end 0xd8597
@@ -232,9 +233,9 @@ Dialogue_d859b:
 dh DialogOpen
 dh LoadPortrait
 dh 0x002B//Julia
-.stringn "セリス様は、"
+.stringn "세리스 님은"
 db NewLine
-.stringn "わたしが守ります！"
+.stringn "제가 지키겠어요!"
 db EndText
 
 //end 0xd85b7
@@ -255,7 +256,7 @@ Dialogue_d85bb:
 dh DialogOpen
 dh LoadPortrait
 dh 0x0016//Silvia
-.stringn "ねっ、元気がでたでしょ！"
+.stringn "어때? 기운이 좀 나?"
 db EndText
 
 //end 0xd85d1
@@ -276,9 +277,9 @@ Dialogue_d85d5:
 dh DialogOpen
 dh LoadPortrait
 dh 0x0166//Arion
-.stringn "もう何もいうな！"
+.stringn "더 이상 아무 말도 마라"
 db NewLine
-.stringn "行くぞ、アルテナ！！"
+.stringn "간다, 아르테나!!"
 db EndText
 
 //end 0xd85f4
@@ -299,7 +300,7 @@ Dialogue_d85f8:
 dh DialogOpen
 dh LoadPortrait
 dh 0x0104//Arvis
-.stringn "シグルド、もはやこれまでだ"
+.stringn "잘 가라, 시구르드"
 db EndText
 
 //end 0xd860d
@@ -320,9 +321,10 @@ Dialogue_d8611:
 dh DialogOpen
 dh LoadPortrait
 dh 0x0010//Deirdre
-.stringn "アルヴィス様、あの方は本当に"
+.stringn "알비스 님, 그분께선 정말"
 db NewLine
-.stringn "悪い人だったのですか・・・"
+.stringn "그릇된 뜻을 품으셨을까요・・・"
 db EndText
 
 //end 0xd863f
+

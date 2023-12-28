@@ -3,7 +3,7 @@
 // 0x190187
 Dialogue_18ff87:
 dh SringBuffer3 //Item name
-.stringn "을(를) 손에 넣었다!"
+.stringn  "(을)를 손에 넣었다!"
 db NewLine
 db EndText
 
@@ -13,7 +13,7 @@ db EndText
 // 0x190198
 Dialogue_18ff98:
 dh IntBuffer1 //FightLv or Gold or Wins
-.stringn "골드를 손에 넣었다!"
+.stringn  "골드를 손에 넣었다!"
 db NewLine
 db EndText
 
@@ -23,7 +23,7 @@ db EndText
 // 0x1901ab
 Dialogue_18ffab:
 dh IntBuffer1 //FightLv or Gold or Wins
-.stringn "골드를 빼앗겼다"
+.stringn  "골드를 빼앗겼다"
 db NewLine
 db EndText
 
@@ -41,10 +41,8 @@ db EndText
 // 0x1901bb
 Dialogue_18ffbb:
 dh SringBuffer3 //Item name
-.stringn "은(는) 망가져 버렸다"
+.stringn  "(은)는 부서져 버렸다"
 db EndText
-
-//end 0x18ffc9
 
 
 //offset 0x18ffc9
@@ -63,9 +61,9 @@ Dialogue_18ffcd:
 dh DialogOpen
 dh LoadPortrait
 dh 0x0004//Arden
-.stringn "俺の強さをみせつけてやる！"
+.stringn "내 강함을 보여줄 때군!"
 db NewLine
-.stringn "いくぜ、アイラ！"
+.stringn "간다, 아이라!"
 db EndText
 
 //end 0x18ffee
@@ -86,10 +84,11 @@ Dialogue_18fff2:
 dh DialogOpen
 dh LoadPortrait
 dh 0x0013//Ayra
-.stringn "ふっ・・・"
+.stringn "훗・・・"
 db EndText
 
 //end 0x18ffff
+
 
 //offset 0x1dcb04
 // 0x1dcd04
@@ -151,3 +150,4 @@ db 0x91 //bank
 db EndText
 
 //end 0x1dcb49
+

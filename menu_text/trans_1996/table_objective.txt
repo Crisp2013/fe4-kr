@@ -1,0 +1,80 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menu_text/menutext.tbl", menu)
+#ACTIVETBL(menu)
+
+//BLOCK #000 NAME:		Chapter Objectives
+
+#VAR(Goals, CUSTOMPOINTER)
+#CREATEPTR(Goals, "HIROM", $400000, 24)
+
+#JMP($DB98, $DCA5)
+
+//POINTER #0 @ $DB74 - STRING #0 @ $DB98
+
+#WRITE(Goals, $DB74)
+//エバンス城のせいあつ[X]
+에반스성의　제압[X]
+
+//POINTER #1 @ $DB77 - STRING #1 @ $DBAE
+
+#WRITE(Goals, $DB77)
+//ヴェルダン城のせいあつ[X]
+베르던성의　제압[X]
+
+//POINTER #2 @ $DB7A - STRING #2 @ $DBC6
+
+#WRITE(Goals, $DB7A)
+//アグスティ城のせいあつ[X]
+아그스티성의　제압[X]
+
+//POINTER #3 @ $DB7D - STRING #3 @ $DBDE
+
+#WRITE(Goals, $DB7D)
+//オーガヒル城のせいあつ[X]
+오거힐성의　제압[X]
+
+//POINTER #4 @ $DB80 - STRING #4 @ $DBF6
+
+#WRITE(Goals, $DB80)
+//ザクソン城のせいあつ[X]
+잭슨성의　제압[X]
+
+//POINTER #5 @ $DB83 - STRING #5 @ $DC0C
+//POINTER #11 @ $DB95 - STRING #11 @ $DC90
+
+#WRITE(Goals, $DB95)
+#WRITE(Goals, $DB83)
+//バーハラ城のせいあつ[X]
+발할라성의　제압[X]
+
+//POINTER #6 @ $DB86 - STRING #6 @ $DC22
+
+#WRITE(Goals, $DB86)
+//リボー城のせいあつ[X]
+리보성의　제압[X]
+
+//POINTER #7 @ $DB89 - STRING #7 @ $DC36
+
+#WRITE(Goals, $DB89)
+//アルスター城のせいあつ[X]
+얼스터성의　제압[X]
+
+//POINTER #8 @ $DB8C - STRING #8 @ $DC4E
+
+#WRITE(Goals, $DB8C)
+//ミーズ城のせいあつ[X]
+미즈성의　제압[X]
+
+//POINTER #9 @ $DB8F - STRING #9 @ $DC62
+
+#WRITE(Goals, $DB8F)
+//トラキア城のせいあつ[X]
+트라키아성의　제압[X]
+
+//POINTER #10 @ $DB92 - STRING #10 @ $DC78
+
+#WRITE(Goals, $DB92)
+//シアルフィ城のせいあつ[X]
+시알피성의　제압[X]

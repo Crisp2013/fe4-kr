@@ -199,7 +199,7 @@ db Top_Slot// Sigurd
 dh ScrollText_DBC
 .stringn  "마을 사람들로부터 들었다"
 db NewLine
-.stringn  "오거힐 해적의 여두목은"
+.stringn  "오거힐 해적들의 여두목은"
 db NewLine
 .stringn  "힘없는 사람을 지켜준다더군"
 db WaitForA
@@ -213,9 +213,9 @@ dh PauseForTime
 db 0x10
 .stringn  "그런가・・・"
 db NewLine
-.stringn  "네가 그란벨의 시구르드로군・・・"
+.stringn  "네가 그란벨의 시구르드・・・"
 db NewLine
-.stringn  "어쩔 수 없지, 죽일 테면 죽여라"
+.stringn  "저항은 않겠다, 죽일 테면 죽여라"
 db WaitForA
 
 db Top_Slot// Sigurd
@@ -281,7 +281,7 @@ dh PauseForTime
 db 0x10
 .stringn  "클로드 님! 무사하셨습니까!!"
 db NewLine
-.stringn  "해적들에게 쫓긴다 들어서"
+.stringn  "해적들에게 쫓기고 있다 하여"
 db NewLine
 .stringn  "걱정하고 있었습니다"
 db WaitForA
@@ -295,7 +295,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "그건 그렇고 시구르드 공자"
+.stringn  "그것보다도 시구르드 공자,"
 db NewLine
 .stringn  "브라기의 기도가 성공했습니다"
 db NewLine
@@ -891,7 +891,7 @@ db NewLine
 db Bottom_Slot// Claud
 dh PauseForTime
 db 0x10
-.stringn  "전쟁으로 해결해선 안 됩니다"
+.stringn  "하지만 내전이 벌어져선 안 됩니다"
 db NewLine
 .stringn  "고통받는 건 힘없는 서민들뿐이죠"
 db NewLine
@@ -954,7 +954,7 @@ db NewLine
 db Bottom_Slot// Azelle
 dh PauseForTime
 db 0x10
-.stringn  "응? 나한테?"
+.stringn  "나한테?"
 db NewLine
 db WaitForA
 
@@ -1176,9 +1176,9 @@ db NewLine
 db Bottom_Slot// Midir
 dh PauseForTime
 db 0x10
-.stringn  "에딘 님, 전 아직"
+.stringn  "에딘 님, 전 지금도"
 db NewLine
-.stringn  "꿈을 꾸는 듯합니다"
+.stringn  "마치 꿈을 꾸는 듯합니다"
 db NewLine
 db WaitForA
 dh ScrollText_DBC
@@ -1452,20 +1452,20 @@ dh ScrollText_DBC
 db NewLine
 .stringn  "어릴 때 단장한테 주워져서"
 db NewLine
-.stringn  "춤을 배우게 됐죠"
+.stringn  "춤을 배우게 된 거고요"
 db WaitForA
 db ScrollText
 
-.stringn  "하지만 그 사람도 너무했어요"
+.stringn  "근데 그 나쁜 놈이 뭐만 하면"
 db NewLine
-.stringn  "뭐만 하면 채찍으로 때리고"
+.stringn  "채찍으로 때리는 거 있죠?"
 db NewLine
 db WaitForA
 db ScrollText
 
 .stringn  "더는 못 해 먹겠어서"
 db NewLine
-.stringn  "작년에 도망쳐 나왔죠"
+.stringn  "작년에 도망쳐 나왔어요"
 db NewLine
 
 db Bottom_Slot// Claud
@@ -1475,7 +1475,7 @@ db 0x10
 db NewLine
 db WaitForA
 dh ScrollText_DBC
-.stringn  "제 여동생도 살아있다면"
+.stringn  "제 누이동생도 살아있다면"
 db NewLine
 .stringn  "당신 정도 나이가 됐겠지요"
 db NewLine
@@ -2180,7 +2180,7 @@ dh ScrollText_DBC
 db NewLine
 .stringn  "아무렇지도 않다면 거짓말이지만"
 db NewLine
-.stringn  "달리 어쩔 수도 없잖아"
+.stringn  "억울하게 죽은 것도 아니니까"
 db WaitForA
 db ScrollText
 

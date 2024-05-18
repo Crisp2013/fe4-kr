@@ -814,7 +814,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "설마 네놈은 적과 내통하여"
+.stringn  "설마 적과 내통하여"
 db NewLine
 .stringn  "나라를 망하게 만들 작정이냐?"
 db NewLine
@@ -1005,14 +1005,14 @@ dh LoadPortrait
 dh 0x005A//Eldigan
 
 db Top_Slot// Lachesis
-.stringn  "오라버니! "
+.stringn  "오라버니, "
 dh PauseForTime
 db 0x08
-.stringn  "저예요, 라케시스!!"
+.stringn  "저예요! 라케시스예요!!"
 db NewLine
 dh PauseForTime
 db 0x08
-.stringn  "더 이상 무의미한 싸움은 그만두세요"
+.stringn  "대체 이 싸움에 무슨 의미가 있죠?"
 db NewLine
 db WaitForA
 db ScrollText
@@ -1024,11 +1024,11 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "오라버니! 시구르드 님을 믿고,"
+.stringn  "오라버니! 잠시라도 좋으니"
 db NewLine
-.stringn  "잠시 동안만이라도 좋으니"
+.stringn  "시구르드 님을 믿고"
 db NewLine
-.stringn  "싸움을 멈춰 주세요"
+.stringn  "검을 거두어 주세요"
 dh PauseForTime
 db 0x14
 
@@ -1036,7 +1036,7 @@ db Bottom_Slot// Eldigan
 .stringn  "라케시스・・・・ "
 dh PauseForTime
 db 0x08
-.stringn  "울지 마라"
+.stringn  "울지 말아다오"
 db NewLine
 .stringn  "더는 방법이 없다"
 db NewLine

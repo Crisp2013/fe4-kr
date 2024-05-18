@@ -1727,7 +1727,7 @@ db 0x10
 db NewLine
 db WaitForA
 dh ScrollText_DBC
-.stringn  "아레스・・・ 당신과의 만남을"
+.stringn  "아레스・・・ 너와의 만남을"
 db NewLine
 .stringn  "아버님들께서 분명 기뻐하실 거야"
 db NewLine

@@ -1,0 +1,113 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menu_text/optiontext.tbl", menu)
+#ACTIVETBL(menu)
+
+//BLOCK #014 NAME:		Option Descriptions
+
+#VAR(OptionsDesc, CUSTOMPOINTER)
+#CREATEPTR(OptionsDesc, "HIROM", $400000, 24)
+
+#JMP($9F353, $9F578)
+
+//POINTER #0 @ $9F338 - STRING #0 @ $9F353
+
+#WRITE(OptionsDesc, $9F338)
+// アニメせってい　　
+// 　１ーリアル　　　
+// 　２ーマップ　　　
+// 　３ーこ部つ[X]
+에니메이션　설정　
+　１ー리얼　　　　
+　２ー맵　　　　　
+　３ー개별[X]
+//POINTER #1 @ $9F33B - STRING #1 @ $9F397
+
+#WRITE(OptionsDesc, $9F33B)
+// ちけいウィンドウ　
+// ちけいウィンドウの
+// ひょうじ[X]
+지형　윈도우　　　
+지형　윈도우의　　
+표시[X]
+
+//POINTER #2 @ $9F33E - STRING #2 @ $9F3C5
+
+#WRITE(OptionsDesc, $9F33E)
+// ユニットウィンドウ
+// ユニットウィンドウ
+// のひょうじ[X]
+유닛　윈도우　　　
+유닛　윈도우의　　
+표시[X]
+
+//POINTER #3 @ $9F341 - STRING #3 @ $9F3F5
+
+#WRITE(OptionsDesc, $9F341)
+// メッセージスピード
+// メッセージを　　　
+// ひょうじするはやさ[X]
+메세지　스피드　　
+메세지를　　　　　
+표시하는　속도[X]
+
+//POINTER #4 @ $9F344 - STRING #4 @ $9F42D
+
+#WRITE(OptionsDesc, $9F344)
+// てきいどうスピード
+// てきのいどうする　
+// スピード[X]
+적　이동　스피드　
+적이　이동하는　　
+스피드[X]
+
+//POINTER #5 @ $9F347 - STRING #5 @ $9F45B
+
+#WRITE(OptionsDesc, $9F347)
+// サウンドせってい　
+// ＢＧＭのせってい　
+// 　１ーステレオ　　
+// 　２ーモノラル　　
+// 　３ーオフ[X]
+사운드　설정　　　
+ＢＧＭ의　설정　　
+　１ー스테레오　　
+　２ー모노　　　　
+　３ー오프[X]
+
+//POINTER #6 @ $9F34A - STRING #6 @ $9F4AF
+
+#WRITE(OptionsDesc, $9F34A)
+// オートセーブ　　　
+// ターンのはじめに　
+// えらんだファイルへ
+// じどうてきにセーブ
+// する[X]
+오토　세이브　　　
+턴의　시작에　　　
+선택한　파일에　　
+자동적으로　세이브
+한다[X]
+
+//POINTER #7 @ $9F34D - STRING #7 @ $9F52F
+
+#WRITE(OptionsDesc, $9F34D)
+// オートカーソル　　
+// ターンのはじめに　
+// しゅじんこうに　　
+// カーソルをあわせる[X]
+오토　커서　　　　
+턴의　시작에　　　
+주인공에게　　　　
+커서를　맞춘다[X]
+
+//POINTER #8 @ $9F350 - STRING #8 @ $9F4FD
+
+#WRITE(OptionsDesc, $9F350)
+// てきのあたまのよさ
+// てきユニットの　　
+// あたまのよさ[X]
+적　지능의　좋음　
+적　유닛의　　　　
+지능의　좋음[X]

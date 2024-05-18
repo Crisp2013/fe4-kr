@@ -1,0 +1,315 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menu_text/menutext.tbl", menu)
+#ACTIVETBL(menu)
+
+//BLOCK #012 NAME: 	Skill Descriptions
+
+#VAR(Skills, CUSTOMPOINTER)
+#CREATEPTR(Skills, "HIROM", $400000, 24)
+
+#JMP($9A7C9, $9ABF8)
+
+//POINTER #5 @ $9AC0E - STRING #5 @ $200
+//POINTER #7 @ $9AC14 - STRING #7 @ $200
+//POINTER #8 @ $9AC17 - STRING #8 @ $200
+//POINTER #9 @ $9AC1A - STRING #9 @ $200
+//POINTER #11 @ $9AC20 - STRING #11 @ $200
+//POINTER #20 @ $9AC3B - STRING #20 @ $200
+//POINTER #21 @ $9AC3E - STRING #21 @ $200
+//POINTER #24 @ $9AC47 - STRING #24 @ $200
+//POINTER #25 @ $9AC4A - STRING #25 @ $200
+//POINTER #27 @ $9AC50 - STRING #27 @ $200
+//POINTER #28 @ $9AC53 - STRING #28 @ $200
+//POINTER #29 @ $9AC56 - STRING #29 @ $200
+//POINTER #30 @ $9AC59 - STRING #30 @ $200
+//POINTER #36 @ $9AC6B - STRING #36 @ $200
+//POINTER #38 @ $9AC71 - STRING #38 @ $200
+//POINTER #39 @ $9AC74 - STRING #39 @ $200
+//POINTER #40 @ $9AC77 - STRING #40 @ $200
+//POINTER #42 @ $9AC7D - STRING #42 @ $200
+//POINTER #51 @ $9AC98 - STRING #51 @ $200
+//POINTER #52 @ $9AC9B - STRING #52 @ $200
+//POINTER #55 @ $9ACA4 - STRING #55 @ $200
+//POINTER #56 @ $9ACA7 - STRING #56 @ $200
+//notext
+
+//POINTER #0 @ $9ABFF - STRING #0 @ $9A7C9
+
+#WRITE(Skills, $9ABFF)
+// あいてのこうげきを　
+// うけとめダメージを　
+// むこうにする[X]
+적의　공격을　　　　
+맞받아쳐　데미지를　
+무효화한다[X]
+
+//POINTER #1 @ $9AC02 - STRING #1 @ $9A7FF
+
+#WRITE(Skills, $9AC02)
+// ピンチになったとき　
+// いかりのこうげき[X]
+빈사　상태가　될　때
+필살의　공격[X]
+
+//POINTER #2 @ $9AC05 - STRING #2 @ $9A825
+
+#WRITE(Skills, $9AC05)
+// あいてよりも　　　　
+// みがるならば　　　　
+// さいこうげき[X]
+상대보다　　　　　　
+날렵하다면　　　　　
+재공격한다[X]
+
+//POINTER #3 @ $9AC08 - STRING #3 @ $9A85B
+
+#WRITE(Skills, $9AC08)
+// すばやさのかくりつで
+// れんぞくこうげき[X]
+날렵함에　따른　　　
+확률로　연속공격을　
+한다[X]
+
+//POINTER #4 @ $9AC0B - STRING #4 @ $9A881
+
+#WRITE(Skills, $9AC0B)
+// こうげきがあたると　
+// あいてのゴールドを　
+// うばう[X]
+공격이　명중했을　때
+상대의　골드를　　　
+빼앗는다[X]
+
+
+//POINTER #6 @ $9AC11 - STRING #6 @ $9A8B1
+
+#WRITE(Skills, $9AC11)
+// りんせつした　　　　
+// ユニットを　　　　　
+// いどうかのうにする[X]
+인접한　유닛을　　　
+재행동시킨다[X]
+
+
+//POINTER #10 @ $9AC1D - STRING #10 @ $9A8ED
+
+#WRITE(Skills, $9AC1D)
+// ちかくにいるみかたに
+// １０％のしえんこうか[X]
+근처에　있는　아군에
+１０％의　지원효과[X]
+
+
+//POINTER #12 @ $9AC23 - STRING #12 @ $9A917
+
+#WRITE(Skills, $9AC23)
+// ひっさつこうげきなど
+// をふうじる[X]
+적의　필살　특효　　
+특수　검을　봉인한다[X]
+
+//POINTER #13 @ $9AC26 - STRING #13 @ $9A937
+
+#WRITE(Skills, $9AC26)
+// ピンチになると　　　
+// かいひりつがあがる[X]
+빈사　상태일　때　　
+회피치가　올라간다[X]
+
+//POINTER #14 @ $9AC29 - STRING #14 @ $9A95F
+
+#WRITE(Skills, $9AC29)
+// ひっさつのいちげき　
+// こうげきりょくが　　
+// ２ばいになる[X]
+필살의　일격　　　　
+공격력이　　　　　　
+２배가　된다[X]
+
+//POINTER #15 @ $9AC2C - STRING #15 @ $9A995
+
+#WRITE(Skills, $9AC2C)
+// ピンチになったとき　
+// せんせいこうげき　　
+// をする[X]
+빈사　상태가　될　때
+선제공격을　한다[X]
+
+//POINTER #16 @ $9AC2F - STRING #16 @ $9A9C5
+
+#WRITE(Skills, $9AC2F)
+// みがるであれば　　　
+// ときおり　せんとうが
+// けいぞくする[X]
+여유롭다면　　　　　
+때때로　전투가　　　
+계속된다[X]
+
+//POINTER #17 @ $9AC32 - STRING #17 @ $9A9FB
+
+#WRITE(Skills, $9AC32)
+// ５かいれんぞくで　　
+// こうげきする[X]
+５회　연속으로　　　
+공격한다[X]
+
+//POINTER #18 @ $9AC35 - STRING #18 @ $9AA1D
+
+#WRITE(Skills, $9AC35)
+// あいてのしゅびりょく
+// をむこうにする[X]
+상대의　수비력을　　
+무효화한다[X]
+
+//POINTER #19 @ $9AC38 - STRING #19 @ $9AA41
+
+#WRITE(Skills, $9AC38)
+// あたえたダメージだけ
+// ＨＰがかいふくする[X]
+가한　데미지　만큼　
+ＨＰ가　회복된다[X]
+
+
+//POINTER #22 @ $9AC41 - STRING #22 @ $9AA69
+
+#WRITE(Skills, $9AC41)
+// まいターン　　　　　
+// ＨＰが５から１０　　
+// かいふくする[X]
+매　턴마다　ＨＰ가　
+５에서　１０만큼　　
+회복된다[X]
+
+//POINTER #23 @ $9AC44 - STRING #23 @ $9AA9F
+
+#WRITE(Skills, $9AC44)
+// けいけんちを　　　　
+// ２ばいもらえる[X]
+경험치를　　　　　　
+２배로　획득한다[X]
+
+
+//POINTER #26 @ $9AC4D - STRING #26 @ $9AAC3
+
+#WRITE(Skills, $9AC4D)
+// かいものや　　　　　
+// しゅうりが　　　　　
+// はんがくでできる[X]
+구매나　　　　　　　
+수리에　드는　돈이　
+반값이　된다[X]
+
+
+//POINTER #31 @ $9AC5C - STRING #31 @ $9AAFD
+
+#WRITE(Skills, $9AC5C)
+// おおたて　　[X]
+큰　방패　　[X]
+
+//POINTER #32 @ $9AC5F - STRING #32 @ $9AB0B
+
+#WRITE(Skills, $9AC5F)
+// いかり　　　[X]
+분노　　　　[X]
+
+//POINTER #33 @ $9AC62 - STRING #33 @ $9AB19
+
+#WRITE(Skills, $9AC62)
+// ついげき　　[X]
+추격　　　　[X]
+
+//POINTER #34 @ $9AC65 - STRING #34 @ $9AB27
+
+#WRITE(Skills, $9AC65)
+// れんぞく　　[X]
+연속　　　　[X]
+
+//POINTER #35 @ $9AC68 - STRING #35 @ $9AB35
+
+#WRITE(Skills, $9AC68)
+// ぬすむ　　　[X]
+훔치기　　　[X]
+
+
+//POINTER #37 @ $9AC6E - STRING #37 @ $9AB43
+
+#WRITE(Skills, $9AC6E)
+// おどる　　　[X]
+춤　　　　　[X]
+
+
+//POINTER #41 @ $9AC7A - STRING #41 @ $9AB51
+
+#WRITE(Skills, $9AC7A)
+// カリスマ　　[X]
+카리스마　　[X]
+
+
+//POINTER #43 @ $9AC80 - STRING #43 @ $9AB5F
+
+#WRITE(Skills, $9AC80)
+// みきり　　　[X]
+간파　　　　[X]
+
+//POINTER #44 @ $9AC83 - STRING #44 @ $9AB6D
+
+#WRITE(Skills, $9AC83)
+// いのり　　　[X]
+기도　　　　[X]
+
+//POINTER #45 @ $9AC86 - STRING #45 @ $9AB7B
+
+#WRITE(Skills, $9AC86)
+// ひっさつ　　[X]
+필살　　　　[X]
+
+//POINTER #46 @ $9AC89 - STRING #46 @ $9AB89
+
+#WRITE(Skills, $9AC89)
+// まちぶせ　　[X]
+매복　　　　[X]
+
+//POINTER #47 @ $9AC8C - STRING #47 @ $9AB97
+
+#WRITE(Skills, $9AC8C)
+// とつげき　　[X]
+돌격　　　　[X]
+
+//POINTER #48 @ $9AC8F - STRING #48 @ $9ABA5
+
+#WRITE(Skills, $9AC8F)
+// りゅうせい剣[X]
+유성검　　　[X]
+
+//POINTER #49 @ $9AC92 - STRING #49 @ $9ABB3
+
+#WRITE(Skills, $9AC92)
+// げっこう剣　[X]
+월광검　　　[X]
+
+//POINTER #50 @ $9AC95 - STRING #50 @ $9ABC1
+
+#WRITE(Skills, $9AC95)
+// たいよう剣　[X]
+태양검　　　[X]
+
+//POINTER #53 @ $9AC9E - STRING #53 @ $9ABCF
+
+#WRITE(Skills, $9AC9E)
+// ライブ　　　[X]
+라이브　　　[X]
+
+//POINTER #54 @ $9ACA1 - STRING #54 @ $9ABDD
+
+#WRITE(Skills, $9ACA1)
+// エリート　　[X]
+엘리트　　　[X]
+
+
+//POINTER #57 @ $9ACAA - STRING #57 @ $9ABEB
+
+#WRITE(Skills, $9ACAA)
+// ねぎり　　　[X]
+에누리　　　[X]

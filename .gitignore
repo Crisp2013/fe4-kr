@@ -23,3 +23,5 @@ fe4_trans.cpu.sym
 fe4_trans.smp.sym
 fe4_trans.srm
 snes_intro/image/*
+snes_intro/*.xdelta
+table.sym

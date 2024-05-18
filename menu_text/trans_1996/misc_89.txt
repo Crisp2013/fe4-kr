@@ -1,0 +1,297 @@
+//GAME NAME:		Fire Emblem: Genealogy of the Holy War
+
+#VAR(menu, TABLE)
+#ADDTBL("menu_text/menutext.tbl", menu)
+#ACTIVETBL(menu)
+#VAR(Ptr, CUSTOMPOINTER)
+#CREATEPTR(Ptr, "HIROM", $400000, 24)
+
+//armptr structure
+//text located [bank]:[addr]
+//A900[bank]85XX
+//A9[addr]85XX
+//So if you want to send text to another bank
+//You also need to change [bank]
+
+#HDR($0)
+
+
+//Castle Menu Choices
+//fe4transrc:castlemenu
+//Spaces are important,
+//otherwise text leaks in from below
+
+
+//BLOCK NAME: 		Status Screen
+//fe4transrc:status.txt
+//[asmptr]
+#JMP($9BAC1, $9BAE8)
+
+//Weapon stat labels, item menu
+
+#W16($9B9B2)
+//めいちゅう<X>
+명중<X>
+
+#W16($9B9C3)
+//いりょく<X>
+위력<X>
+
+#W16($9B9D4)
+//しゃてい<X>
+사정<X>
+
+#W16($9B9E5)
+//おもさ<X>
+무게<X>
+
+//unused?
+//9:BAE9
+// アイテム<X>
+
+#JMP($9B9B7)//Item Screen Wep Accuracy
+<$16>
+#JMP($9B9C8)//Item Screen Wep Might
+<$16>
+#JMP($9B9D9)//Item Screen Wep Range
+<$16>
+#JMP($9B9EA)//Item Screen Wep Weight
+<$16>
+
+//Weapon stat labels, stat screen
+
+#JMP($98973, $9899A)
+
+#W16($9881D)
+//めいちゅう<X>
+명중<X>
+
+#W16($9882E)
+//いりょく<X>
+위력<X>
+
+#W16($9883F)
+//しゃてい<X>
+사정<X>
+
+#W16($98850)
+//おもさ<X>
+무게<X>
+
+//unused?
+//9:899B
+// のこり<X>
+//9:89A3
+// Ｇ<X>
+//9:89A7
+// ーー<X>
+
+#JMP($98822)//Item Screen Wep Accuracy
+<$04>
+#JMP($98833)//Item Screen Wep Might
+<$04>
+#JMP($98844)//Item Screen Wep Range
+<$04>
+#JMP($98855)//Item Screen Wep Weight
+<$04>
+
+#JMP($99C52, $99C7B)
+//Stat screen, top right corner
+
+#W16($99C05)
+//こうげき<X>
+공격<X>
+
+#W16($99C16)
+//めいちゅう<X>
+명중<X>
+
+#W16($99C27)
+//しゃてい<X>
+사정<X>
+
+#W16($99C38)
+//かいひち<X>
+회피<X>
+
+
+#JMP($99D26, $99D71)
+//Stat screen, stat labels
+
+#W16($99CB4)
+//ちから<X>
+힘<X>
+
+#W16($99CC5)
+//まりょく<X>
+마력<X>
+
+#W16($99CD6)
+//わざ<X>
+기술<X>
+
+#W16($99CE7)
+//すばやさ<X>
+날렵함<X>
+
+#W16($99CF8)
+//うんのよさ<X>
+운의　좋음<X>
+
+#W16($99D09)
+//しゅびりょく<X>
+수비력<X>
+
+#W16($99D1A)
+//まほうぼうぎょ<X>
+마법　방어<X>
+
+//Stat screen 2
+#JMP($99F0B, $99FA0)
+#W16($99DD6)
+//しきかん<X>
+지휘관<X>
+
+#W16($99DED)
+//しょぞく<X>
+소속<X>
+
+#W16($99E00)
+//こいびと<X>
+연인<X>
+
+#W16($99E11)
+//かいわ<X>
+회화<X>
+
+#W16($99E22)
+//いどう<X>
+이동<X>
+
+#W16($99E33)
+//しょじきん<X>
+소지금<X>
+
+#W16($99E44)
+//とうぎＬＶ<X>
+투기ＬＶ<X>
+
+#W16($99E55)
+//じょうたい<X>
+상태<X>
+
+//Weapon type strings
+#W16($99E66)
+//けん<X>
+검<X>
+#W16($99E77)
+//やり<X>
+창<X>
+#W16($99E88)
+//おの<X>
+도끼<X>
+#W16($99E99)
+//ゆみ<X>
+활<X>
+#W16($99EAA)
+//つえ<X>
+지팡이<X>
+
+#W16($99EBB)
+//ほのお<X>
+불꽃<X>
+#W16($99ECC)
+//いかずち<X>
+천둥<X>
+#W16($99EDD)
+//かぜ<X>
+바람<X>
+#W16($99EEE)
+//ひかり<X>
+빛<X>
+#W16($99EFF)
+//やみ<X>
+어둠<X>
+
+//Personal/Class skill labels
+#JMP($9A4C5, $9A4E3)
+
+#W16($9A4AC)
+//こじんスキル<X>
+개인　기술<X>
+
+#W16($9A4A0)
+//へいしゅスキル<X>
+병종　스킬<X>
+
+
+//Valkyrie dialogue
+//fe4transrc:valkyre
+//[asmptr]
+#JMP($9F941, $9FFFF)//blank area
+//#JMP($9AE45, $9AE7C)//9AEB2
+//$9B07C for end of proper text
+//Revive? (more than one person dead)
+#W16($9ADED)
+// をいきかえらせますか<X>
+（을）를　되살리겠습니까？<X>
+//Revive? (only one person dead)
+#W16($9AE07)
+// よろしいですか<X>
+괜찮으시겠습니까？<X>
+
+#W16($9AE18)
+// はい　　　いいえ<X>
+예　　　　아니요<X>
+
+//this text localted at bank 80
+#JMP($E23E, $E257)
+//Who? (Original)
+//#W16($E1C)//font position?
+#W16($E1CC)//font position?
+// だれをいきかえらせますか<X>
+누구를　되살리겠습니까？<X>
+
+#JMP($9AFDE, $9B1F7)//9B02D
+//Who? (Reprint)
+#W16($9AFBB)
+// だれをいきかえらせますか<X>
+누구를　되살리겠습니까？<X>
+
+
+//Status conditions
+#JMP($9A781, $9A7C8)
+
+#W16($9A76C)
+//せいじょう<X>
+정상<X>
+
+#W16($9A76F)
+//ちりょう<X>
+치료<X>
+
+#W16($9A772)
+//アルバイト<X>
+아르바이트<X>
+
+#W16($9A775)
+//ほりょ<X>
+포로<X>
+
+#W16($9A778)
+//サイレス<X>
+사일레스<X>
+
+#W16($9A77B)
+//スリープ<X>
+슬립<X>
+
+#W16($9A77E)
+//バサーク<X>
+버서크<X>
+
+
+#JMP($99B9D, $99BA4)
+#W16($99A4B)
+//しぼう<X>
+사망<X>

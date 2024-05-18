@@ -336,25 +336,25 @@
 
 #WRITE(Item, $3DC86)
 // ロングアーチ[X]
-롱　아치[X]
+롱아치[X]
 
 //POINTER #59 @ $3DC88 - STRING #59 @ $3DFB4
 
 #WRITE(Item, $3DC88)
 // アイアンアーチ[X]
-아이언　아치[X]
+아이언아치[X]
 
 //POINTER #60 @ $3DC8A - STRING #60 @ $3DFC4
 
 #WRITE(Item, $3DC8A)
 // キラーアーチ[X]
-킬러　아치[X]
+킬러아치[X]
 
 //POINTER #61 @ $3DC8C - STRING #61 @ $3DFD2
 
 #WRITE(Item, $3DC8C)
 // グレートアーチ[X]
-그레이트　아치[X]
+그레이트아치[X]
 
 //POINTER #62 @ $3DC8E - STRING #62 @ $3DFE2
 
@@ -366,7 +366,7 @@
 
 #WRITE(Item, $3DC90)
 // エルファイアー[X]
-엘　파이어[X]
+엘파이어[X]
 
 //POINTER #64 @ $3DC92 - STRING #64 @ $3DFFE
 
@@ -396,7 +396,7 @@
 
 #WRITE(Item, $3DC9A)
 // エルサンダー[X]
-엘　선더[X]
+엘선더[X]
 
 //POINTER #69 @ $3DC9C - STRING #69 @ $3E03C
 
@@ -408,7 +408,7 @@
 
 #WRITE(Item, $3DC9E)
 // トールハンマー[X]
-토르　헤머[X]
+토르헤머[X]
 
 //POINTER #71 @ $3DCA0 - STRING #71 @ $3E056
 
@@ -426,7 +426,7 @@
 
 #WRITE(Item, $3DCA4)
 // エルウインド[X]
-엘　윈드[X]
+엘윈드[X]
 
 //POINTER #74 @ $3DCA6 - STRING #74 @ $3E07E
 
@@ -474,7 +474,7 @@
 
 #WRITE(Item, $3DCB4)
 // ヨツムンガンド[X]
-요츠문간드[X]
+요르문간드[X]
 
 //POINTER #82 @ $3DCB6 - STRING #82 @ $3E0DC
 
@@ -638,7 +638,7 @@
 
 #WRITE(Item, $3DCE8)
 // エリートリング[X]
-엘리트　링[X]
+엘리트링[X]
 
 //POINTER #108 @ $3DCEA - STRING #108 @ $3E204
 
@@ -662,7 +662,7 @@
 
 #WRITE(Item, $3DCF0)
 // リカバーリング[X]
-리커버　링[X]
+리커버링[X]
 
 //POINTER #112 @ $3DCF2 - STRING #112 @ $3E244
 
@@ -674,55 +674,55 @@
 
 #WRITE(Item, $3DCF4)
 // ナイトリング[X]
-나이트　링[X]
+나이트링[X]
 
 //POINTER #114 @ $3DCF6 - STRING #114 @ $3E262
 
 #WRITE(Item, $3DCF6)
 // リターンリング[X]
-리턴　링[X]
+리턴링[X]
 
 //POINTER #115 @ $3DCF8 - STRING #115 @ $3E272
 
 #WRITE(Item, $3DCF8)
 // スピードリング[X]
-스피드　링[X]
+스피드링[X]
 
 //POINTER #116 @ $3DCFA - STRING #116 @ $3E282
 
 #WRITE(Item, $3DCFA)
 // マジックリング[X]
-매직　링[X]
+매직링[X]
 
 //POINTER #117 @ $3DCFC - STRING #117 @ $3E292
 
 #WRITE(Item, $3DCFC)
 // パワーリング[X]
-파워　링[X]
+파워링[X]
 
 //POINTER #118 @ $3DCFE - STRING #118 @ $3E2A0
 
 #WRITE(Item, $3DCFE)
 // シールドリング[X]
-실드　링[X]
+실드링[X]
 
 //POINTER #119 @ $3DD00 - STRING #119 @ $3E2B0
 
 #WRITE(Item, $3DD00)
 // バリアリング[X]
-배리어　링[X]
+배리어링[X]
 
 //POINTER #120 @ $3DD02 - STRING #120 @ $3E2BE
 
 #WRITE(Item, $3DD02)
 // レッグリング[X]
-레그　링[X]
+레그링[X]
 
 //POINTER #121 @ $3DD04 - STRING #121 @ $3E2CC
 
 #WRITE(Item, $3DD04)
 // スキルリング[X]
-스킬　링[X]
+스킬링[X]
 
 
 //POINTER #137 @ $3DD24 - STRING #137 @ $3E2DA

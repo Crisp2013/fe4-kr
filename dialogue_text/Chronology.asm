@@ -10,7 +10,7 @@ db EndText
 //offset 0xd9cc8
 // 0xd9ec8
 Dialogue_d9cc8:
-.stringn "윤 강 서쪽에 그란 왕국 성립"
+.stringn "윤강 서쪽에 그란 왕국 성립"
 db EndText
 
 //end 0xd9ce0

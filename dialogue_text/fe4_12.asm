@@ -48,7 +48,7 @@ db Top_Slot// Ethlyn
 dh ScrollText_DBC
 .stringn  "그래도 시알피에는"
 db NewLine
-.stringn  "남아있는 병사가 몇 없다고"
+.stringn  "남아 있는 병사가 몇 없다고"
 db NewLine
 .stringn  "들었으니까요"
 db WaitForA
@@ -105,7 +105,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "두분 다 칠칠맞으니까・・・"
+.stringn  "두 사람 다 칠칠맞으니까・・・"
 db NewLine
 
 db Bottom_Slot// Sigurd
@@ -295,14 +295,14 @@ dh PauseForTime
 db 0x10
 .stringn  "하하, 변함없이 입이 험한 놈이군"
 db NewLine
-.stringn  "하지만 아버님 랑고바르트 경은"
+.stringn  "그런데 아버님 랑고바르트 경은"
 db NewLine
-.stringn  "이 일을 아시나?"
+.stringn  "이 일을 알고 계신가?"
 db WaitForA
 
 db Top_Slot// Lex
 dh ScrollText_DBC
-.stringn  "설마, 당신네 아버님을"
+.stringn  "설마요, 당신네 아버님을"
 db NewLine
 .stringn  "눈엣가시 취급하는 아버지가"
 db NewLine
@@ -311,7 +311,7 @@ db ScrollText
 
 .stringn  "시알피를 돕는 걸"
 db NewLine
-.stringn  "허락해 줄 리가 없잖아요?"
+.stringn  "허락해 줄 리가 없잖습니까?"
 db NewLine
 .stringn  "제가 멋대로 온 거죠"
 db WaitForA
@@ -319,7 +319,7 @@ db ScrollText
 
 .stringn  "오해할 것 같으니 덧붙이자면"
 db NewLine
-.stringn  "절대 당신 도우러 온 거 아닙니다"
+.stringn  "절대 당신 도우러 온 게 아닙니다"
 db NewLine
 .stringn  "아젤이 부탁해서 온 거지"
 
@@ -335,11 +335,11 @@ db WaitForA
 
 db Top_Slot// Lex
 dh ScrollText_DBC
-.stringn  "・・・뭐, 요령은 안 피우렵니다"
+.stringn  "・・・뭐, 적당히는 안 할 겁니다"
 db NewLine
 .stringn  "베르던 야만족들이 설치는 게"
 db NewLine
-.stringn  "꼴 보기 싫은 건 피차일반이니까"
+.stringn  "꼴 보기 싫은 건 마찬가지니까요"
 db WaitForA
 db EndText
 
@@ -385,7 +385,7 @@ dh ScrollText_DBC
 db NewLine
 .stringn  "아버님께서도 걱정하실 만큼"
 db NewLine
-.stringn  "한가닥 하는 여자였는걸"
+.stringn  "한가락 하는 여자였는걸"
 db WaitForA
 db ScrollText
 
@@ -415,14 +415,14 @@ db ScrollText
 db Top_Slot// Alec
 .stringn  "・・・남의 말을 안 듣는 점은"
 db NewLine
-.stringn  "여전히 시구르드 님과 판박이군요"
+.stringn  "여전히 시구르드 님과 판박이시군요"
 db NewLine
 db WaitForA
 db ScrollText
 
 .stringn  "저희도 최선을 다해"
 db NewLine
-.stringn  "지켜드리긴 하겠지만,"
+.stringn  "지켜 드리긴 하겠지만,"
 db NewLine
 .stringn  "에슬린 님도 조심해 주세요"
 
@@ -519,7 +519,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "왕도 발할라의 사관학교에서"
+.stringn  "왕도 발할라의 사관 학교에서"
 db NewLine
 .stringn  "만나게 되었지"
 db NewLine
@@ -555,7 +555,7 @@ db ScrollText
 db NewLine
 .stringn  "이런 하찮은 전쟁에서"
 db NewLine
-.stringn  "네가 죽게 놔두진 않는다는 걸"
+.stringn  "네가 죽게 놔두진 않을 거야"
 db WaitForA
 db EndText
 
@@ -647,7 +647,7 @@ db Top_Slot// Midir
 dh ScrollText_DBC
 .stringn  "하지만, 에딘 님은"
 db NewLine
-.stringn  "아젤 님껜 소중한 분이시고・・・"
+.stringn  "아젤 님께 소중한 분이시고・・・"
 db NewLine
 
 db Bottom_Slot// Azelle
@@ -669,7 +669,7 @@ db 0x10
 db NewLine
 .stringn  "미데일, 지금은"
 db NewLine
-.stringn  "에딘을 구하는 데만 집중하자"
+.stringn  "에딘을 구하는 데에 집중하자"
 db WaitForA
 
 db Top_Slot// Midir
@@ -814,9 +814,9 @@ db Top_Slot// Quan
 dh ScrollText_DBC
 .stringn  "그래?"
 db NewLine
-.stringn  "마침 잘 됐군"
+.stringn  "마침 잘됐군"
 db NewLine
-.stringn  "네게 싸움법을 가르쳐 주마"
+.stringn  "네게 싸우는 법을 가르쳐 주마"
 db WaitForA
 db ScrollText
 
@@ -930,7 +930,7 @@ db NewLine
 db NewLine
 db WaitForA
 dh ScrollText_DBC
-.stringn  "죄송해요, 시알피 분들까지"
+.stringn  "죄송해요, 시알피분들까지"
 db NewLine
 .stringn  "위험에 빠뜨리고 말아서・・・"
 db NewLine
@@ -1072,9 +1072,9 @@ db NewLine
 db Bottom_Slot// Edain
 dh PauseForTime
 db 0x10
-.stringn  "하지만, 당신의 형님께선"
+.stringn  "하지만 당신의 형님은"
 db NewLine
-.stringn  "벨트머의 알비스 경이 아니신가요?"
+.stringn  "벨트머의 알비스 경 아니신지요?"
 db NewLine
 .stringn  "윤허가 있으셨나요?"
 db WaitForA

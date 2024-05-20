@@ -40,7 +40,7 @@ db WaitForA
 dh ScrollText_DBC
 .stringn  "베르던이 공녀를"
 db NewLine
-.stringn  "반환할 의사가 없는 이상,"
+.stringn  "돌려보낼 의사가 없는 이상,"
 db NewLine
 .stringn  "싸울 수밖에 없는 입장이지"
 db WaitForA
@@ -48,7 +48,7 @@ db ScrollText
 
 
 db Top_Slot// Eldigan
-.stringn  "과연, 그렇게 된 거로군"
+.stringn  "과연, 그렇게 된 것이로군"
 db NewLine
 .stringn  "하지만 지금 에반스를 비우게 되면"
 db NewLine
@@ -157,7 +157,7 @@ dh LoadPortrait
 dh 0x0281//Yong Shannan
 .stringn  "아이라, 난 괜찮아"
 db NewLine
-.stringn  "그러니까 이런 놈들 말"
+.stringn  "그러니까 이런 놈들의 말은"
 db NewLine
 .stringn  "들을 필요 없어!"
 
@@ -179,16 +179,16 @@ dh LoadPortrait
 dh 0x0048//Cimbaeth
 
 db Bottom_Slot// Ayra
-.stringn  "킴보이스, 약속은 지킨다"
+.stringn  "킴보이스, 약속은 지킬 거다"
 db NewLine
 .stringn  "그러니 샤난에겐 손대지 마라"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "하지만 이 싸움만 끝나면"
+.stringn  "그리고 이 싸움만 끝나면"
 db NewLine
-.stringn  "정말 아이를 풀어주는 거겠지?"
+.stringn  "정말 그 아이를 풀어주는 거지?"
 db NewLine
 db WaitForA
 
@@ -211,9 +211,9 @@ db WaitForA
 dh ScrollText_DBC
 .stringn  "지옥 끝까지 쫓아가"
 db NewLine
-.stringn  "네놈의 목을 베어버리겠다"
+.stringn  "네놈의 목을 베어버릴 테니까"
 db NewLine
-.stringn  "그걸 잊지 마라!"
+.stringn  "잊지 마라!"
 db WaitForA
 db ScrollText
 

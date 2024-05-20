@@ -244,7 +244,7 @@ db Top_Slot// Sigurd
 db NewLine
 .stringn  "네가 기사가 되기 위해"
 db NewLine
-.stringn  "나한테 온 것도 이제 2년 째지"
+.stringn  "나한테 온 것도 이제 2년째지"
 db WaitForA
 db ScrollText
 
@@ -385,7 +385,7 @@ db NewLine
 db WaitForA
 db ScrollText
 .endif
-.stringn  "하지만 여기까지다, "
+.stringn  "하지만 여기까지다,"
 .if _USE_OLD_TRANSLATION == 1
 db NewLine
 .endif
@@ -761,7 +761,7 @@ db WaitForA
 
 db Top_Slot// Midir
 dh ScrollText_DBC
-.stringn  "아뇨, 시구르드 님, 저도 가겠습니다"
+.stringn  "아뇨 시구르드 님, 저도 가겠습니다"
 db NewLine
 .stringn  "에딘 님이 걱정되어"
 db NewLine
@@ -787,9 +787,9 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "제기랄, 윤 강의 다리를 내려라!"
+.stringn  "제기랄, 윤강의 다리를 내려라!"
 db NewLine
-.stringn  "다시 한 번 공격하는 거다!"
+.stringn  "다시 한번 공격하는 거다!"
 db WaitForA
 db EndText
 
@@ -838,7 +838,7 @@ db NewLine
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn  "분에 넘치는 영광,"
+.stringn  "분에 넘치는 영광이군요,"
 db NewLine
 .stringn  "폐하께 더욱 충성을 바치겠습니다"
 db NewLine
@@ -846,7 +846,7 @@ db WaitForA
 
 db Top_Slot// Filat
 dh ScrollText_DBC
-.stringn  "그리고 한 가지 알려드리자면,"
+.stringn  "그리고 한 가지 알려 드리자면,"
 db NewLine
 .stringn  "성을 적에게 빼앗겨선 안 됩니다"
 db NewLine
@@ -941,7 +941,7 @@ db Top_Slot// Munnir
 dh ScrollText_DBC
 .stringn  "내 전리품이다"
 db NewLine
-.stringn  "마파로 돌아가 아내로 삼겠어"
+.stringn  "마파로 돌아가면 아내로 삼을 거야"
 db NewLine
 .stringn  "어때, 괜찮지?"
 
@@ -1059,7 +1059,7 @@ db 0x10
 db NewLine
 .stringn  "솔직하지 못하다니까"
 db NewLine
-.stringn  "이유는 그것뿐만이 아니잖아?"
+.stringn  "이유는 그게 다가 아니잖아?"
 db WaitForA
 
 db Top_Slot// Azelle
@@ -1154,9 +1154,9 @@ dh PauseForTime
 db 0x10
 .stringn  "큭・・・ 용서 못 해・・・"
 db NewLine
-.stringn  "놈들이 에딘을 반환하기 전까진"
+.stringn  "놈들이 에딘을 돌려주기 전까진"
 db NewLine
-.stringn  "어디까지라도 쫓아 가겠어!"
+.stringn  "어디까지라도 쫓아가겠어!"
 db WaitForA
 db EndText
 
@@ -1203,9 +1203,9 @@ dh PauseForTime
 db 0x10
 .stringn  "큭・・・ 용서 못 해・・・"
 db NewLine
-.stringn  "놈들이 에딘을 반환할 때까진"
+.stringn  "놈들이 에딘을 돌려주기 전까진"
 db NewLine
-.stringn  "어디까지라도 쫓아 가겠어!"
+.stringn  "어디까지라도 쫓아가겠어!"
 db WaitForA
 db EndText
 
@@ -1286,7 +1286,7 @@ dh LoadPortrait
 dh 0x02AB//Old villager
 .stringn  "잘 듣게나, 검은 도끼에 강하고"
 db NewLine
-.stringn  "도끼는 창에, 창에는 검에 강하다네"
+.stringn  "도끼는 창에, 창은 검에 강하다네"
 db NewLine
 db WaitForA
 db ScrollText
@@ -1325,7 +1325,7 @@ dh LoadPortrait
 dh 0x02AE//Madam Villager
 .stringn  "이 땅을 다스리는 시알피 공작가는"
 db NewLine
-.stringn  "대대로 검의 달인이라고 유명해"
+.stringn  "대대로 검의 달인인 걸로 유명해"
 db NewLine
 db WaitForA
 db ScrollText
@@ -1339,9 +1339,9 @@ db ScrollText
 
 .stringn  "베르던의 야만족 따윈,"
 db NewLine
-.stringn  "바이런 님의 성검 튀르핑만 있다면"
+.stringn  "바이런 님의 성검 튀르핑만 있으면"
 db NewLine
-.stringn  "한주먹거리도 안 됐을 텐데!"
+.stringn  "한주먹 거리도 안 될 텐데!"
 db WaitForA
 db EndText
 
@@ -1355,7 +1355,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x02AB//Old villager
-.stringn  "잉그비는 활솜씨가 좋은 집안이라네"
+.stringn  "잉그비는 활 솜씨가 좋은 집안이라네"
 db NewLine
 .stringn  "가문 사람들은 활의 신 울르의 자손이지"
 db NewLine
@@ -1410,7 +1410,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "이건 스피드 링이라고"
+.stringn  "이건 스피드 링인데"
 db NewLine
 .stringn  "갖고만 있어도 몸이 재빨라지는"
 db NewLine
@@ -1481,7 +1481,7 @@ db Top_Slot// Arvis
 dh ScrollText_DBC
 .stringn  "폐하께서 여간 걱정이 아니신지,"
 db NewLine
-.stringn  "한 번 지켜보고 오라고 명하셨다네"
+.stringn  "한번 지켜보고 오라고 명하셨다네"
 db NewLine
 db WaitForA
 db ScrollText
@@ -1614,7 +1614,7 @@ db Top_Slot// Arvis
 dh ScrollText_DBC
 .stringn  "폐하께서 여간 걱정이 아니신지,"
 db NewLine
-.stringn  "한 번 지켜보고 오라고 명하셨다네"
+.stringn  "한번 지켜보고 오라고 명하셨다네"
 db NewLine
 db WaitForA
 db ScrollText
@@ -1646,7 +1646,7 @@ db ScrollText
 db Top_Slot// Arvis
 .stringn  "그러지, 그건 그렇고 시구르드"
 db NewLine
-.stringn  "동생 아젤이 자네 군에 있다고"
+.stringn  "동생 아젤이 자네의 군에 있다고"
 db NewLine
 .stringn  "들었다만, 무사히 잘 있는가?"
 

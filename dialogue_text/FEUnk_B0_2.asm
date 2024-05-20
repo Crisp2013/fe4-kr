@@ -24,7 +24,7 @@ dh PauseForTime
 db 0x10
 .stringn  "닥쳐라! 에딘 님을 어디로 보낸 거냐!"
 db NewLine
-.stringn  "당장 돌려줘!"
+.stringn  "당장 모시고 와!"
 db NewLine
 db WaitForA
 db EndText
@@ -50,7 +50,7 @@ db Top_Slot// Munnir
 db NewLine
 .stringn  "제기랄,"
 db NewLine
-.stringn  "살아있었냐!"
+.stringn  "살아 있었냐!"
 
 db Bottom_Slot// Midir
 dh PauseForTime

@@ -90,7 +90,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "제노아 성에 차남 킴보이스"
+.stringn  "제노아성에 차남 킴보이스"
 dh PauseForTime
 db 0x04
 dh unknown_0082
@@ -100,7 +100,7 @@ db 0x06, 0xB8, 0x3A
 db WaitForA
 db ScrollText
 
-.stringn  "마파 성에 장남 간돌프"
+.stringn  "마파성에 장남 간돌프"
 db NewLine
 dh PauseForTime
 db 0x04

@@ -33,7 +33,7 @@
 
 #WRITE(OptionsMenu, $E7DA)
 // メッセージスピード[X]
-메세지　스피드[X]
+메시지　스피드[X]
 
 //POINTER #4 @ $E7EB - STRING #4 @ $E898
 

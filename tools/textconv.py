@@ -45,6 +45,7 @@ while True:
     line2 = line.lstrip()
     sp = line2.find(' ')
     sp2 = line2.find('.')
+    sp3 = line2.find('"')
     if sp == -1 and len(line2) > 0:
         fontset_n = -1
     if sp != -1:
@@ -52,7 +53,7 @@ while True:
         if opp == '.stringn' :
             leftpos = len(line)-len(line2)
             leftText = line[:leftpos]
-            mainText = line2[(sp+1):].rstrip()
+            mainText = line2[(sp3+1):].rstrip()
             iA = 0
             iB = False
             

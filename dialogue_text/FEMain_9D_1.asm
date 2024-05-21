@@ -135,7 +135,7 @@ dh unknown_0082
 db 0x04, 0x44, 0x02
 dh unknown_0083
 db 0x04, 0x84, 0x38
-.stringn  "도즐 가문의 랑고바르트 경을 끌어들여"
+.stringn  "도즐 가문의 랑고바르트 경과 합세해"
 dh unknown_0081
 db 0x0C
 db WaitForA
@@ -324,7 +324,7 @@ dh PauseForTime
 db 0x0A
 db ScrollText
 
-.stringn  "뒷일은 크게 우려하지 않았다."
+.stringn  "나라가 습격당할 우려는 없었다."
 db NewLine
 dh PauseForTime
 db 0x0A

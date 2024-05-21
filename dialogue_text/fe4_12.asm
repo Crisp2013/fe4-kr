@@ -519,7 +519,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "왕도 발할라의 사관 학교에서"
+.stringn  "왕도 발할라의 사관학교에서"
 db NewLine
 .stringn  "만나게 되었지"
 db NewLine

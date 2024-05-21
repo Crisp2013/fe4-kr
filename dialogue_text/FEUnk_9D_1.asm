@@ -1447,7 +1447,7 @@ db ScrollText
 
 
 db Top_Slot// Seliph
-.stringn  "딤나, 너도 이자크로・・・"
+.stringn  "디무나, 너도 이자크로・・・"
 db NewLine
 
 db Bottom_Slot// Deimne
@@ -1479,7 +1479,7 @@ db Top_Slot// Seliph
 dh ScrollText_DBC
 .stringn  "응, 알고 있어"
 db NewLine
-.stringn  "딤나, 다시 만나자"
+.stringn  "디무나, 또 보자"
 db NewLine
 .stringn  "언젠가 꼭・・・"
 
@@ -1504,7 +1504,7 @@ dh DialogClose
 dh ClearPortrait
 dh DialogOpen
 dh unknown_002E
-.stringn  "딤나, 이자크로 가는 거야?"
+.stringn  "디무나, 이자크로 가는 거야?"
 db NewLine
 
 db Bottom_Slot
@@ -1579,7 +1579,7 @@ db ScrollText
 
 
 db Top_Slot// Seliph
-.stringn  "딤나, 너도 이자크로・・・"
+.stringn  "디무나, 너도 이자크로・・・"
 db NewLine
 
 db Bottom_Slot// Deimne
@@ -1618,7 +1618,7 @@ dh DialogClose
 dh ClearPortrait
 dh DialogOpen
 dh unknown_002E
-.stringn  "딤나, 이자크로 가는 거야?"
+.stringn  "디무나, 이자크로 가는 거야?"
 db NewLine
 
 db Bottom_Slot
@@ -1792,7 +1792,7 @@ db NewLine
 dh PauseForTime
 db 0x60
 dh ScrollText_DBC
-.stringn  "딤나 오빠랑 같이"
+.stringn  "디무나 오빠랑 같이"
 db NewLine
 .stringn  "이자크 부흥을 돕겠어요"
 db NewLine

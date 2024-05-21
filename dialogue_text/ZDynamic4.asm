@@ -274,7 +274,7 @@ db EndText
 //offset 0xd935a
 // 0xd955a
 Dialogue_d935a:
-.stringn "딤나"
+.stringn "디무나"
 db EndText
 
 //end 0xd9360

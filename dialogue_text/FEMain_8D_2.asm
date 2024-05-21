@@ -914,7 +914,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn  "딤나"
+.stringn  "디무나"
 dh InsBlockText_2D //6DE90D00
 dh 0xBD93
 db 0x8D //bank

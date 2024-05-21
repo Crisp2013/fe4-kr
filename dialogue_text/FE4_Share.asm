@@ -1957,11 +1957,11 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x02B0//Girl
-.stringn  "어라? 너 딤나니?"
+.stringn  "어라? 너 디무나니?"
 db NewLine
 dh PauseForTime
 db 0x19
-.stringn  "맞구나, 딤나!"
+.stringn  "디무나 맞구나!"
 db NewLine
 db WaitForA
 db ScrollText
@@ -2098,7 +2098,7 @@ db NewLine
 db Bottom_Slot// Girl
 dh PauseForTime
 db 0x10
-.stringn  "후후, 딤나답네・・・"
+.stringn  "후후, 디무나답네・・・"
 db NewLine
 db WaitForA
 
@@ -2112,7 +2112,7 @@ db NewLine
 db Bottom_Slot// Girl
 dh PauseForTime
 db 0x10
-.stringn  "딤나도 몸 조심하고!"
+.stringn  "디무나도 몸조심하고!"
 db NewLine
 db WaitForA
 dh ScrollText_DBC
@@ -2124,7 +2124,7 @@ dh ClearPortrait
 db Bottom_Slot// Girl
 dh PauseForTime
 db 0x18
-.stringn  "딤나・・・"
+.stringn  "디무나・・・"
 db NewLine
 db WaitForA
 db EndText

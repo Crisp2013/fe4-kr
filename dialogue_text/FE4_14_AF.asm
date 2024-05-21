@@ -2282,7 +2282,7 @@ dh LoadPortrait
 dh 0x0023//Deimne
 
 db Top_Slot// Daisy
-.stringn  "딤나는 여기서 뭐 해?"
+.stringn  "디무나는 여기서 뭐 해?"
 db NewLine
 
 db Bottom_Slot// Deimne

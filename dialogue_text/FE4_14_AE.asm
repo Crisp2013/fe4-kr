@@ -667,7 +667,7 @@ db NewLine
 db Bottom_Slot// Muirne
 dh PauseForTime
 db 0x10
-.stringn  "응, 딤나 오빠"
+.stringn  "응, 디무나 오빠"
 db NewLine
 .stringn  "세리스 님이 걱정돼서・・・"
 db NewLine
@@ -736,7 +736,7 @@ dh PauseForTime
 db 0x10
 .stringn  "응, 나도 알아・・・"
 db NewLine
-.stringn  "고마워, 딤나 오빠・・・"
+.stringn  "고마워, 디무나 오빠・・・"
 db NewLine
 db WaitForA
 db EndText

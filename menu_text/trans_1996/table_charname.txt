@@ -214,7 +214,7 @@
 
 #WRITE(Unit, $39A9D)
 //ディムナ[X]
-딤나[X]
+디무나[X]
 
 //POINTER #035 @ $39A9F - STRING #035 @ $3A023
 

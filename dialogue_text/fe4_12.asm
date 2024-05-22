@@ -1276,7 +1276,7 @@ db ScrollText
 db NewLine
 .stringn  "그란벨의 보복이 있을 거라는 사실은"
 db NewLine
-.stringn  "너무나도 명백하지 않았던가"
+.stringn  "너무나도 명백하지 않았나"
 db WaitForA
 db ScrollText
 
@@ -1289,9 +1289,9 @@ db NewLine
 db Bottom_Slot// Ayra
 dh PauseForTime
 db 0x10
-.stringn  "큐안 공께선"
+.stringn  "큐안 공은"
 db NewLine
-.stringn  "내 아버지를 알고 있나?"
+.stringn  "아버님을 알고 있나!?"
 db NewLine
 db WaitForA
 
@@ -1314,15 +1314,15 @@ db NewLine
 db Bottom_Slot// Ayra
 dh PauseForTime
 db 0x10
-.stringn  "그래・・・ 기쁜 이야기로군"
+.stringn  "그런가・・・ 황송한 이야기로군"
 db NewLine
 db WaitForA
 dh ScrollText_DBC
-.stringn  "확실히 아버지도 오라버니도 긍지 높은"
+.stringn  "확실히 아버님도 오라버니도 긍지 높은"
 db NewLine
-.stringn  "무인이다, 무방비 도시의 침공 따윈"
+.stringn  "무인이다, 무방비 도시를 침공하다니"
 db NewLine
-.stringn  "결코 허락하지 못할 일이야"
+.stringn  "결코 허락받지 못할 일이야"
 db WaitForA
 db ScrollText
 
@@ -1342,7 +1342,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "마나난 왕께서 진상을 밝혔다면"
+.stringn  "마나난 왕께서 진상을 밝히셨다면"
 db NewLine
 .stringn  "쿠르트 님도 이해하셨을 텐데"
 db NewLine
@@ -1354,7 +1354,7 @@ db 0x10
 db NewLine
 db WaitForA
 dh ScrollText_DBC
-.stringn  "아버지께선 리보 족장을 처형해"
+.stringn  "아버님께선 리보 족장을 처형해"
 db NewLine
 .stringn  "그 목을 싸 들고"
 db NewLine
@@ -1375,7 +1375,7 @@ db NewLine
 db Bottom_Slot// Ayra
 dh PauseForTime
 db 0x10
-.stringn  "아버지는"
+.stringn  "아버님께선"
 db NewLine
 .stringn  "그길로 돌아오지 않으셨다"
 db NewLine
@@ -1383,25 +1383,25 @@ db WaitForA
 dh ScrollText_DBC
 .stringn  "이자크 백성들은"
 db NewLine
-.stringn  "아버지의 죽음을 알자 분개하였고"
+.stringn  "아버님의 죽음을 알자 분개하였고"
 db NewLine
 db WaitForA
 db ScrollText
 
 .stringn  "마리클 오라버니도"
 db NewLine
-.stringn  "그란벨과의 전면 전쟁을 결의했지"
+.stringn  "그란벨과의 전면 전쟁을 결의하셨지"
 db NewLine
 db WaitForA
 db ScrollText
 
 
 db Top_Slot// Quan
-.stringn  "쿠르트 왕자가"
+.stringn  "쿠르트 왕자님께서"
 db NewLine
-.stringn  "평화 사절을 뿌리쳤다니,"
+.stringn  "평화 사절을 뿌리치셨다니,"
 db NewLine
-.stringn  "도저히 믿을 수 없어"
+.stringn  "도저히 믿을 수 없군"
 db WaitForA
 db ScrollText
 
@@ -1428,7 +1428,7 @@ db NewLine
 db Bottom_Slot// Ayra
 dh PauseForTime
 db 0x10
-.stringn  "오라버니는 샤난만 살아있다면"
+.stringn  "오라버니는 샤난만 살아 있다면"
 db NewLine
 .stringn  "이자크를 다시 일으킬 수 있다고"
 db NewLine
@@ -1437,7 +1437,7 @@ db WaitForA
 dh ScrollText_DBC
 .stringn  "샤난의 성장을 지켜보는 것이야말로"
 db NewLine
-.stringn  "내 역할이라고・・・"
+.stringn  "내 역할이라 하셨지・・・"
 db NewLine
 db WaitForA
 db ScrollText
@@ -1448,7 +1448,7 @@ db Top_Slot// Quan
 db NewLine
 .stringn  "언젠가 진상이 널리 알려질 것이다"
 db NewLine
-.stringn  "그때까지만 견뎌내 줘"
+.stringn  "그때까지만 견뎌 다오"
 db WaitForA
 db ScrollText
 

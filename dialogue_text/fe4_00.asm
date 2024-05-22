@@ -16,7 +16,7 @@ dh 0x0017//Edain
 db Top_Slot// Midir
 .stringn  "에딘 님, 적에게 성이 포위됐습니다"
 db NewLine
-.stringn  "공주님을 지켜드려야 하는데,"
+.stringn  "공주님을 지켜 드려야 하는데,"
 db NewLine
 .stringn  "저희가 부족한 탓에・・・"
 
@@ -25,7 +25,7 @@ dh PauseForTime
 db 0x10
 .stringn  "괜찮아요, 미데일"
 db NewLine
-.stringn  "・・・・・다들 잘 싸워주었어요"
+.stringn  "・・・・・다들 잘 싸워 주었어요"
 db NewLine
 .stringn  "저는 더 이상 신경 쓰지 말고"
 db WaitForA
@@ -41,10 +41,10 @@ db Top_Slot// Midir
 db NewLine
 .stringn  "모두 마지막까지"
 db NewLine
-.stringn  "공주님을 지켜드릴 각오입니다"
+.stringn  "공주님을 지켜 드릴 각오입니다"
 db WaitForA
 dh ScrollText_DBC
-.stringn  "목숨과 바꿔서라도 지켜드리겠습니다"
+.stringn  "목숨과 바꿔서라도 지키겠습니다"
 
 db Bottom_Slot// Edain
 dh PauseForTime
@@ -160,7 +160,7 @@ db ScrollText
 db NewLine
 .stringn  "마을을 찾아가 습격에 대비하라고"
 db NewLine
-.stringn  "전해줘야 해"
+.stringn  "전해 줘야 해"
 db WaitForA
 db ScrollText
 

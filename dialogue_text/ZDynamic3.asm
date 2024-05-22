@@ -498,7 +498,7 @@ db EndText
 //offset 0xd9704
 // 0xd9904
 Dialogue_d9704:
-.stringn "토르해머"
+.stringn "토르 해머"
 db EndText
 
 //end 0xd970d

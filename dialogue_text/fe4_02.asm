@@ -14,14 +14,14 @@ dh LoadPortrait
 dh 0x0012//Lachesis
 
 db Top_Slot// Eldigan
-.stringn  "라케시스, "
+.stringn  "라케시스,"
 dh PauseForTime
 db 0x04
 .stringn  "아그스티에 다녀오마"
 db NewLine
 .stringn  "샤갈 폐하를 찾아가"
 db NewLine
-.stringn  "어리석은 거병을 막아야만 해"
+.stringn  "어리석은 거병을 막아야 해"
 dh PauseForTime
 db 0x10
 
@@ -30,7 +30,7 @@ db Bottom_Slot// Lachesis
 db NewLine
 .stringn  "샤갈 폐하는"
 db NewLine
-.stringn  "자신의 아버지마저 암살한 인물,"
+.stringn  "자신의 아버지마저 암살하신 분,"
 db WaitForA
 dh ScrollText_DBC
 .stringn  "그런 분껜 어떤 말도 통하지 않아요"
@@ -57,7 +57,7 @@ db ScrollText
 db NewLine
 .stringn  "포기하지 않고 설득하면"
 db NewLine
-.stringn  "폐하께서도 알아주실 테지"
+.stringn  "폐하께서도 알아주실 것이다"
 
 db Bottom_Slot// Lachesis
 dh PauseForTime
@@ -68,7 +68,7 @@ db WaitForA
 
 db Top_Slot// Eldigan
 dh ScrollText_DBC
-.stringn  "그 이상의 말은 삼가거라"
+.stringn  "이제 아무 말 말거라"
 db NewLine
 db WaitForA
 db ScrollText
@@ -77,15 +77,15 @@ db ScrollText
 db NewLine
 .stringn  "내가 가장 신뢰하는 부하 셋을"
 db NewLine
-.stringn  "성에 남겨두고 가마"
+.stringn  "성에 남겨 두고 가마"
 db WaitForA
 db ScrollText
 
-.stringn  "그렇게 슬픈 표정 짓지 마"
+.stringn  "라케시스, 그렇게 슬퍼하지 마라"
 db NewLine
-.stringn  "걱정 마라, 반드시 돌아올 테니까"
+.stringn  "난 반드시 돌아올 테니까 괜찮아"
 db NewLine
-.stringn  "너를 놔두고 죽진 않아"
+.stringn  "너를 놔두고 죽진 않을 거다"
 
 db Bottom_Slot// Lachesis
 dh PauseForTime
@@ -114,21 +114,21 @@ dh 0x00A1//Chagall
 db Top_Slot// Eldigan
 .stringn  "샤갈 폐하,"
 db NewLine
-.stringn  "부디 거병을 거두어 주십시오"
+.stringn  "부디 거병을 멈춰 주십시오"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "선왕 폐하께선 항상"
+.stringn  "선왕 폐하께선 그란벨과의 공존을"
 db NewLine
-.stringn  "그란벨과의 공존을 원하셨습니다"
+.stringn  "원하셨습니다"
 db NewLine
 db WaitForA
 db ScrollText
 
 .stringn  "전쟁은 백성들을 괴로움에 빠뜨리며,"
 db NewLine
-.stringn  "나아가 폐하의 위명마저"
+.stringn  "나아가 폐하의 존함까지"
 db NewLine
 .stringn  "더럽히는 일이 될 것입니다"
 db WaitForA
@@ -140,22 +140,22 @@ db NewLine
 db Bottom_Slot// Chagall
 dh PauseForTime
 db 0x10
-.stringn  "노디온의 엘트샨, 네놈이로구나"
+.stringn  "노디온의 엘트샨, 네놈은"
 db NewLine
-.stringn  "아버지의 총애를 등에 업고"
+.stringn  "아버님의 총애를 등에 업고"
 db NewLine
 .stringn  "지금까지 내게 대들어 왔었지"
 db WaitForA
 dh ScrollText_DBC
-.stringn  "하지만 그 아버지는 죽었고,"
+.stringn  "하지만 그 아버님은 죽었고,"
 db NewLine
-.stringn  "이제 이몸이야말로"
+.stringn  "이젠 이 몸이 바로"
 db NewLine
-.stringn  "아그스트리아 전역의 지배자이다"
+.stringn  "아그스트리아 전역의 지배자다"
 db WaitForA
 db ScrollText
 
-.stringn  "지금까지 날 우롱해온 대가는"
+.stringn  "지금까지 날 우롱해 온 대가는"
 db NewLine
 .stringn  "톡톡히 치르게 해 주마"
 db NewLine
@@ -216,15 +216,15 @@ db NewLine
 db Bottom_Slot// Chagall
 dh PauseForTime
 db 0x10
-.stringn  "만프로이군, 네놈 말대로"
+.stringn  "만프로이군, 네놈의 말대로"
 db NewLine
-.stringn  "아버지를 이 손으로 죽였다"
+.stringn  "아버님을 이 손으로 암살했다"
 db NewLine
 db WaitForA
 dh ScrollText_DBC
-.stringn  "이제 돌이킬 수 없지"
+.stringn  "이제 돌이킬 수 없어"
 db NewLine
-.stringn  "하지만 정말 승산이 있느냐?"
+.stringn  "정말 승산이 있는 거겠지?"
 db NewLine
 db WaitForA
 db ScrollText
@@ -239,7 +239,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "지금 치면 반드시 승리할 겁니다"
+.stringn  "지금 치면 반드시 이길 수 있겠지요"
 db NewLine
 
 db Bottom_Slot// Chagall
@@ -252,14 +252,14 @@ db NewLine
 .stringn  "아그스트리아가 대륙을 지배할 수 있다"
 db WaitForA
 dh ScrollText_DBC
-.stringn  "그러면 이 샤갈이 황제가 되겠구나"
+.stringn  "그리 되면 내가 황제가 되겠구나"
 db NewLine
 db WaitForA
 db ScrollText
 
 
 db Top_Slot// Manfroi
-.stringn  "호호호・・・"
+.stringn  "후후후・・・"
 db NewLine
 .stringn  "・・・꿈꾸시는 대로 될 겁니다・・・・・"
 db NewLine
@@ -293,28 +293,28 @@ dh PauseForTime
 db 0x10
 .stringn  "오, 오라버니가!?"
 db NewLine
-.stringn  "아아・・・ "
+.stringn  "아아・・・ 이리 될까봐"
 db NewLine
-.stringn  "이래서 그렇게나 말린 건데・・・"
+.stringn  "그렇게나 말린 건데・・・"
 db WaitForA
 
 db Top_Slot// Eve
 dh ScrollText_DBC
-.stringn  "공주님, 지금은"
+.stringn  "왕녀님, 걱정되는"
 db NewLine
-.stringn  "전하도 전하지만"
+.stringn  "문제는 그것뿐만이 아닙니다"
 db NewLine
-.stringn  "하이라인을 주의해야 합니다"
+.stringn  "인접국인 하이라인을 주의해야 합니다"
 db WaitForA
 db ScrollText
 
-.stringn  "전하가 부재중이신 걸 알면"
+.stringn  "전하께서 부재중이신 걸 알면"
 db NewLine
-.stringn  "언제 공격해올지 모릅니다"
+.stringn  "언제 공격해 올지 모릅니다"
 db WaitForA
 db ScrollText
 
-.stringn  "놈들은 저번 싸움에 대해"
+.stringn  "놈들은 베르던에서의 전투에 대해"
 db NewLine
 .stringn  "앙심을 품고 있을 테지요"
 db NewLine
@@ -325,20 +325,20 @@ dh PauseForTime
 db 0x10
 .stringn  "엘리엇은"
 db NewLine
-.stringn  "내가 원하는 반응을 안 보여주니까"
+.stringn  "제가 그의 마음대로 안 되니까"
 db NewLine
-.stringn  "그게 마음에 안 드는 거겠지"
+.stringn  "화를 내고 있는 거겠죠"
 db WaitForA
 dh ScrollText_DBC
-.stringn  "하지만 그런 하찮은 남자는 싫은걸!"
+.stringn  "하지만 그런 하찮은 남자는 싫은걸요!"
 db NewLine
-.stringn  "난 엘트 오라버니만한 사람이 아니면"
+.stringn  "전 엘트 오라버니 같은 사람이 아니면"
 db NewLine
-.stringn  "사랑하지 않을 거야"
+.stringn  "사랑하고 싶어도 할 수가 없어요"
 db WaitForA
 db ScrollText
 
-.stringn  "그러니, 누구의 아내도 되지 않겠어・・・"
+.stringn  "그러니 누구의 아내도 될 수 없죠・・・"
 db NewLine
 db WaitForA
 db ScrollText
@@ -347,15 +347,15 @@ db ScrollText
 db Top_Slot// Eve
 .stringn  "・・・그건 아무래도 좋습니다만"
 db NewLine
-.stringn  "전하 직속 크로스 나이츠도"
+.stringn  "전하 직속의 크로스 나이츠도"
 db NewLine
-.stringn  "지금은 북쪽 실베일 요새에 주둔 중이라"
+.stringn  "지금 북쪽의 실베일 요새에 있어서"
 db WaitForA
 db ScrollText
 
 .stringn  "이 성에는"
 db NewLine
-.stringn  "적은 병사밖에 남아있지 않습니다"
+.stringn  "병사가 얼마 남아 있지 않습니다"
 db WaitForA
 db ScrollText
 
@@ -363,21 +363,21 @@ db ScrollText
 db NewLine
 .stringn  "전력을 다해 막아 보겠습니다만"
 db NewLine
-.stringn  "만일의 일을 각오해 주십시오"
+.stringn  "혹시 모르니 각오해 주십시오"
 
 db Bottom_Slot// Lachesis
 dh PauseForTime
 db 0x10
-.stringn  "그래"
+.stringn  "알고 있어요"
 db NewLine
-.stringn  "이브, 당신에겐 감사하고 있어"
+.stringn  "이브, 당신에겐 늘 감사하게 되네요"
 db NewLine
-.stringn  "하지만 무리하면 안 돼, 죽지 마"
+.stringn  "무리하지 마세요, 죽으면 안 되니까"
 db WaitForA
 dh ScrollText_DBC
-.stringn  "에바와 알바한테도"
+.stringn  "에바와 알바에게도"
 db NewLine
-.stringn  "라케시스가 걱정한다고 전해 줘"
+.stringn  "라케시스가 걱정한다고 전해 줘요"
 db NewLine
 db WaitForA
 db ScrollText
@@ -389,19 +389,19 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "・・・하지만, 저희는 엘트 전하로부터"
+.stringn  "・・・그래도, 저희는 왕녀님을"
 db NewLine
-.stringn  "공주님을 지켜달라고"
+.stringn  "지키기 위해 엘트 전하께서"
 db NewLine
-.stringn  "특별히 선발된 몸입니다"
+.stringn  "특별히 선발하신 몸입니다"
 db WaitForA
 db ScrollText
 
 .stringn  "영광스러운 노디온의 성기사로서,"
 db NewLine
-.stringn  "이 목숨이 다하는 때까지"
+.stringn  "이 목숨이 다할 때까지"
 db NewLine
-.stringn  "공주님을 지켜드리겠습니다!"
+.stringn  "왕녀님을 지켜 드리겠습니다!"
 db WaitForA
 db EndText
 
@@ -424,7 +424,7 @@ dh 0x0001//Sigurd
 db Top_Slot// Oifey
 .stringn  "시구르드 님, 큰일입니다!"
 db NewLine
-.stringn  "엘트샨 님께서 아그스티성에 유폐돼"
+.stringn  "엘트샨 님께서 아그스티성에 투옥되어"
 db NewLine
 .stringn  "노디온이 공격받고 있다고 합니다"
 db WaitForA
@@ -432,15 +432,15 @@ db ScrollText
 
 .stringn  "라케시스 왕녀님으로부터"
 db NewLine
-.stringn  "원군을 보내달라는 전갈이 왔습니다"
+.stringn  "원군을 요청하는 전갈이 왔습니다"
 db NewLine
 
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn  "뭐라고!?"
+.stringn  "엘트샨이!?"
 db NewLine
-.stringn  "어째서 엘트샨 정도의 사내가・・・"
+.stringn  "그 정도 되는 사내가 어쩌다・・・"
 db NewLine
 db WaitForA
 dh ScrollText_DBC
@@ -453,21 +453,21 @@ db ScrollText
 
 .stringn  "라케시스는 내 목숨과 바꿔서라도"
 db NewLine
-.stringn  "지켜야만 해"
+.stringn  "지켜야 해"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "엘트샨은 말로 표현하진 않는다만"
+.stringn  "엘트샨은 말로 표현하진 않지만"
 db NewLine
-.stringn  "동생을 굉장히 아끼고 있으니"
+.stringn  "여동생을 굉장히 아끼고 있으니"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "라케시스를 잃는다면"
+.stringn  "라케시스를 잃으면"
 db NewLine
-.stringn  "상심이 이만저만이 아닐 테지・・・"
+.stringn  "상심이 이만저만이 아닐 거야・・・"
 db NewLine
 db WaitForA
 db ScrollText
@@ -495,12 +495,12 @@ db 0x10
 db NewLine
 .stringn  "하지만 난"
 db NewLine
-.stringn  "엘트샨에게 많은 빚이 있거든"
+.stringn  "엘트샨에게 갚지 못한 빚이 많아"
 db WaitForA
 dh ScrollText_DBC
-.stringn  "불안해하고 있을 그 동생을"
+.stringn  "불안해하고 있을 그의 여동생을"
 db NewLine
-.stringn  "내버려둘 순 없어"
+.stringn  "내버려 둘 순 없어"
 db NewLine
 db WaitForA
 db ScrollText
@@ -516,7 +516,7 @@ db NewLine
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn  "아니, 그건 안 돼"
+.stringn  "뭐? 그건 안 돼"
 db NewLine
 .stringn  "너를 위험에 빠뜨릴 순 없어"
 db NewLine
@@ -524,24 +524,24 @@ db WaitForA
 
 db Top_Slot// Deirdre
 dh ScrollText_DBC
-.stringn  "시구르드 님께선 약속하셨지요?"
+.stringn  "시구르드 님께선 약속하셨습니다"
 db NewLine
-.stringn  "절 홀로 내버려 두지 않으시겠다고"
+.stringn  "절대 홀로 내버려 두지 않겠다고요"
 db NewLine
 .stringn  "저・・・ 불안해요・・・"
 db WaitForA
 db ScrollText
 
-.stringn  "・・・・・・당신과 떨어지면"
+.stringn  "・・・・・당신과 떨어지면"
 db NewLine
-.stringn  "두 번 다시 만날 수 없을 것만 같아서・・・"
+.stringn  "두 번 다시 만날 수 없을 것 같아서・・・"
 db NewLine
 .stringn  "부탁이에요, 곁에 있게 해 주세요・・・"
 
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn  "미안해・・・ 그랬었지"
+.stringn  "미안・・・ 그랬었지"
 db NewLine
 .stringn  "알았어, 함께 가자"
 db NewLine
@@ -550,7 +550,7 @@ db WaitForA
 
 db Top_Slot// Deirdre
 dh ScrollText_DBC
-.stringn  "네! 시구르드 님!"
+.stringn  "네! 시구르드 님"
 db NewLine
 db WaitForA
 db EndText
@@ -582,14 +582,14 @@ db ScrollText
 
 .stringn  "좋아, 엘리엇!"
 db NewLine
-.stringn  "이틈에 노디온을 함락시켜라"
+.stringn  "이 틈에 노디온을 함락시켜라"
 db NewLine
 .stringn  "엘트샨의 울상이 눈에 선하구나!"
 
 db Bottom_Slot// Elliot
 dh PauseForTime
 db 0x10
-.stringn  "알겠습니다, 아버지"
+.stringn  "알겠습니다, 아버님"
 db NewLine
 db WaitForA
 db EndText
@@ -611,9 +611,9 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "좋아, 준비해둔 대로"
+.stringn  "좋아, 준비해 둔 대로"
 db NewLine
-.stringn  "도적들에게 마을을 습격하라 전해라"
+.stringn  "도적들에게 마을을 습격하라고 해라"
 db NewLine
 db WaitForA
 db ScrollText
@@ -622,7 +622,7 @@ db ScrollText
 db NewLine
 .stringn  "손댈 수 없었지만"
 db NewLine
-.stringn  "샤갈 님이라면 속이기도 쉽지"
+.stringn  "샤갈 님이라면 속이기도 쉽겠지"
 db WaitForA
 db ScrollText
 
@@ -650,11 +650,11 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "승부가 확실해지고 나서 움직여도"
+.stringn  "결착이 난 뒤에 움직여도"
 db NewLine
-.stringn  "늦지 않겠지, 전원 대기하라"
+.stringn  "늦지 않겠지, 한 명도 움직이지 마라"
 db NewLine
-.stringn  "이대로 상태를 지켜본다"
+.stringn  "이대로 상태를 지켜보도록"
 db WaitForA
 db EndText
 
@@ -670,16 +670,16 @@ dh LoadPortrait
 dh 0x0066//Elliot
 .stringn  "노디온의 라케시스 공주,"
 db NewLine
-.stringn  "그 건방진 여자"
+.stringn  "그 건방진 계집"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "그것 때문에 그동안"
+.stringn  "그 녀석에게 그동안"
 db NewLine
-.stringn  "얼마나 망신을 당했는지・・・"
+.stringn  "수도 없이 망신을 당했지만"
 db NewLine
-.stringn  "・・・이번에야말로 보여주마"
+.stringn  "・・・이번에야말로 보여 주마"
 db WaitForA
 db ScrollText
 

@@ -45,7 +45,7 @@ db ScrollText
 
 .stringn  "아그스트리아의 제공들은"
 db NewLine
-.stringn  "반 그란벨 의사를 강하게 내비쳤고,"
+.stringn  "반그란벨 의사를 강하게 내비쳤고,"
 db WaitForA
 db ScrollText
 

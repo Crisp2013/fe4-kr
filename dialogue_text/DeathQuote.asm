@@ -1564,7 +1564,7 @@ dh LoadPortrait
 dh 0x0052//Sandima
 .stringn  "만프로이 대사교님・・・ 부디"
 db NewLine
-.stringn  "・・・용서해 주시길・・・"
+.stringn  "・・・용서하십시오・・・"
 db NewLine
 dh PauseForTime
 db 0xC8

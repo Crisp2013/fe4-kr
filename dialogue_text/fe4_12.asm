@@ -1516,7 +1516,7 @@ db Top_Slot// Dew
 dh ScrollText_DBC
 .stringn  "됐어, 신경 쓰지 마"
 db NewLine
-.stringn  "어차피 내가 써봤자"
+.stringn  "어차피 내가 써 봤자"
 db NewLine
 .stringn  "별로 의미도 없을 것 같고・・・"
 db WaitForA
@@ -1557,16 +1557,16 @@ dh PauseForTime
 db 0x10
 .stringn  "에슬린 님・・・"
 db NewLine
-.stringn  "신경 써주셔서 고마워요"
+.stringn  "신경 써 주셔서 고마워요"
 db NewLine
 .stringn  "하지만 괜찮답니다"
 db WaitForA
 dh ScrollText_DBC
 .stringn  "저는"
 db NewLine
-.stringn  "시구르드 님과 함께 있는"
+.stringn  "시구르드 님과"
 db NewLine
-.stringn  "것만으로도 행복한걸요"
+.stringn  "함께 있는 것만으로도 행복한걸요"
 db WaitForA
 db ScrollText
 
@@ -1574,7 +1574,7 @@ db ScrollText
 db Top_Slot// Ethlyn
 .stringn  "디아도라 님처럼 다정한 사람에게"
 db NewLine
-.stringn  "사랑받아 오라버니도 행복하겠어요"
+.stringn  "사랑받아서 오라버니도 행복하겠어요"
 db NewLine
 
 db Bottom_Slot// Deirdre
@@ -1663,7 +1663,7 @@ db ScrollText
 
 .stringn  "내가 해줄 수 있는 건 겨우 이 정도다"
 db NewLine
-.stringn  "부디 받아다오"
+.stringn  "부디 받아 다오"
 db NewLine
 
 db Bottom_Slot// Finn
@@ -1695,13 +1695,13 @@ dh 0x0008//Lewyn
 db Top_Slot// Sigurd
 .stringn  "그대가 레빈인가?"
 db NewLine
-.stringn  "마을 사람들을 구해줬다고 들었다"
+.stringn  "마을 사람들을 구해 줬다고 들었다"
 db NewLine
 .stringn  "감사를 표하지"
 db WaitForA
 db ScrollText
 
-.stringn  "떠돌이 음유시인이라 들었다만"
+.stringn  "떠돌이 음유 시인이라 들었는데"
 db NewLine
 .stringn  "마법을 쓸 수 있다니 놀랍군"
 db NewLine
@@ -1709,13 +1709,13 @@ db NewLine
 db Bottom_Slot// Lewyn
 dh PauseForTime
 db 0x10
-.stringn  "뭐, 마법도 재주의 일부지"
+.stringn  "뭐, 마법도 재주의 일부거든"
 db NewLine
-.stringn  "흐응, 당신이 시구르드 공자인가?"
+.stringn  "흐음, 당신이 시구르드 공자인가?"
 db NewLine
 db WaitForA
 dh ScrollText_DBC
-.stringn  "일부러 옆 나라까지 와서"
+.stringn  "몸소 옆 나라까지 와서"
 db NewLine
 .stringn  "전쟁도 다 하고,"
 db NewLine
@@ -1800,13 +1800,13 @@ db WaitForA
 dh ScrollText_DBC
 .stringn  "그란벨이 군사를 물리면"
 db NewLine
-.stringn  "너희한테 협력한 마을 주민들을"
+.stringn  "당신들한테 협력한 마을 주민들을"
 db NewLine
 .stringn  "전부 잡아다 처형해 버릴걸?"
 db WaitForA
 db ScrollText
 
-.stringn  "넌 그래도 좋단 말이야?"
+.stringn  "당신은 그래도 좋단 거야?"
 db NewLine
 db WaitForA
 db ScrollText
@@ -1834,7 +1834,7 @@ db NewLine
 db Bottom_Slot// Lewyn
 dh PauseForTime
 db 0x10
-.stringn  "지나가던 나그네・・・ 음유시인이지"
+.stringn  "난 그냥 지나가던 음유 시인이라구"
 db NewLine
 db WaitForA
 db EndText
@@ -1858,7 +1858,7 @@ dh 0x0012//Lachesis
 db Top_Slot// Beowolf
 .stringn  "호오ー"
 db NewLine
-.stringn  "댁이 노디온의 공주님인가?"
+.stringn  "당신이 노디온의 왕녀님인가?"
 db NewLine
 
 db Bottom_Slot// Lachesis
@@ -1884,7 +1884,7 @@ db WaitForA
 
 db Top_Slot// Beowolf
 dh ScrollText_DBC
-.stringn  "한마디 해두고 싶어서 왔지"
+.stringn  "한마디 해 두고 싶어서 왔지"
 db NewLine
 .stringn  "전쟁은 애들 장난이 아니야"
 db NewLine
@@ -1911,14 +1911,14 @@ db 0x10
 db NewLine
 .stringn  "그런 말을 들을 이유는 없어요!"
 db NewLine
-.stringn  "쓸데없는 참견 말아요"
+.stringn  "쓸데없이 참견하지 마세요"
 db WaitForA
 
 db Top_Slot// Beowolf
 dh ScrollText_DBC
 .stringn  "후후, 역시 엘트샨의 동생이군"
 db NewLine
-.stringn  "그 성격만은 오빠 못잖구나"
+.stringn  "그 성격만은 오빠 못지않구나"
 db NewLine
 
 db Bottom_Slot// Lachesis
@@ -1951,7 +1951,7 @@ dh ScrollText_DBC
 db NewLine
 .stringn  "좋아, 조금이지만 교습을 해 주지"
 db NewLine
-.stringn  "이것도 엘트샨 덕분으로 알아둬"
+.stringn  "이것도 엘트샨 덕분으로 알아 둬"
 
 db Bottom_Slot// Lachesis
 dh PauseForTime
@@ -2070,9 +2070,9 @@ db Top_Slot// Silvia
 dh ScrollText_DBC
 .stringn  "시구르드 님, 저 모르세요?"
 db NewLine
-.stringn  "전 실비아ー!"
+.stringn  "전 실비아라고 해요!"
 db NewLine
-.stringn  "실비라고 불러도 돼요"
+.stringn  "실비라고 부르셔도 돼요"
 
 db Bottom_Slot// Sigurd
 dh PauseForTime
@@ -2088,7 +2088,7 @@ db Top_Slot// Silvia
 dh ScrollText_DBC
 .stringn  "우우・・・"
 db NewLine
-.stringn  "이렇게나 섹시한 나를"
+.stringn  "이렇게나 예쁜 나를"
 db NewLine
 .stringn  "어린애 취급하다니"
 db WaitForA
@@ -2117,7 +2117,7 @@ db NewLine
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn  "곤란하군, 이 아가씨는・・・"
+.stringn  "곤란한 아가씨군・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -2190,14 +2190,14 @@ db NewLine
 .stringn  "실레지아의 왕자였을 줄이야"
 db WaitForA
 dh ScrollText_DBC
-.stringn  "하지만 왜 음유시인 행세를・・・"
+.stringn  "근데 왜 음유 시인 행세를・・・"
 db NewLine
 db WaitForA
 db ScrollText
 
 
 db Top_Slot// Erinys
-.stringn  "여러 사정이 있습니다만"
+.stringn  "여러 사정이 있지만"
 db NewLine
 .stringn  "제 입으로 말씀드리긴 어렵습니다"
 db NewLine

@@ -62,13 +62,13 @@
 
 #WRITE(Item, $3DC22)
 // バリアの剣[X]
-베리어의　검[X]
+배리어의　검[X]
 
 //POINTER #9 @ $3DC24 - STRING #9 @ $3DD92
 
 #WRITE(Item, $3DC24)
 // バサークの剣[X]
-버거크의　검[X]
+버서크의　검[X]
 
 //POINTER #10 @ $3DC26 - STRING #10 @ $3DDA0
 
@@ -200,7 +200,7 @@
 
 #WRITE(Item, $3DC52)
 // ナイトキラー[X]
-나이트킬러[X]
+나이트　킬러[X]
 
 //POINTER #33 @ $3DC54 - STRING #33 @ $3DEAE
 

@@ -153,7 +153,7 @@
 
 #WRITE(ItemDesc, $3E2F8)
 // まほうしゅび＋７[X]
-마법방어＋７[X]
+마법　방어＋７[X]
 
 //POINTER #9 @ $3E2FA - STRING #9 @ $3E454
 
@@ -566,7 +566,7 @@
 
 #WRITE(ItemDesc, $3E3D6)
 // まほうぼうぎょ ＋５[X]
-마법방어 ＋５[X]
+마법　방어＋５[X]
 
 //POINTER #120 @ $3E3D8 - STRING #120 @ $3E984
 

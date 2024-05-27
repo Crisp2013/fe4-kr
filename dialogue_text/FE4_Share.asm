@@ -2471,7 +2471,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "적어도 알렉처럼 추격만 할 수 있었다면"
+.stringn  "적어도 알렉처럼 추격할 수 있었다면"
 db NewLine
 .stringn  "조금 더 활약할 수 있을 텐데・・・"
 db NewLine
@@ -2480,7 +2480,7 @@ db ScrollText
 
 .stringn  "그럼 나한테도"
 db NewLine
-.stringn  "여자친구가 생길지도 모르고・・・"
+.stringn  "여자 친구가 생길지도 모르고・・・"
 db NewLine
 .stringn  "하아・・・ 남자란 괴롭구나"
 db WaitForA
@@ -2490,7 +2490,7 @@ db ScrollText
 db NewLine
 .stringn  "마법의 팔찌 같은데,"
 db NewLine
-.stringn  "한번 차볼까"
+.stringn  "한번 차 볼까"
 db WaitForA
 db ScrollText
 

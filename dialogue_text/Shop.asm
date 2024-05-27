@@ -422,7 +422,7 @@ db EndText
 // 0xad5ef
 Dialogue_ad3ef:
 db ClearText
-.stringn  "어떤 걸 맡아줄까?"
+.stringn  "어떤 걸 맡아 줄까?"
 db NewLine
 db EndText
 
@@ -442,7 +442,7 @@ db EndText
 // 0xad60b
 Dialogue_ad40b:
 db ClearText
-.stringn  "다른 것도 맡아줄까?"
+.stringn  "다른 것도 맡아 줄까?"
 db NewLine
 db EndText
 
@@ -468,7 +468,7 @@ db EndText
 // 0xad63e
 Dialogue_ad43e:
 db ClearText
-.stringn  "더는 맡아줄 수 없어"
+.stringn  "더는 맡아 줄 수 없어"
 db NewLine
 db WaitForA
 db EndText
@@ -569,7 +569,7 @@ db EndText
 // 0xad6e9
 Dialogue_ad4e9:
 db ClearText
-.stringn  "이봐, 무기가 없으면 싸울 수 없어"
+.stringn  "이봐, 무기가 없으면 못 싸워"
 db NewLine
 db WaitForA
 db ClearText
@@ -749,7 +749,7 @@ Dialogue_ad65e:
 db ClearText
 .stringn  "그대는 "
 dh SringBuffer1 //Lover or father
-.stringn  " 공에게"
+.stringn  "공에게"
 db NewLine
 .stringn  "관심이 있는 듯하군"
 db NewLine
@@ -764,7 +764,7 @@ Dialogue_ad678:
 db ClearText
 .stringn  "그대는 "
 dh SringBuffer1 //Lover or father
-.stringn  " 공을"
+.stringn  "공을"
 db NewLine
 .stringn  "좋아하는 듯하군"
 db NewLine
@@ -779,7 +779,7 @@ Dialogue_ad68e:
 db ClearText
 .stringn  "그대는 "
 dh SringBuffer1 //Lover or father
-.stringn  " 공을"
+.stringn  "공을"
 db NewLine
 .stringn  "사랑하는 듯하군"
 db NewLine
@@ -794,7 +794,7 @@ Dialogue_ad6a8:
 db ClearText
 .stringn  "그대는 "
 dh SringBuffer1 //Lover or father
-.stringn  " 공과"
+.stringn  "공과"
 db NewLine
 .stringn  "맺어진 듯하군"
 db NewLine

@@ -1685,9 +1685,9 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0073//Waltz
-.stringn  "서, 설마・・・ 나를"
+.stringn  "마, 말도 안 돼・・・ 날"
 db NewLine
-.stringn  "쓰러뜨릴 놈이 있을 줄이야・・・"
+.stringn  "쓰러뜨리다니・・・"
 db NewLine
 .if _USE_OLD_TRANSLATION == 1
 .stringn "(빈줄)"

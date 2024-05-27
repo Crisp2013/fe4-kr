@@ -3043,7 +3043,7 @@ dh PauseForTime
 db 0x10
 .stringn  "아니, 내가 떨어뜨린 건"
 db NewLine
-.stringn  "그런 훌륭한 도끼가 아니야"
+.stringn  "그런 좋은 도끼가 아니야"
 db NewLine
 .stringn  "그냥 철의 도끼지"
 db WaitForA
@@ -3052,7 +3052,7 @@ db Top_Slot// Lahna
 dh ScrollText_DBC
 .stringn  "정직한 분이시군요"
 db NewLine
-.stringn  "선물의 의미로"
+.stringn  "그럼 선물로"
 db NewLine
 .stringn  "이 용사의 도끼를 드리겠습니다"
 db WaitForA

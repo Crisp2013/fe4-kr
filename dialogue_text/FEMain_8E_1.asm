@@ -4,7 +4,7 @@
 Dialogue_e8ac1:
 
 db Top_Slot
-.stringn  "베르던 왕국을 제압한 시구르드는,"
+.stringn  "베르던 왕국을 제압한 시구르드는"
 db NewLine
 dh unknown_0082
 db 0x02, 0x01, 0x00

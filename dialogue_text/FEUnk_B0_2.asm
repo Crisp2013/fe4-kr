@@ -494,7 +494,7 @@ db 0x10
 db NewLine
 .stringn  "당신은 죄 없는 사람들을 죽였다"
 db NewLine
-.stringn  "게다가, 엘트샨까지・・・"
+.stringn  "게다가 엘트샨까지・・・"
 db WaitForA
 dh ScrollText_DBC
 .stringn  "쓰레기 같은 사내 같으니!"

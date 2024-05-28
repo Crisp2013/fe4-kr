@@ -151,9 +151,9 @@ db 0x02, 0x78, 0x0C
 db WaitForA
 db ScrollText
 
-.stringn  "엘트샨과의 약속에 따라"
+.stringn  "엘트샨과의 약속대로"
 db NewLine
-.stringn  "시구르드는 그것을 추격하지 않았다."
+.stringn  "시구르드는 그를 추격하지 않았다."
 db WaitForA
 db ScrollText
 
@@ -164,7 +164,7 @@ db EndText
 //offset 0xe8d17
 // 0xe8f17
 Dialogue_e8d17:
-.stringn  "아그스티 성에서 병사들을 쉬게 하고,"
+.stringn  "아그스티성에서 병사들을 쉬게 하고,"
 db NewLine
 .stringn  "엘트샨과의 약속을 지키기 위해"
 db WaitForA
@@ -178,7 +178,7 @@ db ScrollText
 
 .stringn  "그러나, 발할라로부터의 회답은 늘"
 db NewLine
-.stringn  "그대로 어거스티에 주둔하여"
+.stringn  "그대로 아그스티에 주둔하여"
 db WaitForA
 db ScrollText
 
@@ -212,7 +212,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "머잖아 시구르드가 두려워했던"
+.stringn  "머지않아 시구르드가 두려워했던"
 db NewLine
 .stringn  "새로운 전쟁이 시작되었다."
 db WaitForA
@@ -318,9 +318,9 @@ dh unknown_0084
 db 0x06
 db ScrollText
 
-.stringn  "발할라로부터 아그스티를"
+.stringn  "발할라에선 아그스티를"
 db NewLine
-.stringn  "사수하라는 명령이 떨어지고"
+.stringn  "사수하라는 명령이 내려왔고"
 db WaitForA
 db ScrollText
 
@@ -329,7 +329,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "마디노의 남서쪽, 실베일성에는"
+.stringn  "마디노 남서쪽에 있는 실베일성에는"
 db NewLine
 .stringn  "엘트샨의 군대가 머무르고 있다."
 dh unknown_0082
@@ -339,19 +339,19 @@ db 0x02, 0x40, 0x30
 db WaitForA
 db ScrollText
 
-.stringn  "이 전쟁에서,"
+.stringn  "이 전쟁에서"
 db NewLine
 .stringn  "벗을 배신하게 될지도 모르는 것이다."
 db WaitForA
 db ScrollText
 
-.stringn  "이때 시구르드는"
+.stringn  "시구르드는 얼마 안 돼"
 db NewLine
-.stringn  "아그스트리아 북쪽 끝에서"
+.stringn  "아그스트리아의 북쪽 끝에서"
 db WaitForA
 db ScrollText
 
-.stringn  "역사를 바꾸는 전투를 마주하게 된다."
+.stringn  "역사를 바꿀 전투를 마주하게 된다."
 db NewLine
 .if _USE_OLD_TRANSLATION == 1
 .stringn "(빈줄)"

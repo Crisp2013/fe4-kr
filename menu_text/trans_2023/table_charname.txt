@@ -834,7 +834,7 @@
 
 #WRITE(Unit, $39B9F)
 //パピヨン[X]
-빠삐용[X]
+파피용[X]
 
 //POINTER #164 @ $39BA1 - STRING #164 @ $3A31B
 //POINTER #240 @ $39C39 - STRING #240 @ $3A557

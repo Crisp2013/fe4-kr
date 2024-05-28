@@ -142,7 +142,7 @@ db WaitForA
 
 db Top_Slot// Chulainn
 dh ScrollText_DBC
-.stringn  "위험한 싸움이 될 듯한 예감이 들어"
+.stringn  "위험한 싸움이 될 거란 예감이 들어"
 db NewLine
 .stringn  "너처럼 싸우는 검사에게"
 db NewLine
@@ -150,11 +150,11 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "그걸로 스스로를 지켜라"
+.stringn  "그걸로 스스로를 지켜"
 db NewLine
 .stringn  "나도 항상 네 곁에 있을 수는"
 db NewLine
-.stringn  "없으니 말이야"
+.stringn  "없으니까 말이야"
 
 db Bottom_Slot// Ayra
 dh PauseForTime
@@ -565,9 +565,9 @@ db WaitForA
 
 db Top_Slot// Ethlyn
 dh ScrollText_DBC
-.stringn  "아버님께 맡아 두고 있었어요"
+.stringn  "아버님한테서 맡아 두고 있었어요"
 db NewLine
-.stringn  "만약 전투가 힘들게 돌아간다면"
+.stringn  "만약 전황이 좋지 않게 흘러가면"
 db NewLine
 .stringn  "당신에게 주라고 하셔서"
 
@@ -576,7 +576,7 @@ dh PauseForTime
 db 0x10
 .stringn  "그렇군, 이 창이 있다면 든든해"
 db NewLine
-.stringn  "하지만 왜 지금까지 갖고만 있었어?"
+.stringn  "근데 왜 지금까지 갖고만 있었어?"
 db NewLine
 db WaitForA
 
@@ -595,7 +595,7 @@ db 0x10
 db NewLine
 .stringn  "하지만 난 믿지 않아"
 db NewLine
-.stringn  "그런 건 전설일 뿐인걸"
+.stringn  "그런 건 전설에 불과해"
 db WaitForA
 
 db Top_Slot// Ethlyn
@@ -693,40 +693,40 @@ dh LoadPortrait
 dh 0x0018//Brigid
 
 db Top_Slot// Edain
-.stringn  "당신은 역시・・・ 언니!"
+.stringn  "당신은・・・ 역시 언니군요!"
 db NewLine
-.stringn  "브리기드 언니로군요!"
+.stringn  "브리기드 언니!"
 db NewLine
-.stringn  "저예요, 에딘이에요!"
+.stringn  "저예요, 동생 에딘이에요!"
 db WaitForA
 db ScrollText
 
-.stringn  "제가 기억나지 않으시나요?"
+.stringn  "제발 기억해 내 주세요"
 db NewLine
 
 db Bottom_Slot// Brigid
 dh PauseForTime
 db 0x10
-.stringn  "어째서 내 이름을・・・ 게다가,"
+.stringn  "어떻게 내 이름을・・・ 게다가"
 db NewLine
-.stringn  "네 얼굴은 나와 무척 닮았구나"
+.stringn  "네 얼굴은 나와 무척 닮았어"
 db NewLine
 db WaitForA
 dh ScrollText_DBC
 .stringn  "・・・・・・에딘・・・"
 db NewLine
-.stringn  "들어본 적이 있는 것도 같고・・・"
+.stringn  "확실히 어디서 들어본 것 같은데・・・"
 db NewLine
 db WaitForA
 db ScrollText
 
 
 db Top_Slot// Edain
-.stringn  "저는 당신의 쌍둥이 동생이에요"
+.stringn  "전 당신의 쌍둥이 동생이에요"
 db NewLine
-.stringn  "언니는 다섯 살 때"
+.stringn  "언니는 5살 때"
 db NewLine
-.stringn  "해적에게 납치당했죠"
+.stringn  "해적들에게 납치당했었죠"
 db WaitForA
 db ScrollText
 
@@ -736,46 +736,46 @@ db NewLine
 db Bottom_Slot// Brigid
 dh PauseForTime
 db 0x10
-.stringn  "갑자기 그런 말을 해도 믿기지 않아"
+.stringn  "하지만 너무 갑작스러워서 믿기 힘든데"
 db NewLine
-.stringn  "뭔가 증거가 될 만한 건 없을까?"
+.stringn  "뭔가 증거는 없을까?"
 db NewLine
 db WaitForA
 
 db Top_Slot// Edain
 dh ScrollText_DBC
-.stringn  "그럼 이 활을 꽉 잡아 주세요"
+.stringn  "그럼 이 활을 당겨 보세요"
 db NewLine
 
 db Bottom_Slot// Brigid
 dh PauseForTime
 db 0x10
-.stringn  "응? 제법 훌륭한 활이다만,"
+.stringn  "응? 제법 훌륭한 활인걸"
 db NewLine
-.stringn  "이게 어쨌단 거지?"
+.stringn  "이걸 왜?"
 db NewLine
 db WaitForA
 dh ScrollText_DBC
-.stringn  "이렇게 잡으면・・・ 이, 이건・・・"
+.stringn  "이렇게 당기라고・・・・? 이, 이건"
 db NewLine
-.stringn  "어떻게 된 일이지・・・"
+.stringn  "・・・어떻게 된 거지・・・"
 db NewLine
 db WaitForA
 db ScrollText
 
 .stringn  "! ・・・내 안에"
 db NewLine
-.stringn  "신비한 힘이 스며들고 있어・・・"
+.stringn  "이상한 힘이 스며들고 있어・・・"
 db NewLine
-.stringn  "기억이・・・ 되살아난다・・・"
+.stringn  "기억들이・・・ 떠올라・・・"
 db WaitForA
 db ScrollText
 
 .stringn  "아아・・・ 가슴이 뜨거워져・・・"
 db NewLine
-.stringn  "에딘, 정말 에딘이구나"
+.stringn  "에딘, 너는 에딘"
 db NewLine
-.stringn  "・・・내 동생・・・"
+.stringn  "・・・내 여동생・・・"
 db WaitForA
 db ScrollText
 
@@ -783,43 +783,43 @@ db ScrollText
 db Top_Slot// Edain
 .stringn  "다행이다・・・ 기억해 내셨군요"
 db NewLine
-.stringn  "이 활은, 저희 가문에 전해 내려오는"
+.stringn  "이 활은 우리 가문에 전해지는"
 db NewLine
-.stringn  "신의 활, 이치이발이에요"
+.stringn  "신의 활 이치이발이에요"
 db WaitForA
 db ScrollText
 
-.stringn  "신의 무기를 사용할 수 있는 건"
+.stringn  "신의 무기를 다룰 수 있는 자는"
 db NewLine
-.stringn  "오직 직계뿐이라고 하지요"
+.stringn  "직계인 한 명뿐이라고 하지요"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "저희 집안에선 브리기드 언니"
+.stringn  "우리 집안에선 브리기드 언니,"
 db NewLine
-.stringn  "바로 당신뿐이에요"
+.stringn  "당신밖에 없어요"
 db NewLine
-.stringn  "그거면 충분한 증거 아닐까요?"
+.stringn  "그게 무엇보다 확실한 증거 아닐까요?"
 
 db Bottom_Slot// Brigid
 dh PauseForTime
 db 0x10
 .stringn  "에딘・・・"
 db NewLine
-.stringn  "아아・・・ 얼굴을 가까이 보여주렴・・・"
+.stringn  "아아・・・ 얼굴을 좀 더 보여 줘・・・"
 db NewLine
-.stringn  "아버님은 건강하시니?"
+.stringn  "아버님은 잘 계시니?"
 db WaitForA
 dh ScrollText_DBC
-.stringn  "남동생・・・ 안드레이는・・・"
+.stringn  "남동생은・・・ 안드레이는・・・"
 db NewLine
 db WaitForA
 db ScrollText
 
 
 db Top_Slot// Edain
-.stringn  "저도 이야기하고 싶은 게 많아요"
+.stringn  "저도 하고 싶은 얘기가 많아요"
 db NewLine
 .stringn  "언니・・・"
 db NewLine

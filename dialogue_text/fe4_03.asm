@@ -66,7 +66,7 @@ db Top_Slot// Jacobi
 dh ScrollText_DBC
 .stringn  "그래・・・ 시시하지만 돈이 걸렸으니"
 db NewLine
-.stringn  "이 천둥의 검이 얼마나 무서운지"
+.stringn  "이 번개의 검이 얼마나 무서운지"
 db NewLine
 .stringn  "・・・놈들에게 가르쳐 주도록 하지"
 
@@ -733,7 +733,7 @@ dh LoadPortrait
 dh 0x008A//Jacobi
 .stringn  "훗, 받아라!"
 db NewLine
-.stringn  "천둥의 검!"
+.stringn  "번개의 검!"
 db NewLine
 db WaitForA
 db EndText

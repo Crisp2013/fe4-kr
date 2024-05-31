@@ -116,7 +116,7 @@
 
 #WRITE(Item, $3DC34)
 // いかずちの剣[X]
-천둥의　검[X]
+번개의　검[X]
 
 //POINTER #18 @ $3DC36 - STRING #18 @ $3DE08
 
@@ -408,7 +408,7 @@
 
 #WRITE(Item, $3DC9E)
 // トールハンマー[X]
-토르　헤머[X]
+토르해머[X]
 
 //POINTER #71 @ $3DCA0 - STRING #71 @ $3E056
 

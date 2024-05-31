@@ -39,24 +39,24 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "용맹한 천마 기사단과 바람의 마도사들이"
+.stringn  "용맹한 천마 기사단과 바람 마도사들이"
 db NewLine
-.stringn  "지켜와, 건국 이래 백 년간"
+.stringn  "지켜 와, 건국 이래 백 년간"
 db WaitForA
 db ScrollText
 
-.stringn  "타국에 침략당하는 일도 없이"
+.stringn  "타국에 침략당하는 일 없이"
 db NewLine
 .stringn  "완전한 중립을 유지하고 있었다."
 db WaitForA
 db ScrollText
 
 dh unknown_0087
-.stringn  "하지만 수 년 전 국왕이 붕어하고"
+.stringn  "하지만 수년 전 국왕이 서거하고"
 db NewLine
 dh unknown_0080
 db 0x9D, 0x63, 0x0C, 0x24
-.stringn  "왕족 내에 후사를 둘러싼 대립이 일어나"
+.stringn  "왕족 간 후계자 문제로 대립이 일어나"
 db WaitForA
 db ScrollText
 
@@ -70,13 +70,13 @@ db ScrollText
 
 dh unknown_0080
 db 0x5C, 0x94, 0x0C, 0x1C
-.stringn  "선왕은 라나 왕비와의 사이에"
+.stringn  "선왕에겐 라나 왕비와의 사이에"
 db NewLine
 dh unknown_0082
 db 0x02, 0x08, 0x00
 dh unknown_0083
 db 0x02, 0x28, 0x60
-.stringn  "레빈이라 하는 왕자를 두었지만,"
+.stringn  "레빈이라 하는 왕자가 있었지만,"
 dh unknown_0081
 db 0x0C
 db WaitForA
@@ -94,9 +94,9 @@ db ScrollText
 
 dh unknown_0080
 db 0xA4, 0x74, 0x0C, 0x1E
-.stringn  "잭슨 성에 틀어박히고,"
+.stringn  "잭슨성에서 농성을 시작했고,"
 db NewLine
-.stringn  "이에 호응하듯"
+.stringn  "이에 호응하듯이"
 dh unknown_0081
 db 0x0C
 db WaitForA
@@ -112,7 +112,7 @@ dh unknown_0083
 db 0x06, 0x88, 0x08
 .stringn  "막내인 마이오스 공작 또한"
 db NewLine
-.stringn  "토베 성에 병사를 모으기 시작했다."
+.stringn  "토베성에 병사를 모으기 시작했다."
 dh unknown_0081
 db 0x0C
 db WaitForA
@@ -160,19 +160,19 @@ db EndText
 Dialogue_ecd41:
 .stringn  "실레지아의 내란을 진압한 시구르드를"
 db NewLine
-.stringn  "그란벨의 대군이 맞아들였다."
+.stringn  "그란벨의 대군이 맞이했다."
 db WaitForA
 db ScrollText
 
 dh unknown_0080
 db 0x6C, 0x0C, 0x0C, 0x28
-.stringn  "잭슨 성을 제압하자마자"
+.stringn  "잭슨성을 제압하자마자"
 db NewLine
 dh unknown_0082
 db 0x02, 0x01, 0x00
 dh unknown_0083
 db 0x02, 0x28, 0x04
-.stringn  "시구르드 일행은 숨돌릴 틈도 없이"
+.stringn  "시구르드 일행은 숨 돌릴 틈도 없이"
 dh unknown_0081
 db 0x0C
 db WaitForA
@@ -180,7 +180,7 @@ db ScrollText
 
 dh unknown_0080
 db 0x74, 0x13, 0x0C, 0x26
-.stringn  "뤼벡 성의 그란벨군과"
+.stringn  "뤼벡성의 그란벨군과"
 db NewLine
 .stringn  "대치하게 되었다."
 db WaitForA
@@ -201,11 +201,11 @@ db ScrollText
 
 .stringn  "아버지 바이런 경을 함정에 빠뜨린"
 db NewLine
-.stringn  "랑고바르트와의 싸움은"
+.stringn  "랑고바르트와의 싸움은 시구르드에게"
 db WaitForA
 db ScrollText
 
-.stringn  "아버지에게 보내는 애도이기도 했다."
+.stringn  "아버지를 향한 애도이기도 했다."
 db NewLine
 .if _USE_OLD_TRANSLATION == 1
 .stringn  "(빈줄)"
@@ -217,7 +217,7 @@ db ScrollText
 
 dh unknown_0080
 db 0x94, 0x3C, 0x0C, 0x2A
-.stringn  "사막 도시 피놀라에선"
+.stringn  "사막 도시 피놀라에는"
 db NewLine
 .stringn  "알비스 경의 유능한 부하인"
 db WaitForA
@@ -229,7 +229,7 @@ dh unknown_0083
 db 0x06, 0x70, 0x28
 dh unknown_0081
 db 0x0C
-.stringn  "마도검사 바하가 주둔하였고,"
+.stringn  "마도검사 바하가 주둔 중이고,"
 db NewLine
 dh unknown_0080
 db 0x5C, 0x7C, 0x0C, 0x2C
@@ -282,9 +282,9 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "신세졌던 실레지아를 더 이상"
+.stringn  "신세를 졌던 실레지아를 더 이상"
 db NewLine
-.stringn  "전란에 말려들게 할 순 없다."
+.stringn  "전란에 말려들게 할 수는 없다."
 db WaitForA
 db ScrollText
 
@@ -349,9 +349,9 @@ dh unknown_0083
 db 0x0A, 0x26, 0x50
 dh PauseForTime
 db 0x0A
-.stringn  "왕도 발할라를 둘러싼 격렬한 전쟁은"
+.stringn  "왕도 발할라를 둘러싼 격렬한 전쟁으로"
 db NewLine
-.stringn  "유력 제공 대부분의 목숨을 앗아갔고"
+.stringn  "대부분의 유력한 제후와 공작이 죽었고"
 db WaitForA
 dh PauseForTime
 db 0x0A
@@ -396,11 +396,11 @@ dh unknown_0082
 db 0x0A, 0xB1, 0x00
 dh unknown_0083
 db 0x0A, 0x60, 0x38
-.stringn  "그는 적대국인 실레지아, 렌스터"
+.stringn  "그는 적대국인 실레지아와 렌스터"
 db NewLine
 dh unknown_0081
 db 0x00
-.stringn  "양 왕국을 멸망시켜 대륙을 통일해"
+.stringn  "두 왕국을 멸망시키고 대륙을 통일해"
 dh PauseForTime
 db 0x0A
 dh unknown_0086
@@ -624,7 +624,7 @@ dh unknown_0082
 db 0x02, 0x1A, 0x00
 dh unknown_0083
 db 0x02, 0x30, 0x08
-.stringn  "북쪽 숨겨진 마을 「티르나노그」에서"
+.stringn  "북쪽의 숨겨진 마을 「티르나노그」에서"
 db NewLine
 .stringn  "샤난 왕자가 해방군을 결성해,"
 db WaitForA
@@ -688,7 +688,7 @@ db EndText
 Dialogue_ed4bd:
 .stringn  "세리스가 이끄는 해방군의 활약은"
 db NewLine
-.stringn  "고통받는 민중들에게 용기를 주어,"
+.stringn  "고통받는 민중에게 용기를 주어,"
 db WaitForA
 db ScrollText
 
@@ -723,7 +723,7 @@ dh unknown_0082
 db 0x02, 0x1D, 0x00
 dh unknown_0083
 db 0x02, 0x8C, 0x14
-.stringn  "큐안의 아들 리프 왕자가"
+.stringn  "큐안의 아들인 리프 왕자가"
 db NewLine
 dh unknown_0082
 db 0x04, 0x22, 0x00

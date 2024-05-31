@@ -700,7 +700,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "그래, 너한테 마법 방어가"
+.stringn  "그래, 너한테 마법방어가"
 db NewLine
 .stringn  "올라가는 성스러운 검을 줄게"
 db NewLine
@@ -1170,48 +1170,48 @@ db WaitForA
 
 db Top_Slot// Silvia
 dh ScrollText_DBC
-.stringn  "아 그렇구나,"
+.stringn  "아 그래?"
 db NewLine
 .stringn  "그럼 레빈이랑 내가"
 db NewLine
-.stringn  "만나도 아무 상관 없겠네?"
+.stringn  "사귀어도 괜찮은 거지?"
 
 db Bottom_Slot// Erinys
 dh PauseForTime
 db 0x10
-.stringn  "그, 그럼, 상관 없어・・・"
+.stringn  "그, 그럼, 괜찮지・・・"
 db NewLine
 db WaitForA
 
 db Top_Slot// Silvia
 dh ScrollText_DBC
-.stringn  "정말～?"
+.stringn  "정말로～?"
 db NewLine
-.stringn  "무리하는 거 아니야?"
+.stringn  "억지로 말한 거 아니야?"
 db NewLine
 
 db Bottom_Slot// Erinys
 dh PauseForTime
 db 0x10
-.stringn  "무, 무리라니"
+.stringn  "어, 억지로 왜 말해"
 db NewLine
-.stringn  "내가"
+.stringn  "나한텐"
 db NewLine
 .stringn  "그럴 이유가 없는걸"
 db WaitForA
 
 db Top_Slot// Silvia
 dh ScrollText_DBC
-.stringn  "흐응～ 그럼 잘됐네"
+.stringn  "흐음～ 그렇다면 잘됐네"
 db NewLine
-.stringn  "레빈은"
+.stringn  "그럼 나 유혹해도 되지?"
 db NewLine
-.stringn  "내가 채가지 뭐・・・"
+.stringn  "레빈을 말이야・・・"
 
 db Bottom_Slot// Erinys
 dh PauseForTime
 db 0x10
-.stringn  "아・・・ 그런데 말이야,"
+.stringn  "앗・・・ 그런데 말이야,"
 db NewLine
 .stringn  "실레지아의 왕비는 라나 님처럼"
 db NewLine
@@ -1236,7 +1236,7 @@ db Top_Slot// Silvia
 dh ScrollText_DBC
 .stringn  "흥, 됐어!"
 db NewLine
-.stringn  "나, 너한텐 절대로 안 져!"
+.stringn  "나 절대로 안 질 거야!"
 db NewLine
 dh PauseForTime
 db 0x20

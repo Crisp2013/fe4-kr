@@ -351,7 +351,7 @@ dh LoadPortrait
 dh 0x00F5//Reptor
 .stringn  "크크크・・・"
 db NewLine
-.stringn  "토르 해머의 무서움을"
+.stringn  "토르해머의 무서움을"
 db NewLine
 .stringn  "그 몸으로 깨닫거라!"
 db WaitForA

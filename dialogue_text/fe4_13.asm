@@ -853,7 +853,7 @@ dh PauseForTime
 db 0x10
 .stringn  "아뇨, 저야말로"
 db NewLine
-.stringn  "힘이 되어드리지 못해 죄송합니다"
+.stringn  "힘이 되어 드리지 못해 죄송합니다"
 db NewLine
 db WaitForA
 dh ScrollText_DBC
@@ -912,9 +912,9 @@ db NewLine
 db NewLine
 db WaitForA
 dh ScrollText_DBC
-.stringn  "더 이상 저희 힘으로"
+.stringn  "더 이상 우리의 힘으로"
 db NewLine
-.stringn  "어찌할 도리가 없는 것이지요"
+.stringn  "어찌할 도리가 없어요"
 db NewLine
 db WaitForA
 db EndText
@@ -948,7 +948,7 @@ db WaitForA
 
 db Top_Slot// Tailtiu
 dh ScrollText_DBC
-.stringn  "조금 얘기하고 싶은 게 있어"
+.stringn  "잠깐 얘기하고 싶은 게 있어"
 db NewLine
 
 db Bottom_Slot// Azelle
@@ -1201,7 +1201,7 @@ db ScrollText
 
 .stringn  "미데일, 꼭 무사히 돌아가요"
 db NewLine
-.stringn  "그리고 절 에딘이라고 불러줘요"
+.stringn  "그리고 절 에딘이라고 불러 줘요"
 db NewLine
 .stringn  "당신을 위해 기도하고 있을게요"
 db WaitForA

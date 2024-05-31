@@ -616,7 +616,7 @@ Dialogue_ad553:
 db ClearText
 .stringn  "뭐야,"
 db NewLine
-.stringn  "져버린 거냐?"
+.stringn  "져 버린 거냐?"
 db NewLine
 .stringn  "상처를 치료하고 다시 와라"
 db WaitForA
@@ -868,11 +868,11 @@ db EndText
 // 0xad928
 Dialogue_ad728:
 db ClearText
-.stringn  "고생하셨습니다"
+.stringn  "고생하셨습니다, 당신은"
 db NewLine
-.stringn  "당신은 "
+.stringn  ""
 dh SringBuffer4 //Class Change Name
-.stringn  " 클래스로"
+.stringn  "클래스로"
 db NewLine
 .stringn  "전직하실 수 있습니다"
 db WaitForA

@@ -929,7 +929,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "내 토르 해머의 앞에서"
+.stringn  "내 토르해머의 앞에서"
 db NewLine
 .stringn  "네놈의 힘 따윈 통하지 않는다"
 db NewLine

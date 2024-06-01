@@ -749,7 +749,7 @@ Dialogue_ad65e:
 db ClearText
 .stringn  "그대는 "
 dh SringBuffer1 //Lover or father
-.stringn  "공에게"
+.stringn  " 공에게"
 db NewLine
 .stringn  "관심이 있는 듯하군"
 db NewLine
@@ -764,7 +764,7 @@ Dialogue_ad678:
 db ClearText
 .stringn  "그대는 "
 dh SringBuffer1 //Lover or father
-.stringn  "공을"
+.stringn  " 공을"
 db NewLine
 .stringn  "좋아하는 듯하군"
 db NewLine
@@ -779,7 +779,7 @@ Dialogue_ad68e:
 db ClearText
 .stringn  "그대는 "
 dh SringBuffer1 //Lover or father
-.stringn  "공을"
+.stringn  " 공을"
 db NewLine
 .stringn  "사랑하는 듯하군"
 db NewLine
@@ -794,7 +794,7 @@ Dialogue_ad6a8:
 db ClearText
 .stringn  "그대는 "
 dh SringBuffer1 //Lover or father
-.stringn  "공과"
+.stringn  " 공과"
 db NewLine
 .stringn  "맺어진 듯하군"
 db NewLine
@@ -872,7 +872,7 @@ db ClearText
 db NewLine
 .stringn  ""
 dh SringBuffer4 //Class Change Name
-.stringn  "클래스로"
+.stringn  " 클래스로"
 db NewLine
 .stringn  "전직하실 수 있습니다"
 db WaitForA
@@ -915,9 +915,9 @@ db EndText
 // 0xad9a4
 Dialogue_ad7a4:
 db ClearText
-.stringn  "고생했군"
+.stringn  "고생했군, 너는"
 db NewLine
-.stringn  "너는 "
+.stringn  ""
 dh SringBuffer4 //Class Change Name
 .stringn  " 클래스로"
 db NewLine

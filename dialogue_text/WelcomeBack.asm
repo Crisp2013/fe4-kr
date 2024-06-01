@@ -204,7 +204,7 @@ db NewLine
 db NewLine
 .stringn  "엥? "
 dh SringBuffer2 //CharName or mother
-.stringn  "씨"
+.stringn  " 씨"
 db WaitForA
 db ScrollText
 
@@ -374,7 +374,7 @@ Dialogue_cf3be:
 db Top_Slot
 .stringn  "응? "
 dh SringBuffer2 //CharName or mother
-.stringn  "아냐?"
+.stringn  " 아냐?"
 db NewLine
 .stringn  "마중 나와 준 거니?"
 db NewLine
@@ -701,7 +701,7 @@ Dialogue_cf671:
 db Top_Slot
 .stringn  "오,  "
 dh SringBuffer2 //CharName or mother
-.stringn  "아니야"
+.stringn  " 아니야"
 db NewLine
 .stringn  "일부러 마중나와 줘서"
 db NewLine
@@ -717,7 +717,7 @@ Dialogue_cf694:
 db Top_Slot
 .stringn  "응? "
 dh SringBuffer2 //CharName or mother
-.stringn  "아냐?"
+.stringn  " 아냐?"
 db NewLine
 .stringn  "마중 나와 준 거니?"
 db NewLine
@@ -1822,7 +1822,7 @@ db EndText
 // 0xd01b5
 Dialogue_cffb5:
 dh SringBuffer1 //Lover or father
-.stringn  "님"
+.stringn  " 님"
 db EndText
 
 //end 0xcffbb

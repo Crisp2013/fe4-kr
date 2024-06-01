@@ -2790,7 +2790,7 @@ dh PauseForTime
 db 0x10
 dh InsName
 dh 0x003A//Larcei
-.stringn  "네가 그런 말도 다 하고"
+.stringn  "가 그런 말도 다 하고"
 db NewLine
 .stringn  "별일이네"
 db NewLine

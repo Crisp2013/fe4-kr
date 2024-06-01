@@ -3,7 +3,7 @@
 // 0x190187
 Dialogue_18ff87:
 dh SringBuffer3 //Item name
-.stringn "(을)를 손에 넣었다!"
+.stringn  "(을)를 손에 넣었다!"
 db NewLine
 db EndText
 
@@ -41,7 +41,7 @@ db EndText
 // 0x1901bb
 Dialogue_18ffbb:
 dh SringBuffer3 //Item name
-.stringn "(은)는 부서져 버렸다"
+.stringn  "(은)는 부서져 버렸다"
 db EndText
 
 

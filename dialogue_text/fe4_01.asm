@@ -2243,11 +2243,11 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "내가 너를 지켜줄게"
+.stringn  "내가 너를 지켜 줄게"
 db NewLine
 .stringn  "무슨 일이 닥쳐오더라도"
 db NewLine
-.stringn  "반드시 지켜줄게"
+.stringn  "반드시 지켜 줄게"
 db WaitForA
 db ScrollText
 
@@ -2575,7 +2575,7 @@ dh DialogClose
 dh ClearPortrait
 
 db Bottom_Slot// Sigurd
-.stringn  "앗, 바투 님!"
+.stringn  "앗, 바투 님! "
 dh PauseForTime
 db 0x30
 .stringn  "・・・이렇게 애처로울 데가"

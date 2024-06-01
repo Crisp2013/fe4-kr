@@ -385,7 +385,7 @@ db NewLine
 db WaitForA
 db ScrollText
 .endif
-.stringn  "하지만 여기까지다,"
+.stringn  "하지만 여기까지다, "
 .if _USE_OLD_TRANSLATION == 1
 db NewLine
 .endif

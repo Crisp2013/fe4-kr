@@ -21,7 +21,7 @@ dh PauseForTime
 db 0x20
 .stringn  "어, "
 dh SringBuffer1 //Lover or father
-.stringn  "씨가?"
+.stringn  " 씨가?"
 db NewLine
 .stringn  "나를 왜・・・?"
 db NewLine
@@ -62,7 +62,7 @@ dh PauseForTime
 db 0x20
 .stringn  "어, "
 dh SringBuffer1 //Lover or father
-.stringn  "씨가?"
+.stringn  " 씨가?"
 db NewLine
 .stringn  "나를 왜・・・?"
 db NewLine
@@ -105,7 +105,7 @@ dh PauseForTime
 db 0x20
 .stringn  "어, "
 dh SringBuffer1 //Lover or father
-.stringn  "씨가?"
+.stringn  " 씨가?"
 db NewLine
 .stringn  "나를 왜・・・?"
 db NewLine
@@ -116,7 +116,7 @@ db Top_Slot
 dh ScrollText_DBC
 .stringn  "역시 아직은 어리군요, "
 dh SringBuffer2 //CharName or mother
-.stringn  "は子供ね"
+.stringn  ""
 db NewLine
 .stringn  "괜찮아요, 곧 알게 될 테니까"
 db NewLine
@@ -148,7 +148,7 @@ dh PauseForTime
 db 0x20
 .stringn  "어, "
 dh SringBuffer1 //Lover or father
-.stringn  "씨가?"
+.stringn  " 씨가?"
 db NewLine
 .stringn  "나를 왜・・・?"
 db NewLine
@@ -159,7 +159,7 @@ db Top_Slot
 dh ScrollText_DBC
 .stringn  "역시 아직 어리군요, "
 dh SringBuffer2 //CharName or mother
-.stringn  "は子供ね"
+.stringn  ""
 db NewLine
 .stringn  "괜찮아요, 곧 알게 될 테니까"
 db NewLine
@@ -191,7 +191,7 @@ dh PauseForTime
 db 0x20
 .stringn  "어, "
 dh SringBuffer1 //Lover or father
-.stringn  "씨가?"
+.stringn  "씨 가?"
 db NewLine
 .stringn  "나를 왜・・・?"
 db NewLine
@@ -356,7 +356,7 @@ dh ScrollText_DBC
 .stringn  "저는"
 db NewLine
 dh SringBuffer5 //Brother Name
-.stringn  "대신으로 부족할까요?"
+.stringn  " 대신으로 부족할까요?"
 db NewLine
 
 db Bottom_Slot

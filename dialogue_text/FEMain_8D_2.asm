@@ -2094,7 +2094,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn  "시알피에 성기사 오이페"
+.stringn  "시알피의 성기사 오이페"
 dh InsBlockText_2D //04F50D00
 dh 0xC8E9
 db 0x8D //bank

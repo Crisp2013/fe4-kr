@@ -1621,19 +1621,19 @@ dh ScrollText_DBC
 db NewLine
 .stringn  "디아도라 황비님의 유품이었던"
 db NewLine
-.stringn  "서클렛을 열쇠로 삼으셨습니다"
+.stringn  "서클릿을 열쇠로 삼으셨습니다"
 db WaitForA
 db ScrollText
 
 .stringn  "아무래도 열려면"
 db NewLine
-.stringn  "그 서클렛이 있어야겠습니다만・・・"
+.stringn  "그 서클릿이 있어야겠습니다만・・・"
 db NewLine
 
 db Bottom_Slot// Lewyn
 dh PauseForTime
 db 0x10
-.stringn  "디아도라 황비의 서클렛이라・・・"
+.stringn  "디아도라 황비의 서클릿이라・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1659,7 +1659,7 @@ db Top_Slot// Lewyn
 db NewLine
 .stringn  "이 홈에"
 db NewLine
-.stringn  "서클렛 장식을 대어 보거라"
+.stringn  "서클릿 장식을 대어 보거라"
 
 db Bottom_Slot// Julia
 dh PauseForTime

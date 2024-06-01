@@ -1213,7 +1213,7 @@ dh PauseForTime
 db 0x10
 .stringn  "앗・・・ 그런데 말이야,"
 db NewLine
-.stringn  "실레지아의 왕비는 라나 님처럼"
+.stringn  "실레지아의 왕비는 라아나 님처럼"
 db NewLine
 .stringn  "기품 넘치는 분이셔야 하는데・・・"
 db WaitForA

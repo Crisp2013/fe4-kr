@@ -14,7 +14,7 @@ dh LoadPortrait
 dh 0x0001//Sigurd
 
 db Top_Slot// Oifey
-.stringn  "시구르드 님, 라나 님께서"
+.stringn  "시구르드 님, 라아나 님께서"
 db NewLine
 .stringn  "방문하셨습니다"
 db NewLine
@@ -22,7 +22,7 @@ db NewLine
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn  "라나 님께서?"
+.stringn  "라아나 님께서?"
 db NewLine
 db WaitForA
 
@@ -46,7 +46,7 @@ dh PauseForTime
 db 0x10
 .stringn  "예, 그렇습니다"
 db NewLine
-.stringn  "라나 님의 호의에는"
+.stringn  "라아나 님의 호의에는"
 db NewLine
 .stringn  "정말이지 감사할 따름입니다"
 db WaitForA
@@ -110,7 +110,7 @@ dh PauseForTime
 db 0x10
 .stringn  "감사합니다"
 db NewLine
-.stringn  "정말 라나 님께는"
+.stringn  "정말 라아나 님께는"
 db NewLine
 .stringn  "어떻게 은혜를 갚아야 할지・・・"
 db WaitForA
@@ -202,7 +202,7 @@ db NewLine
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn  "알비스 경과?"
+.stringn  "알비스 경과요?"
 db NewLine
 db WaitForA
 
@@ -272,7 +272,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x00B6//Annand
-.stringn  "라나 님, 곧 해가 집니다"
+.stringn  "라아나 님, 곧 해가 집니다"
 db NewLine
 .stringn  "슬슬 돌아가시는 게・・・"
 db NewLine
@@ -354,7 +354,7 @@ db NewLine
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn  "라나 님도 조심히 돌아가십시오"
+.stringn  "라아나 님도 조심히 돌아가십시오"
 db NewLine
 db WaitForA
 db EndText
@@ -486,7 +486,7 @@ dh LoadPortrait
 dh 0x00B6//Annand
 .stringn  "레빈 님,"
 db NewLine
-.stringn  "라나 님께선 저리 말씀하셔도"
+.stringn  "라아나 님께선 저리 말씀하셔도"
 db NewLine
 .stringn  "사실 무척 기뻐하고 계신답니다"
 db WaitForA
@@ -565,7 +565,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "퓨리, 난 라나 님을 모시고"
+.stringn  "퓨리, 난 라아나 님을 모시고"
 db NewLine
 .stringn  "실레지아성으로 돌아갈 테니"
 db NewLine
@@ -830,7 +830,7 @@ dh PauseForTime
 db 0x10
 .stringn  "네, 마이오스 님의 뜻대로"
 db NewLine
-.stringn  "제 부대는 유격군으로서"
+.stringn  "저희 부대는 유격군으로서"
 db NewLine
 .stringn  "적을 교란하겠습니다"
 db WaitForA
@@ -1027,7 +1027,7 @@ dh LoadPortrait
 dh 0x000F//Dew
 .stringn  "뭐야 이 자물쇠"
 db NewLine
-.stringn  "내가 실력 발휘하면 이 정돈・・・"
+.stringn  "내가 실력 발휘하면 이 정돈・・・ "
 dh BGMFade
 db 0xE0
 dh PauseForTime
@@ -1123,7 +1123,7 @@ dh LoadPortrait
 dh 0x0284//Lahna
 
 db Top_Slot// Annand
-.stringn  "라나 님,"
+.stringn  "라아나 님,"
 db NewLine
 .stringn  "잭슨에서 파멜라 부대가 출격해"
 db NewLine
@@ -1185,7 +1185,7 @@ db Top_Slot// Annand
 dh ScrollText_DBC
 .stringn  "전 이런 삶밖에 못 사니까요"
 db NewLine
-.stringn  "・・・・・・라나 님,"
+.stringn  "・・・・・・라아나 님,"
 db NewLine
 .stringn  "부디 신경 쓰지 마십시오"
 db WaitForA
@@ -1538,7 +1538,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "다만 라나 왕비는 죽이지 말도록"
+.stringn  "다만 라아나 왕비는 죽이지 말도록"
 db NewLine
 .stringn  "그 여자는 중요한 인질이니까"
 db NewLine
@@ -1574,7 +1574,7 @@ db NewLine
 db Bottom_Slot// Girl
 dh PauseForTime
 db 0x10
-.stringn  "그러면 라나 님께선・・・"
+.stringn  "그러면 라아나 님께선・・・"
 db NewLine
 db WaitForA
 
@@ -1593,7 +1593,7 @@ dh LoadPortrait
 dh 0x02AF//Villager
 .stringn  "모두들!"
 db NewLine
-.stringn  "라나 님의 말씀대로 하자고"
+.stringn  "라아나 님의 말씀대로 하자고"
 db NewLine
 .stringn  "자, 도망치자!"
 db WaitForA
@@ -1800,7 +1800,7 @@ dh LoadPortrait
 dh 0x0284//Lahna
 
 db Top_Slot// Sigurd
-.stringn  "라나 님, 무사하셨군요!"
+.stringn  "라아나 님, 무사하셨군요!"
 db NewLine
 .stringn  "원군이 늦어 죄송합니다"
 db NewLine
@@ -1829,7 +1829,7 @@ db ScrollText
 
 
 db Top_Slot// Sigurd
-.stringn  "라나 님, 부디 기운 차리십시오"
+.stringn  "라아나 님, 부디 기운 차리십시오"
 db NewLine
 .stringn  "마냐 공의 원수는 제가 갚겠습니다"
 db NewLine
@@ -1899,7 +1899,7 @@ dh LoadPortrait
 dh 0x0284//Lahna
 
 db Top_Slot// Sigurd
-.stringn  "라나 님, 무사하셨습니까!"
+.stringn  "라아나 님, 무사하셨습니까!"
 db NewLine
 .stringn  "원군이 늦어 죄송합니다"
 db NewLine
@@ -1928,7 +1928,7 @@ db ScrollText
 
 
 db Top_Slot// Sigurd
-.stringn  "라나 님, 부디 기운 차리십시오"
+.stringn  "라아나 님, 부디 기운 차리십시오"
 db NewLine
 .stringn  "마냐 공의 원수는 제가 갚았습니다"
 db NewLine
@@ -2362,7 +2362,7 @@ dh LoadPortrait
 dh 0x0001//Sigurd
 
 db Top_Slot// Oifey
-.stringn  "시구르드 님, 라나 님께서 오셨습니다"
+.stringn  "시구르드 님, 라아나 님이 오셨습니다"
 db NewLine
 db WaitForA
 db ScrollText
@@ -2413,7 +2413,7 @@ db NewLine
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn  "라나 님, 랑고바르트의 군단은"
+.stringn  "라아나 님, 랑고바르트의 군단은"
 db NewLine
 .stringn  "저희를 토벌하기 위해 원정 온 겁니다"
 db NewLine
@@ -2458,7 +2458,7 @@ db NewLine
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn  "라나 님, 지난 1년간은"
+.stringn  "라아나 님, 지난 1년간은"
 db NewLine
 .stringn  "당신이 제 친어머니처럼 느껴져,"
 db NewLine
@@ -2479,9 +2479,9 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "라나 님, 부디 건강하시길"
+.stringn  "라아나 님, 부디 건강하시길"
 db NewLine
-.stringn  "언젠가 다시 만나게 되기를"
+.stringn  "언젠가 다시 뵙게 되기를"
 db NewLine
 .stringn  "진심으로 바라고 있겠습니다"
 db WaitForA
@@ -2871,7 +2871,7 @@ db ScrollText
 db NewLine
 .stringn  "한 명도 빠짐없이"
 db NewLine
-.stringn  "라나 님을 지지하고 있습니다"
+.stringn  "라아나 님을 지지하고 있습니다"
 
 db Bottom_Slot// Sigurd
 dh PauseForTime
@@ -2883,7 +2883,7 @@ db NewLine
 .stringn  "이 마을을 맡기겠습니다"
 db WaitForA
 dh ScrollText_DBC
-.stringn  "언젠가 라나 님께서 따로"
+.stringn  "언젠가 라아나 님께서 따로"
 db NewLine
 .stringn  "지령을 내려 주시겠지만"
 db NewLine
@@ -2904,7 +2904,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "시구르드 공, 라나 님은 평화를"
+.stringn  "시구르드 공, 라아나 님은 평화를"
 db NewLine
 .stringn  "사랑하는 실레지아의 보물이십니다"
 db NewLine
@@ -2917,7 +2917,7 @@ db 0x10
 db NewLine
 .stringn  "제 힘이 닿는 데까지"
 db NewLine
-.stringn  "라나 왕비님을 지킬 것을 약속합니다!"
+.stringn  "라아나 왕비님을 지킬 겁니다!"
 db WaitForA
 db EndText
 

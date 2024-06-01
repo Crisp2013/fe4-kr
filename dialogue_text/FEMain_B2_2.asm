@@ -191,7 +191,7 @@ dh PauseForTime
 db 0x20
 .stringn  "어, "
 dh SringBuffer1 //Lover or father
-.stringn  "씨 가?"
+.stringn  " 씨가?"
 db NewLine
 .stringn  "나를 왜・・・?"
 db NewLine

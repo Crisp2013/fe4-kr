@@ -1818,7 +1818,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "실레지아의 라나 왕비님께선"
+.stringn  "실레지아의 라아나 왕비님께선"
 db NewLine
 .stringn  "타국 간의 전쟁에 개입하지 말라고"
 db NewLine
@@ -2444,7 +2444,7 @@ dh ScrollText_DBC
 db NewLine
 .stringn  "벌써 2년이에요,"
 db NewLine
-.stringn  "라나 왕비님께서 걱정하신다구요"
+.stringn  "라아나 왕비님께서 걱정하신다구요"
 db WaitForA
 db ScrollText
 
@@ -2515,7 +2515,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "레빈 님・・・ 라나 님께서"
+.stringn  "레빈 님・・・ 라아나 님께서"
 db NewLine
 .stringn  "눈물로 밤을 지새우고 계세요"
 db NewLine

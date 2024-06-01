@@ -342,7 +342,7 @@ db Top_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0001//Sigurd
-.stringn  "아니 아단, 나도 부탁하마."
+.stringn  "아니 아단, 나도 부탁하마"
 db NewLine
 .stringn  "성의 수비를 맡길 수 있는 건 너뿐이야"
 db NewLine
@@ -489,7 +489,7 @@ db ScrollText
 
 
 db Top_Slot// DiMaggio
-.stringn  "예입, 알겠습니다요. 맡겨만 주십쇼!"
+.stringn  "예입 알겠습니다, 맡겨만 주십쇼!"
 db NewLine
 db WaitForA
 db EndText
@@ -1267,9 +1267,9 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "다른 마을 사람들도 구해주신다면"
+.stringn  "다른 마을 사람들도 구해 주신다면"
 db NewLine
-.stringn  "분명 당신들에게 협력할 거예요"
+.stringn  "분명 여러분들께 협력할 거예요"
 db NewLine
 db WaitForA
 db EndText
@@ -1357,7 +1357,7 @@ dh LoadPortrait
 dh 0x02AB//Old villager
 .stringn  "잉그비는 활 솜씨가 좋은 집안이라네"
 db NewLine
-.stringn  "가문 사람들은 활의 신 울르의 자손이지"
+.stringn  "가문 사람들은 활의 신 울르의 후예지"
 db NewLine
 .if _USE_OLD_TRANSLATION == 1
 .stringn "(빈줄)"
@@ -1490,7 +1490,7 @@ db ScrollText
 db NewLine
 .stringn  "이건 폐하께서 보내신 선물일세"
 db NewLine
-.stringn  "부디 받아주게나"
+.stringn  "부디 받아 주게나"
 
 db Bottom_Slot// Sigurd
 dh PauseForTime
@@ -1546,7 +1546,7 @@ db ScrollText
 
 .stringn  "가능하다면 곁에 두고 싶지만,"
 db NewLine
-.stringn  "어쩔 수 없겠지・・・"
+.stringn  "어쩔 수 없지・・・"
 db NewLine
 db WaitForA
 db ScrollText

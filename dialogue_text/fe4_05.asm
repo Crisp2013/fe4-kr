@@ -2708,7 +2708,7 @@ db 0x10
 db NewLine
 .stringn  "전군에 고한다"
 db NewLine
-.stringn  "역적 시구르드를 붙잡아라"
+.stringn  "반역자 시구르드를 붙잡아라"
 db WaitForA
 dh ScrollText_DBC
 .stringn  "살려 둘 필요는 없다"

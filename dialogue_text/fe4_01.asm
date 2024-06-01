@@ -55,7 +55,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "아그스트리아의 제공들이"
+.stringn  "아그스트리아의 귀족들이"
 db NewLine
 .stringn  "쓸데없는 야심을 불태울지도 모르지"
 db NewLine
@@ -317,7 +317,7 @@ dh PauseForTime
 db 0x10
 .stringn  "자무카 왕자,"
 db NewLine
-.stringn  "같이 가지 않는 건가요?"
+.stringn  "같이 가지 않을 건가요?"
 db NewLine
 db WaitForA
 
@@ -333,7 +333,7 @@ db ScrollText
 
 .stringn  "내가 베르던성으로 돌아가"
 db NewLine
-.stringn  "한 번 더 설득해 보지"
+.stringn  "한 번 더 설득해 볼게"
 db NewLine
 
 db Bottom_Slot// Edain
@@ -347,7 +347,7 @@ db WaitForA
 dh ScrollText_DBC
 .stringn  "자무카 왕자, 당신만이 희망입니다"
 db NewLine
-.stringn  "부디 바투 왕께 아뢰어"
+.stringn  "부디 바투 전하께 아뢰어"
 db NewLine
 .stringn  "전쟁을 그만두라고 전해 주세요"
 db WaitForA
@@ -450,7 +450,7 @@ db ScrollText
 
 .stringn  "너희들,"
 db NewLine
-.stringn  "당장 그 여자랑 도둑 꼬마를 잡아 와라"
+.stringn  "당장 그 여자랑 도적 꼬마를 잡아 와라"
 db NewLine
 .stringn  "저항하면 죽여도 상관없다!"
 db WaitForA
@@ -497,7 +497,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "그란벨을 미워하여"
+.stringn  "그란벨을 증오하여"
 db NewLine
 .stringn  "우리를 적대하는 마음은 알겠으나"
 db NewLine
@@ -523,7 +523,7 @@ db 0x10
 db NewLine
 .stringn  "샤난의 보호를 부탁받아"
 db NewLine
-.stringn  "이 나라까지 흘러오게 되었다"
+.stringn  "이 나라까지 오게 되었다"
 db WaitForA
 dh ScrollText_DBC
 .stringn  "확실히 베르던 따위를 위해"
@@ -704,14 +704,14 @@ db WaitForA
 dh ScrollText_DBC
 .stringn  "알았어, 그녀에게 네가 무사하다고"
 db NewLine
-.stringn  "전해 줄게. 네 이름은?"
+.stringn  "전해 줄게, 네 이름은?"
 db NewLine
 db WaitForA
 db ScrollText
 
 
 db Top_Slot// Yong Shannan
-.stringn  "샤난."
+.stringn  "샤난"
 db NewLine
 .stringn  "・・・이자크의 왕자, 샤난・・・"
 db NewLine
@@ -731,7 +731,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "잠시만 참아주렴"
+.stringn  "잠시만 참아 주렴"
 db NewLine
 .stringn  "언젠가 고향으로 돌아가야 하잖니"
 db NewLine
@@ -1166,7 +1166,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "힘없는 시민들이 슬픔 속에 죽어가겠지"
+.stringn  "힘없는 시민들이 슬픔 속에서 죽겠지"
 db NewLine
 .stringn  "그런 건 용납할 수 없어!"
 db NewLine
@@ -1201,7 +1201,7 @@ dh LoadPortrait
 dh 0x0066//Elliot
 .stringn  "제기랄, 엘트샨 놈!"
 db NewLine
-.stringn  "항상 혼자만 잘난 척하긴!"
+.stringn  "항상 혼자서 잘난 척하긴!"
 db NewLine
 db WaitForA
 db ScrollText
@@ -1369,7 +1369,7 @@ dh LoadPortrait
 dh 0x0010//Deirdre
 
 db Top_Slot// Sigurd
-.stringn  "괜찮니? 다친 덴 없어?"
+.stringn  "괜찮나? 다친 덴 없고?"
 db NewLine
 
 db Bottom_Slot// Deirdre
@@ -1383,7 +1383,7 @@ db WaitForA
 
 db Top_Slot// Sigurd
 dh ScrollText_DBC
-.stringn  "음? 내 이름을 알고 있나?"
+.stringn  "음? 어떻게 내 이름을 아는 거지?"
 db NewLine
 
 db Bottom_Slot// Deirdre
@@ -1419,7 +1419,7 @@ dh PauseForTime
 db 0x10
 .stringn  "・・・죄송해요"
 db NewLine
-.stringn  "・・・저・・・ 이제 가봐야・・・"
+.stringn  "・・・저・・・ 이제 가야・・・"
 db NewLine
 db WaitForA
 
@@ -1689,7 +1689,7 @@ db ScrollText
 db NewLine
 .stringn  "산디마・・・"
 db NewLine
-.stringn  "결코 네놈을 살려두지 않겠다!"
+.stringn  "결코 네놈을 살려 두지 않겠다!"
 db WaitForA
 db EndText
 
@@ -1747,7 +1747,7 @@ db ScrollText
 
 
 db Top_Slot// Batu
-.stringn  "무, 무슨 짓이냐!?"
+.stringn  "무, 무슨 짓이냐!? "
 dh PlaySfx
 db 0x69
 dh PauseForTime
@@ -1978,7 +1978,7 @@ db WaitForA
 dh ScrollText_DBC
 .stringn  "다행이다,"
 db NewLine
-.stringn  "정말로 다시는 못 볼 줄 알았어"
+.stringn  "정말로 다시는 못 보는 줄 알았어"
 db NewLine
 db WaitForA
 db ScrollText
@@ -2072,7 +2072,7 @@ db ScrollText
 
 .stringn  "・・・이제・・・ 어쩌면 좋을지・・・"
 db NewLine
-.stringn  "・・・・・저도 잘 모르겠①어요・・・"
+.stringn  "・・・・・저도 잘 모르겠어요・・・"
 db NewLine
 
 db Bottom_Slot// Sigurd
@@ -2123,7 +2123,7 @@ db WaitForA
 dh ScrollText_DBC
 .stringn  "다행이다,"
 db NewLine
-.stringn  "정말로 다시는 못 볼 줄 알았어"
+.stringn  "정말로 다시는 못 보는 줄 알았어"
 db NewLine
 db WaitForA
 db ScrollText
@@ -2132,9 +2132,9 @@ db ScrollText
 db Top_Slot// Deirdre
 .stringn  "산디마가 죽었다고 들었어요"
 db NewLine
-.stringn  "저는 그 남자에게 발견될까봐"
+.stringn  "저는 그 남자에게 발견될까 봐"
 db NewLine
-.stringn  "몸을 피하고 있었죠"
+.stringn  "몸을 숨기고 있었죠"
 db WaitForA
 db ScrollText
 
@@ -2350,7 +2350,7 @@ dh LoadPortrait
 dh 0x0279//Batu
 
 db Bottom_Slot// Sigurd
-.stringn  "바투 왕이시여・・・ 어떻게 된 겁니까!"
+.stringn  "바투 전하・・・ 어떻게 된 겁니까!"
 db NewLine
 .stringn  "정신 차리십시오!"
 db NewLine
@@ -2409,7 +2409,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "산디마는 그걸 위해"
+.stringn  "그래서 산디마는"
 db NewLine
 .stringn  "우리를 부추겨"
 db NewLine
@@ -2436,7 +2436,7 @@ dh DialogClose
 dh ClearPortrait
 
 db Bottom_Slot// Sigurd
-.stringn  "앗, 바투 님!"
+.stringn  "앗, 바투 님! "
 dh PauseForTime
 db 0x30
 .stringn  "・・・이렇게 비참할 데가"
@@ -2488,7 +2488,7 @@ dh LoadPortrait
 dh 0x0279//Batu
 
 db Bottom_Slot// Sigurd
-.stringn  "바투 왕이시여・・・ 어떻게 된 겁니까!"
+.stringn  "바투 전하・・・ 어떻게 된 겁니까!"
 db NewLine
 .stringn  "정신 차리십시오!"
 db NewLine
@@ -2547,7 +2547,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "산디마는 그걸 위해"
+.stringn  "그래서 산디마는"
 db NewLine
 .stringn  "우리를 부추겨"
 db NewLine
@@ -2657,7 +2657,7 @@ db ScrollText
 
 .stringn  "함께 베르던으로 가요"
 db NewLine
-.stringn  "그리고 왕을 다시 한번 설득해"
+.stringn  "그리고 전하를 다시 한번 설득해"
 db NewLine
 .stringn  "전쟁을 멈춰봐요"
 db WaitForA
@@ -2739,7 +2739,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "바투 폐하께서 직접 다스리실 땐"
+.stringn  "바투 전하께서 직접 다스리실 땐"
 db NewLine
 .stringn  "평화롭고 살기 좋았는데・・・"
 db NewLine
@@ -2763,11 +2763,11 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x02AE//Madam Villager
-.stringn  "저희 국왕님은 어진 분이시라"
+.stringn  "우리 국왕님은 어진 분이시라"
 db NewLine
 .stringn  "결코 스스로 전쟁을"
 db NewLine
-.stringn  "일으키실 분이 아니셨어요"
+.stringn  "일으키실 분이 아니었어요"
 db WaitForA
 db ScrollText
 
@@ -2960,7 +2960,7 @@ dh 0x0013//Ayra
 db NewLine
 .stringn  "큭, 그란벨군에게 끌려간 건가?"
 db NewLine
-.stringn  "이놈들, 살려두지 않겠다!"
+.stringn  "이놈들, 살려 두지 않겠다!"
 db WaitForA
 db EndText
 
@@ -2990,7 +2990,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0013//Ayra
-.stringn  "뭣이!? 제노아성이"
+.stringn  "뭐!? 제노아성이"
 db NewLine
 .stringn  "그란벨군에게 함락됐다고?"
 db NewLine
@@ -3014,9 +3014,9 @@ dh PlayBGM
 db 0x8F
 dh PauseForTime
 db 0x3C
-.stringn  "아차!"
+.stringn  "이런!"
 db NewLine
-.stringn  "철의 도끼를 떨어뜨렸다!!"
+.stringn  "철의 도끼를 떨어뜨렸잖아!!"
 db NewLine
 db WaitForA
 db ScrollText

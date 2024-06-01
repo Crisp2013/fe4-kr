@@ -547,7 +547,7 @@ dh 0x0008//Lewyn
 db Top_Slot// Myos
 .stringn  "큭, 누군가 했더니"
 db NewLine
-.stringn  "라나의 바보 아들이로군"
+.stringn  "라아나의 바보 아들이로군"
 db NewLine
 .stringn  "이 자식, 언제 돌아온 거냐!"
 
@@ -556,7 +556,7 @@ dh PauseForTime
 db 0x10
 .stringn  "삼촌, 미안하지만 죽어줘야겠어"
 db NewLine
-.stringn  "이것도 실레지아를 지키기 위해서다"
+.stringn  "이것도 실레지아를 지키기 위해서야"
 db NewLine
 db WaitForA
 db EndText

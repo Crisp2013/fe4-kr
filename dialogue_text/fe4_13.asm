@@ -1634,7 +1634,7 @@ db NewLine
 db NewLine
 db WaitForA
 dh ScrollText_DBC
-.stringn  "라나 님께 문안 인사는 드렸나?"
+.stringn  "라아나 님께 문안 인사는 드렸나?"
 db NewLine
 .stringn  "중요한 용무가 있으신 듯하던데,"
 db NewLine
@@ -2626,7 +2626,7 @@ db WaitForA
 
 db Top_Slot// Erinys
 dh ScrollText_DBC
-.stringn  "네, 라나 님・・・ 아니, 어머님은"
+.stringn  "네, 라아나 님・・・ 아니, 어머님은"
 db NewLine
 .stringn  "이제 행복하게 사셔야 하니까요・・・"
 db NewLine

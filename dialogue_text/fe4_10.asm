@@ -1519,7 +1519,7 @@ db Top_Slot// Emperor Arvis
 db NewLine
 .stringn  "내겐 널 지켜줄 힘이 없구나・・・"
 db NewLine
-.stringn  "그러니・・・ 이 서클렛을 받으렴"
+.stringn  "그러니・・・ 이 서클릿을 받으렴"
 db WaitForA
 db ScrollText
 

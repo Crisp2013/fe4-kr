@@ -763,7 +763,7 @@ db NewLine
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x0C
-.stringn  "그래・・・"
+.stringn  "그래・・・ "
 dh PauseForTime
 db 0x08
 .stringn  "아무래도"
@@ -822,7 +822,7 @@ db NewLine
 db Bottom_Slot// Eldigan
 dh PauseForTime
 db 0x10
-.stringn  "폐하・・・"
+.stringn  "폐하・・・ "
 dh PauseForTime
 db 0x08
 .stringn  "제게 왜 그러시는 겁니까!"
@@ -942,10 +942,10 @@ dh LoadPortrait
 dh 0x005A//Eldigan
 
 db Top_Slot// Sigurd
-.stringn  "엘트샨,"
+.stringn  "엘트샨, "
 dh PauseForTime
 db 0x08
-.stringn  "부탁이야!"
+.stringn  "부탁이야! "
 dh PauseForTime
 db 0x08
 .stringn  "검을 거둬 줘!"
@@ -1005,7 +1005,7 @@ dh LoadPortrait
 dh 0x005A//Eldigan
 
 db Top_Slot// Lachesis
-.stringn  "오라버니!"
+.stringn  "오라버니! "
 dh PauseForTime
 db 0x08
 .stringn  "저예요, 라케시스예요!!"
@@ -1033,7 +1033,7 @@ dh PauseForTime
 db 0x14
 
 db Bottom_Slot// Eldigan
-.stringn  "라케시스・・・・,"
+.stringn  "라케시스・・・・ "
 dh PauseForTime
 db 0x08
 .stringn  "그렇게 울지 말아 다오"
@@ -1077,7 +1077,7 @@ db 0x10
 .stringn  "・・・・・・"
 dh PauseForTime
 db 0x08
-.stringn  "알았다,"
+.stringn  "알았다, "
 dh PauseForTime
 db 0x08
 .stringn  "라케시스"
@@ -1157,7 +1157,7 @@ dh LoadPortrait
 dh 0x00A1//Chagall
 
 db Top_Slot// Eldigan
-.stringn  "폐하,"
+.stringn  "폐하, "
 dh PauseForTime
 db 0x08
 .stringn  "더 이상의 전쟁은 무의미합니다"
@@ -1175,7 +1175,7 @@ db NewLine
 db Bottom_Slot// Chagall
 dh PauseForTime
 db 0x0C
-.stringn  "엘트샨,"
+.stringn  "엘트샨, "
 dh PauseForTime
 db 0x08
 .stringn  "네 이놈!"
@@ -1187,7 +1187,7 @@ db 0x08
 .stringn  "역시 적과 내통하고 있었군!"
 db WaitForA
 dh ScrollText_DBC
-.stringn  "누구 없느냐,"
+.stringn  "누구 없느냐, "
 dh PauseForTime
 db 0x08
 .stringn  "저 배신자 놈을 붙잡아라!"
@@ -1238,7 +1238,7 @@ dh LoadPortrait
 dh 0x027F//Oifey
 
 db Top_Slot// Sigurd
-.stringn  "어째서,"
+.stringn  "어째서, "
 dh PauseForTime
 db 0x08
 .stringn  "어째서 엘트샨을"
@@ -1320,7 +1320,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x00A4//Papilio
-.stringn  "서둘러라,"
+.stringn  "서둘러라, "
 dh PauseForTime
 db 0x08
 .stringn  "아그스트리아가 코앞이다!"
@@ -1430,7 +1430,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x023C//Young Travant
-.stringn  "칫"
+.stringn  "쳇, "
 dh PauseForTime
 db 0x08
 .stringn  "파피용 녀석, 방심한 건가"
@@ -1441,7 +1441,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "작별이다,"
+.stringn  "작별이다, "
 dh PauseForTime
 db 0x08
 .stringn  "어리석은 샤갈 왕이여"
@@ -1478,7 +1478,7 @@ db NewLine
 db NewLine
 db WaitForA
 dh ScrollText_DBC
-.stringn  "그리고 이런 때에 죄송합니다만"
+.stringn  "그리고 이런 때에 죄송하지만"
 db NewLine
 .stringn  "아그스티성에서"
 db NewLine
@@ -1615,7 +1615,7 @@ dh 0x000C//Claud
 db Top_Slot// Tailtiu
 .stringn  "클로드 님, 빨리, 빨리요!!"
 db NewLine
-.stringn  "이제 기도 다 끝난 거죠?"
+.stringn  "이제 기도 다 끝나신 거죠?"
 db NewLine
 db WaitForA
 db ScrollText
@@ -2316,7 +2316,7 @@ db WaitForA
 dh ScrollText_DBC
 .stringn  "내 암흑 마법으로 모든 기억을 잃고"
 db NewLine
-.stringn  "어떤 남자의 아내가 될 게야・・・"
+.stringn  "한 남자의 아내가 될 게야・・・"
 db NewLine
 .if _USE_OLD_TRANSLATION == 1
 .stringn "(빈줄)"
@@ -2443,7 +2443,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "라나 왕비님의 명령으로"
+.stringn  "라아나 왕비님의 명령으로"
 db NewLine
 .stringn  "시구르드 님을 모시러 왔습니다"
 db NewLine
@@ -2459,7 +2459,7 @@ db NewLine
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn  "・・・실레지아의 라나 왕비님께서?"
+.stringn  "・・・실레지아의 라아나 왕비님께서?"
 db NewLine
 db WaitForA
 dh ScrollText_DBC
@@ -2471,7 +2471,7 @@ db ScrollText
 
 
 db Top_Slot// Annand
-.stringn  "시구르드 님,"
+.stringn  "시구르드 님, "
 dh PauseForTime
 db 0x08
 .stringn  "시간이 없습니다"

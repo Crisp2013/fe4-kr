@@ -70,7 +70,7 @@ db ScrollText
 
 dh unknown_0080
 db 0x5C, 0x94, 0x0C, 0x1C
-.stringn  "선왕에겐 라나 왕비와의 사이에"
+.stringn  "선왕에겐 라아나 왕비와의 사이에"
 db NewLine
 dh unknown_0082
 db 0x02, 0x08, 0x00

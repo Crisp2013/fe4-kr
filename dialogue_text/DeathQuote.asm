@@ -1738,7 +1738,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0014//Erinys
-.stringn  "아아・・・ 라나 님・・・"
+.stringn  "아아・・・ 라아나 님・・・"
 db NewLine
 .stringn  "용서해 주세요・・・"
 db NewLine

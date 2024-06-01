@@ -218,7 +218,7 @@ db ScrollText
 db Top_Slot// Sigurd
 .stringn  "하지만 넌 아직 어린애가 아니냐"
 db NewLine
-.stringn  "괜찮겠어?"
+.stringn  "괜찮겠니?"
 db NewLine
 
 db Bottom_Slot// Oifey
@@ -342,7 +342,7 @@ db Top_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0001//Sigurd
-.stringn  "아니, 아단. 나도 부탁하마."
+.stringn  "아니 아단, 나도 부탁하마."
 db NewLine
 .stringn  "성의 수비를 맡길 수 있는 건 너뿐이야"
 db NewLine

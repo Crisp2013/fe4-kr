@@ -84,7 +84,7 @@ Dialogue_16fdd0:
 dh DialogOpen
 dh LoadPortrait
 dh 0x0014//Erinys
-.stringn "난, 그러려던 게・・・"
+.stringn "난 그러려던 게・・・"
 db EndText
 
 //end 0x16fde2
@@ -153,7 +153,7 @@ Dialogue_16fe39:
 dh DialogOpen
 dh LoadPortrait
 dh 0x0032//Scﾃ｡thach
-.stringn "수행의 성과를 보여주지!"
+.stringn "수행의 성과를 보여 주지!"
 db NewLine
 .stringn "오늘은 안 진다, 라크체!!"
 db EndText
@@ -226,7 +226,7 @@ dh LoadPortrait
 dh 0x001A//Shannan
 .stringn "훗・・・"
 db NewLine
-.stringn "그정도 실력으론"
+.stringn "그 정도 실력으론"
 db NewLine
 .stringn "아직 실전에 따라나갈 수 없겠는걸"
 db EndText
@@ -362,7 +362,7 @@ Dialogue_16ffaa:
 dh DialogOpen
 dh LoadPortrait
 dh 0x0012//Lachesis
-.stringn "오라버니는 바보야!"
+.stringn "오라버니는 바보예요!"
 db NewLine
 .stringn "정 싸우고 싶다면,"
 db NewLine

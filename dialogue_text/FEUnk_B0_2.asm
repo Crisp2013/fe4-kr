@@ -497,14 +497,14 @@ db NewLine
 .stringn  "게다가 엘트샨까지・・・"
 db WaitForA
 dh ScrollText_DBC
-.stringn  "쓰레기 같은 사내 같으니!"
+.stringn  "비열한 사내 같으니!"
 db NewLine
 db WaitForA
 db ScrollText
 
 
 db Top_Slot// Chagall
-.stringn  "닥쳐라! 아무것도 모르는 주제에!"
+.stringn  "닥쳐라! 넌 아무것도 모른다!"
 db NewLine
 .stringn  "죽어라, 시구르드!!"
 db NewLine
@@ -521,7 +521,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x009F//Eldigan
-.stringn  "기다려라, 라케시스!"
+.stringn  "기다려, 라케시스!"
 db NewLine
 .stringn  "너와는 싸우고 싶지 않아!!"
 db NewLine
@@ -554,7 +554,7 @@ db NewLine
 db Bottom_Slot// Lewyn
 dh PauseForTime
 db 0x10
-.stringn  "삼촌, 미안하지만 죽어줘야겠어"
+.stringn  "삼촌, 미안하지만 죽어 줘야겠어"
 db NewLine
 .stringn  "이것도 실레지아를 지키기 위해서야"
 db NewLine
@@ -633,7 +633,7 @@ db 0x10
 db NewLine
 .stringn  "난 더 이상 옛날의 퓨리가 아냐"
 db NewLine
-.stringn  "이제 당신에게도 안 져!"
+.stringn  "이젠 당신에게도 안 져!"
 db WaitForA
 
 db Top_Slot// Dﾃｭthorba
@@ -642,7 +642,7 @@ dh ScrollText_DBC
 db NewLine
 .stringn  "좀 컸다고 큰소리는!"
 db NewLine
-.stringn  "웃기지도 않는군!"
+.stringn  "웃기지도 않아!"
 db WaitForA
 db EndText
 
@@ -686,7 +686,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "너도 마냐의 곁으로 보내주지"
+.stringn  "너도 마냐 곁으로 보내 주지"
 db NewLine
 .stringn  "각오해!"
 db NewLine
@@ -719,7 +719,7 @@ db ScrollText
 
 .stringn  "마냐는"
 db NewLine
-.stringn  "제가 치워버렸답니다,"
+.stringn  "제가 치워 버렸답니다,"
 db NewLine
 .stringn  "호호호・・・"
 
@@ -734,7 +734,7 @@ db WaitForA
 
 db Top_Slot// Pamela
 dh ScrollText_DBC
-.stringn  "흥, 이게 다 "
+.stringn  "흥, 이건 다"
 db NewLine
 .stringn  "레빈 님 잘못이라구요・・・"
 db NewLine
@@ -829,7 +829,7 @@ db NewLine
 db Bottom_Slot// Tailtiu
 dh PauseForTime
 db 0x10
-.stringn  "！・・・・・・아버님・・・"
+.stringn  "! ・・・・・・아버님・・・"
 db NewLine
 db WaitForA
 db EndText

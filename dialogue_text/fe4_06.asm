@@ -180,7 +180,7 @@ dh LoadPortrait
 dh 0x003A//Larcei
 dh InsName
 dh 0x0032//Scﾃ｡thach
-.stringn ", 왜 그렇게 호들갑이야?"
+.stringn  ", 왜 그렇게 호들갑이야?"
 db NewLine
 .stringn  "이 아지트가 발각되는 것도"
 db NewLine
@@ -197,7 +197,7 @@ db ScrollText
 
 .stringn  "여기서 받아치고"
 db NewLine
-.stringn  "바로 가네샤까지 진격하는 거야"
+.stringn  "바로 가네샤까지 진격하면 돼"
 db NewLine
 
 db Bottom_Slot// Scﾃ｡thach
@@ -205,7 +205,7 @@ dh PauseForTime
 db 0x10
 dh InsName
 dh 0x003A//Larcei
-.stringn  ", 바보 같은 소리 마"
+.stringn  ", 이상한 소리 하지 마"
 db NewLine
 db WaitForA
 dh ScrollText_DBC
@@ -233,13 +233,13 @@ dh 0x0032//Scﾃ｡thach
 db NewLine
 .stringn  "난 아무렇지도 않아"
 db NewLine
-.stringn  "오히려 기회라고 생각하는걸"
+.stringn  "오히려 기회라고 생각하는데"
 db WaitForA
 db ScrollText
 
 .stringn  "왕자님은 우릴 어린애 취급하고"
 db NewLine
-.stringn  "실전에 끼워주지 않으셨지만"
+.stringn  "실전에 끼워 주지 않으셨지만"
 db NewLine
 .stringn  "이미 수행은 충분히 마쳤어"
 
@@ -272,7 +272,7 @@ db ScrollText
 
 .stringn  "그때 샤난 왕자님께서"
 db NewLine
-.stringn  "구해주시지 않았다면"
+.stringn  "구해 주시지 않았다면"
 db NewLine
 .stringn  "나도 죽었을 거야"
 db WaitForA
@@ -313,7 +313,7 @@ db ScrollText
 
 .stringn  "아마"
 db NewLine
-.stringn  "샤난이 당부하고 갔을 거야"
+.stringn  "샤난이 당부하고 갔겠지"
 db NewLine
 db WaitForA
 db ScrollText

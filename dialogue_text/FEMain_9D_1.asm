@@ -249,7 +249,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "나라의 제공들을 이끌고 출진."
+.stringn  "나라의 귀족들을 이끌고 출진."
 db NewLine
 db WaitForA
 db ScrollText

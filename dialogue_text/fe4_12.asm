@@ -2059,7 +2059,7 @@ db NewLine
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn  "음? 너는 무용수니?"
+.stringn  "음? 너는 무희니?"
 db NewLine
 .stringn  "여긴 전장이란다"
 db NewLine

@@ -151,7 +151,7 @@ db ScrollText
 db NewLine
 .stringn  "그라우리터를 데리고도"
 db NewLine
-.stringn  "이자크 반란 하나에 쩔쩔매다니・・・"
+.stringn  "이자크의 반란 하나에 쩔쩔매다니・・・"
 db WaitForA
 db ScrollText
 
@@ -257,7 +257,7 @@ db WaitForA
 dh ScrollText_DBC
 .stringn  "좋아, 적의 전선을 단번에 돌파하자"
 db NewLine
-.stringn  "승부는 첫 교전에서 갈릴 거야!"
+.stringn  "승부는 첫 교전에서 갈릴 거다!"
 db NewLine
 db WaitForA
 db EndText
@@ -439,7 +439,7 @@ db Top_Slot// Azmur
 db NewLine
 .stringn  "시구르드의 군세가 발할라로"
 db NewLine
-.stringn  "다가오고 있다는 게 사실인가?"
+.stringn  "오고 있다는 게 사실인가?"
 
 db Bottom_Slot// Arvis
 dh PauseForTime
@@ -492,7 +492,7 @@ db ScrollText
 db NewLine
 .stringn  "그 흉계를 전하에게 들키자"
 db NewLine
-.stringn  "목숨마저 앗아갔습니다・・・"
+.stringn  "목숨마저 앗아 갔습니다・・・"
 db WaitForA
 db ScrollText
 
@@ -720,7 +720,7 @@ db Top_Slot// Azmur
 dh ScrollText_DBC
 .stringn  "나가 신의・・・ 성자 헤임의 피가"
 db NewLine
-.stringn  "끊어져서는 안 된다"
+.stringn  "끊어져서는 안 돼"
 db NewLine
 .stringn  "너희 두 사람은 어서 아들을 낳거라"
 db WaitForA
@@ -1079,7 +1079,7 @@ dh LoadPortrait
 dh 0x0001//Sigurd
 .stringn  "세리스, 아빠를 용서해 주렴・・・"
 db NewLine
-.stringn  "부디・・・ 훌륭하게 자라기를・・・"
+.stringn  "부디・・・ 훌륭하게 자라길・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1392,7 +1392,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0006//Quan
-.stringn  "다들, 거의 다 왔다"
+.stringn  "모두들, 거의 다 왔다"
 db NewLine
 .stringn  "조금만 더 힘내 다오"
 db NewLine
@@ -1425,7 +1425,7 @@ db ScrollText
 
 .stringn  "아버님께선 병중이시면서도"
 db NewLine
-.stringn  "오라버니를 위해 군을 내주는 것을"
+.stringn  "오라버니를 위해 군을 내는 것을"
 db NewLine
 .stringn  "흔쾌히 허락해 주셨지만"
 db WaitForA
@@ -1874,13 +1874,13 @@ db ScrollText
 
 .stringn  "놈들의 목에는 높은 상금이 걸려 있다"
 db NewLine
-.stringn  "한 놈도 놓치지 마라"
+.stringn  "한 놈도 놓치지 말도록"
 db NewLine
 
 db Bottom_Slot// Magorn
 dh PauseForTime
 db 0x10
-.stringn  "예, 근데 그 아이는 어쩌실 겁니까?"
+.stringn  "예, 근데 저 아이는 어쩌실 겁니까?"
 db NewLine
 .stringn  "엄청 울부짖고 있어서"
 db NewLine
@@ -2839,9 +2839,9 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "분명 존함이 아레스였었던가,"
+.stringn  "분명 존함이 아레스였던가,"
 db NewLine
-.stringn  "아직 서너 살 정도시라는데・・・"
+.stringn  "아직 서너 살 정도라는데・・・"
 db NewLine
 .stringn  "불쌍도 하시지・・・"
 db WaitForA
@@ -2869,7 +2869,7 @@ db ScrollText
 db NewLine
 .stringn  "샤난 왕자가 돌아오기만을"
 db NewLine
-.stringn  "손꼽아 기다리고 있다고 하지"
+.stringn  "손꼽아 기다리고 있다던데"
 db WaitForA
 db EndText
 

@@ -31,7 +31,7 @@ dh ScrollText_DBC
 .stringn  "저는 "
 dh InsName
 dh 0x003E//Lene
-.stringn  ", 무용수죠"
+.stringn  ", 무희죠"
 db NewLine
 
 db Bottom_Slot// Seliph
@@ -48,7 +48,7 @@ db Top_Slot// Lene
 dh ScrollText_DBC
 .stringn  "어머, 세리스 님은"
 db NewLine
-.stringn  "무용수를 보는 게 처음이신가 봐요?"
+.stringn  "무희를 보는 게 처음이신가 봐요?"
 db NewLine
 
 db Bottom_Slot// Seliph

@@ -16,14 +16,14 @@ dh 0x024E//Harold
 db Top_Slot// Danann
 .stringn  "해럴드,"
 db NewLine
-.stringn  "반란군 색출은 잘 돼가느냐?"
+.stringn  "반란군 색출은 어떻게 되고 있지?"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "언제까지고 놈들을"
+.stringn  "언제까지 놈들을"
 db NewLine
-.stringn  "멋대로 풀어줘선 안 된다"
+.stringn  "놔둘 생각이냐!"
 db NewLine
 db WaitForA
 db ScrollText
@@ -36,59 +36,59 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "게다가 놈들 사이엔"
+.stringn  "게다가 놈들 중에는"
 db NewLine
-.stringn  "역적 시구르드의 아들까지"
+.stringn  "반역자 시구르드의 아들까지"
 db NewLine
-.stringn  "끼어 있다지?"
+.stringn  "있다고 하던데?"
 db WaitForA
 db ScrollText
 
 .stringn  "이래서야 이자크 왕으로서"
 db NewLine
-.stringn  "체면이 서지 않는다"
+.stringn  "체면이 안 서지 않나"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "황제 폐하께"
+.stringn  "황제 폐하께 무슨 말씀으로"
 db NewLine
-.stringn  "어찌 사죄해야 한단 말이냐!"
+.stringn  "사죄를 드려야 한단 말이냐!"
 db NewLine
 
 db Bottom_Slot// Harold
 dh PauseForTime
 db 0x10
-.stringn  "죄송하게 되었습니다, 다난 님"
+.stringn  "하핫, 면목 없습니다 다난 님"
 db NewLine
-.stringn  "허나 안심해 주십시오"
+.stringn  "하지만 안심해 주십시오"
 db NewLine
 db WaitForA
 dh ScrollText_DBC
-.stringn  "반란군의 아지트를 알아내어"
+.stringn  "반란군의 아지트를 알아내서"
 db NewLine
-.stringn  "토벌대가 곧 출격할 것입니다"
+.stringn  "토벌대를 출격시키는 중입니다"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "놈들은 이미 독 안에 든 쥐"
+.stringn  "놈들은 이제 독 안에 든 쥐지요"
 db NewLine
-.stringn  "한 놈도 살려두지 않겠습니다"
+.stringn  "한 놈도 살려 두지 않겠습니다"
 db NewLine
 db WaitForA
 db ScrollText
 
 
 db Top_Slot// Danann
-.stringn  "음, 그렇군・・・"
+.stringn  "그래, 잘했다・・・"
 db NewLine
-.stringn  "그래도 방심하진 마라"
+.stringn  "하지만 방심하진 마라"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "어린놈들은 별것 아니지만"
+.stringn  "어린 놈들은 별것 아니지만"
 db NewLine
 .stringn  "문제는 오이페와 샤난이다"
 db NewLine
@@ -97,7 +97,7 @@ db ScrollText
 
 .stringn  "그 둘만은 싸움을 피해라"
 db NewLine
-.stringn  "얕봤다간 큰코 다치게 될 거다"
+.stringn  "얕봤다간 큰코다치게 될 거다"
 db NewLine
 
 db Bottom_Slot// Harold
@@ -113,15 +113,15 @@ dh ScrollText_DBC
 db NewLine
 .stringn  "지금은 티르나노그에 없습니다"
 db NewLine
-.stringn  "아무래도 외출한 듯합니다"
+.stringn  "아무래도 외출한 모양이더군요"
 db WaitForA
 db ScrollText
 
 
 db Top_Slot// Danann
-.stringn  "뭐라고? 실로 호재가 아닌가!"
+.stringn  "뭐라고? 그게 사실이냐!"
 db NewLine
-.stringn  "그렇다면 주저할 필요가 없다"
+.stringn  "그렇다면 꾸물대지 마라"
 db NewLine
 .stringn  "당장 공격 명령을 내려라!"
 db WaitForA
@@ -134,14 +134,14 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "본보기를 위해서라도 봐줄 필요 없다"
+.stringn  "본보기를 위해서라도 봐주지 마라"
 db NewLine
-.stringn  "모두 죽여 버려라!"
+.stringn  "죽여! 몰살해라!!"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "나는 리보로 돌아가겠다"
+.stringn  "난 리보로 돌아가겠다"
 db NewLine
 .stringn  "좋은 소식을 기다리고 있으마"
 db NewLine
@@ -160,15 +160,15 @@ dh LoadPortrait
 dh 0x0032//Scﾃ｡thach
 .stringn  "세리스 님, 큰일입니다!"
 db NewLine
-.stringn  "이 아지트가"
+.stringn  "이 비밀 아지트를"
 db NewLine
-.stringn  "적에게 알려진 것 같습니다"
+.stringn  "적에게 들킨 것 같아요"
 db WaitForA
 db ScrollText
 
-.stringn  "지금 가네샤로부터"
+.stringn  "지금 가네샤에서"
 db NewLine
-.stringn  "토벌대가 다가오고 있답니다!!"
+.stringn  "토벌대가 출격했다고 합니다!!"
 db NewLine
 db WaitForA
 db ScrollText
@@ -180,15 +180,15 @@ dh LoadPortrait
 dh 0x003A//Larcei
 dh InsName
 dh 0x0032//Scﾃ｡thach
-.stringn  ", 왜 그렇게 호들갑이야?"
+.stringn ", 왜 그렇게 호들갑이야?"
 db NewLine
 .stringn  "이 아지트가 발각되는 것도"
 db NewLine
-.stringn  "미리 상정해 뒀던 일이잖아"
+.stringn  "이미 상정해 뒀던 일이잖아"
 db WaitForA
 db ScrollText
 
-.stringn  "저쪽에서 와준다면야"
+.stringn  "저쪽에서 와 준다면야"
 db NewLine
 .stringn  "쳐들어갈 수고를 덜었을 뿐이지"
 db NewLine

@@ -2069,9 +2069,9 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x00E9//Andrey
-.stringn  "이, 이럴 수가・・・ 스코피오・・・"
+.stringn  "이럴 수가・・・ 스코피오・・・"
 db NewLine
-.stringn  "이 아비의 원수를 갚아다오・・・"
+.stringn  "아비의 원수를 갚아다오・・・"
 db NewLine
 dh PauseForTime
 db 0xC8

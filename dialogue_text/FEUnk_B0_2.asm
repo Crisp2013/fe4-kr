@@ -868,15 +868,15 @@ dh LoadPortrait
 dh 0x0001//Sigurd
 
 db Top_Slot// Reptor
-.stringn  "시구르드!? ・・・이 역적놈아!"
+.stringn  "시구르드!? ・・・이 반역자 놈!"
 db NewLine
-.stringn  "감히 성스러운 땅에 발을 들이느냐!"
+.stringn  "성지를 더럽힐 셈이냐!"
 db NewLine
 
 db Bottom_Slot// Sigurd
 dh PauseForTime
 db 0x10
-.stringn  "렙토르 경, 당신이야말로 역적이다!"
+.stringn  "렙토르 경, 당신이야말로 반역자다!"
 db NewLine
 db WaitForA
 dh ScrollText_DBC
@@ -898,9 +898,9 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "기사씩이나 되어놓고"
+.stringn  "너도 기사라면"
 db NewLine
-.stringn  "그 정도 깨달음도 얻지 못했는가!"
+.stringn  "그 정도는 알고 있을 텐데!"
 db NewLine
 
 db Bottom_Slot// Sigurd
@@ -925,11 +925,11 @@ db Top_Slot// Reptor
 db NewLine
 .stringn  "네놈도 바이런과 마찬가지로"
 db NewLine
-.stringn  "역적으로서 죽게 될 것이야"
+.stringn  "반역자로서 죽게 될 것이야"
 db WaitForA
 db ScrollText
 
-.stringn  "내 토르해머의 앞에서"
+.stringn  "내 토르해머 앞에서"
 db NewLine
 .stringn  "네놈의 힘 따윈 통하지 않는다"
 db NewLine

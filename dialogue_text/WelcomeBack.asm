@@ -204,7 +204,7 @@ db NewLine
 db NewLine
 .stringn  "엥? "
 dh SringBuffer2 //CharName or mother
-.stringn  " 씨"
+.stringn  "씨"
 db WaitForA
 db ScrollText
 
@@ -374,9 +374,9 @@ Dialogue_cf3be:
 db Top_Slot
 .stringn  "응? "
 dh SringBuffer2 //CharName or mother
-.stringn  " 아냐?"
+.stringn  "아냐?"
 db NewLine
-.stringn  "마중나와 준 거니?"
+.stringn  "마중 나와 준 거니?"
 db NewLine
 db EndText
 
@@ -701,7 +701,7 @@ Dialogue_cf671:
 db Top_Slot
 .stringn  "오,  "
 dh SringBuffer2 //CharName or mother
-.stringn  " 아니야"
+.stringn  "아니야"
 db NewLine
 .stringn  "일부러 마중나와 줘서"
 db NewLine
@@ -717,9 +717,9 @@ Dialogue_cf694:
 db Top_Slot
 .stringn  "응? "
 dh SringBuffer2 //CharName or mother
-.stringn  " 아냐?"
+.stringn  "아냐?"
 db NewLine
-.stringn  "마중나와 준 거니?"
+.stringn  "마중 나와 준 거니?"
 db NewLine
 db EndText
 
@@ -1363,7 +1363,7 @@ db Bottom_Slot
 .stringn  "응, 어서 와 "
 dh SringBuffer1 //Lover or father
 db NewLine
-.stringn  "다행이야, 무사해서・・・"
+.stringn  "다행이다, 무사해서・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1441,7 +1441,7 @@ Dialogue_cfc70:
 db Bottom_Slot
 .stringn  "그래, 너무 무리하지 마"
 db NewLine
-.stringn  "내 곁에 꼭 붙어있어!"
+.stringn  "내 곁에 꼭 붙어 있어!"
 db NewLine
 db WaitForA
 db EndText
@@ -1467,7 +1467,7 @@ Dialogue_cfcaa:
 db Bottom_Slot
 .stringn  "음, 다친 덴 없느냐?"
 db NewLine
-.stringn  "너무 무리하지 말아라・・・"
+.stringn  "너무 무리하지 마라・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1481,7 +1481,7 @@ Dialogue_cfccc:
 db Bottom_Slot
 .stringn  "응, 당연하지!"
 db NewLine
-.stringn  "어서 와! 여・보・야!"
+.stringn  "어서 와! 여・보!"
 db NewLine
 db WaitForA
 db EndText
@@ -1718,7 +1718,7 @@ Dialogue_cfec4:
 db Bottom_Slot
 .stringn  "응, 당연하지!"
 db NewLine
-.stringn  "어서 와! 여・보・야!"
+.stringn  "어서 와! 여・보!"
 db NewLine
 db WaitForA
 db EndText
@@ -1822,7 +1822,7 @@ db EndText
 // 0xd01b5
 Dialogue_cffb5:
 dh SringBuffer1 //Lover or father
-.stringn  " 님"
+.stringn  "님"
 db EndText
 
 //end 0xcffbb

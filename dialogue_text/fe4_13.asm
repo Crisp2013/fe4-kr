@@ -1397,7 +1397,7 @@ db Top_Slot// Silvia
 dh ScrollText_DBC
 .stringn  "어머, 신부님도 참"
 db NewLine
-.stringn  "무용수 처음 보세요?"
+.stringn  "무희 처음 보세요?"
 db NewLine
 db WaitForA
 db ScrollText
@@ -2202,7 +2202,7 @@ db Top_Slot// Lex
 dh ScrollText_DBC
 .stringn  "알비스 경은 신기한 사람이야"
 db NewLine
-.stringn  "우리에게도 무척 잘해줬고,"
+.stringn  "우리에게도 무척 잘해 줬고,"
 db NewLine
 .stringn  "분명 나쁜 사람은 아닌데 왠지・・・"
 

@@ -146,13 +146,13 @@ db ScrollText
 
 .stringn  "그때가 두 살쯤인가,"
 db NewLine
-.stringn  "무용수로 보이는 젊은 여자가"
+.stringn  "무희로 보이는 젊은 여자가"
 db NewLine
 .stringn  "날 맡기고 갔대"
 db WaitForA
 db ScrollText
 
-.stringn  "내가 무용수가 된 건 있지,"
+.stringn  "내가 무희가 된 건 있지,"
 db NewLine
 db WaitForA
 db ScrollText
@@ -181,7 +181,7 @@ db WaitForA
 
 db Top_Slot// Lene
 dh ScrollText_DBC
-.stringn  "코플은 무용수가 싫어?"
+.stringn  "코플은 무희가 싫어?"
 db NewLine
 
 db Bottom_Slot// Coirpre
@@ -4159,7 +4159,7 @@ db Top_Slot// Laylea
 dh ScrollText_DBC
 .stringn  "나는 레일리아야"
 db NewLine
-.stringn  "샤를로는 무용수를 보는 게 처음이니?"
+.stringn  "샤를로는 무희를 보는 게 처음이니?"
 db NewLine
 
 db Bottom_Slot// Charlot

@@ -608,7 +608,7 @@ db EndText
 //offset 0xed3a3
 // 0xed5a3
 Dialogue_ed3a3:
-.stringn  "하지만 국민들에겐 희망이 있었다."
+.stringn  "하지만 백성들에겐 희망이 있었다."
 db NewLine
 .if _USE_OLD_TRANSLATION == 1
 .stringn  "(빈줄)"

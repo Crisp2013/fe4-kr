@@ -96,7 +96,7 @@ db Top_Slot// Lombard
 db NewLine
 .stringn  "마침 잘 만났다"
 db NewLine
-.stringn  "네놈도 바이런 곁으로 보내주마"
+.stringn  "네놈도 바이런 곁으로 보내 주마"
 db WaitForA
 db ScrollText
 
@@ -242,7 +242,7 @@ dh LoadPortrait
 dh 0x0011//Ethlyn
 .stringn  "아르테나,"
 db NewLine
-.stringn  "너만은 내가 지켜줄게!"
+.stringn  "너만은 내가 지켜 줄게!"
 db NewLine
 db WaitForA
 db EndText

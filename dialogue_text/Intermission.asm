@@ -21,7 +21,7 @@ db NewLine
 db NewLine
 dh PlayBGM
 db 0x0B
-.stringn  "전란 속에서 상처입고 쓰러진 자"
+.stringn  "전란 속에서 상처 입고 쓰러진 자"
 db NewLine
 db NewLine
 .stringn  "렌스터의 왕자, 큐안"
@@ -199,7 +199,7 @@ db NewLine
 db NewLine
 .stringn  "발할라 전쟁에서 패배해"
 db NewLine
-.stringn  "생사불명이 된 자"
+.stringn  "생사가 불명이 된 자"
 db NewLine
 db NewLine
 db EndText
@@ -434,7 +434,7 @@ db EndText
 //offset 0x8edcc
 // 0x8efcc
 Dialogue_8edcc:
-.stringn  "떠돌이 무용수, 실비아"
+.stringn  "떠돌이 무희, 실비아"
 db NewLine
 dh unknown_0082
 db 0x02, 0x16, 0x00

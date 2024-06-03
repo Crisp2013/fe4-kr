@@ -133,7 +133,7 @@ db NewLine
 db Bottom_Slot// Coirpre
 dh PauseForTime
 db 0x10
-.stringn  "린 씨도 다나를 알아?"
+.stringn  "리인 씨도 다나를 알아?"
 db NewLine
 db WaitForA
 
@@ -173,7 +173,7 @@ db NewLine
 db Bottom_Slot// Coirpre
 dh PauseForTime
 db 0x10
-.stringn  "린 씨는 멋진 사람이구나"
+.stringn  "리인 씨는 멋진 사람이구나"
 db NewLine
 .stringn  "나, 조금 오해했던 것 같아"
 db NewLine
@@ -189,7 +189,7 @@ dh PauseForTime
 db 0x10
 .stringn  "응, 싫었어"
 db NewLine
-.stringn  "하지만 린 씨는 좋아"
+.stringn  "하지만 리인 씨는 좋아"
 db NewLine
 db WaitForA
 
@@ -1593,7 +1593,7 @@ dh LoadPortrait
 dh 0x003E//Lene
 
 db Top_Slot// Seliph
-.stringn  "린, 레빈이 하고 싶은 말이 있대"
+.stringn  "리인, 레빈이 하고 싶은 말이 있대"
 db NewLine
 .stringn  "나는 저쪽에 가 있을 테니까"
 db NewLine
@@ -1608,7 +1608,7 @@ db Top_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0280//Lewyn
-.stringn  "린, 너무 무리하지 마라"
+.stringn  "리인, 너무 무리하지 마라"
 db NewLine
 .stringn  "예쁜 얼굴에 상처라도 나면"
 db NewLine
@@ -1654,7 +1654,7 @@ db WaitForA
 
 db Top_Slot// Lewyn
 dh ScrollText_DBC
-.stringn  "린, 너는 너다"
+.stringn  "리인, 너는 너다"
 db NewLine
 .stringn  "부모가 어땠는진 신경 쓰지 마라"
 db NewLine
@@ -1702,7 +1702,7 @@ db ScrollText
 
 
 db Top_Slot// Lewyn
-.stringn  "린・・・"
+.stringn  "리인・・・"
 db NewLine
 db WaitForA
 db EndText

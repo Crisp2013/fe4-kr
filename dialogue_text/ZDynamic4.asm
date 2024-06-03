@@ -490,7 +490,7 @@ db EndText
 //offset 0xd93f8
 // 0xd95f8
 Dialogue_d93f8:
-.stringn "린"
+.stringn "리인"
 db EndText
 
 //end 0xd93fd

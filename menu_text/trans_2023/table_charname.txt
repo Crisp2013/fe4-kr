@@ -376,7 +376,7 @@
 
 #WRITE(Unit, $39AD3)
 //リーン[X]
-린[X]
+리인[X]
 
 //POINTER #062 @ $39AD5 - STRING #062 @ $3A121
 

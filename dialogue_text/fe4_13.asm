@@ -2980,7 +2980,7 @@ dh ScrollText_DBC
 db NewLine
 .stringn  "당신이 사라지면"
 db NewLine
-.stringn  "나도 린도 살아갈 수 없어"
+.stringn  "나도 리인도 살아갈 수 없어"
 db WaitForA
 db ScrollText
 

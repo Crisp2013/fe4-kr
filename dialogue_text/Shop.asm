@@ -938,7 +938,7 @@ db ClearText
 db NewLine
 .stringn  "레벨이 20은 되어야 한다"
 db NewLine
-.stringn  "좀 더 경험을 쌓아 와라"
+.stringn  "좀 더 경험을 쌓고 와라"
 db WaitForA
 db EndText
 

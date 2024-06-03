@@ -574,7 +574,7 @@ db NewLine
 dh SringBuffer1 //Lover or father
 .stringn  ", "
 db NewLine
-.stringn  "이걸 어쩔 거야！"
+.stringn  "이걸 어쩔 거야!"
 db WaitForA
 db EndText
 
@@ -906,7 +906,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0028//Daisy
-.stringn  "당해버렸잖아, 정말!"
+.stringn  "당해 버렸잖아, 정말!"
 db NewLine
 db WaitForA
 db EndText

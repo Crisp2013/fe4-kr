@@ -661,7 +661,7 @@ dh unknown_0082
 db 0x02, 0x19, 0x00
 dh unknown_0083
 db 0x02, 0x5C, 0x1C
-.stringn  "해방군의 젊은 맹주."
+.stringn  "해방군의 젊은 맹주,"
 db NewLine
 .stringn  "그 이름을 세리스라 하였다."
 db WaitForA

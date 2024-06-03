@@ -1272,7 +1272,7 @@
 #WRITE(Unit, $39C83)
 #WRITE(Unit, $39C81)
 //イードマージ[X]
-이드메이지[X]
+이드　메이지[X]
 
 //POINTER #281 @ $39C8B - STRING #281 @ $3A6AB
 //POINTER #282 @ $39C8D - STRING #282 @ $3A6AB

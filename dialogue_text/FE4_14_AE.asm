@@ -73,7 +73,7 @@ dh ScrollText_DBC
 db NewLine
 .stringn  "세리스 님의 거처가 밝혀진 이상"
 db NewLine
-.stringn  "더 숨어있을 수도 없었습니다"
+.stringn  "더 숨어 있을 수도 없었습니다"
 db WaitForA
 db ScrollText
 
@@ -111,7 +111,7 @@ db ScrollText
 
 .stringn  "시간을 지체했다간 전투 도중에"
 db NewLine
-.stringn  "제국의 원군이 올지도 모릅니다!"
+.stringn  "제국의 원군이 올지도 모르니까요!"
 db NewLine
 db WaitForA
 db EndText
@@ -169,11 +169,11 @@ db NewLine
 db NewLine
 db WaitForA
 dh ScrollText_DBC
-.stringn  "저희 가족은"
+.stringn  "우리 가족은"
 db NewLine
 .stringn  "이자크 사람들에게 은혜를 입었으니"
 db NewLine
-.stringn  "이쪽도 도리를 다해야 한다고"
+.stringn  "도리를 다해야 한다고요"
 db WaitForA
 db ScrollText
 
@@ -301,11 +301,11 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "세리스 님이 제국 정벌에"
+.stringn  "세리스 님께서 제국 정벌에"
 db NewLine
 .stringn  "나서셨다는 소식을 듣고 나니"
 db NewLine
-.stringn  "참을 수가 없어서 찾아왔어요"
+.stringn  "가만있을 수가 없어서 찾아왔어요"
 db WaitForA
 db ScrollText
 
@@ -329,7 +329,7 @@ dh ScrollText_DBC
 db NewLine
 .stringn  "오빠도 찾을 수 있을 거예요"
 db NewLine
-.stringn  "그런 예감이 들어요・・・"
+.stringn  "그럴 거란 예감이 들어요・・・"
 db WaitForA
 db EndText
 
@@ -380,7 +380,7 @@ db ScrollText
 
 .stringn  "불편한 게 있으면"
 db NewLine
-.stringn  "언제든 저한테 말해요"
+.stringn  "언제든지 저한테 말해 줘요"
 db NewLine
 
 db Bottom_Slot// Julia
@@ -404,7 +404,7 @@ db WaitForA
 
 db Top_Slot// Lana
 dh ScrollText_DBC
-.stringn  "네, 율리아라면 쓸 수 있겠죠?"
+.stringn  "네, 율리아는 쓸 수 있죠?"
 db NewLine
 
 db Bottom_Slot// Julia
@@ -426,7 +426,7 @@ db ScrollText
 
 
 db Top_Slot// Lana
-.stringn  "우리, 같이 힘내봐요"
+.stringn  "우리 같이 힘내 봐요"
 db NewLine
 .stringn  "율리아"
 db NewLine
@@ -529,7 +529,7 @@ db 0x10
 db NewLine
 .stringn  "그런 말 안 하기로 약속했잖아!"
 db NewLine
-.stringn  "어머님께선 분명 살아계셔!"
+.stringn  "어머님께선 분명 살아 계셔!"
 db WaitForA
 dh ScrollText_DBC
 .stringn  "두 번 다시 그런 소리 하지 마!"
@@ -589,7 +589,7 @@ db 0x10
 .stringn  "네가 "
 dh InsName
 dh 0x0038//Arthur
-.stringn  "니!?"
+.stringn  "야!?"
 db NewLine
 .stringn  "모두를 도와줬다고 들었어"
 db NewLine
@@ -636,7 +636,7 @@ db ScrollText
 db Top_Slot// Arthur
 .stringn  "그렇군요・・・ 저도"
 db NewLine
-.stringn  "미력하나마 힘을 보태겠습니다"
+.stringn  "미력하게나마 힘을 보태겠습니다"
 db NewLine
 .stringn  "세리스 님, 잘 부탁드립니다"
 db WaitForA
@@ -959,7 +959,7 @@ db NewLine
 db Bottom_Slot// Julia
 dh PauseForTime
 db 0x10
-.stringn  "네, 빛의 마도서라면"
+.stringn  "네, 빛의 마도서라면요"
 db NewLine
 db WaitForA
 
@@ -967,7 +967,7 @@ db Top_Slot// Seliph
 dh ScrollText_DBC
 .stringn  "다행이네"
 db NewLine
-.stringn  "이 책이라면 너를 지켜줄 거야"
+.stringn  "이 책이 너를 지켜 줄 거야"
 db NewLine
 
 db Bottom_Slot// Julia

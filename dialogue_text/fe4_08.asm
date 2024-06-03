@@ -596,7 +596,7 @@ db ScrollText
 db Top_Slot// Ishtar
 .stringn  "알겠습니다, 그럼"
 db NewLine
-.stringn  "제게 토르 해머를 주십시오"
+.stringn  "제게 토르해머를 주십시오"
 db NewLine
 db WaitForA
 db ScrollText
@@ -609,7 +609,7 @@ db NewLine
 db Bottom_Slot// Bloom
 dh PauseForTime
 db 0x10
-.stringn  "뭐, 뭐라고? 토르 해머를・・・?!"
+.stringn  "뭐, 뭐라고? 토르해머를・・・?!"
 db NewLine
 .stringn  "으음, 알았다・・・ 가져가라・・・"
 db NewLine
@@ -1825,7 +1825,7 @@ dh LoadPortrait
 dh 0x0271//Ishtar
 .stringn  "미안하지만・・・ 죽어다오!"
 db NewLine
-.stringn  "토르 해머!!"
+.stringn  "토르해머!!"
 db NewLine
 .if _USE_OLD_TRANSLATION == 1
 .stringn "(빈줄)"

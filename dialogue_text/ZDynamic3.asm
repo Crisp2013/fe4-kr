@@ -138,7 +138,7 @@ db EndText
 //offset 0xd95a3
 // 0xd97a3
 Dialogue_d95a3:
-.stringn "번개의 검"
+.stringn "천둥의 검"
 db EndText
 
 //end 0xd95ac

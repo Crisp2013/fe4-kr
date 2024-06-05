@@ -1091,7 +1091,7 @@ db WaitForA
 dh ScrollText_DBC
 .stringn  "나 말고는 쓰지도 못 해"
 db NewLine
-.stringn  "네가 가지고 있어봐야 의미가 없어"
+.stringn  "네가 가지고 있어 봐야 의미가 없어"
 db NewLine
 db WaitForA
 db ScrollText
@@ -1181,7 +1181,7 @@ db WaitForA
 dh ScrollText_DBC
 
 db Top_Slot// Patty
-.stringn  "아, 죄송해요, 자 여기"
+.stringn  "아 죄송해요, 여기요"
 db NewLine
 
 db Bottom_Slot// Shannan
@@ -1457,7 +1457,7 @@ db Top_Slot// Patty
 dh ScrollText_DBC
 dh InsName
 dh 0x0039//Patty
-.stringn  "예요, 샤난 님 여자친구죠"
+.stringn  "예요, 샤난 님의 여자 친구죠"
 db NewLine
 
 db Bottom_Slot// Seliph
@@ -1501,7 +1501,7 @@ db ScrollText
 
 .stringn  "저만 있으면 돈이야"
 db NewLine
-.stringn  "얼마든지 챙길 수 있는데"
+.stringn  "얼마든지 챙길 수 있을 텐데"
 db NewLine
 
 db Bottom_Slot// Seliph
@@ -1513,11 +1513,11 @@ db WaitForA
 
 db Top_Slot// Patty
 dh ScrollText_DBC
-.stringn  "세리스 님은 아무것도 모르면서"
+.stringn  "세리스 님은 아무것도 모르시네요"
 db NewLine
 .stringn  "제국군이 가진 골드는"
 db NewLine
-.stringn  "전부 사람들에게 빼앗은 거라구요"
+.stringn  "전부 사람들에게서 빼앗은 거라구요"
 db WaitForA
 db ScrollText
 
@@ -1591,7 +1591,7 @@ db Top_Slot// Patty
 dh ScrollText_DBC
 .stringn  "용사의 검이래요"
 db NewLine
-.stringn  "세리스 님께, 줄・게・요▼"
+.stringn  "세리스 님께 드・릴・게・요▼"
 db NewLine
 db WaitForA
 db EndText
@@ -1717,7 +1717,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "알겠느냐, 세리스!"
+.stringn  "알겠나, 세리스!"
 db NewLine
 
 db Bottom_Slot// Seliph
@@ -1729,7 +1729,7 @@ db WaitForA
 dh ScrollText_DBC
 .stringn  "아레스・・・ 너와의 만남을"
 db NewLine
-.stringn  "아버님들께서 분명 기뻐하실 거야"
+.stringn  "아버님들께선 분명 기뻐하실 거야"
 db NewLine
 .stringn  "그런 느낌이 들어・・・"
 db WaitForA

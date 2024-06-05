@@ -696,7 +696,7 @@ db NewLine
 db NewLine
 db WaitForA
 dh ScrollText_DBC
-.stringn  "사실 샤난 왕자님만 있었어도"
+.stringn  "사실 샤난 왕자만 있었어도"
 db NewLine
 .stringn  "더 편하게 싸울 수 있었을 텐데"
 db NewLine
@@ -1597,7 +1597,7 @@ dh PauseForTime
 db 0x10
 .stringn  "이자크는 제게 제2의 조국입니다"
 db NewLine
-.stringn  "샤난 왕자님과는"
+.stringn  "샤난 왕자와는"
 db NewLine
 .stringn  "영원히 친구로 지내고 싶어요"
 db WaitForA

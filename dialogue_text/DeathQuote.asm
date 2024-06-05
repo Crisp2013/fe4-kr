@@ -42,7 +42,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0003//Alec
-.stringn  "쳇・・・ 따라주질 않는군・・・"
+.stringn  "쳇・・・ 운이 없군・・・"
 db NewLine
 .stringn  "시구르드 님,"
 db NewLine
@@ -80,9 +80,9 @@ dh LoadPortrait
 dh 0x0005//Finn
 .stringn  "・・・・・죄송합니다"
 db NewLine
-.stringn  "이런 상처론 방해만 되겠군요"
+.stringn  "이 상처론 방해되겠군요"
 db NewLine
-.stringn  "일단 렌스터로 돌아가겠습니다"
+.stringn  "렌스터로 돌아가겠습니다"
 db WaitForA
 db EndText
 
@@ -181,9 +181,9 @@ dh LoadPortrait
 dh 0x0008//Lewyn
 .stringn  "큭・・・ 나에겐 아직・・・"
 db NewLine
-.stringn  "・・・해야 할 일이 남았어・・・・"
+.stringn  "・・・해야 할 일이 있어・・・・"
 db NewLine
-.stringn  "여기서 쓰러질 수는 없지・・・"
+.stringn  "여기서 쓰러질 순 없지・・・"
 db WaitForA
 db EndText
 
@@ -288,9 +288,9 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x000C//Claud
-.stringn  "신이시여・・・ 제 목숨을 받으시고"
+.stringn  "신이시여・・・ 제 목숨으로"
 db NewLine
-.stringn  "그들을 지켜주소서・・・"
+.stringn  "그들을 지켜 주소서・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -305,9 +305,9 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x000D//Beowolf
-.stringn  "칫・・・ 이렇게 되나"
+.stringn  "칫・・・ 큰일 났구만"
 db NewLine
-.stringn  "나의 운도 여기까지로군・・・・"
+.stringn  "내 운도 여기까지로군・・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -326,7 +326,7 @@ dh 0x000E//Lex
 db NewLine
 .stringn  "・・・시구르드 공자,"
 db NewLine
-.stringn  "먼저 가서 기다리죠・・・"
+.stringn  "먼저 가서 기다립니다・・・"
 .if _USE_OLD_TRANSLATION == 1
 //db WaitForA
 dh PauseForTime
@@ -351,9 +351,9 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x000F//Dew
-.stringn  "당했네,"
+.stringn  "운이 없는걸,"
 db NewLine
-.stringn  "・・・내가 이런 실수를・・・"
+.stringn  "・・・실수해 버렸어・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -372,7 +372,7 @@ dh 0x0010//Deirdre
 db NewLine
 .stringn  "저를 어디로"
 db NewLine
-.stringn  "데려가는 건가요!?"
+.stringn  "데려가는 거죠!?"
 db WaitForA
 db EndText
 
@@ -403,7 +403,7 @@ dh PauseForTime
 db 0x10
 .stringn  "네, 적에게 붙잡혀서 이 성으로・・・"
 db NewLine
-.stringn  "분명 구하러 와주실 거라고"
+.stringn  "분명 구하러 와 주실 거라고"
 db NewLine
 .stringn  "믿고 있었어요"
 db WaitForA
@@ -488,7 +488,7 @@ db NewLine
 dh SringBuffer1 //Lover or father
 .stringn  ", "
 db NewLine
-.stringn  "다시 만나고 싶어・・・・・"
+.stringn  "또 보고 싶어・・・・・"
 db WaitForA
 db EndText
 
@@ -534,7 +534,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0015//Tailtiu
-.stringn  "당해버렸잖아, 정말!"
+.stringn  "아 정말! 이런 거 싫은데"
 db NewLine
 .stringn  "・・・"
 dh SringBuffer1 //Lover or father
@@ -553,7 +553,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0015//Tailtiu
-.stringn  "당해버렸잖아, 정말!"
+.stringn  "아 정말! 이런 거 싫은데"
 db NewLine
 db WaitForA
 db EndText
@@ -574,7 +574,7 @@ db NewLine
 dh SringBuffer1 //Lover or father
 .stringn  ", "
 db NewLine
-.stringn  "이걸 어쩔 거야!"
+.stringn  "어떻게 좀 해 봐!"
 db WaitForA
 db EndText
 
@@ -603,9 +603,9 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0017//Edain
-.stringn  "신이시여,"
+.stringn  "・・・・신이시여,"
 db NewLine
-.stringn  "부디 모두를 지켜 주소서・・・・"
+.stringn  "부디 모두를 지켜 주소서"
 db NewLine
 dh SringBuffer1 //Lover or father
 .stringn  ", 미안해요・・・"
@@ -622,9 +622,9 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0017//Edain
-.stringn  "신이시여,"
+.stringn  "・・・・신이시여,"
 db NewLine
-.stringn  "부디 모두를 지켜 주소서・・・・"
+.stringn  "부디 모두를 지켜 주소서"
 db NewLine
 db WaitForA
 db EndText
@@ -639,7 +639,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0018//Brigid
-.stringn  "・・・・여기까진・・・가・・・!"
+.stringn  "・・・・여기까진가・・・ 윽!"
 db NewLine
 db WaitForA
 db EndText
@@ -654,7 +654,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0019//Seliph
-.stringn  "아아・・・ 아버지・・・"
+.stringn  "아아・・・ 아버님・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -669,7 +669,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x000B//Jamke
-.stringn  "아버지・・・"
+.stringn  "아버님・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -714,7 +714,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x001C//Asaello
-.stringn  "제기랄, 방심했나!"
+.stringn  "제기랄, 방심했다!"
 db NewLine
 db WaitForA
 db EndText
@@ -729,7 +729,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x001D//Leif
-.stringn  "아버지, 어머니・・・"
+.stringn  "아버님, 어머님・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -744,9 +744,9 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x001E//Iuchar
-.stringn  "요한은 여기서 죽어도,"
+.stringn  "나 요한은 여기서 죽어도,"
 db NewLine
-.stringn  "사랑은 죽지 않는다・・・ 크윽!"
+.stringn  "사랑은 죽지 않는다・・・ 큭!"
 db NewLine
 db WaitForA
 db EndText
@@ -843,7 +843,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0024//Hannibal
-.stringn  "이것도 운명인가・・・ 아들아・・・"
+.stringn  "이것도 운명・・・ 아들아・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -858,7 +858,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0025//Ares
-.stringn  "서, 설마・・・ 이 아레스가・・・"
+.stringn  "서, 설마・・・ 이 내가・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -873,7 +873,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0026//Amid
-.stringn  "훗・・・ 웃기는 얘기지・・・"
+.stringn  "훗・・・ 참으로 웃기는군・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -906,7 +906,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0028//Daisy
-.stringn  "당해 버렸잖아, 정말!"
+.stringn  "아 정말! 이런 거 싫은데"
 db NewLine
 db WaitForA
 db EndText
@@ -1018,7 +1018,7 @@ dh PauseForTime
 db 0x10
 .stringn  "네, 적에게 붙잡혀서 이 성으로・・・"
 db NewLine
-.stringn  "분명 구하러 와주실 거라고"
+.stringn  "분명 구하러 와 주실 거라고"
 db NewLine
 .stringn  "믿고 있었어요"
 db WaitForA
@@ -1045,7 +1045,7 @@ db Bottom_Slot// Evil Julia
 dh DialogOpen
 dh LoadPortrait
 dh 0x002B//Julia
-.stringn  "아아・・・・ 세리스・・・ 님・・・"
+.stringn  "아아・・・ 세리스・・・ 님・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1189,7 +1189,7 @@ dh 0x0032//Scﾃ｡thach
 db NewLine
 .stringn  "라크체・・・"
 db NewLine
-.stringn  "뒷일을 부탁할게・・・"
+.stringn  "뒷일은 부탁할게・・・"
 db WaitForA
 db EndText
 
@@ -1238,7 +1238,7 @@ dh LoadPortrait
 dh 0x0035//Ced
 .stringn  "내 힘도 고작 이 정돈가・・・"
 db NewLine
-.stringn  "・・・・・・원통하다・・・!"
+.stringn  "・・・원통하다・・・!"
 db NewLine
 db WaitForA
 db EndText
@@ -1268,7 +1268,9 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0037//Lester
-.stringn  "세리스 님, 뒷일을 부탁합니다・・・"
+.stringn  "세리스 님・・・"
+db NewLine
+.stringn  "뒷일은 부탁합니다・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1283,7 +1285,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0038//Arthur
-.stringn  "훗・・・ 웃기는 얘기지・・・"
+.stringn  "훗・・・ 참 웃기는걸・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1478,7 +1480,7 @@ dh LoadPortrait
 dh 0x003F//Nanna
 .stringn  "리프 왕자님,"
 db NewLine
-.stringn  "뒷일을 부탁해요・・・"
+.stringn  "뒷일은 부탁할게요・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1509,7 +1511,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0040//Gerrard
-.stringn  "안됐구나・・・"
+.stringn  "안 됐구나・・・"
 db NewLine
 .stringn  "그 여자는 이미 여기 없다"
 db NewLine
@@ -1685,9 +1687,9 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0073//Waltz
-.stringn  "마, 말도 안 돼・・・ 날"
+.stringn  "마, 말도 안 돼・・・"
 db NewLine
-.stringn  "쓰러뜨리다니・・・"
+.stringn  "날 쓰러뜨리다니・・・"
 db NewLine
 .if _USE_OLD_TRANSLATION == 1
 .stringn "(빈줄)"
@@ -1706,7 +1708,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x000D//Beowolf
-.stringn  "윽・・・ 제법인데・・・!"
+.stringn  "윽・・・ 운이 없구만・・・!"
 db NewLine
 dh PauseForTime
 db 0xC8
@@ -1722,7 +1724,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0075//Clement
-.stringn  "큭・・・ 나를 기억해라・・・"
+.stringn  "큭・・・ 두고 봐라・・・"
 db NewLine
 dh PauseForTime
 db 0xC8
@@ -1809,9 +1811,9 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x005A//Eldigan
-.stringn  "용서해라,"
+.stringn  "아그스트리아인들이여・・・"
 db NewLine
-.stringn  "아그스트리아 백성들이여・・・"
+.stringn  "용서하기를"
 db NewLine
 dh PauseForTime
 db 0xC8
@@ -1903,7 +1905,7 @@ dh LoadPortrait
 dh 0x00BD//Cuvuli
 .stringn  "디트바,"
 db NewLine
-.stringn  "뒷일을 부탁하마・・・"
+.stringn  "뒷일은 부탁하마・・・"
 db NewLine
 dh PauseForTime
 db 0xC8
@@ -1919,7 +1921,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0242//Dﾃｭthorba
-.stringn  "큭・・・ 이 디트바가・・・"
+.stringn  "큭・・・ 어떻게 나를・・・"
 db NewLine
 dh PauseForTime
 db 0xC8
@@ -2071,7 +2073,7 @@ dh LoadPortrait
 dh 0x00E9//Andrey
 .stringn  "이럴 수가・・・ 스코피오・・・"
 db NewLine
-.stringn  "아비의 원수를 갚아다오・・・"
+.stringn  "아비의 원수를 갚아 다오・・・"
 db NewLine
 dh PauseForTime
 db 0xC8
@@ -2177,7 +2179,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0011//Ethlyn
-.stringn  "아아, 아르테나・・・ 용서해 줘・・・"
+.stringn  "아르테나・・・ 용서해 줘・・・"
 db NewLine
 .stringn  "큐안, 미안해요・・・"
 db NewLine
@@ -2215,9 +2217,9 @@ dh LoadPortrait
 dh 0x024E//Harold
 .stringn  "으윽・・・ 어째서・・・・・・"
 db NewLine
-.stringn  "이런 오합지졸 군사들에게"
+.stringn  "이런 오합지졸 병사들에게"
 db NewLine
-.stringn  "내가・・・!?"
+.stringn  "내가 지는 거지・・・!?"
 dh PauseForTime
 db 0xC8
 db EndText
@@ -2311,7 +2313,7 @@ dh LoadPortrait
 dh 0x0250//Kutuzov
 .stringn  "로프토 제국에・・・"
 db NewLine
-.stringn  "영광을・・・"
+.stringn  "영광 있으리・・・"
 db NewLine
 dh PauseForTime
 db 0xC8
@@ -2411,7 +2413,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0255//Banba
-.stringn  "칫, 여기선 일단 퇴각해야겠군"
+.stringn  "칫, 일단 퇴각해야겠군"
 db NewLine
 dh PauseForTime
 db 0xC8
@@ -2427,7 +2429,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0256//Fotla
-.stringn  "윽, 이쯤에서 물러나야겠는걸"
+.stringn  "윽, 이쯤에서 물러나야겠군"
 db NewLine
 dh PauseForTime
 db 0xC8
@@ -2443,7 +2445,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0257//Eriu
-.stringn  "큭, 계속 싸우면 큰일 나겠어"
+.stringn  "큭, 더 싸우면 큰일 나겠군"
 db NewLine
 .if _USE_OLD_TRANSLATION == 1
 .stringn "(빈줄)"
@@ -2537,7 +2539,7 @@ dh 0x025E//Muhammad
 db NewLine
 .stringn  "허망하게 패할 줄이야・・・"
 db NewLine
-.stringn  "브룸 왕이시여, 용서를・・・"
+.stringn  "브룸 전하, 용서를・・・"
 dh PauseForTime
 db 0xC8
 db EndText
@@ -2636,7 +2638,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x014B//Coulter
-.stringn  "트라키아에 영광 있으라!"
+.stringn  "트라키아에 영광 있으리!"
 db NewLine
 .stringn  "・・・크흑"
 db NewLine
@@ -2672,7 +2674,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x002C//Altena
-.stringn  "오라버니・・・ 아리온 오라버니・・・"
+.stringn  "아리온・・・ 오라버니・・・"
 db NewLine
 dh PauseForTime
 db 0xC8
@@ -2688,7 +2690,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0024//Hannibal
-.stringn  "아들아・・・ 부디 살아다오・・・"
+.stringn  "아들아・・・ 살아 다오・・・"
 db NewLine
 .if _USE_OLD_TRANSLATION == 1
 .stringn "(빈줄)"
@@ -2707,7 +2709,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0263//Kanatz
-.stringn  "한니발 님・・・ 용서해 주십시오"
+.stringn  "한니발 님・・・ 용서해 주시길"
 db NewLine
 dh PauseForTime
 db 0xC8
@@ -2757,9 +2759,9 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0267//Judah
-.stringn  "후하하・・・"
+.stringn  "흐하하・・・"
 db NewLine
-.stringn  "암흑신께서 되살아나셨다・・・"
+.stringn  "암흑신께서 부활하셨다・・・"
 db NewLine
 .stringn  "너희들 따윈・・・"
 dh PauseForTime
@@ -2796,7 +2798,7 @@ dh LoadPortrait
 dh 0x0260//Travant
 .stringn  "트라키아여・・・"
 db NewLine
-.stringn  "내가 사랑한 대지여・・・"
+.stringn  "내가 사랑한 대지여・・・ 크헉"
 db NewLine
 dh PauseForTime
 db 0xC8
@@ -2864,7 +2866,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x026F//Julius
-.stringn  "여흥은 끝이다, 돌아가자!"
+.stringn  "여흥은 끝이다, 돌아가자"
 db NewLine
 dh PauseForTime
 db 0xC8
@@ -2932,7 +2934,7 @@ dh LoadPortrait
 dh 0x026E//Emperor Arvis
 .stringn  "세리스・・・ 율리아를 부탁하마"
 db NewLine
-.stringn  "・・・부디 나를・・・ 용・・・・"
+.stringn  "・・・나를・・・ 용・・・・"
 db NewLine
 dh PauseForTime
 db 0xC8
@@ -2948,7 +2950,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x01A4//Roberto
-.stringn  "크흑・・・ 이럴 수가・・・"
+.stringn  "크헉・・・ 이럴 수가・・・"
 db NewLine
 dh PauseForTime
 db 0xC8
@@ -3030,11 +3032,11 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x01B8//Brian
-.stringn  "스완티카가 이리도"
+.stringn  "성부 스완티카가 이리도"
 db NewLine
-.stringn  "허망하게 패배할 줄이야・・・"
+.stringn  "허망하게 패배하다니・・・"
 db NewLine
-.stringn  "정말 이래도 괜찮았던 걸까・・・"
+.stringn  "정말 괜찮았던 걸까・・・"
 dh PauseForTime
 db 0xC8
 db EndText
@@ -3067,11 +3069,11 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0268//Hilda
-.stringn  "크으, 분해라・・・"
+.stringn  "크윽, 분하다・・・"
 db NewLine
 .stringn  "이슈타르・・・ 내 원한을"
 db NewLine
-.stringn  "갚아다오・・・"
+.stringn  "갚아 다오・・・"
 dh PauseForTime
 db 0xC8
 db EndText
@@ -3086,7 +3088,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0272//Scipio?
-.stringn  "칫・・・ 어떻게 된 일이냐・・・"
+.stringn  "칫・・・ 어떻게 이런・・・"
 db NewLine
 dh PauseForTime
 db 0xC8
@@ -3226,7 +3228,7 @@ dh TextSpeed
 db 0x0C
 dh PauseForTime
 db 0x0F
-.stringn  "우오오오오오오ー"
+.stringn  "우오오오오오오오오오오ー"
 db NewLine
 dh PauseForTime
 db 0xC8
@@ -3246,9 +3248,9 @@ dh TextSpeed
 db 0x0C
 .stringn  "으으윽・・・ 나가여,"
 db NewLine
-.stringn  "또다시 나의"
+.stringn  "또다시 나를"
 db NewLine
-.stringn  "방해를 하려 드는가・・・"
+.stringn  "방해하는 것이냐・・・"
 dh PauseForTime
 db 0xC8
 db EndText
@@ -3265,9 +3267,9 @@ dh LoadPortrait
 dh 0x026F//Julius
 dh TextSpeed
 db 0x0C
-.stringn  "으으윽・・・ 세리스여・・・"
+.stringn  "으으윽・・・ 세리스・・・"
 db NewLine
-.stringn  "・・・・기억해 두어라・・・"
+.stringn  "・・・・기억해 둬라・・・"
 db NewLine
 dh PauseForTime
 db 0x60

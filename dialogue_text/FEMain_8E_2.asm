@@ -863,9 +863,9 @@ db EndText
 Dialogue_ed72e:
 dh unknown_0080
 db 0x8C, 0x34, 0x00, 0x50
-.stringn  "지금, 리보에서는 세리스를 위시한"
+.stringn  "그리고, 리보에서는 세리스를"
 db NewLine
-.stringn  "이자크 해방군의 전사들이"
+.stringn  "위시한 이자크 해방군의 전사들이"
 dh unknown_0081
 db 0x00
 dh unknown_0082
@@ -875,9 +875,9 @@ db 0x02, 0x64, 0x30
 db WaitForA
 db ScrollText
 
-.stringn  "머나먼 렌스터의 동지들을 구하기 위해"
+.stringn  "머나먼 렌스터의 동료들을"
 db NewLine
-.stringn  "여행을 떠나려 한다."
+.stringn  "구하기 위해 여행을 떠나려 한다."
 db WaitForA
 db ScrollText
 
@@ -886,7 +886,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "지금 세리스의 새로운 싸움이"
+.stringn  "지금, 세리스의 새로운 싸움이"
 db NewLine
 .stringn  "시작되려 하고 있었다."
 db WaitForA

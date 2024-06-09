@@ -2640,7 +2640,7 @@ dh LoadPortrait
 dh 0x014B//Coulter
 .stringn  "트라키아에 영광 있으리!"
 db NewLine
-.stringn  "・・・크흑"
+.stringn  "・・・크헉"
 db NewLine
 dh PauseForTime
 db 0xC8
@@ -2658,7 +2658,7 @@ dh LoadPortrait
 dh 0x025C//Maykov
 .stringn  "트라키아 만세!"
 db NewLine
-.stringn  "・・・크흑"
+.stringn  "・・・크헉"
 db NewLine
 dh PauseForTime
 db 0xC8

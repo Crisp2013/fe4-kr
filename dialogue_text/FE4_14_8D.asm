@@ -88,7 +88,7 @@ db ScrollText
 
 .stringn  "하지만 저도"
 db NewLine
-.stringn  "노바의 기사라 불리운 큐안의 아들"
+.stringn  "노바의 기사라 불린 큐안의 아들"
 db NewLine
 db WaitForA
 db ScrollText
@@ -107,9 +107,9 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "그란벨에 빛을 되찾기 위해"
+.stringn  "그란벨에 빛을 되찾아오기 위해"
 db NewLine
-.stringn  "저도 미력하나마"
+.stringn  "저도 미력하게나마"
 db NewLine
 .stringn  "힘을 보태겠습니다"
 
@@ -120,11 +120,11 @@ db 0x10
 db NewLine
 db WaitForA
 dh ScrollText_DBC
-.stringn  "저희 아버님들께선"
+.stringn  "우리의 아버님들께선"
 db NewLine
 .stringn  "생사를 함께하기로 맹세한"
 db NewLine
-.stringn  "절친한 벗이었다고 들었어요"
+.stringn  "절친한 벗이셨다고 들었어요"
 db WaitForA
 db ScrollText
 
@@ -135,16 +135,16 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "하지만 두분 다 제 아버지를 돕다"
+.stringn  "하지만 두 분 다 제 아버님을 돕다"
 db NewLine
-.stringn  "생을 마감하시고 말았죠・・・ "
+.stringn  "생을 마감하시고 말았죠・・・"
 db NewLine
 db WaitForA
 db ScrollText
 
 .stringn  "리프 왕자, 정말 미안해요"
 db NewLine
-.stringn  "아버지를 대신해 사죄합니다・・・"
+.stringn  "아버님을 대신해 사죄드립니다・・・"
 db NewLine
 db WaitForA
 db ScrollText
@@ -171,9 +171,9 @@ db 0x10
 db NewLine
 db WaitForA
 dh ScrollText_DBC
-.stringn  "리프 왕자, 전 아버지의 유지를 이어"
+.stringn  "리프 왕자, 전 아버님의 유지를 이어"
 db NewLine
-.stringn  "세상에 빛을 되찾고 싶어요"
+.stringn  "세상에 빛을 되찾아 주고 싶어요"
 db NewLine
 .stringn  "부디 제게 힘을 빌려주세요"
 db WaitForA
@@ -237,16 +237,16 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "저번 전쟁에서"
+.stringn  "지난 전쟁에서"
 db NewLine
 .stringn  "어린아이들은 이자크로 도망쳤지만"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "갓난아기였던 너는"
+.stringn  "갓난아이였던 너는 어머니와 함께"
 db NewLine
-.stringn  "어머니와 함께 렌스터로 갔다고・・・"
+.stringn  "렌스터로 갔다고 하시더라고・・・"
 db NewLine
 
 db Bottom_Slot// Nanna
@@ -301,9 +301,9 @@ db WaitForA
 
 db Top_Slot// Diarmuid
 dh ScrollText_DBC
-.stringn  "이드는 마의 사막이지"
+.stringn  "이드는 마의 사막이야"
 db NewLine
-.stringn  "혼자 통과하는 건 무리야・・・"
+.stringn  "혼자서 통과하는 건 불가능해・・・"
 db NewLine
 
 db Bottom_Slot// Nanna

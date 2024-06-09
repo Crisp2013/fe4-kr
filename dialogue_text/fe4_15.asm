@@ -154,7 +154,7 @@ dh LoadPortrait
 dh 0x0280//Lewyn
 .stringn  "세리스・・・"
 db NewLine
-.stringn  "네가 죽어버릴 줄은・・・"
+.stringn  "네가 죽어 버릴 줄은・・・"
 db NewLine
 db WaitForA
 db EndText

@@ -1948,7 +1948,7 @@ dh ScrollText_DBC
 db NewLine
 .stringn  "너는 황녀 디아도라의 첫째 아들,"
 db NewLine
-.stringn  "즉 율리우스 황태자의 형 되는 자"
+.stringn  "즉 율리우스 황자의 형 되는 자"
 db WaitForA
 db ScrollText
 

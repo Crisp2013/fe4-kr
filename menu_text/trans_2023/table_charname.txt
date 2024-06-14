@@ -594,7 +594,7 @@
 #WRITE(Unit, $39B97)
 #WRITE(Unit, $39B0D)
 //クロスナイツ[X]
-크로스나이츠[X]
+크로스　나이츠[X]
 
 //POINTER #092 @ $39B11 - STRING #092 @ $3A1BB
 
@@ -1378,7 +1378,7 @@
 #WRITE(Unit, $39CC1)
 #WRITE(Unit, $39CBF)
 //ハイマージ[X]
-하이메이지[X]
+하이　메이지[X]
 
 //POINTER #310 @ $39CC5 - STRING #310 @ $3A6E1
 
@@ -1494,13 +1494,13 @@
 #WRITE(Unit, $39D27)
 #WRITE(Unit, $39D25)
 //ドラゴンナイツ[X]
-드래곤나이츠[X]
+드래곤　나이츠[X]
 
 //POINTER #366 @ $39D35 - STRING #366 @ $3A811
 
 #WRITE(Unit, $39D35)
 //ムーサー[X]
-무사[X]
+무서[X]
 
 //POINTER #367 @ $39D37 - STRING #367 @ $3A81B
 //POINTER #368 @ $39D39 - STRING #368 @ $3A81B
@@ -1572,7 +1572,7 @@
 #WRITE(Unit, $39D55)
 #WRITE(Unit, $39D4D)
 //ダークマージ[X]
-다크메이지[X]
+다크　메이지[X]
 
 //POINTER #380 @ $39D51 - STRING #380 @ $3A84F
 //POINTER #446 @ $39DD5 - STRING #446 @ $3A965
@@ -1688,7 +1688,7 @@
 
 #WRITE(Unit, $39DE5)
 //アインス[X]
-아인즈[X]
+아인스[X]
 
 //POINTER #455 @ $39DE7 - STRING #455 @ $3A9B9
 

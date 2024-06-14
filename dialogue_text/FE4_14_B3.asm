@@ -375,7 +375,7 @@ dh LoadPortrait
 dh 0x0019//Seliph
 
 db Top_Slot// Febail
-.stringn  "세리스 황태자, 미안했다"
+.stringn  "세리스 황자, 미안했다"
 db NewLine
 .stringn  "용서해 줘"
 db NewLine
@@ -410,7 +410,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "세리스 황태자,"
+.stringn  "세리스 황자,"
 db NewLine
 .stringn  "죗값은 확실하게 치러 줄게"
 db NewLine
@@ -1017,7 +1017,7 @@ db NewLine
 db Bottom_Slot// Tine
 dh PauseForTime
 db 0x10
-.stringn  "아마・・・ 율리우스 황태자님일 거예요"
+.stringn  "아마・・・ 율리우스 황자님일 거예요"
 db NewLine
 db WaitForA
 dh PlayBGM
@@ -1025,7 +1025,7 @@ db 0x83
 
 db Top_Slot// Seliph
 dh ScrollText_DBC
-.stringn  "뭐? 율리우스 황태자라고!?"
+.stringn  "뭐? 율리우스 황자라고!?"
 db NewLine
 
 db Bottom_Slot// Tine
@@ -1039,7 +1039,7 @@ db WaitForA
 
 db Top_Slot// Seliph
 dh ScrollText_DBC
-.stringn  "율리우스 황태자와는 아는 사이니?"
+.stringn  "율리우스 황자와는 아는 사이니?"
 db NewLine
 
 db Bottom_Slot// Tine
@@ -1410,13 +1410,13 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "물론 내가 흠씬 패주긴 했지만・・・"
+.stringn  "물론 내가 흠씬 패 주긴 했지만・・・"
 db NewLine
 
 db Bottom_Slot// Patty
 dh PauseForTime
 db 0x10
-.stringn  "맘대로 하라 그래"
+.stringn  "마음대로 하라 그래"
 db NewLine
 dh BGMFade
 db 0xE1

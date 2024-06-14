@@ -52,7 +52,7 @@ db ScrollText
 dh unknown_0087
 .stringn  "제국과 암흑 교단의 지배로"
 db NewLine
-.stringn  "죽어가는 모습이었다."
+.stringn  "죽어 가는 모습이었다."
 db WaitForA
 db ScrollText
 
@@ -98,7 +98,7 @@ db ScrollText
 
 .stringn  "암흑 교단의 의식에 바칠 제물로"
 db NewLine
-.stringn  "차례차례 죽어가는 사람들을"
+.stringn  "차례 차례 죽어가는 사람들을"
 db WaitForA
 db ScrollText
 
@@ -121,12 +121,12 @@ db 0x08, 0xA0, 0x18
 db WaitForA
 db ScrollText
 
-.stringn  "시민들은 환호하며 맞아들였다."
+.stringn  "시민들은 환호하며 맞이했다."
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "사라져가던 밀레토스의 희망은"
+.stringn  "사라져 가던 밀레토스의 희망은"
 db NewLine
 .stringn  "지금, 해방군의 도래와 함께"
 db WaitForA

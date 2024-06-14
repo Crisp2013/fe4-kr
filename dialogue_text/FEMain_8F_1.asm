@@ -248,7 +248,7 @@ dh unknown_0083
 db 0x02, 0xB0, 0x40
 .stringn  "북반도를 해방한 세리스 일행은"
 db NewLine
-.stringn  "미즈성을 전진기지로 삼아,"
+.stringn  "미즈성을 전진 기지로 삼아,"
 db WaitForA
 db ScrollText
 
@@ -259,7 +259,7 @@ dh unknown_0084
 db 0x02
 db ScrollText
 
-.stringn  "미즈 앞에 펼쳐진 것은 산으로 둘러싸인"
+.stringn  "미즈성 앞에 펼쳐진 것은 산에 둘러싸인"
 db NewLine
 .stringn  "용기사의 나라, 트라키아다."
 dh unknown_0086
@@ -312,7 +312,7 @@ db ScrollText
 
 .stringn  "카파토기아성에는 트라키아의 방패란"
 db NewLine
-.stringn  "별명을 가진 명장 한니발을,"
+.stringn  "별명을 지닌 명장 한니발을,"
 dh unknown_0082
 db 0x06, 0x24, 0x00
 dh unknown_0083
@@ -352,7 +352,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "스스로 무기를 들고 전쟁에 나선다."
+.stringn  "스스로 무기를 들고 전쟁에 나섰다."
 db NewLine
 db WaitForA
 db ScrollText
@@ -502,7 +502,7 @@ dh unknown_0082
 db 0x04, 0x71, 0x02
 dh unknown_0083
 db 0x04, 0xB0, 0x08
-.stringn  "이슈타르와 악마 황태자 율리우스가"
+.stringn  "이슈타르와 악마 황자 율리우스가"
 dh unknown_0082
 db 0x02, 0x6F, 0x02
 dh unknown_0083

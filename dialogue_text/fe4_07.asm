@@ -70,7 +70,7 @@ db ScrollText
 
 
 db Top_Slot// Leif
-.stringn  "세리스 황태자・・・ 아버님의 벗인"
+.stringn  "세리스 황자・・・ 아버님의 벗인"
 db NewLine
 .stringn  "시구르드 공자와 황녀 디아도라"
 db NewLine
@@ -119,7 +119,7 @@ db ScrollText
 db NewLine
 .stringn  "조금만 더 힘내 볼게"
 db NewLine
-.stringn  "세리스 황태자와 만날 때까진・・・"
+.stringn  "세리스 황자와 만날 때까진・・・"
 db WaitForA
 db EndText
 

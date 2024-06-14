@@ -1411,7 +1411,7 @@ dh PauseForTime
 db 0x14
 dh unknown_0083
 db 0x02, 0x98, 0x1C
-.stringn  "세리스 황태자가 국민들의 압도적인"
+.stringn  "세리스 황자가 국민들의 압도적인"
 db NewLine
 dh unknown_0086
 db WaitForA

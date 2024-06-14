@@ -1749,7 +1749,7 @@ db Top_Slot// Travant
 db NewLine
 .stringn  "게이볼그도 쓸 수 없는 네놈에게"
 db NewLine
-.stringn  "내가 쓰러질 것 같으냐!"
+.stringn  "내가 쓰러질 것 같나!"
 db WaitForA
 db ScrollText
 
@@ -1779,7 +1779,7 @@ dh 0x0022//Finn
 db Top_Slot// Travant
 .stringn  "네놈은 핀이 아니냐? 오랜만이로군"
 db NewLine
-.stringn  "아직도 살아있었나?"
+.stringn  "아직도 살아 있었나?"
 db NewLine
 
 db Bottom_Slot// Finn
@@ -1818,7 +1818,7 @@ dh LoadPortrait
 dh 0x0019//Seliph
 
 db Top_Slot// Arion
-.stringn  "네가 세리스 황태자인가?"
+.stringn  "네가 세리스 황자인가?"
 db NewLine
 .stringn  "음, 상대로 부족함은 없군"
 db NewLine
@@ -1839,7 +1839,7 @@ dh ScrollText_DBC
 db NewLine
 .stringn  "간다, 세리스!"
 db NewLine
-.stringn  "이 궁니르를 받아내 봐라!"
+.stringn  "이 궁니르를 받아 내 봐라!"
 db WaitForA
 db EndText
 

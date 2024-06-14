@@ -647,7 +647,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "또한 그란벨의 황태자라 숭상하는"
+.stringn  "또한 그란벨의 황자라 숭상하는"
 db NewLine
 .stringn  "한 소년의 모습이 있었다."
 db WaitForA

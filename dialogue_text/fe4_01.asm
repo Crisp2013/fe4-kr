@@ -1871,7 +1871,7 @@ db ScrollText
 
 .stringn  "시귄은 로프토 황제의 아우였던"
 db NewLine
-.stringn  "마이라 황태자의 자손"
+.stringn  "마이라 왕자의 자손"
 db NewLine
 db WaitForA
 db ScrollText

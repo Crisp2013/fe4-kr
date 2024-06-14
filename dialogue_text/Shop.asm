@@ -43,7 +43,7 @@ db EndText
 // 0xad310
 Dialogue_ad110:
 db ClearText
-.stringn  "돈은 잘 받았다고"
+.stringn  "이봐, 돈이 부족해"
 db NewLine
 db WaitForA
 db EndText
@@ -468,7 +468,7 @@ db EndText
 // 0xad63e
 Dialogue_ad43e:
 db ClearText
-.stringn  "더는 맡아 줄 수 없어"
+.stringn  "그렇게 많이 못 가져"
 db NewLine
 db WaitForA
 db EndText

@@ -2866,7 +2866,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x026F//Julius
-.stringn  "여흥은 끝이다, 돌아가자"
+.stringn  "놀이는 끝이다, 돌아가자"
 db NewLine
 dh PauseForTime
 db 0xC8

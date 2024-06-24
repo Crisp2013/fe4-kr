@@ -1635,7 +1635,7 @@ dh PauseForTime
 db 0x10
 .stringn  "무섭지 않다면 거짓말이겠지만,"
 db NewLine
-.stringn  "잡혀간 아이들을 생각하면"
+.stringn  "잡혀 간 아이들을 생각하면"
 db NewLine
 .stringn  "가만있을 수 없으니까"
 db WaitForA
@@ -1670,14 +1670,14 @@ dh InsName
 dh 0x0039//Patty
 .stringn  " 때문에 어쩔 수 없이 한 거라고"
 db NewLine
-.stringn  "별로 애들 좋아하지도 않아"
+.stringn  "별로 애들을 좋아하는 건 아냐"
 
 db Bottom_Slot// Lana
 dh PauseForTime
 db 0x10
 .stringn  "후훗, 거짓말"
 db NewLine
-.stringn  "내 눈엔 다 보이는걸"
+.stringn  "내 눈엔 다 보여"
 db NewLine
 db WaitForA
 dh ScrollText_DBC
@@ -1685,7 +1685,7 @@ dh ScrollText_DBC
 db NewLine
 .stringn  "거기 있던 어린애들 모두가"
 db NewLine
-.stringn  "매달려서 엉엉 울었는걸"
+.stringn  "매달려서 엉엉 울었잖아"
 db WaitForA
 db ScrollText
 

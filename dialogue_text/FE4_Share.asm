@@ -932,9 +932,9 @@ db NewLine
 db Bottom_Slot// Seliph
 dh PauseForTime
 db 0x10
-.stringn  "서, 설마 어머니!?"
+.stringn  "서, 설마 어머님!?"
 db NewLine
-.stringn  "어머니신가요?"
+.stringn  "어머님이신가요?"
 db NewLine
 db WaitForA
 dh PlayBGM
@@ -962,7 +962,7 @@ db NewLine
 db Bottom_Slot// Seliph
 dh PauseForTime
 db 0x10
-.stringn  "・・・네, 네・・・・ 어머니!"
+.stringn  "・・・네, 네에・・・・ 어머님!"
 db NewLine
 dh PauseForTime
 db 0x1E
@@ -970,7 +970,7 @@ db 0x1E
 db NewLine
 dh PauseForTime
 db 0x14
-.stringn  "아버지의 원수를 갚았다고요!"
+.stringn  "아버님의 원수를 갚았다고요!"
 db WaitForA
 
 db Top_Slot// Ghost Deirdre
@@ -985,7 +985,7 @@ dh PauseForTime
 db 0x19
 .stringn  "율리우스와・・・ 율리아!?"
 db NewLine
-.stringn  "어머니께서 어떻게"
+.stringn  "어머님께서 어떻게"
 db NewLine
 .stringn  "그 둘을 알고 계신 거죠?"
 db WaitForA
@@ -998,7 +998,7 @@ db NewLine
 db Bottom_Slot// Seliph
 dh PauseForTime
 db 0x19
-.stringn  "어머니・・・?"
+.stringn  "어머님・・・?"
 db NewLine
 db WaitForA
 
@@ -1027,7 +1027,7 @@ dh PauseForTime
 db 0x1E
 .stringn  "당신은?"
 db NewLine
-.stringn  "설마・・・ 아버지!?"
+.stringn  "설마・・・ 아버님!?"
 db NewLine
 db WaitForA
 
@@ -1042,7 +1042,7 @@ db NewLine
 db Bottom_Slot// Seliph
 dh PauseForTime
 db 0x19
-.stringn  "네? 아버지・・・ 그 말씀은?"
+.stringn  "네? 아버님・・・ 그 말씀은?"
 db NewLine
 db WaitForA
 
@@ -1057,7 +1057,7 @@ db ScrollText
 
 .stringn  "그걸 깨닫지 못하면"
 db NewLine
-.stringn  "이 전쟁은 무의미해지고 말아・・・"
+.stringn  "이 전쟁은 무의미해지고 말 거다・・・"
 db NewLine
 dh PauseForTime
 db 0x1E
@@ -1066,7 +1066,7 @@ dh ClearPortrait
 db Bottom_Slot// Seliph
 dh PauseForTime
 db 0x19
-.stringn  "아, 아버지! 기다려 주세요!"
+.stringn  "아, 아버님! 기다려 주세요!"
 db NewLine
 db WaitForA
 
@@ -1076,13 +1076,13 @@ dh DialogClose
 dh PauseForTime
 db 0x10
 dh DialogOpen
-.stringn  "・・・몸 조심하렴・・・"
+.stringn  "・・・몸조심하렴・・・"
 db NewLine
 
 db Bottom_Slot// Seliph
 dh PauseForTime
 db 0x19
-.stringn  "어머니・・・"
+.stringn  "어머님・・・"
 db NewLine
 db WaitForA
 db EndText

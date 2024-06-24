@@ -1865,7 +1865,7 @@ dh InsName
 dh 0x003D//Tine
 .stringn  " 아니니?"
 db NewLine
-.stringn  "역시 그 여자의 딸내미로구나"
+.stringn  "역시 그 여자의 딸이로구나"
 db NewLine
 .stringn  "은혜를 모르는 게 꼭 닮았어"
 
@@ -1880,7 +1880,7 @@ db Top_Slot// Hilda
 dh ScrollText_DBC
 .stringn  "그래, 그 아이는 눈엣가시였거든"
 db NewLine
-.stringn  "괴롭히고, 괴롭히고, 또 괴롭혀 주었지"
+.stringn  "괴롭히고 괴롭히고, 또 괴롭혀 주었지"
 db NewLine
 .stringn  "호호호, 그땐 정말 재밌었는데・・・"
 
@@ -1902,7 +1902,7 @@ db ScrollText
 
 .stringn  "너도 어미와 똑같이"
 db NewLine
-.stringn  "지옥으로 떨어뜨려 주마!!"
+.stringn  "지옥으로 보내 주마!!"
 db NewLine
 db WaitForA
 db EndText

@@ -491,12 +491,12 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "정예 기사단이 건재해 있으며,"
+.stringn  "정예 기사단이 건재하고,"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "그리고 발할라에선"
+.stringn  "발할라에선"
 db NewLine
 dh unknown_0082
 db 0x04, 0x71, 0x02

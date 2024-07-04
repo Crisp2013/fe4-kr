@@ -2044,7 +2044,7 @@ dh LoadPortrait
 dh 0x0271//Ishtar
 
 db Top_Slot// Julius
-.stringn  "놀이는 끝이다, 돌아가자 이슈타르"
+.stringn  "여흥은 끝이다, 돌아가자 이슈타르"
 db NewLine
 
 db Bottom_Slot// Ishtar

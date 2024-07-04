@@ -573,7 +573,7 @@ dh 0xF09B
 db 0x8C //bank
 .stringn  ", 여기서 뭐 해?"
 db NewLine
-.stringn  "날 기다린 거야?"
+.stringn  "나 기다렸어?"
 db EndText
 
 //end 0xcf56e
@@ -839,7 +839,7 @@ dh 0xF09B
 db 0x8C //bank
 .stringn  ", 여기서 뭐 해?"
 db NewLine
-.stringn  "날 기다린 거야?"
+.stringn  "나 기다렸어?"
 db EndText
 
 //end 0xcf7ae

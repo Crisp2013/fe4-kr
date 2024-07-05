@@ -25,7 +25,7 @@ db NewLine
 db NewLine
 db NewLine
 ;.stringn "人の悲しみがわかる優しさと"
-.stringn "인간의 슬픔을 이해하는 따뜻함과"
+.stringn "인간의 슬픔을 품는 따뜻함과"
 ;.stringn "인간의 슬픔을 아는 마음과"
 db NewLine
 db NewLine
@@ -33,7 +33,7 @@ db NewLine
 dh PauseForTime
 db 0x3C
 ;.stringn "人の悲しみを救える勇気と"
-.stringn "인간의 슬픔을 구원하는 용기와"
+.stringn "인간의 슬픔을 구하는 용기와"
 ;.stringn "인간의 슬픔을 구하는 용기와"
 db NewLine
 db NewLine

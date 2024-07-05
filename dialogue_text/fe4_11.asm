@@ -2492,7 +2492,7 @@ db Bottom_Slot
 dh PauseForTime
 db 0x20
 dh SringBuffer1 //Lover or father
-.stringn  "・・・ 결국 죽어버렸어요"
+.stringn  "・・・ 결국 죽어 버렸어요"
 db NewLine
 .stringn  "역시 아직은 좀 힘드네요"
 db NewLine
@@ -2799,7 +2799,7 @@ db NewLine
 db Bottom_Slot// Ced
 dh PauseForTime
 db 0x20
-.stringn  "네, 국민들이 기다리고 있으니까요"
+.stringn  "네, 사람들이 기다리고 있으니까요"
 db NewLine
 .if _USE_OLD_TRANSLATION == 1
 .stringn "(빈줄)"
@@ -2821,7 +2821,7 @@ db ScrollText
 db Top_Slot// Seliph
 .stringn  "그래,"
 db NewLine
-.stringn  "네가 있으면 실레지아도 안심이야"
+.stringn  "네가 있으면 실레지아도 문제없겠지"
 db NewLine
 .stringn  "그럼 건강하길, 용사 "
 dh SringBuffer2 //CharName or mother
@@ -2829,7 +2829,7 @@ dh SringBuffer2 //CharName or mother
 db Bottom_Slot// Ced
 dh PauseForTime
 db 0x20
-.stringn  "네, 세리스 님도 건강하십시오!"
+.stringn  "네, 세리스 님도요!"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -2842,7 +2842,7 @@ db EndText
 Dialogue_32c4cd:
 dh InsBlockText_2A
 write_hirom_pointer Dialogue_32c654
-.stringn  "팔팔하지 못해요・・・"
+.stringn  "건강 못 해요・・・"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -2865,7 +2865,7 @@ db Top_Slot
 dh ScrollText_DBC
 .stringn  "미안해, "
 dh SringBuffer2 //CharName or mother
-.stringn  "를 슬프게 만들어 버려서"
+.stringn  "를 슬프게 만들어서"
 db NewLine
 
 db Bottom_Slot
@@ -2875,7 +2875,7 @@ db 0x20
 db NewLine
 .stringn  "세리스 님 잘못이 아닌걸요"
 db NewLine
-.stringn  "죄송해요, 이만 가볼게요・・・"
+.stringn  "죄송해요, 저 이만 가볼게요・・・"
 dh PauseForTime
 db 0x60
 
@@ -2949,7 +2949,7 @@ db NewLine
 db Bottom_Slot// Fee
 dh PauseForTime
 db 0x20
-.stringn  "팔팔하죠"
+.stringn  "물론 팔팔하죠"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -2982,7 +2982,7 @@ dh PauseForTime
 db 0x20
 .stringn  "정말, 너무하신다니까"
 db NewLine
-.stringn  "그럼 안녕!"
+.stringn  "그럼 안녕히 계세요!"
 db NewLine
 .stringn  "세리스 님도 건강하세요!"
 dh PauseForTime
@@ -3063,9 +3063,9 @@ dh LoadPortrait
 dh 0x0280//Lewyn
 dh InsBlockText_2A
 write_hirom_pointer Dialogue_32cad2
-.stringn  "저는 이해할 수 없습니다"
+.stringn  "저는 이해가 안 갑니다"
 db NewLine
-.stringn  "실레지아에는 아버지가 필요합니다"
+.stringn  "실레지아에는 아버님이 필요해요"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -3083,22 +3083,21 @@ db Top_Slot// Lewyn
 .stringn  "끈질기구나, "
 dh SringBuffer2 //CharName or mother
 db NewLine
-.stringn  "나를 괴롭히지 마라"
+.stringn  "날 괴롭히지 마라"
 db NewLine
 dh PauseForTime
 db 0x60
 db ScrollText
 
-.stringn  "너도 이미 눈치채고 있을 테지"
+.stringn  "너도 이미 눈치챘을 텐데"
 db NewLine
 .stringn  "아니냐? "
 dh SringBuffer2 //CharName or mother
-.stringn  ""
 
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn  "・・・아버지・・・・・・"
+.stringn  "・・・아버님・・・・・・"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -3132,11 +3131,11 @@ dh 0x0280//Lewyn
 dh SringBuffer1 //Lover or father
 .stringn  ", "
 dh SringBuffer2 //CharName or mother
-.stringn  "녀석을 잘 부탁한다"
+.stringn  " 녀석을 잘 부탁한다"
 db NewLine
-.stringn  "나는 돌아가지 않는다"
+.stringn  "난 돌아가지 않을 거다"
 db NewLine
-.stringn  "실레지아는 너희 둘이 다스려라"
+.stringn  "실레지아는 너희 둘이 다스리도록 해"
 dh PauseForTime
 db 0x20
 
@@ -3145,11 +3144,11 @@ dh DialogClose
 dh ClearPortrait
 dh DialogOpen
 dh unknown_002F
-.stringn  "네? 무슨 말씀이세요, 아버지!"
+.stringn  "네? 무슨 말씀이세요, 아버님!"
 db NewLine
-.stringn  "전쟁은 끝났습니다"
+.stringn  "이제 전쟁은 끝났습니다"
 db NewLine
-.stringn  "함께 고향으로 돌아가야지요!!"
+.stringn  "함께 고국으로 돌아가셔야죠!!"
 dh PauseForTime
 db 0x60
 
@@ -3165,22 +3164,22 @@ db ScrollText
 db NewLine
 .stringn  "실레지아도"
 db NewLine
-.stringn  "다시 태어나야 할 때다"
+.stringn  "다시 태어나야 할 때야"
 dh PauseForTime
 db 0x60
 db ScrollText
 
 .stringn  "그러기 위해선"
 db NewLine
-.stringn  "너희와 같은 젊은이들의 힘이 필요해"
+.stringn  "너희 같은 젊은이들의 힘이 필요해"
 db NewLine
 
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn  "저는 이해할 수 없습니다"
+.stringn  "저는 이해가 안 갑니다"
 db NewLine
-.stringn  "실레지아에는 아버지가 필요합니다"
+.stringn  "실레지아에는 아버님이 필요해요"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -3197,13 +3196,13 @@ dh ScrollText_DBC
 .stringn  "끈질기구나, "
 dh SringBuffer2 //CharName or mother
 db NewLine
-.stringn  "나를 괴롭히지 마라"
+.stringn  "날 괴롭히지 마라"
 db NewLine
 dh PauseForTime
 db 0x60
 db ScrollText
 
-.stringn  "너도 이미 눈치채고 있을 테지"
+.stringn  "너도 이미 눈치챘을 텐데"
 db NewLine
 .stringn  "아니냐? "
 dh SringBuffer2 //CharName or mother
@@ -3212,7 +3211,7 @@ dh PauseForTime
 db 0x20
 
 db Bottom_Slot
-.stringn  "・・・아버지・・・・・・"
+.stringn  "・・・아버님・・・・・・"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -3239,9 +3238,9 @@ dh LoadPortrait
 dh 0x0280//Lewyn
 dh InsBlockText_2A
 write_hirom_pointer Dialogue_32cad2
-.stringn  "저는 이해할 수 없습니다"
+.stringn  "저는 이해가 안 갑니다"
 db NewLine
-.stringn  "실레지아에는 아버지가 필요합니다"
+.stringn  "실레지아에는 아버님이 필요해요"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -3259,13 +3258,13 @@ db Top_Slot// Lewyn
 .stringn  "끈질기구나, "
 dh SringBuffer2 //CharName or mother
 db NewLine
-.stringn  "나를 괴롭히지 마라"
+.stringn  "날 괴롭히지 마라"
 db NewLine
 dh PauseForTime
 db 0x60
 db ScrollText
 
-.stringn  "너도 이미 눈치채고 있을 테지"
+.stringn  "너도 이미 눈치챘을 텐데"
 db NewLine
 .stringn  "아니냐? "
 dh SringBuffer2 //CharName or mother
@@ -3274,7 +3273,7 @@ dh SringBuffer2 //CharName or mother
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn  "・・・아버지・・・・・・"
+.stringn  "・・・아버님・・・・・・"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -3314,11 +3313,11 @@ db EndText
 Dialogue_32ca24:
 dh InsBlockText_2A
 write_hirom_pointer Dialogue_32ca64
-.stringn  "네, 아버지는 제 자랑이십니다"
+.stringn  "네, 아버님은 제 자랑이십니다"
 db NewLine
-.stringn  "저도 어서 아버지 같은 사람이"
+.stringn  "저도 빨리 아버님 같은 사람이"
 db NewLine
-.stringn  "되고 싶습니다"
+.stringn  "될 수 있도록 노력하겠습니다"
 dh PauseForTime
 db 0x60
 db EndText
@@ -3337,7 +3336,7 @@ dh 0x0019//Seliph
 db Bottom_Slot
 dh DialogOpen
 dh unknown_002F
-.stringn  "그럼 세리스 님, 저는 아버지와"
+.stringn  "그럼 세리스 님, 저는 아버님과"
 db NewLine
 .stringn  "함께 실레지아로 돌아가겠습니다"
 db NewLine
@@ -3366,19 +3365,18 @@ db EndText
 // 0x32ccd2
 Dialogue_32cad2:
 dh SringBuffer2 //CharName or mother
-
-.stringn  ", 난 돌아가지 않는다"
+.stringn  ", 난 실레지아로 가지 않는다"
 db NewLine
 .stringn  "실레지아는 네가 다스려라"
 
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn  "네? 무슨 말씀이세요, 아버지!"
+.stringn  "네? 무슨 말씀이세요, 아버님!"
 db NewLine
-.stringn  "전쟁은 끝났습니다"
+.stringn  "이제 전쟁은 끝났습니다"
 db NewLine
-.stringn  "함께 고향으로 돌아가야지요!!"
+.stringn  "함께 고국으로 돌아가셔야죠!!"
 dh PauseForTime
 db 0x60
 
@@ -3394,14 +3392,14 @@ db ScrollText
 db NewLine
 .stringn  "실레지아도"
 db NewLine
-.stringn  "다시 태어나야 할 때다"
+.stringn  "다시 태어나야 할 때야"
 dh PauseForTime
 db 0x60
 db ScrollText
 
 .stringn  "그러기 위해선"
 db NewLine
-.stringn  "너희와 같은 젊은이들의 힘이 필요해"
+.stringn  "너희 같은 젊은이들의 힘이 필요해"
 db NewLine
 
 db Bottom_Slot
@@ -3451,9 +3449,9 @@ dh PauseForTime
 db 0x20
 .stringn  "네? 무슨 말씀이세요, 아버님!"
 db NewLine
-.stringn  "전쟁은 끝났잖아요"
+.stringn  "이제 전쟁은 끝났잖아요"
 db NewLine
-.stringn  "함께 고향으로 돌아가야죠!!"
+.stringn  "함께 고국으로 돌아가셔야죠!!"
 dh PauseForTime
 db 0x60
 
@@ -3469,20 +3467,20 @@ db ScrollText
 db NewLine
 .stringn  "실레지아도"
 db NewLine
-.stringn  "다시 태어나야 할 때다"
+.stringn  "다시 태어나야 할 때야"
 dh PauseForTime
 db 0x60
 db ScrollText
 
 .stringn  "그러기 위해선"
 db NewLine
-.stringn  "너희와 같은 젊은이들의 힘이 필요해"
+.stringn  "너희 같은 젊은이들의 힘이 필요해"
 db NewLine
 
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn  "저는 이해할 수 없어요"
+.stringn  "저는 이해가 안 갑니다"
 db NewLine
 .stringn  "실레지아에는・・・ 아니,"
 db NewLine
@@ -3503,7 +3501,7 @@ db Top_Slot// Lewyn
 dh SringBuffer2 //CharName or mother
 .stringn  "・・・부탁이다・・・"
 db NewLine
-.stringn  "나를 더 이상 괴롭히지 말아다오・・・"
+.stringn  "날 더는 괴롭히지 말아 다오・・・"
 db NewLine
 
 db Bottom_Slot
@@ -3546,7 +3544,7 @@ db ScrollText
 
 .stringn  "아버님께선"
 db NewLine
-.stringn  "또 우리를 버리고 떠나시는 건가요!?"
+.stringn  "또 우리를 버리고 떠나실 건가요!?"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -3565,7 +3563,7 @@ db Top_Slot
 dh SringBuffer2 //CharName or mother
 .stringn  "・・・ 부탁이다・・・"
 db NewLine
-.stringn  "더 이상 나를 괴롭히지 말아 다오・・・"
+.stringn  "더는 날 괴롭히지 말아 다오・・・"
 db NewLine
 
 db Bottom_Slot
@@ -3589,7 +3587,7 @@ db Top_Slot
 dh ScrollText_DBC
 .stringn  "・・・더 이상 할 말은 없다"
 db NewLine
-.stringn  "가라! 실레지아를 부탁한다・・・"
+.stringn  "가라! 실레지아를 부탁하마・・・"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -3630,7 +3628,7 @@ db ScrollText
 db Top_Slot// Seliph
 .stringn  "레빈・・・ 고마워요・・・"
 db NewLine
-.stringn  "당신은 우리 젊은이들을"
+.stringn  "당신은 우리 젊은 자들을"
 db NewLine
 .stringn  "줄곧 곁에서 지켜봐 주었죠"
 dh PauseForTime
@@ -3652,7 +3650,7 @@ db 0x60
 dh ScrollText_DBC
 .stringn  "그리고 빛은,"
 db NewLine
-.stringn  "너희 모두의 마음속에 있어"
+.stringn  "너희 모두의 마음속에 있다"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -3660,7 +3658,7 @@ db ScrollText
 
 
 db Top_Slot// Seliph
-.stringn  "예, 알고 있습니다"
+.stringn  "네, 알고 있습니다"
 db NewLine
 .stringn  "용족은 인간 세계에 관여하는 것을"
 db NewLine
@@ -3677,7 +3675,7 @@ dh PauseForTime
 db 0x60
 db ScrollText
 
-.stringn  "우리는 이 대지가 살아 숨 쉬는 한"
+.stringn  "저희는 이 대지가 살아 숨 쉬는 한"
 db NewLine
 .stringn  "당신의 은혜를 잊지 못할 거예요"
 db NewLine
@@ -3689,7 +3687,7 @@ db ScrollText
 db NewLine
 .stringn  "머나먼 이국의 전사,"
 db NewLine
-.stringn  "바람의 포르세티여・・・"
+.stringn  "바람의 포르세티・・・"
 dh PauseForTime
 db 0xC0
 db EndText

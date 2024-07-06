@@ -890,7 +890,7 @@ dh LoadPortrait
 dh 0x0027//Oifey
 .stringn  "시구르드 님,"
 db NewLine
-.stringn  "면목이 없습니다・・・"
+.stringn  "면목 없습니다・・・"
 db NewLine
 .stringn  "・・・・・저는 이제・・・"
 db WaitForA
@@ -2780,7 +2780,7 @@ dh LoadPortrait
 dh 0x025B//Arion
 .stringn  "이・・・ 이럴 수가・・・"
 db NewLine
-.stringn  "큭, 원통하다・・・ 아르테나・・・"
+.stringn  "큭, 분하다・・・ 아르테나・・・"
 db NewLine
 dh PauseForTime
 db 0xC8
@@ -2932,7 +2932,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x026E//Emperor Arvis
-.stringn  "세리스・・・ 율리아를 부탁하마"
+.stringn  "세리스・・・ 딸을 부탁하마"
 db NewLine
 .stringn  "・・・나를・・・ 용・・・・"
 db NewLine

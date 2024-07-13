@@ -802,6 +802,7 @@ Dialogue_cf73a:
 db Top_Slot
 .stringn  "어, "
 dh SringBuffer2 //CharName or mother
+db NewLine
 .stringn  "여기서 기다린 거야?"
 db NewLine
 db EndText
@@ -1583,7 +1584,7 @@ Dialogue_cfdb5:
 db Bottom_Slot
 .stringn  "우훗, 당연하지"
 db NewLine
-.stringn  "어서 와, 당신・・・"
+.stringn  "어서 와, 여보・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -1595,7 +1596,7 @@ db EndText
 Dialogue_cfdd6:
 
 db Bottom_Slot
-.stringn  "어서 오세요,"
+.stringn  "어서 오세요, "
 dh InsBlockText_2D //E2FF0C00
 dh 0xF0C6
 db 0x8C //bank
@@ -1794,7 +1795,7 @@ Dialogue_cff70:
 db Bottom_Slot
 .stringn  "우훗, 당연하지"
 db NewLine
-.stringn  "어서 와, 당신・・・"
+.stringn  "어서 와, 여보・・・"
 db NewLine
 db WaitForA
 db EndText

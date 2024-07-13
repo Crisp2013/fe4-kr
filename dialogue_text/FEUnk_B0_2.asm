@@ -234,7 +234,7 @@ dh LoadPortrait
 dh 0x0012//Lachesis
 
 db Top_Slot// Chagall
-.stringn  "큭, 엘트샨의 누이동생이 아니냐"
+.stringn  "큭, 엘트샨의 여동생 아니냐"
 db NewLine
 .stringn  "내게 칼을 들이밀다니 무슨 생각이지?"
 db NewLine
@@ -244,7 +244,7 @@ dh PauseForTime
 db 0x10
 .stringn  "난 당신을 왕이라고 생각한 적 없어!"
 db NewLine
-.stringn  "빨리 오라버니를 풀어줘!"
+.stringn  "빨리 오라버니를 풀어 줘!"
 db NewLine
 db WaitForA
 db EndText

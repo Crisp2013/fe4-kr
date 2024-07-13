@@ -1489,9 +1489,9 @@ db NewLine
 db Bottom_Slot// Lachesis
 dh PauseForTime
 db 0x10
-.stringn  "어머, 정말 신기하게 생겼네"
+.stringn  "어머, 정말 신기하게 생겼네요"
 db NewLine
-.stringn  "이런 검은 처음 봐・・・"
+.stringn  "이런 검은 처음 봐요・・・"
 db NewLine
 db WaitForA
 
@@ -1507,9 +1507,9 @@ dh PauseForTime
 db 0x10
 .stringn  "기쁘지만・・・"
 db NewLine
-.stringn  "내가 받아도 괜찮을까?"
+.stringn  "제가 받아도 괜찮을까요?"
 db NewLine
-.stringn  "듀는 안 써도 돼?"
+.stringn  "듀는 안 써도 돼요?"
 db WaitForA
 
 db Top_Slot// Dew

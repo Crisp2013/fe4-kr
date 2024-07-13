@@ -214,7 +214,7 @@ Dialogue_11b112:
 dh SringBuffer1 //Lover or father
 ; .stringn "と"
 db Font1
-.stringn "(와)과"
+.stringn "(와)과 "
 Dialogue_11b115:
 dh SringBuffer2 //CharName or mother
 ; .stringn "が"

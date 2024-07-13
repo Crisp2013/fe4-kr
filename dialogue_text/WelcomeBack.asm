@@ -634,7 +634,7 @@ Dialogue_cf5ce:
 db Top_Slot
 .stringn  "다녀왔어!"
 db NewLine
-.stringn  "어라아, "
+.stringn  "어라 "
 dh InsBlockText_2D //DFF70C00
 dh 0xF09B
 db 0x8C //bank
@@ -868,7 +868,7 @@ Dialogue_cf7d5:
 db Top_Slot
 .stringn  "다녀왔어!"
 db NewLine
-.stringn  "어라아, "
+.stringn  "어라 "
 dh InsBlockText_2D //E6F90C00
 dh 0xF09B
 db 0x8C //bank

@@ -213,10 +213,12 @@ translation_org 0x11b112
 Dialogue_11b112:
 dh SringBuffer1 //Lover or father
 ; .stringn "と"
+db Font1
 .stringn "(와)과"
 Dialogue_11b115:
 dh SringBuffer2 //CharName or mother
 ; .stringn "が"
+db Font1
 .stringn "(이)가"
 dh unknown_0002
 dh unknown_0001

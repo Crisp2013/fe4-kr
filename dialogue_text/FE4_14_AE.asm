@@ -158,7 +158,7 @@ db ScrollText
 db NewLine
 .stringn  "네게 무슨 일이라도 생겼다간"
 db NewLine
-.stringn  "어머니가 슬퍼하실 테니까"
+.stringn  "어머님이 슬퍼하실 테니까"
 
 db Bottom_Slot// Lana
 dh PauseForTime
@@ -187,7 +187,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "・・・그래서, 어머니는?"
+.stringn  "・・・그래서, 어머님은?"
 db NewLine
 
 db Bottom_Slot// Lana
@@ -201,15 +201,15 @@ db WaitForA
 
 db Top_Slot// Lester
 dh ScrollText_DBC
-.stringn  "그래・・・ 어머니를 위해, 또"
+.stringn  "그래・・・ 어머님을 위해, 또"
 db NewLine
-.stringn  "아직 존안도 모르는 아버지를 위해"
+.stringn  "아직 존안도 모르는 아버님을 위해"
 db NewLine
 .stringn  "우리도 힘내서 싸우자"
 db WaitForA
 db ScrollText
 
-.stringn  "그리고 언젠가 반드시 어머니의 고향,"
+.stringn  "그리고 언젠가 반드시 어머님의 고향,"
 db NewLine
 .stringn  "잉그비로 돌아가는 거야"
 db NewLine
@@ -287,7 +287,7 @@ dh PauseForTime
 db 0x10
 .stringn  "그렇구나・・・"
 db NewLine
-.stringn  "아버지를 대신해 감사를 표할게"
+.stringn  "아버님을 대신해 감사를 표할게"
 db NewLine
 .stringn  "그런데 왜 이자크까지 온 거야?"
 db WaitForA
@@ -487,7 +487,7 @@ db NewLine
 db Bottom_Slot// Larcei
 dh PauseForTime
 db 0x10
-.stringn  "아이라 어머님・・・"
+.stringn  "아이라 어머님 말이지・・・"
 db NewLine
 .stringn  "그런 말을 들어도 전혀 기억에 없어"
 db NewLine
@@ -496,12 +496,12 @@ db WaitForA
 
 db Top_Slot// Scﾃ｡thach
 dh ScrollText_DBC
-.stringn  "나도 똑같지 뭐"
+.stringn  "나도 기억 안 나"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "우린 쌍둥이니까 나이도 같고"
+.stringn  "우린 쌍둥이인 데다가"
 db NewLine
 .stringn  "어머니랑 헤어질 땐"
 db NewLine

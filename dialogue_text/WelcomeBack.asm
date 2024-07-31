@@ -1454,7 +1454,7 @@ db EndText
 Dialogue_cfc8f:
 
 db Bottom_Slot
-.stringn  "그, 그래・・・ 소중한 사람이니까"
+.stringn  "그, 그야・・・ 소중한 사람이니까"
 db NewLine
 db WaitForA
 db EndText
@@ -1705,7 +1705,7 @@ db EndText
 Dialogue_cfea9:
 
 db Bottom_Slot
-.stringn  "그, 그래・・・ 소중한 사람이니까"
+.stringn  "그, 그야・・・ 소중한 사람이니까"
 db NewLine
 db WaitForA
 db EndText

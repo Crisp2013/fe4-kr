@@ -93,9 +93,9 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "아버지께"
+.stringn  "아버님께 부끄럽지 않은"
 db NewLine
-.stringn  "부끄럽지 않은 삶을 살고 싶습니다"
+.stringn  "삶을 살고 싶습니다"
 db NewLine
 db WaitForA
 db ScrollText
@@ -107,7 +107,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "그란벨에 빛을 되찾아오기 위해"
+.stringn  "그란벨에 빛을 되찾아 오기 위해"
 db NewLine
 .stringn  "저도 미력하게나마"
 db NewLine
@@ -230,7 +230,7 @@ db WaitForA
 
 db Top_Slot// Diarmuid
 dh ScrollText_DBC
-.stringn  "레빈 님께서 얘기하시기 전까진"
+.stringn  "레빈 님께서 말씀하시기 전까진"
 db NewLine
 .stringn  "나도 미처 몰랐어"
 db NewLine
@@ -351,7 +351,7 @@ db NewLine
 db Bottom_Slot// Jeanne
 dh PauseForTime
 db 0x10
-.stringn  "네? 설마・・・ 거짓말이죠!"
+.stringn  "네? ・・・설마・・・ 거짓말이죠!"
 db NewLine
 db WaitForA
 
@@ -359,28 +359,28 @@ db Top_Slot// Tristan
 dh ScrollText_DBC
 .stringn  "거짓말이 아니야"
 db NewLine
-.stringn  "우리 아버지는 노디온의 기사셨지"
+.stringn  "아버지는 노디온 왕국의 기사셨어"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "하지만 아그스트리아 동란에서"
+.stringn  "하지만 아그스트리아 동란으로 죽고,"
 db NewLine
-.stringn  "전사하시고, 어렸던 우리 남매는"
+.stringn  "어렸던 우리 남매는"
 db NewLine
-.stringn  "시구르드군에 의탁하게 되었어"
+.stringn  "시구르드군에 의탁하게 됐지"
 db WaitForA
 db ScrollText
 
-.stringn  "이후 모두가 이자크로 도망칠 때"
+.stringn  "그 후 이자크로 도망칠 때"
 db NewLine
-.stringn  "너와는 도중에 헤어지고 말았지"
+.stringn  "너와는 도중에 헤어지고 말았어"
 db NewLine
 
 db Bottom_Slot// Jeanne
 dh PauseForTime
 db 0x10
-.stringn  "맞아요・・・ 정말 오빠군요・・・"
+.stringn  "맞아요・・・ 들으니 기억이 나요・・・"
 db NewLine
 .stringn  "양아버지는 보따리 상인이셨고"
 db NewLine
@@ -391,17 +391,17 @@ db Top_Slot// Tristan
 dh ScrollText_DBC
 .stringn  "그래, 미아가 된 널"
 db NewLine
-.stringn  "데려다 길러주셨구나"
+.stringn  "데려다 길러 주셨구나"
 db NewLine
 
 db Bottom_Slot// Jeanne
 dh PauseForTime
 db 0x10
-.stringn  "하지만 그 양아버지도 제국군의"
+.stringn  "하지만 양아버지도 제국병이 죽였어요"
 db NewLine
-.stringn  "손에 돌아가셨어요, 그리고"
+.stringn  "그리고 핀이 거두어 준 게"
 db NewLine
-.stringn  "핀이 거두어 준 게 7살 때죠"
+.stringn  "7살 때였죠"
 db WaitForA
 
 db Top_Slot// Tristan
@@ -414,14 +414,14 @@ db NewLine
 db Bottom_Slot// Jeanne
 dh PauseForTime
 db 0x10
-.stringn  "괜찮아요"
+.stringn  "아뇨, 괜찮아요"
 db NewLine
 .stringn  "전 무척 기쁜걸요"
 db NewLine
 .stringn  "제게도 오빠가 있었다니・・・"
 db WaitForA
 dh ScrollText_DBC
-.stringn  "이제 헤어지지 말아요,"
+.stringn  "이젠 저를 혼자 두면 안 돼요,"
 db NewLine
 .stringn  "트리스탄 오빠・・・"
 db NewLine

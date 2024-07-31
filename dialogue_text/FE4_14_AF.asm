@@ -529,7 +529,7 @@ db ScrollText
 
 .stringn  "아리온 님께선 공주님께"
 db NewLine
-.stringn  "꼴사나운 모습을 보이기 싫으실 겁니다"
+.stringn  "추한 모습을 보이기 싫으실 겁니다"
 db NewLine
 .stringn  "이해해 주시길・・・ 아르테나 공주님"
 db WaitForA
@@ -719,7 +719,7 @@ db ScrollText
 db Top_Slot// Julia
 .stringn  "세리스 님도 참・・・"
 db NewLine
-.stringn  "그래도, 기뻐요・・・ 감사합니다・・・"
+.stringn  "그래도 기뻐요・・・ 감사합니다・・・"
 db NewLine
 
 db Bottom_Slot// Seliph
@@ -775,7 +775,7 @@ db WaitForA
 
 db Top_Slot// Julia
 dh ScrollText_DBC
-.stringn  "세리스 님께,"
+.stringn  "세리스 님께"
 db NewLine
 .stringn  "부디 신의 가호가 있기를・・・"
 db NewLine
@@ -1071,11 +1071,11 @@ db NewLine
 db Bottom_Slot// Seliph
 dh PauseForTime
 db 0x10
-.stringn  "흐응・・・"
+.stringn  "흐음・・・"
 db NewLine
 .stringn  "하지만 난 잘 모르겠는걸"
 db NewLine
-.stringn  "한 번도 가본 적이 없으니까"
+.stringn  "한 번도 간 적이 없으니까"
 db WaitForA
 
 db Top_Slot// Oifey
@@ -1090,13 +1090,13 @@ db ScrollText
 
 .stringn  "생각해 보면 정말 그란벨 땅은"
 db NewLine
-.stringn  "한 번도 밟아본 적이 없으십니다"
+.stringn  "한 번도 밟은 적이 없으십니다"
 db NewLine
 
 db Bottom_Slot// Seliph
 dh PauseForTime
 db 0x10
-.stringn  "응, 뭔가 신기해"
+.stringn  "응, 왠지 신기해"
 db NewLine
 .stringn  "그런 내가 그란벨의 황자라니・・・"
 db NewLine
@@ -1119,7 +1119,7 @@ db NewLine
 db NewLine
 dh BGMFade
 db 0xE1
-.stringn  "구세주가 나타나길 소원하고 있습니다"
+.stringn  "구세주가 나타나길 바라고 있습니다"
 
 db Bottom_Slot// Seliph
 dh PauseForTime
@@ -1174,7 +1174,7 @@ db ScrollText
 
 .stringn  "이건 악마의 짓입니다"
 db NewLine
-.stringn  "인간이 할 짓이 아닌 것이지요"
+.stringn  "인간이 할 짓이 아니지요"
 db NewLine
 
 db Bottom_Slot// Seliph
@@ -1188,7 +1188,7 @@ db WaitForA
 
 db Top_Slot// Oifey
 dh ScrollText_DBC
-.stringn  "사람들은 그리 생각하는 듯도 합니다만"
+.stringn  "사람들은 그리 생각하는 듯합니다만"
 db NewLine
 .stringn  "저는 좀 다릅니다"
 db NewLine
@@ -1213,7 +1213,7 @@ db ScrollText
 db NewLine
 .stringn  "추앙하고 있는 지금, 황자님께서도"
 db NewLine
-.stringn  "그 외침에 응하지 않으면 아니 됩니다"
+.stringn  "그 외침에 응하셔야 합니다"
 db WaitForA
 db EndText
 
@@ -1250,7 +1250,7 @@ db WaitForA
 dh ScrollText_DBC
 .stringn  "당신이야말로 조심하도록 해요"
 db NewLine
-.stringn  "무리하지 마시고"
+.stringn  "무리하지 말고요"
 db NewLine
 db WaitForA
 db ScrollText
@@ -1271,7 +1271,7 @@ db Top_Slot// Coirpre
 dh ScrollText_DBC
 .stringn  "저, 아르테나 님께"
 db NewLine
-.stringn  "매직 실드를 걸어드리고 싶어요"
+.stringn  "매직 실드를 걸어 드리고 싶어요"
 db NewLine
 
 db Bottom_Slot// Altena
@@ -1302,7 +1302,7 @@ db ScrollText
 db Top_Slot// Coirpre
 .stringn  "아르테나 님은 엄마가 없는 절"
 db NewLine
-.stringn  "귀여워하며 돌봐주셨잖아요"
+.stringn  "귀여워하며 돌봐 주셨잖아요"
 db NewLine
 db WaitForA
 db ScrollText
@@ -1316,7 +1316,7 @@ dh PauseForTime
 db 0x10
 dh InsName
 dh 0x0034//Coirpre
-.stringn  "・・・알겠어요"
+.stringn  "・・・ 알겠어요"
 db NewLine
 .stringn  "고맙게 받을게요"
 db NewLine
@@ -1331,15 +1331,15 @@ db ScrollText
 
 
 db Top_Slot// Coirpre
-.stringn  "네! 약속해요"
+.stringn  "네! 약속합니다"
 db NewLine
-.stringn  "무리하지 않기로!"
+.stringn  "무리하지 않을게요!"
 db NewLine
 
 db Bottom_Slot// Altena
 dh PauseForTime
 db 0x10
-.stringn  "그럼 어디 받아 볼까"
+.stringn  "그럼 어디 받아 볼까요"
 db NewLine
 .stringn  "잘 부탁해요, "
 dh InsName
@@ -1357,7 +1357,7 @@ db ScrollText
 db NewLine
 .stringn  "이 여인에게"
 db NewLine
-.stringn  "드높은 신의 힘을 내려주소서・・・"
+.stringn  "드높은 신의 힘을 내려 주소서・・・"
 db WaitForA
 db EndText
 
@@ -1398,7 +1398,7 @@ db WaitForA
 
 db Top_Slot// Lester
 dh ScrollText_DBC
-.stringn  "또 시비 건다"
+.stringn  "또 시비 걸기는"
 db NewLine
 .stringn  "그런 게 네 단점이라니까"
 db NewLine
@@ -1428,7 +1428,7 @@ dh InsName
 dh 0x0037//Lester
 .stringn  "는"
 db NewLine
-.stringn  "내가 여자로 보이지도 않잖아?"
+.stringn  "내가 여자로 보이지도 않지?"
 db NewLine
 db WaitForA
 
@@ -1459,7 +1459,7 @@ db ScrollText
 
 .stringn  "나, 네가 자꾸 신경 쓰여서・・・"
 db NewLine
-.stringn  "그러다보니 그만・・・ 미안해"
+.stringn  "그러다 보니 그만・・・ 미안해"
 db NewLine
 
 db Bottom_Slot// Patty
@@ -1557,9 +1557,9 @@ db NewLine
 db Bottom_Slot// Leif
 dh PauseForTime
 db 0x10
-.stringn  "아버지는 이 거리에 방문해,"
+.stringn  "아버님은 이 거리에 방문해,"
 db NewLine
-.stringn  "어머니께 진주가 박힌"
+.stringn  "어머님께 진주가 박힌"
 db NewLine
 .stringn  "예쁜 티아라를 선물하셨다고 해"
 db WaitForA
@@ -1595,7 +1595,7 @@ dh InsName
 dh 0x003F//Nanna
 .stringn  ","
 db NewLine
-.stringn  "앞으로 조금만 참고 힘내자!"
+.stringn  "앞으로 조금만 더 힘내자!"
 db NewLine
 db WaitForA
 db ScrollText
@@ -1642,7 +1642,7 @@ db WaitForA
 
 db Top_Slot// Febail
 dh ScrollText_DBC
-.stringn  "흐응, 애들을 좋아하나 보네"
+.stringn  "흐음, 애들을 좋아하나 보네"
 db NewLine
 
 db Bottom_Slot// Lana
@@ -1670,7 +1670,7 @@ dh InsName
 dh 0x0039//Patty
 .stringn  " 때문에 어쩔 수 없이 한 거라고"
 db NewLine
-.stringn  "별로 애들을 좋아하는 건 아냐"
+.stringn  "딱히 애들을 좋아하는 건 아냐"
 
 db Bottom_Slot// Lana
 dh PauseForTime
@@ -1681,7 +1681,7 @@ db NewLine
 db NewLine
 db WaitForA
 dh ScrollText_DBC
-.stringn  "당신이 고향을 나설 때"
+.stringn  "네가 고향을 나설 때"
 db NewLine
 .stringn  "거기 있던 어린애들 모두가"
 db NewLine
@@ -1689,7 +1689,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "아이들은 당신을"
+.stringn  "아이들은 너를"
 db NewLine
 .stringn  "아버지처럼 생각하고 있었어"
 db NewLine
@@ -1762,7 +1762,7 @@ dh PauseForTime
 db 0x10
 .stringn  "저기, 레빈 씨"
 db NewLine
-.stringn  "저희 엄마에 대해"
+.stringn  "우리 엄마에 대해"
 db NewLine
 .stringn  "아는 거 없어요?"
 db WaitForA
@@ -1791,7 +1791,7 @@ db NewLine
 db Bottom_Slot// Lene
 dh PauseForTime
 db 0x10
-.stringn  "네! 그리고 아빠도"
+.stringn  "네! 그리고 아빠도요"
 db NewLine
 db WaitForA
 
@@ -1830,15 +1830,15 @@ db WaitForA
 dh ScrollText_DBC
 .stringn  "그건 역시 아빠였을까요?"
 db NewLine
-.stringn  "하지만 살아계신다면"
+.stringn  "하지만 살아 계신다면"
 db NewLine
-.stringn  "왜 저를 만나러 오지 않으셨죠!?"
+.stringn  "왜 저를 만나러 오지 않는 거죠!?"
 db WaitForA
 db ScrollText
 
-.stringn  "전 언제나 기다리고 있었는데,"
+.stringn  "전 언제나 기다리고 있는데,"
 db NewLine
-.stringn  "외로워서 참을 수 없었는데・・・"
+.stringn  "외로워서 견딜 수가 없는데・・・"
 db NewLine
 db WaitForA
 db ScrollText
@@ -1958,7 +1958,7 @@ db NewLine
 db Bottom_Slot// Fee
 dh PauseForTime
 db 0x10
-.stringn  "아버님! ・・・그런 식으로 말하면"
+.stringn  "아버님! ・・・그런 식으로 말씀하시면"
 db NewLine
 .stringn  "진짜 앞으로 말 안 할 거예요!!"
 db NewLine
@@ -1994,7 +1994,7 @@ db WaitForA
 
 db Top_Slot// Lewyn
 dh ScrollText_DBC
-.stringn  "지금은 이 전쟁에"
+.stringn  "지금은 이 전쟁에서"
 db NewLine
 .stringn  "이기는 것만 생각해라"
 db NewLine
@@ -2044,7 +2044,7 @@ dh 0x0280//Lewyn
 db NewLine
 .stringn  "힐다는 네 숙모인 걸로 아는데"
 db NewLine
-.stringn  "싸우기 괴로우냐?"
+.stringn  "싸우기 괴롭나?"
 
 db Bottom_Slot// Tine
 dh PauseForTime
@@ -2216,7 +2216,7 @@ dh ScrollText_DBC
 db NewLine
 .stringn  "디아도라 님과"
 db NewLine
-.stringn  "같은 운명을 맞고 싶지 않아요"
+.stringn  "같은 길을 걷고 싶지 않아요"
 db WaitForA
 db ScrollText
 
@@ -2289,7 +2289,7 @@ db Top_Slot// Tine
 dh ScrollText_DBC
 .stringn  "네,"
 db NewLine
-.stringn  "저는 당신만 옆에 있어준다면"
+.stringn  "저는 당신만 옆에 있어 준다면"
 db NewLine
 .stringn  "아무 걱정 없어요"
 
@@ -2300,7 +2300,7 @@ dh InsName
 dh 0x003D//Tine
 .stringn  "는 귀엽구나,"
 db NewLine
-.stringn  "내 보물이다・・・"
+.stringn  "내 보물이야・・・"
 db NewLine
 db WaitForA
 
@@ -2329,7 +2329,7 @@ db Top_Slot// Tine
 dh ScrollText_DBC
 dh InsName
 dh 0x0035//Ced
-.stringn  " 님・・・ 부디 무사하세요・・・"
+.stringn  " 님・・・ 부디 무사하셔야 돼요・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -2363,14 +2363,14 @@ dh InsName
 dh 0x003D//Tine
 .stringn  "야말로 조심해"
 db NewLine
-.stringn  "그란벨 기사들은 강적이니까"
+.stringn  "여기 적들은 강하니까"
 db WaitForA
 
 db Top_Slot// Tine
 dh ScrollText_DBC
 .stringn  "네, 하지만"
 db NewLine
-.stringn  "저는 당신만 옆에 있어준다면"
+.stringn  "저는 당신만 옆에 있어 준다면"
 db NewLine
 .stringn  "아무 걱정 없는걸요"
 
@@ -2396,7 +2396,7 @@ dh PauseForTime
 db 0x10
 .stringn  "응, 하지만 얼스터만이 아니야"
 db NewLine
-.stringn  "넌 신 트라키아 왕국의 왕비로서"
+.stringn  "넌 신트라키아 왕국의 왕비로서"
 db NewLine
 .stringn  "나를 도와줘야 하니까"
 db WaitForA
@@ -2437,19 +2437,19 @@ db WaitForA
 
 db Top_Slot// Daisy
 dh ScrollText_DBC
-.stringn  "왜・・・"
+.stringn  "왜?"
 db NewLine
 
 db Bottom_Slot// Deimne
 dh PauseForTime
 db 0x10
-.stringn  "우리, 뭔가 존재감이 없었지 않아?"
+.stringn  "우리, 존재감 없었으니까・・・"
 db NewLine
 db WaitForA
 
 db Top_Slot// Daisy
 dh ScrollText_DBC
-.stringn  "그러고보니・・・ 그렇네"
+.stringn  "그러고 보니・・・ 그렇네"
 db NewLine
 
 db Bottom_Slot// Deimne
@@ -2465,7 +2465,7 @@ db Top_Slot// Daisy
 dh ScrollText_DBC
 .stringn  "응, 이 전쟁이 끝나면"
 db NewLine
-.stringn  "둘이 같이 돌아가자"
+.stringn  "둘이서 같이 돌아가자"
 db NewLine
 .stringn  "나도 지쳤어・・・"
 
@@ -2502,7 +2502,7 @@ dh PauseForTime
 db 0x10
 .stringn  "잔느구나"
 db NewLine
-.stringn  "성에 남아있으라고 했잖아"
+.stringn  "성에 남아 있으라고 했잖아"
 db NewLine
 db WaitForA
 
@@ -2514,9 +2514,9 @@ db NewLine
 db Bottom_Slot// Leif
 dh PauseForTime
 db 0x10
-.stringn  "이번 전투는 성전사의"
+.stringn  "이번 전투는"
 db NewLine
-.stringn  "혈통이 아니라면 싸우기 힘들어"
+.stringn  "성전사의 혈통이 아니면 싸우기 힘들어"
 db NewLine
 .stringn  "너에겐 무리야"
 db WaitForA
@@ -2531,14 +2531,14 @@ db NewLine
 db Bottom_Slot// Leif
 dh PauseForTime
 db 0x10
-.stringn  "그렇지・・・ 그래도 무리는 하지 마"
+.stringn  "그렇지・・・ 그래도 절대 무리하지 마"
 db NewLine
-.stringn  "너는 신 트라키아 왕국의 왕비로서"
+.stringn  "너는 신트라키아 왕국의 왕비로서"
 db NewLine
 .stringn  "나를 도와줘야 하니까"
 db WaitForA
 dh ScrollText_DBC
-.stringn  "이런 곳에서 죽어버리면 곤란해"
+.stringn  "이런 곳에서 죽어 버리면 곤란해"
 db NewLine
 db WaitForA
 db ScrollText
@@ -2580,7 +2580,7 @@ db 0x10
 db NewLine
 .stringn  "좀 더 활약할 수 있었을 텐데・・・"
 db NewLine
-.stringn  "제길, 못 해 먹겠어!"
+.stringn  "제길, 못 해 먹겠네!"
 db WaitForA
 
 db Top_Slot// Muirne
@@ -2594,14 +2594,14 @@ db ScrollText
 
 .stringn  "지금까지 모두 함께"
 db NewLine
-.stringn  "열심히 해왔으니까"
+.stringn  "열심히 해 왔기도 하고"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "우리도 평민의 의지라는 걸"
+.stringn  "우리에게도 평민으로서의 각오가"
 db NewLine
-.stringn  "한 번 보여주자구"
+.stringn  "있다는 걸 보여 줬으니 만족하자"
 db NewLine
 
 db Bottom_Slot// Asaello
@@ -2673,16 +2673,16 @@ db WaitForA
 
 db Top_Slot// Lana
 dh ScrollText_DBC
-.stringn  "아뇨, 저 같은 건"
+.stringn  "아뇨, 저는"
 db NewLine
 .stringn  "별로 도움도 못 됐는걸요"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "그래도 전"
+.stringn  "그래도"
 db NewLine
-.stringn  "세리스 님 곁에 있는 것만으로도"
+.stringn  "세리스 님과 함께할 수 있어서"
 db NewLine
 .stringn  "행복해요"
 
@@ -2925,7 +2925,7 @@ db WaitForA
 
 db Top_Slot// Larcei
 dh ScrollText_DBC
-.stringn  "왠지 불안해서・・・"
+.stringn  "왠지 불안해서요・・・"
 db NewLine
 
 db Bottom_Slot// Seliph
@@ -2949,7 +2949,7 @@ dh PauseForTime
 db 0x10
 .stringn  "알고 있어, 함께 가자"
 db NewLine
-.stringn  "네가 옆에 있어주면 든든해"
+.stringn  "네가 옆에 있으면 든든해"
 db NewLine
 db WaitForA
 
@@ -2983,7 +2983,7 @@ db NewLine
 db Bottom_Slot// Iuchar
 dh PauseForTime
 db 0x10
-.stringn  "・・・아무리 이 요한이라도"
+.stringn  "・・・아무리 나 요한이라도"
 db NewLine
 .stringn  "이번 전투는 씁쓸하군"
 db NewLine
@@ -3011,7 +3011,7 @@ db 0x10
 db NewLine
 dh InsName
 dh 0x003A//Larcei
-.stringn  ", 웃어 줬으면 해"
+.stringn  ", 미소로 배웅해 줘"
 db NewLine
 db WaitForA
 
@@ -3054,7 +3054,7 @@ db NewLine
 db Bottom_Slot// Iucharba
 dh PauseForTime
 db 0x10
-.stringn  "・・・아무리 나라도"
+.stringn  "크윽, 아무리 나라도"
 db NewLine
 .stringn  "이번 전투는 괴로웠어"
 db NewLine
@@ -3069,9 +3069,9 @@ db ScrollText
 
 
 db Top_Slot// Larcei
-.stringn  "너무 무리하진 마, 네겐 살아서"
+.stringn  "응, 그래도 무리하진 마"
 db NewLine
-.stringn  "나라를 바로잡을 의무가 있으니까"
+.stringn  "네겐 나라를 바로잡을 의무가 있으니까"
 db NewLine
 
 db Bottom_Slot// Iucharba
@@ -3106,7 +3106,7 @@ db NewLine
 db Bottom_Slot// Iucharba
 dh PauseForTime
 db 0x10
-.stringn  "우으으, 고마워"
+.stringn  "크으으, 고마워"
 db NewLine
 .stringn  "사랑해 "
 dh InsName
@@ -3178,7 +3178,7 @@ db NewLine
 db Bottom_Slot// Shannan
 dh PauseForTime
 db 0x10
-.stringn  "그런가? 난 아직도 애로만 보이는데"
+.stringn  "그래? 난 아직도 애로만 보이는데"
 db NewLine
 db WaitForA
 
@@ -3190,15 +3190,15 @@ db NewLine
 db Bottom_Slot// Shannan
 dh PauseForTime
 db 0x10
-.stringn  "하하하, 그리 무서운 표정 짓지 마라"
+.stringn  "하하하, 그리 무서운 표정 짓지 마"
 db NewLine
-.stringn  "예쁜 얼굴이 망가지잖니"
+.stringn  "예쁜 얼굴이 망가지잖아"
 db NewLine
 db WaitForA
 
 db Top_Slot// Larcei
 dh ScrollText_DBC
-.stringn  "샤, 샤난 님도 참・・・"
+.stringn  "샤, 샤난 님・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -3247,7 +3247,7 @@ db 0x10
 db NewLine
 .stringn  "마실 것까지・・・"
 db NewLine
-.stringn  "사소한 것도 챙겨주는구나"
+.stringn  "사소한 것도 챙겨 주는구나"
 db WaitForA
 
 db Top_Slot// Patty
@@ -3258,7 +3258,7 @@ db NewLine
 db Bottom_Slot// Seliph
 dh PauseForTime
 db 0x10
-.stringn  "윽・・・ 이건・・・"
+.stringn  "윽・・・ 그건・・・"
 db NewLine
 db WaitForA
 
@@ -3333,7 +3333,7 @@ db NewLine
 db Bottom_Slot// Shannan
 dh PauseForTime
 db 0x10
-.stringn  "그렇다고 방해하진 말아야지"
+.stringn  "그렇다고 방해하면 안 되지"
 db NewLine
 .stringn  "여긴 전장이라고"
 db NewLine
@@ -3345,7 +3345,7 @@ dh ScrollText_DBC
 db NewLine
 .stringn  "샤난 님까지"
 db NewLine
-.stringn  "날 짐짝 취급하다니"
+.stringn  "날 짐짝 취급했어"
 db WaitForA
 db ScrollText
 
@@ -3369,11 +3369,11 @@ db WaitForA
 
 db Top_Slot// Patty
 dh ScrollText_DBC
-.stringn  "그럼 드셔주시는 거예요?"
+.stringn  "그럼 드셔 주시는 거예요?"
 db NewLine
 .stringn  "정말? 아아, 좋아라・・・"
 db NewLine
-.stringn  "샤난 님, 최고!"
+.stringn  "샤난 님 최고!"
 db WaitForA
 db EndText
 
@@ -3402,7 +3402,7 @@ db NewLine
 db Bottom_Slot// Lester
 dh PauseForTime
 db 0x10
-.stringn  "오, "
+.stringn  "오 "
 dh InsName
 dh 0x0039//Patty
 .stringn  ", 기다렸어"
@@ -3424,7 +3424,7 @@ db 0x10
 .stringn  "맛있어! 역시 "
 dh InsName
 dh 0x0039//Patty
-.stringn  " 도시락이 최고야"
+.stringn  "의 도시락이 최고야"
 db NewLine
 db WaitForA
 
@@ -3472,14 +3472,14 @@ dh ScrollText_DBC
 db NewLine
 .stringn  "하지만 세리스 님이 걱정돼요"
 db NewLine
-.stringn  "무리하시지 말아 주세요"
+.stringn  "무리하지 말아 주세요"
 
 db Bottom_Slot// Seliph
 dh PauseForTime
 db 0x10
-.stringn  "응, 그래도 여기까지 왔으니"
+.stringn  "응, 그래도 여기까지 왔잖아"
 db NewLine
-.stringn  "조금만 더 힘내보자"
+.stringn  "조금만 더 힘내 보려고"
 db NewLine
 db WaitForA
 
@@ -3505,7 +3505,7 @@ db WaitForA
 
 db Top_Slot// Nanna
 dh ScrollText_DBC
-.stringn  "네. 세리스 님・・・"
+.stringn  "네, 세리스 님・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -3532,7 +3532,7 @@ db Top_Slot// Nanna
 db NewLine
 .stringn  "아그스트리아를 재건한다는"
 db NewLine
-.stringn  "중대한 사명이 남아있으니까요"
+.stringn  "중대한 사명이 남아 있으니까요"
 
 db Bottom_Slot// Ares
 dh PauseForTime
@@ -3543,7 +3543,7 @@ db NewLine
 db NewLine
 db WaitForA
 dh ScrollText_DBC
-.stringn  "아버지의 유지를 이어"
+.stringn  "난 아버님의 유지를 이어"
 db NewLine
 .stringn  "아그스트리아를"
 db NewLine
@@ -3553,7 +3553,7 @@ db ScrollText
 
 
 db Top_Slot// Nanna
-.stringn  "다행이다, 아레스다워요"
+.stringn  "다행이다, 그래야 아레스죠"
 db NewLine
 .stringn  "엘트샨 님도 라케시스 어머님도"
 db NewLine
@@ -3582,7 +3582,7 @@ db NewLine
 db Bottom_Slot// Ares
 dh PauseForTime
 db 0x10
-.stringn  "고모님은 우리 아버지를"
+.stringn  "고모님은 우리 아버님 엘트샨을"
 db NewLine
 .stringn  "사랑하셨던 걸까? ・・・"
 db NewLine
@@ -3590,7 +3590,7 @@ db WaitForA
 
 db Top_Slot// Nanna
 dh ScrollText_DBC
-.stringn  "네, 이복남매니 별로"
+.stringn  "네, 이복남매니 딱히"
 db NewLine
 .stringn  "이상하진 않다고 생각해요"
 db NewLine
@@ -3604,7 +3604,7 @@ db WaitForA
 
 db Top_Slot// Nanna
 dh ScrollText_DBC
-.stringn  "후후, 더욱 이상하지 않네요"
+.stringn  "후훗, 더욱 이상할 건 없네요"
 db NewLine
 db WaitForA
 db EndText
@@ -3628,7 +3628,7 @@ dh 0x001D//Leif
 db Top_Slot// Nanna
 .stringn  "리프 님,"
 db NewLine
-.stringn  "이 전쟁은 언제 끝나려는 걸까요?"
+.stringn  "이 전쟁은 언제 끝날까요?"
 db NewLine
 
 db Bottom_Slot// Leif
@@ -3655,7 +3655,7 @@ db 0x10
 db NewLine
 .stringn  "트라키아 반도를 통일 국가로"
 db NewLine
-.stringn  "만드는 건 아버지의 꿈이었으니까"
+.stringn  "만드는 건 아버님의 꿈이었으니까"
 db WaitForA
 dh ScrollText_DBC
 .stringn  "나도 그 유지를 이을 생각이야"
@@ -3708,7 +3708,7 @@ db NewLine
 db NewLine
 dh InsName
 dh 0x003C//Fee
-.stringn  "는 내 곁에서 떨어지면 안 돼"
+.stringn  "는 내 곁에서 떨어지지 말아 줘"
 db WaitForA
 
 db Top_Slot// Fee
@@ -3727,9 +3727,9 @@ db WaitForA
 
 db Top_Slot// Fee
 dh ScrollText_DBC
-.stringn  "네, 조금요"
+.stringn  "네, 조금은요"
 db NewLine
-.stringn  "저쪽에서도 전쟁이 일어났으니까요"
+.stringn  "그쪽에서도 전쟁이 일어났으니까요"
 db NewLine
 
 db Bottom_Slot// Seliph
@@ -3743,7 +3743,7 @@ db WaitForA
 
 db Top_Slot// Fee
 dh ScrollText_DBC
-.stringn  "정말요? 아아, 다행이다・・・"
+.stringn  "정말요!? 아아, 다행이다・・・"
 db NewLine
 
 db Bottom_Slot// Seliph
@@ -3757,7 +3757,7 @@ db WaitForA
 
 db Top_Slot// Fee
 dh ScrollText_DBC
-.stringn  "아뇨! 이쪽에 있을 거예요"
+.stringn  "그럴 리가요!"
 db NewLine
 .stringn  "전 세리스 님 곁이 제일 좋은걸요"
 db NewLine
@@ -3780,7 +3780,7 @@ db Top_Slot// Fee
 dh ScrollText_DBC
 .stringn  "세리스 님은 제 우상인걸요"
 db NewLine
-.stringn  "언제까지나 함께할 거예요・・・"
+.stringn  "언제까지고 함께할 거예요・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -3827,7 +3827,7 @@ db NewLine
 db Bottom_Slot// Arthur
 dh PauseForTime
 db 0x10
-.stringn  "거봐, 또 금방 열 낸다니까"
+.stringn  "거봐, 또 금방 화낸다니까"
 db NewLine
 .stringn  "그래서 네가・・・"
 db NewLine
@@ -3937,7 +3937,7 @@ db NewLine
 db Bottom_Slot// Oifey
 dh PauseForTime
 db 0x10
-.stringn  "음・・・ 우리들은 이전 전쟁에서"
+.stringn  "음・・・ 우리들은 지난 전쟁에서"
 db NewLine
 .stringn  "부끄럽게도 살아남고 말았다"
 db NewLine
@@ -3960,7 +3960,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "저, 완전히 어린애였어요"
+.stringn  "저, 완전 어린애였어요"
 db NewLine
 .stringn  "오이페 씨의 이야기를 듣고"
 db NewLine
@@ -3973,7 +3973,7 @@ db 0x10
 db NewLine
 .stringn  "퓨리 공께 여러 은혜를 입었지"
 db NewLine
-.stringn  "조금은 그 보답이 되었을까・・・"
+.stringn  "조금은 그 보답이 됐으면 좋겠군"
 db WaitForA
 
 db Top_Slot// Fee
@@ -3987,9 +3987,9 @@ db NewLine
 db Bottom_Slot// Oifey
 dh PauseForTime
 db 0x10
-.stringn  "그렇게 서두를 것 없어"
+.stringn  "그렇게 서두를 것 없단다"
 db NewLine
-.stringn  "조금씩 어른이 되어가면 돼"
+.stringn  "조금씩 어른이 되어 가면 돼"
 db NewLine
 db WaitForA
 
@@ -3997,13 +3997,13 @@ db Top_Slot// Fee
 dh ScrollText_DBC
 .stringn  "안 돼요! 그럼 오이페 씨가"
 db NewLine
-.stringn  "할아버지가 돼버리잖아요!"
+.stringn  "할아버지가 되잖아요!"
 db NewLine
 
 db Bottom_Slot// Oifey
 dh PauseForTime
 db 0x10
-.stringn  "이런 이런, 피・・・"
+.stringn  "아니 설마, 피・・・"
 db NewLine
 db WaitForA
 db EndText
@@ -4033,7 +4033,7 @@ db NewLine
 db Bottom_Slot// Daisy
 dh PauseForTime
 db 0x10
-.stringn  "응, 가끔 좀・・・"
+.stringn  "응, 가끔씩 해"
 db NewLine
 db WaitForA
 
@@ -4050,7 +4050,7 @@ dh PauseForTime
 db 0x10
 .stringn  "나라고"
 db NewLine
-.stringn  "좋아서 하는 게 아니야"
+.stringn  "좋아서 하는 거 아니거든"
 db NewLine
 db WaitForA
 dh ScrollText_DBC
@@ -4063,17 +4063,17 @@ db ScrollText
 
 
 db Top_Slot// Asaello
-.stringn  "그건 그런데・・・"
+.stringn  "그래도 말야・・・"
 db NewLine
 
 db Bottom_Slot// Daisy
 dh PauseForTime
 db 0x10
-.stringn  "코노트에 남겨둔 애들한테도"
+.stringn  "게다가 코노트에 두고 온 애들한테"
 db NewLine
-.stringn  "송금해야 하고,"
+.stringn  "돈도 보내 줘야 하고,"
 db NewLine
-.stringn  "나도 머리아프단 말야"
+.stringn  "나도 머리 아프단 말야"
 db WaitForA
 
 db Top_Slot// Asaello
@@ -4117,9 +4117,9 @@ dh LoadPortrait
 dh 0x003D//Tine
 
 db Top_Slot// Arthur
-.stringn  "티니,"
+.stringn  "티니"
 db NewLine
-.stringn  "곧 어머니의 조국 프리지구나"
+.stringn  "곧 어머니의 조국, 프리지구나"
 db NewLine
 
 db Bottom_Slot// Tine
@@ -4156,7 +4156,7 @@ db WaitForA
 dh ScrollText_DBC
 .stringn  "저와 어머님에겐 조금이나마"
 db NewLine
-.stringn  "잘해주려 애쓰셨고요"
+.stringn  "잘해 주려 애쓰셨고요"
 db NewLine
 db WaitForA
 db ScrollText
@@ -4171,18 +4171,18 @@ db NewLine
 db Bottom_Slot// Tine
 dh PauseForTime
 db 0x10
-.stringn  "네, 저도"
+.stringn  "네, 저도 그 여자만큼은 용서가 안 돼요"
 db NewLine
-.stringn  "그 여자만은 용서할 수 없어요"
+.stringn  "가능하다면"
 db NewLine
-.stringn  "가능하다면 제 손으로・・・"
+.stringn  "제 손으로 죽이고 싶었어요・・・"
 db WaitForA
 
 db Top_Slot// Arthur
 dh ScrollText_DBC
-.stringn  "네게 더 이상"
+.stringn  "티니, 네게 더 이상"
 db NewLine
-.stringn  "안 좋은 기억을 심어주고 싶지 않아"
+.stringn  "안 좋은 기억을 심어 주고 싶지 않아"
 db NewLine
 .stringn  "오빠한테 맡겨 둬, 알았지? 티니!"
 db WaitForA
@@ -4205,9 +4205,9 @@ dh LoadPortrait
 dh 0x002E//Linda
 
 db Top_Slot// Amid
-.stringn  "린다,"
+.stringn  "린다"
 db NewLine
-.stringn  "곧 어머니의 조국 프리지구나"
+.stringn  "이제 곧 어머니의 조국, 프리지구나"
 db NewLine
 
 db Bottom_Slot// Linda
@@ -4215,7 +4215,7 @@ dh PauseForTime
 db 0x10
 .stringn  "네, 하지만 좋은 기억은 없어요"
 db NewLine
-.stringn  "오라버니도 그렇지요?"
+.stringn  "오라버니도 그렇죠?"
 db NewLine
 db WaitForA
 
@@ -4235,7 +4235,7 @@ db NewLine
 db Bottom_Slot// Linda
 dh PauseForTime
 db 0x10
-.stringn  "오라버니, 저희 어머님은"
+.stringn  "저기 오라버니, 어머님은"
 db NewLine
 .stringn  "어째서 고국을 버리고"
 db NewLine
@@ -4252,13 +4252,13 @@ db NewLine
 db Bottom_Slot// Linda
 dh PauseForTime
 db 0x10
-.stringn  "저희 고모님이요?"
+.stringn  "우리 고모님이요?"
 db NewLine
 db WaitForA
 
 db Top_Slot// Amid
 dh ScrollText_DBC
-.stringn  "응, 이름은 틸튜였다나 봐"
+.stringn  "응, 틸튜라는 사람이었대"
 db NewLine
 
 db Bottom_Slot// Linda
@@ -4294,7 +4294,7 @@ db NewLine
 db Bottom_Slot// Charlot
 dh PauseForTime
 db 0x10
-.stringn  "어어・・・ 누, 누나는?"
+.stringn  "앗・・・ 누, 누나는?"
 db NewLine
 db WaitForA
 
@@ -4318,7 +4318,7 @@ dh ScrollText_DBC
 db NewLine
 .stringn  "언제 시간 나면 찾아오렴"
 db NewLine
-.stringn  "내 춤을 보여줄게"
+.stringn  "내 춤을 보여 줄게"
 
 db Bottom_Slot// Charlot
 dh PauseForTime
@@ -4351,7 +4351,7 @@ db NewLine
 db Bottom_Slot// Seliph
 dh PauseForTime
 db 0x10
-.stringn  "응, 맞아. 넌 누구니?"
+.stringn  "응 맞아, 넌 누구니?"
 db NewLine
 db WaitForA
 
@@ -4367,13 +4367,13 @@ dh PauseForTime
 db 0x10
 .stringn  "실레지아?"
 db NewLine
-.stringn  "혹시 넌 천마 기사니?"
+.stringn  "너 혹시 천마 기사니?"
 db NewLine
 db WaitForA
 
 db Top_Slot// Hermina
 dh ScrollText_DBC
-.stringn  "네, 아직 수행중이지만・・・"
+.stringn  "네, 아직 수행 중이지만요・・・"
 db NewLine
 
 db Bottom_Slot// Seliph
@@ -4398,13 +4398,13 @@ db ScrollText
 db NewLine
 .stringn  "나서셨다는 소식을 듣고 나니"
 db NewLine
-.stringn  "참을 수가 없어서 찾아왔어요"
+.stringn  "참을 수가 없어서 그만・・・"
 db WaitForA
 db ScrollText
 
-.stringn  "세리스 님, 저도"
+.stringn  "세리스 님, 저도 해방군에"
 db NewLine
-.stringn  "해방군에 참가시켜 주세요"
+.stringn  "참가시켜 주세요"
 db NewLine
 
 db Bottom_Slot// Seliph

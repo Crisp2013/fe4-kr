@@ -1827,4 +1827,9 @@ db EndText
 
 //end 0xcffbb
 
+Dialogue_cffbb:
+dh SringBuffer2 //CharName or mother
+.stringn " 님"
+db EndText
 
+//end 0xcffc1

@@ -518,6 +518,10 @@ write_hibank_pointer_org 0x11B0F1+1 , Dialogue_11b112
 write_loword_pointer_org 0x11B0F1+6 , Dialogue_11b112
 write_hibank_pointer_org 0x11B103+1 , Dialogue_11b115
 write_loword_pointer_org 0x11B103+6 , Dialogue_11b115
+write_hibank_pointer_org 0xCF0B7+1 , Dialogue_cffbb
+write_loword_pointer_org 0xCF0B7+6 , Dialogue_cffbb
+write_hibank_pointer_org 0xCF0E2+1 , Dialogue_cffb5
+write_loword_pointer_org 0xCF0E2+6 , Dialogue_cffb5
 //ending ralated
 write_hibank_pointer_org 0xee1e+1 , Dialogue_dc964//unused text?	
 write_loword_pointer_org 0xee1e+6 , Dialogue_dc964//unused text?

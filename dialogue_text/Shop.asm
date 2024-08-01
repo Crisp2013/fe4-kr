@@ -126,7 +126,7 @@ db EndText
 Dialogue_ad1b5:
 .stringn  "여기는 중고점이다"
 db NewLine
-.stringn  "이것저것을 취급하고 있지"
+.stringn  "이것저것 취급하고 있지"
 db NewLine
 db EndText
 
@@ -362,7 +362,7 @@ Dialogue_ad373:
 db ClearText
 .stringn  "미안하지만 그 아이템은"
 db NewLine
-.stringn  "여기서 접수 못 해줘"
+.stringn  "여기서 접수 못 해"
 db NewLine
 db WaitForA
 db EndText
@@ -585,7 +585,7 @@ Dialogue_ad507:
 db ClearText
 .stringn  "여기선 무기가 없는 녀석은"
 db NewLine
-.stringn  "받아줄 수 없어"
+.stringn  "받아 줄 수 없어"
 db NewLine
 .stringn  "우리도 사정이 있거든"
 db NewLine

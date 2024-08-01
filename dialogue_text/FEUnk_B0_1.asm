@@ -23,7 +23,7 @@ db ScrollText
 
 .stringn  "우리 잉그비의 이름을 더럽힌 일은"
 db NewLine
-.stringn  "죽음으로 속죄해 줘야겠소"
+.stringn  "죽음으로 속죄해 줘야겠다"
 db NewLine
 
 db Bottom_Slot// Edain
@@ -51,23 +51,23 @@ dh LoadPortrait
 dh 0x0018//Brigid
 
 db Top_Slot// Andrey
-.stringn  "당신은 설마 브리기드 누님인가?"
+.stringn  "이럴 수가!? 설마 브리기드 누님인가?"
 db NewLine
-.stringn  "해적에게 의탁했다는 말은 들었다만,"
+.stringn  "해적에게 의탁했다는 말은 들었다만"
 db NewLine
-.stringn  "이젠 역적질까지 하다니・・・"
+.stringn  "하다 하다 반역자까지 됐을 줄은・・・"
 db WaitForA
 db ScrollText
 
-.stringn  "당신도 우리 집안의 수치다,"
+.stringn  "어쨌든 당신은 우리 집안의 수치다,"
 db NewLine
-.stringn  "여기서 죽어줘야겠어"
+.stringn  "죽어 줬으면 하는데 말이지"
 db NewLine
 
 db Bottom_Slot// Brigid
 dh PauseForTime
 db 0x10
-.stringn  "닥쳐라, 아버님을 죽인 불효자야!"
+.stringn  "닥쳐라! 아버님을 죽인 불효자 놈"
 db NewLine
 .stringn  "네놈이야말로 잉그비 가문의 수치,"
 db NewLine
@@ -92,7 +92,7 @@ dh LoadPortrait
 dh 0x0001//Sigurd
 
 db Top_Slot// Lombard
-.stringn  "카하하・・・ 왔구나 애송아"
+.stringn  "크하하・・・ 왔구나 애송아"
 db NewLine
 .stringn  "마침 잘 만났다"
 db NewLine
@@ -100,7 +100,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "녀석도 지금쯤 혼자라 외로울 게다"
+.stringn  "놈도 지금쯤 혼자라 외로울 게다"
 db NewLine
 
 db Bottom_Slot// Sigurd
@@ -163,7 +163,7 @@ db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "설마 벌써 전선이"
+.stringn  "벌써 전선이"
 db NewLine
 .stringn  "돌파당했단 말인가!?"
 db NewLine
@@ -197,7 +197,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x00DB//Lombard
-.stringn  "카하하・・・ 오합지졸 놈들아!"
+.stringn  "크하하・・・ 오합지졸 놈들아!"
 db NewLine
 .stringn  "내게 이"
 db NewLine
@@ -207,7 +207,7 @@ db ScrollText
 
 .stringn  "네놈들 따윈"
 db NewLine
-.stringn  "몇 명이 와도 소용없다"
+.stringn  "몇 명이 와도 똑같다"
 db NewLine
 .stringn  "죽기 싫다면 다가오지 마라!"
 db WaitForA
@@ -240,9 +240,9 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0011//Ethlyn
-.stringn  "아르테나,"
+.stringn  "아르테나, 너만큼은"
 db NewLine
-.stringn  "너만은 내가 지켜 줄게!"
+.stringn  "내가 지켜 줄게!"
 db NewLine
 db WaitForA
 db EndText
@@ -261,7 +261,7 @@ dh 0x0006//Quan
 db NewLine
 .stringn  "이 게이볼그가 있는 한"
 db NewLine
-.stringn  "너희들 따위에겐 지지 않는다!"
+.stringn  "너희 따위에겐 지지 않는다!"
 db WaitForA
 db EndText
 
@@ -292,16 +292,16 @@ dh LoadPortrait
 dh 0x00EF//Travant
 .stringn  "이게 천하에 이름을 떨치는"
 db NewLine
-.stringn  "천창 궁니르다"
+.stringn  "창 궁니르다"
 db NewLine
 db WaitForA
 db ScrollText
 
-.stringn  "후후후, 죽기 전에"
+.stringn  "후후후, 네놈은 운이 좋군"
 db NewLine
-.stringn  "이 창을 보게 되는 것을"
+.stringn  "죽기 전에"
 db NewLine
-.stringn  "영광인 줄 알거라"
+.stringn  "마음껏 맛보거라"
 db WaitForA
 db EndText
 
@@ -315,7 +315,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x00F0//Magorn
-.stringn  "이것도 일이다"
+.stringn  "이것도 우리의 일이다"
 db NewLine
 .stringn  "・・・나쁘게 생각 마라"
 db NewLine
@@ -332,7 +332,7 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x00F5//Reptor
-.stringn  "이렇게 된 이상, 너희라도"
+.stringn  "이리 됐으니 네놈도"
 db NewLine
 .stringn  "길동무로 삼겠다! 죽어라!!"
 db NewLine
@@ -393,11 +393,11 @@ db Bottom_Slot
 dh DialogOpen
 dh LoadPortrait
 dh 0x0025//Ares
-.stringn  "세리스,"
+.stringn  "세리스"
 db NewLine
-.stringn  "네겐 큰 빚을 졌다"
+.stringn  "네겐 큰 빚을 졌군"
 db NewLine
-.stringn  "내 평생토록 잊지 않으마"
+.stringn  "내 평생 잊지 않을 거다"
 dh PauseForTime
 db 0x60
 db ScrollText
@@ -455,7 +455,7 @@ db 0x60
 dh ScrollText_DBC
 .stringn  "나는 아버지의 유지를 이어"
 db NewLine
-.stringn  "아그스트리아를 재건하겠어"
+.stringn  "아그스트리아를 재건하겠다"
 db NewLine
 dh PauseForTime
 db 0x60
@@ -484,11 +484,11 @@ db NewLine
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn  "나한텐 조국 같은 것도 없고,"
+.stringn  "저한텐 조국 같은 것도 없고,"
 db NewLine
 .stringn  "게다가 "
 dh SringBuffer1 //Lover or father
-.stringn  "도 죽어버렸고・・・"
+.stringn  "도 죽어 버렸으니・・・"
 db NewLine
 .stringn  "아그스트리아로 갈래요"
 dh PauseForTime
@@ -496,7 +496,7 @@ db 0x60
 
 db Top_Slot// Seliph
 dh ScrollText_DBC
-.stringn  "그렇구나・・・ 건강해야 해"
+.stringn  "그렇구나・・・ 그래도 잘 지내"
 db NewLine
 .stringn  "분명 좋은 일이 생길 거야"
 db NewLine
@@ -544,11 +544,11 @@ db NewLine
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn  "나한텐 조국 같은 것도 없고,"
+.stringn  "저한텐 조국 같은 것도 없고,"
 db NewLine
-.stringn  "아레스도 죽어버렸고・・・"
+.stringn  "아레스도 죽어 버렸으니・・・"
 db NewLine
-.stringn  "아그스트리아로 가보려구요"
+.stringn  "아그스트리아로 가 보려구요"
 dh InsBlockText_2A
 write_hirom_pointer Dialogue_30be73
 db EndText
@@ -576,9 +576,9 @@ db NewLine
 db Bottom_Slot
 dh PauseForTime
 db 0x20
-.stringn  "나한텐 조국 같은 것도 없고,"
+.stringn  "저한텐 조국 같은 것도 없고,"
 db NewLine
-.stringn  "아그스트리아로 가보려구요・・・"
+.stringn  "아그스트리아로 가 보려구요・・・"
 db NewLine
 dh InsBlockText_2A
 write_hirom_pointer Dialogue_30be73

@@ -59,7 +59,7 @@ dh LoadPortrait
 dh 0x0016//Silvia
 .stringn "클로드 님,"
 db NewLine
-.stringn "내가 춤춰 줄게요!"
+.stringn "제가 춤춰 줄게요!"
 db EndText
 
 //end 0xd84c1

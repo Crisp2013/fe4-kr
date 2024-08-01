@@ -19,7 +19,7 @@ dh TextSpeed
 db 0x02
 dh PauseForTime
 db 0x0F
-.stringn  "아이라, 난 괜찮아. 그러니까"
+.stringn  "아이라 난 괜찮아, 그러니까"
 db NewLine
 .stringn  "이런 녀석들 말 들을 필요 없어!"
 
@@ -104,7 +104,7 @@ dh 0x027F//Oifey
 db NewLine
 .stringn  "본성이 점거당해 버렸습니다"
 db NewLine
-.stringn  "저희 군의 패배입니다・・・"
+.stringn  "우리 군의 패배입니다・・・"
 db WaitForA
 db EndText
 
